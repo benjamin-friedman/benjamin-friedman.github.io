@@ -9,12 +9,129 @@
     <!-- Bootstrap 5 css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Personal css -->
+    <link href="css/styles.css" rel="stylesheet">
+
     <title>Personal Website</title>
 </head>
 <body>
-    <h1>Test</h1>
 
+    <header id="navbar">
+        <nav class="navbar navbar-expand-lg justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/benjamin-friedman">GITHUB</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <main id="main">
+        <section id="welcome">
+            <div class="container text-center">
+                <h1>WELCOME TO MY PORTFOLIO WEBSITE</h1>
+            </div>
+        </section>
+        
+        <section id="about">
+            <div class="container">
+                <h1>ABOUT ME</h1>
+                <ul>
+                    <li>I am a software engineer who graduated with a B.S. in Computer Science and a minor in Mathematics from the University of Massachusetts Lowell.</li>
+                    <li>I have experince with C, C++, Linux, and creating web applications with various languages.</li>
+                    <li>Review my GitHub portfolio for various projects I've worked on. The largest project I worked on while in school was a sophisticated web application
+                        for a company during my capstone project.</li>
+                    <li>Now that I've graduated I dedicate time to learning more about web applications and completing side projects.</li>
+                </ul>                  
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h1>PROJECTS</h1>
+                <h3>Review my GitHub Portfolio to see various projects I've completed.</h3>                
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h5>Matrix Calculations - C</h5>
+                        <p>Console application to perform various matrix calculations - multiplication, addition, subtraction
+                           power, transpose, determinant, and inverse.</p>
+                        <img src="../img/MatrixCalculationsProject.jpg">
+                        <a href="https://www.youtube.com/watch?v=AC0JP_jkcbw">Video Demo</a>
+                        <a href="https://github.com/benjamin-friedman/Matrix-Calculations">Repository</a>
+                    </div>
+                    <div class="col">
+                        <h5>Sorting Algorithms Visualizer - C++ and SFML</h5>
+                        <p>Provides a visual representation of bubble sort, selection sort, insertion sort, shell sort, heap sort, quick sort, merge sort,
+                           bucket sort, and radix sort.</p>
+                         <img src="../img/SortingAlgorithmsVisualizerProject.jpg">
+                         <a href="https://www.youtube.com/watch?v=2S24N5oIgEQ">Video Demo</a>
+                         <a href="https://github.com/benjamin-friedman/Sorting-Algorithms-Visualizer">Repository</a>
+                    </div>
+                    <div class="col">
+                        <h5>Solar System Simulation (Interstellar Theme) - C++ and SFML</h5>
+                        <p>Solar system simulation inspired by the movie Interstellar</p>
+                          <img src="../img/SolarSystemSimulationProject.jpg">
+                          <a href="https://www.youtube.com/watch?v=zIb-SWPBKIs">Video Demo</a>
+                          <a href="https://github.com/benjamin-friedman/Solar-System-Simulation-Interstellar-Theme">Repository</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h5>File Words Analysis - C</h5>
+                        <p>Console application written in C to read from any file, count the number of occurrences of each word, and then output each word in
+                            order of least to greatest lexicographic order along with the number of occurrences. The beginning of the output also contains the
+                            total number of words and the total number of unique words. The program is done using a hash table with separate chaining, and a second
+                            output file shows the contents of the hash table as well as a summary of its performance. To demonstrate the program's capabilities,
+                            a text file containing the entire bible was used since it's a very long book.</p>
+                            <img src="../img/FileWordsAnalysisProject.jpg">
+                            <a href="https://www.youtube.com/watch?v=l1XjpQryBoI">Video Demo</a>
+                            <a href="https://github.com/benjamin-friedman/File-Words-Analysis">Repository</a>
+                    </div>
+                    <div class="col">
+                        <h5>Capstone Project - React and Django</h5>
+                        <p>Was tasked by a company to deliver a proof-of-concept solution for reverse engineering a PC application they had into a web
+                           application. The project used React and Django. The repository is private since some of the information is sensitive to the
+                           company but I can discuss the project and show some code in private.</p>
+                    </div>
+                    <div class="col">
+                        <h5>Computer Science Resources</h5>
+                        <p>A series of documents I developed during my work as a tutor to help students in the various computer science courses that I tutored.
+                            In general, the documents focus on the C and C++ programming languages, and the most significant documents I made were a Makefile guide
+                            and one about data structures.</p>
+                        <a href="https://github.com/benjamin-friedman/Computer-Science-Resources">Repository</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <h5>Math Resources</h5>
+                        <p>A series of documents I developed during my work as a tutor to help students in the various math courses I tutored. The documents are for
+                           calculus I-III and discrete math.</p>
+                         <a href="https://github.com/benjamin-friedman/Math-Resources">Repository</a>
+                    </div>
+                    <!-- <div class="col" style="border-style: none color: none">
+                        <!-- future project -->
+                    </div>
+                    <div class="col" style="border-style: none">
+                        <!-- future project -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
     <!-- Bootstrap 5 JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script src="js/script.js"></script>
 </body>
 </html>
