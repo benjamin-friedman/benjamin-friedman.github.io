@@ -18,6 +18,7 @@
 </head>
 <body>
 
+   
     <header id="navbar">
         <nav class="navbar navbar-expand-lg justify-content-center">
             <ul class="navbar-nav">
@@ -33,60 +34,60 @@
             <div class="row">
                 <div class="col img-container">
                     <h5>Chopin</h5>
-                    <img src="img/Chopin.jpg">
-                </div>
-                <div class="col img-container">
-                    <h5>Schubert</h5>
-                    <img src="img/Schubert.jpg">
-                </div>
-                <div class="col img-container">
-                    <h5>Liszt</h5>
-                    <img src="img/Liszt.jpg">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col img-container">
-                    <h5>Beethoven</h5>
-                    <img src="img/Beethoven.jpg">
-                </div>
-                <div class="col img-container">
-                    <h5>Satie</h5>
-                    <img src="img/Satie.jpg">
-                </div>
-                <div class="col img-container">
-                    <h5>Mozart</h5>
-                    <img src="img/Mozart.jpg">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col img-container">
-                    <h5>Bach</h5>
-                    <img src="img/Bach.jpg">
-                </div>
-                <div class="col img-container">
-                    <h5>Albinoni</h5>
-                    <img src="img/Albinoni.jpg">
-                </div>
-                <div class="col img-container">
-                    <h5>Saint-Saëns</h5>
-                    <img src="img/Saint-Saens.jpg">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col img-container">
-                    <h5>Debussy</h5>
-                    <img src="img/Debussy.jpg">
+                    <img src="img/Chopin.jpg" onclick="playOrPauseSong('songs/PreludeInDFlatMajor.mp3')">
                 </div>
                 <div class="col img-container">
                     <h5>Zimmer</h5>
-                    <img src="img/HansZimmer.jpg">
+                    <img src="img/HansZimmer.jpg" onclick="playOrPauseSong('songs/WhyDoWeFall.mp3')">
+                </div>
+                <div class="col img-container">
+                    <h5>Schubert</h5>
+                    <img src="img/Schubert.jpg" onclick="playOrPauseSong('songs/PianoTrioNo2InEFlatMajor.mp3')">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col img-container">
+                    <h5>Liszt</h5>
+                    <img src="img/Liszt.jpg" onclick="playOrPauseSong('songs/Liebestraum.mp3')">
+                </div>
+                <div class="col img-container">
+                    <h5>Beethoven</h5>
+                    <img src="img/Beethoven.jpg" onclick="playOrPauseSong('songs/MoonlightSonata1stMovement.mp3')">
+                </div>
+                <div class="col img-container" onclick="playOrPauseSong('songs/Gnossiene1.mp3')">
+                    <h5>Satie</h5>
+                    <img src="img/Satie.jpg">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col img-container">
+                    <h5>Mozart</h5>
+                    <img src="img/Mozart.jpg" onclick="playOrPauseSong('songs/FantasiaInDMinor.mp3')">
+                </div>
+                <div class="col img-container">
+                    <h5>Bach</h5>
+                    <img src="img/Bach.jpg" onclick="playOrPauseSong('songs/ToccataAndFugueInDMinor.mp3')">
+                </div>
+                <div class="col img-container">
+                    <h5>Albinoni</h5>
+                    <img src="img/Albinoni.jpg" onclick="playOrPauseSong('songs/Adagio.mp3')">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col img-container">
+                    <h5>Saint-Saëns</h5>
+                    <img src="img/Saint-Saens.jpg" onclick="playOrPauseSong('songs/TheSwan.mp3')">
+                </div>
+                <div class="col img-container">
+                    <h5>Debussy</h5>
+                    <img src="img/Debussy.jpg" onclick="playOrPauseSong('songs/Rêverie.mp3')">
                 </div>
                 <div class="col img-container">
                     <h5>Vai</h5>
-                    <img src="img/SteveVai.jpg">
+                    <img src="img/SteveVai.jpg" onclick="playOrPauseSong('songs/ForTheLoveOfGod.mp3')">
                 </div>
             </div>
 
@@ -121,6 +122,10 @@
         </div>
     </section>
     
+
+    <!-- Music -->
+    <!--<audio src="res/Paradox.mp3" autoplay></audio>-->
+
     <!-- Bootstrap 5 JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
