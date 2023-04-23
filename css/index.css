@@ -14,9 +14,10 @@ Main section
 
 /* About */
 #about {
-    background-color: white;
+    /* background-color: white; */
     padding-top: 100px;
     padding-bottom: 100px;
+    color: white;
 }
 
 #about h1 {
@@ -24,6 +25,9 @@ Main section
     padding-bottom: 25px;
 }
 
+#about p {
+    font-size: 1.5em;
+}
 
 /* Projects */
 #projects {
@@ -32,16 +36,13 @@ Main section
     padding-bottom: 100px;
 }
 
+.single-project-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #projects h1, h3, h5 {
     text-align: center;
-}
-
-#projects h3 {
-    margin-bottom: 50px;
-}
-
-#projects h5 {
-    padding-top: 25px;
 }
 
 #projects .col, .col-4 {

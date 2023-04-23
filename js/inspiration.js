@@ -1,5 +1,4 @@
-let audio = new Audio('songs/Paradox.mp3');
-audio.play();
+let audio = new Audio();
 
 const playOrPauseSong = (song) => {
     audio.pause();
