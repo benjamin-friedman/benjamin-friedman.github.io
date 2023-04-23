@@ -1,7 +1,3 @@
-// song
-let audio = new Audio('../songs/Paradox.mp3');
-audio.play();
-
 // opacity of welcome message
 const runTime = () => {
     const welcomeSection = document.getElementById('welcome');
