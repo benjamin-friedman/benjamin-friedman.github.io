@@ -31,7 +31,13 @@ const cycleOpacityHelper = (state) => {
 document.addEventListener('mouseover', () => {
     const audio = document.getElementById('background-song');
      if (audio.paused) {
-        audio.play();
+        try {
+            audio.play();
+        }
+        catch (e) {
+            
+        }
+        
     }
 });
 cycleOpacity();
