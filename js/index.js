@@ -1,15 +1,15 @@
 // opacity of welcome message
-const runTime = () => {
+const cycleOpacity = () => {
     const welcomeSection = document.getElementById('welcome');
     const opacity = getComputedStyle(welcomeSection).getPropertyValue('opacity'); // starts at 1
     let state = {
         isDecreasing: true,
         opacity: Number(opacity)
     }
-    setInterval( function() { cycleOpacity(state) }, 100);
+    setInterval( function() { cycleOpacityHelper(state) }, 100);
 }
 
-const cycleOpacity = (state) => {
+const cycleOpacityHelper = (state) => {
     const welcomeSection = document.getElementById('welcome');
     if (state.isDecreasing) {
         welcomeSection.style.opacity = state.opacity - 0.025;
@@ -27,4 +27,4 @@ const cycleOpacity = (state) => {
     }
 }
 
-runTime();
+cycleOpacity();
