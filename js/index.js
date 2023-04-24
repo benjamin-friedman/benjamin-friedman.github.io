@@ -31,9 +31,14 @@ const cycleOpacityHelper = (state) => {
 let hasBeenPlayed= false;
 document.addEventListener('mouseover', () => {
     if (!hasBeenPlayed) {
-        const song = document.getElementById('background-song');
-        song.play();
-        hasBeenPlayed = false;
+        const audio = new Audio('songs/atis-freivalds/Paradox.mp3');
+        const audioPromise = audio.play();
+        if (audioPromise !== undefined) {
+            hasBeenPlayed = false;
+        } else {
+            audio.pause();
+        }
+        
     }
 });
 cycleOpacity();
