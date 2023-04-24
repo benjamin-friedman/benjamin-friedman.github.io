@@ -33,7 +33,9 @@ document.addEventListener('mouseover', () => {
     console.log('here1')
     if (!hasBeenPlayed) {
         console.log('here2')
-        const audio = new Audio('songs/atis-freivalds/Paradox.mp3');
+        //const audio = new Audio('songs/atis-freivalds/Paradox.mp3');
+        //const audioPromise = audio.play();
+        const audio = document.getElementById('background-song');
         audio.play();
         hasBeenPlayed = true;
     }
