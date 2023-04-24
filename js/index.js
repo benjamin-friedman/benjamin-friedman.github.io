@@ -34,9 +34,9 @@ document.addEventListener('mouseover', () => {
         const audioPromise = audio.play();
         if (audioPromise !== undefined) {
             audioPromise.then( () => {
-
+                console.log('here1')
             }).catch(e => {
-                
+                console.log('here2')
             })
         }
 
