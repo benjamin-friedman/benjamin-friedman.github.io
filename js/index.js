@@ -31,12 +31,15 @@ const cycleOpacityHelper = (state) => {
 document.addEventListener('mouseover', () => {
     const audio = document.getElementById('background-song');
      if (audio.paused) {
-        try {
-            audio.play();
+        const audioPromise = audio.play();
+        if (audioPromise !== undefined) {
+            audioPromise.then( () => {
+
+            }).catch(e => {
+                
+            })
         }
-        catch (e) {
-            
-        }
+
         
     }
 });
