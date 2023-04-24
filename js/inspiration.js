@@ -34,12 +34,25 @@ const charlesBradleySongs = ['CryingInTheChapel.mp3'];
 let charlesBradleySongsIndex = 0;
 const gerryMulliganSongs = ['PreludeInEMinorJazz.mp3'];
 let gerryMulliganSongsIndex = 0;
-const bearMcCrearySongs = ['Reconciliation.mp3'];
-let bearMcCrearySongsIndex = 0;
+const donnyHathawaySongs = ['ASongForYou.mp3'];
+let donnyHathawaySongsIndex = 0;
+const bobbyHatfieldSongs = ['UnchainedMelody.mp3'];
+let bobbyHatfieldSongsIndex = 0;
+const johnnyHartmanSongs = ['ForAllWeKnow.mp3'];
+let johnnyHartmanSongsIndex = 0;
 const donMcLeanSongs = ['Vincent.mp3', 'VincentGuitar.mp3'];
 let donMcLeanSongsIndex = 0;
+const bearMcCrearySongs = ['Reconciliation.mp3'];
+let bearMcCrearySongsIndex = 0;
+const johannJohannssonSongs = ['TheSunsGoneDimAndTheSkysTurnedBlack.mp3'];
+let johannJohannssonSongsIndex = 0;
+const zackHemseySongs = ['TheWay.mp3'];
+let zackHemseySongsIndex = 0;
+const steveJablonskySongs = ['Tessa.mp3', 'Sacrifice.mp3'];
+let steveJablonskySongsIndex = 0;
 const harryGregsonWilliamsSongs = ['NarniaLullaby.mp3'];
 let harryGregsonWilliamsSongsIndex = 0;
+
 
 let audio = new Audio();
 
@@ -119,13 +132,37 @@ const playSong = (musician) => {
             str = `../songs/gerry-mulligan/${gerryMulliganSongs[gerryMulliganSongsIndex]}`;
             gerryMulliganSongsIndex = (gerryMulliganSongsIndex == gerryMulliganSongs.length - 1) ? 0 : gerryMulliganSongsIndex + 1;
             break;
-        case 'Bear McCreary':
-            str = `../songs/bear-mccreary/${bearMcCrearySongs[bearMcCrearySongsIndex]}`;
-            bearMcCrearySongsIndex = (bearMcCrearySongsIndex == bearMcCrearySongs.length - 1) ? 0 : bearMcCrearySongsIndex + 1;
+        case 'Donny Hathaway':
+            str = `../songs/donny-hathaway/${donnyHathawaySongs[donnyHathawaySongsIndex]}`;
+            donnyHathawaySongsIndex = (donnyHathawaySongsIndex == donnyHathawaySongs.length - 1) ? 0 : donnyHathawaySongsIndex + 1;
+            break;
+        case 'Bobby Hatfield':
+            str = `../songs/bobby-hatfield/${bobbyHatfieldSongs[bobbyHatfieldSongsIndex]}`;
+            bobbyHatfieldSongsIndex = (bobbyHatfieldSongsIndex == bobbyHatfieldSongs.length - 1) ? 0 : bobbyHatfieldSongsIndex + 1;
+            break;
+        case 'Johnny Hartman':
+            str = `../songs/johnny-hartman/${johnnyHartmanSongs[johnnyHartmanSongsIndex]}`;
+            johnnyHartmanSongsIndex = (johnnyHartmanSongsIndex == johnnyHartmanSongs.length - 1) ? 0 : johnnyHartmanSongsIndex + 1;
             break;
         case 'Don McLean':
             str = `../songs/don-mclean/${donMcLeanSongs[donMcLeanSongsIndex]}`;
             donMcLeanSongsIndex = (donMcLeanSongsIndex == donMcLeanSongs.length - 1) ? 0 : donMcLeanSongsIndex + 1;
+            break;
+        case 'Bear McCreary':
+            str = `../songs/bear-mccreary/${bearMcCrearySongs[bearMcCrearySongsIndex]}`;
+            bearMcCrearySongsIndex = (bearMcCrearySongsIndex == bearMcCrearySongs.length - 1) ? 0 : bearMcCrearySongsIndex + 1;
+            break;
+        case 'Johann Johannsson':
+            str = `../songs/johann-johannsson/${johannJohannssonSongs[johannJohannssonSongsIndex]}`;
+            johannJohannssonSongsIndex = (johannJohannssonSongsIndex == johannJohannssonSongs.length - 1) ? 0 : johannJohannssonSongsIndex + 1;
+            break;
+        case 'Zack Hemsey':
+            str = `../songs/zack-hemsey/${zackHemseySongs[zackHemseySongsIndex]}`;
+            zackHemseySongsIndex = (zackHemseySongsIndex == zackHemseySongs.length - 1) ? 0 : zackHemseySongsIndex + 1;
+            break;
+        case 'Steve Jablonsky':
+            str = `../songs/steve-jablonsky/${steveJablonskySongs[steveJablonskySongsIndex]}`;
+            steveJablonskySongsIndex = (steveJablonskySongsIndex == steveJablonskySongs.length - 1) ? 0 : steveJablonskySongsIndex + 1;
             break;
         case 'Harry Gregson-Williams':
             str = `../songs/harry-gregson-williams/${harryGregsonWilliamsSongs[harryGregsonWilliamsSongsIndex]}`;
