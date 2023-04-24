@@ -30,15 +30,12 @@ const cycleOpacityHelper = (state) => {
 // song - autoplay is disabled in newest browser versions, must use an event handler
 let hasBeenPlayed= false;
 document.addEventListener('mouseover', () => {
+    console.log('here1')
     if (!hasBeenPlayed) {
+        console.log('here2')
         const audio = new Audio('songs/atis-freivalds/Paradox.mp3');
-        const audioPromise = audio.play();
-        if (audioPromise !== undefined) {
-            hasBeenPlayed = false;
-        } else {
-            audio.pause();
-        }
-        
+        audio.play();
+        hasBeenPlayed = true;
     }
 });
 cycleOpacity();
