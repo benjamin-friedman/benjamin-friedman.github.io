@@ -1,174 +1,221 @@
-const hansZimmerSongs = ['WhyDoWeFall.mp3', 'AgentOfChaos.mp3', 'Time.mp3', 'FirstStep.mp3', 'NoTimeForCaution.mp3', 'Mountains.mp3', 'GoodbyeMySon.mp3', 'MarryMeSuite.mp3', 'DavyJones.mp3', 'NotInBloodButInBond.mp3', 'NowWeAreFree.mp3', 'NowWeAreFreeCello.mp3'];
-let hansZimmerSongsIndex = 0;
-const chopinSongs = [ 'PreludeInEMinor.mp3', 'NocturneInCSharpMinor.mp3', 'PreludeInDFlatMajor.mp3', 'BalladNo1InGMinor.mp3', 'NocturneInBFlatMinor.mp3', 'NocturneInCSharpMinorCello.mp3'];
-let chopinSongsIndex = 0;
-const schubertSongs = ['PianoTrioNo2InEFlatMajor.mp3', 'Serenade.mp3', 'SerenadePiano.mp3'];
-let schubertSongsIndex = 0;
-const lisztSongs = ['Liebestraum.mp3', 'ConsolationNo3.mp3', 'LaCampanella.mp3'];
-let lisztSongsIndex = 0;
-const beethovenSongs = ['MoonlightSonata1stMovement.mp3', 'MoonlightSonata3rdMovement.mp3'];
-let beethovenSongsIndex = 0;
-const satieSongs = ['Gnossienne1.mp3', 'GymnopedieNo1.mp3'];
-let satieSongsIndex = 0;
-const mozartSongs = ['FantasiaInDMinor.mp3', 'SerenadeForWinds.mp3'];
-let mozartSongsIndex = 0;
-const bachSongs = ['ToccataAndFugueInDMinor.mp3', 'AirOnTheGString.mp3'];
-let bachSongsIndex = 0;
-const albinoniSongs = ['Adagio.mp3'];
-let albinoniSongsIndex = 0;
-const saintSaensSongs = ['TheSwan.mp3'];
-let saintSaensSongsIndex = 0;
-const debussySongs = ['Reverie.mp3', 'ClairDeLune.mp3', 'ArabesqueNo1.mp3'];
-let debussySongsIndex = 0;
-const nicholasHooperSongs = ['WhenGinnyKissedHarry.mp3'];
-let nicholasHooperSongsIndex = 0;
-const samuelBarberSongs = ['AdagioForStrings.mp3'];
-let samuelBarberSongsIndex = 0;
-const benEKingSongs = ['StandByMe.mp3'];
-let benEKingSongsIndex = 0;
-const evaCassidySongs = ['WadeInTheWater.mp3'];
-let evaCassidySongsIndex = 0;
-const steveVaiSongs = ['ForTheLoveOfGod.mp3', 'TenderSurrender.mp3'];
-let steveVaiSongsIndex = 0;
-const charlesBradleySongs = ['CryingInTheChapel.mp3'];
-let charlesBradleySongsIndex = 0;
-const gerryMulliganSongs = ['PreludeInEMinorJazz.mp3'];
-let gerryMulliganSongsIndex = 0;
-const donnyHathawaySongs = ['ASongForYou.mp3'];
-let donnyHathawaySongsIndex = 0;
-const bobbyHatfieldSongs = ['UnchainedMelody.mp3'];
-let bobbyHatfieldSongsIndex = 0;
-const johnnyHartmanSongs = ['ForAllWeKnow.mp3'];
-let johnnyHartmanSongsIndex = 0;
-const donMcLeanSongs = ['Vincent.mp3', 'VincentGuitar.mp3'];
-let donMcLeanSongsIndex = 0;
-const bearMcCrearySongs = ['Reconciliation.mp3'];
-let bearMcCrearySongsIndex = 0;
-const johannJohannssonSongs = ['TheSunsGoneDimAndTheSkysTurnedBlack.mp3'];
-let johannJohannssonSongsIndex = 0;
-const zackHemseySongs = ['TheWay.mp3'];
-let zackHemseySongsIndex = 0;
-const steveJablonskySongs = ['Tessa.mp3', 'Sacrifice.mp3'];
-let steveJablonskySongsIndex = 0;
-const harryGregsonWilliamsSongs = ['NarniaLullaby.mp3'];
-let harryGregsonWilliamsSongsIndex = 0;
+const musicianNames = ['hans-zimmer', 'chopin', 'schubert', 'liszt', 'beethoven', 'satie', 'mozart', 'bach', 'albinoni',
+                       'saint-saens', 'debussy', 'nicholas-hooper', 'samuel-barber', 'ben-e-king', 'eva-cassidy', 'steve-vai',
+                       'charles-bradley', 'gerry-mulligan', 'donny-hathaway', 'bobby-hatfield', 'johnny-hartman', 'don-mclean',
+                       'bear-mccreary', 'johann-johannsson', 'zack-hemsey', 'steve-jablonsky', 'harry-gregson-williams'];
 
+const musicianSongs = {
+    'hans-zimmer': {
+        songs: ['WhyDoWeFall.mp3', 'AgentOfChaos.mp3', 'Time.mp3', 'FirstStep.mp3', 'NoTimeForCaution.mp3', 'Mountains.mp3',
+                'GoodbyeMySon.mp3', 'MarryMeSuite.mp3', 'DavyJones.mp3', 'NotInBloodButInBond.mp3', 'NowWeAreFree.mp3',
+                'NowWeAreFreeCello.mp3'],
+        idx: 0
+    },
+    'chopin': {
+        songs: ['PreludeInEMinor.mp3', 'NocturneInCSharpMinor.mp3', 'PreludeInDFlatMajor.mp3', 'BalladNo1InGMinor.mp3',
+                'NocturneInBFlatMinor.mp3', 'NocturneInCSharpMinorCello.mp3'],
+        idx: 0
+    },
+    'schubert': {
+        songs: ['PianoTrioNo2InEFlatMajor.mp3', 'Serenade.mp3', 'SerenadePiano.mp3'],
+        idx: 0
+    },
+    'liszt': {
+        songs: ['Liebestraum.mp3', 'ConsolationNo3.mp3', 'LaCampanella.mp3'],
+        idx: 0
+    },
+    'beethoven': {
+        songs: ['MoonlightSonata1stMovement.mp3', 'MoonlightSonata3rdMovement.mp3'],
+        idx: 0
+    },
+    'satie': {
+        songs: ['Gnossienne1.mp3', 'GymnopedieNo1.mp3'],
+        idx: 0
+    },
+    'mozart': {
+        songs: ['FantasiaInDMinor.mp3', 'SerenadeForWinds.mp3'],
+        idx: 0
+    },
+    'bach': {
+        songs: ['ToccataAndFugueInDMinor.mp3', 'AirOnTheGString.mp3'],
+        idx: 0
+    },
+    'albinoni': {
+        songs: ['Adagio.mp3'],
+        idx: 0
+    },
+    'saint-saens': {
+        songs: ['TheSwan.mp3'],
+        idx: 0
+    },
+    'debussy': {
+        songs: ['Reverie.mp3', 'ClairDeLune.mp3', 'ArabesqueNo1.mp3'],
+        idx: 0
+    },
+    'nicholas-hooper': {
+        songs: ['WhenGinnyKissedHarry.mp3'],
+        idx: 0
+    },
+    'samuel-barber': {
+        songs: ['AdagioForStrings.mp3'],
+        idx: 0
+    },
+    'ben-e-king': {
+        songs: ['StandByMe.mp3'],
+        idx: 0
+    },
+    'eva-cassidy': {
+        songs: ['WadeInTheWater.mp3'],
+        idx: 0
+    },
+    'steve-vai': {
+        songs: ['ForTheLoveOfGod.mp3', 'TenderSurrender.mp3'],
+        idx: 0
+    },
+    'charles-bradley': {
+        songs: ['CryingInTheChapel.mp3'],
+        idx: 0
+    },
+    'gerry-mulligan': {
+        songs: ['PreludeInEMinorJazz.mp3'],
+        idx: 0
+    },
+    'donny-hathaway': {
+        songs: ['ASongForYou.mp3'],
+        idx: 0
+    },
+    'bobby-hatfield': {
+        songs: ['UnchainedMelody.mp3'],
+        idx: 0
+    },
+    'johnny-hartman': {
+        songs: ['ForAllWeKnow.mp3'],
+        idx: 0
+    },
+    'don-mclean': {
+        songs: ['Vincent.mp3', 'VincentGuitar.mp3'],
+        idx: 0
+    },
+    'bear-mccreary': {
+        songs: ['Reconciliation.mp3'],
+        idx: 0
+    },
+    'johann-johannsson': {
+        songs: ['TheSunsGoneDimAndTheSkysTurnedBlack.mp3'],
+        idx: 0
+    },
+    'zack-hemsey': {
+        songs: ['TheWay.mp3'],
+        idx: 0
+    },
+    'steve-jablonsky': {
+        songs: ['Tessa.mp3', 'Sacrifice.mp3'],
+        idx: 0
+    },
+    'harry-gregson-williams': {
+        songs: ['NarniaLullaby.mp3'],
+        idx: 0
+    },
+};
 
-let audio = new Audio();
+const audioWrapper = {
+    audio: new Audio()
+};
 
-const playSong = (musician) => {
-    let str;
-    audio.pause();
-    switch (musician) {
-        case 'Chopin':
-            str = `../songs/chopin/${chopinSongs[chopinSongsIndex]}`;
-            chopinSongsIndex = (chopinSongsIndex == chopinSongs.length - 1) ? 0 : chopinSongsIndex + 1;
-            break;
-        case 'Hans Zimmer':
-            str = `../songs/hans-zimmer/${hansZimmerSongs[hansZimmerSongsIndex]}`;
-            hansZimmerSongsIndex = (hansZimmerSongsIndex == hansZimmerSongs.length - 1) ? 0 : hansZimmerSongsIndex + 1;
-            break;
-        case 'Schubert':
-            str = `../songs/schubert/${schubertSongs[schubertSongsIndex]}`;
-            schubertSongsIndex = (schubertSongsIndex == schubertSongs.length - 1) ? 0 : schubertSongsIndex + 1;
-            break;
-        case 'Liszt':
-            str = `../songs/liszt/${lisztSongs[lisztSongsIndex]}`;
-            lisztSongsIndex = (lisztSongsIndex == lisztSongs.length - 1) ? 0 : lisztSongsIndex + 1;
-            break;
-        case 'Beethoven':
-            str = `../songs/beethoven/${beethovenSongs[beethovenSongsIndex]}`;
-            beethovenSongsIndex = (beethovenSongsIndex == beethovenSongs.length - 1) ? 0 : beethovenSongsIndex + 1;
-            break;
-        case 'Satie':
-            str = `../songs/satie/${satieSongs[satieSongsIndex]}`;
-            satieSongsIndex = (satieSongsIndex == satieSongs.length - 1) ? 0 : satieSongsIndex + 1;
-            break;
-        case 'Mozart':
-            str = `../songs/mozart/${mozartSongs[mozartSongsIndex]}`;
-            mozartSongsIndex = (mozartSongsIndex == mozartSongs.length - 1) ? 0 : mozartSongsIndex + 1;
-            break;
-        case 'Bach':
-            str = `../songs/bach/${bachSongs[bachSongsIndex]}`;
-            bachSongsIndex = (bachSongsIndex == bachSongs.length - 1) ? 0 : bachSongsIndex + 1;
-            break;
-        case 'Albinoni':
-            str = `../songs/albinoni/${albinoniSongs[albinoniSongsIndex]}`;
-            albinoniSongsIndex = (albinoniSongsIndex == albinoniSongs.length - 1) ? 0 : albinoniSongsIndex + 1;
-            break;
-        case 'Saint-Saens':
-            str = `../songs/saint-saens/${saintSaensSongs[saintSaensSongsIndex]}`;
-            saintSaensSongsIndex = (saintSaensSongsIndex == saintSaensSongs.length - 1) ? 0 : saintSaensSongsIndex + 1;
-            break;
-        case 'Debussy':
-            str = `../songs/debussy/${debussySongs[debussySongsIndex]}`;
-            debussySongsIndex = (debussySongsIndex == debussySongsIndex.length - 1) ? 0 : debussySongsIndex + 1;
-            break;
-        case 'Nicholas Hooper':
-            str = `../songs/nicholas-hooper/${nicholasHooperSongs[nicholasHooperSongsIndex]}`;
-            nicholasHooperSongsIndex = (nicholasHooperSongsIndex == nicholasHooperSongs.length - 1) ? 0 : nicholasHooperSongsIndex + 1;
-            break;
-        case 'Samuel Barber':
-            str = `../songs/samuel-barber/${samuelBarberSongs[samuelBarberSongsIndex]}`;
-            samuelBarberSongsIndex = (samuelBarberSongsIndex == samuelBarberSongs.length - 1) ? 0 : samuelBarberSongsIndex + 1;
-            break;
-        case 'Ben E. King':
-            str = `../songs/ben-e-king/${benEKingSongs[benEKingSongsIndex]}`;
-            benEKingSongsIndex = (benEKingSongsIndex == benEKingSongs.length - 1) ? 0 : benEKingSongsIndex + 1;
-            break;
-        case 'Eva Cassidy':
-            str = `../songs/eva-cassidy/${evaCassidySongs[evaCassidySongsIndex]}`;
-            evaCassidySongsIndex = (evaCassidySongsIndex == evaCassidySongs.length - 1) ? 0 : evaCassidySongsIndex + 1;
-            break;
-        case 'Steve Vai':
-            str = `../songs/steve-vai/${steveVaiSongs[steveVaiSongsIndex]}`;
-            steveVaiSongsIndex = (steveVaiSongsIndex == steveVaiSongs.length - 1) ? 0 : steveVaiSongsIndex + 1;
-            break;
-        case 'Charles Bradley':
-            str = `../songs/charles-bradley/${charlesBradleySongs[charlesBradleySongsIndex]}`;
-            charlesBradleySongsIndex = (charlesBradleySongsIndex == charlesBradleySongs.length - 1) ? 0 : charlesBradleySongsIndex + 1;
-            break;
-        case 'Gerry Mulligan':
-            str = `../songs/gerry-mulligan/${gerryMulliganSongs[gerryMulliganSongsIndex]}`;
-            gerryMulliganSongsIndex = (gerryMulliganSongsIndex == gerryMulliganSongs.length - 1) ? 0 : gerryMulliganSongsIndex + 1;
-            break;
-        case 'Donny Hathaway':
-            str = `../songs/donny-hathaway/${donnyHathawaySongs[donnyHathawaySongsIndex]}`;
-            donnyHathawaySongsIndex = (donnyHathawaySongsIndex == donnyHathawaySongs.length - 1) ? 0 : donnyHathawaySongsIndex + 1;
-            break;
-        case 'Bobby Hatfield':
-            str = `../songs/bobby-hatfield/${bobbyHatfieldSongs[bobbyHatfieldSongsIndex]}`;
-            bobbyHatfieldSongsIndex = (bobbyHatfieldSongsIndex == bobbyHatfieldSongs.length - 1) ? 0 : bobbyHatfieldSongsIndex + 1;
-            break;
-        case 'Johnny Hartman':
-            str = `../songs/johnny-hartman/${johnnyHartmanSongs[johnnyHartmanSongsIndex]}`;
-            johnnyHartmanSongsIndex = (johnnyHartmanSongsIndex == johnnyHartmanSongs.length - 1) ? 0 : johnnyHartmanSongsIndex + 1;
-            break;
-        case 'Don McLean':
-            str = `../songs/don-mclean/${donMcLeanSongs[donMcLeanSongsIndex]}`;
-            donMcLeanSongsIndex = (donMcLeanSongsIndex == donMcLeanSongs.length - 1) ? 0 : donMcLeanSongsIndex + 1;
-            break;
-        case 'Bear McCreary':
-            str = `../songs/bear-mccreary/${bearMcCrearySongs[bearMcCrearySongsIndex]}`;
-            bearMcCrearySongsIndex = (bearMcCrearySongsIndex == bearMcCrearySongs.length - 1) ? 0 : bearMcCrearySongsIndex + 1;
-            break;
-        case 'Johann Johannsson':
-            str = `../songs/johann-johannsson/${johannJohannssonSongs[johannJohannssonSongsIndex]}`;
-            johannJohannssonSongsIndex = (johannJohannssonSongsIndex == johannJohannssonSongs.length - 1) ? 0 : johannJohannssonSongsIndex + 1;
-            break;
-        case 'Zack Hemsey':
-            str = `../songs/zack-hemsey/${zackHemseySongs[zackHemseySongsIndex]}`;
-            zackHemseySongsIndex = (zackHemseySongsIndex == zackHemseySongs.length - 1) ? 0 : zackHemseySongsIndex + 1;
-            break;
-        case 'Steve Jablonsky':
-            str = `../songs/steve-jablonsky/${steveJablonskySongs[steveJablonskySongsIndex]}`;
-            steveJablonskySongsIndex = (steveJablonskySongsIndex == steveJablonskySongs.length - 1) ? 0 : steveJablonskySongsIndex + 1;
-            break;
-        case 'Harry Gregson-Williams':
-            str = `../songs/harry-gregson-williams/${harryGregsonWilliamsSongs[harryGregsonWilliamsSongsIndex]}`;
-            harryGregsonWilliamsSongsIndex = (harryGregsonWilliamsSongsIndex == harryGregsonWilliamsSongs.length - 1) ? 0 : harryGregsonWilliamsSongsIndex + 1;
-            break;
+const playSong = (musicianName, musicianSongs, audioWrapper) => {
+    const str = `../songs/${musicianName}/${musicianSongs[musicianName].songs[musicianSongs[musicianName].idx]}`;
+    musicianSongs[musicianName].idx = (musicianSongs[musicianName].idx == musicianSongs[musicianName].songs.length - 1) ? 0 : musicianSongs[musicianName].idx + 1;
+    audioWrapper.audio.pause();
+    audioWrapper.audio = new Audio(str);
+    const audioPromise = audioWrapper.audio.play();
+    // this is here because of the following error, sometimes play() would fail and an error showed up in the console
+    // https://stackoverflow.com/questions/58846042/getting-play-failed-because-the-user-didnt-interact-with-the-document-first
+    if (audioPromise !== undefined) {
+        audioPromise.then( () => {
+            // play was successful
+        }).catch(e => {
+            // play was not successful, would have to move mouse again
+        })
     }
-    audio = new Audio(str);
-    audio.play();
 }
+
+document.getElementById(musicianNames[0]).addEventListener('mouseover', () => {
+    playSong(musicianNames[0], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[1]).addEventListener('mouseover', () => {
+    playSong(musicianNames[1], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[2]).addEventListener('mouseover', () => {
+    playSong(musicianNames[2], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[3]).addEventListener('mouseover', () => {
+    playSong(musicianNames[3], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[4]).addEventListener('mouseover', () => {
+    playSong(musicianNames[4], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[5]).addEventListener('mouseover', () => {
+    playSong(musicianNames[5], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[6]).addEventListener('mouseover', () => {
+    playSong(musicianNames[6], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[7]).addEventListener('mouseover', () => {
+    playSong(musicianNames[7], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[8]).addEventListener('mouseover', () => {
+    playSong(musicianNames[8], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[9]).addEventListener('mouseover', () => {
+    playSong(musicianNames[9], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[10]).addEventListener('mouseover', () => {
+    playSong(musicianNames[10], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[11]).addEventListener('mouseover', () => {
+    playSong(musicianNames[11], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[12]).addEventListener('mouseover', () => {
+    playSong(musicianNames[12], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[13]).addEventListener('mouseover', () => {
+    playSong(musicianNames[13], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[14]).addEventListener('mouseover', () => {
+    playSong(musicianNames[14], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[15]).addEventListener('mouseover', () => {
+    playSong(musicianNames[15], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[16]).addEventListener('mouseover', () => {
+    playSong(musicianNames[16], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[17]).addEventListener('mouseover', () => {
+    playSong(musicianNames[17], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[18]).addEventListener('mouseover', () => {
+    playSong(musicianNames[18], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[19]).addEventListener('mouseover', () => {
+    playSong(musicianNames[19], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[20]).addEventListener('mouseover', () => {
+    playSong(musicianNames[20], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[21]).addEventListener('mouseover', () => {
+    playSong(musicianNames[21], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[22]).addEventListener('mouseover', () => {
+    playSong(musicianNames[22], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[23]).addEventListener('mouseover', () => {
+    playSong(musicianNames[23], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[24]).addEventListener('mouseover', () => {
+    playSong(musicianNames[24], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[25]).addEventListener('mouseover', () => {
+    playSong(musicianNames[25], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[26]).addEventListener('mouseover', () => {
+    playSong(musicianNames[26], musicianSongs, audioWrapper);
+});

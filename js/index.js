@@ -32,15 +32,18 @@ document.addEventListener('mouseover', () => {
     const audio = document.getElementById('background-song');
      if (audio.paused) {
         const audioPromise = audio.play();
+        // this is here because of the following error, sometimes play() would fail and an error showed up in the console
+        // https://stackoverflow.com/questions/58846042/getting-play-failed-because-the-user-didnt-interact-with-the-document-first
         if (audioPromise !== undefined) {
             audioPromise.then( () => {
-                console.log('here1')
+                // play was successful
             }).catch(e => {
-                console.log('here2')
+                // play was not successful, would have to move mouse again
             })
         }
 
         
     }
 });
+
 cycleOpacity();
