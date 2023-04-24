@@ -28,12 +28,10 @@ const cycleOpacityHelper = (state) => {
 }
 
 // song - autoplay on document loading is disabled in newest browser versions, must use an event handler
-let hasBeenPlayed= false;
 document.addEventListener('mouseover', () => {
-    if (!hasBeenPlayed) {
-        const audio = document.getElementById('background-song');
+    const audio = document.getElementById('background-song');
+     if (audio.paused) {
         audio.play();
-        hasBeenPlayed = true;
     }
 });
 cycleOpacity();
