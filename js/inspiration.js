@@ -1,7 +1,8 @@
 const musicianNames = ['hans-zimmer', 'chopin', 'schubert', 'liszt', 'beethoven', 'satie', 'mozart', 'bach', 'albinoni',
                        'saint-saens', 'debussy', 'nicholas-hooper', 'samuel-barber', 'ben-e-king', 'eva-cassidy', 'steve-vai',
                        'charles-bradley', 'gerry-mulligan', 'donny-hathaway', 'bobby-hatfield', 'johnny-hartman', 'don-mclean',
-                       'bear-mccreary', 'johann-johannsson', 'zack-hemsey', 'steve-jablonsky', 'harry-gregson-williams'];
+                       'van-morrison', 'james-brown', 'etta-james', 'charles-aznavour', 'israel-kamakawiwoole', 'bear-mccreary',
+                       'johann-johannsson', 'zack-hemsey', 'james-newton-howard', 'steve-jablonsky', 'harry-gregson-williams'];
 
 const musicianSongs = {
     'hans-zimmer': {
@@ -52,7 +53,7 @@ const musicianSongs = {
         idx: 0
     },
     'nicholas-hooper': {
-        songs: ['WhenGinnyKissedHarry.mp3'],
+        songs: ['WhenGinnyKissedHarry.mp3', 'DumbledoresFarewell.mp3'],
         idx: 0
     },
     'samuel-barber': {
@@ -95,6 +96,26 @@ const musicianSongs = {
         songs: ['Vincent.mp3', 'VincentGuitar.mp3'],
         idx: 0
     },
+    'van-morrison': {
+        songs: ['Moondance.mp3'],
+        idx: 0
+    },
+    'james-brown': {
+        songs: ['TryMe.mp3'],
+        idx: 0
+    },
+    'etta-james': {
+        songs: ['IdRatherGoBlind.mp3'],
+        idx: 0
+    },
+    'charles-aznavour': {
+        songs: ['ForMeFormidable.mp3'],
+        idx: 0
+    },
+    'israel-kamakawiwoole': {
+        songs: ['SomewhereOverTheRainbow.mp3'],
+        idx: 0
+    },
     'bear-mccreary': {
         songs: ['Reconciliation.mp3'],
         idx: 0
@@ -107,6 +128,10 @@ const musicianSongs = {
         songs: ['TheWay.mp3'],
         idx: 0
     },
+    'james-newton-howard': {
+        songs: ['Molossus.mp3', 'TenuousWinnersReturningHome.mp3', 'RuesFarewell.mp3'],
+        idx: 0
+    },
     'steve-jablonsky': {
         songs: ['Tessa.mp3', 'Sacrifice.mp3'],
         idx: 0
@@ -114,7 +139,7 @@ const musicianSongs = {
     'harry-gregson-williams': {
         songs: ['NarniaLullaby.mp3'],
         idx: 0
-    },
+    }
 };
 
 const audioWrapper = {
@@ -218,4 +243,22 @@ document.getElementById(musicianNames[25]).addEventListener('mouseover', () => {
 });
 document.getElementById(musicianNames[26]).addEventListener('mouseover', () => {
     playSong(musicianNames[26], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[27]).addEventListener('mouseover', () => {
+    playSong(musicianNames[27], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[28]).addEventListener('mouseover', () => {
+    playSong(musicianNames[28], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[29]).addEventListener('mouseover', () => {
+    playSong(musicianNames[29], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[30]).addEventListener('mouseover', () => {
+    playSong(musicianNames[30], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[31]).addEventListener('mouseover', () => {
+    playSong(musicianNames[31], musicianSongs, audioWrapper);
+});
+document.getElementById(musicianNames[32]).addEventListener('mouseover', () => {
+    playSong(musicianNames[32], musicianSongs, audioWrapper);
 });
