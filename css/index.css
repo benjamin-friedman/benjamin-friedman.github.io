@@ -36,9 +36,27 @@ Main section
     padding-bottom: 100px;
 }
 
-.single-project-section {
+.project-title {
     padding-top: 10px;
     padding-bottom: 10px;
+    min-height: 75px;
+}
+
+.project-description {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 175px;
+}
+
+.project-image {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 275px;
+}
+
+.project-buttons {
+    padding-top: 10px;
+    padding-bottom: 10px; 
 }
 
 #projects h1, h3, h5 {
