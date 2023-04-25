@@ -1,7 +1,6 @@
 .img-container {
     text-align: center;
-    margin: 20px;
-    margin-bottom: 40px;
+    margin: 30px 30px 60px 30px; /* top right bottom left */
 }
 
 .img-container img {
