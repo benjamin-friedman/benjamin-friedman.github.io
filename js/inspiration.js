@@ -1,7 +1,7 @@
 const musicianNames = ['hans-zimmer', 'chopin', 'schubert', 'liszt', 'beethoven', 'satie', 'mozart', 'bach', 'albinoni',
-                       'saint-saens', 'debussy', 'nicholas-hooper', 'samuel-barber', 'ben-e-king', 'eva-cassidy', 'steve-vai',
-                       'charles-bradley', 'gerry-mulligan', 'donny-hathaway', 'bobby-hatfield', 'johnny-hartman', 'don-mclean',
-                       'van-morrison', 'james-brown', 'etta-james', 'charles-aznavour', 'israel-kamakawiwoole', 'bear-mccreary',
+                       'saint-saens', 'debussy', 'samuel-barber', 'ben-e-king', 'eva-cassidy', 'charles-bradley', 'donny-hathaway',
+                       'bobby-hatfield', 'johnny-hartman', 'van-morrison', 'james-brown', 'etta-james', 'charles-aznavour',
+                       'israel-kamakawiwoole', 'don-mclean', 'steve-vai', 'gerry-mulligan', 'nicholas-hooper', 'bear-mccreary',
                        'johann-johannsson', 'zack-hemsey', 'james-newton-howard', 'steve-jablonsky', 'harry-gregson-williams'];
 
 const musicianSongs = {
@@ -52,10 +52,6 @@ const musicianSongs = {
         songs: ['Reverie.mp3', 'ClairDeLune.mp3', 'ArabesqueNo1.mp3'],
         idx: 0
     },
-    'nicholas-hooper': {
-        songs: ['WhenGinnyKissedHarry.mp3', 'DumbledoresFarewell.mp3'],
-        idx: 0
-    },
     'samuel-barber': {
         songs: ['AdagioForStrings.mp3'],
         idx: 0
@@ -68,16 +64,8 @@ const musicianSongs = {
         songs: ['WadeInTheWater.mp3'],
         idx: 0
     },
-    'steve-vai': {
-        songs: ['ForTheLoveOfGod.mp3', 'TenderSurrender.mp3'],
-        idx: 0
-    },
     'charles-bradley': {
         songs: ['CryingInTheChapel.mp3'],
-        idx: 0
-    },
-    'gerry-mulligan': {
-        songs: ['PreludeInEMinorJazz.mp3'],
         idx: 0
     },
     'donny-hathaway': {
@@ -90,10 +78,6 @@ const musicianSongs = {
     },
     'johnny-hartman': {
         songs: ['ForAllWeKnow.mp3'],
-        idx: 0
-    },
-    'don-mclean': {
-        songs: ['Vincent.mp3', 'VincentGuitar.mp3'],
         idx: 0
     },
     'van-morrison': {
@@ -114,6 +98,22 @@ const musicianSongs = {
     },
     'israel-kamakawiwoole': {
         songs: ['SomewhereOverTheRainbow.mp3'],
+        idx: 0
+    },
+    'don-mclean': {
+        songs: ['Vincent.mp3', 'VincentGuitar.mp3'],
+        idx: 0
+    },
+    'steve-vai': {
+        songs: ['ForTheLoveOfGod.mp3', 'TenderSurrender.mp3'],
+        idx: 0
+    },
+    'gerry-mulligan': {
+        songs: ['PreludeInEMinorJazz.mp3'],
+        idx: 0
+    },
+    'nicholas-hooper': {
+        songs: ['WhenGinnyKissedHarry.mp3', 'DumbledoresFarewell.mp3'],
         idx: 0
     },
     'bear-mccreary': {
