@@ -1,10 +1,4 @@
-const musicianNames = ['hans-zimmer', 'chopin', 'schubert', 'liszt', 'beethoven', 'satie', 'mozart', 'bach', 'albinoni',
-                       'saint-saens', 'debussy', 'samuel-barber', 'ben-e-king', 'eva-cassidy', 'charles-bradley', 'donny-hathaway',
-                       'bobby-hatfield', 'johnny-hartman', 'van-morrison', 'james-brown', 'etta-james', 'charles-aznavour',
-                       'israel-kamakawiwoole', 'don-mclean', 'steve-vai', 'gerry-mulligan', 'nicholas-hooper', 'bear-mccreary',
-                       'johann-johannsson', 'zack-hemsey', 'james-newton-howard', 'steve-jablonsky', 'harry-gregson-williams'];
-
-const musicianSongs = {
+const musicians = {
     'hans-zimmer': {
         songs: ['WhyDoWeFall.mp3', 'AgentOfChaos.mp3', 'Time.mp3', 'FirstStep.mp3', 'NoTimeForCaution.mp3', 'Mountains.mp3',
                 'GoodbyeMySon.mp3', 'MarryMeSuite.mp3', 'DavyJones.mp3', 'NotInBloodButInBond.mp3', 'NowWeAreFree.mp3',
@@ -56,6 +50,10 @@ const musicianSongs = {
         songs: ['AdagioForStrings.mp3'],
         idx: 0
     },
+    'lucio-dallo': {
+        songs: ['Caruso.mp3'],
+        idx: 0
+    },
     'ben-e-king': {
         songs: ['StandByMe.mp3'],
         idx: 0
@@ -66,6 +64,10 @@ const musicianSongs = {
     },
     'charles-bradley': {
         songs: ['CryingInTheChapel.mp3'],
+        idx: 0
+    },
+    'marvin-gaye-tammi-terrell': {
+        songs: ['AintNoMountainHighEnough.mp3'],
         idx: 0
     },
     'donny-hathaway': {
@@ -100,16 +102,36 @@ const musicianSongs = {
         songs: ['SomewhereOverTheRainbow.mp3'],
         idx: 0
     },
+    'nick-cave': {
+        songs: ['OChildren.mp3'],
+        idx: 0
+    },
+    'imogen-heap': {
+        songs: ['HideAndSeek.mp3'],
+        idx: 0
+    },
     'don-mclean': {
         songs: ['Vincent.mp3', 'VincentGuitar.mp3'],
+        idx: 0
+    },
+    'the-mamas-and-the-papas': {
+        songs: ['CaliforniaDreamin.mp3'],
         idx: 0
     },
     'steve-vai': {
         songs: ['ForTheLoveOfGod.mp3', 'TenderSurrender.mp3'],
         idx: 0
     },
+    'rodrigo-and-gabriela': {
+        songs: ['DiabloRojo.mp3'],
+        idx: 0
+    },
     'gerry-mulligan': {
         songs: ['PreludeInEMinorJazz.mp3'],
+        idx: 0
+    },
+    'dave-brubeck': {
+        songs: ['TakeFive.mp3', 'Maria.mp3'],
         idx: 0
     },
     'nicholas-hooper': {
@@ -136,8 +158,16 @@ const musicianSongs = {
         songs: ['Tessa.mp3', 'Sacrifice.mp3'],
         idx: 0
     },
+    'the-xx': {
+        songs: ['Intro.mp3'],
+        idx: 0
+    },
     'harry-gregson-williams': {
         songs: ['NarniaLullaby.mp3'],
+        idx: 0
+    },
+    'patrick-doyle': {
+        songs: ['AnotherYearEnds.mp3'],
         idx: 0
     }
 };
@@ -146,9 +176,9 @@ const audioWrapper = {
     audio: new Audio()
 };
 
-const playSong = (musicianName, musicianSongs, audioWrapper) => {
-    const str = `../songs/${musicianName}/${musicianSongs[musicianName].songs[musicianSongs[musicianName].idx]}`;
-    musicianSongs[musicianName].idx = (musicianSongs[musicianName].idx == musicianSongs[musicianName].songs.length - 1) ? 0 : musicianSongs[musicianName].idx + 1;
+const playSong = (musician, musicians, audioWrapper) => {
+    const str = `../songs/${musician}/${musicians[musician].songs[musicians[musician].idx]}`;
+    musicians[musician].idx = (musicians[musician].idx == musicians[musician].songs.length - 1) ? 0 : musicians[musician].idx + 1;
     audioWrapper.audio.pause();
     audioWrapper.audio = new Audio(str);
     const audioPromise = audioWrapper.audio.play();
@@ -163,102 +193,8 @@ const playSong = (musicianName, musicianSongs, audioWrapper) => {
     }
 }
 
-document.getElementById(musicianNames[0]).addEventListener('mouseover', () => {
-    playSong(musicianNames[0], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[1]).addEventListener('mouseover', () => {
-    playSong(musicianNames[1], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[2]).addEventListener('mouseover', () => {
-    playSong(musicianNames[2], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[3]).addEventListener('mouseover', () => {
-    playSong(musicianNames[3], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[4]).addEventListener('mouseover', () => {
-    playSong(musicianNames[4], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[5]).addEventListener('mouseover', () => {
-    playSong(musicianNames[5], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[6]).addEventListener('mouseover', () => {
-    playSong(musicianNames[6], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[7]).addEventListener('mouseover', () => {
-    playSong(musicianNames[7], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[8]).addEventListener('mouseover', () => {
-    playSong(musicianNames[8], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[9]).addEventListener('mouseover', () => {
-    playSong(musicianNames[9], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[10]).addEventListener('mouseover', () => {
-    playSong(musicianNames[10], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[11]).addEventListener('mouseover', () => {
-    playSong(musicianNames[11], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[12]).addEventListener('mouseover', () => {
-    playSong(musicianNames[12], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[13]).addEventListener('mouseover', () => {
-    playSong(musicianNames[13], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[14]).addEventListener('mouseover', () => {
-    playSong(musicianNames[14], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[15]).addEventListener('mouseover', () => {
-    playSong(musicianNames[15], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[16]).addEventListener('mouseover', () => {
-    playSong(musicianNames[16], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[17]).addEventListener('mouseover', () => {
-    playSong(musicianNames[17], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[18]).addEventListener('mouseover', () => {
-    playSong(musicianNames[18], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[19]).addEventListener('mouseover', () => {
-    playSong(musicianNames[19], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[20]).addEventListener('mouseover', () => {
-    playSong(musicianNames[20], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[21]).addEventListener('mouseover', () => {
-    playSong(musicianNames[21], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[22]).addEventListener('mouseover', () => {
-    playSong(musicianNames[22], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[23]).addEventListener('mouseover', () => {
-    playSong(musicianNames[23], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[24]).addEventListener('mouseover', () => {
-    playSong(musicianNames[24], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[25]).addEventListener('mouseover', () => {
-    playSong(musicianNames[25], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[26]).addEventListener('mouseover', () => {
-    playSong(musicianNames[26], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[27]).addEventListener('mouseover', () => {
-    playSong(musicianNames[27], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[28]).addEventListener('mouseover', () => {
-    playSong(musicianNames[28], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[29]).addEventListener('mouseover', () => {
-    playSong(musicianNames[29], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[30]).addEventListener('mouseover', () => {
-    playSong(musicianNames[30], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[31]).addEventListener('mouseover', () => {
-    playSong(musicianNames[31], musicianSongs, audioWrapper);
-});
-document.getElementById(musicianNames[32]).addEventListener('mouseover', () => {
-    playSong(musicianNames[32], musicianSongs, audioWrapper);
-});
+for (const musician in musicians) {
+    document.getElementById(musician).addEventListener('mouseover', () => {
+        playSong(musician, musicians, audioWrapper);
+    });  
+}
