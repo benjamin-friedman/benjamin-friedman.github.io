@@ -1,13 +1,14 @@
 const musicians = {
     'hans-zimmer': {
         songs: ['WhyDoWeFall.mp3', 'AgentOfChaos.mp3', 'Time.mp3', 'FirstStep.mp3', 'NoTimeForCaution.mp3', 'Mountains.mp3',
-                'GoodbyeMySon.mp3', 'MarryMeSuite.mp3', 'DavyJones.mp3', 'NotInBloodButInBond.mp3', 'NowWeAreFree.mp3',
-                'NowWeAreFreeCello.mp3'],
+                'GoodbyeMySon.mp3', 'MarryMeSuite.mp3', 'DavyJones.mp3', 'NotInBloodButInBond.mp3', 'AhPutrefaction.mp3',
+                'NowWeAreFree.mp3', 'NowWeAreFreeCello.mp3'],
         idx: 0
     },
     'chopin': {
         songs: ['PreludeInEMinor.mp3', 'NocturneInCSharpMinor.mp3', 'PreludeInDFlatMajor.mp3', 'BalladNo1InGMinor.mp3',
-                'NocturneInBFlatMinor.mp3', 'NocturneInCSharpMinorCello.mp3'],
+                'NocturneInBFlatMinor.mp3', 'NocturneInCSharpMinorCello.mp3', 'RevolutionaryEtude.mp3', 'WinterWind.mp3',
+                'FuneralMarch.mp3'],
         idx: 0
     },
     'schubert': {
@@ -19,7 +20,7 @@ const musicians = {
         idx: 0
     },
     'beethoven': {
-        songs: ['MoonlightSonata1stMovement.mp3', 'MoonlightSonata3rdMovement.mp3'],
+        songs: ['MoonlightSonata1stMovement.mp3', 'MoonlightSonata1stMovementEthereal.mp3', 'MoonlightSonata3rdMovement.mp3'],
         idx: 0
     },
     'satie': {
@@ -31,7 +32,7 @@ const musicians = {
         idx: 0
     },
     'bach': {
-        songs: ['ToccataAndFugueInDMinor.mp3', 'AirOnTheGString.mp3'],
+        songs: ['ToccataAndFugueInDMinor.mp3', 'AirOnTheGString.mp3', 'CelloSuiteNo1InGMajorPrelude.mp3'],
         idx: 0
     },
     'albinoni': {
@@ -48,6 +49,18 @@ const musicians = {
     },
     'samuel-barber': {
         songs: ['AdagioForStrings.mp3'],
+        idx: 0
+    },
+    'rachmaninoff': {
+        songs: ['PianoConcertoNo2.mp3', 'PianoConcertoNo22ndMovement.mp3'],
+        idx: 0
+    },
+    'bruch': {
+        songs: ['KolNidre.mp3'],
+        idx: 0
+    },
+    'gruber': {
+        songs: ['SilentNightPiano.mp3', 'SilentNightCello.mp3'],
         idx: 0
     },
     'lucio-dallo': {
@@ -118,12 +131,20 @@ const musicians = {
         songs: ['CaliforniaDreamin.mp3'],
         idx: 0
     },
+    'rufus-wainwright': {
+        songs: ['Hallelujah.mp3'],
+        idx: 0
+    },
     'steve-vai': {
         songs: ['ForTheLoveOfGod.mp3', 'TenderSurrender.mp3'],
         idx: 0
     },
     'rodrigo-and-gabriela': {
         songs: ['DiabloRojo.mp3'],
+        idx: 0
+    },
+    'rhapsody-of-fire': {
+        songs: ['GargoylesAngelsOfDarkness.mp3'],
         idx: 0
     },
     'gerry-mulligan': {
@@ -160,6 +181,10 @@ const musicians = {
     },
     'the-xx': {
         songs: ['Intro.mp3'],
+        idx: 0
+    },
+    'mike-patton': {
+        songs: ['TheSnowAngel.mp3'],
         idx: 0
     },
     'harry-gregson-williams': {
