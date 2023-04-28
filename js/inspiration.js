@@ -52,7 +52,7 @@ const musicians = {
         idx: 0
     },
     'rachmaninoff': {
-        songs: ['PianoConcertoNo2.mp3', 'PianoConcertoNo22ndMovement.mp3'],
+        songs: ['PianoConcertoNo21stMovement.mp3', 'PianoConcertoNo22ndMovement.mp3', 'PianoConcertoNo23rdMovement.mp3','PianoConcertoNo22ndMovementCello.mp3'],
         idx: 0
     },
     'bruch': {
