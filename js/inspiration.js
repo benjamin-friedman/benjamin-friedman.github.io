@@ -156,7 +156,7 @@ const musicians = {
         idx: 0
     },
     'nicholas-hooper': {
-        songs: ['WhenGinnyKissedHarry.mp3', 'DumbledoresFarewell.mp3'],
+        songs: ['WhenGinnyKissedHarry.mp3', 'DumbledoresFarewell.mp3', 'Possession.mp3'],
         idx: 0
     },
     'bear-mccreary': {
