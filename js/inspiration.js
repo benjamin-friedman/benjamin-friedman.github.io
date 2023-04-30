@@ -16,7 +16,7 @@ const musicians = {
         idx: 0
     },
     'liszt': {
-        songs: ['Liebestraum.mp3', 'ConsolationNo3.mp3', 'LaCampanella.mp3'],
+        songs: ['LiebestraumNo3.mp3', 'ConsolationNo3.mp3', 'LaCampanella.mp3'],
         idx: 0
     },
     'beethoven': {
