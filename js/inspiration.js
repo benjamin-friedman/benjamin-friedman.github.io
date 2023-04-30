@@ -1,8 +1,8 @@
 const musicians = {
     'hans-zimmer': {
-        songs: ['WhyDoWeFall.mp3', 'AgentOfChaos.mp3', 'Time.mp3', 'FirstStep.mp3', 'NoTimeForCaution.mp3', 'Mountains.mp3',
-                'GoodbyeMySon.mp3', 'MarryMeSuite.mp3', 'DavyJones.mp3', 'NotInBloodButInBond.mp3', 'AhPutrefaction.mp3',
-                'NowWeAreFree.mp3', 'NowWeAreFreeCello.mp3'],
+        songs: ['WhyDoWeFall.mp3', 'AgentOfChaos.mp3', 'Molossus.mp3', 'Time.mp3', 'FirstStep.mp3', 'NoTimeForCaution.mp3',
+                'Mountains.mp3', 'GoodbyeMySon.mp3', 'MarryMeSuite.mp3', 'DavyJones.mp3', 'NotInBloodButInBond.mp3',
+                'AhPutrefaction.mp3', 'NowWeAreFree.mp3', 'NowWeAreFreeCello.mp3'],
         idx: 0
     },
     'chopin': {
@@ -172,7 +172,7 @@ const musicians = {
         idx: 0
     },
     'james-newton-howard': {
-        songs: ['Molossus.mp3', 'TenuousWinnersReturningHome.mp3', 'RuesFarewell.mp3'],
+        songs: ['TenuousWinnersReturningHome.mp3', 'RuesFarewell.mp3'],
         idx: 0
     },
     'steve-jablonsky': {
