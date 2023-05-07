@@ -197,6 +197,7 @@ const musicians = {
     }
 };
 
+
 const audioWrapper = {
     audio: new Audio()
 };
@@ -219,7 +220,7 @@ const playSong = (musician, musicians, audioWrapper) => {
 }
 
 for (const musician in musicians) {
-    document.getElementById(musician).addEventListener('mouseover', () => {
+    document.getElementById(musician).addEventListener('click', () => {
         playSong(musician, musicians, audioWrapper);
     });  
 }
