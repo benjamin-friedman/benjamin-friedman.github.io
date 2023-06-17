@@ -12,7 +12,7 @@ const musicians = {
         idx: 0
     },
     'schubert': {
-        songs: ['PianoTrioNo2InEFlatMajor.mp3', 'Serenade.mp3', 'SerenadePiano.mp3'],
+        songs: ['ImpromptuInGFlatMajor.mp3', 'PianoTrioNo2InEFlatMajor.mp3', 'Serenade.mp3', 'SerenadePiano.mp3'],
         idx: 0
     },
     'liszt': {
