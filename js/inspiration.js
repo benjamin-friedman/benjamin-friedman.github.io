@@ -9,10 +9,9 @@ const musicians = {
         songs: ['PreludeInEMinor.mp3', 'PreludeInDFlatMajor.mp3', 'NocturneInBFlatMinor.mp3', 'NocturneInEFlatMajorOp9No2.mp3', 'NocturneInBMajorOp9No3.mp3',
                 'NocturneInFMajor.mp3', 'NocturneInFSharpMajor.mp3', 'NocturneInGMinorOp15No3.mp3', 'NocturneInCSharpMinorOp27No1.mp3', 'NocturneInDFlatMajor.mp3',
                 'NocturneInBMajorOp32No1.mp3', 'NocturneInAFlatMajor.mp3', 'NocturneInGMinorOp37No1.mp3', 'NocturneInGMajor.mp3', 'NocturneInCMinorOp48No1.mp3',
-                'NocturneInFSharpMinor.mp3', 'NocturneInFMinor.mp3', 'NocturneInEFlatMajorOp55No2.mp3', 'NocturneInBMajorOp62No1.mp3', 'NocturneInCSharpMinor.mp3',
-                'BalladNo1InGMinor.mp3',
-                 'NocturneInCSharpMinorCello.mp3', 'RevolutionaryEtude.mp3', 'WinterWind.mp3',
-                'FuneralMarch.mp3'],
+                'NocturneInFSharpMinor.mp3', 'NocturneInFMinor.mp3', 'NocturneInEFlatMajorOp55No2.mp3', 'NocturneInBMajorOp62No1.mp3', 'NocturneInEMajor.mp3',
+                'NocturneInEMinor.mp3', 'NocturneInCSharpMinorP1No16.mp3', 'NocturneInCMinorP2No8.mp3', 'BalladNo1InGMinor.mp3', 'RevolutionaryEtude.mp3', 'WinterWind.mp3',
+                'FuneralMarch.mp3', 'NocturneInCSharpMinorCelloP1No16.mp3'],
         idx: 0
     },
     'schubert': {
