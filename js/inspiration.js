@@ -163,7 +163,7 @@ const musicians = {
         idx: 0
     },
     'gerry-mulligan': {
-        songs: ['Prelude In E Minor Op. 28 No. 4 - Saxophone Version'],
+        songs: ['Prelude In E Minor Op. 28 No. 4 - Jazz'],
         idx: 0
     },
     'dave-brubeck': {
@@ -175,7 +175,7 @@ const musicians = {
         idx: 0
     },
     'bear-mccreary': {
-        songs: ['Reconciliation', 'Carl'],
+        songs: ['Reconciliation'],
         idx: 0
     },
     'johann-johannsson': {
@@ -225,16 +225,16 @@ const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => 
     // display current muscian's name, hide previous musicians name and song
     if (currentMusicianWrapper.currentMusician !== musician) {
         if (currentMusicianWrapper.currentMusician !== '') {
-            document.getElementById(currentMusicianWrapper.currentMusician).getElementsByTagName('h5')[0].style.visibility = 'hidden';
-            document.getElementById(currentMusicianWrapper.currentMusician).getElementsByTagName('p')[0].innerHTML = '';
+            document.getElementById(`${currentMusicianWrapper.currentMusician}-title`).style.visibility = 'hidden';
+            document.getElementById(`${currentMusicianWrapper.currentMusician}-song`).innerHTML = '';
         }
         currentMusicianWrapper.currentMusician = musician;
-        document.getElementById(musician).getElementsByTagName('h5')[0].style.visibility = 'visible';
+        document.getElementById(`${currentMusicianWrapper.currentMusician}-title`).style.visibility = 'visible';
     }
 
     // display new song name
     const song = musicians[musician].songs[musicians[musician].idx];
-    document.getElementById(musician).getElementsByTagName('p')[0].innerHTML = song;
+    document.getElementById(`${musician}-song`).innerHTML = song;
 
     const str = `../songs/${musician}/${song}.mp3`;
     musicians[musician].idx = (musicians[musician].idx == musicians[musician].songs.length - 1) ? 0 : musicians[musician].idx + 1;
@@ -254,7 +254,7 @@ const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => 
 
 for (const musician in musicians) {
     
-    document.getElementById(musician).getElementsByTagName('img')[0].addEventListener('click', () => {
+    document.getElementById(`${musician}-img`).addEventListener('click', () => {
         playSong(musician, musicians, audioWrapper, currentMusicianWrapper);
     });  
 }
