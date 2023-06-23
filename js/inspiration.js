@@ -1,6 +1,6 @@
 const musicians = {
     'hans-zimmer': {
-        songs: ['Why Do We Fall', 'Agent Of Chaos', 'Molossus', 'Time', 'First Step', 'No Time For Caution',
+        songs: ['Why Do We Fall', 'Agent Of Chaos', 'Molossus', 'Time', 'Projections', 'First Step', 'No Time For Caution',
                 'Mountains', 'Goodbye My Son', 'Is She With You', 'Marry Me Suite', 'Davy Jones', 'Not In Blood But In Bond',
                 'Ah, Putrefaction', 'Now We Are Free', 'Now We Are Free - Cello (Hauser)'],
         idx: 0
@@ -15,7 +15,7 @@ const musicians = {
         idx: 0
     },
     'schubert': {
-        songs: ['Impromptu In G Flat Major Op. 90 No. 3', 'Piano Trio No. 2 In E Flat Major Movement II Op. 100', 'Serenade', 'Serenade - Piano (arr. Liszt)'],
+        songs: ['Impromptu In G Flat Major Op. 90 No. 3', 'Piano Trio No. 2 In E Flat Major Movement II Op. 100', 'Serenade', 'Serenade - Piano and Cello (Hauser)', 'Serenade - Piano (arr. Liszt)'],
         idx: 0
     },
     'liszt': {
