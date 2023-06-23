@@ -1,33 +1,33 @@
 const musicians = {
     'hans-zimmer': {
-        songs: ['WhyDoWeFall.mp3', 'AgentOfChaos.mp3', 'Molossus.mp3', 'Time.mp3', 'FirstStep.mp3', 'NoTimeForCaution.mp3',
-                'Mountains.mp3', 'GoodbyeMySon.mp3', 'MarryMeSuite.mp3', 'DavyJones.mp3', 'NotInBloodButInBond.mp3',
-                'AhPutrefaction.mp3', 'NowWeAreFree.mp3', 'NowWeAreFreeCello.mp3'],
+        songs: ['Why Do We Fall', 'Agent Of Chaos', 'Molossus', 'Time', 'First Step', 'No Time For Caution',
+                'Mountains', 'Goodbye My Son', 'Marry Me Suite', 'Davy Jones', 'Not In Blood But In Bond',
+                'Ah, Putrefaction', 'Now We Are Free', 'Now We Are Free - Cello (Hauser)'],
         idx: 0
     },
     'chopin': {
-        songs: ['PreludeInEMinor.mp3', 'PreludeInDFlatMajor.mp3', 'NocturneInBFlatMinor.mp3', 'NocturneInEFlatMajorOp9No2.mp3', 'NocturneInBMajorOp9No3.mp3',
-                'NocturneInFMajor.mp3', 'NocturneInFSharpMajor.mp3', 'NocturneInGMinorOp15No3.mp3', 'NocturneInCSharpMinorOp27No1.mp3', 'NocturneInDFlatMajor.mp3',
-                'NocturneInBMajorOp32No1.mp3', 'NocturneInAFlatMajor.mp3', 'NocturneInGMinorOp37No1.mp3', 'NocturneInGMajor.mp3', 'NocturneInCMinorOp48No1.mp3',
-                'NocturneInFSharpMinor.mp3', 'NocturneInFMinor.mp3', 'NocturneInEFlatMajorOp55No2.mp3', 'NocturneInBMajorOp62No1.mp3', 'NocturneInEMajor.mp3',
-                'NocturneInEMinor.mp3', 'NocturneInCSharpMinorP1No16.mp3', 'NocturneInCMinorP2No8.mp3', 'BalladNo1InGMinor.mp3', 'RevolutionaryEtude.mp3', 'WinterWind.mp3',
-                'FuneralMarch.mp3', 'NocturneInCSharpMinorP1No16Cello.mp3'],
+        songs: ['Prelude In E Minor Op. 28 No. 4', 'Prelude In D Flat Major Op. 28 No. 15', 'Nocturne In B Flat Minor Op. 9 No. 1', 'Nocturne In E Flat Major Op. 9 No. 2', 'Nocturne In B Major Op. 9 No. 3',
+                'Nocturne In F Major Op. 15 No. 1', 'Nocturne In F Sharp Major Op. 15 No. 2', 'Nocturne In G Minor Op. 15 No. 3', 'Nocturne In C Sharp Minor Op 27. No. 1', 'Nocturne In D Flat Major Op. 27 No. 2',
+                'Nocturne In B Major Op. 32 No. 1', 'Nocturne In A Flat Major Op. 32 No. 2', 'Nocturne In G Minor Op. 37 No. 1', 'Nocturne In G Major Op. 37 No. 2', 'Nocturne In C Minor Op. 48 No. 1',
+                'Nocturne In F Sharp Minor Op. 48 No. 2', 'Nocturne In F Minor Op. 55 No. 1', 'Nocturne In E Flat Major Op. 55 No. 2', 'Nocturne In B Major Op. 62 No. 1', 'Nocturne In E Major Op. 62 No. 2',
+                'Nocturne In E Minor Op. 72 No. 1', 'Nocturne In C Sharp Minor, Op. Posth.', 'Nocturne In C Minor Op. Posth.', 'Ballade No. 1 In G Minor Op. 23.', 'Etude In C Minor Op. 10 No. 12 (Revolutionary Etude)',
+                'Etude In A Minor Op. 25 No. 11 (Winter Wind)', 'Piano Sonata No. 2 In B Flat Minor Movement III (Funeral March)', 'Nocturne In C Sharp Minor, Op. Posth. - Cello (Hauser)'],
         idx: 0
     },
     'schubert': {
-        songs: ['ImpromptuInGFlatMajor.mp3', 'PianoTrioNo2InEFlatMajor.mp3', 'Serenade.mp3', 'SerenadePiano.mp3'],
+        songs: ['Impromptu In G Flat Major Op. 90 No. 3', 'Piano Trio No. 2 In E Flat Major Movement II Op. 100', 'Serenade', 'Serenade - Piano (arr. Liszt)'],
         idx: 0
     },
     'liszt': {
-        songs: ['LiebestraumNo3.mp3', 'ConsolationNo3.mp3', 'LaCampanella.mp3'],
+        songs: ['Liebestraum No. 3', 'Consolation No. 3', 'La Campanella'],
         idx: 0
     },
     'beethoven': {
-        songs: ['MoonlightSonata1stMovement.mp3', 'MoonlightSonata1stMovementEthereal.mp3', 'MoonlightSonata3rdMovement.mp3'],
+        songs: ['Moonlight Sonata 1st Movement', 'Moonlight Sonata 1st Movement - Cello and Piano', 'Moonlight Sonata 1st Movement - Ethereal', 'Moonlight Sonata 3rd Movement'],
         idx: 0
     },
     'satie': {
-        songs: ['Gnossienne1.mp3', 'GymnopedieNo1.mp3'],
+        songs: ['Gnossienne No. 1', 'Gymnopedie No. 1'],
         idx: 0
     },
     'mozart': {
@@ -200,13 +200,31 @@ const musicians = {
     }
 };
 
-
+// global variables
 const audioWrapper = {
     audio: new Audio()
 };
 
-const playSong = (musician, musicians, audioWrapper) => {
-    const str = `../songs/${musician}/${musicians[musician].songs[musicians[musician].idx]}`;
+let currentMusicianWrapper = {
+    currentMusician: ''
+};
+
+const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => {
+    // display current muscian's name, hide previous musicians name and song
+    if (currentMusicianWrapper.currentMusician !== musician) {
+        if (currentMusicianWrapper.currentMusician !== '') {
+            document.getElementById(currentMusicianWrapper.currentMusician).getElementsByTagName('h4')[0].style.visibility = 'hidden';
+            document.getElementById(currentMusicianWrapper.currentMusician).getElementsByTagName('p')[0].innerHTML = '';
+        }
+        currentMusicianWrapper.currentMusician = musician;
+        document.getElementById(musician).getElementsByTagName('h4')[0].style.visibility = 'visible';
+    }
+
+    // display new song name
+    const song = musicians[musician].songs[musicians[musician].idx];
+    document.getElementById(musician).getElementsByTagName('p')[0].innerHTML = song;
+
+    const str = `../songs/${musician}/${song}.mp3`;
     musicians[musician].idx = (musicians[musician].idx == musicians[musician].songs.length - 1) ? 0 : musicians[musician].idx + 1;
     audioWrapper.audio.pause();
     audioWrapper.audio = new Audio(str);
@@ -223,7 +241,8 @@ const playSong = (musician, musicians, audioWrapper) => {
 }
 
 for (const musician in musicians) {
-    document.getElementById(musician).addEventListener('click', () => {
-        playSong(musician, musicians, audioWrapper);
+    
+    document.getElementById(musician).getElementsByTagName('img')[0].addEventListener('click', () => {
+        playSong(musician, musicians, audioWrapper, currentMusicianWrapper);
     });  
 }
