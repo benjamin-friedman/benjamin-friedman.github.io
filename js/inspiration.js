@@ -2,7 +2,7 @@ const musicians = {
     'hans-zimmer': {
         songs: ['Why Do We Fall', 'Agent Of Chaos', 'Molossus', 'Time', 'Projections', 'First Step', 'No Time For Caution',
                 'Mountains', 'Goodbye My Son', 'Is She With You', 'Marry Me Suite', 'Davy Jones', 'Not In Blood But In Bond',
-                'Ah, Putrefaction', 'Now We Are Free', 'Now We Are Free - Cello (Hauser)'],
+                'Ah, Putrefaction', 'Now We Are Free', 'Now We Are Free - Cello'],
         idx: 0
     },
     'chopin': {
@@ -11,11 +11,11 @@ const musicians = {
                 'Nocturne In B Major Op. 32 No. 1', 'Nocturne In A Flat Major Op. 32 No. 2', 'Nocturne In G Minor Op. 37 No. 1', 'Nocturne In G Major Op. 37 No. 2', 'Nocturne In C Minor Op. 48 No. 1',
                 'Nocturne In F Sharp Minor Op. 48 No. 2', 'Nocturne In F Minor Op. 55 No. 1', 'Nocturne In E Flat Major Op. 55 No. 2', 'Nocturne In B Major Op. 62 No. 1', 'Nocturne In E Major Op. 62 No. 2',
                 'Nocturne In E Minor Op. 72 No. 1', 'Nocturne In C Sharp Minor, Op. Posth.', 'Nocturne In C Minor Op. Posth.', 'Ballade No. 1 In G Minor Op. 23.', 'Etude In C Minor Op. 10 No. 12 (Revolutionary Etude)',
-                'Etude In A Minor Op. 25 No. 11 (Winter Wind)', 'Piano Sonata No. 2 In B Flat Minor Movement III (Funeral March)', 'Nocturne In C Sharp Minor, Op. Posth. - Cello (Hauser)'],
+                'Etude In A Minor Op. 25 No. 11 (Winter Wind)', 'Piano Sonata No. 2 In B Flat Minor Movement III (Funeral March)', 'Nocturne In C Sharp Minor, Op. Posth. - Cello'],
         idx: 0
     },
     'schubert': {
-        songs: ['Impromptu In G Flat Major Op. 90 No. 3', 'Piano Trio No. 2 In E Flat Major Movement II Op. 100', 'Serenade', 'Serenade - Piano and Cello (Hauser)', 'Serenade - Piano (arr. Liszt)'],
+        songs: ['Impromptu In G Flat Major Op. 90 No. 3', 'Piano Trio No. 2 In E Flat Major Movement II Op. 100', 'Serenade', 'Serenade - Piano and Cello', 'Serenade - Piano (arr. Liszt)'],
         idx: 0
     },
     'liszt': {
@@ -31,19 +31,19 @@ const musicians = {
         idx: 0
     },
     'mozart': {
-        songs: ['Fantasia No. 3 In D Minor', 'Serenade No. 10 For Winds In B Flat Major 3rd Movement', 'Requiem In D Minor Introitus', 'Requiem In D Minor Lacrimosa', 'Requiem In D Minor Lacrimosa - Cello (Hauser)'],
+        songs: ['Fantasia No. 3 In D Minor', 'Serenade No. 10 For Winds In B Flat Major 3rd Movement', 'Requiem In D Minor Introitus', 'Requiem In D Minor Lacrimosa', 'Requiem In D Minor Lacrimosa - Cello'],
         idx: 0
     },
     'bach': {
-        songs: ['Toccata And Fugue In D Minor', 'Air On The G String - Cello (Hauser)', 'Cello Suite No. 1 In G Major Prelude'],
+        songs: ['Toccata And Fugue In D Minor', 'Air On The G String', 'Cello Suite No. 1 In G Major Prelude'],
         idx: 0
     },
     'albinoni': {
-        songs: ['Adagio - Cello (Hauser)'],
+        songs: ['Adagio'],
         idx: 0
     },
     'saint-saens': {
-        songs: ['The Swan - Cello and Harp (Hauser)', 'The Swan - Cello and Piano (Yo-Yo Ma)'],
+        songs: ['The Swan - Cello and Harp', 'The Swan - Cello and Piano'],
         idx: 0
     },
     'debussy': {
@@ -51,11 +51,19 @@ const musicians = {
         idx: 0
     },
     'samuel-barber': {
-        songs: ['Adagio For Strings - Cello (Hauser)'],
+        songs: ['Adagio For Strings'],
         idx: 0
     },
     'rachmaninoff': {
-        songs: ['Piano Concerto No. 2 1st Movement', 'Piano Concerto No. 2 2nd Movement', 'Piano Concerto No. 2 3rd Movement','Piano Concerto No. 2 2nd Movement - Cello (Hauser)'],
+        songs: ['Piano Concerto No. 2 1st Movement', 'Piano Concerto No. 2 2nd Movement', 'Piano Concerto No. 2 3rd Movement', 'Piano Concerto No. 2 2nd Movement - Cello'],
+        idx: 0
+    },
+    'schumann': {
+        songs: ['Cello Concerto In A Minor Op. 129'],
+        idx: 0
+    },
+    'shostakovich': {
+        songs: ['Waltz No. 2'],
         idx: 0
     },
     'bruch': {
@@ -67,7 +75,7 @@ const musicians = {
         idx: 0
     },
     'lucio-dallo': {
-        songs: ['Caruso', 'Caruso - Cello (Hauser)'],
+        songs: ['Caruso', 'Caruso - Cello'],
         idx: 0
     },
     'ben-e-king': {
