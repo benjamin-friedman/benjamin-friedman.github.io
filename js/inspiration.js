@@ -1,7 +1,7 @@
 const musicians = {
     'hans-zimmer': {
         songs: ['Why Do We Fall', 'Agent Of Chaos', 'Molossus', 'Time', 'First Step', 'No Time For Caution',
-                'Mountains', 'Goodbye My Son', 'Marry Me Suite', 'Davy Jones', 'Not In Blood But In Bond',
+                'Mountains', 'Goodbye My Son', 'Is She With You', 'Marry Me Suite', 'Davy Jones', 'Not In Blood But In Bond',
                 'Ah, Putrefaction', 'Now We Are Free', 'Now We Are Free - Cello (Hauser)'],
         idx: 0
     },
@@ -31,171 +31,171 @@ const musicians = {
         idx: 0
     },
     'mozart': {
-        songs: ['FantasiaInDMinor.mp3', 'SerenadeForWinds.mp3'],
+        songs: ['Fantasia No. 3 In D Minor', 'Serenade No. 10 For Winds In B Flat Major 3rd Movement', 'Requiem In D Minor Introitus', 'Requiem In D Minor Lacrimosa', 'Requiem In D Minor Lacrimosa - Cello (Hauser)'],
         idx: 0
     },
     'bach': {
-        songs: ['ToccataAndFugueInDMinor.mp3', 'AirOnTheGString.mp3', 'CelloSuiteNo1InGMajorPrelude.mp3'],
+        songs: ['Toccata And Fugue In D Minor', 'Air On The G String - Cello (Hauser)', 'Cello Suite No. 1 In G Major Prelude'],
         idx: 0
     },
     'albinoni': {
-        songs: ['Adagio.mp3'],
+        songs: ['Adagio - Cello (Hauser)'],
         idx: 0
     },
     'saint-saens': {
-        songs: ['TheSwan.mp3'],
+        songs: ['The Swan - Cello and Harp (Hauser)', 'The Swan - Cello and Piano (Yo-Yo Ma)'],
         idx: 0
     },
     'debussy': {
-        songs: ['Reverie.mp3', 'ClairDeLune.mp3', 'ArabesqueNo1.mp3'],
+        songs: ['Reverie', 'Clair De Lune', 'Arabesque No. 1'],
         idx: 0
     },
     'samuel-barber': {
-        songs: ['AdagioForStrings.mp3'],
+        songs: ['Adagio For Strings - Cello (Hauser)'],
         idx: 0
     },
     'rachmaninoff': {
-        songs: ['PianoConcertoNo21stMovement.mp3', 'PianoConcertoNo22ndMovement.mp3', 'PianoConcertoNo23rdMovement.mp3','PianoConcertoNo22ndMovementCello.mp3'],
+        songs: ['Piano Concerto No. 2 1st Movement', 'Piano Concerto No. 2 2nd Movement', 'Piano Concerto No. 2 3rd Movement','Piano Concerto No. 2 2nd Movement - Cello (Hauser)'],
         idx: 0
     },
     'bruch': {
-        songs: ['KolNidre.mp3'],
+        songs: ['Kol Nidre'],
         idx: 0
     },
     'gruber': {
-        songs: ['SilentNightPiano.mp3', 'SilentNightCello.mp3'],
+        songs: ['Silent Night - Piano', 'Silent Night - Cello'],
         idx: 0
     },
     'lucio-dallo': {
-        songs: ['Caruso.mp3'],
+        songs: ['Caruso', 'Caruso - Cello (Hauser)'],
         idx: 0
     },
     'ben-e-king': {
-        songs: ['StandByMe.mp3'],
+        songs: ['Stand By Me'],
         idx: 0
     },
     'eva-cassidy': {
-        songs: ['WadeInTheWater.mp3'],
+        songs: ['Wade In The Water'],
         idx: 0
     },
     'charles-bradley': {
-        songs: ['CryingInTheChapel.mp3'],
+        songs: ['Crying In The Chapel'],
         idx: 0
     },
     'marvin-gaye-tammi-terrell': {
-        songs: ['AintNoMountainHighEnough.mp3'],
+        songs: ["Ain't No Mountain High Enough"],
         idx: 0
     },
     'donny-hathaway': {
-        songs: ['ASongForYou.mp3'],
+        songs: ['A Song For You'],
         idx: 0
     },
     'bobby-hatfield': {
-        songs: ['UnchainedMelody.mp3'],
+        songs: ['Unchained Melody'],
         idx: 0
     },
     'johnny-hartman': {
-        songs: ['ForAllWeKnow.mp3'],
+        songs: ['For All We Know'],
         idx: 0
     },
     'van-morrison': {
-        songs: ['Moondance.mp3'],
+        songs: ['Moondance'],
         idx: 0
     },
     'james-brown': {
-        songs: ['TryMe.mp3'],
+        songs: ['Try Me'],
         idx: 0
     },
     'etta-james': {
-        songs: ['IdRatherGoBlind.mp3'],
+        songs: ["I'd Rather Go Blind"],
         idx: 0
     },
     'charles-aznavour': {
-        songs: ['ForMeFormidable.mp3'],
+        songs: ['For Me Formidable'],
         idx: 0
     },
     'israel-kamakawiwoole': {
-        songs: ['SomewhereOverTheRainbow.mp3'],
+        songs: ['Somewhere Over The Rainbow'],
         idx: 0
     },
     'nick-cave': {
-        songs: ['OChildren.mp3'],
+        songs: ['O Children'],
         idx: 0
     },
     'imogen-heap': {
-        songs: ['HideAndSeek.mp3'],
+        songs: ['Hide And Seek'],
         idx: 0
     },
     'don-mclean': {
-        songs: ['Vincent.mp3', 'VincentGuitar.mp3'],
+        songs: ['Vincent', 'Vincent - Guitar', 'American Pie'],
         idx: 0
     },
     'the-mamas-and-the-papas': {
-        songs: ['CaliforniaDreamin.mp3'],
+        songs: ["California Dreamin'"],
         idx: 0
     },
     'rufus-wainwright': {
-        songs: ['Hallelujah.mp3'],
+        songs: ['Hallelujah'],
         idx: 0
     },
     'steve-vai': {
-        songs: ['ForTheLoveOfGod.mp3', 'TenderSurrender.mp3'],
+        songs: ['For The Love Of God', 'Tender Surrender'],
         idx: 0
     },
     'rodrigo-and-gabriela': {
-        songs: ['DiabloRojo.mp3'],
+        songs: ['Diablo Rojo'],
         idx: 0
     },
     'rhapsody-of-fire': {
-        songs: ['GargoylesAngelsOfDarkness.mp3'],
+        songs: ['Gargoyles Angels Of Darkness'],
         idx: 0
     },
     'gerry-mulligan': {
-        songs: ['PreludeInEMinorJazz.mp3'],
+        songs: ['Prelude In E Minor Op. 28 No. 4 - Saxophone Version'],
         idx: 0
     },
     'dave-brubeck': {
-        songs: ['TakeFive.mp3', 'Maria.mp3'],
+        songs: ['Take Five', 'Maria'],
         idx: 0
     },
     'nicholas-hooper': {
-        songs: ['WhenGinnyKissedHarry.mp3', 'DumbledoresFarewell.mp3', 'Possession.mp3'],
+        songs: ['When Ginny Kissed Harry', "Dumbledore's Farewell", 'Possession'],
         idx: 0
     },
     'bear-mccreary': {
-        songs: ['Reconciliation.mp3'],
+        songs: ['Reconciliation', 'Carl'],
         idx: 0
     },
     'johann-johannsson': {
-        songs: ['TheSunsGoneDimAndTheSkysTurnedBlack.mp3'],
+        songs: ["The Sun's Gone Dim And The Sky's Turned Black"],
         idx: 0
     },
     'zack-hemsey': {
-        songs: ['TheWay.mp3'],
+        songs: ['The Way'],
         idx: 0
     },
     'james-newton-howard': {
-        songs: ['TenuousWinnersReturningHome.mp3', 'RuesFarewell.mp3'],
+        songs: ['Tenuous Winners/Returning Home', "Rue's Farewell"],
         idx: 0
     },
     'steve-jablonsky': {
-        songs: ['Tessa.mp3', 'Sacrifice.mp3'],
+        songs: ['Tessa', 'Sacrifice'],
         idx: 0
     },
     'the-xx': {
-        songs: ['Intro.mp3'],
+        songs: ['Intro', 'Angels'],
         idx: 0
     },
     'mike-patton': {
-        songs: ['TheSnowAngel.mp3'],
+        songs: ['The Snow Angel'],
         idx: 0
     },
     'harry-gregson-williams': {
-        songs: ['NarniaLullaby.mp3'],
+        songs: ['Narnia Lullaby'],
         idx: 0
     },
     'patrick-doyle': {
-        songs: ['AnotherYearEnds.mp3'],
+        songs: ['Another Year Ends'],
         idx: 0
     }
 };
@@ -213,11 +213,11 @@ const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => 
     // display current muscian's name, hide previous musicians name and song
     if (currentMusicianWrapper.currentMusician !== musician) {
         if (currentMusicianWrapper.currentMusician !== '') {
-            document.getElementById(currentMusicianWrapper.currentMusician).getElementsByTagName('h4')[0].style.visibility = 'hidden';
+            document.getElementById(currentMusicianWrapper.currentMusician).getElementsByTagName('h5')[0].style.visibility = 'hidden';
             document.getElementById(currentMusicianWrapper.currentMusician).getElementsByTagName('p')[0].innerHTML = '';
         }
         currentMusicianWrapper.currentMusician = musician;
-        document.getElementById(musician).getElementsByTagName('h4')[0].style.visibility = 'visible';
+        document.getElementById(musician).getElementsByTagName('h5')[0].style.visibility = 'visible';
     }
 
     // display new song name
