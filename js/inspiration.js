@@ -170,6 +170,10 @@ const musicians = {
         songs: ['Take Five', 'Maria'],
         idx: 0
     },
+    'larnell-lewis': {
+        songs: ['Drum Solo'],
+        idx: 0
+    },
     'nicholas-hooper': {
         songs: ['When Ginny Kissed Harry', "Dumbledore's Farewell", 'Possession'],
         idx: 0
@@ -196,6 +200,14 @@ const musicians = {
     },
     'the-xx': {
         songs: ['Intro'],
+        idx: 0
+    },
+    'atis-freivalds': {
+        songs: ['Paradox', 'For Her'],
+        idx: 0
+    },
+    'jesper-kyd': {
+        songs: ["Ezio's Family", 'Echoes Of The Roman Ruins'],
         idx: 0
     },
     'mike-patton': {
