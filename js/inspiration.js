@@ -8,7 +8,7 @@ const musicians = {
     'chopin': {
         songs: ['Nocturne In E Minor Op. 72 No. 1', 'Prelude In E Minor Op. 28 No. 4', 'Prelude In D Flat Major Op. 28 No. 15', 'Nocturne In C Sharp Minor, Op. Posth.', 'Nocturne In B Flat Minor Op. 9 No. 1',
                 'Nocturne In E Flat Major Op. 9 No. 2', 'Nocturne In B Major Op. 9 No. 3', 'Nocturne In F Major Op. 15 No. 1', 'Nocturne In F Sharp Major Op. 15 No. 2', 'Nocturne In G Minor Op. 15 No. 3',
-                'Nocturne In C Sharp Minor Op 27. No. 1', 'Nocturne In D Flat Major Op. 27 No. 2', 'Nocturne In B Major Op. 32 No. 1', 'Nocturne In A Flat Major Op. 32 No. 2', 'Nocturne In G Minor Op. 37 No. 1',
+                'Nocturne In C Sharp Minor Op. 27 No. 1', 'Nocturne In D Flat Major Op. 27 No. 2', 'Nocturne In B Major Op. 32 No. 1', 'Nocturne In A Flat Major Op. 32 No. 2', 'Nocturne In G Minor Op. 37 No. 1',
                 'Nocturne In G Major Op. 37 No. 2', 'Nocturne In C Minor Op. 48 No. 1', 'Nocturne In F Sharp Minor Op. 48 No. 2', 'Nocturne In F Minor Op. 55 No. 1', 'Nocturne In E Flat Major Op. 55 No. 2',
                 'Nocturne In B Major Op. 62 No. 1', 'Nocturne In E Major Op. 62 No. 2', 'Nocturne In C Minor Op. Posth.', 'Ballade No. 1 In G Minor Op. 23.', 'Etude In C Minor Op. 10 No. 12 (Revolutionary Etude)',
                 'Etude In A Minor Op. 25 No. 11 (Winter Wind)', 'Piano Sonata No. 2 In B Flat Minor Movement III (Funeral March)', 'Nocturne In C Sharp Minor, Op. Posth. - Cello'],
@@ -74,7 +74,7 @@ const musicians = {
         songs: ['Silent Night - Piano', 'Silent Night - Cello'],
         idx: 0
     },
-    'lucio-dallo': {
+    'lucio-dalla': {
         songs: ['Caruso', 'Caruso - Cello'],
         idx: 0
     },
