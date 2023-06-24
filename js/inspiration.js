@@ -187,7 +187,7 @@ const musicians = {
         idx: 0
     },
     'james-newton-howard': {
-        songs: ['Tenuous Winners/Returning Home', "Rue's Farewell"],
+        songs: ['There Are Worse Games To Play-Deep In The Meadow-The Hunger Games Suite', "Rue's Farewell", "Snow's Execution"],
         idx: 0
     },
     'steve-jablonsky': {
