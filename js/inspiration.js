@@ -1,8 +1,8 @@
 const musicians = {
     'hans-zimmer': {
-        songs: ['Why Do We Fall', 'Agent Of Chaos', 'Molossus', "Gotham's Reckoning", 'Time', 'Projections', 'First Step', 'No Time For Caution',
-                'Mountains', 'Final Ascent', 'Goodbye My Son', 'Is She With You', 'Marry Me Suite', 'Davy Jones', 'Not In Blood But In Bond',
-                'Ah, Putrefaction', 'Now We Are Free', 'Now We Are Free - Cello'],
+        songs: ['Why Do We Fall', 'Agent Of Chaos', 'Molossus', "Gotham's Reckoning", 'Imagine The Fire', 'Necessary Evil', 'Nothing Out There', 'Rise', 'A Dark Knight',
+                'Time', 'Projections', 'First Step', 'No Time For Caution', 'Mountains', 'Final Ascent', 'Goodbye My Son', 'Is She With You', 'Marry Me Suite', 'Davy Jones',
+                'Not In Blood But In Bond', 'Ah, Putrefaction', 'Now We Are Free', 'Now We Are Free - Cello'],
         idx: 0
     },
     'chopin': {
