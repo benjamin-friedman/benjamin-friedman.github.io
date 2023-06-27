@@ -162,6 +162,14 @@ const musicians = {
         songs: ['Gargoyles Angels Of Darkness'],
         idx: 0
     },
+    'meshuggah': {
+        songs: ['Bleed'],
+        idx: 0
+    },
+    'slipknot': {
+        songs: ['All Out Life', 'Psychosocial', 'Sulfur', 'Disasterpiece', 'Skin Ticket', 'Purity'],
+        idx: 0
+    },
     'gerry-mulligan': {
         songs: ['Prelude In E Minor Op. 28 No. 4 - Jazz'],
         idx: 0
