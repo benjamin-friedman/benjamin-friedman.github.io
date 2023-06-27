@@ -119,7 +119,7 @@ const musicians = {
         idx: 0
     },
     'etta-james': {
-        songs: ["I'd Rather Go Blind"],
+        songs: ["I'd Rather Go Blind", "Lord Don't Move That Mountain"],
         idx: 0
     },
     'charles-aznavour': {
