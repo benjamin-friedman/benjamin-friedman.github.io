@@ -166,8 +166,24 @@ const musicians = {
         songs: ['Bleed'],
         idx: 0
     },
+    'firewind': {
+        songs: ['Allegiance'],
+        idx: 0
+    },
     'slipknot': {
-        songs: ['All Out Life', 'Psychosocial', 'Sulfur', 'Disasterpiece', 'Skin Ticket', 'Purity'],
+        songs: ['All Out Life', 'Psychosocial', 'Sulfur', 'Disasterpiece', 'Skin Ticket', 'Purity', '(sic)', 'Surfacing', 'Duality', 'Custer', 'The Devil In I'],
+        idx: 0
+    },
+    'nirvana': {
+        songs: ['Smells Like Teen Spirit'],
+        idx: 0
+    },
+    'rage-against-the-machine': {
+        songs: ['Killing In The Name'],
+        idx: 0
+    },
+    'disturbed': {
+        songs: ['Down With The Sickness', 'The Sound Of Silence'],
         idx: 0
     },
     'gerry-mulligan': {
