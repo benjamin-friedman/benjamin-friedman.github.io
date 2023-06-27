@@ -171,7 +171,7 @@ const musicians = {
         idx: 0
     },
     'slipknot': {
-        songs: ['All Out Life', 'Psychosocial', 'Sulfur', 'Disasterpiece', 'Skin Ticket', 'Purity', '(sic)', 'Surfacing', 'Duality', 'Custer', 'The Devil In I'],
+        songs: ['All Out Life', 'Psychosocial', 'Sulfur', 'Disasterpiece', 'Skin Ticket', 'Purity', '(sic)', 'Surfacing', 'Duality', 'Custer', 'The Devil In I', 'Snuff'],
         idx: 0
     },
     'nirvana': {
