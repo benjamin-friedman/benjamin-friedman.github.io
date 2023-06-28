@@ -210,6 +210,30 @@ const musicians = {
         songs: ['Losing My Religion', 'Man On The Moon'],
         idx: 0
     },
+    'the-beatles': {
+        songs: ['In My Life', 'Let It Be', 'Girl', 'Michelle', 'Eleanor Rigby', 'The Long And Winding Road', 'Yesterday', 'Twist And Shout', 'Hey Jude'],
+        idx: 0
+    },
+    'the-goo-goo-dolls': {
+        songs: ['Iris'],
+        idx: 0
+    },
+    'oasis': {
+        songs: ['Wonderwall'],
+        idx: 0
+    },
+    'augustana': {
+        songs: ['Boston'],
+        idx: 0
+    },
+    'wilco': {
+        songs: ['How To Fight Loneliness'],
+        idx: 0
+    },
+    'coldplay': {
+        songs: ['The Scientist', 'Yellow', 'Fix You', 'Viva La Vida', 'Adventure Of A Lifetime'],
+        idx: 0
+    },
     'gerry-mulligan': {
         songs: ['Prelude In E Minor Op. 28 No. 4 - Jazz'],
         idx: 0
