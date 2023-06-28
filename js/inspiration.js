@@ -166,16 +166,12 @@ const musicians = {
         songs: ['Bleed'],
         idx: 0
     },
-    'firewind': {
-        songs: ['Allegiance'],
-        idx: 0
-    },
     'slipknot': {
         songs: ['All Out Life', 'Psychosocial', 'Sulfur', 'Disasterpiece', 'Skin Ticket', 'Purity', '(sic)', 'Surfacing', 'Duality', 'Custer', 'The Devil In I', 'Snuff'],
         idx: 0
     },
-    'nirvana': {
-        songs: ['Smells Like Teen Spirit'],
+    'firewind': {
+        songs: ['Allegiance'],
         idx: 0
     },
     'rage-against-the-machine': {
@@ -184,6 +180,34 @@ const musicians = {
     },
     'disturbed': {
         songs: ['Down With The Sickness', 'The Sound Of Silence'],
+        idx: 0
+    },
+    'nirvana': {
+        songs: ['Smells Like Teen Spirit'],
+        idx: 0
+    },
+    'aerosmith': {
+        songs: ['Dream On'],
+        idx: 0
+    },
+    'blue-oyster-cult': {
+        songs: ["(Don't Fear) The Reaper"],
+        idx: 0
+    },
+    'my-chemical-romance': {
+        songs: ['The Ghost Of You'],
+        idx: 0
+    },
+    'radiohead': {
+        songs: ['Creep'],
+        idx: 0
+    },
+    'the-who': {
+        songs: ["Baba O'Riley"],
+        idx: 0
+    },
+    'rem': {
+        songs: ['Losing My Religion', 'Man On The Moon'],
         idx: 0
     },
     'gerry-mulligan': {
