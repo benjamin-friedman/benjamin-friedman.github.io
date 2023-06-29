@@ -1,8 +1,8 @@
 const musicians = {
     'hans-zimmer': {
-        songs: ['Why Do We Fall', 'Agent Of Chaos', 'Molossus', "Gotham's Reckoning", 'Imagine The Fire', 'Necessary Evil', 'Nothing Out There', 'Rise', 'A Dark Knight',
-                'Final Ascent', 'Time', 'Projections', 'First Step', 'No Time For Caution', 'Mountains', 'Goodbye My Son', 'Is She With You', 'Marry Me Suite', 'Davy Jones',
-                'Not In Blood But In Bond', 'Ah, Putrefaction', 'Now We Are Free', 'Now We Are Free - Cello'],
+        songs: ['Why Do We Fall', 'Agent Of Chaos', 'Molossus', "Gotham's Reckoning", 'Barbastella', 'Corynorhinus', 'Eptescius', 'Myotis', 'Imagine The Fire', 'Necessary Evil', 'Nothing Out There', 'Rise', 'A Dark Knight',
+                'Final Ascent', 'Time', 'Projections', 'First Step', 'No Time For Caution', 'Mountains', 'Goodbye My Son', 'Is She With You', 'Marry Me Suite', 'Davy Jones', 'Not In Blood But In Bond', 'Ah, Putrefaction',
+                'Now We Are Free', 'Now We Are Free - Cello'],
         idx: 0
     },
     'chopin': {
@@ -15,7 +15,7 @@ const musicians = {
         idx: 0
     },
     'schubert': {
-        songs: ['Impromptu In G Flat Major Op. 90 No. 3', 'Piano Trio No. 2 In E Flat Major Movement II Op. 100', 'Serenade', 'Serenade - Piano and Cello', 'Serenade - Piano (arr. Liszt)'],
+        songs: ['Impromptu In G Flat Major Op. 90 No. 3', 'Piano Trio No. 2 In E Flat Major Movement II Op. 100', 'Serenade - Higher', 'Serenade - Lower', 'Serenade - Piano and Cello', 'Serenade - Piano (arr. Liszt)'],
         idx: 0
     },
     'liszt': {
@@ -266,8 +266,20 @@ const musicians = {
         songs: ['Stray Cat Strut'],
         idx: 0
     },
+    'phil-collins': {
+        songs: ['In The Air Tonight'],
+        idx: 0
+    },
     'eminem': {
         songs: ['Sing For The Moment', 'Sing For The Moment (Instrumental)', 'Lose Yourself', "Won't Back Down", 'Stan'],
+        idx: 0
+    },
+    'suicidal-tendencies': {
+        songs: ['Institutionalized'],
+        idx: 0
+    },
+    'house-of-pain': {
+        songs: ['Jump Around'],
         idx: 0
     },
     'gerry-mulligan': {
