@@ -356,12 +356,13 @@ const musicians = {
     }
 };
 
+
 // global variables
 const audioWrapper = {
     audio: new Audio()
 };
 
-let currentMusicianWrapper = {
+const currentMusicianWrapper = {
     currentMusician: ''
 };
 
