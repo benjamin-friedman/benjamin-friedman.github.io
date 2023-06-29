@@ -150,8 +150,32 @@ const musicians = {
         songs: ['Hallelujah'],
         idx: 0
     },
+    'bob-dylan': {
+        songs: ['Things Have Changed'],
+        idx: 0
+    },
+    'johnny-cash': {
+        songs: ["God's Gonna Cut You Down"],
+        idx: 0
+    },
+    'ben-howard': {
+        songs: ['Oats In The Water'],
+        idx: 0
+    },
     'steve-vai': {
         songs: ['For The Love Of God', 'Tender Surrender'],
+        idx: 0
+    },
+    'jon-batiste': {
+        songs: ['Blackbird'],
+        idx: 0
+    },
+    'the-chords': {
+        songs: ['Sh-Boom'],
+        idx: 0
+    },
+    'imad-fares': {
+        songs: ['Gipsy Kings'],
         idx: 0
     },
     'rodrigo-and-gabriela': {
@@ -234,6 +258,18 @@ const musicians = {
         songs: ['The Scientist', 'Yellow', 'Fix You', 'Viva La Vida', 'Adventure Of A Lifetime'],
         idx: 0
     },
+    'muse': {
+        songs: ['Uprising', 'Starlight'],
+        idx: 0
+    },
+    'stray-cats': {
+        songs: ['Stray Cat Strut'],
+        idx: 0
+    },
+    'eminem': {
+        songs: ['Sing For The Moment', 'Sing For The Moment (Instrumental)', 'Lose Yourself', "Won't Back Down", 'Stan'],
+        idx: 0
+    },
     'gerry-mulligan': {
         songs: ['Prelude In E Minor Op. 28 No. 4 - Jazz'],
         idx: 0
@@ -280,6 +316,18 @@ const musicians = {
     },
     'jesper-kyd': {
         songs: ["Ezio's Family", 'Echoes Of The Roman Ruins'],
+        idx: 0
+    },
+    'henry-krinkle': {
+        songs: ['Stay'],
+        idx: 0
+    },
+    'tony-anderson': {
+        songs: ['Ember'],
+        idx: 0
+    },
+    'alexandre-desplat': {
+        songs: ['Severus and Lily'],
         idx: 0
     },
     'mike-patton': {
