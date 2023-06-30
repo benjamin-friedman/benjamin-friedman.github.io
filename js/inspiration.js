@@ -398,8 +398,13 @@ const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => 
 }
 
 for (const musician in musicians) {
-    
-    document.getElementById(`${musician}-img`).addEventListener('click', () => {
+    document.getElementById(`${musician}-play-button-img`).addEventListener('click', () => {
         playSong(musician, musicians, audioWrapper, currentMusicianWrapper);
-    });  
+    });
+    document.getElementById(`${musician}-play-button-img`).addEventListener('mouseenter', () => {
+        document.getElementById(`${musician}-play-button-img`).style.opacity = '50%';
+    });
+    document.getElementById(`${musician}-play-button-img`).addEventListener('mouseleave', () => {
+        document.getElementById(`${musician}-play-button-img`).style.opacity = '0%';
+    });       
 }
