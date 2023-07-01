@@ -162,10 +162,6 @@ const musicians = {
         songs: ['Oats In The Water'],
         idx: 0
     },
-    'steve-vai': {
-        songs: ['For The Love Of God', 'Tender Surrender'],
-        idx: 0
-    },
     'jon-batiste': {
         songs: ['Blackbird'],
         idx: 0
@@ -180,6 +176,14 @@ const musicians = {
     },
     'rodrigo-and-gabriela': {
         songs: ['Diablo Rojo'],
+        idx: 0
+    },
+    'steve-vai': {
+        songs: ['For The Love Of God', 'Tender Surrender'],
+        idx: 0
+    },
+    'neogeofanatic': {
+        songs: ['My Gibson Les Paul Is Crying'],
         idx: 0
     },
     'rhapsody-of-fire': {
@@ -218,6 +222,10 @@ const musicians = {
         songs: ["(Don't Fear) The Reaper"],
         idx: 0
     },
+    'motley-crue': {
+        songs: ['Kickstart My Heart'],
+        idx: 0
+    },
     'my-chemical-romance': {
         songs: ['The Ghost Of You'],
         idx: 0
@@ -250,6 +258,10 @@ const musicians = {
         songs: ['Boston'],
         idx: 0
     },
+    'the-killers': {
+        songs: ['Mr. Brightside'],
+        idx: 0
+    },
     'wilco': {
         songs: ['How To Fight Loneliness'],
         idx: 0
@@ -266,6 +278,10 @@ const musicians = {
         songs: ['Stray Cat Strut'],
         idx: 0
     },
+    'tears-for-fears': {
+        songs: ['Sowing The Seeds Of Love'],
+        idx: 0
+    },
     'phil-collins': {
         songs: ['In The Air Tonight'],
         idx: 0
@@ -280,6 +296,10 @@ const musicians = {
     },
     'house-of-pain': {
         songs: ['Jump Around'],
+        idx: 0
+    },
+    'naughty-by-nature': {
+        songs: ['Hip Hop Hooray'],
         idx: 0
     },
     'gerry-mulligan': {
@@ -332,6 +352,10 @@ const musicians = {
     },
     'henry-krinkle': {
         songs: ['Stay'],
+        idx: 0
+    },
+    'ta-ku': {
+        songs: ['Night 3'],
         idx: 0
     },
     'tony-anderson': {
