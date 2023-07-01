@@ -235,7 +235,7 @@ const musicians = {
         idx: 0
     },
     'the-beatles': {
-        songs: ['In My Life', 'Let It Be', 'Girl', 'Michelle', 'Eleanor Rigby', 'The Long And Winding Road', 'Yesterday', 'Twist And Shout', 'Hey Jude'],
+        songs: ['In My Life', 'Let It Be', 'Girl', 'Michelle', 'Eleanor Rigby', 'The Long And Winding Road', 'Yesterday', 'Twist And Shout', 'Help', 'All You Need Is Love', 'Hey Jude'],
         idx: 0
     },
     'the-goo-goo-dolls': {
