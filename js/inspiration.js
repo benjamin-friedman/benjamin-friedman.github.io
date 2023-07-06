@@ -326,6 +326,10 @@ const musicians = {
         songs: ['Institutionalized'],
         idx: 0
     },
+    'flobots': {
+        songs: ['Handlebars'],
+        idx: 0
+    },
     'house-of-pain': {
         songs: ['Jump Around'],
         idx: 0
