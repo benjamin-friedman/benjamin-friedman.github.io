@@ -27,7 +27,7 @@ const musicians = {
         idx: 0
     },
     'satie': {
-        songs: ['Gnossienne No. 1', 'Gymnopedie No. 1'],
+        songs: ['Gnossienne No. 1', 'Gnossienne No. 2', 'Gnossienne No. 3', 'Gnossienne No. 4', 'Gnossienne No. 5', 'Gymnopedie No. 1'],
         idx: 0
     },
     'mozart': {
