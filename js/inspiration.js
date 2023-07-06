@@ -107,7 +107,7 @@ const musicians = {
         idx: 0
     },
     'johnny-hartman': {
-        songs: ['For All We Know'],
+        songs: ['For All We Know', 'I See Your Face Before Me'],
         idx: 0
     },
     'van-morrison': {
@@ -148,6 +148,14 @@ const musicians = {
     },
     'rufus-wainwright': {
         songs: ['Hallelujah'],
+        idx: 0
+    },
+    'duffy': {
+        songs: ['Delayed Devotion'],
+        idx: 0
+    },
+    'maxwell': {
+        songs: ['Pretty Wings'],
         idx: 0
     },
     'bob-dylan': {
@@ -222,6 +230,14 @@ const musicians = {
         songs: ["(Don't Fear) The Reaper"],
         idx: 0
     },
+    'metallica': {
+        songs: ['Enter Sandman', 'Nothing Else Matters', 'Master Of Puppets', 'For Whom The Bell Tolls'],
+        idx: 0
+    },
+    'guns-n-roses': {
+        songs: ["Sweet Child O' Mine", 'Welcome To The Jungle'],
+        idx: 0
+    },
     'motley-crue': {
         songs: ['Kickstart My Heart'],
         idx: 0
@@ -235,11 +251,15 @@ const musicians = {
         idx: 0
     },
     'the-who': {
-        songs: ["Baba O'Riley"],
+        songs: ["Baba O'Riley", 'Who Are You'],
         idx: 0
     },
     'rem': {
         songs: ['Losing My Religion', 'Man On The Moon'],
+        idx: 0
+    },
+    'steely-dan': {
+        songs: ['Do It Again'],
         idx: 0
     },
     'the-beatles': {
@@ -280,6 +300,18 @@ const musicians = {
     },
     'tears-for-fears': {
         songs: ['Sowing The Seeds Of Love'],
+        idx: 0
+    },
+    'culture-club': {
+        songs: ['Karma Chameleon'],
+        idx: 0
+    },
+    'john-waite': {
+        songs: ['Missing You'],
+        idx: 0
+    },
+    'eddie-money': {
+        songs: ['Baby Hold On'],
         idx: 0
     },
     'phil-collins': {
