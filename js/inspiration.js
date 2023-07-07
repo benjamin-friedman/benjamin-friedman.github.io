@@ -27,7 +27,7 @@ const musicians = {
         idx: 0
     },
     'satie': {
-        songs: ['Gnossienne No. 1', 'Gnossienne No. 2', 'Gnossienne No. 3', 'Gnossienne No. 4', 'Gnossienne No. 5', 'Gymnopedie No. 1'],
+        songs: ['Gnossienne No. 1 - Interpretation 1', 'Gnossienne No. 1 - Interpretation 2', 'Gnossienne No. 2', 'Gnossienne No. 3', 'Gnossienne No. 4', 'Gnossienne No. 5', 'Gymnopedie No. 1'],
         idx: 0
     },
     'mozart': {
@@ -294,6 +294,10 @@ const musicians = {
         songs: ['Uprising', 'Starlight'],
         idx: 0
     },
+    'bag-raiders': {
+        songs: ['Shooting Stars'],
+        idx: 0
+    },
     'stray-cats': {
         songs: ['Stray Cat Strut'],
         idx: 0
@@ -322,6 +326,10 @@ const musicians = {
         songs: ['Sing For The Moment', 'Sing For The Moment (Instrumental)', 'Lose Yourself', "Won't Back Down", 'Stan'],
         idx: 0
     },
+    'kendrick-lamar': {
+        songs: ['Hiiipower', 'Black Boy Fly'],
+        idx: 0
+    },
     'suicidal-tendencies': {
         songs: ['Institutionalized'],
         idx: 0
@@ -336,6 +344,10 @@ const musicians = {
     },
     'naughty-by-nature': {
         songs: ['Hip Hop Hooray'],
+        idx: 0
+    },
+    'tom-pepe': {
+        songs: ['The River Runs Deep'],
         idx: 0
     },
     'gerry-mulligan': {
