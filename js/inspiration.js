@@ -78,6 +78,10 @@ const musicians = {
         songs: ['Caruso', 'Caruso - Cello'],
         idx: 0
     },
+    'luciano-pavarotti': {
+        songs: ['Nessun Dorma'],
+        idx: 0
+    },
     'ben-e-king': {
         songs: ['Stand By Me'],
         idx: 0
@@ -199,7 +203,7 @@ const musicians = {
         idx: 0
     },
     'meshuggah': {
-        songs: ['Bleed'],
+        songs: ['Bleed', 'Demiurge'],
         idx: 0
     },
     'slipknot': {
@@ -323,11 +327,11 @@ const musicians = {
         idx: 0
     },
     'eminem': {
-        songs: ['Sing For The Moment', 'Sing For The Moment (Instrumental)', 'Lose Yourself', "Won't Back Down", 'Stan'],
+        songs: ['Sing For The Moment', 'Sing For The Moment (Instrumental)', 'Lose Yourself', 'Till I Collapse', "Won't Back Down", 'Stan', 'Fast Lane'],
         idx: 0
     },
     'kendrick-lamar': {
-        songs: ['Hiiipower', 'Black Boy Fly'],
+        songs: ['Hiiipower', 'Black Boy Fly', 'Ignorance Is Bliss', 'Money Trees', 'The Recipe'],
         idx: 0
     },
     'suicidal-tendencies': {
@@ -400,6 +404,14 @@ const musicians = {
     },
     'henry-krinkle': {
         songs: ['Stay'],
+        idx: 0
+    },
+    'disclosure': {
+        songs: ['You & Me'],
+        idx: 0
+    },
+    'feed-me-and-crystal-fighters': {
+        songs: ['Love Is All I Got'],
         idx: 0
     },
     'ta-ku': {
