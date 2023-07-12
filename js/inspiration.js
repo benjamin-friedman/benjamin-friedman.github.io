@@ -15,7 +15,7 @@ const musicians = {
         idx: 0
     },
     'schubert': {
-        songs: ['Impromptu In G Flat Major Op. 90 No. 3', 'Piano Trio No. 2 In E Flat Major Movement II Op. 100', 'Serenade - Higher', 'Serenade - Lower', 'Serenade - Piano and Cello', 'Serenade - Piano (arr. Liszt)'],
+        songs: ['Impromptu In G Flat Major Op. 90 No. 3', 'Piano Trio No. 2 In E Flat Major Movement II Op. 100', 'Serenade - Interpretation 1', 'Serenade - Interpretation 2', 'Serenade - Piano and Cello', 'Serenade - Piano (arr. Liszt)'],
         idx: 0
     },
     'liszt': {
@@ -35,7 +35,7 @@ const musicians = {
         idx: 0
     },
     'bach': {
-        songs: ['Toccata And Fugue In D Minor', 'Air On The G String', 'Cello Suite No. 1 In G Major Prelude'],
+        songs: ['Toccata And Fugue In D Minor', 'Orchestral Suite No. 3 In D Major Movement II, BWV 1068 (Air On The G String)', 'Cello Suite No. 1 In G Major Prelude'],
         idx: 0
     },
     'albinoni': {
