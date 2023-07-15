@@ -174,6 +174,18 @@ const musicians = {
         songs: ['Oats In The Water'],
         idx: 0
     },
+    'jamie-n-commons': {
+        songs: ['Lead Me Home'],
+        idx: 0
+    },
+    'john-denver': {
+        songs: ['Take Me Home, Country Roads'],
+        idx: 0
+    },
+    'ritchie-valens': {
+        songs: ['La Bamba'],
+        idx: 0
+    },
     'jon-batiste': {
         songs: ['Blackbird'],
         idx: 0
@@ -242,6 +254,10 @@ const musicians = {
         songs: ["Sweet Child O' Mine", 'Welcome To The Jungle'],
         idx: 0
     },
+    'ac-dc': {
+        songs: ['Thunderstruck', 'Thunderstruck - Cello'],
+        idx: 0
+    },
     'motley-crue': {
         songs: ['Kickstart My Heart'],
         idx: 0
@@ -264,6 +280,10 @@ const musicians = {
     },
     'steely-dan': {
         songs: ['Do It Again'],
+        idx: 0
+    },
+    'the-band': {
+        songs: ['The Weight'],
         idx: 0
     },
     'the-beatles': {
@@ -376,6 +396,10 @@ const musicians = {
     },
     'johann-johannsson': {
         songs: ["The Sun's Gone Dim And The Sky's Turned Black"],
+        idx: 0
+    },
+    'joseph-kilna-mackenzie': {
+        songs: ['Sgt. Mackenzie'],
         idx: 0
     },
     'zack-hemsey': {
