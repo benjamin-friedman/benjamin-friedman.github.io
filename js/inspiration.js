@@ -51,7 +51,7 @@ const musicians = {
         idx: 0
     },
     'samuel-barber': {
-        songs: ['Adagio For Strings'],
+        songs: ['Adagio For Strings', 'Agnus Dei'],
         idx: 0
     },
     'rachmaninoff': {
