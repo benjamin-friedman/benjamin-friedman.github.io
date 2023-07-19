@@ -106,7 +106,7 @@ const musicians = {
         songs: ['Build Me Up Buttercup'],
         idx: 0
     },
-    'bobby-hatfield': {
+    'righteous-brothers': {
         songs: ['Unchained Melody'],
         idx: 0
     },
@@ -167,7 +167,7 @@ const musicians = {
         idx: 0
     },
     'johnny-cash': {
-        songs: ["God's Gonna Cut You Down"],
+        songs: ["God's Gonna Cut You Down", 'Hurt'],
         idx: 0
     },
     'ben-howard': {
@@ -290,6 +290,10 @@ const musicians = {
         songs: ['In My Life', 'Let It Be', 'Girl', 'Michelle', 'Eleanor Rigby', 'The Long And Winding Road', 'Yesterday', 'Twist And Shout', 'Help!', 'All You Need Is Love', 'Hey Jude'],
         idx: 0
     },
+    'electric-light-orchestra': {
+        songs: ['Mr. Blue Sky'],
+        idx: 0
+    },
     'the-goo-goo-dolls': {
         songs: ['Iris'],
         idx: 0
@@ -320,6 +324,14 @@ const musicians = {
     },
     'bag-raiders': {
         songs: ['Shooting Stars'],
+        idx: 0
+    },
+    'wang-chung': {
+        songs: ['Space Junk'],
+        idx: 0
+    },
+    'joe-strummer-and-the-mescaleros': {
+        songs: ['Mondo Bongo'],
         idx: 0
     },
     'stray-cats': {
