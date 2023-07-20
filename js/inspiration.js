@@ -23,7 +23,8 @@ const musicians = {
         idx: 0
     },
     'beethoven': {
-        songs: ['Moonlight Sonata 1st Movement', 'Moonlight Sonata 1st Movement - Cello and Piano', 'Moonlight Sonata 1st Movement - Ethereal', 'Moonlight Sonata 3rd Movement'],
+        songs: ['Moonlight Sonata 1st Movement', 'Moonlight Sonata 1st Movement - Cello and Piano', 'Moonlight Sonata 1st Movement - Ethereal', 'Moonlight Sonata 3rd Movement',
+                'Moonlight Sonata 3rd Movement - Guitar and Drums'],
         idx: 0
     },
     'satie': {
@@ -178,6 +179,10 @@ const musicians = {
         songs: ['Lead Me Home'],
         idx: 0
     },
+    'phillip-phillips': {
+        songs: ['Home'],
+        idx: 0
+    },
     'john-denver': {
         songs: ['Take Me Home, Country Roads'],
         idx: 0
@@ -271,7 +276,7 @@ const musicians = {
         idx: 0
     },
     'the-who': {
-        songs: ["Baba O'Riley", 'Who Are You'],
+        songs: ["Baba O'Riley", 'Who Are You', 'Pinball Wizard'],
         idx: 0
     },
     'rem': {
@@ -292,6 +297,10 @@ const musicians = {
     },
     'electric-light-orchestra': {
         songs: ['Mr. Blue Sky'],
+        idx: 0
+    },
+    'cream': {
+        songs: ['White Room'],
         idx: 0
     },
     'the-goo-goo-dolls': {
@@ -427,7 +436,7 @@ const musicians = {
         idx: 0
     },
     'the-xx': {
-        songs: ['Intro'],
+        songs: ['Intro', 'Angels'],
         idx: 0
     },
     'atis-freivalds': {
@@ -460,6 +469,10 @@ const musicians = {
     },
     'alexandre-desplat': {
         songs: ['Severus and Lily'],
+        idx: 0
+    },
+    'howard-shore': {
+        songs: ['Théoden King'],
         idx: 0
     },
     'mike-patton': {
