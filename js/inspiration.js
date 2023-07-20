@@ -43,7 +43,7 @@ const musicians = {
         idx: 0
     },
     'saint-saens': {
-        songs: ['The Swan - Cello and Harp', 'The Swan - Cello and Piano'],
+        songs: ['The Swan - Cello and Harp', 'The Swan - Cello and Piano', 'Cello Concerto No. 1 In A Minor Op. 33'],
         idx: 0
     },
     'debussy': {
@@ -58,10 +58,6 @@ const musicians = {
         songs: ['Piano Concerto No. 2 1st Movement', 'Piano Concerto No. 2 2nd Movement', 'Piano Concerto No. 2 3rd Movement', 'Piano Concerto No. 2 2nd Movement - Cello'],
         idx: 0
     },
-    'schumann': {
-        songs: ['Cello Concerto In A Minor Op. 129'],
-        idx: 0
-    },
     'shostakovich': {
         songs: ['Waltz No. 2'],
         idx: 0
@@ -72,6 +68,10 @@ const musicians = {
     },
     'gruber': {
         songs: ['Silent Night - Piano', 'Silent Night - Cello'],
+        idx: 0
+    },
+    'grieg': {
+        songs: ['Peer Gynt Suite No. 1 Op. 46 (Morning Mood)'],
         idx: 0
     },
     'lucio-dalla': {
