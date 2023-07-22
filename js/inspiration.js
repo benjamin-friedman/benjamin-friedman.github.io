@@ -75,6 +75,58 @@ const musicians = {
         songs: ['Peer Gynt Suite No. 1 Op. 46 (Morning Mood)'],
         idx: 0
     },
+    'harry-gregson-williams': {
+        songs: ['Narnia Lullaby'],
+        idx: 0
+    },
+    'steve-jablonsky': {
+        songs: ['Tessa', 'Sacrifice'],
+        idx: 0
+    },
+    'james-newton-howard': {
+        songs: ['There Are Worse Games To Play-Deep In The Meadow-The Hunger Games Suite', "Rue's Farewell", "Snow's Execution"],
+        idx: 0
+    },
+    'nicholas-hooper': {
+        songs: ['When Ginny Kissed Harry', "Dumbledore's Farewell", 'Possession'],
+        idx: 0
+    },
+    'patrick-doyle': {
+        songs: ['Another Year Ends'],
+        idx: 0
+    },
+    'alexandre-desplat': {
+        songs: ['Severus and Lily'],
+        idx: 0
+    },
+    'howard-shore': {
+        songs: ['Théoden King'],
+        idx: 0
+    },
+    'bear-mccreary': {
+        songs: ['Reconciliation'],
+        idx: 0
+    },
+    'jesper-kyd': {
+        songs: ["Ezio's Family", 'Echoes Of The Roman Ruins'],
+        idx: 0
+    },
+    'zack-hemsey': {
+        songs: ['The Way'],
+        idx: 0
+    },
+    'johann-johannsson': {
+        songs: ["The Sun's Gone Dim And The Sky's Turned Black"],
+        idx: 0
+    },
+    'atis-freivalds': {
+        songs: ['Paradox', 'For Her'],
+        idx: 0
+    },
+    'mike-patton': {
+        songs: ['The Snow Angel'],
+        idx: 0
+    },
     'lucio-dalla': {
         songs: ['Caruso', 'Caruso - Cello'],
         idx: 0
@@ -407,48 +459,20 @@ const musicians = {
         songs: ['Drum Solo'],
         idx: 0
     },
-    'nicholas-hooper': {
-        songs: ['When Ginny Kissed Harry', "Dumbledore's Farewell", 'Possession'],
-        idx: 0
-    },
-    'bear-mccreary': {
-        songs: ['Reconciliation'],
-        idx: 0
-    },
-    'johann-johannsson': {
-        songs: ["The Sun's Gone Dim And The Sky's Turned Black"],
-        idx: 0
-    },
     'joseph-kilna-mackenzie': {
         songs: ['Sgt. Mackenzie'],
-        idx: 0
-    },
-    'zack-hemsey': {
-        songs: ['The Way'],
-        idx: 0
-    },
-    'james-newton-howard': {
-        songs: ['There Are Worse Games To Play-Deep In The Meadow-The Hunger Games Suite', "Rue's Farewell", "Snow's Execution"],
-        idx: 0
-    },
-    'steve-jablonsky': {
-        songs: ['Tessa', 'Sacrifice'],
         idx: 0
     },
     'the-xx': {
         songs: ['Intro', 'Angels'],
         idx: 0
     },
-    'atis-freivalds': {
-        songs: ['Paradox', 'For Her'],
-        idx: 0
-    },
-    'jesper-kyd': {
-        songs: ["Ezio's Family", 'Echoes Of The Roman Ruins'],
-        idx: 0
-    },
     'henry-krinkle': {
         songs: ['Stay'],
+        idx: 0
+    },
+    'tony-anderson': {
+        songs: ['Ember'],
         idx: 0
     },
     'disclosure': {
@@ -461,30 +485,6 @@ const musicians = {
     },
     'ta-ku': {
         songs: ['Night 3'],
-        idx: 0
-    },
-    'tony-anderson': {
-        songs: ['Ember'],
-        idx: 0
-    },
-    'alexandre-desplat': {
-        songs: ['Severus and Lily'],
-        idx: 0
-    },
-    'howard-shore': {
-        songs: ['Théoden King'],
-        idx: 0
-    },
-    'mike-patton': {
-        songs: ['The Snow Angel'],
-        idx: 0
-    },
-    'harry-gregson-williams': {
-        songs: ['Narnia Lullaby'],
-        idx: 0
-    },
-    'patrick-doyle': {
-        songs: ['Another Year Ends'],
         idx: 0
     }
 };
