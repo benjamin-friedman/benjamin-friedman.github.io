@@ -283,6 +283,10 @@ const musicians = {
         songs: ['Allegiance'],
         idx: 0
     },
+    'pantera': {
+        songs: ['Mouth For War'],
+        idx: 0
+    },
     'rage-against-the-machine': {
         songs: ['Killing In The Name'],
         idx: 0
@@ -292,7 +296,7 @@ const musicians = {
         idx: 0
     },
     'nirvana': {
-        songs: ['Smells Like Teen Spirit'],
+        songs: ['Smells Like Teen Spirit', 'Heart-Shaped Box'],
         idx: 0
     },
     'aerosmith': {
@@ -319,6 +323,10 @@ const musicians = {
         songs: ['Kickstart My Heart'],
         idx: 0
     },
+    'linkin-park': {
+        songs: ['Numb'],
+        idx: 0
+    },
     'my-chemical-romance': {
         songs: ['The Ghost Of You'],
         idx: 0
@@ -341,6 +349,10 @@ const musicians = {
     },
     'the-band': {
         songs: ['The Weight'],
+        idx: 0
+    },
+    'creedence-clearwater-revival': {
+        songs: ['Have You Ever Seen The Rain'],
         idx: 0
     },
     'the-beatles': {
@@ -400,7 +412,7 @@ const musicians = {
         idx: 0
     },
     'tears-for-fears': {
-        songs: ['Sowing The Seeds Of Love'],
+        songs: ['Sowing The Seeds Of Love', 'Everybody Wants To Rule The World'],
         idx: 0
     },
     'culture-club': {
@@ -486,8 +498,23 @@ const musicians = {
     'ta-ku': {
         songs: ['Night 3'],
         idx: 0
-    }
+    },
+    // writers follow the same logic as musicians
+    'dylan-thomas': {
+        songs: ['Do Not Go Gentle Into That Good Night'],
+        idx: 0
+    },
+    'william-ernest-henley': {
+        songs: ['Invictus'],
+        idx: 0
+    },
+    'charles-dickens': {
+        songs: ['A Tale Of Two Cities'],
+        idx: 0
+    },
 };
+
+
 
 
 // global variables
@@ -498,6 +525,7 @@ const audioWrapper = {
 const currentMusicianWrapper = {
     currentMusician: ''
 };
+
 
 const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => {
     // display current muscian's name, hide previous musicians name and song
