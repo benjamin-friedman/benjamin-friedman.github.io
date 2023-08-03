@@ -100,7 +100,7 @@ const musicians = {
         idx: 0
     },
     'howard-shore': {
-        songs: ['Théoden King'],
+        songs: ['Théoden King', 'Edoras'],
         idx: 0
     },
     'bear-mccreary': {
