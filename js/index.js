@@ -14,14 +14,14 @@ const cycleOpacityHelper = (state) => {
     if (state.isDecreasing) {
         welcomeSection.style.opacity = state.opacity - 0.025;
         state.opacity -= 0.025;
-        if (state.opacity <= 0.1) { // must be <= and not == b/c javascript floating point math is not good
+        if (state.opacity <= 0.1) { // must be <= and not === b/c javascript floating point math is not good
             state.isDecreasing = false;
         }
     }
     else {
         welcomeSection.style.opacity = state.opacity + 0.025;
         state.opacity += 0.025;
-        if (state.opacity >= 1) { // must be >= and not == b/c javascript floating point math is not good
+        if (state.opacity >= 1) { // must be >= and not === b/c javascript floating point math is not good
             state.isDecreasing = true;
         }
     }

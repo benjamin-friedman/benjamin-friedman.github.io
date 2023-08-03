@@ -518,13 +518,20 @@ const musicians = {
 
 
 // global variables
+// tracks the current song being played
 const audioWrapper = {
     audio: new Audio()
 };
 
+// tracks the current musician
 const currentMusicianWrapper = {
     currentMusician: ''
 };
+
+//
+const intervalWrapper = {
+    intervalId: 0
+}
 
 
 const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => {
@@ -543,7 +550,7 @@ const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => 
     document.getElementById(`${musician}-song`).innerHTML = song;
 
     const str = `../songs/${musician}/${song}.mp3`;
-    musicians[musician].idx = (musicians[musician].idx == musicians[musician].songs.length - 1) ? 0 : musicians[musician].idx + 1;
+    musicians[musician].idx = (musicians[musician].idx === musicians[musician].songs.length - 1) ? 0 : musicians[musician].idx + 1;
     audioWrapper.audio.pause();
     audioWrapper.audio = new Audio(str);
     const audioPromise = audioWrapper.audio.play();
@@ -561,6 +568,7 @@ const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => 
 for (const musician in musicians) {
     document.getElementById(`${musician}-play-button-img`).addEventListener('click', () => {
         playSong(musician, musicians, audioWrapper, currentMusicianWrapper);
+        cycleOpacity(musician, intervalWrapper);
     });
     document.getElementById(`${musician}-play-button-img`).addEventListener('mouseenter', () => {
         document.getElementById(`${musician}-play-button-img`).style.opacity = '50%';
@@ -568,4 +576,63 @@ for (const musician in musicians) {
     document.getElementById(`${musician}-play-button-img`).addEventListener('mouseleave', () => {
         document.getElementById(`${musician}-play-button-img`).style.opacity = '0%';
     });       
+}
+
+const cycleOpacity = (musician, intervalWrapper) => {
+    const title = document.getElementById(`${musician}-title`);
+    const song = document.getElementById(`${musician}-song`);
+    title.style.opacity = 1;
+    song.style.opacity = 1;
+    const titleOpacity = getComputedStyle(title).getPropertyValue('opacity'); // starts at 1
+    const songOpacity = getComputedStyle(song).getPropertyValue('opacity'); // starts at 1
+    const stateTitle = {
+        isDecreasing: true,
+        opacity: Number(titleOpacity)
+    }
+    const stateSong = {
+        isDecreasing: true,
+        opacity: Number(songOpacity)
+    }
+
+    if (intervalWrapper.intervalId !== 0) {
+        clearInterval(intervalWrapper.intervalId);
+    }
+    intervalWrapper.intervalId = setInterval( function() { cycleOpacityHelper(musician, stateTitle, stateSong) }, 100);
+}
+
+const cycleOpacityHelper = (musician, stateTitle, stateSong) => {
+    const title = document.getElementById(`${musician}-title`);
+    const song = document.getElementById(`${musician}-song`);
+
+    // title
+    if (stateTitle.isDecreasing) {
+        title.style.opacity = stateTitle.opacity - 0.025;
+        stateTitle.opacity -= 0.025;
+        if (stateTitle.opacity <= 0.1) { // must be <= and not === b/c javascript floating point math is not good
+            stateTitle.isDecreasing = false;
+        }
+    }
+    else {
+        title.style.opacity = stateTitle.opacity + 0.025;
+        stateTitle.opacity += 0.025;
+        if (stateTitle.opacity >= 1) { // must be >= and not === b/c javascript floating point math is not good
+            stateTitle.isDecreasing = true;
+        }
+    }
+
+    // song
+    if (stateSong.isDecreasing) {
+        song.style.opacity = stateSong.opacity - 0.025;
+        stateSong.opacity -= 0.025;
+        if (stateSong.opacity <= 0.1) { // must be <= and not === b/c javascript floating point math is not good
+            stateSong.isDecreasing = false;
+        }
+    }
+    else {
+        song.style.opacity = stateSong.opacity + 0.025;
+        stateSong.opacity += 0.025;
+        if (stateSong.opacity >= 1) { // must be >= and not === b/c javascript floating point math is not good
+            stateSong.isDecreasing = true;
+        }
+    }
 }
