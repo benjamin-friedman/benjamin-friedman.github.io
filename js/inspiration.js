@@ -392,7 +392,7 @@ const musicians = {
         idx: 0
     },
     'muse': {
-        songs: ['Uprising', 'Starlight'],
+        songs: ['Uprising', 'Starlight', 'Supermassive Black Hole'],
         idx: 0
     },
     'bag-raiders': {
