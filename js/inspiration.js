@@ -167,6 +167,10 @@ const musicians = {
         songs: ['For All We Know', 'I See Your Face Before Me'],
         idx: 0
     },
+    'bobby-darin': {
+        songs: ['The Curtain Falls'],
+        idx: 0
+    },
     'van-morrison': {
         songs: ['Moondance'],
         idx: 0
@@ -201,6 +205,10 @@ const musicians = {
     },
     'the-mamas-and-the-papas': {
         songs: ["California Dreamin'"],
+        idx: 0
+    },
+    'patrick-watson': {
+        songs: ['To Build A Home'],
         idx: 0
     },
     'rufus-wainwright': {
@@ -469,6 +477,10 @@ const musicians = {
     },
     'larnell-lewis': {
         songs: ['Drum Solo'],
+        idx: 0
+    },
+    'carly-comando': {
+        songs: ['Everyday'],
         idx: 0
     },
     'joseph-kilna-mackenzie': {
