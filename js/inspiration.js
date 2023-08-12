@@ -1,7 +1,12 @@
 const musicians = {
     'hans-zimmer': {
         songs: ['Why Do We Fall', 'Agent Of Chaos', 'Molossus', "Gotham's Reckoning", 'Lasiurus', 'Barbastella', 'Corynorhinus', 'Eptescius', 'Myotis', 'Imagine The Fire', 'Necessary Evil', 'Nothing Out There', 'Rise', 'A Dark Knight',
-                'Final Ascent', 'Time', 'Projections', 'First Step', 'No Time For Caution', 'Mountains', 'Goodbye My Son', 'Is She With You', 'Marry Me Suite', 'Davy Jones', 'Not In Blood But In Bond', 'Ah, Putrefaction',
+                'Final Ascent',
+                'Time', 'Projections',
+                'First Step', 'No Time For Caution', 'Mountains',
+                'Goodbye My Son', 'Is She With You',
+                'Marry Me Suite', 'Wheel Of Fortune', "At Wit's End", 'Jack Sparrow', 'Parlay', 'Davy Jones', 'Davy Jones - Piano',
+                'Not In Blood But In Bond', 'Ah, Putrefaction',
                 'Now We Are Free', 'Now We Are Free - Cello'],
         idx: 0
     },
