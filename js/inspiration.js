@@ -289,7 +289,8 @@ const musicians = {
         idx: 0
     },
     'slipknot': {
-        songs: ['All Out Life', 'Psychosocial', 'Sulfur', 'Disasterpiece', 'Skin Ticket', 'Purity', '(sic)', 'Surfacing', 'Duality', 'Custer', 'The Devil In I', 'Snuff'],
+        songs: ['All Out Life', 'Psychosocial', 'Sulfur', 'Disasterpiece', 'Skin Ticket', 'Purity', '(sic)', 'Surfacing', 'Duality', 'Custer',
+                'The Devil In I', 'The Devil In I (Live)', 'Everything Ends', 'The Negative One', 'Snuff'],
         idx: 0
     },
     'firewind': {
