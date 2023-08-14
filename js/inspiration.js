@@ -5,7 +5,7 @@ const musicians = {
                 'Time', 'Projections',
                 'First Step', 'No Time For Caution', 'Mountains',
                 'Goodbye My Son', 'Is She With You',
-                'Marry Me Suite', 'Wheel Of Fortune', "At Wit's End", 'Jack Sparrow', 'Parlay', 'Davy Jones', 'Davy Jones - Piano',
+                'Marry Me Suite', 'Wheel Of Fortune', "At Wit's End", 'Jack Sparrow', 'Parlay', 'Will And Elizabeth', 'The Black Pearl', 'Davy Jones', 'Davy Jones - Piano',
                 'Not In Blood But In Bond', 'Ah, Putrefaction',
                 'Now We Are Free', 'Now We Are Free - Cello'],
         idx: 0
