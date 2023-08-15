@@ -80,6 +80,10 @@ const musicians = {
         songs: ['Peer Gynt Suite No. 1 Op. 46 (Morning Mood)'],
         idx: 0
     },
+    'tchaikovsky': {
+        songs: ['Swan Lake Suite Op. 20 - Swan Theme'],
+        idx: 0
+    },
     'harry-gregson-williams': {
         songs: ['Narnia Lullaby'],
         idx: 0
@@ -106,6 +110,10 @@ const musicians = {
     },
     'howard-shore': {
         songs: ['Théoden King', 'Edoras'],
+        idx: 0
+    },
+    'michael-giacchino': {
+        songs: ['Married Life'],
         idx: 0
     },
     'bear-mccreary': {
@@ -511,6 +519,10 @@ const musicians = {
     },
     'feed-me-and-crystal-fighters': {
         songs: ['Love Is All I Got'],
+        idx: 0
+    },
+    'junior-senior': {
+        songs: ['Move Your Feet'],
         idx: 0
     },
     'ta-ku': {
