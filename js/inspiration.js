@@ -7,7 +7,7 @@ const musicians = {
                 'Goodbye My Son', 'Is She With You',
                 'Marry Me Suite', 'Wheel Of Fortune', "At Wit's End", 'Jack Sparrow', 'Parlay', 'Will And Elizabeth', 'The Black Pearl', 'Davy Jones', 'Davy Jones - Piano',
                 'Not In Blood But In Bond', 'Ah, Putrefaction',
-                'Elysium', 'Now We Are Free', 'Now We Are Free - Cello'],
+                'Elysium', 'Honor Him', 'Now We Are Free', 'Now We Are Free - Cello'],
         idx: 0
     },
     'chopin': {
