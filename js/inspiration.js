@@ -498,7 +498,7 @@ const musicians = {
         idx: 0
     },
     'joseph-kilna-mackenzie': {
-        songs: ['Sgt. Mackenzie'],
+        songs: ['Sgt. MacKenzie'],
         idx: 0
     },
     'the-xx': {
