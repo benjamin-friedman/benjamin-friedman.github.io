@@ -462,6 +462,14 @@ const musicians = {
         songs: ['Hiiipower', 'Black Boy Fly', 'Ignorance Is Bliss', 'Money Trees', 'The Recipe'],
         idx: 0
     },
+    'kanye-west': {
+        songs: ['Heartless', 'Love Lockdown', 'Send It Up', 'No Church In The Wild', 'Blood On The Leaves', 'Flashing Lights'],
+        idx: 0
+    },
+    'lupe-fiasco': {
+        songs: ['Superstar'],
+        idx: 0
+    },
     'suicidal-tendencies': {
         songs: ['Institutionalized'],
         idx: 0
@@ -524,6 +532,10 @@ const musicians = {
     },
     'junior-senior': {
         songs: ['Move Your Feet'],
+        idx: 0
+    },
+    'stromae': {
+        songs: ['Alors On Danse'],
         idx: 0
     },
     'ta-ku': {
