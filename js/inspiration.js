@@ -25,7 +25,7 @@ const musicians = {
         idx: 0
     },
     'liszt': {
-        songs: ['Liebestraum No. 3 - Interpretation 1', 'Liebestraum No. 3 - Interpretation 2', 'Consolation No. 3', 'La Campanella'],
+        songs: ['Liebestraum No. 3', 'Consolation No. 3', 'La Campanella'],
         idx: 0
     },
     'beethoven': {
