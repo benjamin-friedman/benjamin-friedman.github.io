@@ -11,12 +11,13 @@ const musicians = {
         idx: 0
     },
     'chopin': {
-        songs: ['Nocturne In E Minor Op. 72 No. 1', 'Prelude In E Minor Op. 28 No. 4', 'Prelude In D Flat Major Op. 28 No. 15', 'Nocturne In C Sharp Minor, Op. Posth.', 'Nocturne In B Flat Minor Op. 9 No. 1',
-                'Nocturne In E Flat Major Op. 9 No. 2', 'Nocturne In B Major Op. 9 No. 3', 'Nocturne In F Major Op. 15 No. 1', 'Nocturne In F Sharp Major Op. 15 No. 2', 'Nocturne In G Minor Op. 15 No. 3',
-                'Nocturne In C Sharp Minor Op. 27 No. 1', 'Nocturne In D Flat Major Op. 27 No. 2', 'Nocturne In B Major Op. 32 No. 1', 'Nocturne In A Flat Major Op. 32 No. 2', 'Nocturne In G Minor Op. 37 No. 1',
-                'Nocturne In G Major Op. 37 No. 2', 'Nocturne In C Minor Op. 48 No. 1', 'Nocturne In F Sharp Minor Op. 48 No. 2', 'Nocturne In F Minor Op. 55 No. 1', 'Nocturne In E Flat Major Op. 55 No. 2',
-                'Nocturne In B Major Op. 62 No. 1', 'Nocturne In E Major Op. 62 No. 2', 'Nocturne In C Minor Op. Posth.', 'Ballade No. 1 In G Minor Op. 23.', 'Etude In C Minor Op. 10 No. 12 (Revolutionary Etude)',
-                'Etude In A Minor Op. 25 No. 11 (Winter Wind)', 'Piano Sonata No. 2 In B Flat Minor Movement III (Funeral March)', 'Nocturne In C Sharp Minor, Op. Posth. - Cello'],
+        songs: ['N19 - Nocturne In E Minor Op. 72 No. 1', 'P4 - Prelude In E Minor Op. 28 No. 4', 'P15 - Prelude In D Flat Major Op. 28 No. 15 (Raindrop Prelude)', 'N20 - Nocturne In C Sharp Minor, Op. Posth. - Interpretation 1',
+                'N20 - Nocturne In C Sharp Minor, Op. Posth. - Interpretation 2', 'N21 - Nocturne In C Minor Op. Posth.', 'N1 - Nocturne In B Flat Minor Op. 9 No. 1', 'N2 - Nocturne In E Flat Major Op. 9 No. 2', 'N3 - Nocturne In B Major Op. 9 No. 3',
+                'N4 - Nocturne In F Major Op. 15 No. 1', 'N5 - Nocturne In F Sharp Major Op. 15 No. 2', 'N6 - Nocturne In G Minor Op. 15 No. 3', 'N7 - Nocturne In C Sharp Minor Op. 27 No. 1', 'N8 - Nocturne In D Flat Major Op. 27 No. 2',
+                'N9 - Nocturne In B Major Op. 32 No. 1', 'N10 - Nocturne In A Flat Major Op. 32 No. 2', 'N11 - Nocturne In G Minor Op. 37 No. 1', 'N12 - Nocturne In G Major Op. 37 No. 2', 'N13 - Nocturne In C Minor Op. 48 No. 1',
+                'N14 - Nocturne In F Sharp Minor Op. 48 No. 2', 'N15 - Nocturne In F Minor Op. 55 No. 1', 'N16 - Nocturne In E Flat Major Op. 55 No. 2', 'N17 - Nocturne In B Major Op. 62 No. 1', 'N18 - Nocturne In E Major Op. 62 No. 2',
+                'Ballade No. 1 In G Minor Op. 23.', 'Etude In C Minor Op. 10 No. 12 (Revolutionary Etude)', 'Etude In A Minor Op. 25 No. 11 (Winter Wind)', 'Piano Sonata No. 2 In B Flat Minor Movement III (Funeral March)',
+                'Fantaisie Impromptu in C Sharp Minor Op. Posth. 66 WN 46', 'N20 - Nocturne In C Sharp Minor, Op. Posth. - Cello'],
         idx: 0
     },
     'schubert': {
