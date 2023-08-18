@@ -25,7 +25,7 @@ const musicians = {
         idx: 0
     },
     'liszt': {
-        songs: ['Liebestraum No. 3', 'Consolation No. 3', 'Romance O Pourquoi Donc In E Minor S. 169', 'La Campanella'],
+        songs: ['Liebestraum No. 3 In A Flat Major', 'Consolation No. 3 In D Flat Major', 'Romance O Pourquoi Donc In E Minor S. 169', 'Etude No. 3 In G Sharp Minor (La Campanella)'],
         idx: 0
     },
     'beethoven': {
