@@ -1,566 +1,1165 @@
-const musicians = {
-    'hans-zimmer': {
-        songs: ['Why Do We Fall', 'Agent Of Chaos', 'Molossus', 'Corynorhinus', 'Myotis', 'Lasiurus', 'Barbastella', 'Eptescius', "Gotham's Reckoning", 'Imagine The Fire', 'Necessary Evil', 'Nothing Out There', 'Rise', 'A Dark Knight',
-                'Final Ascent',
-                'Marry Me', 'One Day', 'Wheel Of Fortune', "At Wit's End", 'Jack Sparrow', 'Parlay', 'Will And Elizabeth', 'The Black Pearl', 'Davy Jones', 'Davy Jones - Piano',        
-                'Time', 'Projections',
-                'First Step', 'No Time For Caution', 'Mountains',
-                'Goodbye My Son', 'Is She With You',
-                'Not In Blood But In Bond', 'Ah, Putrefaction',
-                'Elysium', 'Honor Him', 'Now We Are Free', 'Now We Are Free - Cello'],
-        idx: 0
-    },
-    'chopin': {
-        songs: ['N19 - Nocturne In E Minor Op. 72 No. 1', 'P4 - Prelude In E Minor Op. 28 No. 4', 'P15 - Prelude In D Flat Major Op. 28 No. 15 (Raindrop Prelude)', 'N20 - Nocturne In C Sharp Minor, Op. Posth. - Interpretation 1',
-                'N20 - Nocturne In C Sharp Minor, Op. Posth. - Interpretation 2', 'N21 - Nocturne In C Minor Op. Posth.', 'N1 - Nocturne In B Flat Minor Op. 9 No. 1', 'N2 - Nocturne In E Flat Major Op. 9 No. 2', 'N3 - Nocturne In B Major Op. 9 No. 3',
-                'N4 - Nocturne In F Major Op. 15 No. 1', 'N5 - Nocturne In F Sharp Major Op. 15 No. 2', 'N6 - Nocturne In G Minor Op. 15 No. 3', 'N7 - Nocturne In C Sharp Minor Op. 27 No. 1', 'N8 - Nocturne In D Flat Major Op. 27 No. 2',
-                'N9 - Nocturne In B Major Op. 32 No. 1', 'N10 - Nocturne In A Flat Major Op. 32 No. 2', 'N11 - Nocturne In G Minor Op. 37 No. 1', 'N12 - Nocturne In G Major Op. 37 No. 2', 'N13 - Nocturne In C Minor Op. 48 No. 1',
-                'N14 - Nocturne In F Sharp Minor Op. 48 No. 2', 'N15 - Nocturne In F Minor Op. 55 No. 1', 'N16 - Nocturne In E Flat Major Op. 55 No. 2', 'N17 - Nocturne In B Major Op. 62 No. 1', 'N18 - Nocturne In E Major Op. 62 No. 2',
-                'Ballade No. 1 In G Minor Op. 23.', 'Etude In C Minor Op. 10 No. 12 (Revolutionary Etude)', 'Etude In A Minor Op. 25 No. 11 (Winter Wind)', 'Piano Sonata No. 2 In B Flat Minor Movement III (Funeral March)',
-                'Fantaisie Impromptu in C Sharp Minor Op. Posth. 66 WN 46', 'N20 - Nocturne In C Sharp Minor, Op. Posth. - Cello'],
-        idx: 0
-    },
-    'schubert': {
-        songs: ['Impromptu In G Flat Major Op. 90 No. 3', 'Piano Trio No. 2 In E Flat Major Movement II Op. 100', 'Serenade - Interpretation 1', 'Serenade - Interpretation 2', 'Serenade - Piano and Cello', 'Serenade - Piano (arr. Liszt)'],
-        idx: 0
-    },
-    'liszt': {
-        songs: ['Liebestraum No. 3 In A Flat Major', 'Consolation No. 3 In D Flat Major', 'Romance O Pourquoi Donc In E Minor S. 169', 'Etude No. 3 In G Sharp Minor (La Campanella)'],
-        idx: 0
-    },
-    'beethoven': {
-        songs: ['Moonlight Sonata 1st Movement', 'Moonlight Sonata 1st Movement - Cello and Piano', 'Moonlight Sonata 1st Movement - Ethereal',
-                'Moonlight Sonata 3rd Movement', 'Moonlight Sonata 3rd Movement - Guitar and Drums'],
-        idx: 0
-    },
-    'satie': {
-        songs: ['Gnossienne No. 1 - Interpretation 1', 'Gnossienne No. 1 - Interpretation 2', 'Gnossienne No. 2', 'Gnossienne No. 3', 'Gnossienne No. 4', 'Gnossienne No. 5', 'Gymnopedie No. 1'],
-        idx: 0
-    },
-    'mozart': {
-        songs: ['Fantasia No. 3 In D Minor', 'Serenade No. 10 For Winds In B Flat Major 3rd Movement', 'Requiem In D Minor Introitus', 'Requiem In D Minor Lacrimosa', 'Requiem In D Minor Lacrimosa - Cello'],
-        idx: 0
-    },
-    'bach': {
-        songs: ['Toccata And Fugue In D Minor', 'Orchestral Suite No. 3 In D Major Movement II, BWV 1068 (Air On The G String)', 'Cello Suite No. 1 In G Major Prelude'],
-        idx: 0
-    },
-    'albinoni': {
-        songs: ['Adagio'],
-        idx: 0
-    },
-    'saint-saens': {
-        songs: ['The Swan - Cello and Harp', 'The Swan - Cello and Piano', 'Cello Concerto No. 1 In A Minor Op. 33'],
-        idx: 0
-    },
-    'debussy': {
-        songs: ['Reverie', 'Clair De Lune', 'Arabesque No. 1'],
-        idx: 0
-    },
-    'samuel-barber': {
-        songs: ['Adagio For Strings', 'Agnus Dei'],
-        idx: 0
-    },
-    'rachmaninoff': {
-        songs: ['Piano Concerto No. 2 1st Movement', 'Piano Concerto No. 2 2nd Movement', 'Piano Concerto No. 2 3rd Movement', 'Piano Concerto No. 2 2nd Movement - Cello'],
-        idx: 0
-    },
-    'shostakovich': {
-        songs: ['Waltz No. 2'],
-        idx: 0
-    },
-    'bruch': {
-        songs: ['Kol Nidre'],
-        idx: 0
-    },
-    'gruber': {
-        songs: ['Silent Night - Piano', 'Silent Night - Cello'],
-        idx: 0
-    },
-    'grieg': {
-        songs: ['Peer Gynt Suite No. 1 Op. 46 (Morning Mood)'],
-        idx: 0
-    },
-    'tchaikovsky': {
-        songs: ['Swan Lake Suite Op. 20 - Swan Theme'],
-        idx: 0
-    },
-    'harry-gregson-williams': {
-        songs: ['Narnia Lullaby'],
-        idx: 0
-    },
-    'steve-jablonsky': {
-        songs: ['Tessa', 'Sacrifice', 'Arrival To Earth'],
-        idx: 0
-    },
-    'james-newton-howard': {
-        songs: ['There Are Worse Games To Play-Deep In The Meadow-The Hunger Games Suite', "Rue's Farewell", "Snow's Execution"],
-        idx: 0
-    },
-    'nicholas-hooper': {
-        songs: ['When Ginny Kissed Harry', "Dumbledore's Farewell", 'Possession'],
-        idx: 0
-    },
-    'patrick-doyle': {
-        songs: ['Another Year Ends'],
-        idx: 0
-    },
-    'alexandre-desplat': {
-        songs: ['Severus and Lily'],
-        idx: 0
-    },
-    'howard-shore': {
-        songs: ['Théoden King', 'Edoras'],
-        idx: 0
-    },
-    'michael-giacchino': {
-        songs: ['Married Life'],
-        idx: 0
-    },
-    'bear-mccreary': {
-        songs: ['Reconciliation'],
-        idx: 0
-    },
-    'jesper-kyd': {
-        songs: ["Ezio's Family", 'Echoes Of The Roman Ruins'],
-        idx: 0
-    },
-    'zack-hemsey': {
-        songs: ['The Way'],
-        idx: 0
-    },
-    'johann-johannsson': {
-        songs: ["The Sun's Gone Dim And The Sky's Turned Black"],
-        idx: 0
-    },
-    'atis-freivalds': {
-        songs: ['Paradox', 'For Her'],
-        idx: 0
-    },
-    'mike-patton': {
-        songs: ['The Snow Angel'],
-        idx: 0
-    },
-    'lucio-dalla': {
-        songs: ['Caruso', 'Caruso - Cello'],
-        idx: 0
-    },
-    'luciano-pavarotti': {
-        songs: ['Nessun Dorma'],
-        idx: 0
-    },
-    'ben-e-king': {
-        songs: ['Stand By Me'],
-        idx: 0
-    },
-    'eva-cassidy': {
-        songs: ['Wade In The Water'],
-        idx: 0
-    },
-    'charles-bradley': {
-        songs: ['Crying In The Chapel'],
-        idx: 0
-    },
-    'marvin-gaye-tammi-terrell': {
-        songs: ["Ain't No Mountain High Enough"],
-        idx: 0
-    },
-    'donny-hathaway': {
-        songs: ['A Song For You'],
-        idx: 0
-    },
-    'the-foundations': {
-        songs: ['Build Me Up Buttercup'],
-        idx: 0
-    },
-    'righteous-brothers': {
-        songs: ['Unchained Melody'],
-        idx: 0
-    },
-    'johnny-hartman': {
-        songs: ['For All We Know', 'I See Your Face Before Me'],
-        idx: 0
-    },
-    'bobby-darin': {
-        songs: ['The Curtain Falls'],
-        idx: 0
-    },
-    'van-morrison': {
-        songs: ['Moondance'],
-        idx: 0
-    },
-    'james-brown': {
-        songs: ['Try Me'],
-        idx: 0
-    },
-    'etta-james': {
-        songs: ["I'd Rather Go Blind", "Lord Don't Move That Mountain"],
-        idx: 0
-    },
-    'charles-aznavour': {
-        songs: ['For Me Formidable'],
-        idx: 0
-    },
-    'israel-kamakawiwoole': {
-        songs: ['Somewhere Over The Rainbow'],
-        idx: 0
-    },
-    'nick-cave': {
-        songs: ['O Children'],
-        idx: 0
-    },
-    'imogen-heap': {
-        songs: ['Hide And Seek'],
-        idx: 0
-    },
-    'don-mclean': {
-        songs: ['Vincent', 'Vincent - Guitar', 'American Pie'],
-        idx: 0
-    },
-    'the-mamas-and-the-papas': {
-        songs: ["California Dreamin'"],
-        idx: 0
-    },
-    'patrick-watson': {
-        songs: ['To Build A Home'],
-        idx: 0
-    },
-    'rufus-wainwright': {
-        songs: ['Hallelujah'],
-        idx: 0
-    },
-    'duffy': {
-        songs: ['Delayed Devotion'],
-        idx: 0
-    },
-    'maxwell': {
-        songs: ['Pretty Wings'],
-        idx: 0
-    },
-    'bob-dylan': {
-        songs: ['Things Have Changed'],
-        idx: 0
-    },
-    'johnny-cash': {
-        songs: ["God's Gonna Cut You Down", 'Hurt'],
-        idx: 0
-    },
-    'ben-howard': {
-        songs: ['Oats In The Water'],
-        idx: 0
-    },
-    'jamie-n-commons': {
-        songs: ['Lead Me Home'],
-        idx: 0
-    },
-    'phillip-phillips': {
-        songs: ['Home'],
-        idx: 0
-    },
-    'john-denver': {
-        songs: ['Take Me Home, Country Roads'],
-        idx: 0
-    },
-    'ritchie-valens': {
-        songs: ['La Bamba'],
-        idx: 0
-    },
-    'jon-batiste': {
-        songs: ['Blackbird'],
-        idx: 0
-    },
-    'the-chords': {
-        songs: ['Sh-Boom'],
-        idx: 0
-    },
-    'imad-fares': {
-        songs: ['Gipsy Kings'],
-        idx: 0
-    },
-    'rodrigo-and-gabriela': {
-        songs: ['Diablo Rojo'],
-        idx: 0
-    },
-    'steve-vai': {
-        songs: ['For The Love Of God', 'Tender Surrender'],
-        idx: 0
-    },
-    'neogeofanatic': {
-        songs: ['My Gibson Les Paul Is Crying'],
-        idx: 0
-    },
-    'rhapsody-of-fire': {
-        songs: ['Gargoyles Angels Of Darkness'],
-        idx: 0
-    },
-    'meshuggah': {
-        songs: ['Bleed', 'Demiurge'],
-        idx: 0
-    },
-    'slipknot': {
-        songs: ['All Out Life', 'Psychosocial', 'Sulfur', 'Disasterpiece', 'Skin Ticket', 'Purity', '(sic)', 'Surfacing', 'Duality', 'Custer',
-                'The Devil In I', 'The Devil In I (Live)', 'Everything Ends', 'The Negative One', 'Snuff'],
-        idx: 0
-    },
-    'firewind': {
-        songs: ['Allegiance'],
-        idx: 0
-    },
-    'pantera': {
-        songs: ['Mouth For War'],
-        idx: 0
-    },
-    'rage-against-the-machine': {
-        songs: ['Killing In The Name'],
-        idx: 0
-    },
-    'disturbed': {
-        songs: ['Down With The Sickness', 'The Sound Of Silence'],
-        idx: 0
-    },
-    'nirvana': {
-        songs: ['Smells Like Teen Spirit', 'Heart-Shaped Box'],
-        idx: 0
-    },
-    'aerosmith': {
-        songs: ['Dream On'],
-        idx: 0
-    },
-    'blue-oyster-cult': {
-        songs: ["(Don't Fear) The Reaper"],
-        idx: 0
-    },
-    'metallica': {
-        songs: ['Enter Sandman', 'Nothing Else Matters', 'Master Of Puppets', 'For Whom The Bell Tolls'],
-        idx: 0
-    },
-    'guns-n-roses': {
-        songs: ["Sweet Child O' Mine", 'Welcome To The Jungle'],
-        idx: 0
-    },
-    'ac-dc': {
-        songs: ['Thunderstruck', 'Thunderstruck - Cello'],
-        idx: 0
-    },
-    'motley-crue': {
-        songs: ['Kickstart My Heart'],
-        idx: 0
-    },
-    'linkin-park': {
-        songs: ['Numb'],
-        idx: 0
-    },
-    'my-chemical-romance': {
-        songs: ['The Ghost Of You'],
-        idx: 0
-    },
-    'radiohead': {
-        songs: ['Creep'],
-        idx: 0
-    },
-    'the-who': {
-        songs: ["Baba O'Riley", 'Who Are You', 'Pinball Wizard'],
-        idx: 0
-    },
-    'rem': {
-        songs: ['Losing My Religion', 'Man On The Moon'],
-        idx: 0
-    },
-    'steely-dan': {
-        songs: ['Do It Again'],
-        idx: 0
-    },
-    'the-band': {
-        songs: ['The Weight'],
-        idx: 0
-    },
-    'creedence-clearwater-revival': {
-        songs: ['Have You Ever Seen The Rain'],
-        idx: 0
-    },
-    'the-beatles': {
-        songs: ['In My Life', 'Let It Be', 'Girl', 'Michelle', 'Eleanor Rigby', 'The Long And Winding Road', 'Yesterday', 'Twist And Shout', 'Help!', 'All You Need Is Love', 'Hey Jude'],
-        idx: 0
-    },
-    'electric-light-orchestra': {
-        songs: ['Mr. Blue Sky'],
-        idx: 0
-    },
-    'cream': {
-        songs: ['White Room'],
-        idx: 0
-    },
-    'the-goo-goo-dolls': {
-        songs: ['Iris'],
-        idx: 0
-    },
-    'oasis': {
-        songs: ['Wonderwall'],
-        idx: 0
-    },
-    'augustana': {
-        songs: ['Boston'],
-        idx: 0
-    },
-    'the-killers': {
-        songs: ['Mr. Brightside'],
-        idx: 0
-    },
-    'wilco': {
-        songs: ['How To Fight Loneliness'],
-        idx: 0
-    },
-    'coldplay': {
-        songs: ['The Scientist', 'Yellow', 'Fix You', 'Viva La Vida', 'Adventure Of A Lifetime'],
-        idx: 0
-    },
-    'muse': {
-        songs: ['Uprising', 'Starlight', 'Supermassive Black Hole'],
-        idx: 0
-    },
-    'bag-raiders': {
-        songs: ['Shooting Stars'],
-        idx: 0
-    },
-    'wang-chung': {
-        songs: ['Space Junk'],
-        idx: 0
-    },
-    'joe-strummer-and-the-mescaleros': {
-        songs: ['Mondo Bongo'],
-        idx: 0
-    },
-    'stray-cats': {
-        songs: ['Stray Cat Strut'],
-        idx: 0
-    },
-    'tears-for-fears': {
-        songs: ['Sowing The Seeds Of Love', 'Everybody Wants To Rule The World'],
-        idx: 0
-    },
-    'culture-club': {
-        songs: ['Karma Chameleon'],
-        idx: 0
-    },
-    'john-waite': {
-        songs: ['Missing You'],
-        idx: 0
-    },
-    'eddie-money': {
-        songs: ['Baby Hold On'],
-        idx: 0
-    },
-    'phil-collins': {
-        songs: ['In The Air Tonight'],
-        idx: 0
-    },
-    'eminem': {
-        songs: ['Sing For The Moment', 'Sing For The Moment (Instrumental)', 'Lose Yourself', 'Till I Collapse', "Won't Back Down", 'Stan', 'Fast Lane'],
-        idx: 0
-    },
-    'kendrick-lamar': {
-        songs: ['Hiiipower', 'Black Boy Fly', 'Ignorance Is Bliss', 'Money Trees', 'The Recipe'],
-        idx: 0
-    },
-    'kanye-west': {
-        songs: ['Heartless', 'Love Lockdown', 'Send It Up', 'No Church In The Wild', 'Blood On The Leaves', 'Flashing Lights'],
-        idx: 0
-    },
-    'lupe-fiasco': {
-        songs: ['Superstar'],
-        idx: 0
-    },
-    'suicidal-tendencies': {
-        songs: ['Institutionalized'],
-        idx: 0
-    },
-    'flobots': {
-        songs: ['Handlebars'],
-        idx: 0
-    },
-    'house-of-pain': {
-        songs: ['Jump Around'],
-        idx: 0
-    },
-    'naughty-by-nature': {
-        songs: ['Hip Hop Hooray'],
-        idx: 0
-    },
-    'tom-pepe': {
-        songs: ['The River Runs Deep'],
-        idx: 0
-    },
-    'gerry-mulligan': {
-        songs: ['Prelude In E Minor Op. 28 No. 4 - Jazz'],
-        idx: 0
-    },
-    'dave-brubeck': {
-        songs: ['Take Five', 'Maria'],
-        idx: 0
-    },
-    'larnell-lewis': {
-        songs: ['Drum Solo'],
-        idx: 0
-    },
-    'carly-comando': {
-        songs: ['Everyday'],
-        idx: 0
-    },
-    'joseph-kilna-mackenzie': {
-        songs: ['Sgt. MacKenzie'],
-        idx: 0
-    },
-    'the-xx': {
-        songs: ['Intro', 'Angels'],
-        idx: 0
-    },
-    'henry-krinkle': {
-        songs: ['Stay'],
-        idx: 0
-    },
-    'tony-anderson': {
-        songs: ['Ember'],
-        idx: 0
-    },
-    'disclosure': {
-        songs: ['You & Me'],
-        idx: 0
-    },
-    'feed-me-and-crystal-fighters': {
-        songs: ['Love Is All I Got'],
-        idx: 0
-    },
-    'junior-senior': {
-        songs: ['Move Your Feet'],
-        idx: 0
-    },
-    'stromae': {
-        songs: ['Alors On Danse'],
-        idx: 0
-    },
-    'ta-ku': {
-        songs: ['Night 3'],
-        idx: 0
-    },
-    // writers follow the same logic as musicians
-    'dylan-thomas': {
-        songs: ['Do Not Go Gentle Into That Good Night'],
-        idx: 0
-    },
-    'william-ernest-henley': {
-        songs: ['Invictus'],
-        idx: 0
-    },
-    'charles-dickens': {
-        songs: ['A Tale Of Two Cities'],
-        idx: 0
-    },
+// id and name are used to initialize the html document
+// songs is used to initialize musiciansObject which is used to play the songs
+const musiciansArray = [
+    {
+        id: 'hans-zimmer',
+        name: 'Hans Zimmer',
+        songs: [
+            'Why Do We Fall',          // The Dark Knight trilogy
+            'Agent Of Chaos',
+            'Molossus',
+            'Corynorhinus',
+            'Myotis',
+            'Lasiurus',
+            'Barbastella',
+            'Eptescius',
+            "Gotham's Reckoning",
+            'Imagine The Fire',
+            'Necessary Evil',
+            'Nothing Out There',
+            'Rise',
+            'A Dark Knight',
+            'Final Ascent',            // No Time To Die
+            'Marry Me',                // Pirates Of The Carribean franchise
+            'One Day',
+            'Wheel Of Fortune',
+            "At Wit's End",
+            'Jack Sparrow',
+            'Parlay',
+            'Will And Elizabeth',
+            'The Black Pearl',
+            'Davy Jones',
+            'Davy Jones - Piano',        
+            'Time',                     // Inception
+            'Projections',
+            'First Step',
+            'No Time For Caution',
+            'Mountains',
+            'Goodbye My Son',           // Man Of Steel
+            'Is She With You',          // Batman V Superman
+            'Not In Blood But In Bond', // Sherlock Holmes
+            'Ah, Putrefaction',
+            'Elysium',                  // Gladiator
+            'Honor Him',
+            'Now We Are Free',
+            'Now We Are Free - Cello'
+        ]
+    },
+    {
+        id: 'chopin',
+        name: 'Chopin',
+        songs: [
+            'N19 - Nocturne In E Minor Op. 72 No. 1',
+            'P4 - Prelude In E Minor Op. 28 No. 4',
+            'P15 - Prelude In D Flat Major Op. 28 No. 15 (Raindrop Prelude)',
+            'N20 - Nocturne In C Sharp Minor, Op. Posth. - Interpretation 1',
+            'N20 - Nocturne In C Sharp Minor, Op. Posth. - Interpretation 2',
+            'N21 - Nocturne In C Minor Op. Posth.',
+            'N1 - Nocturne In B Flat Minor Op. 9 No. 1',
+            'N2 - Nocturne In E Flat Major Op. 9 No. 2',
+            'N3 - Nocturne In B Major Op. 9 No. 3',
+            'N4 - Nocturne In F Major Op. 15 No. 1',
+            'N5 - Nocturne In F Sharp Major Op. 15 No. 2',
+            'N6 - Nocturne In G Minor Op. 15 No. 3',
+            'N7 - Nocturne In C Sharp Minor Op. 27 No. 1',
+            'N8 - Nocturne In D Flat Major Op. 27 No. 2',
+            'N9 - Nocturne In B Major Op. 32 No. 1',
+            'N10 - Nocturne In A Flat Major Op. 32 No. 2',
+            'N11 - Nocturne In G Minor Op. 37 No. 1',
+            'N12 - Nocturne In G Major Op. 37 No. 2',
+            'N13 - Nocturne In C Minor Op. 48 No. 1',
+            'N14 - Nocturne In F Sharp Minor Op. 48 No. 2',
+            'N15 - Nocturne In F Minor Op. 55 No. 1',
+            'N16 - Nocturne In E Flat Major Op. 55 No. 2',
+            'N17 - Nocturne In B Major Op. 62 No. 1',
+            'N18 - Nocturne In E Major Op. 62 No. 2',
+            'Ballade No. 1 In G Minor Op. 23.',
+            'Etude In C Minor Op. 10 No. 12 (Revolutionary Etude)',
+            'Etude In A Minor Op. 25 No. 11 (Winter Wind)',
+            'Piano Sonata No. 2 In B Flat Minor Movement III (Funeral March)',
+            'Fantaisie Impromptu in C Sharp Minor Op. Posth. 66 WN 46',
+            'N20 - Nocturne In C Sharp Minor, Op. Posth. - Cello'
+        ]
+    },
+    {
+        id: 'schubert',
+        name: 'Schubert',
+        songs: [
+            'Impromptu In G Flat Major Op. 90 No. 3',
+            'Piano Trio No. 2 In E Flat Major Movement II Op. 100',
+            'Serenade - Interpretation 1',
+            'Serenade - Interpretation 2',
+            'Serenade - Piano and Cello',
+            'Serenade - Piano (arr. Liszt)'
+        ]
+    },
+    {
+        id: 'liszt',
+        name: 'Liszt',
+        songs: [
+            'Liebestraum No. 3 In A Flat Major',
+            'Consolation No. 3 In D Flat Major',
+            'Romance O Pourquoi Donc In E Minor S. 169',
+            'Etude No. 3 In G Sharp Minor (La Campanella)'
+        ]
+    },
+    {
+        id: 'beethoven',
+        name: 'Beethoven',
+        songs: [
+            'Moonlight Sonata 1st Movement',
+            'Moonlight Sonata 1st Movement - Cello and Piano',
+            'Moonlight Sonata 1st Movement - Ethereal',
+            'Moonlight Sonata 3rd Movement',
+            'Moonlight Sonata 3rd Movement - Guitar and Drums'
+        ]
+    },
+    {
+        id: 'mozart',
+        name: 'Mozart',
+        songs: [
+            'Fantasia No. 3 In D Minor',
+            'Serenade No. 10 For Winds In B Flat Major 3rd Movement',
+            'Requiem In D Minor Introitus',
+            'Requiem In D Minor Lacrimosa',
+            'Requiem In D Minor Lacrimosa - Cello'
+        ]
+    },
+    {
+        id: 'bach',
+        name: 'Bach',
+        songs: [
+            'Toccata And Fugue In D Minor',
+            'Orchestral Suite No. 3 In D Major Movement II, BWV 1068 (Air On The G String)',
+            'Cello Suite No. 1 In G Major Prelude'
+        ]
+    },
+    {
+        id: 'albinoni',
+        name: 'Albinoni',
+        songs: [
+            'Adagio'
+        ]
+    },
+    {
+        id: 'saint-saens',
+        name: 'Saint-Saens',
+        songs: [
+            'The Swan - Cello and Harp',
+            'The Swan - Cello and Piano',
+            'Cello Concerto No. 1 In A Minor Op. 33'
+        ]
+    },
+    {
+        id: 'satie',
+        name: 'Satie',
+        songs: [
+            'Gnossienne No. 1 - Interpretation 1',
+            'Gnossienne No. 1 - Interpretation 2',
+            'Gnossienne No. 2',
+            'Gnossienne No. 3',
+            'Gnossienne No. 4',
+            'Gnossienne No. 5',
+            'Gymnopedie No. 1'
+        ]
+    },
+    {
+        id: 'debussy',
+        name: 'Debussy',
+        songs: [
+            'Reverie',
+            'Clair De Lune',
+            'Arabesque No. 1'
+        ]
+    },
+    {
+        id: 'samuel-barber',
+        name: 'Samuel Barber',
+        songs: [
+            'Adagio For Strings',
+            'Agnus Dei'
+        ]
+    },
+    {
+        id: 'rachmaninoff',
+        name: 'Rachmaninoff',
+        songs: [
+            'Piano Concerto No. 2 1st Movement',
+            'Piano Concerto No. 2 2nd Movement',
+            'Piano Concerto No. 2 3rd Movement',
+            'Piano Concerto No. 2 2nd Movement - Cello'
+        ]
+    },
+    {
+        id: 'shostakovich',
+        name: 'Shostakovich',
+        songs: [
+            'Waltz No. 2'
+        ]
+    },
+    {
+        id: 'bruch',
+        name: 'Bruch',
+        songs: [
+            'Kol Nidre'
+        ]
+    },
+    {
+        id: 'gruber',
+        name: 'Gruber',
+        songs: [
+            'Silent Night - Piano',
+            'Silent Night - Cello'
+        ]
+    },
+    {
+        id: 'grieg',
+        name: 'Grieg',
+        songs: [
+            'Peer Gynt Suite No. 1 Op. 46 (Morning Mood)'
+        ]
+    },
+    {
+        id: 'tchaikovsky',
+        name: 'Tchaikovsky',
+        songs: [
+            'Swan Lake Suite Op. 20 - Swan Theme'
+        ]
+    },
+    {
+        id: 'harry-gregson-williams',
+        name: 'Harry Gregson-Williams',
+        songs: [
+            'Narnia Lullaby'
+        ]
+    },
+    {
+        id: 'steve-jablonsky',
+        name: 'Steve Jablonsky',
+        songs: [
+            'Tessa',
+            'Sacrifice',
+            'Arrival To Earth'
+        ]
+    },
+    {
+        id: 'james-newton-howard',
+        name: 'James Newton Howard',
+        songs: [
+            'There Are Worse Games To Play-Deep In The Meadow-The Hunger Games Suite',
+            "Rue's Farewell",
+            "Snow's Execution"
+        ]
+    },
+    {
+        id: 'nicholas-hooper',
+        name: 'Nicholas Hooper',
+        songs: [
+            'When Ginny Kissed Harry',
+            "Dumbledore's Farewell",
+            'Possession'
+        ]
+    },
+    {
+        id: 'patrick-doyle',
+        name: 'Patrick Doyle',
+        songs: [
+            'Another Year Ends'
+        ]
+    },
+    {
+        id: 'alexandre-desplat',
+        name: 'Alexandre Desplat',
+        songs: [
+            'Severus and Lily'
+        ]
+    },
+    {
+        id: 'howard-shore',
+        name: 'Howard Shore',
+        songs: [
+            'Théoden King',
+            'Edoras'
+        ]
+    },
+    {
+        id: 'michael-giacchino',
+        name: 'Michael Giacchino',
+        songs: [
+            'Married Life',
+        ]
+    },
+    {
+        id: 'bear-mccreary',
+        name: 'Bear McCreary',
+        songs: [
+            'Reconciliation',
+        ]
+    },
+    {
+        id: 'jesper-kyd',
+        name: 'Jesper Kyd',
+        songs: [
+            "Ezio's Family",
+            'Echoes Of The Roman Ruins'
+        ]
+    },
+    {
+        id: 'zack-hemsey',
+        name: 'Zack Hemsey',
+        songs: [
+            'The Way'
+        ]
+    },
+    {
+        id: 'johann-johannsson',
+        name: 'Johann Johannsson',
+        songs: [
+            "The Sun's Gone Dim And The Sky's Turned Black"
+        ]
+    },
+    {
+        id: 'atis-freivalds',
+        name: 'Atis Freivalds',
+        songs: [
+            'Paradox',
+            'For Her'
+        ]
+    },
+    {
+        id: 'mike-patton',
+        name: 'Mike Patton',
+        songs: [
+            'The Snow Angel'
+        ]
+    },
+    {
+        id: 'lucio-dalla',
+        name: 'Lucio Dalla',
+        songs: [
+            'Caruso',
+            'Caruso - Cello',
+        ]
+    },
+    {
+        id: 'luciano-pavarotti',
+        name: 'Luciano Pavarotti',
+        songs: [
+            'Nessun Dorma'
+        ]
+    },
+    {
+        id: 'ben-e-king',
+        name: 'Ben E. King',
+        songs: [
+            'Stand By Me'
+        ]
+    },
+    {
+        id: 'eva-cassidy',
+        name: 'Eva Cassidy',
+        songs: [
+            'Wade In The Water'
+        ]
+    },
+    {
+        id: 'charles-bradley',
+        name: 'Charles Bradley',
+        songs: [
+            'Crying In The Chapel'
+        ]
+    },
+    {
+        id: 'marvin-gaye-tammi-terrell',
+        name: 'Marvin Gaye and Tammi Terrell',
+        songs: [
+            "Ain't No Mountain High Enough"
+        ]
+    },
+    {
+        id: 'donny-hathaway',
+        name: 'Donny Hathaway',
+        songs: [
+            'A Song For You'
+        ]
+    },
+    {
+        id: 'the-foundations',
+        name: 'The Foundations',
+        songs: [
+            'Build Me Up Buttercup'
+        ]
+    },
+    {
+        id: 'righteous-brothers',
+        name: 'Righteous Brothers',
+        songs: [
+            'Unchained Melody'
+        ]
+    },
+    {
+        id: 'johnny-hartman',
+        name: 'Johnny Hartman',
+        songs: [
+            'For All We Know',
+            'I See Your Face Before Me'
+        ]
+    },
+    {
+        id: 'bobby-darin',
+        name: 'Bobby Darin',
+        songs: [
+            'The Curtain Falls'
+        ]
+    },
+    {
+        id: 'van-morrison',
+        name: 'Van Morrison',
+        songs: [
+            'Moondance'
+        ]
+    },
+    {
+        id: 'james-brown',
+        name: 'James Brown',
+        songs: [
+            'Try Me'
+        ]
+    },
+    {
+        id: 'etta-james',
+        name: 'Etta James',
+        songs: [
+            "I'd Rather Go Blind",
+            "Lord Don't Move That Mountain"
+        ]
+    },
+    {
+        id: 'charles-aznavour',
+        name: 'Charles Aznavour',
+        songs: [
+            'For Me Formidable'
+        ]
+    },
+    {
+        id: 'israel-kamakawiwoole',
+        name: 'Israel Kamakawiwoole',
+        songs: [
+            'Somewhere Over The Rainbow'
+        ]
+    },
+    {
+        id: 'nick-cave',
+        name: 'Nick Cave',
+        songs: [
+            'O Children'
+        ]
+    },
+    {
+        id: 'imogen-heap',
+        name: 'Imogen Heap',
+        songs: [
+            'Hide And Seek'
+        ]
+    },
+    {
+        id: 'don-mclean',
+        name: 'Don McLean',
+        songs: [
+            'Vincent',
+            'Vincent - Guitar',
+            'American Pie'
+        ]
+    },
+    {
+        id: 'the-mamas-and-the-papas',
+        name: 'The Mamas And The Papas',
+        songs: [
+            "California Dreamin'"
+        ]
+    },
+    {
+        id: 'patrick-watson',
+        name: 'Patrick Watson',
+        songs: [
+            'To Build A Home'
+        ]
+    },
+    {
+        id: 'rufus-wainwright',
+        name: 'Rufus Wainwright',
+        songs: [
+            'Hallelujah'
+        ]
+    },
+    {
+        id: 'duffy',
+        name: 'Duffy',
+        songs: [
+            'Delayed Devotion'
+        ]
+    },
+    {
+        id: 'maxwell',
+        name: 'Maxwell',
+        songs: [
+            'Pretty Wings'
+        ]
+    },
+    {
+        id: 'bob-dylan',
+        name: 'Bob Dylan',
+        songs: [
+            'Things Have Changed'
+        ]
+    },
+    {
+        id: 'johnny-cash',
+        name: 'Johnny Cash',
+        songs: [
+            "God's Gonna Cut You Down",
+            'Hurt'
+        ]
+    },
+    {
+        id: 'ben-howard',
+        name: 'Ben Howard',
+        songs: [
+            'Oats In The Water'
+        ]
+    },
+    {
+        id: 'jamie-n-commons',
+        name: 'Jamie N Commons',
+        songs: [
+            'Lead Me Home'
+        ]
+    },
+    {
+        id: 'phillip-phillips',
+        name: 'Phillip Phillips',
+        songs: [
+            'Home'
+        ]
+    },
+    {
+        id: 'john-denver',
+        name: 'John Denver',
+        songs: [
+            'Take Me Home, Country Roads'
+        ]
+    },
+    {
+        id: 'ritchie-valens',
+        name: 'Ritchie Valens',
+        songs: [
+            'La Bamba'
+        ]
+    },
+    {
+        id: 'jon-batiste',
+        name: 'Jon Batiste',
+        songs: [
+            'Blackbird'
+        ]
+    },
+    {
+        id: 'the-chords',
+        name: 'The Chords',
+        songs: [
+            'Sh-Boom'
+        ]
+    },
+    {
+        id: 'imad-fares',
+        name: 'Imad Fares',
+        songs: [
+            'Gipsy Kings'
+        ]
+    },
+    {
+        id: 'rodrigo-and-gabriela',
+        name: 'Rodrigo And Gabriela',
+        songs: [
+            'Diablo Rojo'
+        ]
+    },
+    {
+        id: 'steve-vai',
+        name: 'Steve Vai',
+        songs: [
+            'For The Love Of God',
+            'Tender Surrender'
+        ]
+    },
+    {
+        id: 'neogeofanatic',
+        name: 'Neogeofanatic',
+        songs: [
+            'My Gibson Les Paul Is Crying'
+        ]
+    },
+    {
+        id: 'rhapsody-of-fire',
+        name: 'Rhapsody Of Fire',
+        songs: [
+            'Gargoyles Angels Of Darkness'
+        ]
+    },
+    {
+        id: 'meshuggah',
+        name: 'Meshuggah',
+        songs: [
+            'Bleed',
+            'Demiurge'
+        ]
+    },
+    {
+        id: 'slipknot',
+        name: 'Slipknot',
+        songs: [
+            'All Out Life',
+            'Psychosocial',
+            'Sulfur',
+            'Disasterpiece',
+            'Skin Ticket',
+            'Purity',
+            '(sic)',
+            'Surfacing',
+            'Duality',
+            'Custer',
+            'The Devil In I',
+            'The Devil In I (Live)',
+            'Everything Ends',
+            'The Negative One',
+            'Snuff'
+        ]
+    },
+    {
+        id: 'firewind',
+        name: 'Firewind',
+        songs: [
+            'Allegiance'
+        ]
+    },
+    {
+        id: 'pantera',
+        name: 'Pantera',
+        songs: [
+            'Mouth For War'
+        ]
+    },
+    {
+        id: 'rage-against-the-machine',
+        name: 'Rage Against The Machine',
+        songs: [
+            'Killing In The Name'
+        ]
+    },
+    {
+        id: 'disturbed',
+        name: 'Disturbed',
+        songs: [
+            'Down With The Sickness',
+            'The Sound Of Silence'
+        ]
+    },
+    {
+        id: 'nirvana',
+        name: 'Nirvana',
+        songs: [
+            'Smells Like Teen Spirit',
+            'Heart-Shaped Box'
+        ]
+    },
+    {
+        id: 'aerosmith',
+        name: 'Aerosmith',
+        songs: [
+            'Dream On'
+        ]
+    },
+    {
+        id: 'blue-oyster-cult',
+        name: 'Blue Oyster Cult',
+        songs: [
+            "(Don't Fear) The Reaper"
+        ]
+    },
+    {
+        id: 'metallica',
+        name: 'Metallica',
+        songs: [
+            'Enter Sandman',
+            'Nothing Else Matters',
+            'Master Of Puppets',
+            'For Whom The Bell Tolls'
+        ]
+    },
+    {
+        id: 'guns-n-roses',
+        name: "Guns N' Roses",
+        songs: [
+            "Sweet Child O' Mine",
+            'Welcome To The Jungle'
+        ]
+    },
+    {
+        id: 'ac-dc',
+        name: 'AC/DC',
+        songs: [
+            'Thunderstruck',
+            'Thunderstruck - Cello'
+        ]
+    },
+    {
+        id: 'motley-crue',
+        name: 'Motley Crue',
+        songs: [
+            'Kickstart My Heart'
+        ]
+    },
+    {
+        id: 'linkin-park',
+        name: 'Linkin Park',
+        songs: [
+            'Numb'
+        ]
+    },
+    {
+        id: 'my-chemical-romance',
+        name: 'My Chemical Romance',
+        songs: [
+            'The Ghost Of You'
+        ]
+    },
+    {
+        id: 'radiohead',
+        name: 'Radiohead',
+        songs: [
+            'Creep'
+        ]
+    },
+    {
+        id: 'the-who',
+        name: 'The Who',
+        songs: [
+            "Baba O'Riley",
+            'Who Are You',
+            'Pinball Wizard'
+        ]
+    },
+    {
+        id: 'rem',
+        name: 'R.E.M.',
+        songs: [
+            'Losing My Religion',
+            'Man On The Moon'
+        ]
+    },
+    {
+        id: 'steely-dan',
+        name: 'Steely Dan',
+        songs: [
+            'Do It Again'
+        ]
+    },
+    {
+        id: 'the-band',
+        name: 'The Band',
+        songs: [
+            'The Weight'
+        ]
+    },
+    {
+        id: 'creedence-clearwater-revival',
+        name: 'Creedence Clearwater Revival',
+        songs: [
+            'Have You Ever Seen The Rain'
+        ]
+    },
+    {
+        id: 'the-beatles',
+        name: 'The Beatles',
+        songs: [
+            'In My Life',
+            'Let It Be',
+            'Girl',
+            'Michelle',
+            'Eleanor Rigby',
+            'The Long And Winding Road',
+            'Yesterday',
+            'Twist And Shout',
+            'Help!',
+            'All You Need Is Love',
+            'Hey Jude'
+        ]
+    },
+    {
+        id: 'electric-light-orchestra',
+        name: 'Electric Light Orchestra',
+        songs: [
+            'Mr. Blue Sky'
+        ]
+    },
+    {
+        id: 'cream',
+        name: 'Cream',
+        songs: [
+            'White Room'
+        ]
+    },
+    {
+        id: 'the-goo-goo-dolls',
+        name: 'The Goo Goo Dolls',
+        songs: [
+            'Iris'
+        ]
+    },
+    {
+        id: 'oasis',
+        name: 'Oasis',
+        songs: [
+            'Wonderwall'
+        ]
+    },
+    {
+        id: 'augustana',
+        name: 'Augustana',
+        songs: [
+            'Boston'
+        ]
+    },
+    {
+        id: 'the-killers',
+        name: 'The Killers',
+        songs: [
+            'Mr. Brightside'
+        ]
+    },
+    {
+        id: 'wilco',
+        name: 'Wilco',
+        songs: [
+            'How To Fight Loneliness'
+        ]
+    },
+    {
+        id: 'coldplay',
+        name: 'Coldplay',
+        songs: [
+            'The Scientist',
+            'Yellow',
+            'Fix You',
+            'Viva La Vida',
+            'Adventure Of A Lifetime'
+        ]
+    },
+    {
+        id: 'muse',
+        name: 'Muse',
+        songs: [
+            'Uprising',
+            'Starlight',
+            'Supermassive Black Hole'
+        ]
+    },
+    {
+        id: 'bag-raiders',
+        name: 'Bag Raiders',
+        songs: [
+            'Shooting Stars'
+        ]
+    },
+    {
+        id: 'wang-chung',
+        name: 'Wang Chung',
+        songs: [
+            'Space Junk'
+        ]
+    },
+    {
+        id: 'joe-strummer-and-the-mescaleros',
+        name: 'Joe Strummer And The Mescaleros',
+        songs: [
+            'Mondo Bongo'
+        ]
+    },
+    {
+        id: 'stray-cats',
+        name: 'Stray Cats',
+        songs: [
+            'Stray Cat Strut'
+        ]
+    },
+    {
+        id: 'tears-for-fears',
+        name: 'Tears For Fears',
+        songs: [
+            'Sowing The Seeds Of Love',
+            'Everybody Wants To Rule The World'
+        ]
+    },
+    {
+        id: 'culture-club',
+        name: 'Culture Club',
+        songs: [
+            'Karma Chameleon'
+        ]
+    },
+    {
+        id: 'john-waite',
+        name: 'John Waite',
+        songs: [
+            'Missing You'
+        ]
+    },
+    {
+        id: 'eddie-money',
+        name: 'Eddie Money',
+        songs: [
+            'Baby Hold On'
+        ]
+    },
+    {
+        id: 'phil-collins',
+        name: 'Phil Collins',
+        songs: [
+            'In The Air Tonight'
+        ]
+    },
+    {
+        id: 'eminem',
+        name: 'Eminem',
+        songs: [
+            'Sing For The Moment',
+            'Sing For The Moment (Instrumental)',
+            'Lose Yourself',
+            'Till I Collapse',
+            "Won't Back Down",
+            'Stan',
+            'Fast Lane'
+        ]
+    },
+    {
+        id: 'kendrick-lamar',
+        name: 'Kendrick Lamar',
+        songs: [
+            'Hiiipower',
+            'Black Boy Fly',
+            'Ignorance Is Bliss',
+            'Money Trees',
+            'The Recipe'
+        ]
+    },
+    {
+        id: 'kanye-west',
+        name: 'Kanye West',
+        songs: [
+            'Heartless',
+            'Love Lockdown',
+            'Send It Up',
+            'No Church In The Wild',
+            'Blood On The Leaves',
+            'Flashing Lights'
+        ]
+    },
+    {
+        id: 'lupe-fiasco',
+        name: 'Lupe Fiasco',
+        songs: [
+            'Superstar'
+        ]
+    },
+    {
+        id: 'suicidal-tendencies',
+        name: 'Suicidal Tendencies',
+        songs: [
+            'Institutionalized'
+        ]
+    },
+    {
+        id: 'flobots',
+        name: 'Flobots',
+        songs: [
+            'Handlebars'
+        ]
+    },
+    {
+        id: 'house-of-pain',
+        name: 'House Of Pain',
+        songs: [
+            'Jump Around'
+        ]
+    },
+    {
+        id: 'naughty-by-nature',
+        name: 'Naughty By Nature',
+        songs: [
+            'Hip Hop Hooray'
+        ]
+    },
+    {
+        id: 'tom-pepe',
+        name: 'Tom Pepe',
+        songs: [
+            'The River Runs Deep'
+        ]
+    },
+    {
+        id: 'gerry-mulligan',
+        name: 'Gerry Mulligan',
+        songs: [
+            'Prelude In E Minor Op. 28 No. 4 - Jazz'
+        ]
+    },
+    {
+        id: 'dave-brubeck',
+        name: 'Dave Brubeck',
+        songs: [
+            'Take Five',
+            'Maria'
+        ]
+    },
+    {
+        id: 'larnell-lewis',
+        name: 'Larnell Lewis',
+        songs: [
+            'Drum Solo'
+        ]
+    },
+    {
+        id: 'carly-comando',
+        name: 'Carly Comando',
+        songs: [
+            'Everyday'
+        ]
+    },
+    {
+        id: 'joseph-kilna-mackenzie',
+        name: 'Joseph Kilna MacKenzie',
+        songs: [
+            'Sgt. MacKenzie'
+        ]
+    },
+    {
+        id: 'the-xx',
+        name: 'The XX',
+        songs: [
+            'Intro',
+            'Angels'
+        ]
+    },
+    {
+        id: 'henry-krinkle',
+        name: 'Henry Krinkle',
+        songs: [
+            'Stay'
+        ]
+    },
+    {
+        id: 'tony-anderson',
+        name: 'Tony Anderson',
+        songs: [
+            'Ember'
+        ]
+    },
+    {
+        id: 'disclosure',
+        name: 'Disclosure',
+        songs: [
+            'You & Me'
+        ]
+    },
+    {
+        id: 'feed-me-and-crystal-fighters',
+        name: 'Crystal Fighters',
+        songs: [
+            'Love Is All I Got'
+        ]
+    },
+    {
+        id: 'junior-senior',
+        name: 'Junior Senior',
+        songs: [
+            'Move Your Feet'
+        ]
+    },
+    {
+        id: 'stromae',
+        name: 'Stromae',
+        songs: [
+            'Alors On Danse'
+        ]
+    },
+    {
+        id: 'ta-ku',
+        name: 'Ta-Ku',
+        songs: [
+            'Night 3'
+        ]
+    },
+    {
+        id: 'dylan-thomas',
+        name: 'Dylan Thomas',
+        songs: [
+            'Do Not Go Gentle Into That Good Night'
+        ]
+    },
+    {
+        id: 'william-ernest-henley',
+        name: 'William Ernest Henley',
+        songs: [
+            'Invictus'
+        ]
+    },
+    {
+        id: 'charles-dickens',
+        name: 'Charles Dickens',
+        songs: [
+            'A Tale Of Two Cities'
+        ]
+    },
+];
+
+
+/*
+    Built based on musiciansArray
+    {
+        'musician1-id' : {
+            songs: ['song1', 'song2'...],
+            idx: 0
+        },
+        'musician2-id' : {
+            songs: ['song1', 'song2'...],
+            idx: 0
+        },
+        ...
+    }
+*/
+const musiciansObject = {};
+
+
+const quotesAndAuthors = {
+    quotes: [
+        'Where words fail, music speaks.',
+        'Without music, life would be a mistake.',
+        'Music expresses that which cannot be said and on which it is impossible to be silent.',
+        'Bach is an astronomer discovering the most marvellous stars. Beethoven challenges the universe. I only try to express the soul and heart of man.',
+    ],
+    authors: [
+        'Hans Christian Andersen',
+        'Friedrich Nietzsche',
+        'Victor Hugo',
+        'Chopin'
+    ],
+    idx: 0,
+    displayTime: 15000,             // time to display the quote
+    transitionTime: 2500,           // time where opacity is fading
+    opacityChangeIntervalTime: 100  // interval time between 1 opacity change
 };
 
 
-
-
-// global variables
 // tracks the current song being played
 const audioWrapper = {
     audio: new Audio()
@@ -571,7 +1170,7 @@ const currentMusicianWrapper = {
     currentMusician: ''
 };
 
-//
+// prevents issues with setTimeout
 const songAndMusicianIntervalWrapper = {
     intervalId: 0
 };
@@ -580,6 +1179,167 @@ const songAndMusicianIntervalWrapper = {
 
 
 /********** function definitions **********/
+const initializeInspirationPage = (musiciansArray) => {
+    const musiciansSection = document.getElementById('musicians-section');
+    musiciansSection.insertAdjacentHTML('afterbegin', '<div class="container" id="musicians-container"></div>');
+    const musiciansContainer = document.getElementById('musicians-container');
+    let newHTML;
+
+    for (let i = 0; i < musiciansArray.length; i += 3) {
+        if (i === musiciansArray.length - 1) {
+            newHTML = 
+                `
+                    <div class="row title-container">
+                        <div class="col">
+                            <h4 id="${musiciansArray[i].id}-title">${musiciansArray[i].name}</h4>
+                        </div>
+                    </div>
+                    <div class="row img-container">
+                        <div class="col img-col parent ">
+                            <img src="img/musicians/${musiciansArray[i].id}.jpg" class="musician-img" id="${musiciansArray[i].id}-img">
+                            <img src="img/background/PlayButton.jpg" class="play-button-img" id="${musiciansArray[i].id}-play-button-img">
+                        </div>
+                    </div>
+                    <div class="row song-container">
+                        <div class="col">
+                            <p id="${musiciansArray[i].id}-song"></p>
+                        </div>
+                    </div>
+                `;
+        } else if (i === musiciansArray.length - 2) {
+            newHTML = 
+                `
+                    <div class="row title-container">
+                        <div class="col">
+                            <h4 id="${musiciansArray[i].id}-title">${musiciansArray[i].name}</h4>
+                        </div>
+                        <div class="col">
+                            <h4 id="${musiciansArray[i + 1].id}-title">${musiciansArray[i + 1].name}</h4>
+                        </div>
+                    </div>
+                    <div class="row img-container">
+                        <div class="col img-col parent ">
+                            <img src="img/musicians/${musiciansArray[i].id}.jpg" class="musician-img" id="${musiciansArray[i].id}-img">
+                            <img src="img/background/PlayButton.jpg" class="play-button-img" id="${musiciansArray[i].id}-play-button-img">
+                        </div>
+                        <div class="col img-col parent">
+                            <img src="img/musicians/${musiciansArray[i + 1].id}.jpg" class="musician-img" id="${musiciansArray[i + 1].id}-img">
+                            <img src="img/background/PlayButton.jpg" class="play-button-img" id="${musiciansArray[i + 1].id}-play-button-img">
+                        </div>
+                    </div>
+                    <div class="row song-container">
+                        <div class="col">
+                            <p id="${musiciansArray[i].id}-song"></p>
+                        </div>
+                        <div class="col">
+                            <p id="${musiciansArray[i + 1].id}-song"></p>
+                        </div>
+                    </div>
+                `;
+        } else {
+            newHTML = 
+                `
+                    <div class="row title-container">
+                        <div class="col">
+                            <h4 id="${musiciansArray[i].id}-title">${musiciansArray[i].name}</h4>
+                        </div>
+                        <div class="col">
+                            <h4 id="${musiciansArray[i + 1].id}-title">${musiciansArray[i + 1].name}</h4>
+                        </div>
+                        <div class="col">
+                            <h4 id="${musiciansArray[i + 2].id}-title">${musiciansArray[i + 2].name}</h4>
+                        </div>
+                    </div>
+                    <div class="row img-container">
+                        <div class="col img-col parent ">
+                            <img src="img/musicians/${musiciansArray[i].id}.jpg" class="musician-img" id="${musiciansArray[i].id}-img">
+                            <img src="img/background/PlayButton.jpg" class="play-button-img" id="${musiciansArray[i].id}-play-button-img">
+                        </div>
+                        <div class="col img-col parent">
+                            <img src="img/musicians/${musiciansArray[i + 1].id}.jpg" class="musician-img" id="${musiciansArray[i + 1].id}-img">
+                            <img src="img/background/PlayButton.jpg" class="play-button-img" id="${musiciansArray[i + 1].id}-play-button-img">
+                        </div>
+                        <div class="col img-col parent">
+                            <img src="img/musicians/${musiciansArray[i + 2].id}.jpg" class="musician-img" id="${musiciansArray[i + 2].id}-img">
+                            <img src="img/background/PlayButton.jpg" class="play-button-img" id="${musiciansArray[i + 2].id}-play-button-img">
+                        </div>
+                    </div>
+                    <div class="row song-container">
+                        <div class="col">
+                            <p id="${musiciansArray[i].id}-song"></p>
+                        </div>
+                        <div class="col">
+                            <p id="${musiciansArray[i + 1].id}-song"></p>
+                        </div>
+                        <div class="col">
+                            <p id="${musiciansArray[i + 2].id}-song"></p>
+                        </div>
+                    </div>
+                `;
+        }
+        musiciansContainer.insertAdjacentHTML('beforeend', newHTML);
+    }
+}
+
+
+const initializeMusiciansObject = (musiciansArray, musiciansObject) => {
+    musiciansArray.forEach(musician => {
+        musiciansObject[`${musician.id}`] = {
+            songs: [],
+            idx: 0
+        };
+        musician.songs.forEach(song => {
+            musiciansObject[`${musician.id}`].songs.push(song);
+        });
+    });
+}
+
+
+const cycleQuotes = (quotesAndAuthors) => {
+    cycleQuotesHelper(quotesAndAuthors);
+    setInterval(() => {
+         cycleQuotesHelper(quotesAndAuthors);
+    }, quotesAndAuthors.displayTime);
+}
+
+
+const cycleQuotesHelper = (quotesAndAuthors) => {
+    const quote = document.getElementById('quote');
+    const author = document.getElementById('author');
+    quote.style.opacity = 1;
+    author.style.opacity = 1;
+    quote.innerHTML = quotesAndAuthors.quotes[quotesAndAuthors.idx];
+    author.innerHTML = `- ${quotesAndAuthors.authors[quotesAndAuthors.idx]}`;
+    quotesAndAuthors.idx = (quotesAndAuthors.idx < quotesAndAuthors.quotes.length - 1) ? quotesAndAuthors.idx + 1 : 0;
+
+    const opacityChangesCount = quotesAndAuthors.transitionTime / quotesAndAuthors.opacityChangeIntervalTime;
+    setTimeout(() => {
+        for (let i = 0; i < opacityChangesCount; ++i) {
+            setTimeout(() => {
+                quote.style.opacity -= 1 / opacityChangesCount;
+                author.style.opacity -= 1 / opacityChangesCount;
+            }, (i + 1) * quotesAndAuthors.opacityChangeIntervalTime);
+        }
+    }, quotesAndAuthors.displayTime - quotesAndAuthors.transitionTime);
+}
+
+
+const initializePlaySongEvents = musiciansObject => {
+    for (const musician in musiciansObject) {
+        document.getElementById(`${musician}-play-button-img`).addEventListener('click', () => {
+            playSong(musician, musiciansObject, audioWrapper, currentMusicianWrapper);
+            cycleSongAndMusicianOpacity(musician, songAndMusicianIntervalWrapper);
+        });
+        document.getElementById(`${musician}-play-button-img`).addEventListener('mouseenter', () => {
+            document.getElementById(`${musician}-play-button-img`).style.opacity = '50%';
+        });
+        document.getElementById(`${musician}-play-button-img`).addEventListener('mouseleave', () => {
+            document.getElementById(`${musician}-play-button-img`).style.opacity = '0%';
+        });       
+    }
+}
+
+
 const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => {
     // display current muscian's name, hide previous musicians name and song
     if (currentMusicianWrapper.currentMusician !== musician) {
@@ -678,15 +1438,7 @@ const cycleSongAndMusicianOpacityHelper = (musician, stateTitle, stateSong) => {
 
 
 /********** function calls **********/
-for (const musician in musicians) {
-    document.getElementById(`${musician}-play-button-img`).addEventListener('click', () => {
-        playSong(musician, musicians, audioWrapper, currentMusicianWrapper);
-        cycleSongAndMusicianOpacity(musician, songAndMusicianIntervalWrapper);
-    });
-    document.getElementById(`${musician}-play-button-img`).addEventListener('mouseenter', () => {
-        document.getElementById(`${musician}-play-button-img`).style.opacity = '50%';
-    });
-    document.getElementById(`${musician}-play-button-img`).addEventListener('mouseleave', () => {
-        document.getElementById(`${musician}-play-button-img`).style.opacity = '0%';
-    });       
-}
+initializeInspirationPage(musiciansArray);
+initializeMusiciansObject(musiciansArray, musiciansObject);
+cycleQuotes(quotesAndAuthors);
+initializePlaySongEvents(musiciansObject);
