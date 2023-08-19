@@ -40,3 +40,8 @@
     text-align: center;
     opacity: 0%;
 }
+
+#discussion-section {
+    padding-top: 100px;
+    color: white;
+}
