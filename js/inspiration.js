@@ -558,6 +558,24 @@ const musicians = {
 };
 
 
+const quotesAndAuthors = {
+    quotes: [
+        'Where words fail, music speaks.',
+        'Without music, life would be a mistake.',
+        'Music expresses that which cannot be said and on which it is impossible to be silent.',
+        'Bach is an astronomer discovering the most marvellous stars. Beethoven challenges the universe. I only try to express the soul and heart of man.',
+    ],
+    authors: [
+        'Hans Christian Andersen',
+        'Friedrich Nietzsche',
+        'Victor Hugo',
+        'Chopin'
+    ],
+    idx: 0,
+    displayTime: 15000,             // time to display the quote
+    transitionTime: 2500,           // time where opacity is fading
+    opacityChangeIntervalTime: 100  // interval time between 1 opacity change
+}
 
 
 // global variables
@@ -572,8 +590,37 @@ const currentMusicianWrapper = {
 };
 
 //
-const intervalWrapper = {
+const songAndMusicianIntervalWrapper = {
     intervalId: 0
+}
+
+
+
+
+/********** function definitions **********/
+const cycleQuotes = (quotesAndAuthors) => {
+    cycleQuotesHelper(quotesAndAuthors);
+    setInterval( function() { cycleQuotesHelper(quotesAndAuthors)}, quotesAndAuthors.displayTime);
+}
+
+const cycleQuotesHelper = (quotesAndAuthors) => {
+    const quote = document.getElementById('quote');
+    const author = document.getElementById('author');
+    quote.style.opacity = 1;
+    author.style.opacity = 1;
+    quote.innerHTML = quotesAndAuthors.quotes[quotesAndAuthors.idx];
+    author.innerHTML = `- ${quotesAndAuthors.authors[quotesAndAuthors.idx]}`;
+    quotesAndAuthors.idx = (quotesAndAuthors.idx < quotesAndAuthors.quotes.length - 1) ? quotesAndAuthors.idx + 1 : 0;
+
+    const opacityChangesCount = quotesAndAuthors.transitionTime / quotesAndAuthors.opacityChangeIntervalTime;
+    setTimeout(function() {
+        for (let i = 0; i < opacityChangesCount; i++) {
+            setTimeout(function() {
+                quote.style.opacity -= 1 / opacityChangesCount;
+                author.style.opacity -= 1 / opacityChangesCount;
+            }, (i + 1) * quotesAndAuthors.opacityChangeIntervalTime);
+        }
+    }, quotesAndAuthors.displayTime - quotesAndAuthors.transitionTime);
 }
 
 
@@ -608,20 +655,8 @@ const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => 
     }
 }
 
-for (const musician in musicians) {
-    document.getElementById(`${musician}-play-button-img`).addEventListener('click', () => {
-        playSong(musician, musicians, audioWrapper, currentMusicianWrapper);
-        cycleOpacity(musician, intervalWrapper);
-    });
-    document.getElementById(`${musician}-play-button-img`).addEventListener('mouseenter', () => {
-        document.getElementById(`${musician}-play-button-img`).style.opacity = '50%';
-    });
-    document.getElementById(`${musician}-play-button-img`).addEventListener('mouseleave', () => {
-        document.getElementById(`${musician}-play-button-img`).style.opacity = '0%';
-    });       
-}
 
-const cycleOpacity = (musician, intervalWrapper) => {
+const cycleSongAndMusicianOpacity = (musician, songAndMusicianIntervalWrapper) => {
     const title = document.getElementById(`${musician}-title`);
     const song = document.getElementById(`${musician}-song`);
     title.style.opacity = 1;
@@ -637,13 +672,14 @@ const cycleOpacity = (musician, intervalWrapper) => {
         opacity: Number(songOpacity)
     }
 
-    if (intervalWrapper.intervalId !== 0) {
-        clearInterval(intervalWrapper.intervalId);
+    if (songAndMusicianIntervalWrapper.intervalId !== 0) {
+        clearInterval(songAndMusicianIntervalWrapper.intervalId);
     }
-    intervalWrapper.intervalId = setInterval( function() { cycleOpacityHelper(musician, stateTitle, stateSong) }, 100);
+    songAndMusicianIntervalWrapper.intervalId = setInterval( function() { cycleSongAndMusicianOpacityHelper(musician, stateTitle, stateSong) }, 100);
 }
 
-const cycleOpacityHelper = (musician, stateTitle, stateSong) => {
+
+const cycleSongAndMusicianOpacityHelper = (musician, stateTitle, stateSong) => {
     const title = document.getElementById(`${musician}-title`);
     const song = document.getElementById(`${musician}-song`);
 
@@ -678,4 +714,23 @@ const cycleOpacityHelper = (musician, stateTitle, stateSong) => {
             stateSong.isDecreasing = true;
         }
     }
+}
+
+
+
+
+/********** function calls **********/
+cycleQuotes(quotesAndAuthors);
+
+for (const musician in musicians) {
+    document.getElementById(`${musician}-play-button-img`).addEventListener('click', () => {
+        playSong(musician, musicians, audioWrapper, currentMusicianWrapper);
+        cycleSongAndMusicianOpacity(musician, songAndMusicianIntervalWrapper);
+    });
+    document.getElementById(`${musician}-play-button-img`).addEventListener('mouseenter', () => {
+        document.getElementById(`${musician}-play-button-img`).style.opacity = '50%';
+    });
+    document.getElementById(`${musician}-play-button-img`).addEventListener('mouseleave', () => {
+        document.getElementById(`${musician}-play-button-img`).style.opacity = '0%';
+    });       
 }
