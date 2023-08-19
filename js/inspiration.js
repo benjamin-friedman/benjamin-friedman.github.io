@@ -90,7 +90,7 @@ const musicians = {
         idx: 0
     },
     'steve-jablonsky': {
-        songs: ['Tessa', 'Sacrifice'],
+        songs: ['Tessa', 'Sacrifice', 'Arrival To Earth'],
         idx: 0
     },
     'james-newton-howard': {
