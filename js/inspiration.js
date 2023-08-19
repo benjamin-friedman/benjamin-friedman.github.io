@@ -29,8 +29,8 @@ const musicians = {
         idx: 0
     },
     'beethoven': {
-        songs: ['Moonlight Sonata 1st Movement', 'Moonlight Sonata 1st Movement - Cello and Piano', 'Moonlight Sonata 1st Movement - Ethereal', 'Moonlight Sonata 3rd Movement',
-                'Moonlight Sonata 3rd Movement - Guitar and Drums'],
+        songs: ['Moonlight Sonata 1st Movement - Interpretation 1', 'Moonlight Sonata 1st Movement - Interpretation 2', 'Moonlight Sonata 1st Movement - Cello and Piano', 'Moonlight Sonata 1st Movement - Ethereal',
+                'Moonlight Sonata 3rd Movement', 'Moonlight Sonata 3rd Movement - Guitar and Drums'],
         idx: 0
     },
     'satie': {
