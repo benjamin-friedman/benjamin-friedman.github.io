@@ -1,6 +1,6 @@
 const musicians = {
     'hans-zimmer': {
-        songs: ['Why Do We Fall', 'Agent Of Chaos', 'Molossus', "Gotham's Reckoning", 'Lasiurus', 'Barbastella', 'Corynorhinus', 'Eptescius', 'Myotis', 'Imagine The Fire', 'Necessary Evil', 'Nothing Out There', 'Rise', 'A Dark Knight',
+        songs: ['Why Do We Fall', 'Agent Of Chaos', 'Molossus', 'Corynorhinus', 'Myotis', 'Lasiurus', 'Barbastella', 'Eptescius', "Gotham's Reckoning", 'Imagine The Fire', 'Necessary Evil', 'Nothing Out There', 'Rise', 'A Dark Knight',
                 'Final Ascent',
                 'Marry Me', 'One Day', 'Wheel Of Fortune', "At Wit's End", 'Jack Sparrow', 'Parlay', 'Will And Elizabeth', 'The Black Pearl', 'Davy Jones', 'Davy Jones - Piano',        
                 'Time', 'Projections',
@@ -29,7 +29,7 @@ const musicians = {
         idx: 0
     },
     'beethoven': {
-        songs: ['Moonlight Sonata 1st Movement - Interpretation 1', 'Moonlight Sonata 1st Movement - Interpretation 2', 'Moonlight Sonata 1st Movement - Cello and Piano', 'Moonlight Sonata 1st Movement - Ethereal',
+        songs: ['Moonlight Sonata 1st Movement', 'Moonlight Sonata 1st Movement - Cello and Piano', 'Moonlight Sonata 1st Movement - Ethereal',
                 'Moonlight Sonata 3rd Movement', 'Moonlight Sonata 3rd Movement - Guitar and Drums'],
         idx: 0
     },
@@ -558,24 +558,6 @@ const musicians = {
 };
 
 
-const quotesAndAuthors = {
-    quotes: [
-        'Where words fail, music speaks.',
-        'Without music, life would be a mistake.',
-        'Music expresses that which cannot be said and on which it is impossible to be silent.',
-        'Bach is an astronomer discovering the most marvellous stars. Beethoven challenges the universe. I only try to express the soul and heart of man.',
-    ],
-    authors: [
-        'Hans Christian Andersen',
-        'Friedrich Nietzsche',
-        'Victor Hugo',
-        'Chopin'
-    ],
-    idx: 0,
-    displayTime: 15000,             // time to display the quote
-    transitionTime: 2500,           // time where opacity is fading
-    opacityChangeIntervalTime: 100  // interval time between 1 opacity change
-};
 
 
 // global variables
@@ -598,34 +580,6 @@ const songAndMusicianIntervalWrapper = {
 
 
 /********** function definitions **********/
-const cycleQuotes = (quotesAndAuthors) => {
-    cycleQuotesHelper(quotesAndAuthors);
-    setInterval(() => {
-         cycleQuotesHelper(quotesAndAuthors);
-    }, quotesAndAuthors.displayTime);
-}
-
-const cycleQuotesHelper = (quotesAndAuthors) => {
-    const quote = document.getElementById('quote');
-    const author = document.getElementById('author');
-    quote.style.opacity = 1;
-    author.style.opacity = 1;
-    quote.innerHTML = quotesAndAuthors.quotes[quotesAndAuthors.idx];
-    author.innerHTML = `- ${quotesAndAuthors.authors[quotesAndAuthors.idx]}`;
-    quotesAndAuthors.idx = (quotesAndAuthors.idx < quotesAndAuthors.quotes.length - 1) ? quotesAndAuthors.idx + 1 : 0;
-
-    const opacityChangesCount = quotesAndAuthors.transitionTime / quotesAndAuthors.opacityChangeIntervalTime;
-    setTimeout(() => {
-        for (let i = 0; i < opacityChangesCount; ++i) {
-            setTimeout(() => {
-                quote.style.opacity -= 1 / opacityChangesCount;
-                author.style.opacity -= 1 / opacityChangesCount;
-            }, (i + 1) * quotesAndAuthors.opacityChangeIntervalTime);
-        }
-    }, quotesAndAuthors.displayTime - quotesAndAuthors.transitionTime);
-}
-
-
 const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => {
     // display current muscian's name, hide previous musicians name and song
     if (currentMusicianWrapper.currentMusician !== musician) {
@@ -724,8 +678,6 @@ const cycleSongAndMusicianOpacityHelper = (musician, stateTitle, stateSong) => {
 
 
 /********** function calls **********/
-cycleQuotes(quotesAndAuthors);
-
 for (const musician in musicians) {
     document.getElementById(`${musician}-play-button-img`).addEventListener('click', () => {
         playSong(musician, musicians, audioWrapper, currentMusicianWrapper);
