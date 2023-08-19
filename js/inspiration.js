@@ -575,7 +575,7 @@ const quotesAndAuthors = {
     displayTime: 15000,             // time to display the quote
     transitionTime: 2500,           // time where opacity is fading
     opacityChangeIntervalTime: 100  // interval time between 1 opacity change
-}
+};
 
 
 // global variables
@@ -592,7 +592,7 @@ const currentMusicianWrapper = {
 //
 const songAndMusicianIntervalWrapper = {
     intervalId: 0
-}
+};
 
 
 
@@ -600,7 +600,9 @@ const songAndMusicianIntervalWrapper = {
 /********** function definitions **********/
 const cycleQuotes = (quotesAndAuthors) => {
     cycleQuotesHelper(quotesAndAuthors);
-    setInterval( function() { cycleQuotesHelper(quotesAndAuthors)}, quotesAndAuthors.displayTime);
+    setInterval(() => {
+         cycleQuotesHelper(quotesAndAuthors);
+    }, quotesAndAuthors.displayTime);
 }
 
 const cycleQuotesHelper = (quotesAndAuthors) => {
@@ -613,9 +615,9 @@ const cycleQuotesHelper = (quotesAndAuthors) => {
     quotesAndAuthors.idx = (quotesAndAuthors.idx < quotesAndAuthors.quotes.length - 1) ? quotesAndAuthors.idx + 1 : 0;
 
     const opacityChangesCount = quotesAndAuthors.transitionTime / quotesAndAuthors.opacityChangeIntervalTime;
-    setTimeout(function() {
-        for (let i = 0; i < opacityChangesCount; i++) {
-            setTimeout(function() {
+    setTimeout(() => {
+        for (let i = 0; i < opacityChangesCount; ++i) {
+            setTimeout(() => {
                 quote.style.opacity -= 1 / opacityChangesCount;
                 author.style.opacity -= 1 / opacityChangesCount;
             }, (i + 1) * quotesAndAuthors.opacityChangeIntervalTime);
@@ -647,11 +649,11 @@ const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => 
     // this is here because of the following error, sometimes play() would fail and an error showed up in the console
     // https://stackoverflow.com/questions/58846042/getting-play-failed-because-the-user-didnt-interact-with-the-document-first
     if (audioPromise !== undefined) {
-        audioPromise.then( () => {
+        audioPromise.then(() => {
             // play was successful
         }).catch(e => {
             // play was not successful, would have to move mouse again
-        })
+        });
     }
 }
 
@@ -662,20 +664,22 @@ const cycleSongAndMusicianOpacity = (musician, songAndMusicianIntervalWrapper) =
     title.style.opacity = 1;
     song.style.opacity = 1;
     const titleOpacity = getComputedStyle(title).getPropertyValue('opacity'); // starts at 1
-    const songOpacity = getComputedStyle(song).getPropertyValue('opacity'); // starts at 1
+    const songOpacity = getComputedStyle(song).getPropertyValue('opacity');   // starts at 1
     const stateTitle = {
         isDecreasing: true,
         opacity: Number(titleOpacity)
-    }
+    };
     const stateSong = {
         isDecreasing: true,
         opacity: Number(songOpacity)
-    }
+    };
 
     if (songAndMusicianIntervalWrapper.intervalId !== 0) {
         clearInterval(songAndMusicianIntervalWrapper.intervalId);
     }
-    songAndMusicianIntervalWrapper.intervalId = setInterval( function() { cycleSongAndMusicianOpacityHelper(musician, stateTitle, stateSong) }, 100);
+    songAndMusicianIntervalWrapper.intervalId = setInterval(() => {
+        cycleSongAndMusicianOpacityHelper(musician, stateTitle, stateSong);
+    }, 100);
 }
 
 
