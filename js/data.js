@@ -75,7 +75,7 @@ export const musiciansArray = [
             'N16 - Nocturne In E Flat Major Op. 55 No. 2',
             'N17 - Nocturne In B Major Op. 62 No. 1',
             'N18 - Nocturne In E Major Op. 62 No. 2',
-            'Ballade No. 1 In G Minor Op. 23.',
+            'Ballade No. 1 In G Minor Op. 23',
             'Etude In C Minor Op. 10 No. 12 (Revolutionary Etude)',
             'Etude In A Minor Op. 25 No. 11 (Winter Wind)',
             'Piano Sonata No. 2 In B Flat Minor Movement III (Funeral March)',
