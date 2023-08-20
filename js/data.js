@@ -39,6 +39,8 @@ export const musiciansArray = [
             'Is She With You',          // Batman V Superman
             'Not In Blood But In Bond', // Sherlock Holmes
             'Ah, Putrefaction',
+            'A Way Of Life',            // The Last Samuri
+            'A Small Measure Of Peace',
             'Elysium',                  // Gladiator
             'Honor Him',
             'Now We Are Free',
