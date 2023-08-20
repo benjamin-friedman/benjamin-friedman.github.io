@@ -22,15 +22,15 @@ const quotesAndAuthors = {
         'Where words fail, music speaks.',
         'Without music, life would be a mistake.',
         'Music expresses that which cannot be said and on which it is impossible to be silent.',
+        'Music is enough for a lifetime, but a lifetime is not enough for music.',
         'Bach is an astronomer discovering the most marvellous stars. Beethoven challenges the universe. I only try to express the soul and heart of man.',
-        'Music is enough for a lifetime, but a lifetime is not enough for music.'
     ],
     authors: [
         'Hans Christian Andersen',
         'Friedrich Nietzsche',
         'Victor Hugo',
-        'Chopin',
-        'Rachmaninoff'
+        'Rachmaninoff',
+        'Chopin'
     ],
     idx: 0,
     displayTime: 15000,             // time to display the quote

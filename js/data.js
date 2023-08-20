@@ -101,7 +101,8 @@ export const musiciansArray = [
         songs: [
             'Liebestraum No. 3 In A Flat Major',
             'Consolation No. 3 In D Flat Major',
-            'Romance O Pourquoi Donc In E Minor S. 169',
+            'Romance O Pourquoi Donc In E Minor S. 169 - Interpretation 1',
+            'Romance O Pourquoi Donc In E Minor S. 169 - Interpretation 2',
             'Etude No. 3 In G Sharp Minor (La Campanella)'
         ]
     },
