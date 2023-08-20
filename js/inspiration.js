@@ -52,6 +52,11 @@ const songAndMusicianIntervalWrapper = {
     intervalId: 0
 };
 
+// tracks the time passed for cycling quotes
+const timerWrapper = {
+    timePassed: 0
+};
+
 
 
 
@@ -174,15 +179,25 @@ const initializeMusiciansObject = (musiciansArray, musiciansObject) => {
 }
 
 
-const cycleQuotes = (quotesAndAuthors) => {
-    cycleQuotesHelper(quotesAndAuthors);
+const cycleQuotes = (quotesAndAuthors, timerWrapper) => {
+    cycleQuotesHelperChangeQuote(quotesAndAuthors);
+    timerWrapper.timePassed = 0;
     setInterval(() => {
-         cycleQuotesHelper(quotesAndAuthors);
-    }, quotesAndAuthors.displayTime);
+        if (timerWrapper.timePassed === quotesAndAuthors.displayTime - quotesAndAuthors.transitionTime) {
+            cycleQuotesHelperTransition(quotesAndAuthors);
+            timerWrapper.timePassed += 100
+        }
+        else if (timerWrapper.timePassed === quotesAndAuthors.displayTime) {
+            cycleQuotesHelperChangeQuote(quotesAndAuthors);
+            timerWrapper.timePassed = 0;
+        } else {
+            timerWrapper.timePassed += 100;
+        }
+    }, 100);
 }
 
 
-const cycleQuotesHelper = (quotesAndAuthors) => {
+const cycleQuotesHelperChangeQuote = (quotesAndAuthors) => {
     const quote = document.getElementById('quote');
     const author = document.getElementById('author');
     quote.style.opacity = 1;
@@ -190,16 +205,20 @@ const cycleQuotesHelper = (quotesAndAuthors) => {
     quote.innerHTML = quotesAndAuthors.quotes[quotesAndAuthors.idx];
     author.innerHTML = `- ${quotesAndAuthors.authors[quotesAndAuthors.idx]}`;
     quotesAndAuthors.idx = (quotesAndAuthors.idx < quotesAndAuthors.quotes.length - 1) ? quotesAndAuthors.idx + 1 : 0;
+}
+
+
+const cycleQuotesHelperTransition = (quotesAndAuthors) => {
+    const quote = document.getElementById('quote');
+    const author = document.getElementById('author');
 
     const opacityChangesCount = quotesAndAuthors.transitionTime / quotesAndAuthors.opacityChangeIntervalTime;
-    setTimeout(() => {
-        for (let i = 0; i < opacityChangesCount; ++i) {
-            setTimeout(() => {
-                quote.style.opacity -= 1 / opacityChangesCount;
-                author.style.opacity -= 1 / opacityChangesCount;
-            }, (i + 1) * quotesAndAuthors.opacityChangeIntervalTime);
-        }
-    }, quotesAndAuthors.displayTime - quotesAndAuthors.transitionTime);
+    for (let i = 0; i < opacityChangesCount; ++i) {
+        setTimeout(() => {
+            quote.style.opacity -= 1 / opacityChangesCount;
+            author.style.opacity -= 1 / opacityChangesCount;
+        }, (i + 1) * quotesAndAuthors.opacityChangeIntervalTime);
+    }  
 }
 
 
@@ -319,5 +338,5 @@ const cycleSongAndMusicianOpacityHelper = (musician, stateTitle, stateSong) => {
 /********** function calls **********/
 initializeInspirationPage(musiciansArray);
 initializeMusiciansObject(musiciansArray, musiciansObject);
-cycleQuotes(quotesAndAuthors);
 initializePlaySongEvents(musiciansObject);
+cycleQuotes(quotesAndAuthors, timerWrapper);
