@@ -146,22 +146,8 @@ const initializeInspirationPage = (musiciansArray) => {
 
     document.getElementById('discussion-section').style.visibility= 'visible';
 
-    /*
-            <div class="song-listing-section-musician-container">
-                <h6>Hans Zimmer</h6>
-                <div class="row song-listing-section-song-container">
-                    <div class="col-4">Corynohinus</div>
-                    <div class="col-4">Soundtrack: Batman Begins</div>
-                    <div class="col-4">Test</div>
-                </div>
-                <div class="row song-listing-section-song-container">
-                    <div class="col-4">Myotis</div>
-                    <div class="col-4">Soundtrack: Batman Begins</div>
-                    <div class="col-4">Test</div>
-                </div>
-            </div>
-    */
-    // musicians and songs summary
+
+    // song listing 
     const musiciansAndSongsSummarySection = document.getElementById('song-listing-section');
     musiciansAndSongsSummarySection.insertAdjacentHTML('afterbegin', '<div class="container" id="song-listing-section-container"></div>');
     const musiciansAndSongsSummarySectionContainer = document.getElementById('song-listing-section-container');
