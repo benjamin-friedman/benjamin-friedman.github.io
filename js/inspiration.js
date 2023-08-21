@@ -1,5 +1,6 @@
 import { musiciansArray, quotesAndAuthors } from './data.js';
 
+
 /*
     Built based on musiciansArray, used for playing the songs
     {
