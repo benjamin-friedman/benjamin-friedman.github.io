@@ -1,3 +1,4 @@
+/********** function definitions **********/
 // opacity of welcome message
 const cycleOpacity = () => {
     const welcomeSection = document.getElementById('welcome');
@@ -8,6 +9,7 @@ const cycleOpacity = () => {
     }
     setInterval( function() { cycleOpacityHelper(state) }, 100);
 }
+
 
 const cycleOpacityHelper = (state) => {
     const welcomeSection = document.getElementById('welcome');
@@ -26,6 +28,7 @@ const cycleOpacityHelper = (state) => {
         }
     }
 }
+
 
 // song - autoplay on document loading is disabled in newest browser versions, must use an event handler
 document.addEventListener('mouseover', () => {
@@ -46,4 +49,8 @@ document.addEventListener('mouseover', () => {
     }
 });
 
+
+
+
+/********** function calls **********/
 cycleOpacity();

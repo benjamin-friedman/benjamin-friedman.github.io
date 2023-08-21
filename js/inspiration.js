@@ -232,7 +232,7 @@ const cycleQuotesHelperTransition = (quotesAndAuthors) => {
 }
 
 
-const initializePlaySongEvents = musiciansObject => {
+const initializePlaySongEvents = (musiciansObject) => {
     for (const musician in musiciansObject) {
         document.getElementById(`${musician}-play-button-img`).addEventListener('click', () => {
             playSong(musician, musiciansObject, audioWrapper, currentMusicianWrapper);
