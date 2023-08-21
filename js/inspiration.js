@@ -1,7 +1,7 @@
-import { musiciansArray } from './data.js';
+import { musiciansArray, quotesAndAuthors } from './data.js';
 
 /*
-    Built based on musiciansArray
+    Built based on musiciansArray, used for playing the songs
     {
         'musician1-id' : {
             songs: ['song1', 'song2'...],
@@ -15,28 +15,6 @@ import { musiciansArray } from './data.js';
     }
 */
 const musiciansObject = {};
-
-
-const quotesAndAuthors = {
-    quotes: [
-        'Where words fail, music speaks.',
-        'Without music, life would be a mistake.',
-        'Music expresses that which cannot be said and on which it is impossible to be silent.',
-        'Music is enough for a lifetime, but a lifetime is not enough for music.',
-        'Bach is an astronomer discovering the most marvellous stars. Beethoven challenges the universe. I only try to express the soul and heart of man.',
-    ],
-    authors: [
-        'Hans Christian Andersen',
-        'Friedrich Nietzsche',
-        'Victor Hugo',
-        'Rachmaninoff',
-        'Chopin'
-    ],
-    idx: 0,
-    displayTime: 15000,             // time to display the quote
-    transitionTime: 2500,           // time where opacity is fading
-    opacityChangeIntervalTime: 100  // interval time between 1 opacity change
-};
 
 
 // tracks the current song being played
@@ -65,10 +43,11 @@ const timerWrapper = {
 /********** function definitions **********/
 const initializeInspirationPage = (musiciansArray) => {
     const musiciansSection = document.getElementById('musicians-section');
-    musiciansSection.insertAdjacentHTML('afterbegin', '<div class="container" id="musicians-container"></div>');
-    const musiciansContainer = document.getElementById('musicians-container');
+    musiciansSection.insertAdjacentHTML('afterbegin', '<div class="container" id="musicians-section-container"></div>');
+    const musiciansContainer = document.getElementById('musicians-section-container');
     let newHTML;
 
+    // musicians and photos
     for (let i = 0; i < musiciansArray.length; i += 3) {
         if (i === musiciansArray.length - 1) {
             newHTML = 
@@ -164,7 +143,49 @@ const initializeInspirationPage = (musiciansArray) => {
         musiciansContainer.insertAdjacentHTML('beforeend', newHTML);
     }
 
-   document.getElementById('discussion-section').style.visibility= 'visible';
+
+    document.getElementById('discussion-section').style.visibility= 'visible';
+
+    /*
+            <div class="song-listing-section-musician-container">
+                <h6>Hans Zimmer</h6>
+                <div class="row song-listing-section-song-container">
+                    <div class="col-4">Corynohinus</div>
+                    <div class="col-4">Soundtrack: Batman Begins</div>
+                    <div class="col-4">Test</div>
+                </div>
+                <div class="row song-listing-section-song-container">
+                    <div class="col-4">Myotis</div>
+                    <div class="col-4">Soundtrack: Batman Begins</div>
+                    <div class="col-4">Test</div>
+                </div>
+            </div>
+    */
+    // musicians and songs summary
+    const musiciansAndSongsSummarySection = document.getElementById('song-listing-section');
+    musiciansAndSongsSummarySection.insertAdjacentHTML('afterbegin', '<div class="container" id="song-listing-section-container"></div>');
+    const musiciansAndSongsSummarySectionContainer = document.getElementById('song-listing-section-container');
+    musiciansAndSongsSummarySectionContainer.insertAdjacentHTML('beforeend', '<h4>Song Listing</h4>');
+    for (let i = 0; i < musiciansArray.length; ++i) {
+        newHTML = '<div class="song-listing-section-musician-container">';
+        newHTML += `<h5>${musiciansArray[i].name}</h5>`
+        for (let j = 0; j < musiciansArray[i].songs.length; ++j) {
+            newHTML += '<div class="row song-listing-section-song-container">';
+            newHTML += `<div class="col-4">${musiciansArray[i].songs[j].name}</div>`;
+            if (musiciansArray[i].songs[j].soundtrack) {
+                newHTML += `<div class="col-4">Soundtrack: ${musiciansArray[i].songs[j].soundtrack}</div>`;
+            }
+            if (musiciansArray[i].songs[j].contributors) {
+                newHTML += `<div class="col-3">Contributors: ${musiciansArray[i].songs[j].contributors}</div>`;
+            }
+            if (musiciansArray[i].songs[j].recordingMusician) {
+                newHTML += `<div class="col-4">Recording: ${musiciansArray[i].songs[j].recordingMusician}</div>`;
+            }
+            newHTML += '</div>';
+        }
+        newHTML += '</div>';
+        musiciansAndSongsSummarySectionContainer.insertAdjacentHTML('beforeend', newHTML);
+    }
 }
 
 
@@ -175,7 +196,7 @@ const initializeMusiciansObject = (musiciansArray, musiciansObject) => {
             idx: 0
         };
         musician.songs.forEach(song => {
-            musiciansObject[`${musician.id}`].songs.push(song);
+            musiciansObject[`${musician.id}`].songs.push(song.name);
         });
     });
 }
