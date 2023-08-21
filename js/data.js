@@ -1128,20 +1128,32 @@ export const musiciansArray = [
 ];
 
 
-export const quotesAndAuthors = {
-    quotes: [
-        'Where words fail, music speaks.',
-        'Without music, life would be a mistake.',
-        'Music expresses that which cannot be said and on which it is impossible to be silent.',
-        'Music is enough for a lifetime, but a lifetime is not enough for music.',
-        'Bach is an astronomer discovering the most marvellous stars. Beethoven challenges the universe. I only try to express the soul and heart of man.',
-    ],
-    authors: [
-        'Hans Christian Andersen',
-        'Friedrich Nietzsche',
-        'Victor Hugo',
-        'Rachmaninoff',
-        'Chopin'
+export const quotes = {
+    quoteAndAuthor: [
+        { 
+            author: 'Hans Christian Andersen',
+            quote: 'Where words fail, music speaks.'
+        },
+        { 
+            author: 'Friedrich Nietzsche',
+            quote: 'Without music, life would be a mistake.'
+        },
+        { 
+            author: 'Victor Hugo',
+            quote: 'Music expresses that which cannot be said and on which it is impossible to be silent.'
+        },
+        { 
+            author: 'Rachmaninoff',
+            quote: 'Music is enough for a lifetime, but a lifetime is not enough for music.'
+        },
+        { 
+            author: 'Chopin',
+            quote: 'Bach is an astronomer discovering the most marvellous stars. Beethoven challenges the universe. I only try to express the soul and heart of man.'
+        },
+        { 
+            author: 'Jack London',
+            quote: 'The function of man is to live, not to exist. I shall not waste my days trying to prolong them. I shall use my time.'
+        }
     ],
     idx: 0,
     displayTime: 15000,             // time to display the quote

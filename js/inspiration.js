@@ -1,4 +1,4 @@
-import { musiciansArray, quotesAndAuthors } from './data.js';
+import { musiciansArray, quotes } from './data.js';
 
 
 /*
@@ -189,16 +189,16 @@ const initializeMusiciansObject = (musiciansArray, musiciansObject) => {
 }
 
 
-const cycleQuotes = (quotesAndAuthors, timerWrapper) => {
-    cycleQuotesHelperChangeQuote(quotesAndAuthors);
+const cycleQuotes = (quotes, timerWrapper) => {
+    cycleQuotesHelperChangeQuote(quotes);
     timerWrapper.timePassed = 0;
     setInterval(() => {
-        if (timerWrapper.timePassed === quotesAndAuthors.displayTime - quotesAndAuthors.transitionTime) {
-            cycleQuotesHelperTransition(quotesAndAuthors);
+        if (timerWrapper.timePassed === quotes.displayTime - quotes.transitionTime) {
+            cycleQuotesHelperTransition(quotes);
             timerWrapper.timePassed += 100
         }
-        else if (timerWrapper.timePassed === quotesAndAuthors.displayTime) {
-            cycleQuotesHelperChangeQuote(quotesAndAuthors);
+        else if (timerWrapper.timePassed === quotes.displayTime) {
+            cycleQuotesHelperChangeQuote(quotes);
             timerWrapper.timePassed = 0;
         } else {
             timerWrapper.timePassed += 100;
@@ -207,27 +207,27 @@ const cycleQuotes = (quotesAndAuthors, timerWrapper) => {
 }
 
 
-const cycleQuotesHelperChangeQuote = (quotesAndAuthors) => {
+const cycleQuotesHelperChangeQuote = (quotes) => {
     const quote = document.getElementById('quote');
     const author = document.getElementById('author');
     quote.style.opacity = 1;
     author.style.opacity = 1;
-    quote.innerHTML = quotesAndAuthors.quotes[quotesAndAuthors.idx];
-    author.innerHTML = `- ${quotesAndAuthors.authors[quotesAndAuthors.idx]}`;
-    quotesAndAuthors.idx = (quotesAndAuthors.idx < quotesAndAuthors.quotes.length - 1) ? quotesAndAuthors.idx + 1 : 0;
+    quote.innerHTML = quotes.quoteAndAuthor[quotes.idx].quote;
+    author.innerHTML = `- ${quotes.quoteAndAuthor[quotes.idx].author}`;
+    quotes.idx = (quotes.idx < quotes.quoteAndAuthor.length - 1) ? quotes.idx + 1 : 0;
 }
 
 
-const cycleQuotesHelperTransition = (quotesAndAuthors) => {
+const cycleQuotesHelperTransition = (quotes) => {
     const quote = document.getElementById('quote');
     const author = document.getElementById('author');
 
-    const opacityChangesCount = quotesAndAuthors.transitionTime / quotesAndAuthors.opacityChangeIntervalTime;
+    const opacityChangesCount = quotes.transitionTime / quotes.opacityChangeIntervalTime;
     for (let i = 0; i < opacityChangesCount; ++i) {
         setTimeout(() => {
             quote.style.opacity -= 1 / opacityChangesCount;
             author.style.opacity -= 1 / opacityChangesCount;
-        }, (i + 1) * quotesAndAuthors.opacityChangeIntervalTime);
+        }, (i + 1) * quotes.opacityChangeIntervalTime);
     }  
 }
 
@@ -349,4 +349,4 @@ const cycleSongAndMusicianOpacityHelper = (musician, stateTitle, stateSong) => {
 initializeInspirationPage(musiciansArray);
 initializeMusiciansObject(musiciansArray, musiciansObject);
 initializePlaySongEvents(musiciansObject);
-cycleQuotes(quotesAndAuthors, timerWrapper);
+cycleQuotes(quotes, timerWrapper);
