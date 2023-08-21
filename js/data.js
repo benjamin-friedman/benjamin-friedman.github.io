@@ -240,17 +240,17 @@ export const musiciansArray = [
         id: 'steve-jablonsky',
         name: 'Steve Jablonsky',
         songs: [
+            { name: 'Arrival To Earth', soundtrack: 'Transformers' },
             { name: 'Tessa', soundtrack: 'Transformers: Age of Extinction' },
-            { name: 'Sacrifice', soundtrack: 'Transformers: The Last Knight' },
-            { name: 'Arrival To Earth', soundtrack: 'Transformers' }
+            { name: 'Sacrifice', soundtrack: 'Transformers: The Last Knight' }
         ]
     },
     {
         id: 'james-newton-howard',
         name: 'James Newton Howard',
         songs: [
-            { name: 'There Are Worse Games To Play-Deep In The Meadow-The Hunger Games Suite', soundtrack: 'The Hunger Games: Mockingjay Part 2' },
             { name: "Rue's Farewell", soundtrack: 'The Hunger Games' },
+            { name: 'There Are Worse Games To Play-Deep In The Meadow-The Hunger Games Suite', soundtrack: 'The Hunger Games: Mockingjay Part 2' },
             { name: "Snow's Execution", soundtrack: 'The Hunger Games: Mockingjay Part 2' }
         ]
     },
@@ -258,9 +258,9 @@ export const musiciansArray = [
         id: 'nicholas-hooper',
         name: 'Nicholas Hooper',
         songs: [
+            { name: 'Possession', soundtrack: 'Harry Potter and the Order of the Phoenix' },
             { name: 'When Ginny Kissed Harry', soundtrack: 'Harry Potter and the Half-Blood Prince' },
-            { name: "Dumbledore's Farewell", soundtrack: 'Harry Potter and the Half-Blood Prince' },
-            { name: 'Possession', soundtrack: 'Harry Potter and the Order of the Phoenix' }
+            { name: "Dumbledore's Farewell", soundtrack: 'Harry Potter and the Half-Blood Prince' }
         ]
     },
     {
