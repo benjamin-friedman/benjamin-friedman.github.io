@@ -26,7 +26,7 @@ export const musiciansArray = [
             { name: 'Wheel Of Fortune', soundtrack: "Pirates Of The Caribbean: Dead Man's Chest" },
             { name: 'Jack Sparrow', soundtrack: "Pirates Of The Caribbean: Dead Man's Chest" },
             { name: 'Davy Jones', soundtrack: "Pirates Of The Caribbean: Dead Man's Chest" },
-            { name: 'Davy Jones - Piano', soundtrack: "Pirates Of The Caribbean: Dead Man's Chest" },
+            { name: 'Davy Jones - Piano', soundtrack: "Pirates Of The Caribbean: Dead Man's Chest", recordingMusician: 'Fabian Torres' },
             { name: 'Marry Me', soundtrack: "Pirates Of The Caribbean: At World's End" },
             { name: "At Wit's End", soundtrack: "Pirates Of The Caribbean: At World's End" },
             { name: 'Parlay', soundtrack: "Pirates Of The Caribbean: At World's End" },
