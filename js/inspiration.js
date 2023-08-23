@@ -58,7 +58,7 @@ const initializeInspirationPage = (musiciansArray) => {
                             <h4 id="${musiciansArray[i].id}-title">${musiciansArray[i].name}</h4>
                         </div>
                     </div>
-                    <div class="row img-container">
+                    <div class="row">
                         <div class="col-4 img-col">
                             <img src="img/musicians/${musiciansArray[i].id}.jpg" class="musician-img" id="${musiciansArray[i].id}-img">
                             <img src="img/background/PlayButton.jpg" class="play-button-img" id="${musiciansArray[i].id}-play-button-img">
@@ -81,7 +81,7 @@ const initializeInspirationPage = (musiciansArray) => {
                             <h4 id="${musiciansArray[i + 1].id}-title">${musiciansArray[i + 1].name}</h4>
                         </div>
                     </div>
-                    <div class="row img-container">
+                    <div class="row">
                         <div class="col-4 img-col">
                             <img src="img/musicians/${musiciansArray[i].id}.jpg" class="musician-img" id="${musiciansArray[i].id}-img">
                             <img src="img/background/PlayButton.jpg" class="play-button-img" id="${musiciansArray[i].id}-play-button-img">
@@ -114,7 +114,7 @@ const initializeInspirationPage = (musiciansArray) => {
                             <h4 id="${musiciansArray[i + 2].id}-title">${musiciansArray[i + 2].name}</h4>
                         </div>
                     </div>
-                    <div class="row img-container">
+                    <div class="row">
                         <div class="col img-col">
                             <img src="img/musicians/${musiciansArray[i].id}.jpg" class="musician-img" id="${musiciansArray[i].id}-img">
                             <img src="img/background/PlayButton.jpg" class="play-button-img" id="${musiciansArray[i].id}-play-button-img">
