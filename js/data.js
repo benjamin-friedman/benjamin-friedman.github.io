@@ -73,68 +73,68 @@ export const musiciansArray = [
             { name: 'N17 - Nocturne In B Major Op. 62 No. 1', recordingMusician: 'Francois Chaplin' },
             { name: 'N18 - Nocturne In E Major Op. 62 No. 2', recordingMusician: 'Francois Chaplin' },
             { name: 'N19 - Nocturne In E Minor Op. 72 No. 1', recordingMusician: 'Francois Chaplin' },
-            { name: 'N20 - Nocturne In C Sharp Minor, Op. Posth. - Interpretation 1', recordingMusician: 'Rousseau' },
-            { name: 'N20 - Nocturne In C Sharp Minor, Op. Posth. - Interpretation 2', recordingMusician: 'Nelson Goerner' },
+            { name: 'N20 - Nocturne In C Sharp Minor Op. Posth. - Interpretation 1', recordingMusician: 'Rousseau' },
+            { name: 'N20 - Nocturne In C Sharp Minor Op. Posth. - Interpretation 2', recordingMusician: 'Nelson Goerner' },
             { name: 'N21 - Nocturne In C Minor Op. Posth.', recordingMusician: 'Francois Chaplin' },
             { name: 'Ballade No. 1 In G Minor Op. 23', recordingMusician: 'Seong-Jin Cho' },
             { name: 'Etude In C Minor Op. 10 No. 12 (Revolutionary Etude)', recordingMusician: 'Rousseau' },
             { name: 'Etude In A Minor Op. 25 No. 11 (Winter Wind)', recordingMusician: 'Rousseau' },
-            { name: 'Piano Sonata No. 2 In B Flat Minor Movement III (Funeral March)', recordingMusician: 'Rousseau' },
-            { name: 'Fantaisie Impromptu in C Sharp Minor Op. Posth. 66 WN 46', recordingMusician: 'Dmitry Shishkin' },
-            { name: 'N20 - Nocturne In C Sharp Minor, Op. Posth. - Cello', recordingMusician: 'Stjepan Hauser' }
+            { name: 'Piano Sonata No. 2 In B Flat Minor 3rd Movement (Funeral March)', recordingMusician: 'Rousseau' },
+            { name: 'Fantaisie Impromptu in C Sharp Minor Op. Posth. 66, WN 46', recordingMusician: 'Dmitry Shishkin' },
+            { name: 'N20 - Nocturne In C Sharp Minor Op. Posth. - Cello', recordingMusician: 'Stjepan Hauser' }
         ]
     },
     {
         id: 'schubert',
         name: 'Schubert',
         songs: [
-            { name: 'Impromptu In G Flat Major Op. 90 No. 3', recordingMusician: 'Olga Jegunova' },
-            { name: 'Piano Trio No. 2 In E Flat Major Movement II Op. 100', recordingMusician: 'Unknown' },
-            { name: 'Serenade - Interpretation 1', recordingMusician: 'Unknown' },
-            { name: 'Serenade - Interpretation 2', recordingMusician: 'Unknown' },
-            { name: 'Serenade - Piano and Cello', recordingMusician: 'Stjepan Hauser' },
-            { name: 'Serenade - Piano (arr. Liszt)', recordingMusician: 'Rousseau' }
+            { name: 'Impromptu In G Flat Major Op. 90 No. 3, D. 899', recordingMusician: 'Olga Jegunova' },
+            { name: 'Piano Trio No. 2 In E Flat Major 2nd Movement Op. 100, D. 929', recordingMusician: 'Unknown' },
+            { name: 'Standchen (Serenade) D. 889 - Interpretation 1', recordingMusician: 'Unknown' },
+            { name: 'Standchen (Serenade) D. 889 - Interpretation 2', recordingMusician: 'Unknown' },
+            { name: 'Standchen (Serenade) D. 889 - Piano and Cello', recordingMusician: 'Stjepan Hauser' },
+            { name: 'Standchen (Serenade) D. 889 - Piano (arr. Liszt)', recordingMusician: 'Rousseau' }
         ]
     },
     {
         id: 'liszt',
         name: 'Liszt',
         songs: [
-            { name: 'Liebestraum No. 3 In A Flat Major', recordingMusician: 'Khatia Buniatishvili' },
-            { name: 'Consolation No. 3 In D Flat Major', recordingMusician: 'Rousseau' },
-            { name: 'Romance O Pourquoi Donc In E Minor S. 169', recordingMusician: 'Genny Basso' },
-            { name: 'Etude No. 3 In G Sharp Minor (La Campanella)', recordingMusician: 'Rousseau' }
+            { name: 'Liebestraum No. 3 In A Flat Major S. 541 (Love Dream)', recordingMusician: 'Khatia Buniatishvili' },
+            { name: 'Romance In E Minor S. 169 (O Pourqoi Donc)', recordingMusician: 'Genny Basso' },
+            { name: 'Consolation No. 3 In D Flat Major S. 172', recordingMusician: 'Rousseau' },
+            { name: 'Etude No. 3 In G Sharp Minor S. 141 (La Campanella)', recordingMusician: 'Rousseau' }
         ]
     },
     {
         id: 'beethoven',
         name: 'Beethoven',
         songs: [
-            { name: 'Moonlight Sonata 1st Movement', recordingMusician: 'Unknown' },
-            { name: 'Moonlight Sonata 1st Movement - Cello and Piano', recordingMusician: 'Stjepan Hauser and Lola Astanova' },
-            { name: 'Moonlight Sonata 1st Movement - Ethereal', recordingMusician: 'Rousseau' },
-            { name: 'Moonlight Sonata 3rd Movement', recordingMusician: 'Rousseau' },
-            { name: 'Moonlight Sonata 3rd Movement - Guitar and Drums', recordingMusician: 'Cole Rolland and Kristina Schiano' }
+            { name: 'Piano Sonata No. 14 In C Sharp Minor (Moonlight Sonata) 1st Movement', recordingMusician: 'Unknown' },
+            { name: 'Piano Sonata No. 14 In C Sharp Minor (Moonlight Sonata) 1st Movement - Cello and Piano', recordingMusician: 'Stjepan Hauser and Lola Astanova' },
+            { name: 'Piano Sonata No. 14 In C Sharp Minor (Moonlight Sonata) 1st Movement - Ethereal', recordingMusician: 'Rousseau' },
+            { name: 'Piano Sonata No. 14 In C Sharp Minor (Moonlight Sonata) 3rd Movement', recordingMusician: 'Rousseau' },
+            { name: 'Piano Sonata No. 14 In C Sharp Minor (Moonlight Sonata) 3rd Movement - Guitar and Drums', recordingMusician: 'Cole Rolland and Kristina Schiano' }
         ]
     },
     {
         id: 'mozart',
         name: 'Mozart',
         songs: [
-            { name: 'Fantasia No. 3 In D Minor', recordingMusician: 'Kassia' },
-            { name: 'Serenade No. 10 For Winds In B Flat Major 3rd Movement', recordingMusician: 'Academy Of St. Martin In The Fields Orchestra' },
-            { name: 'Requiem In D Minor Introitus', recordingMusician: 'Academy Of St. Martin In The Fields Choir' },
-            { name: 'Requiem In D Minor Lacrimosa', recordingMusician: 'RIAS Chamber Choir' },
-            { name: 'Requiem In D Minor Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser' }
+            { name: 'Fantasia No. 3 In D Minor K. 397 (385g)', recordingMusician: 'Kassia' },
+            { name: 'Serenade No. 10 For Winds In B Flat Major 3rd Movement K. 361 (370a)', recordingMusician: 'Academy Of St. Martin In The Fields Orchestra' },
+            { name: 'Requiem In D Minor K. 626, I. Introitus', recordingMusician: 'Academy Of St. Martin In The Fields Choir' },
+            { name: 'Requiem In D Minor K. 626, III. Lacrimosa', recordingMusician: 'RIAS Chamber Choir' },
+            { name: 'Requiem In D Minor K. 626, III. Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser' }
         ]
     },
     {
         id: 'bach',
         name: 'Bach',
         songs: [
-            { name: 'Toccata And Fugue In D Minor', recordingMusician: 'Rousseau' },
-            { name: 'Orchestral Suite No. 3 In D Major Movement II, BWV 1068 (Air On The G String)', recordingMusician: 'Stjepan Hauser' },
-            { name: 'Cello Suite No. 1 In G Major Prelude', recordingMusician: 'Yo-Yo Ma' }
+            { name: 'Toccata And Fugue In D Minor BWV 565', recordingMusician: 'Rousseau' },
+            { name: 'Orchestral Suite No. 3 In D Major 2nd Movement BWV 1068 (Air On The G String)', recordingMusician: 'Stjepan Hauser' },
+            { name: 'Cello Suite No. 1 In G Major BWV 1007, I. Prelude', recordingMusician: 'Yo-Yo Ma' }
         ]
     },
     {
@@ -148,8 +148,8 @@ export const musiciansArray = [
         id: 'saint-saens',
         name: 'Saint-Saens',
         songs: [
-            { name: 'The Swan - Cello and Harp', recordingMusician: 'Stjepan Hauser' },
-            { name: 'The Swan - Cello and Piano', recordingMusician: 'Kathryn Stott and Yo-Yo Ma' },
+            { name: 'The Carnival of the Animals Movement 14 (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser' },
+            { name: 'The Carnival of the Animals Movement 14 (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott and Yo-Yo Ma' },
             { name: 'Cello Concerto No. 1 In A Minor Op. 33', recordingMusician: 'Andrew Shulman' }
         ]
     },
@@ -171,8 +171,8 @@ export const musiciansArray = [
         name: 'Debussy',
         songs: [
             { name: 'Reverie', recordingMusician: 'Rousseau' },
-            { name: 'Clair De Lune', recordingMusician: 'Rousseau' },
-            { name: 'Arabesque No. 1', recordingMusician: 'Rousseau' }
+            { name: 'Suite bergamasque 3rd Movement L. 75 (Clair de lune)', recordingMusician: 'Rousseau' },
+            { name: 'Arabesque No. 1 L. 66', recordingMusician: 'Rousseau' }
         ]
     },
     {
@@ -187,10 +187,10 @@ export const musiciansArray = [
         id: 'rachmaninoff',
         name: 'Rachmaninoff',
         songs: [
-            { name: 'Piano Concerto No. 2 1st Movement', recordingMusician: 'Anna Fedorova' },
-            { name: 'Piano Concerto No. 2 2nd Movement', recordingMusician: 'Anna Fedorova' },
-            { name: 'Piano Concerto No. 2 3rd Movement', recordingMusician: 'Anna Fedorova' },
-            { name: 'Piano Concerto No. 2 2nd Movement - Cello', recordingMusician: 'Stjepan Hauser' }
+            { name: 'Piano Concerto No. 2 In C Minor 1st Movement Op. 18', recordingMusician: 'Anna Fedorova' },
+            { name: 'Piano Concerto No. 2 In C Minor 2nd Movement Op. 18', recordingMusician: 'Anna Fedorova' },
+            { name: 'Piano Concerto No. 2 In C Minor 3rd Movement Op. 18', recordingMusician: 'Anna Fedorova' },
+            { name: 'Piano Concerto No. 2 In C Minor 2nd Movement Op. 18 - Cello', recordingMusician: 'Stjepan Hauser' }
         ]
     },
     {
