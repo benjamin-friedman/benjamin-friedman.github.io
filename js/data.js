@@ -471,8 +471,8 @@ export const musiciansArray = [
         name: 'Don McLean',
         songs: [
             { name: 'Vincent' },
-            { name: 'Vincent - Guitar' },
-            { name: 'American Pie', recordingMusician: 'Daniel Champagne'}
+            { name: 'Vincent - Guitar', recordingMusician: 'Daniel Champagne'},
+            { name: 'American Pie' }
         ]
     },
     {
@@ -486,14 +486,14 @@ export const musiciansArray = [
         id: 'patrick-watson',
         name: 'Patrick Watson',
         songs: [
-            { name: 'To Build A Home' }
+            { name: 'To Build A Home', contributors: 'The Cinematic Orchestra' }
         ]
     },
     {
         id: 'rufus-wainwright',
         name: 'Rufus Wainwright',
         songs: [
-            { name: 'Hallelujah' }
+            { name: 'Hallelujah', contributors: 'Leonard Bernstein' }
         ]
     },
     {
@@ -665,7 +665,7 @@ export const musiciansArray = [
         name: 'Disturbed',
         songs: [
             { name: 'Down With The Sickness' },
-            { name: 'The Sound Of Silence' }
+            { name: 'The Sound Of Silence', contributors: 'Simon & Garfunkel' }
         ]
     },
     {
@@ -1015,7 +1015,7 @@ export const musiciansArray = [
         id: 'gerry-mulligan',
         name: 'Gerry Mulligan',
         songs: [
-            { name: 'Prelude In E Minor Op. 28 No. 4 - Jazz' }
+            { name: 'Prelude In E Minor Op. 28 No. 4 - Jazz', contributors: 'Chopin' }
         ]
     },
     {
