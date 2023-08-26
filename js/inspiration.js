@@ -43,6 +43,13 @@ const timerWrapper = {
 
 /********** function definitions **********/
 const initializeInspirationPage = (musiciansArray) => {
+    // Even though opacity should default to 1 upon loading, the value is being recognized as 0 even though it's visible on the screen.
+    // Unsure why this is. Regardless, this causes the opacity to immediately go to 0 during the first time cycling the quotes so it has to be to 1 here.
+    const quote = document.getElementById('quote');
+    const author = document.getElementById('author');
+    quote.style.opacity = 1;
+    author.style.opacity = 1;
+
     const musiciansContainer = document.getElementById('musicians-container');
     let newHTML;
 
@@ -206,8 +213,6 @@ const cycleQuotes = (quotes, timerWrapper) => {
 const cycleQuotesHelperChangeQuote = (quotes) => {
     const quote = document.getElementById('quote');
     const author = document.getElementById('author');
-    quote.style.opacity = 1;
-    author.style.opacity = 1;
     quote.innerHTML = quotes.quoteAndAuthor[quotes.idx].quote;
     author.innerHTML = `- ${quotes.quoteAndAuthor[quotes.idx].author}`;
     quotes.idx = (quotes.idx < quotes.quoteAndAuthor.length - 1) ? quotes.idx + 1 : 0;
@@ -220,10 +225,19 @@ const cycleQuotesHelperTransition = (quotes) => {
 
     const opacityChangesCount = quotes.transitionTime / quotes.opacityChangeIntervalTime;
     for (let i = 0; i < opacityChangesCount; ++i) {
-        setTimeout(() => {
-            quote.style.opacity -= 1 / opacityChangesCount;
-            author.style.opacity -= 1 / opacityChangesCount;
-        }, (i + 1) * quotes.opacityChangeIntervalTime);
+        if (i < opacityChangesCount - 1) {
+            setTimeout(() => {
+                quote.style.opacity = (quote.style.opacity - (1 / (opacityChangesCount - 1)) < 0) ? 0 : quote.style.opacity - (1 / (opacityChangesCount - 1));
+                author.style.opacity = (author.style.opacity - (1 / (opacityChangesCount - 1)) < 0) ? 0 : author.style.opacity - (1 / (opacityChangesCount - 1));
+            }, (i + 1) * quotes.opacityChangeIntervalTime);
+        } else {
+            setTimeout(() => {
+                quote.style.opacity = 1;
+                author.style.opacity = 1;
+            }, (i + 1) * quotes.opacityChangeIntervalTime);
+            
+        }
+
     }  
 }
 
