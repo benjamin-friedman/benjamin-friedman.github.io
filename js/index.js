@@ -1,8 +1,8 @@
 /********** function definitions **********/
 // opacity of welcome message
 const cycleOpacity = () => {
-    const welcomeSection = document.getElementById('welcome');
-    const opacity = getComputedStyle(welcomeSection).getPropertyValue('opacity'); // starts at 1
+    const welcomeContainer = document.getElementById('welcome-container');
+    const opacity = getComputedStyle(welcomeContainer).getPropertyValue('opacity'); // starts at 1
     let state = {
         isDecreasing: true,
         opacity: Number(opacity)
@@ -12,16 +12,16 @@ const cycleOpacity = () => {
 
 
 const cycleOpacityHelper = (state) => {
-    const welcomeSection = document.getElementById('welcome');
+    const welcomeContainer = document.getElementById('welcome-container');
     if (state.isDecreasing) {
-        welcomeSection.style.opacity = state.opacity - 0.025;
+        welcomeContainer.style.opacity = state.opacity - 0.025;
         state.opacity -= 0.025;
         if (state.opacity <= 0.1) { // must be <= and not === b/c javascript floating point math is not good
             state.isDecreasing = false;
         }
     }
     else {
-        welcomeSection.style.opacity = state.opacity + 0.025;
+        welcomeContainer.style.opacity = state.opacity + 0.025;
         state.opacity += 0.025;
         if (state.opacity >= 1) { // must be >= and not === b/c javascript floating point math is not good
             state.isDecreasing = true;

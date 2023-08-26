@@ -43,9 +43,7 @@ const timerWrapper = {
 
 /********** function definitions **********/
 const initializeInspirationPage = (musiciansArray) => {
-    const musiciansSection = document.getElementById('musicians-section');
-    musiciansSection.insertAdjacentHTML('afterbegin', '<div class="container" id="musicians-section-container"></div>');
-    const musiciansContainer = document.getElementById('musicians-section-container');
+    const musiciansContainer = document.getElementById('musicians-container');
     let newHTML;
 
     // musicians and photos
@@ -145,19 +143,17 @@ const initializeInspirationPage = (musiciansArray) => {
     }
 
 
-    document.getElementById('discussion-section').style.visibility= 'visible';
+    document.getElementById('discussion-container').style.visibility= 'visible';
 
 
     // song listing 
-    const musiciansAndSongsSummarySection = document.getElementById('song-listing-section');
-    musiciansAndSongsSummarySection.insertAdjacentHTML('afterbegin', '<div class="container" id="song-listing-section-container"></div>');
-    const musiciansAndSongsSummarySectionContainer = document.getElementById('song-listing-section-container');
-    musiciansAndSongsSummarySectionContainer.insertAdjacentHTML('beforeend', '<h4>Song Listing</h4>');
+    const songListingContainer = document.getElementById('song-listing-container');
+    songListingContainer.insertAdjacentHTML('beforeend', '<h4>Song Listing</h4>');
     for (let i = 0; i < musiciansArray.length; ++i) {
-        newHTML = '<div class="song-listing-section-musician-container">';
+        newHTML = '<div class="song-listing-musician-container">';
         newHTML += `<h5>${musiciansArray[i].name}</h5>`
         for (let j = 0; j < musiciansArray[i].songs.length; ++j) {
-            newHTML += '<div class="row song-listing-section-song-container">';
+            newHTML += '<div class="row song-listing-song-container">';
             newHTML += `<div class="col-4">${musiciansArray[i].songs[j].name}</div>`;
             if (musiciansArray[i].songs[j].soundtrack) {
                 newHTML += `<div class="col-4">Soundtrack: ${musiciansArray[i].songs[j].soundtrack}</div>`;
@@ -171,7 +167,7 @@ const initializeInspirationPage = (musiciansArray) => {
             newHTML += '</div>';
         }
         newHTML += '</div>';
-        musiciansAndSongsSummarySectionContainer.insertAdjacentHTML('beforeend', newHTML);
+        songListingContainer.insertAdjacentHTML('beforeend', newHTML);
     }
 }
 
