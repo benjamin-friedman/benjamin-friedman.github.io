@@ -162,11 +162,11 @@ const initializeInspirationPage = (musiciansArray) => {
             if (musiciansArray[i].songs[j].soundtrack) {
                 newHTML += `<div class="col-4">Soundtrack: ${musiciansArray[i].songs[j].soundtrack}</div>`;
             }
-            if (musiciansArray[i].songs[j].contributors) {
-                newHTML += `<div class="col-3">Contributors: ${musiciansArray[i].songs[j].contributors}</div>`;
-            }
             if (musiciansArray[i].songs[j].recordingMusician) {
                 newHTML += `<div class="col-4">Recording: ${musiciansArray[i].songs[j].recordingMusician}</div>`;
+            }
+            if (musiciansArray[i].songs[j].contributors) {
+                newHTML += `<div class="col-3">Contributors: ${musiciansArray[i].songs[j].contributors}</div>`;
             }
             newHTML += '</div>';
         }
