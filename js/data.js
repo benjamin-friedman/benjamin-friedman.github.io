@@ -90,10 +90,10 @@ export const musiciansArray = [
         songs: [
             { name: 'Impromptu In G Flat Major Op. 90 No. 3, D. 899', recordingMusician: 'Olga Jegunova' },
             { name: 'Piano Trio No. 2 In E Flat Major 2nd Movement Op. 100, D. 929', recordingMusician: 'Unknown' },
-            { name: 'Standchen (Serenade) D. 889 - Interpretation 1', recordingMusician: 'Unknown' },
-            { name: 'Standchen (Serenade) D. 889 - Interpretation 2', recordingMusician: 'Unknown' },
-            { name: 'Standchen (Serenade) D. 889 - Piano and Cello', recordingMusician: 'Stjepan Hauser' },
-            { name: 'Standchen (Serenade) D. 889 - Piano (arr. Liszt)', recordingMusician: 'Rousseau' }
+            { name: 'Serenade D. 889 - Interpretation 1', recordingMusician: 'Unknown' },
+            { name: 'Serenade D. 889 - Interpretation 2', recordingMusician: 'Unknown' },
+            { name: 'Serenade D. 889 - Piano and Cello', recordingMusician: 'Stjepan Hauser' },
+            { name: 'Serenade D. 889 - Piano', recordingMusician: 'Rousseau', contributors: 'Franz Liszt' }
         ]
     },
     {
