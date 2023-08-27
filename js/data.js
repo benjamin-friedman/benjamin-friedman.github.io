@@ -149,8 +149,8 @@ export const musiciansArray = [
         id: 'saint-saens',
         name: 'Saint-Saens',
         songs: [
-            { name: 'The Carnival of the Animals Movement 14 (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser' },
-            { name: 'The Carnival of the Animals Movement 14 (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott and Yo-Yo Ma' },
+            { name: 'The Carnival of the Animals Movement 13 (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser' },
+            { name: 'The Carnival of the Animals Movement 13 (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott and Yo-Yo Ma' },
             { name: 'Cello Concerto No. 1 In A Minor Op. 33', recordingMusician: 'Andrew Shulman' }
         ]
     },
