@@ -156,9 +156,11 @@ const initializeInspirationPage = (musiciansArray) => {
     // song listing 
     const songListingContainer = document.getElementById('song-listing-container');
     songListingContainer.insertAdjacentHTML('beforeend', '<h4>Song Listing</h4>');
+    songListingContainer.insertAdjacentHTML('beforeend', '<div class="container" id="song-listing-musicians-and-songs-list-container"></div>');
+    const songgListingMusiciansAndSongsListContainer = document.getElementById('song-listing-musicians-and-songs-list-container');
     for (let i = 0; i < musiciansArray.length; ++i) {
-        newHTML = '<div class="song-listing-musician-container">';
-        newHTML += `<h5>${musiciansArray[i].name}</h5>`
+        newHTML = '<div class="song-listing-musician-and-songs-container">';
+        newHTML += `<h5>${musiciansArray[i].name}</h5>`;
         for (let j = 0; j < musiciansArray[i].songs.length; ++j) {
             newHTML += '<div class="row song-listing-song-container">';
             newHTML += `<div class="col-4">${musiciansArray[i].songs[j].name}</div>`;
@@ -171,10 +173,10 @@ const initializeInspirationPage = (musiciansArray) => {
             if (musiciansArray[i].songs[j].contributors) {
                 newHTML += `<div class="col-3">Contributors: ${musiciansArray[i].songs[j].contributors}</div>`;
             }
-            newHTML += '</div>';
+            newHTML += '</div>'; // end song-listing-song-container
         }
-        newHTML += '</div>';
-        songListingContainer.insertAdjacentHTML('beforeend', newHTML);
+        newHTML += '</div>'; // end song-listing-musician-and-songs-container
+        songgListingMusiciansAndSongsListContainer.insertAdjacentHTML('beforeend', newHTML);
     }
 }
 
