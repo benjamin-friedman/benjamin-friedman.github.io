@@ -198,7 +198,7 @@ export const musiciansArray = [
         id: 'shostakovich',
         name: 'Shostakovich',
         songs: [
-            { name: 'Waltz No. 2', recordingMusician: 'Andre Rieu' }
+            { name: 'Waltz No. 2', recordingMusician: 'The Johann Strauss Orchestra' }
         ]
     },
     {
