@@ -53,6 +53,7 @@ export const musiciansArray = [
         name: 'Chopin',
         songs: [
             { name: 'P4 - Prelude In E Minor Op. 28 No. 4', recordingMusician: 'Kassia' },
+            { name: 'P6 - Prelude In B Minor Op. 28 No. 6', recordingMusician: 'Rousseau' },
             { name: 'P15 - Prelude In D Flat Major Op. 28 No. 15 (Raindrop Prelude)', recordingMusician: 'Ivo Pogorelich' },
             { name: 'N1 - Nocturne In B Flat Minor Op. 9 No. 1', recordingMusician: 'Francois Chaplin' },
             { name: 'N2 - Nocturne In E Flat Major Op. 9 No. 2', recordingMusician: 'Francois Chaplin' },
