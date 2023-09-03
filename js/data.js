@@ -42,9 +42,9 @@ export const musiciansArray = [
             { name: 'Ah, Putrefaction', soundtrack: 'Sherlock Holmes' },
             { name: 'A Way Of Life', soundtrack: 'The Last Samurai' },
             { name: 'A Small Measure Of Peace', soundtrack: 'The Last Samurai' },
-            { name: 'Elysium', soundtrack: 'Gladiator', contributors: 'Lisa Gerrard, Klaus Badelt' },
-            { name: 'Honor Him', soundtrack: 'Gladiator', contributors: 'Lisa Gerrard, Klaus Badelt' },
-            { name: 'Now We Are Free', soundtrack: 'Gladiator', contributors: 'Lisa Gerrard, Klaus Badelt' },
+            { name: 'Elysium', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
+            { name: 'Honor Him', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
+            { name: 'Now We Are Free', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
             { name: 'Now We Are Free - Cello', soundtrack: 'Gladiator', recordingMusician: 'Stjepan Hauser' },
         ]
     },
@@ -86,6 +86,17 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'liszt',
+        name: 'Liszt',
+        songs: [
+            { name: 'Liebestraum No. 3 In A Flat Major S. 541 (Love Dream)', recordingMusician: 'Khatia Buniatishvili' },
+            { name: 'Romance In E Minor S. 169 (O Pourqoi Donc)', recordingMusician: 'Genny Basso' },
+            { name: 'Consolation No. 3 In D Flat Major S. 172', recordingMusician: 'Rousseau' },
+            { name: 'Serenade D. 889 - Piano', recordingMusician: 'Rousseau', contributors: 'Schubert' },
+            { name: 'Etude No. 3 In G Sharp Minor S. 141 (La Campanella)', recordingMusician: 'Rousseau' }
+        ]
+    },
+    {
         id: 'schubert',
         name: 'Schubert',
         songs: [
@@ -94,18 +105,7 @@ export const musiciansArray = [
             { name: 'Piano Trio No. 2 In E Flat Major 2nd Movement Op. 100, D. 929 - Interpretation 2', recordingMusician: 'Unknown' },
             { name: 'Serenade D. 889 - Interpretation 1', recordingMusician: 'Unknown' },
             { name: 'Serenade D. 889 - Interpretation 2', recordingMusician: 'Unknown' },
-            { name: 'Serenade D. 889 - Piano and Cello', recordingMusician: 'Stjepan Hauser' },
-            { name: 'Serenade D. 889 - Piano', recordingMusician: 'Rousseau', contributors: 'Franz Liszt' }
-        ]
-    },
-    {
-        id: 'liszt',
-        name: 'Liszt',
-        songs: [
-            { name: 'Liebestraum No. 3 In A Flat Major S. 541 (Love Dream)', recordingMusician: 'Khatia Buniatishvili' },
-            { name: 'Romance In E Minor S. 169 (O Pourqoi Donc)', recordingMusician: 'Genny Basso' },
-            { name: 'Consolation No. 3 In D Flat Major S. 172', recordingMusician: 'Rousseau' },
-            { name: 'Etude No. 3 In G Sharp Minor S. 141 (La Campanella)', recordingMusician: 'Rousseau' }
+            { name: 'Serenade D. 889 - Piano and Cello', recordingMusician: 'Stjepan Hauser' }
         ]
     },
     {
