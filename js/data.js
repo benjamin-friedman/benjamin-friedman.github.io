@@ -81,7 +81,7 @@ export const musiciansArray = [
             { name: 'Etude In A Minor Op. 25 No. 11 (Winter Wind)', recordingMusician: 'Rousseau' },
             { name: 'Piano Sonata No. 2 In B Flat Minor 3rd Movement (Funeral March)', recordingMusician: 'Rousseau' },
             { name: 'Fantaisie Impromptu in C Sharp Minor Op. Posth. 66, WN 46', recordingMusician: 'Dmitry Shishkin' },
-            { name: 'Ballade No. 1 In G Minor Op. 23', recordingMusician: 'Seong-Jin Cho' },
+            { name: 'Ballade No. 1 In G Minor Op. 23 (La Ballade)', recordingMusician: 'Seong-Jin Cho' },
             { name: 'N20 - Nocturne In C Sharp Minor Op. Posth. - Cello', recordingMusician: 'Stjepan Hauser' },
         ]
     },
