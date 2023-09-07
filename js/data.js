@@ -196,6 +196,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'elgar',
+        name: 'Elgar',
+        songs: [
+            { name: 'Cello Concerto in E Minor Op. 85, I. Adagio - Moderato', recordingMusician: 'Sophie Kauer' }
+        ]
+    },
+    {
         id: 'shostakovich',
         name: 'Shostakovich',
         songs: [
@@ -229,6 +236,13 @@ export const musiciansArray = [
         name: 'Tchaikovsky',
         songs: [
             { name: 'Swan Lake Suite Op. 20 - Swan Theme', recordingMusician: 'Royal Philharmonic Orchestra' }
+        ]
+    },
+    {
+        id: 'mussorgsky',
+        name: 'Mussorgsky',
+        songs: [
+            { name: 'Pictures at an Exhibition No. 2, Il. vecchio castello', recordingMusician: 'Metamorphose String Orchestra & Pavel Lyubomudrov' },
         ]
     },
     {
@@ -1048,6 +1062,13 @@ export const musiciansArray = [
         name: 'Joseph Kilna MacKenzie',
         songs: [
             { name: 'Sgt. MacKenzie' }
+        ]
+    },
+    {
+        id: 'the-revels',
+        name: 'The Revels',
+        songs: [
+            { name: 'Lord Of The Dance' }
         ]
     },
     {
