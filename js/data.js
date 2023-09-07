@@ -200,7 +200,7 @@ export const musiciansArray = [
             { name: 'Piano Concerto No. 2 In C Minor 2nd Movement Op. 18', recordingMusician: 'Anna Fedorova' },
             { name: 'Piano Concerto No. 2 In C Minor 3rd Movement Op. 18', recordingMusician: 'Anna Fedorova' },
             { name: 'Piano Concerto No. 2 In C Minor 2nd Movement Op. 18 - Cello', recordingMusician: 'Stjepan Hauser' },
-            { name: 'Moment Musicaux In E Minor Op. 16 No. 4', recordingMusician: 'Kassia' }
+            { name: 'Moment Musicaux In E Minor Op. 16 No. 4', recordingMusician: 'Nikolai Lugansky' }
         ]
     },
     {
