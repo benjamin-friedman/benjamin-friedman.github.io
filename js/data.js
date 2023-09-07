@@ -1059,20 +1059,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'joseph-kilna-mackenzie',
-        name: 'Joseph Kilna MacKenzie',
-        songs: [
-            { name: 'Sgt. MacKenzie' }
-        ]
-    },
-    {
-        id: 'the-revels',
-        name: 'The Revels',
-        songs: [
-            { name: 'Lord Of The Dance' }
-        ]
-    },
-    {
         id: 'the-xx',
         name: 'The XX',
         songs: [
@@ -1127,6 +1113,20 @@ export const musiciansArray = [
         name: 'Ta-Ku',
         songs: [
             { name: 'Night 3' }
+        ]
+    },
+    {
+        id: 'joseph-kilna-mackenzie',
+        name: 'Joseph Kilna MacKenzie',
+        songs: [
+            { name: 'Sgt. MacKenzie' }
+        ]
+    },
+    {
+        id: 'the-revels',
+        name: 'The Revels',
+        songs: [
+            { name: 'Lord Of The Dance' }
         ]
     },
     {
