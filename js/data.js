@@ -189,7 +189,7 @@ export const musiciansArray = [
         id: 'elgar',
         name: 'Elgar',
         songs: [
-            { name: 'Cello Concerto in E Minor Op. 85, I. Adagio - Moderato', recordingMusician: 'Sophie Kauer' }
+            { name: 'Cello Concerto In E Minor Op. 85, I. Adagio - Moderato', recordingMusician: 'Sophie Kauer' }
         ]
     },
     {
