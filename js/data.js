@@ -79,7 +79,7 @@ export const musiciansArray = [
             { name: 'N21 - Nocturne In C Minor Op. Posth.', recordingMusician: 'Francois Chaplin' },
             { name: 'Etude In C Minor Op. 10 No. 12 (Revolutionary Etude)', recordingMusician: 'Rousseau' },
             { name: 'Etude In A Minor Op. 25 No. 11 (Winter Wind)', recordingMusician: 'Rousseau' },
-            { name: 'Piano Sonata No. 2 In B Flat Minor 3rd Movement (Funeral March)', recordingMusician: 'Rousseau' },
+            { name: 'Piano Sonata No. 2 In B Flat Minor Op. 35 III. (Funeral March)', recordingMusician: 'Rousseau' },
             { name: 'Fantaisie Impromptu in C Sharp Minor Op. Posth. 66, WN 46', recordingMusician: 'Dmitry Shishkin' },
             { name: 'Ballade No. 1 In G Minor Op. 23 (La Ballade)', recordingMusician: 'Seong-Jin Cho' },
             { name: 'N20 - Nocturne In C Sharp Minor Op. Posth. - Cello', recordingMusician: 'Stjepan Hauser' },
@@ -101,8 +101,8 @@ export const musiciansArray = [
         name: 'Schubert',
         songs: [
             { name: 'Impromptu In G Flat Major Op. 90 No. 3, D. 899', recordingMusician: 'Olga Jegunova' },
-            { name: 'Piano Trio No. 2 In E Flat Major 2nd Movement Op. 100, D. 929 - Interpretation 1', recordingMusician: 'Unknown' },
-            { name: 'Piano Trio No. 2 In E Flat Major 2nd Movement Op. 100, D. 929 - Interpretation 2', recordingMusician: 'Unknown' },
+            { name: 'Piano Trio No. 2 In E Flat Major Op. 100, D. 929 II. - Interpretation 1', recordingMusician: 'Unknown' },
+            { name: 'Piano Trio No. 2 In E Flat Major Op. 100, D. 929 II. - Interpretation 2', recordingMusician: 'Unknown' },
             { name: 'Serenade D. 889 - Interpretation 1', recordingMusician: 'Unknown' },
             { name: 'Serenade D. 889 - Interpretation 2', recordingMusician: 'Unknown' },
             { name: 'Serenade D. 889 - Piano and Cello', recordingMusician: 'Stjepan Hauser' }
@@ -112,11 +112,11 @@ export const musiciansArray = [
         id: 'beethoven',
         name: 'Beethoven',
         songs: [
-            { name: 'Piano Sonata No. 14 In C Sharp Minor (Moonlight Sonata) 1st Movement', recordingMusician: 'Unknown' },
-            { name: 'Piano Sonata No. 14 In C Sharp Minor (Moonlight Sonata) 1st Movement - Cello and Piano', recordingMusician: 'Stjepan Hauser and Lola Astanova' },
-            { name: 'Piano Sonata No. 14 In C Sharp Minor (Moonlight Sonata) 1st Movement - Ethereal', recordingMusician: 'Rousseau' },
-            { name: 'Piano Sonata No. 14 In C Sharp Minor (Moonlight Sonata) 3rd Movement', recordingMusician: 'Rousseau' },
-            { name: 'Piano Sonata No. 14 In C Sharp Minor (Moonlight Sonata) 3rd Movement - Guitar and Drums', recordingMusician: 'Cole Rolland and Kristina Schiano' }
+            { name: 'Piano Sonata No. 14 In C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata)', recordingMusician: 'Unknown' },
+            { name: 'Piano Sonata No. 14 In C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', recordingMusician: 'Stjepan Hauser and Lola Astanova' },
+            { name: 'Piano Sonata No. 14 In C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', recordingMusician: 'Rousseau' },
+            { name: 'Piano Sonata No. 14 In C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata)', recordingMusician: 'Rousseau' },
+            { name: 'Piano Sonata No. 14 In C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', recordingMusician: 'Cole Rolland and Kristina Schiano' }
         ]
     },
     {
@@ -124,10 +124,10 @@ export const musiciansArray = [
         name: 'Mozart',
         songs: [
             { name: 'Fantasia No. 3 In D Minor K. 397 (385g)', recordingMusician: 'Kassia' },
-            { name: 'Serenade No. 10 For Winds In B Flat Major 3rd Movement K. 361 (370a)', recordingMusician: 'Academy Of St. Martin In The Fields Orchestra' },
-            { name: 'Requiem In D Minor K. 626, I. Introitus', recordingMusician: 'Academy Of St. Martin In The Fields Choir' },
-            { name: 'Requiem In D Minor K. 626, III. Lacrimosa', recordingMusician: 'RIAS Chamber Choir' },
-            { name: 'Requiem In D Minor K. 626, III. Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser' }
+            { name: 'Serenade No. 10 For Winds In B Flat Major K. 361 (370a) III.', recordingMusician: 'Academy Of St. Martin In The Fields Orchestra' },
+            { name: 'Requiem In D Minor K. 626 I. Introitus', recordingMusician: 'Academy Of St. Martin In The Fields Choir' },
+            { name: 'Requiem In D Minor K. 626 III. Lacrimosa', recordingMusician: 'RIAS Chamber Choir' },
+            { name: 'Requiem In D Minor K. 626 III. Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser' }
         ]
     },
     {
