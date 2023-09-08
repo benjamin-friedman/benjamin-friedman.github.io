@@ -135,8 +135,8 @@ export const musiciansArray = [
         name: 'Bach',
         songs: [
             { name: 'Toccata And Fugue In D Minor BWV 565', recordingMusician: 'Rousseau' },
-            { name: 'Orchestral Suite No. 3 In D Major 2nd Movement BWV 1068 (Air On The G String)', recordingMusician: 'Stjepan Hauser', contributors: 'August Wilhelmj' },
-            { name: 'Cello Suite No. 1 In G Major BWV 1007, I. Prelude', recordingMusician: 'Yo-Yo Ma' }
+            { name: 'Orchestral Suite No. 3 In D Major BWV 1068 II. (Air On The G String)', recordingMusician: 'Stjepan Hauser', contributors: 'August Wilhelmj' },
+            { name: 'Cello Suite No. 1 In G Major BWV 1007 I. Prelude', recordingMusician: 'Yo-Yo Ma' }
         ]
     },
     {
@@ -150,9 +150,9 @@ export const musiciansArray = [
         id: 'saint-saens',
         name: 'Saint-Saens',
         songs: [
-            { name: 'The Carnival of the Animals Movement 13 (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser' },
-            { name: 'The Carnival of the Animals Movement 13 (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott and Yo-Yo Ma' },
-            { name: 'Cello Concerto No. 1 In A Minor Op. 33', recordingMusician: 'Andrew Shulman' }
+            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser' },
+            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott and Yo-Yo Ma' },
+            { name: 'Cello Concerto No. 1 In A Minor Op. 33 I. and III.', recordingMusician: 'Andrew Shulman' }
         ]
     },
     {
@@ -173,7 +173,7 @@ export const musiciansArray = [
         name: 'Debussy',
         songs: [
             { name: 'Reverie', recordingMusician: 'Rousseau' },
-            { name: 'Suite bergamasque 3rd Movement L. 75 (Clair de lune)', recordingMusician: 'Rousseau' },
+            { name: 'Suite bergamasque L. 75 III. (Clair de lune)', recordingMusician: 'Rousseau' },
             { name: 'Arabesque No. 1 L. 66', recordingMusician: 'Rousseau' }
         ]
     },
@@ -189,17 +189,17 @@ export const musiciansArray = [
         id: 'elgar',
         name: 'Elgar',
         songs: [
-            { name: 'Cello Concerto In E Minor Op. 85, I. Adagio - Moderato', recordingMusician: 'Sophie Kauer' }
+            { name: 'Cello Concerto In E Minor Op. 85 I.', recordingMusician: 'Sophie Kauer' }
         ]
     },
     {
         id: 'rachmaninoff',
         name: 'Rachmaninoff',
         songs: [
-            { name: 'Piano Concerto No. 2 In C Minor 1st Movement Op. 18', recordingMusician: 'Anna Fedorova' },
-            { name: 'Piano Concerto No. 2 In C Minor 2nd Movement Op. 18', recordingMusician: 'Anna Fedorova' },
-            { name: 'Piano Concerto No. 2 In C Minor 3rd Movement Op. 18', recordingMusician: 'Anna Fedorova' },
-            { name: 'Piano Concerto No. 2 In C Minor 2nd Movement Op. 18 - Cello', recordingMusician: 'Stjepan Hauser' },
+            { name: 'Piano Concerto No. 2 In C Minor Op. 18 I.', recordingMusician: 'Anna Fedorova' },
+            { name: 'Piano Concerto No. 2 In C Minor Op. 18 II.', recordingMusician: 'Anna Fedorova' },
+            { name: 'Piano Concerto No. 2 In C Minor Op. 18 III.', recordingMusician: 'Anna Fedorova' },
+            { name: 'Piano Concerto No. 2 In C Minor Op. 18 II. - Cello', recordingMusician: 'Stjepan Hauser' },
             { name: 'Moment Musicaux In E Minor Op. 16 No. 4', recordingMusician: 'Nikolai Lugansky' }
         ]
     },
@@ -243,7 +243,7 @@ export const musiciansArray = [
         id: 'mussorgsky',
         name: 'Mussorgsky',
         songs: [
-            { name: 'Pictures at an Exhibition No. 2, Il. vecchio castello', recordingMusician: 'Metamorphose String Orchestra & Pavel Lyubomudrov' },
+            { name: 'Pictures at an Exhibition No. 2 II. vecchio castello', recordingMusician: 'Metamorphose String Orchestra & Pavel Lyubomudrov' },
         ]
     },
     {
