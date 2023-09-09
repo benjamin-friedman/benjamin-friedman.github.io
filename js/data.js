@@ -1361,7 +1361,7 @@ export const poems = {
         }
     ],
     idx: 0,
-    displayTime: 10000,             // time to display the poem
+    displayTime: 60000,             // time to display the poem
     transitionTime: 2500,           // time where opacity is fading
     opacityChangeIntervalTime: 100  // interval time between 1 opacity change
 }
