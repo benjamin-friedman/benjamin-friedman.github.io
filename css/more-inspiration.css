@@ -1,0 +1,19 @@
+#poems-container {
+    color: white;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#poem-author {
+    margin-bottom: 30px;
+}
+
+
+.poem-stanza {
+    margin-bottom: 40px;
+}
+
+.poem-stanza p {
+    margin: 0;
+}

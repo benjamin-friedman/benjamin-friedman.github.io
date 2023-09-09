@@ -1153,6 +1153,8 @@ export const musiciansArray = [
 ];
 
 
+
+
 export const quotes = {
     quoteAndAuthor: [
         { 
@@ -1185,3 +1187,181 @@ export const quotes = {
     transitionTime: 2500,           // time where opacity is fading
     opacityChangeIntervalTime: 100  // interval time between 1 opacity change
 };
+
+
+
+
+
+export const poems = {
+    poemAndAuthor: [
+        {
+            title: 'Invictus',
+            author: 'William Ernest Henley',
+            poem: [
+                [
+                    'Out of the night that covers me,',
+                    'Black as the pit from pole to pole,',
+                    'I thank whatever gods may be',
+                    'For my unconquerable soul.'
+                ],
+                [
+                    'In the fell clutch of circumstance,',
+                    'I have not winced nor cried aloud.',
+                    'Under the bludgeonings of chance',
+                    'My head is bloody, but unbowed.'
+                ],
+                [
+                    'Beyond this place of wrath and tears',
+                    'Looms but the Horror of the shade,',
+                    'And yet the menace of the years',
+                    'Finds, and shall find, me unafraid.'
+                ],
+                [
+                    'It matters not how strait the gate,',
+                    'How charged with punishments the scroll,',
+                    'I am the master of my fate,',
+                    'I am the captain of my soul.'
+                ]
+            ]
+        },
+        {
+            title: 'Do Not Go Gentle Into That Good Night',
+            author: 'Dylan Thomas',
+            poem: [
+                [
+                    'Do not go gentle into that good night,',
+                    'Old age should burn and rave at close of day;',
+                    'Rage, rage against the dying of the light.'
+                ],
+                [
+                    'Though wise men at their end know dark is right,',
+                    'Because their words had forked no lightning they',
+                    'Do not go gentle into that good night.'
+                ],
+                [
+                    'Good men, the last wave by, crying how bright',
+                    'Their frail deeds might have danced in a green bay,',
+                    'Rage, rage against the dying of the light.'
+                ],
+                [
+                    'Wild men who caught and sang the sun in flight,',
+                    'And learn, too late, they grieved it on its way,',
+                    'Do not go gentle into that good night.'
+                ],
+                [
+                    'Grave men, near death, who see with blinding sight',
+                    'Blind eyes could blaze like meteors and be gay,',
+                    'Rage, rage against the dying of the light.'
+                ],
+                [
+                    'And you, my father, there on the sad height,',
+                    'Curse, bless, me now with your fierce tears, I pray.',
+                    'Do not go gentle into that good night.',
+                    'Rage, rage against the dying of the light.'
+                ]
+            ]
+        },
+        {
+            title: 'The Charge of the Light Brigade',
+            author: 'Alfred, Lord Tennyson',
+            poem: [
+                [
+                    'Half a league, half a league,',
+                    'Half a league onward,',
+                    'All in the valley of Death',
+                    'Rode the six hundred.',
+                    '“Forward, the Light Brigade!',
+                    'Charge for the guns!” he said.',
+                    'Into the valley of Death',
+                    'Rode the six hundred.'
+                ],
+                [
+                    '“Forward, the Light Brigade!”',
+                    'Was there a man dismayed?',
+                    'Not though the soldier knew',
+                    'Someone had blundered.',
+                    'Theirs not to make reply,',
+                    'Theirs not to reason why,',
+                    'Theirs but to do and die.',
+                    'Into the valley of Death',
+                    'Rode the six hundred.'
+                ],
+                [
+                    'Cannon to right of them,',
+                    'Cannon to left of them,',
+                    'Cannon in front of them',
+                    'Volleyed and thundered;',
+                    'Stormed at with shot and shell,',
+                    'Boldly they rode and well,',
+                    'Into the jaws of Death,',
+                    'Into the mouth of hell',
+                    'Rode the six hundred.'
+                ],
+                [
+                    'Flashed all their sabres bare,',
+                    'Flashed as they turned in air',
+                   ' Sabring the gunners there,',
+                    'Charging an army, while',
+                    'All the world wondered.',
+                    'Plunged in the battery-smoke',
+                    'Right through the line they broke;',
+                   ' Cossack and Russian',
+                    'Reeled from the sabre stroke',
+                    'Shattered and sundered.',
+                    'Then they rode back, but not',
+                    'Not the six hundred.'
+                ],
+                [
+                    'Cannon to right of them,',
+                    'Cannon to left of them,',
+                    'Cannon behind them',
+                    'Volleyed and thundered;',
+                    'Stormed at with shot and shell,',
+                    'While horse and hero fell.',
+                    'They that had fought so well',
+                    'Came through the jaws of Death,',
+                    'Back from the mouth of hell,',
+                    'All that was left of them,',
+                    'Left of six hundred.'
+                ],
+                [
+                    'When can their glory fade?',
+                    'O the wild charge they made!',
+                    'All the world wondered.',
+                    'Honour the charge they made!',
+                    'Honour the Light Brigade,',
+                    'Noble six hundred!'
+                ]
+            ]
+        },
+        {
+            title: 'A Tale Of Two Cities',
+            author: 'Charles Dickens',
+            poem: [
+                [
+                    'I see a beautiful city, and a brilliant people, rising from this abyss.',
+                    "I see the lives for which I lay down my life, peaceful, useful, prosperous, and happy.",
+                    'I see that I hold a sanctuary in their hearts, and in the hearts of their descendants, generations hence.',
+                    'It is a far, far better thing that I do, than I have ever done;',
+                    'It is a far, far better rest that I go to, than I have ever known.'
+                ]
+            ]
+        },
+        {
+            title: 'Once More Into The Fray',
+            author: 'Joe Carnahan',
+            poem: [
+                [
+                    'Once more into the fray...',
+                    "Into the last good fight I'll ever know...",
+                    'Live and die on this day...',
+                    'Live and die on this day...'
+                ]
+            ]
+        }
+    ],
+    idx: 0,
+    displayTime: 10000,             // time to display the poem
+    transitionTime: 2500,           // time where opacity is fading
+    opacityChangeIntervalTime: 100  // interval time between 1 opacity change
+}
