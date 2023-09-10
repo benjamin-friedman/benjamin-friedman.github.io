@@ -19,8 +19,7 @@ const cycleOpacityHelper = (state) => {
         if (state.opacity <= 0.1) { // must be <= and not === b/c javascript floating point math is not good
             state.isDecreasing = false;
         }
-    }
-    else {
+    } else {
         welcomeContainer.style.opacity = state.opacity + 0.025;
         state.opacity += 0.025;
         if (state.opacity >= 1) { // must be >= and not === b/c javascript floating point math is not good
@@ -44,8 +43,6 @@ document.addEventListener('mouseover', () => {
                 // play was not successful, would have to move mouse again
             })
         }
-
-        
     }
 });
 

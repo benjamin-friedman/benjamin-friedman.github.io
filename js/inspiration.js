@@ -17,7 +17,6 @@ import { musiciansArray, quotes } from './data.js';
 */
 const musiciansObject = {};
 
-
 // tracks the current song being played
 const audioWrapper = {
     audio: new Audio()
@@ -150,6 +149,7 @@ const initializeInspirationPage = (musiciansArray) => {
     }
 
 
+    // visibility
     document.getElementById('discussion-container').style.visibility= 'visible';
 
 
@@ -200,9 +200,8 @@ const cycleQuotes = (quotes, timerWrapper) => {
     setInterval(() => {
         if (timerWrapper.timePassed === quotes.displayTime - quotes.transitionTime) {
             cycleQuotesHelperTransition(quotes);
-            timerWrapper.timePassed += 100
-        }
-        else if (timerWrapper.timePassed === quotes.displayTime) {
+            timerWrapper.timePassed += 100;
+        } else if (timerWrapper.timePassed === quotes.displayTime) {
             cycleQuotesHelperChangeQuote(quotes);
             timerWrapper.timePassed = 0;
         } else {
@@ -237,9 +236,7 @@ const cycleQuotesHelperTransition = (quotes) => {
                 quote.style.opacity = 1;
                 author.style.opacity = 1;
             }, (i + 1) * quotes.opacityChangeIntervalTime);
-            
         }
-
     }  
 }
 
@@ -275,10 +272,10 @@ const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => 
     const song = musicians[musician].songs[musicians[musician].idx];
     document.getElementById(`${musician}-song`).innerHTML = song;
 
-    const str = `../songs/${musician}/${song}.mp3`;
+    const songFilePath = `../songs/${musician}/${song}.mp3`;
     musicians[musician].idx = (musicians[musician].idx === musicians[musician].songs.length - 1) ? 0 : musicians[musician].idx + 1;
     audioWrapper.audio.pause();
-    audioWrapper.audio = new Audio(str);
+    audioWrapper.audio = new Audio(songFilePath);
     const audioPromise = audioWrapper.audio.play();
     // this is here because of the following error, sometimes play() would fail and an error showed up in the console
     // https://stackoverflow.com/questions/58846042/getting-play-failed-because-the-user-didnt-interact-with-the-document-first
@@ -328,8 +325,7 @@ const cycleSongAndMusicianOpacityHelper = (musician, stateTitle, stateSong) => {
         if (stateTitle.opacity <= 0.1) { // must be <= and not === b/c javascript floating point math is not good
             stateTitle.isDecreasing = false;
         }
-    }
-    else {
+    } else {
         title.style.opacity = stateTitle.opacity + 0.025;
         stateTitle.opacity += 0.025;
         if (stateTitle.opacity >= 1) { // must be >= and not === b/c javascript floating point math is not good
@@ -344,8 +340,7 @@ const cycleSongAndMusicianOpacityHelper = (musician, stateTitle, stateSong) => {
         if (stateSong.opacity <= 0.1) { // must be <= and not === b/c javascript floating point math is not good
             stateSong.isDecreasing = false;
         }
-    }
-    else {
+    } else {
         song.style.opacity = stateSong.opacity + 0.025;
         stateSong.opacity += 0.025;
         if (stateSong.opacity >= 1) { // must be >= and not === b/c javascript floating point math is not good

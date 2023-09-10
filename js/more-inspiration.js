@@ -16,8 +16,8 @@ const timerWrapper = {
 
 /********** function definitions **********/
 const initializeWritingsPage = () => {
-    // Even though opacity shouldwriting default to 1 upon loading, the value is being recognized as 0 even though it's visible on the screen.
-    // Unsure why this is. Regardless, this causes the opacity to immediately go to 0 during the first time cycling the writingss so it has to be to 1 here.
+    // Even though opacity should default to 1 upon loading, the value is being recognized as 0 even though it's visible on the screen.
+    // Unsure why this is. Regardless, this causes the opacity to immediately go to 0 during the first time cycling the writings so it has to be to 1 here.
     const writingTitle = document.getElementById('writing-title');
     const writingAuthor = document.getElementById('writing-author');
     const writing = document.getElementById('writing');
@@ -32,33 +32,21 @@ const cycleWritings = (writings, timerWrapper, audioWrapper) => {
     timerWrapper.timePassed = 0;
     let transitionHasBeenInitiated = false;
     setInterval(() => {
-        const currentWritingsIdx = writings.idx === 0 ? writings.writingAndAuthor.length - 1 : writings.idx - 1;
-        if (writings.writingAndAuthor[currentWritingsIdx].audioExists) {
-            if (timerWrapper.timePassed >= (writings.displayTime - writings.transitionTime) && 
-                timerWrapper.timePassed < writings.displayTime &&
-                !transitionHasBeenInitiated) {
-                transitionHasBeenInitiated = true;
-                cycleWritingsHelperTransition(writings);
-                timerWrapper.timePassed += 100;
-            } else if (timerWrapper.timePassed >= writings.displayTime) {
-                cycleWritingsHelperChangeWriting(writings, audioWrapper);
-                transitionHasBeenInitiated = false;
-                timerWrapper.timePassed = 0;
-            } else {
-                timerWrapper.timePassed += 100;
-            }      
+        if (
+            timerWrapper.timePassed >= (writings.displayTime - writings.transitionTime) && 
+            timerWrapper.timePassed < writings.displayTime &&
+            !transitionHasBeenInitiated
+        ) {
+            transitionHasBeenInitiated = true;
+            cycleWritingsHelperTransition(writings);
+            timerWrapper.timePassed += 100;
+        } else if (timerWrapper.timePassed >= writings.displayTime) {
+            transitionHasBeenInitiated = false;
+            cycleWritingsHelperChangeWriting(writings, audioWrapper);
+            timerWrapper.timePassed = 0;
         } else {
-            if (timerWrapper.timePassed === writings.displayTime - writings.transitionTime) {
-                cycleWritingsHelperTransition(writings);
-                timerWrapper.timePassed += 100;
-            } else if (timerWrapper.timePassed === writings.displayTime) {
-                cycleWritingsHelperChangeWriting(writings, audioWrapper);
-                timerWrapper.timePassed = 0;
-            } else {
-                timerWrapper.timePassed += 100;
-            }
-        }
-
+            timerWrapper.timePassed += 100;
+        }      
     }, 100);
 }
 
@@ -121,15 +109,13 @@ const cycleWritingsHelperChangeWriting = (writings, audioWrapper) => {
             newHTML += '</div>';
         } 
     }
-
     writing.insertAdjacentHTML('beforeend', newHTML);
-
 
     // writing
     if (writings.writingAndAuthor[writings.idx].audioExists) {
         audioWrapper.audio.pause();
-        const str = `../writings/${writings.writingAndAuthor[writings.idx].title}.mp3`;
-        audioWrapper.audio = new Audio(str);
+        const writingFilePath = `../writings/${writings.writingAndAuthor[writings.idx].title}.mp3`;
+        audioWrapper.audio = new Audio(writingFilePath);
         const audioPromise = audioWrapper.audio.play();
         // this is here because of the following error, sometimes play() would fail and an error showed up in the console
         // https://stackoverflow.com/questions/58846042/getting-play-failed-because-the-user-didnt-interact-with-the-document-first
@@ -168,7 +154,6 @@ const cycleWritingsHelperTransition = (writings) => {
                 writingAuthor.style.opacity = 1;
                 writing.style.opacity = 1;
             }, (i + 1) * writings.opacityChangeIntervalTime);
-            
         }
     }  
 }
