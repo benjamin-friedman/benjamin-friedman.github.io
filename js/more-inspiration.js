@@ -112,26 +112,23 @@ const cycleWritingsHelperChangeWriting = (writings, audioWrapper) => {
     writing.insertAdjacentHTML('beforeend', newHTML);
 
     // writing
-    if (writings.writingAndAuthor[writings.idx].audioExists) {
-        audioWrapper.audio.pause();
-        const writingFilePath = `../writings/${writings.writingAndAuthor[writings.idx].title}.mp3`;
-        audioWrapper.audio = new Audio(writingFilePath);
-        const audioPromise = audioWrapper.audio.play();
-        // this is here because of the following error, sometimes play() would fail and an error showed up in the console
-        // https://stackoverflow.com/questions/58846042/getting-play-failed-because-the-user-didnt-interact-with-the-document-first
-        if (audioPromise !== undefined) {
-            audioPromise.then(() => {
-                // play was successful
-                writings.displayTime = audioWrapper.audio.duration * 1000;
-                writings.idx = (writings.idx < writings.writingAndAuthor.length - 1) ? writings.idx + 1 : 0;
-            }).catch(e => {
-                // play was not successful
-            });
-        }
-    } else {
-        writings.displayTime = writings.displayTimeDefault;
-        writings.idx = (writings.idx < writings.writingAndAuthor.length - 1) ? writings.idx + 1 : 0;
+    audioWrapper.audio.pause();
+    const writingFilePath = `../writings/${writings.writingAndAuthor[writings.idx].title}.mp3`;
+    audioWrapper.audio = new Audio(writingFilePath);
+    const audioPromise = audioWrapper.audio.play();
+    // this is here because of the following error, sometimes play() would fail and an error showed up in the console
+    // https://stackoverflow.com/questions/58846042/getting-play-failed-because-the-user-didnt-interact-with-the-document-first
+    if (audioPromise !== undefined) {
+        audioPromise.then(() => {
+            // play was successful
+            writings.displayTime = audioWrapper.audio.duration * 1000;
+            writings.idx = (writings.idx < writings.writingAndAuthor.length - 1) ? writings.idx + 1 : 0;
+
+        }).catch(e => {
+            // play was not successful
+        });
     }
+
 }
 
 

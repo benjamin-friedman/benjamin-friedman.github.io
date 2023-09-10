@@ -1170,13 +1170,11 @@ export const quotes = {
 
 
 
-
 export const writings = {
     writingAndAuthor: [
         {
             title: 'Invictus',
             author: 'William Ernest Henley',
-            audioExists: true,
             writing: [
                 [
                     'Out of the night that covers me,',
@@ -1207,7 +1205,6 @@ export const writings = {
         {
             title: 'Do not go gentle into that good night',
             author: 'Dylan Thomas',
-            audioExists: true,
             writing: [
                 [
                     'Do not go gentle into that good night,',
@@ -1245,7 +1242,6 @@ export const writings = {
         {
             title: 'The Charge of the Light Brigade',
             author: 'Alfred, Lord Tennyson',
-            audioExists: true,
             writing: [
                 [
                     'Half a league, half a league,',
@@ -1319,7 +1315,6 @@ export const writings = {
         {
             title: 'A Tale of Two Cities',
             author: 'Charles Dickens',
-            audioExists: true,
             writing: [
                 [
                     'I see a beautiful city and a brilliant people rising from this abyss.',
@@ -1333,7 +1328,6 @@ export const writings = {
         {
             title: 'Once More Into the Fray',
             author: 'Joe Carnahan',
-            audioExists: true,
             writing: [
                 [
                     'Once more into the fray...',
@@ -1346,7 +1340,6 @@ export const writings = {
         {
             title: 'The Final Speech',
             author: 'The Great Dictator',
-            audioExists: true,
             writing: [
                 [
                     "Soldiers! don't give yourselves to brutes -",
@@ -1377,7 +1370,6 @@ export const writings = {
         }
     ],
     idx: 0,
-    displayTimeDefault: 60000,      // default time if audio is not available
     displayTime: 0,                 // time to display the writing
     transitionTime: 2500,           // time where opacity is fading
     opacityChangeIntervalTime: 100  // interval time between 1 opacity change
