@@ -1370,7 +1370,8 @@ export const writings = {
         }
     ],
     idx: 0,
-    displayTime: 0,                 // time to display the writing
+    displayTimeDefault: 1000000,    // see comment below - used as a temporary value until the promise has resolved
+    displayTime: 0,                 // the actual display time is calculated at runtime based on the audio's duration but enough time needs to be given initially for the audio promise to resolve
     transitionTime: 2500,           // time where opacity is fading
     opacityChangeIntervalTime: 100  // interval time between 1 opacity change
 }

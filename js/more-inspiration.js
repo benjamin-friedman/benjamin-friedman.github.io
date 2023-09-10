@@ -113,6 +113,7 @@ const cycleWritingsHelperChangeWriting = (writings, audioWrapper) => {
 
     // writing
     audioWrapper.audio.pause();
+    writings.displayTime = writings.displayTimeDefault; // set to some large default value, it takes some time for the audioPromise to complete and will cause an error if this isn't done
     const writingFilePath = `../writings/${writings.writingAndAuthor[writings.idx].title}.mp3`;
     audioWrapper.audio = new Audio(writingFilePath);
     const audioPromise = audioWrapper.audio.play();
@@ -123,7 +124,6 @@ const cycleWritingsHelperChangeWriting = (writings, audioWrapper) => {
             // play was successful
             writings.displayTime = audioWrapper.audio.duration * 1000;
             writings.idx = (writings.idx < writings.writingAndAuthor.length - 1) ? writings.idx + 1 : 0;
-
         }).catch(e => {
             // play was not successful
         });
