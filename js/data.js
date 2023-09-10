@@ -1128,28 +1128,7 @@ export const musiciansArray = [
         songs: [
             { name: 'Lord Of The Dance' }
         ]
-    },
-    {
-        id: 'dylan-thomas',
-        name: 'Dylan Thomas',
-        songs: [
-            { name: 'Do Not Go Gentle Into That Good Night' }
-        ]
-    },
-    {
-        id: 'william-ernest-henley',
-        name: 'William Ernest Henley',
-        songs: [
-            { name: 'Invictus' }
-        ]
-    },
-    {
-        id: 'charles-dickens',
-        name: 'Charles Dickens',
-        songs: [
-            { name: 'A Tale Of Two Cities' }
-        ]
-    },
+    }
 ];
 
 
@@ -1192,12 +1171,13 @@ export const quotes = {
 
 
 
-export const poems = {
-    poemAndAuthor: [
+export const writings = {
+    writingAndAuthor: [
         {
             title: 'Invictus',
             author: 'William Ernest Henley',
-            poem: [
+            audioExists: true,
+            writing: [
                 [
                     'Out of the night that covers me,',
                     'Black as the pit from pole to pole,',
@@ -1227,7 +1207,8 @@ export const poems = {
         {
             title: 'Do Not Go Gentle Into That Good Night',
             author: 'Dylan Thomas',
-            poem: [
+            audioExists: true,
+            writing: [
                 [
                     'Do not go gentle into that good night,',
                     'Old age should burn and rave at close of day;',
@@ -1264,7 +1245,8 @@ export const poems = {
         {
             title: 'The Charge of the Light Brigade',
             author: 'Alfred, Lord Tennyson',
-            poem: [
+            audioExists: true,
+            writing: [
                 [
                     'Half a league, half a league,',
                     'Half a league onward,',
@@ -1337,7 +1319,8 @@ export const poems = {
         {
             title: 'A Tale Of Two Cities',
             author: 'Charles Dickens',
-            poem: [
+            audioExists: true,
+            writing: [
                 [
                     'I see a beautiful city and a brilliant people rising from this abyss.',
                     "I see the lives for which I lay down my life, peaceful, useful, prosperous, and happy.",
@@ -1350,7 +1333,8 @@ export const poems = {
         {
             title: 'Once More Into The Fray',
             author: 'Joe Carnahan',
-            poem: [
+            audioExists: true,
+            writing: [
                 [
                     'Once more into the fray...',
                     "Into the last good fight I'll ever know...",
@@ -1362,7 +1346,8 @@ export const poems = {
         {
             title: 'The Final Speech',
             author: 'The Great Dictator',
-            poem: [
+            audioExists: true,
+            writing: [
                 [
                     "Soldiers! don't give yourselves to brutes -",
                     "men who despise you - enslave you - who regiment your lives -",
@@ -1393,7 +1378,8 @@ export const poems = {
         }
     ],
     idx: 0,
-    displayTime: 60000,             // time to display the poem
+    displayTimeDefault: 60000,
+    displayTime: 0,             // time to display the poem
     transitionTime: 2500,           // time where opacity is fading
     opacityChangeIntervalTime: 100  // interval time between 1 opacity change
 }

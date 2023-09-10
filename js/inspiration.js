@@ -286,7 +286,7 @@ const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => 
         audioPromise.then(() => {
             // play was successful
         }).catch(e => {
-            // play was not successful, would have to move mouse again
+            // play was not successful
         });
     }
 }

@@ -1,7 +1,12 @@
-import { poems } from './data.js';
+import { writings } from './data.js';
 
 
-// tracks the time passed for cycling poems
+// tracks the current writing being played
+const audioWrapper = {
+    audio: new Audio()
+};
+
+// tracks the time passed for cycling writingss
 const timerWrapper = {
     timePassed: 0
 };
@@ -10,85 +15,104 @@ const timerWrapper = {
 
 
 /********** function definitions **********/
-const initializePoemsPage = () => {
-    // Even though opacity should default to 1 upon loading, the value is being recognized as 0 even though it's visible on the screen.
-    // Unsure why this is. Regardless, this causes the opacity to immediately go to 0 during the first time cycling the poems so it has to be to 1 here.
-    const poemTitle = document.getElementById('poem-title');
-    const poemAuthor = document.getElementById('poem-author');
-    const poem = document.getElementById('poem');
-    poemTitle.style.opacity = 1;
-    poemAuthor.style.opacity = 1;
-    poem.style.opacity = 1;
+const initializeWritingsPage = () => {
+    // Even though opacity shouldwriting default to 1 upon loading, the value is being recognized as 0 even though it's visible on the screen.
+    // Unsure why this is. Regardless, this causes the opacity to immediately go to 0 during the first time cycling the writingss so it has to be to 1 here.
+    const writingTitle = document.getElementById('writing-title');
+    const writingAuthor = document.getElementById('writing-author');
+    const writing = document.getElementById('writing');
+    writingTitle.style.opacity = 1;
+    writingAuthor.style.opacity = 1;
+    writing.style.opacity = 1;
 }
 
 
-const cyclePoems = (poems, timerWrapper) => {
-    cyclePoemsHelperChangePoem(poems);
+const cycleWritings = (writings, timerWrapper, audioWrapper) => {
+    cycleWritingsHelperChangeWriting(writings, audioWrapper);
     timerWrapper.timePassed = 0;
+    let transitionHasBeenInitiated = false;
     setInterval(() => {
-        if (timerWrapper.timePassed === poems.displayTime - poems.transitionTime) {
-            cyclePoemsHelperTransition(poems);
-            timerWrapper.timePassed += 100
-        }
-        else if (timerWrapper.timePassed === poems.displayTime) {
-            cyclePoemsHelperChangePoem(poems);
-            timerWrapper.timePassed = 0;
+        const currentWritingsIdx = writings.idx === 0 ? writings.writingAndAuthor.length - 1 : writings.idx - 1;
+        if (writings.writingAndAuthor[currentWritingsIdx].audioExists) {
+            if (timerWrapper.timePassed >= (writings.displayTime - writings.transitionTime) && 
+                timerWrapper.timePassed < writings.displayTime &&
+                !transitionHasBeenInitiated) {
+                transitionHasBeenInitiated = true;
+                cycleWritingsHelperTransition(writings);
+                timerWrapper.timePassed += 100;
+            } else if (timerWrapper.timePassed >= writings.displayTime) {
+                cycleWritingsHelperChangeWriting(writings, audioWrapper);
+                transitionHasBeenInitiated = false;
+                timerWrapper.timePassed = 0;
+            } else {
+                timerWrapper.timePassed += 100;
+            }      
         } else {
-            timerWrapper.timePassed += 100;
+            if (timerWrapper.timePassed === writings.displayTime - writings.transitionTime) {
+                cycleWritingsHelperTransition(writings);
+                timerWrapper.timePassed += 100;
+            } else if (timerWrapper.timePassed === writings.displayTime) {
+                cycleWritingsHelperChangeWriting(writings, audioWrapper);
+                timerWrapper.timePassed = 0;
+            } else {
+                timerWrapper.timePassed += 100;
+            }
         }
+
     }, 100);
 }
 
 
-const cyclePoemsHelperChangePoem = (poems) => {
-    const poemTitle = document.getElementById('poem-title');
-    const poemAuthor = document.getElementById('poem-author');
-    const poem = document.getElementById('poem');
+const cycleWritingsHelperChangeWriting = (writings, audioWrapper) => {
+    const writingTitle = document.getElementById('writing-title');
+    const writingAuthor = document.getElementById('writing-author');
+    const writing = document.getElementById('writing');
     let newHTML = '';
 
-    poemTitle.innerHTML = '';
-    poemTitle.insertAdjacentHTML('beforeend', `<h3>${poems.poemAndAuthor[poems.idx].title}</h3>`);
-    poemAuthor.innerHTML = '';
-    poemAuthor.insertAdjacentHTML('beforeend', `<h5>${poems.poemAndAuthor[poems.idx].author}</h5>`);
-    poem.innerHTML = '';
+    writingTitle.innerHTML = '';
+    writingTitle.insertAdjacentHTML('beforeend', `<h3>${writings.writingAndAuthor[writings.idx].title}</h3>`);
+    writingAuthor.innerHTML = '';
+    writingAuthor.insertAdjacentHTML('beforeend', `<h5>${writings.writingAndAuthor[writings.idx].author}</h5>`);
+    writing.innerHTML = '';
 
-    const stanzas = poems.poemAndAuthor[poems.idx].poem.length;
+    const sections = writings.writingAndAuthor[writings.idx].writing.length;
+    const sectionsDiv2 = Math.floor(sections / 2);
 
-    // even number of stanzas
-    if (stanzas % 2 === 0) {
-        for (let i = 0; i < stanzas / 2; ++i) {
-            newHTML += '<div class="row poem-stanza">';
+    // even number of sections
+    if (sections % 2 === 0) {
+        for (let i = 0; i < sectionsDiv2; ++i) {
+            newHTML += '<div class="row writing-section">';
 
             newHTML += '<div class="col">';
-            for (let j = 0; j < poems.poemAndAuthor[poems.idx].poem[i].length; ++j) {
-                newHTML += `<p>${poems.poemAndAuthor[poems.idx].poem[i][j]}</p>`;
+            for (let j = 0; j < writings.writingAndAuthor[writings.idx].writing[i].length; ++j) {
+                newHTML += `<p>${writings.writingAndAuthor[writings.idx].writing[i][j]}</p>`;
             }
             newHTML += '</div>';
 
             newHTML += '<div class="col">';
-            for (let j = 0; j < poems.poemAndAuthor[poems.idx].poem[i + stanzas / 2].length; ++j) {
-                newHTML += `<p>${poems.poemAndAuthor[poems.idx].poem[i + stanzas / 2][j]}</p>`;
+            for (let j = 0; j < writings.writingAndAuthor[writings.idx].writing[i + sectionsDiv2].length; ++j) {
+                newHTML += `<p>${writings.writingAndAuthor[writings.idx].writing[i + sectionsDiv2][j]}</p>`;
             }
             newHTML += '</div>'
 
             newHTML += '</div>';
         }
-    } else { // odd number of stanzas
-        for (let i = 0; i < Math.floor(stanzas / 2) + 1; ++i) {
-            newHTML += '<div class="row poem-stanza">';
+    } else { // odd number of sections
+        for (let i = 0; i < sectionsDiv2 + 1; ++i) {
+            newHTML += '<div class="row writing-section">';
 
             newHTML += '<div class="col">';
-            for (let j = 0; j < poems.poemAndAuthor[poems.idx].poem[i].length; ++j) {
-                newHTML += `<p>${poems.poemAndAuthor[poems.idx].poem[i][j]}</p>`;
+            for (let j = 0; j < writings.writingAndAuthor[writings.idx].writing[i].length; ++j) {
+                newHTML += `<p>${writings.writingAndAuthor[writings.idx].writing[i][j]}</p>`;
             }
             newHTML += '</div>';
 
-            // 1 stanza edge case - don't add second column so it remains centered
-            if (stanzas !== 1) {
+            // 1 section edge case - don't add second column so it remains centered
+            if (sections !== 1) {
                 newHTML += '<div class="col">';
-                if (i < Math.floor(stanzas / 2)) {
-                    for (let j = 0; j < poems.poemAndAuthor[poems.idx].poem[i + Math.floor(stanzas / 2)].length; ++j) {
-                        newHTML += `<p>${poems.poemAndAuthor[poems.idx].poem[i + Math.floor(stanzas / 2)][j]}</p>`;
+                if (i < sectionsDiv2) {
+                    for (let j = 0; j < writings.writingAndAuthor[writings.idx].writing[i + sectionsDiv2].length; ++j) {
+                        newHTML += `<p>${writings.writingAndAuthor[writings.idx].writing[i + sectionsDiv2][j]}</p>`;
                     }
                 }
                 newHTML += '</div>';
@@ -98,31 +122,52 @@ const cyclePoemsHelperChangePoem = (poems) => {
         } 
     }
 
-    poem.insertAdjacentHTML('beforeend', newHTML);
+    writing.insertAdjacentHTML('beforeend', newHTML);
 
-    poems.idx = (poems.idx < poems.poemAndAuthor.length - 1) ? poems.idx + 1 : 0;
+
+    // writing
+    if (writings.writingAndAuthor[writings.idx].audioExists) {
+        audioWrapper.audio.pause();
+        const str = `../writings/${writings.writingAndAuthor[writings.idx].title}.mp3`;
+        audioWrapper.audio = new Audio(str);
+        const audioPromise = audioWrapper.audio.play();
+        // this is here because of the following error, sometimes play() would fail and an error showed up in the console
+        // https://stackoverflow.com/questions/58846042/getting-play-failed-because-the-user-didnt-interact-with-the-document-first
+        if (audioPromise !== undefined) {
+            audioPromise.then(() => {
+                // play was successful
+                writings.displayTime = audioWrapper.audio.duration * 1000;
+            }).catch(e => {
+                // play was not successful
+            });
+        }
+    } else {
+        writings.displayTime = writings.displayTimeDefault;
+    }
+
+    writings.idx = (writings.idx < writings.writingAndAuthor.length - 1) ? writings.idx + 1 : 0;
 }
 
 
-const cyclePoemsHelperTransition = (poems) => {
-    const poemTitle = document.getElementById('poem-title');
-    const poemAuthor = document.getElementById('poem-author');
-    const poem = document.getElementById('poem');
+const cycleWritingsHelperTransition = (writings) => {
+    const writingTitle = document.getElementById('writing-title');
+    const writingAuthor = document.getElementById('writing-author');
+    const writing = document.getElementById('writing');
 
-    const opacityChangesCount = poems.transitionTime / poems.opacityChangeIntervalTime;
+    const opacityChangesCount = writings.transitionTime / writings.opacityChangeIntervalTime;
     for (let i = 0; i < opacityChangesCount; ++i) {
         if (i < opacityChangesCount - 1) {
             setTimeout(() => {
-                poemTitle.style.opacity = (poemTitle.style.opacity - (1 / (opacityChangesCount - 1)) < 0) ? 0 : poemTitle.style.opacity - (1 / (opacityChangesCount - 1));
-                poemAuthor.style.opacity = (poemAuthor.style.opacity - (1 / (opacityChangesCount - 1)) < 0) ? 0 : poemAuthor.style.opacity - (1 / (opacityChangesCount - 1));
-                poem.style.opacity = (poem.style.opacity - (1 / (opacityChangesCount - 1)) < 0) ? 0 : poem.style.opacity - (1 / (opacityChangesCount - 1));
-            }, (i + 1) * poems.opacityChangeIntervalTime);
+                writingTitle.style.opacity = (writingTitle.style.opacity - (1 / (opacityChangesCount - 1)) < 0) ? 0 : writingTitle.style.opacity - (1 / (opacityChangesCount - 1));
+                writingAuthor.style.opacity = (writingAuthor.style.opacity - (1 / (opacityChangesCount - 1)) < 0) ? 0 : writingAuthor.style.opacity - (1 / (opacityChangesCount - 1));
+                writing.style.opacity = (writing.style.opacity - (1 / (opacityChangesCount - 1)) < 0) ? 0 : writing.style.opacity - (1 / (opacityChangesCount - 1));
+            }, (i + 1) * writings.opacityChangeIntervalTime);
         } else {
             setTimeout(() => {
-                poemTitle.style.opacity = 1;
-                poemAuthor.style.opacity = 1;
-                poem.style.opacity = 1;
-            }, (i + 1) * poems.opacityChangeIntervalTime);
+                writingTitle.style.opacity = 1;
+                writingAuthor.style.opacity = 1;
+                writing.style.opacity = 1;
+            }, (i + 1) * writings.opacityChangeIntervalTime);
             
         }
     }  
@@ -132,5 +177,5 @@ const cyclePoemsHelperTransition = (poems) => {
 
 
 /********** function calls **********/
-initializePoemsPage();
-cyclePoems(poems, timerWrapper);
+initializeWritingsPage();
+cycleWritings(writings, timerWrapper, audioWrapper);
