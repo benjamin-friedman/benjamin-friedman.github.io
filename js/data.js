@@ -1205,7 +1205,7 @@ export const writings = {
             ]
         },
         {
-            title: 'Do Not Go Gentle Into That Good Night',
+            title: 'Do not go gentle into that good night',
             author: 'Dylan Thomas',
             audioExists: true,
             writing: [
@@ -1317,7 +1317,7 @@ export const writings = {
             ]
         },
         {
-            title: 'A Tale Of Two Cities',
+            title: 'A Tale of Two Cities',
             author: 'Charles Dickens',
             audioExists: true,
             writing: [
@@ -1331,7 +1331,7 @@ export const writings = {
             ]
         },
         {
-            title: 'Once More Into The Fray',
+            title: 'Once More Into the Fray',
             author: 'Joe Carnahan',
             audioExists: true,
             writing: [
