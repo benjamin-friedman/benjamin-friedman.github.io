@@ -1378,8 +1378,8 @@ export const writings = {
         }
     ],
     idx: 0,
-    displayTimeDefault: 60000,
-    displayTime: 0,             // time to display the poem
+    displayTimeDefault: 60000,      // default time if audio is not available
+    displayTime: 0,                 // time to display the writing
     transitionTime: 2500,           // time where opacity is fading
     opacityChangeIntervalTime: 100  // interval time between 1 opacity change
 }

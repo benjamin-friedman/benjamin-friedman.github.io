@@ -137,15 +137,15 @@ const cycleWritingsHelperChangeWriting = (writings, audioWrapper) => {
             audioPromise.then(() => {
                 // play was successful
                 writings.displayTime = audioWrapper.audio.duration * 1000;
+                writings.idx = (writings.idx < writings.writingAndAuthor.length - 1) ? writings.idx + 1 : 0;
             }).catch(e => {
                 // play was not successful
             });
         }
     } else {
         writings.displayTime = writings.displayTimeDefault;
+        writings.idx = (writings.idx < writings.writingAndAuthor.length - 1) ? writings.idx + 1 : 0;
     }
-
-    writings.idx = (writings.idx < writings.writingAndAuthor.length - 1) ? writings.idx + 1 : 0;
 }
 
 
