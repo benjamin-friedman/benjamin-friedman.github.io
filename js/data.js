@@ -93,7 +93,7 @@ export const musiciansArray = [
             { name: 'Romance In E Minor S. 169 (O Pourqoi Donc)', recordingMusician: 'Genny Basso' },
             { name: 'Consolation No. 3 In D Flat Major S. 172', recordingMusician: 'Rousseau' },
             { name: 'Serenade D. 889 - Piano', recordingMusician: 'Rousseau', contributors: 'Schubert' },
-            { name: 'Etude No. 3 In G Sharp Minor S. 141 (La Campanella)', recordingMusician: 'Rousseau' }
+            { name: 'Etude No. 3 In G Sharp Minor S. 141 (La Campanella)', recordingMusician: 'Rousseau', contributors: 'Paganini' }
         ]
     },
     {
@@ -189,7 +189,8 @@ export const musiciansArray = [
         id: 'elgar',
         name: 'Elgar',
         songs: [
-            { name: 'Cello Concerto In E Minor Op. 85 I.', recordingMusician: 'Sophie Kauer' }
+            { name: 'Cello Concerto In E Minor Op. 85 I. - Interpretation 1', recordingMusician: 'Sophie Kauer' },
+            { name: 'Cello Concerto In E Minor Op. 85 I. - Interpretation 2', recordingMusician: 'Sheku Kanneh-Mason' }
         ]
     },
     {
@@ -200,7 +201,9 @@ export const musiciansArray = [
             { name: 'Piano Concerto No. 2 In C Minor Op. 18 II.', recordingMusician: 'Anna Fedorova' },
             { name: 'Piano Concerto No. 2 In C Minor Op. 18 III.', recordingMusician: 'Anna Fedorova' },
             { name: 'Piano Concerto No. 2 In C Minor Op. 18 II. - Cello', recordingMusician: 'Stjepan Hauser' },
-            { name: 'Moment Musicaux In E Minor Op. 16 No. 4', recordingMusician: 'Nikolai Lugansky' }
+            { name: 'Moment Musicaux In E Minor Op. 16 No. 4', recordingMusician: 'Nikolai Lugansky' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie In E Flat Minor', recordingMusician: 'Luke Faulkner' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie In E Flat Minor - Cello', recordingMusician: 'Sheku Kanneh-Mason' }
         ]
     },
     {
@@ -229,7 +232,8 @@ export const musiciansArray = [
         id: 'grieg',
         name: 'Grieg',
         songs: [
-            { name: 'Peer Gynt Suite No. 1 Op. 46 (Morning Mood)', recordingMusician: 'Berlin Philharmonic Orchestra' }
+            { name: 'Peer Gynt Suite No. 1 Op. 46 I. (Morning Mood)', recordingMusician: 'Berlin Philharmonic Orchestra' },
+            { name: 'Peer Gynt Suite No. 1 Op. 46 IV. (In the Hall of the Mountain King)', recordingMusician: 'Kassia' }
         ]
     },
     {
