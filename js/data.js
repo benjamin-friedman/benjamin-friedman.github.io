@@ -140,10 +140,26 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'albinoni',
-        name: 'Albinoni',
+        id: 'rachmaninoff',
+        name: 'Rachmaninoff',
         songs: [
-            { name: 'Adagio In G Minor', recordingMusician: 'Stjepan Hauser' }
+            { name: 'Piano Concerto No. 2 In C Minor Op. 18 I.', recordingMusician: 'Anna Fedorova' },
+            { name: 'Piano Concerto No. 2 In C Minor Op. 18 II.', recordingMusician: 'Anna Fedorova' },
+            { name: 'Piano Concerto No. 2 In C Minor Op. 18 III.', recordingMusician: 'Anna Fedorova' },
+            { name: 'Piano Concerto No. 2 In C Minor Op. 18 II. - Cello', recordingMusician: 'Stjepan Hauser' },
+            { name: 'Moment Musicaux In E Minor Op. 16 No. 4', recordingMusician: 'Nikolai Lugansky' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie In E Flat Minor', recordingMusician: 'Luke Faulkner' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie In E Flat Minor - Cello', recordingMusician: 'Sheku Kanneh-Mason' },
+            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', recordingMusician: 'Han-Na Chang' },
+            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', recordingMusician: 'Alison Lau' }
+        ]
+    },
+    {
+        id: 'elgar',
+        name: 'Elgar',
+        songs: [
+            { name: 'Cello Concerto In E Minor Op. 85 I. - Interpretation 1', recordingMusician: 'Sophie Kauer' },
+            { name: 'Cello Concerto In E Minor Op. 85 I. - Interpretation 2', recordingMusician: 'Sheku Kanneh-Mason' }
         ]
     },
     {
@@ -178,6 +194,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'giazotto',
+        name: 'Giazotto',
+        songs: [
+            { name: 'Adagio In G Minor', recordingMusician: 'Stjepan Hauser' }
+        ]
+    },
+    {
         id: 'samuel-barber',
         name: 'Samuel Barber',
         songs: [
@@ -186,31 +209,24 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'elgar',
-        name: 'Elgar',
+        id: 'faure',
+        name: 'Faure',
         songs: [
-            { name: 'Cello Concerto In E Minor Op. 85 I. - Interpretation 1', recordingMusician: 'Sophie Kauer' },
-            { name: 'Cello Concerto In E Minor Op. 85 I. - Interpretation 2', recordingMusician: 'Sheku Kanneh-Mason' }
-        ]
-    },
-    {
-        id: 'rachmaninoff',
-        name: 'Rachmaninoff',
-        songs: [
-            { name: 'Piano Concerto No. 2 In C Minor Op. 18 I.', recordingMusician: 'Anna Fedorova' },
-            { name: 'Piano Concerto No. 2 In C Minor Op. 18 II.', recordingMusician: 'Anna Fedorova' },
-            { name: 'Piano Concerto No. 2 In C Minor Op. 18 III.', recordingMusician: 'Anna Fedorova' },
-            { name: 'Piano Concerto No. 2 In C Minor Op. 18 II. - Cello', recordingMusician: 'Stjepan Hauser' },
-            { name: 'Moment Musicaux In E Minor Op. 16 No. 4', recordingMusician: 'Nikolai Lugansky' },
-            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie In E Flat Minor', recordingMusician: 'Luke Faulkner' },
-            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie In E Flat Minor - Cello', recordingMusician: 'Sheku Kanneh-Mason' }
+            { name: 'Elegy Op. 24', recordingMusician: 'Nadege Rochat, Malgorzata Gartska' }
         ]
     },
     {
         id: 'shostakovich',
         name: 'Shostakovich',
         songs: [
-            { name: 'Waltz No. 2', recordingMusician: 'The Johann Strauss Orchestra' }
+            { name: 'Waltz No. 2', recordingMusician: 'Andre Rieu and The Johann Strauss Orchestra' }
+        ]
+    },
+    {
+        id: 'mussorgsky',
+        name: 'Mussorgsky',
+        songs: [
+            { name: 'Pictures at an Exhibition No. 2 II. vecchio castello', recordingMusician: 'Metamorphose String Orchestra & Pavel Lyubomudrov' },
         ]
     },
     {
@@ -229,6 +245,21 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'massenet',
+        name: 'Massenet',
+        songs: [
+            { name: 'Meditation from Thais', recordingMusician: 'Itzhak Perlman' },
+            { name: 'Meditation from Thais - Cello', recordingMusician: 'Stjepan Hauser' }
+        ]
+    },
+    {
+        id: 'handel',
+        name: 'Handel',
+        songs: [
+            { name: 'Suite No. 1 In B Flat Major IV.', recordingMusician: 'Khatia Buniatishvili', contributors: 'Wilhelm Kempff' },
+        ]
+    },
+    {
         id: 'grieg',
         name: 'Grieg',
         songs: [
@@ -241,13 +272,6 @@ export const musiciansArray = [
         name: 'Tchaikovsky',
         songs: [
             { name: 'Swan Lake Suite Op. 20 - Swan Theme', recordingMusician: 'Royal Philharmonic Orchestra' }
-        ]
-    },
-    {
-        id: 'mussorgsky',
-        name: 'Mussorgsky',
-        songs: [
-            { name: 'Pictures at an Exhibition No. 2 II. vecchio castello', recordingMusician: 'Metamorphose String Orchestra & Pavel Lyubomudrov' },
         ]
     },
     {
