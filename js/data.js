@@ -155,23 +155,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'elgar',
-        name: 'Elgar',
-        songs: [
-            { name: 'Cello Concerto In E Minor Op. 85 I. - Interpretation 1', recordingMusician: 'Sophie Kauer' },
-            { name: 'Cello Concerto In E Minor Op. 85 I. - Interpretation 2', recordingMusician: 'Sheku Kanneh-Mason' }
-        ]
-    },
-    {
-        id: 'saint-saens',
-        name: 'Saint-Saens',
-        songs: [
-            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser' },
-            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott and Yo-Yo Ma' },
-            { name: 'Cello Concerto No. 1 In A Minor Op. 33 I. and III.', recordingMusician: 'Andrew Shulman' }
-        ]
-    },
-    {
         id: 'satie',
         name: 'Satie',
         songs: [
@@ -194,6 +177,30 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'elgar',
+        name: 'Elgar',
+        songs: [
+            { name: 'Cello Concerto In E Minor Op. 85 I. - Interpretation 1', recordingMusician: 'Sophie Kauer' },
+            { name: 'Cello Concerto In E Minor Op. 85 I. - Interpretation 2', recordingMusician: 'Sheku Kanneh-Mason' }
+        ]
+    },
+    {
+        id: 'faure',
+        name: 'Faure',
+        songs: [
+            { name: 'Elegy Op. 24', recordingMusician: 'Nadege Rochat, Malgorzata Gartska' }
+        ]
+    },
+    {
+        id: 'saint-saens',
+        name: 'Saint-Saens',
+        songs: [
+            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser' },
+            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott and Yo-Yo Ma' },
+            { name: 'Cello Concerto No. 1 In A Minor Op. 33 I. and III.', recordingMusician: 'Andrew Shulman' }
+        ]
+    },
+    {
         id: 'giazotto',
         name: 'Giazotto',
         songs: [
@@ -206,13 +213,6 @@ export const musiciansArray = [
         songs: [
             { name: 'Adagio For Strings', recordingMusician: 'Stjepan Hauser' },
             { name: 'Agnus Dei', recordingMusician: 'Dale Warland Singers' }
-        ]
-    },
-    {
-        id: 'faure',
-        name: 'Faure',
-        songs: [
-            { name: 'Elegy Op. 24', recordingMusician: 'Nadege Rochat, Malgorzata Gartska' }
         ]
     },
     {
