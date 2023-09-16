@@ -180,15 +180,14 @@ export const musiciansArray = [
         id: 'elgar',
         name: 'Elgar',
         songs: [
-            { name: 'Cello Concerto In E Minor Op. 85 I. - Interpretation 1', recordingMusician: 'Sophie Kauer' },
-            { name: 'Cello Concerto In E Minor Op. 85 I. - Interpretation 2', recordingMusician: 'Sheku Kanneh-Mason' }
+            { name: 'Cello Concerto In E Minor Op. 85 I.', recordingMusician: 'Sophie Kauer' }
         ]
     },
     {
         id: 'faure',
         name: 'Faure',
         songs: [
-            { name: 'Elegy Op. 24', recordingMusician: 'Nadege Rochat, Malgorzata Gartska' }
+            { name: 'Elegie Op. 24', recordingMusician: 'Jacqueline du Pre' }
         ]
     },
     {
