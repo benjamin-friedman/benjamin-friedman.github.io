@@ -187,7 +187,7 @@ export const musiciansArray = [
         id: 'faure',
         name: 'Faure',
         songs: [
-            { name: 'Elegie Op. 24', recordingMusician: 'Jacqueline du Pre' }
+            { name: 'Elegie Op. 24', recordingMusician: 'Harriet Krijgh' }
         ]
     },
     {
