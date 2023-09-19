@@ -100,9 +100,9 @@ export const musiciansArray = [
         id: 'schubert',
         name: 'Schubert',
         songs: [
-            { name: 'Impromptu In G Flat Major Op. 90 No. 3, D. 899', recordingMusician: 'Olga Jegunova' },
-            { name: 'Piano Trio No. 2 In E Flat Major Op. 100, D. 929 II. - Interpretation 1', recordingMusician: 'Unknown' },
-            { name: 'Piano Trio No. 2 In E Flat Major Op. 100, D. 929 II. - Interpretation 2', recordingMusician: 'Unknown' },
+            { name: 'Impromptu in G Flat Major Op. 90 No. 3, D. 899', recordingMusician: 'Olga Jegunova' },
+            { name: 'Piano Trio No. 2 in E Flat Major Op. 100, D. 929 II. - Interpretation 1', recordingMusician: 'Unknown' },
+            { name: 'Piano Trio No. 2 in E Flat Major Op. 100, D. 929 II. - Interpretation 2', recordingMusician: 'Unknown' },
             { name: 'Serenade D. 889 - Interpretation 1', recordingMusician: 'Unknown' },
             { name: 'Serenade D. 889 - Interpretation 2', recordingMusician: 'Unknown' },
             { name: 'Serenade D. 889 - Piano and Cello', recordingMusician: 'Stjepan Hauser' }
