@@ -112,11 +112,11 @@ export const musiciansArray = [
         id: 'beethoven',
         name: 'Beethoven',
         songs: [
-            { name: 'Piano Sonata No. 14 In C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata)', recordingMusician: 'Unknown' },
-            { name: 'Piano Sonata No. 14 In C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', recordingMusician: 'Stjepan Hauser and Lola Astanova' },
-            { name: 'Piano Sonata No. 14 In C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', recordingMusician: 'Rousseau' },
-            { name: 'Piano Sonata No. 14 In C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata)', recordingMusician: 'Rousseau' },
-            { name: 'Piano Sonata No. 14 In C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', recordingMusician: 'Cole Rolland and Kristina Schiano' }
+            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata)', recordingMusician: 'Unknown' },
+            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', recordingMusician: 'Stjepan Hauser and Lola Astanova' },
+            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', recordingMusician: 'Rousseau' },
+            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata)', recordingMusician: 'Rousseau' },
+            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', recordingMusician: 'Cole Rolland and Kristina Schiano' }
         ]
     },
     {
