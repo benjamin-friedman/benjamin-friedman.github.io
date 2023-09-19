@@ -188,7 +188,7 @@ export const musiciansArray = [
         id: 'elgar',
         name: 'Elgar',
         songs: [
-            { name: 'Cello Concerto In E Minor Op. 85 I.', recordingMusician: 'Sophie Kauer' }
+            { name: 'Cello Concerto in E Minor Op. 85 I.', recordingMusician: 'Sophie Kauer' }
         ]
     },
     {
@@ -197,21 +197,21 @@ export const musiciansArray = [
         songs: [
             { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser' },
             { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott and Yo-Yo Ma' },
-            { name: 'Cello Concerto No. 1 In A Minor Op. 33 I. and III.', recordingMusician: 'Andrew Shulman' }
+            { name: 'Cello Concerto No. 1 in A Minor Op. 33 I. and III.', recordingMusician: 'Andrew Shulman' }
         ]
     },
     {
         id: 'giazotto',
         name: 'Giazotto',
         songs: [
-            { name: 'Adagio In G Minor', recordingMusician: 'Stjepan Hauser' }
+            { name: 'Adagio in G Minor', recordingMusician: 'Stjepan Hauser' }
         ]
     },
     {
         id: 'samuel-barber',
         name: 'Samuel Barber',
         songs: [
-            { name: 'Adagio For Strings', recordingMusician: 'Stjepan Hauser' },
+            { name: 'Adagio for Strings', recordingMusician: 'Stjepan Hauser' },
             { name: 'Agnus Dei', recordingMusician: 'Dale Warland Singers' }
         ]
     },
@@ -219,7 +219,7 @@ export const musiciansArray = [
         id: 'shostakovich',
         name: 'Shostakovich',
         songs: [
-            { name: 'Waltz No. 2', recordingMusician: 'Andre Rieu and The Johann Strauss Orchestra' }
+            { name: 'Waltz No. 2', recordingMusician: 'Andre Rieu and the Johann Strauss Orchestra' }
         ]
     },
     {
@@ -256,7 +256,7 @@ export const musiciansArray = [
         id: 'handel',
         name: 'Handel',
         songs: [
-            { name: 'Suite No. 1 In B Flat Major IV.', recordingMusician: 'Khatia Buniatishvili', contributors: 'Wilhelm Kempff' },
+            { name: 'Suite No. 1 in B Flat Major IV.', recordingMusician: 'Khatia Buniatishvili', contributors: 'Wilhelm Kempff' },
         ]
     },
     {
@@ -326,8 +326,8 @@ export const musiciansArray = [
         id: 'howard-shore',
         name: 'Howard Shore',
         songs: [
-            { name: 'Theoden King', soundtrack: 'The Lord Of The Tings: The Two Towers' },
-            { name: 'Edoras', soundtrack: 'The Lord Of The Tings: The Two Towers' }
+            { name: 'Theoden King', soundtrack: 'The Lord of the Rings: The Two Towers' },
+            { name: 'Edoras', soundtrack: 'The Lord of the Rings: The Two Towers' }
         ]
     },
     {
@@ -349,7 +349,7 @@ export const musiciansArray = [
         name: 'Jesper Kyd',
         songs: [
             { name: "Ezio's Family", soundtrack: "Assassin's Creed II" },
-            { name: 'Echoes Of The Roman Ruins', soundtrack: "Assassin's Creed: Brotherhood" }
+            { name: 'Echoes of the Roman Ruins', soundtrack: "Assassin's Creed: Brotherhood" }
         ]
     },
     {
@@ -363,7 +363,7 @@ export const musiciansArray = [
         id: 'johann-johannsson',
         name: 'Johann Johannsson',
         songs: [
-            { name: "The Sun's Gone Dim And The Sky's Turned Black" }
+            { name: "The Sun's Gone Dim snd the Sky's Turned Black" }
         ]
     },
     {
@@ -408,7 +408,7 @@ export const musiciansArray = [
         id: 'eva-cassidy',
         name: 'Eva Cassidy',
         songs: [
-            { name: 'Wade In The Water' }
+            { name: 'Wade in the Water' }
         ]
     },
     {
@@ -522,7 +522,7 @@ export const musiciansArray = [
     },
     {
         id: 'the-mamas-and-the-papas',
-        name: 'The Mamas And The Papas',
+        name: 'The Mamas and the Papas',
         songs: [
             { name: "California Dreamin'" }
         ]
@@ -652,7 +652,7 @@ export const musiciansArray = [
         id: 'rhapsody-of-fire',
         name: 'Rhapsody Of Fire',
         songs: [
-            { name: 'Gargoyles Angels Of Darkness' }
+            { name: 'Gargoyles, Angels of Darkness' }
         ]
     },
     {
@@ -711,7 +711,7 @@ export const musiciansArray = [
         name: 'Disturbed',
         songs: [
             { name: 'Down With The Sickness' },
-            { name: 'The Sound Of Silence', contributors: 'Simon & Garfunkel' }
+            { name: 'The Sound of Silence', contributors: 'Simon & Garfunkel' }
         ]
     },
     {
