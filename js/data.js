@@ -123,11 +123,11 @@ export const musiciansArray = [
         id: 'mozart',
         name: 'Mozart',
         songs: [
-            { name: 'Fantasia No. 3 In D Minor K. 397 (385g)', recordingMusician: 'Kassia' },
-            { name: 'Serenade No. 10 For Winds In B Flat Major K. 361 (370a) III.', recordingMusician: 'Academy Of St. Martin In The Fields Orchestra' },
-            { name: 'Requiem In D Minor K. 626 I. Introitus', recordingMusician: 'Academy Of St. Martin In The Fields Choir' },
-            { name: 'Requiem In D Minor K. 626 III. Lacrimosa', recordingMusician: 'RIAS Chamber Choir' },
-            { name: 'Requiem In D Minor K. 626 III. Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser' }
+            { name: 'Fantasia No. 3 in D Minor K. 397 (385g)', recordingMusician: 'Kassia' },
+            { name: 'Serenade No. 10 for Winds in B Flat Major K. 361 (370a) III.', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
+            { name: 'Requiem in D Minor K. 626 I. Introitus', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Lacrimosa', recordingMusician: 'RIAS Chamber Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser' }
         ]
     },
     {
