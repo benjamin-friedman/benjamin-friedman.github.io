@@ -592,6 +592,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'billy-joel',
+        name: 'Billy Joel',
+        songs: [
+            { name: 'Piano Man' }
+        ]
+    },
+    {
         id: 'john-denver',
         name: 'John Denver',
         songs: [
@@ -1002,8 +1009,24 @@ export const musiciansArray = [
             { name: 'Lose Yourself' },
             { name: 'Till I Collapse' },
             { name: "Won't Back Down" },
+            { name: 'Like Toy Soldiers' },
             { name: 'Stan' },
             { name: 'Fast Lane' }
+        ]
+    },
+    {
+        id: 'dr-dre',
+        name: 'Dr. Dre',
+        songs: [
+            { name: "Nuthin' But A G Thang" },
+            { name: 'Big Egos' },
+            { name: "What's The Difference" },
+            { name: 'Light Speed' },
+            { name: 'The Watcher' },
+            { name: 'Forgot About Dre' },
+            { name: 'The Message' },
+            { name: 'Murder Ink' },
+            { name: 'Still D.R.E.' }
         ]
     },
     {
@@ -1069,6 +1092,17 @@ export const musiciansArray = [
         name: 'Tom Pepe',
         songs: [
             { name: 'The River Runs Deep' }
+        ]
+    },
+    {
+        id: 'black-eyed-peas',
+        name: 'Black Eyed Peas',
+        songs: [
+            { name: 'Where Is The Love' },
+            { name: "Let's Get It Started" },
+            { name: 'Boom Boom Pow' },
+            { name: 'I Gotta Feeling' },
+            { name: 'Meet Me Halfway' }
         ]
     },
     {
