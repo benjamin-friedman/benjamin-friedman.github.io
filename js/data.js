@@ -652,7 +652,7 @@ export const musiciansArray = [
         id: 'rhapsody-of-fire',
         name: 'Rhapsody Of Fire',
         songs: [
-            { name: 'Gargoyles, Angels of Darkness' }
+            { name: 'Gargoyles, Angels Of Darkness' }
         ]
     },
     {
