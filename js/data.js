@@ -10,7 +10,7 @@ export const musiciansArray = [
             { name: 'Lasiurus', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
             { name: 'Barbastella', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
             { name: 'Eptescius', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
-            { name: 'Agent of Chaos', soundtrack: 'The Dark Knight', contributors: 'James Newton Howard' },
+            { name: 'Agent Of Chaos', soundtrack: 'The Dark Knight', contributors: 'James Newton Howard' },
             { name: 'A Watchful Guardian', soundtrack: 'The Dark Knight', contributors: 'James Newton Howard' },
             { name: 'A Dark Knight', soundtrack: 'The Dark Knight', contributors: 'James Newton Howard' },
             { name: 'Why Do We Fall', soundtrack: 'The Dark Knight Rises' },
@@ -20,10 +20,10 @@ export const musiciansArray = [
             { name: 'Nothing Out There', soundtrack: 'The Dark Knight Rises' },
             { name: 'Rise', soundtrack: 'The Dark Knight Rises' },
             { name: 'Final Ascent', soundtrack: 'No Time To Die' },
-            { name: "He's a Pirate", soundtrack: "Pirates Of The Caribbean: The Curse Of The Black Pearl", contributors: 'Klaus Badelt' },
+            { name: "He's A Pirate", soundtrack: "Pirates Of The Caribbean: The Curse Of The Black Pearl", contributors: 'Klaus Badelt' },
             { name: 'Will And Elizabeth', soundtrack: "Pirates Of The Caribbean: The Curse Of The Black Pearl", contributors: 'Klaus Badelt' },
             { name: 'The Black Pearl', soundtrack: "Pirates Of The Caribbean: The Curse Of The Black Pearl", contributors: 'Klaus Badelt' },
-            { name: 'Wheel of Fortune', soundtrack: "Pirates Of The Caribbean: Dead Man's Chest" },
+            { name: 'Wheel Of Fortune', soundtrack: "Pirates Of The Caribbean: Dead Man's Chest" },
             { name: 'Jack Sparrow', soundtrack: "Pirates Of The Caribbean: Dead Man's Chest" },
             { name: 'Davy Jones', soundtrack: "Pirates Of The Caribbean: Dead Man's Chest" },
             { name: 'Davy Jones - Piano', soundtrack: "Pirates Of The Caribbean: Dead Man's Chest", recordingMusician: 'Fabian Torres' },
@@ -40,8 +40,8 @@ export const musiciansArray = [
             { name: 'Is She With You', soundtrack: 'Batman v Superman' },
             { name: 'Not In Blood But In Bond', soundtrack: 'Sherlock Holmes' },
             { name: 'Ah, Putrefaction', soundtrack: 'Sherlock Holmes' },
-            { name: 'A Way of Life', soundtrack: 'The Last Samurai' },
-            { name: 'A Small Measure of Peace', soundtrack: 'The Last Samurai' },
+            { name: 'A Way Of Life', soundtrack: 'The Last Samurai' },
+            { name: 'A Small Measure Of Peace', soundtrack: 'The Last Samurai' },
             { name: 'Elysium', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
             { name: 'Honor Him', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
             { name: 'Now We Are Free', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
@@ -319,7 +319,7 @@ export const musiciansArray = [
         id: 'alexandre-desplat',
         name: 'Alexandre Desplat',
         songs: [
-            { name: 'Severus and Lily', soundtrack: 'Harry Potter and the Deathly Hallows Part 2' }
+            { name: 'Severus And Lily', soundtrack: 'Harry Potter and the Deathly Hallows Part 2' }
         ]
     },
     {
@@ -349,7 +349,7 @@ export const musiciansArray = [
         name: 'Jesper Kyd',
         songs: [
             { name: "Ezio's Family", soundtrack: "Assassin's Creed II" },
-            { name: 'Echoes of the Roman Ruins', soundtrack: "Assassin's Creed: Brotherhood" }
+            { name: 'Echoes Of The Roman Ruins', soundtrack: "Assassin's Creed: Brotherhood" }
         ]
     },
     {
@@ -363,7 +363,7 @@ export const musiciansArray = [
         id: 'johann-johannsson',
         name: 'Johann Johannsson',
         songs: [
-            { name: "The Sun's Gone Dim snd the Sky's Turned Black" }
+            { name: "The Sun's Gone Dim And The Sky's Turned Black" }
         ]
     },
     {
@@ -408,14 +408,14 @@ export const musiciansArray = [
         id: 'eva-cassidy',
         name: 'Eva Cassidy',
         songs: [
-            { name: 'Wade in the Water' }
+            { name: 'Wade In The Water' }
         ]
     },
     {
         id: 'charles-bradley',
         name: 'Charles Bradley',
         songs: [
-            { name: 'Crying in the Chapel' }
+            { name: 'Crying In The Chapel' }
         ]
     },
     {
@@ -574,7 +574,7 @@ export const musiciansArray = [
         id: 'ben-howard',
         name: 'Ben Howard',
         songs: [
-            { name: 'Oats in the Water' }
+            { name: 'Oats In The Water' }
         ]
     },
     {
@@ -623,7 +623,7 @@ export const musiciansArray = [
         id: 'imad-fares',
         name: 'Imad Fares',
         songs: [
-            { name:  'Gipsy Kings' }
+            { name: 'Gipsy Kings' }
         ]
     },
     {
@@ -711,7 +711,7 @@ export const musiciansArray = [
         name: 'Disturbed',
         songs: [
             { name: 'Down With The Sickness' },
-            { name: 'The Sound of Silence', contributors: 'Simon & Garfunkel' }
+            { name: 'The Sound Of Silence', contributors: 'Simon & Garfunkel' }
         ]
     },
     {
@@ -1061,7 +1061,7 @@ export const musiciansArray = [
         id: 'gerry-mulligan',
         name: 'Gerry Mulligan',
         songs: [
-            { name: 'Prelude In E Minor Op. 28 No. 4 - Jazz', contributors: 'Chopin' }
+            { name: 'Prelude in E Minor Op. 28 No. 4 - Jazz', contributors: 'Chopin' }
         ]
     },
     {
