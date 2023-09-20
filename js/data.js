@@ -916,10 +916,24 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'hometown-hero',
+        name: 'Hometown Hero',
+        songs: [
+            { name: 'Robbers' }
+        ]
+    },
+    {
         id: 'bag-raiders',
         name: 'Bag Raiders',
         songs: [
             { name: 'Shooting Stars' }
+        ]
+    },
+    {
+        id: 'smash-mouth',
+        name: 'Smash Mouth',
+        songs: [
+            { name: 'All Star' }
         ]
     },
     {
@@ -1058,6 +1072,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'j-squad',
+        name: 'J-Squad',
+        songs: [
+            { name: 'TTBZ Anthem' }
+        ]
+    },
+    {
         id: 'gerry-mulligan',
         name: 'Gerry Mulligan',
         songs: [
@@ -1092,6 +1113,14 @@ export const musiciansArray = [
         songs: [
             { name: 'Intro' },
             { name: 'Angels' }
+        ]
+    },
+    {
+        id: 'imagine-dragons',
+        name: 'Imagine Dragons',
+        songs: [
+            { name: 'Radioactive' },
+            { name: 'Believer' }
         ]
     },
     {
@@ -1134,6 +1163,20 @@ export const musiciansArray = [
         name: 'Stromae',
         songs: [
             { name: 'Alors On Danse' }
+        ]
+    },
+    {
+        id: 'jamiroqaui',
+        name: 'Jamiroqaui',
+        songs: [
+            { name: 'Canned Heat' }
+        ]
+    },
+    {
+        id: 'pharrell-williams',
+        name: 'Pharrell Williams',
+        songs: [
+            { name: 'Happy' }
         ]
     },
     {
