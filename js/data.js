@@ -375,13 +375,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'mike-patton',
-        name: 'Mike Patton',
-        songs: [
-            { name: 'The Snow Angel' }
-        ]
-    },
-    {
         id: 'lucio-dalla',
         name: 'Lucio Dalla',
         songs: [
@@ -778,20 +771,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'linkin-park',
-        name: 'Linkin Park',
-        songs: [
-            { name: 'Numb' }
-        ]
-    },
-    {
-        id: 'my-chemical-romance',
-        name: 'My Chemical Romance',
-        songs: [
-            { name: 'The Ghost Of You' }
-        ]
-    },
-    {
         id: 'radiohead',
         name: 'Radiohead',
         songs: [
@@ -868,6 +847,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'oasis',
+        name: 'Oasis',
+        songs: [
+            { name: 'Wonderwall' }
+        ]
+    },
+    {
         id: 'the-goo-goo-dolls',
         name: 'The Goo Goo Dolls',
         songs: [
@@ -875,10 +861,34 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'oasis',
-        name: 'Oasis',
+        id: 'linkin-park',
+        name: 'Linkin Park',
         songs: [
-            { name: 'Wonderwall' }
+            { name: 'Numb' }
+        ]
+    },
+    {
+        id: 'my-chemical-romance',
+        name: 'My Chemical Romance',
+        songs: [
+            { name: 'The Ghost Of You' }
+        ]
+    },
+    {
+        id: 'muse',
+        name: 'Muse',
+        songs: [
+            { name: 'Uprising' },
+            { name: 'Starlight' },
+            { name: 'Supermassive Black Hole' }
+        ]
+    },
+    {
+        id: 'green-day',
+        name: 'Green Day',
+        songs: [
+            { name: 'Boulevard Of Broken Dreams' },
+            { name: '21 Guns' },
         ]
     },
     {
@@ -896,13 +906,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'wilco',
-        name: 'Wilco',
-        songs: [
-            { name: 'How To Fight Loneliness' }
-        ]
-    },
-    {
         id: 'coldplay',
         name: 'Coldplay',
         songs: [
@@ -914,12 +917,10 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'muse',
-        name: 'Muse',
+        id: 'wilco',
+        name: 'Wilco',
         songs: [
-            { name: 'Uprising' },
-            { name: 'Starlight' },
-            { name: 'Supermassive Black Hole' }
+            { name: 'How To Fight Loneliness' }
         ]
     },
     {
@@ -927,6 +928,14 @@ export const musiciansArray = [
         name: 'Hometown Hero',
         songs: [
             { name: 'Robbers' }
+        ]
+    },
+    {
+        id: 'the-white-stripes',
+        name: 'The White Stripes',
+        songs: [
+            { name: 'Seven Nation Army' },
+            { name: "We're Gonna Be Friends" }
         ]
     },
     {
@@ -1172,10 +1181,11 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'disclosure',
-        name: 'Disclosure',
+        id: 'flume',
+        name: 'Flume',
         songs: [
-            { name: 'You & Me' }
+            { name: 'You & Me', contributors: 'Disclosure' },
+            { name: 'Sleepless' }
         ]
     },
     {
@@ -1211,6 +1221,20 @@ export const musiciansArray = [
         name: 'Pharrell Williams',
         songs: [
             { name: 'Happy' }
+        ]
+    },
+    {
+        id: 'odesza',
+        name: 'ODESZA',
+        songs: [
+            { name: 'Sun Models' }
+        ]
+    },
+    {
+        id: 'mike-patton',
+        name: 'Mike Patton',
+        songs: [
+            { name: 'The Snow Angel' }
         ]
     },
     {
