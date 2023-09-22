@@ -1174,13 +1174,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'tony-anderson',
-        name: 'Tony Anderson',
-        songs: [
-            { name: 'Ember' }
-        ]
-    },
-    {
         id: 'flume',
         name: 'Flume',
         songs: [
@@ -1207,6 +1200,13 @@ export const musiciansArray = [
         name: 'Stromae',
         songs: [
             { name: 'Alors On Danse' }
+        ]
+    },
+    {
+        id: 'eiffel-65',
+        name: 'Eiffel 65',
+        songs: [
+            { name: 'Blue (Da Ba Dee)' }
         ]
     },
     {
@@ -1242,6 +1242,27 @@ export const musiciansArray = [
         name: 'Ta-Ku',
         songs: [
             { name: 'Night 3' }
+        ]
+    },
+    {
+        id: 'tony-anderson',
+        name: 'Tony Anderson',
+        songs: [
+            { name: 'Ember' }
+        ]
+    },
+    {
+        id: 'max-richter',
+        name: 'Max Richter',
+        songs: [
+            { name: 'On The Nature Of Daylight' }
+        ]
+    },
+    {
+        id: 'jorge-quintero',
+        name: 'Jorge Quintero',
+        songs: [
+            { name: '300 Violin Orchestra' }
         ]
     },
     {
