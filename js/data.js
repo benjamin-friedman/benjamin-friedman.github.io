@@ -974,6 +974,14 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'dropkick-murphys',
+        name: 'Dropkick Murphys',
+        songs: [
+            { name: "I'm Shipping Up To Boston" },
+            { name: 'Tessie' }
+        ]
+    },
+    {
         id: 'smash-mouth',
         name: 'Smash Mouth',
         songs: [
@@ -985,6 +993,13 @@ export const musiciansArray = [
         name: 'Kaiser Chiefs',
         songs: [
             { name: 'Ruby' }
+        ]
+    },
+    {
+        id: 'jet',
+        name: 'Jet',
+        songs: [
+            { name: 'Are You Gonna Be My Girl' }
         ]
     },
     {
