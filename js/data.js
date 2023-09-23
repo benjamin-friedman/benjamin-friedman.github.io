@@ -375,6 +375,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'max-richter',
+        name: 'Max Richter',
+        songs: [
+            { name: 'On The Nature Of Daylight' }
+        ]
+    },
+    {
         id: 'lucio-dalla',
         name: 'Lucio Dalla',
         songs: [
@@ -592,6 +599,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'styx',
+        name: 'Styx',
+        songs: [
+            { name: 'Come Sail Away' }
+        ]
+    },
+    {
         id: 'john-denver',
         name: 'John Denver',
         songs: [
@@ -795,20 +809,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'steely-dan',
-        name: 'Steely Dan',
-        songs: [
-            { name: 'Do It Again' }
-        ]
-    },
-    {
-        id: 'the-band',
-        name: 'The Band',
-        songs: [
-            { name: 'The Weight' }
-        ]
-    },
-    {
         id: 'creedence-clearwater-revival',
         name: 'Creedence Clearwater Revival',
         songs: [
@@ -833,6 +833,20 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'steely-dan',
+        name: 'Steely Dan',
+        songs: [
+            { name: 'Do It Again' }
+        ]
+    },
+    {
+        id: 'the-band',
+        name: 'The Band',
+        songs: [
+            { name: 'The Weight' }
+        ]
+    },
+    {
         id: 'electric-light-orchestra',
         name: 'Electric Light Orchestra',
         songs: [
@@ -844,6 +858,13 @@ export const musiciansArray = [
         name: 'Cream',
         songs: [
             { name: 'White Room' }
+        ]
+    },
+    {
+        id: 'the-j-geils-band',
+        name: 'The J. Geils Band',
+        songs: [
+            { name: 'Centerfold' }
         ]
     },
     {
@@ -861,37 +882,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'linkin-park',
-        name: 'Linkin Park',
-        songs: [
-            { name: 'Numb' }
-        ]
-    },
-    {
-        id: 'my-chemical-romance',
-        name: 'My Chemical Romance',
-        songs: [
-            { name: 'The Ghost Of You' }
-        ]
-    },
-    {
-        id: 'muse',
-        name: 'Muse',
-        songs: [
-            { name: 'Uprising' },
-            { name: 'Starlight' },
-            { name: 'Supermassive Black Hole' }
-        ]
-    },
-    {
-        id: 'green-day',
-        name: 'Green Day',
-        songs: [
-            { name: 'Boulevard Of Broken Dreams' },
-            { name: '21 Guns' },
-        ]
-    },
-    {
         id: 'augustana',
         name: 'Augustana',
         songs: [
@@ -906,6 +896,29 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'muse',
+        name: 'Muse',
+        songs: [
+            { name: 'Uprising' },
+            { name: 'Starlight' },
+            { name: 'Supermassive Black Hole' }
+        ]
+    },
+    {
+        id: 'linkin-park',
+        name: 'Linkin Park',
+        songs: [
+            { name: 'Numb' }
+        ]
+    },
+    {
+        id: 'my-chemical-romance',
+        name: 'My Chemical Romance',
+        songs: [
+            { name: 'The Ghost Of You' }
+        ]
+    },
+    {
         id: 'coldplay',
         name: 'Coldplay',
         songs: [
@@ -917,10 +930,32 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'green-day',
+        name: 'Green Day',
+        songs: [
+            { name: 'Boulevard Of Broken Dreams' },
+            { name: '21 Guns' },
+        ]
+    },
+    {
         id: 'wilco',
         name: 'Wilco',
         songs: [
             { name: 'How To Fight Loneliness' }
+        ]
+    },
+    {
+        id: 'wang-chung',
+        name: 'Wang Chung',
+        songs: [
+            { name: 'Space Junk' }
+        ]
+    },
+    {
+        id: 'joe-strummer-and-the-mescaleros',
+        name: 'Joe Strummer And The Mescaleros',
+        songs: [
+            { name: 'Mondo Bongo' }
         ]
     },
     {
@@ -939,13 +974,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'bag-raiders',
-        name: 'Bag Raiders',
-        songs: [
-            { name: 'Shooting Stars' }
-        ]
-    },
-    {
         id: 'smash-mouth',
         name: 'Smash Mouth',
         songs: [
@@ -953,17 +981,31 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'wang-chung',
-        name: 'Wang Chung',
+        id: 'kaiser-chiefs',
+        name: 'Kaiser Chiefs',
         songs: [
-            { name: 'Space Junk' }
+            { name: 'Ruby' }
         ]
     },
     {
-        id: 'joe-strummer-and-the-mescaleros',
-        name: 'Joe Strummer And The Mescaleros',
+        id: 'chronic-future',
+        name: 'Chronic Future',
         songs: [
-            { name: 'Mondo Bongo' }
+            { name: 'Time And Time Again' }
+        ]
+    },
+    {
+        id: 'the-von-bondies',
+        name: 'The Von Bondies',
+        songs: [
+            { name: "C'mon C'mon" }
+        ]
+    },
+    {
+        id: 'to-my-surprise',
+        name: 'To My Surprise',
+        songs: [
+            { name: 'Get It To Go' }
         ]
     },
     {
@@ -1196,6 +1238,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'bag-raiders',
+        name: 'Bag Raiders',
+        songs: [
+            { name: 'Shooting Stars' }
+        ]
+    },
+    {
         id: 'stromae',
         name: 'Stromae',
         songs: [
@@ -1252,13 +1301,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'max-richter',
-        name: 'Max Richter',
-        songs: [
-            { name: 'On The Nature Of Daylight' }
-        ]
-    },
-    {
         id: 'jorge-quintero',
         name: 'Jorge Quintero',
         songs: [
@@ -1270,6 +1312,13 @@ export const musiciansArray = [
         name: 'Joseph Kilna MacKenzie',
         songs: [
             { name: 'Sgt. MacKenzie' }
+        ]
+    },
+    {
+        id: 'frederic-weatherly',
+        name: 'Frederic Weatherly',
+        songs: [
+            { name: 'Danny Boy', recordingArtist: 'Gentri' }
         ]
     },
     {
