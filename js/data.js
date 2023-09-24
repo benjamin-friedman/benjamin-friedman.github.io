@@ -1217,8 +1217,22 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'john-wasson',
+        name: 'John Wasson',
+        songs: [
+            { name: 'Caravan' }
+        ]
+    },
+    {
         id: 'larnell-lewis',
         name: 'Larnell Lewis',
+        songs: [
+            { name: 'Drum Solo' }
+        ]
+    },
+    {
+        id: 'daniel-glass',
+        name: 'Daniel Glass',
         songs: [
             { name: 'Drum Solo' }
         ]
