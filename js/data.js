@@ -634,6 +634,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'the-tokens',
+        name: 'The Tokens',
+        songs: [
+            { name: 'The Lion Sleeps Tonight' }
+        ]
+    },
+    {
         id: 'imad-fares',
         name: 'Imad Fares',
         songs: [
@@ -788,7 +795,8 @@ export const musiciansArray = [
         id: 'radiohead',
         name: 'Radiohead',
         songs: [
-            { name: 'Creep' }
+            { name: 'Creep' },
+            { name: 'How To Disappear Completely' }
         ]
     },
     {
@@ -1239,6 +1247,20 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'odesza',
+        name: 'ODESZA',
+        songs: [
+            { name: 'Sun Models' }
+        ]
+    },
+    {
+        id: 'bag-raiders',
+        name: 'Bag Raiders',
+        songs: [
+            { name: 'Shooting Stars' }
+        ]
+    },
+    {
         id: 'feed-me-and-crystal-fighters',
         name: 'Feed Me and Crystal Fighters',
         songs: [
@@ -1250,13 +1272,6 @@ export const musiciansArray = [
         name: 'Junior Senior',
         songs: [
             { name: 'Move Your Feet' }
-        ]
-    },
-    {
-        id: 'bag-raiders',
-        name: 'Bag Raiders',
-        songs: [
-            { name: 'Shooting Stars' }
         ]
     },
     {
@@ -1281,24 +1296,17 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'o-zone',
+        name: 'O-Zone',
+        songs: [
+            { name: 'Dragostea Din Tei' }
+        ]
+    },
+    {
         id: 'pharrell-williams',
         name: 'Pharrell Williams',
         songs: [
             { name: 'Happy' }
-        ]
-    },
-    {
-        id: 'odesza',
-        name: 'ODESZA',
-        songs: [
-            { name: 'Sun Models' }
-        ]
-    },
-    {
-        id: 'mike-patton',
-        name: 'Mike Patton',
-        songs: [
-            { name: 'The Snow Angel' }
         ]
     },
     {
@@ -1320,6 +1328,13 @@ export const musiciansArray = [
         name: 'Jorge Quintero',
         songs: [
             { name: '300 Violin Orchestra' }
+        ]
+    },
+    {
+        id: 'mike-patton',
+        name: 'Mike Patton',
+        songs: [
+            { name: 'The Snow Angel' }
         ]
     },
     {
