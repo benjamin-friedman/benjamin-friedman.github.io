@@ -876,6 +876,21 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'dick-dale',
+        name: 'Dick Dale',
+        songs: [
+            { name: 'Miserlou' }
+        ]
+    },
+    {
+        id: 'gary-glitter',
+        name: 'Gary Glitter',
+        songs: [
+            { name: "Rock 'n' Roll (Part 1)" },
+            { name: "Rock 'n' Roll (Part 2)" }
+        ]
+    },
+    {
         id: 'oasis',
         name: 'Oasis',
         songs: [
