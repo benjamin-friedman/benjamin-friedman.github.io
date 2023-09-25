@@ -641,6 +641,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'joe-strummer-and-the-mescaleros',
+        name: 'Joe Strummer And The Mescaleros',
+        songs: [
+            { name: 'Mondo Bongo' }
+        ]
+    },
+    {
         id: 'imad-fares',
         name: 'Imad Fares',
         songs: [
@@ -968,17 +975,17 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'twenty-one-pilots',
+        name: 'Twenty One Pilots',
+        songs: [
+            { name: 'Ride' }
+        ]
+    },
+    {
         id: 'wang-chung',
         name: 'Wang Chung',
         songs: [
             { name: 'Space Junk' }
-        ]
-    },
-    {
-        id: 'joe-strummer-and-the-mescaleros',
-        name: 'Joe Strummer And The Mescaleros',
-        songs: [
-            { name: 'Mondo Bongo' }
         ]
     },
     {
@@ -1308,6 +1315,13 @@ export const musiciansArray = [
         name: 'Stromae',
         songs: [
             { name: 'Alors On Danse' }
+        ]
+    },
+    {
+        id: 'enur',
+        name: 'Enur',
+        songs: [
+            { name: 'Calabria 2008' }
         ]
     },
     {
