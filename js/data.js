@@ -1025,6 +1025,20 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'the-cranberries',
+        name: 'The Cranberries',
+        songs: [
+            { name: 'Zombie' }
+        ]
+    },
+    {
+        id: '4-non-blondes',
+        name: '4 Non Blondes',
+        songs: [
+            { name: "What's Up" }
+        ]
+    },
+    {
         id: 'dropkick-murphys',
         name: 'Dropkick Murphys',
         songs: [
@@ -1087,6 +1101,13 @@ export const musiciansArray = [
         songs: [
             { name: 'Sowing The Seeds Of Love' },
             { name: 'Everybody Wants To Rule The World' }
+        ]
+    },
+    {
+        id: 'a-ha',
+        name: 'A-ha',
+        songs: [
+            { name: 'Take On Me' }
         ]
     },
     {
