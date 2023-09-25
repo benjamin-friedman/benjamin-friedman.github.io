@@ -360,6 +360,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'jorge-quintero',
+        name: 'Jorge Quintero',
+        songs: [
+            { name: '300 Violin Orchestra' }
+        ]
+    },
+    {
         id: 'johann-johannsson',
         name: 'Johann Johannsson',
         songs: [
@@ -372,6 +379,13 @@ export const musiciansArray = [
         songs: [
             { name: 'Paradox' },
             { name: 'For Her' }
+        ]
+    },
+    {
+        id: 'mike-patton',
+        name: 'Mike Patton',
+        songs: [
+            { name: 'The Snow Angel' }
         ]
     },
     {
@@ -1139,6 +1153,27 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'suicidal-tendencies',
+        name: 'Suicidal Tendencies',
+        songs: [
+            { name: 'Institutionalized' }
+        ]
+    },
+    {
+        id: 'house-of-pain',
+        name: 'House Of Pain',
+        songs: [
+            { name: 'Jump Around' }
+        ]
+    },
+    {
+        id: 'naughty-by-nature',
+        name: 'Naughty By Nature',
+        songs: [
+            { name: 'Hip Hop Hooray' }
+        ]
+    },
+    {
         id: 'eminem',
         name: 'Eminem',
         songs: [
@@ -1149,7 +1184,12 @@ export const musiciansArray = [
             { name: "Won't Back Down" },
             { name: 'Like Toy Soldiers' },
             { name: 'Stan' },
-            { name: 'Fast Lane' }
+            { name: 'Fast Lane' },
+            { name: 'Rap God' },
+            { name: 'Space Bound' },
+            { name: 'Crack A Bottle' },
+            { name: 'Without Me' },
+            { name: 'The Real Slim Shady' }
         ]
     },
     {
@@ -1175,7 +1215,9 @@ export const musiciansArray = [
             { name: 'Black Boy Fly' },
             { name: 'Ignorance Is Bliss' },
             { name: 'Money Trees' },
-            { name: 'The Recipe' }
+            { name: 'The Recipe' },
+            { name: 'm.A.A.d city'},
+            { name: 'Backseat Freestyle' }
         ]
     },
     {
@@ -1191,6 +1233,25 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'jay-z',
+        name: 'Jay-Z',
+        songs: [
+            { name: 'Empire State Of Mind' },
+            { name: 'Hard Knock Life' },
+            { name: 'On To The Next One' }
+        ]
+    },
+    {
+        id: 'drake',
+        name: 'Drake',
+        songs: [
+            { name: 'Forever' },
+            { name: 'Successful' },
+            { name: "God's Plan" },
+            { name: 'Hotline Bling' }
+        ]
+    },
+    {
         id: 'lupe-fiasco',
         name: 'Lupe Fiasco',
         songs: [
@@ -1198,10 +1259,11 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'suicidal-tendencies',
-        name: 'Suicidal Tendencies',
+        id: 'outkast',
+        name: 'Outkast',
         songs: [
-            { name: 'Institutionalized' }
+            { name: 'Hey Ya!' },
+            { name: 'Ms. Jackson' }
         ]
     },
     {
@@ -1209,20 +1271,6 @@ export const musiciansArray = [
         name: 'Flobots',
         songs: [
             { name: 'Handlebars' }
-        ]
-    },
-    {
-        id: 'house-of-pain',
-        name: 'House Of Pain',
-        songs: [
-            { name: 'Jump Around' }
-        ]
-    },
-    {
-        id: 'naughty-by-nature',
-        name: 'Naughty By Nature',
-        songs: [
-            { name: 'Hip Hop Hooray' }
         ]
     },
     {
@@ -1406,20 +1454,6 @@ export const musiciansArray = [
         name: 'Tony Anderson',
         songs: [
             { name: 'Ember' }
-        ]
-    },
-    {
-        id: 'jorge-quintero',
-        name: 'Jorge Quintero',
-        songs: [
-            { name: '300 Violin Orchestra' }
-        ]
-    },
-    {
-        id: 'mike-patton',
-        name: 'Mike Patton',
-        songs: [
-            { name: 'The Snow Angel' }
         ]
     },
     {
