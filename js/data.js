@@ -919,7 +919,7 @@ export const musiciansArray = [
     },
     {
         id: 'joan-jett-and-the-blackhearts',
-        name: 'Joan Jett And The BlackHearts',
+        name: 'Joan Jett And The Blackhearts',
         songs: [
             { name: "I Love Rock 'N Roll", contributors: 'The Arrows' }
         ]
