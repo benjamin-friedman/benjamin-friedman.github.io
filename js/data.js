@@ -606,6 +606,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'elton-john',
+        name: 'Elton John',
+        songs: [
+            { name: 'Tiny Dancer' }
+        ]
+    },
+    {
         id: 'john-denver',
         name: 'John Denver',
         songs: [
@@ -638,6 +645,13 @@ export const musiciansArray = [
         name: 'The Tokens',
         songs: [
             { name: 'The Lion Sleeps Tonight' }
+        ]
+    },
+    {
+        id: 'the-isley-brothers',
+        name: 'The Isley Brothers',
+        songs: [
+            { name: 'Shout' }
         ]
     },
     {
@@ -887,6 +901,13 @@ export const musiciansArray = [
         name: 'Dick Dale',
         songs: [
             { name: 'Miserlou' }
+        ]
+    },
+    {
+        id: 'joan-jett-and-the-blackhearts',
+        name: 'Joan Jett And The BlackHearts',
+        songs: [
+            { name: "I Love Rock 'N Roll", contributors: 'The Arrows' }
         ]
     },
     {
