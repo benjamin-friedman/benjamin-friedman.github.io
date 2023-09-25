@@ -1381,6 +1381,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'bird-york',
+        name: 'Bird York',
+        songs: [
+            { name: 'Have No Fear' }
+        ]
+    },
+    {
         id: 'joseph-kilna-mackenzie',
         name: 'Joseph Kilna MacKenzie',
         songs: [
