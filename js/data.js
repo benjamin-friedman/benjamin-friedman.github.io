@@ -1380,6 +1380,31 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'mike-posner',
+        name: 'Mike Posner',
+        songs: [
+            { name: 'I Took A Pill In Ibiza' }
+        ]
+    },
+    {
+        id: 'calvin-harris',
+        name: 'Calvin Harris',
+        songs: [
+            { name: 'Blame' }
+        ]
+    },
+    {
+        id: 'skrillex',
+        name: 'Skrillex',
+        songs: [
+            { name: 'Cinema' },
+            { name: 'First Of The Year' },
+            { name: 'Scary Monsters And Nice Sprites' },
+            { name: 'Kyoto' },
+            { name: 'Reptile' }
+        ]
+    },
+    {
         id: 'bag-raiders',
         name: 'Bag Raiders',
         songs: [
