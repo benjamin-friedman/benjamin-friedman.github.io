@@ -827,14 +827,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'radiohead',
-        name: 'Radiohead',
-        songs: [
-            { name: 'Creep' },
-            { name: 'How To Disappear Completely' }
-        ]
-    },
-    {
         id: 'the-who',
         name: 'The Who',
         songs: [
@@ -930,6 +922,28 @@ export const musiciansArray = [
         songs: [
             { name: "Rock 'n' Roll (Part 1)" },
             { name: "Rock 'n' Roll (Part 2)" }
+        ]
+    },
+    {
+        id: 'radiohead',
+        name: 'Radiohead',
+        songs: [
+            { name: 'Creep' },
+            { name: 'How To Disappear Completely' }
+        ]
+    },
+    {
+        id: 'the-cranberries',
+        name: 'The Cranberries',
+        songs: [
+            { name: 'Zombie' }
+        ]
+    },
+    {
+        id: '4-non-blondes',
+        name: '4 Non Blondes',
+        songs: [
+            { name: "What's Up" }
         ]
     },
     {
@@ -1036,20 +1050,6 @@ export const musiciansArray = [
         songs: [
             { name: 'Seven Nation Army' },
             { name: "We're Gonna Be Friends" }
-        ]
-    },
-    {
-        id: 'the-cranberries',
-        name: 'The Cranberries',
-        songs: [
-            { name: 'Zombie' }
-        ]
-    },
-    {
-        id: '4-non-blondes',
-        name: '4 Non Blondes',
-        songs: [
-            { name: "What's Up" }
         ]
     },
     {
