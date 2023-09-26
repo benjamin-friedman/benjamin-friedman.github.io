@@ -627,6 +627,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'queen',
+        name: 'Queen',
+        songs: [
+            { name: 'Bohemian Rhapsody' }
+        ]
+    },
+    {
         id: 'john-denver',
         name: 'John Denver',
         songs: [
@@ -1217,7 +1224,8 @@ export const musiciansArray = [
             { name: 'Money Trees' },
             { name: 'The Recipe' },
             { name: 'm.A.A.d city'},
-            { name: 'Backseat Freestyle' }
+            { name: 'Backseat Freestyle' },
+            { name: 'untitled 07 levitate' }
         ]
     },
     {
@@ -1289,6 +1297,15 @@ export const musiciansArray = [
             { name: 'Boom Boom Pow' },
             { name: 'I Gotta Feeling' },
             { name: 'Meet Me Halfway' }
+        ]
+    },
+    {
+        id: 'kid-cudi',
+        name: 'Kid Cudi',
+        songs: [
+            { name: 'Pursuit Of Happiness' },
+            { name: 'Just What I Am' },
+            { name: 'REVOFEV' }
         ]
     },
     {
@@ -1391,6 +1408,13 @@ export const musiciansArray = [
         name: 'Calvin Harris',
         songs: [
             { name: 'Blame' }
+        ]
+    },
+    {
+        id: 'sound-remedy',
+        name: 'Sound Remedy',
+        songs: [
+            { name: 'Medicine (Sound Remedy Remix)', contributors: 'Daughter' }
         ]
     },
     {
