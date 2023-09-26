@@ -1232,7 +1232,6 @@ export const musiciansArray = [
             { name: 'Money Trees' },
             { name: 'The Recipe' },
             { name: 'm.A.A.d city'},
-            { name: 'Backseat Freestyle' },
             { name: 'untitled 07 levitate' }
         ]
     },
