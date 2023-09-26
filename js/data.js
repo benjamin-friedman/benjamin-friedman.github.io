@@ -34,6 +34,7 @@ export const musiciansArray = [
             { name: 'Time', soundtrack: 'Inception' },
             { name: 'Projections', soundtrack: 'Inception' },
             { name: 'First Step', soundtrack: 'Interstellar' },
+            { name: 'First Step - Piano', soundtrack: 'Interstellar', recordingArtist: 'Kyle Landry' },
             { name: 'No Time For Caution', soundtrack: 'Interstellar' },
             { name: 'Mountains', soundtrack: 'Interstellar' },
             { name: 'Goodbye My Son', soundtrack: 'Man Of Steel' },
@@ -1016,6 +1017,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'snow-patrol',
+        name: 'Snow Patrol',
+        songs: [
+            { name: 'Chasing Cars' }
+        ]
+    },
+    {
         id: 'green-day',
         name: 'Green Day',
         songs: [
@@ -1210,8 +1218,8 @@ export const musiciansArray = [
             { name: 'The Watcher' },
             { name: 'Forgot About Dre' },
             { name: 'The Message' },
-            { name: 'Murder Ink' },
-            { name: 'Still D.R.E.' }
+            { name: 'Still D.R.E.' },
+            { name: 'I Need A Doctor' }
         ]
     },
     {
@@ -1238,25 +1246,6 @@ export const musiciansArray = [
             { name: 'No Church In The Wild' },
             { name: 'Blood On The Leaves' },
             { name: 'Flashing Lights' }
-        ]
-    },
-    {
-        id: 'jay-z',
-        name: 'Jay-Z',
-        songs: [
-            { name: 'Empire State Of Mind' },
-            { name: 'Hard Knock Life' },
-            { name: 'On To The Next One' }
-        ]
-    },
-    {
-        id: 'drake',
-        name: 'Drake',
-        songs: [
-            { name: 'Forever' },
-            { name: 'Successful' },
-            { name: "God's Plan" },
-            { name: 'Hotline Bling' }
         ]
     },
     {
@@ -1296,7 +1285,9 @@ export const musiciansArray = [
             { name: "Let's Get It Started" },
             { name: 'Boom Boom Pow' },
             { name: 'I Gotta Feeling' },
-            { name: 'Meet Me Halfway' }
+            { name: 'Meet Me Halfway' },
+            { name: "Just Can't Get Enough" },
+            { name: 'Rock That Body' }
         ]
     },
     {
@@ -1305,7 +1296,8 @@ export const musiciansArray = [
         songs: [
             { name: 'Pursuit Of Happiness' },
             { name: 'Just What I Am' },
-            { name: 'REVOFEV' }
+            { name: 'REVOFEV' },
+            { name: "Day 'n' Nite" }
         ]
     },
     {
@@ -1367,6 +1359,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'henry-krinkle',
+        name: 'Henry Krinkle',
+        songs: [
+            { name: 'Stay' }
+        ]
+    },
+    {
         id: 'imagine-dragons',
         name: 'Imagine Dragons',
         songs: [
@@ -1375,10 +1374,10 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'henry-krinkle',
-        name: 'Henry Krinkle',
+        id: 'awolnation',
+        name: 'AWOLNATION',
         songs: [
-            { name: 'Stay' }
+            { name: 'Sail' }
         ]
     },
     {
