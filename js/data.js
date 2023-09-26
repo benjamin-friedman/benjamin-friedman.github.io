@@ -933,22 +933,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'muse',
-        name: 'Muse',
-        songs: [
-            { name: 'Uprising' },
-            { name: 'Starlight' },
-            { name: 'Supermassive Black Hole' }
-        ]
-    },
-    {
-        id: 'my-chemical-romance',
-        name: 'My Chemical Romance',
-        songs: [
-            { name: 'The Ghost Of You' }
-        ]
-    },
-    {
         id: 'the-cranberries',
         name: 'The Cranberries',
         songs: [
@@ -968,6 +952,22 @@ export const musiciansArray = [
         songs: [
             { name: 'Creep' },
             { name: 'How To Disappear Completely' }
+        ]
+    },
+    {
+        id: 'muse',
+        name: 'Muse',
+        songs: [
+            { name: 'Uprising' },
+            { name: 'Starlight' },
+            { name: 'Supermassive Black Hole' }
+        ]
+    },
+    {
+        id: 'my-chemical-romance',
+        name: 'My Chemical Romance',
+        songs: [
+            { name: 'The Ghost Of You' }
         ]
     },
     {
