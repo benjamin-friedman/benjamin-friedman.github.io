@@ -787,6 +787,16 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'metallica',
+        name: 'Metallica',
+        songs: [
+            { name: 'Enter Sandman' },
+            { name: 'Nothing Else Matters' },
+            { name: 'Master Of Puppets' },
+            { name: 'For Whom The Bell Tolls' }
+        ]
+    },
+    {
         id: 'aerosmith',
         name: 'Aerosmith',
         songs: [
@@ -799,16 +809,6 @@ export const musiciansArray = [
         name: 'Blue Oyster Cult',
         songs: [
             { name: "(Don't Fear) The Reaper" }
-        ]
-    },
-    {
-        id: 'metallica',
-        name: 'Metallica',
-        songs: [
-            { name: 'Enter Sandman' },
-            { name: 'Nothing Else Matters' },
-            { name: 'Master Of Puppets' },
-            { name: 'For Whom The Bell Tolls' }
         ]
     },
     {
@@ -933,11 +933,19 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'radiohead',
-        name: 'Radiohead',
+        id: 'muse',
+        name: 'Muse',
         songs: [
-            { name: 'Creep' },
-            { name: 'How To Disappear Completely' }
+            { name: 'Uprising' },
+            { name: 'Starlight' },
+            { name: 'Supermassive Black Hole' }
+        ]
+    },
+    {
+        id: 'my-chemical-romance',
+        name: 'My Chemical Romance',
+        songs: [
+            { name: 'The Ghost Of You' }
         ]
     },
     {
@@ -955,10 +963,25 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'oasis',
-        name: 'Oasis',
+        id: 'radiohead',
+        name: 'Radiohead',
         songs: [
-            { name: 'Wonderwall' }
+            { name: 'Creep' },
+            { name: 'How To Disappear Completely' }
+        ]
+    },
+    {
+        id: 'linkin-park',
+        name: 'Linkin Park',
+        songs: [
+            { name: 'Numb' }
+        ]
+    },
+    {
+        id: 'twenty-one-pilots',
+        name: 'Twenty One Pilots',
+        songs: [
+            { name: 'Ride' }
         ]
     },
     {
@@ -966,6 +989,13 @@ export const musiciansArray = [
         name: 'The Goo Goo Dolls',
         songs: [
             { name: 'Iris' }
+        ]
+    },
+    {
+        id: 'oasis',
+        name: 'Oasis',
+        songs: [
+            { name: 'Wonderwall' }
         ]
     },
     {
@@ -983,26 +1013,11 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'muse',
-        name: 'Muse',
+        id: 'green-day',
+        name: 'Green Day',
         songs: [
-            { name: 'Uprising' },
-            { name: 'Starlight' },
-            { name: 'Supermassive Black Hole' }
-        ]
-    },
-    {
-        id: 'linkin-park',
-        name: 'Linkin Park',
-        songs: [
-            { name: 'Numb' }
-        ]
-    },
-    {
-        id: 'my-chemical-romance',
-        name: 'My Chemical Romance',
-        songs: [
-            { name: 'The Ghost Of You' }
+            { name: 'Boulevard Of Broken Dreams' },
+            { name: '21 Guns' },
         ]
     },
     {
@@ -1024,14 +1039,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'green-day',
-        name: 'Green Day',
-        songs: [
-            { name: 'Boulevard Of Broken Dreams' },
-            { name: '21 Guns' },
-        ]
-    },
-    {
         id: 'wilco',
         name: 'Wilco',
         songs: [
@@ -1039,24 +1046,10 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'twenty-one-pilots',
-        name: 'Twenty One Pilots',
-        songs: [
-            { name: 'Ride' }
-        ]
-    },
-    {
         id: 'wang-chung',
         name: 'Wang Chung',
         songs: [
             { name: 'Space Junk' }
-        ]
-    },
-    {
-        id: 'hometown-hero',
-        name: 'Hometown Hero',
-        songs: [
-            { name: 'Robbers' }
         ]
     },
     {
@@ -1094,6 +1087,13 @@ export const musiciansArray = [
         name: 'Jet',
         songs: [
             { name: 'Are You Gonna Be My Girl' }
+        ]
+    },
+    {
+        id: 'hometown-hero',
+        name: 'Hometown Hero',
+        songs: [
+            { name: 'Robbers' }
         ]
     },
     {
