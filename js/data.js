@@ -276,6 +276,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'dvorak',
+        name: 'Dvorak',
+        songs: [
+            { name: 'Symphony No. 9 in E Minor Op. 95 B. 178 II. (From The New World)', recordingMusician: 'Berlin Philharmonic Orchestra' }
+        ]
+    },
+    {
         id: 'harry-gregson-williams',
         name: 'Harry Gregson-Williams',
         songs: [
@@ -423,7 +430,8 @@ export const musiciansArray = [
         id: 'eva-cassidy',
         name: 'Eva Cassidy',
         songs: [
-            { name: 'Wade In The Water' }
+            { name: 'Wade In The Water' },
+            { name: 'Fields Of Gold' }
         ]
     },
     {
@@ -480,7 +488,8 @@ export const musiciansArray = [
         id: 'van-morrison',
         name: 'Van Morrison',
         songs: [
-            { name: 'Moondance' }
+            { name: 'Moondance' },
+            { name: 'Brown Eyed Girl' }
         ]
     },
     {
@@ -855,7 +864,8 @@ export const musiciansArray = [
         id: 'creedence-clearwater-revival',
         name: 'Creedence Clearwater Revival',
         songs: [
-            { name: 'Have You Ever Seen The Rain' }
+            { name: 'Have You Ever Seen The Rain' },
+            { name: 'Fortunate Son' }
         ]
     },
     {
@@ -1076,6 +1086,14 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'u2',
+        name: 'U2',
+        songs: [
+            { name: 'Vertigo' },
+            { name: 'Beautiful Day' }
+        ]
+    },
+    {
         id: 'kaiser-chiefs',
         name: 'Kaiser Chiefs',
         songs: [
@@ -1164,7 +1182,8 @@ export const musiciansArray = [
         id: 'phil-collins',
         name: 'Phil Collins',
         songs: [
-            { name: 'In The Air Tonight' }
+            { name: 'In The Air Tonight' },
+            { name: "You'll Be In My Heart" }
         ]
     },
     {
@@ -1511,10 +1530,10 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'joseph-kilna-mackenzie',
-        name: 'Joseph Kilna MacKenzie',
+        id: 'celine-dion',
+        name: 'Celine Dion',
         songs: [
-            { name: 'Sgt. MacKenzie' }
+            { name: 'My Heart Will Go On' }
         ]
     },
     {
@@ -1522,6 +1541,13 @@ export const musiciansArray = [
         name: 'Frederic Weatherly',
         songs: [
             { name: 'Danny Boy', recordingArtist: 'Gentri' }
+        ]
+    },
+    {
+        id: 'joseph-kilna-mackenzie',
+        name: 'Joseph Kilna MacKenzie',
+        songs: [
+            { name: 'Sgt. MacKenzie' }
         ]
     },
     {
