@@ -128,7 +128,8 @@ export const musiciansArray = [
             { name: 'Serenade No. 10 for Winds in B Flat Major K. 361 (370a) III.', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
             { name: 'Requiem in D Minor K. 626 I. Introitus', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
             { name: 'Requiem in D Minor K. 626 III. Lacrimosa', recordingMusician: 'RIAS Chamber Choir' },
-            { name: 'Requiem in D Minor K. 626 III. Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser' }
+            { name: 'Requiem in D Minor K. 626 III. Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser' },
+            { name: 'Serenade No. 13 for Strings in G Major K. 525 I. (Eine kleine Nachtmusik)', recordingMusician: 'Stjepan Hauser' }
         ]
     },
     {
@@ -153,7 +154,8 @@ export const musiciansArray = [
             { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E Flat Minor', recordingMusician: 'Luke Faulkner' },
             { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E Flat Minor - Cello', recordingMusician: 'Sheku Kanneh-Mason' },
             { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', recordingMusician: 'Han-Na Chang' },
-            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', recordingMusician: 'Alison Lau' }
+            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', recordingMusician: 'Alison Lau' },
+            { name: 'Isle of the Dead Op. 29', recordingMusician: 'Royal Stockholm Philharmonic Orchestra' }
         ]
     },
     {
@@ -280,6 +282,13 @@ export const musiciansArray = [
         name: 'Dvorak',
         songs: [
             { name: 'Symphony No. 9 in E Minor Op. 95 B. 178 II. (From The New World)', recordingMusician: 'Berlin Philharmonic Orchestra' }
+        ]
+    },
+    {
+        id: 'donizetti',
+        name: 'Donizetti',
+        songs: [
+            { name: "L'elisir d'amore - Una furtiva lagrima", recordingMusician: 'Camille Thomas' }
         ]
     },
     {
