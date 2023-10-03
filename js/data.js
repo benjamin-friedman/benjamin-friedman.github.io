@@ -94,6 +94,7 @@ export const musiciansArray = [
             { name: 'Romance in E Minor S. 169 (O Pourqoi Donc)', recordingMusician: 'Genny Basso' },
             { name: 'Consolation No. 3 in D Flat Major S. 172', recordingMusician: 'Rousseau' },
             { name: 'Serenade D. 889 - Piano', recordingMusician: 'Rousseau', contributors: 'Schubert' },
+            { name: 'Etude No. 3 in D Flat Major S. 144 (Un Sospiro)', recordingMusician: 'Rousseau' },
             { name: 'Etude No. 3 in G Sharp Minor S. 141 (La Campanella)', recordingMusician: 'Rousseau', contributors: 'Paganini' }
         ]
     },
@@ -117,7 +118,8 @@ export const musiciansArray = [
             { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', recordingMusician: 'Stjepan Hauser and Lola Astanova' },
             { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', recordingMusician: 'Rousseau' },
             { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata)', recordingMusician: 'Rousseau' },
-            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', recordingMusician: 'Cole Rolland and Kristina Schiano' }
+            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', recordingMusician: 'Cole Rolland and Kristina Schiano' },
+            { name: 'Symphony No. 5 in C Minor Op. 67 I.', recordingMusician: 'Berlin Philharmonic Orchestra' }
         ]
     },
     {
@@ -126,6 +128,7 @@ export const musiciansArray = [
         songs: [
             { name: 'Fantasia No. 3 in D Minor K. 397 (385g)', recordingMusician: 'Kassia' },
             { name: 'Serenade No. 10 for Winds in B Flat Major K. 361 (370a) III.', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
+            { name: 'Serenade No. 10 for Winds in B Flat Major K. 361 (370a) VII.', recordingMusician: 'Orpheus Chamber Orchestra' },
             { name: 'Serenade No. 13 for Strings in G Major K. 525 I. (Eine kleine Nachtmusik)', recordingMusician: 'Stjepan Hauser' },
             { name: 'Requiem in D Minor K. 626 I. Introitus - Requiem aeternam', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
             { name: 'Requiem in D Minor K. 626 II. Kyrie', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
