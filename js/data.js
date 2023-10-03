@@ -126,10 +126,23 @@ export const musiciansArray = [
         songs: [
             { name: 'Fantasia No. 3 in D Minor K. 397 (385g)', recordingMusician: 'Kassia' },
             { name: 'Serenade No. 10 for Winds in B Flat Major K. 361 (370a) III.', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
-            { name: 'Requiem in D Minor K. 626 I. Introitus', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 III. Lacrimosa', recordingMusician: 'RIAS Chamber Choir' },
+            { name: 'Serenade No. 13 for Strings in G Major K. 525 I. (Eine kleine Nachtmusik)', recordingMusician: 'Stjepan Hauser' },
+            { name: 'Requiem in D Minor K. 626 I. Introitus - Requiem aeternam', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 II. Kyrie', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Dies irae', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Tuba mirum', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Rex tremendae', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Recordare', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Confutatis', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 IV. Offertorium - Domine Jesu', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 IV. Offertorium - Hostias', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 V. Sanctus', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 VI. Benedictus', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 VII. Agnus dei', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 VIII. Communio - Lux aeterna', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 VIII. Communio - Cum sanctus tuis', recordingMusician: "Choir of King's College, Cambridge" },
             { name: 'Requiem in D Minor K. 626 III. Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser' },
-            { name: 'Serenade No. 13 for Strings in G Major K. 525 I. (Eine kleine Nachtmusik)', recordingMusician: 'Stjepan Hauser' }
         ]
     },
     {
@@ -285,10 +298,26 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'brahms',
+        name: 'Brahms',
+        songs: [
+            { name: 'Symphony No. 3 in F Major Op. 90 III.', recordingMusician: 'Berlin Philharmonic Orchestra' },
+            { name: 'Hungarian Dance No. 1 in G Minor WoO 1', recordingMusician: 'Vienna Philharmonic Orchestra' },
+            { name: 'Hungarian Dance No. 5 in G Minor WoO 1', recordingMusician: 'Vienna Philharmonic Orchestra' }
+        ]
+    },
+    {
         id: 'donizetti',
         name: 'Donizetti',
         songs: [
             { name: "L'elisir d'amore - Una furtiva lagrima", recordingMusician: 'Camille Thomas' }
+        ]
+    },
+    {
+        id: 'mascagni',
+        name: 'Mascagni',
+        songs: [
+            { name: 'Cavalleria rusticana - Intermezzo sinfonico', recordingMusician: 'Orchestra del Teatro alla Scala di Milano' }
         ]
     },
     {
