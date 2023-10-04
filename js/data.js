@@ -275,29 +275,22 @@ export const musiciansArray = [
         id: 'handel',
         name: 'Handel',
         songs: [
-            { name: 'Suite No. 1 in B Flat Major IV.', recordingMusician: 'Khatia Buniatishvili', contributors: 'Wilhelm Kempff' },
-        ]
-    },
-    {
-        id: 'grieg',
-        name: 'Grieg',
-        songs: [
-            { name: 'Peer Gynt Suite No. 1 Op. 46 I. (Morning Mood)', recordingMusician: 'Berlin Philharmonic Orchestra' },
-            { name: 'Peer Gynt Suite No. 1 Op. 46 IV. (In the Hall of the Mountain King)', recordingMusician: 'Kassia' }
+            { name: 'Suite No. 1 in B Flat Major HWV 434 IV.', recordingMusician: 'Khatia Buniatishvili', contributors: 'Wilhelm Kempff' },
         ]
     },
     {
         id: 'tchaikovsky',
         name: 'Tchaikovsky',
         songs: [
-            { name: 'Swan Lake Suite Op. 20 - Swan Theme', recordingMusician: 'Royal Philharmonic Orchestra' }
-        ]
-    },
-    {
-        id: 'dvorak',
-        name: 'Dvorak',
-        songs: [
-            { name: 'Symphony No. 9 in E Minor Op. 95 B. 178 II. (From The New World)', recordingMusician: 'Berlin Philharmonic Orchestra' }
+            { name: 'Swan Lake Op. 20 I. Enchanted Lake', recordingMusician: 'Royal Philharmonic Orchestra' },
+            { name: 'Swan Lake Op. 20 XXI. Spanish Dance', recordingMusician: 'Royal Philharmonic Orchestra' },
+            { name: 'The Nutcracker Op. 71 Pas De Deux', recordingMusician: 'London Symphony Orchestra' },
+            { name: 'The Nutcracker Suite Op. 71a No. 2a March of the Toy Soldiers', recordingMusician: 'Metamorphose String Orchestra' },
+            { name: 'The Nutcracker Suite Op. 71a No. 2b Dance of the Sugar Plum Fairy', recordingMusician: 'Metamorphose String Orchestra' },
+            { name: 'The Nutcracker Suite Op. 71a No. 2c Russian Dance', recordingMusician: 'Metamorphose String Orchestra' },
+            { name: 'The Nutcracker Suite Op. 71a No. 2f Dance of the Mirlitons', recordingMusician: 'Metamorphose String Orchestra' },
+            { name: 'The Nutcracker Suite Op. 71a No. 3 Waltz of the Flowers', recordingMusician: 'London Symphony Orchestra' },
+            { name: '1812 Overture Op. 49', recordingMusician: 'St. Petersburg Chamber Choir, Leningrad Military Orchestra' }
         ]
     },
     {
@@ -307,6 +300,21 @@ export const musiciansArray = [
             { name: 'Symphony No. 3 in F Major Op. 90 III.', recordingMusician: 'Berlin Philharmonic Orchestra' },
             { name: 'Hungarian Dance No. 1 in G Minor WoO 1', recordingMusician: 'Vienna Philharmonic Orchestra' },
             { name: 'Hungarian Dance No. 5 in G Minor WoO 1', recordingMusician: 'Vienna Philharmonic Orchestra' }
+        ]
+    },
+    {
+        id: 'dvorak',
+        name: 'Dvorak',
+        songs: [
+            { name: 'Symphony No. 9 in E Minor Op. 95 B. 178 II. (From The New World)', recordingMusician: 'Berlin Philharmonic Orchestra' },
+        ]
+    },
+    {
+        id: 'grieg',
+        name: 'Grieg',
+        songs: [
+            { name: 'Peer Gynt Suite No. 1 Op. 46 I. (Morning Mood)', recordingMusician: 'Berlin Philharmonic Orchestra' },
+            { name: 'Peer Gynt Suite No. 1 Op. 46 IV. (In the Hall of the Mountain King)', recordingMusician: 'Kassia' }
         ]
     },
     {
