@@ -984,14 +984,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'gary-glitter',
-        name: 'Gary Glitter',
-        songs: [
-            { name: "Rock 'n' Roll (Part 1)" },
-            { name: "Rock 'n' Roll (Part 2)" }
-        ]
-    },
-    {
         id: 'the-cranberries',
         name: 'The Cranberries',
         songs: [
@@ -1355,6 +1347,14 @@ export const musiciansArray = [
             { name: 'Meet Me Halfway' },
             { name: "Just Can't Get Enough" },
             { name: 'Rock That Body' }
+        ]
+    },
+    {
+        id: 'frank-ocean',
+        name: 'Frank Ocean',
+        songs: [
+            { name: 'Nikes' },
+            { name: 'Thinkin Bout You' }
         ]
     },
     {
