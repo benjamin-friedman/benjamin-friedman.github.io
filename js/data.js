@@ -938,6 +938,7 @@ export const musiciansArray = [
             { name: 'Twist And Shout' },
             { name: 'Help!' },
             { name: 'All You Need Is Love' },
+            { name: 'Penny Lane' },
             { name: 'Hey Jude' }
         ]
     },
