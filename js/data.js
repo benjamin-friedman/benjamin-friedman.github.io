@@ -665,6 +665,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'john-mayer',
+        name: 'John Mayer',
+        songs: [
+            { name: 'Gravity' }
+        ]
+    },
+    {
         id: 'billy-joel',
         name: 'Billy Joel',
         songs: [
@@ -981,6 +988,13 @@ export const musiciansArray = [
         name: 'Joan Jett And The Blackhearts',
         songs: [
             { name: "I Love Rock 'N Roll", contributors: 'The Arrows' }
+        ]
+    },
+    {
+        id: 'kc-and-the-sunshine-band',
+        name: 'KC And The Sunshine Band',
+        songs: [
+            { name: 'Get Down Tonight' }
         ]
     },
     {
@@ -1492,6 +1506,13 @@ export const musiciansArray = [
             { name: 'Scary Monsters And Nice Sprites' },
             { name: 'Kyoto' },
             { name: 'Reptile' }
+        ]
+    },
+    {
+        id: 'omega',
+        name: 'Omega',
+        songs: [
+            { name: 'Overseer' }
         ]
     },
     {
