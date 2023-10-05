@@ -34,13 +34,14 @@ export const musiciansArray = [
             { name: 'Time', soundtrack: 'Inception' },
             { name: 'Projections', soundtrack: 'Inception' },
             { name: 'First Step', soundtrack: 'Interstellar' },
-            { name: 'First Step - Piano', soundtrack: 'Interstellar', recordingArtist: 'Kyle Landry' },
+            { name: 'First Step - Piano', soundtrack: 'Interstellar', recordingMusician: 'Kyle Landry' },
             { name: 'No Time For Caution', soundtrack: 'Interstellar' },
             { name: 'Mountains', soundtrack: 'Interstellar' },
             { name: 'Goodbye My Son', soundtrack: 'Man Of Steel' },
             { name: 'Is She With You', soundtrack: 'Batman v Superman' },
-            { name: 'Not In Blood But In Bond', soundtrack: 'Sherlock Holmes' },
+            { name: 'Not In Blood, But In Bond', soundtrack: 'Sherlock Holmes' },
             { name: 'Ah, Putrefaction', soundtrack: 'Sherlock Holmes' },
+            { name: 'Sherlock Holmes Fantasy', soundtrack: 'Sherlock Holmes', contributors: 'Aleksey Igudesman' },
             { name: 'A Way Of Life', soundtrack: 'The Last Samurai' },
             { name: 'A Small Measure Of Peace', soundtrack: 'The Last Samurai' },
             { name: 'Elysium', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
@@ -130,6 +131,8 @@ export const musiciansArray = [
             { name: 'Serenade No. 10 for Winds in B Flat Major K. 361 (370a) III.', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
             { name: 'Serenade No. 10 for Winds in B Flat Major K. 361 (370a) VII.', recordingMusician: 'Orpheus Chamber Orchestra' },
             { name: 'Serenade No. 13 for Strings in G Major K. 525 I. (Eine kleine Nachtmusik)', recordingMusician: 'Stjepan Hauser' },
+            { name: 'The Marriage of Figaro K. 492 Overture', recordingMusician: 'Berlin Philharmonic Orchestra' },
+            { name: 'Requiem in D Minor K. 626 I. Introitus - Requiem aeternam', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
             { name: 'Requiem in D Minor K. 626 I. Introitus - Requiem aeternam', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
             { name: 'Requiem in D Minor K. 626 II. Kyrie', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
             { name: 'Requiem in D Minor K. 626 III. Sequentia - Dies irae', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
@@ -315,6 +318,20 @@ export const musiciansArray = [
         songs: [
             { name: 'Peer Gynt Suite No. 1 Op. 46 I. (Morning Mood)', recordingMusician: 'Berlin Philharmonic Orchestra' },
             { name: 'Peer Gynt Suite No. 1 Op. 46 IV. (In the Hall of the Mountain King)', recordingMusician: 'Kassia' }
+        ]
+    },
+    {
+        id: 'strauss',
+        name: 'Strauss',
+        songs: [
+            { name: 'The Beautiful Blue Danube Op. 314', recordingMusician: 'Vienna Johann Strauss Orchestra' },
+        ]
+    },
+    {
+        id: 'verdi',
+        name: 'Verdi',
+        songs: [
+            { name: 'Messa da Requiem II. Dies irae - Dies irae', recordingMusician: 'Budapest Scoring Symphonic Orchestra' },
         ]
     },
     {
@@ -1605,6 +1622,14 @@ export const musiciansArray = [
         name: 'Celine Dion',
         songs: [
             { name: 'My Heart Will Go On' }
+        ]
+    },
+    {
+        id: 'rolf-lovland',
+        name: 'Rolf Lovland',
+        songs: [
+            { name: 'You Raise Me Up', recordingMusician: 'Josh Groban' },
+            { name: 'You Raise Me Up - Cello', recordingMusician: 'Jodok Cello' }
         ]
     },
     {
