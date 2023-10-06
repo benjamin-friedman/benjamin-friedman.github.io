@@ -94,9 +94,9 @@ export const musiciansArray = [
             { name: 'Liebestraum No. 3 in A Flat Major S. 541 (Love Dream)', recordingMusician: 'Khatia Buniatishvili' },
             { name: 'Romance in E Minor S. 169 (O Pourqoi Donc)', recordingMusician: 'Genny Basso' },
             { name: 'Consolation No. 3 in D Flat Major S. 172', recordingMusician: 'Rousseau' },
-            { name: 'Serenade D. 889 - Piano', recordingMusician: 'Rousseau', contributors: 'Schubert' },
+            { name: 'Serenade D. 889 - Piano', recordingMusician: 'Rousseau', composer: 'Schubert' },
             { name: 'Etude No. 3 in D Flat Major S. 144 (Un Sospiro)', recordingMusician: 'Rousseau' },
-            { name: 'Etude No. 3 in G Sharp Minor S. 141 (La Campanella)', recordingMusician: 'Rousseau', contributors: 'Paganini' }
+            { name: 'Etude No. 3 in G Sharp Minor S. 141 (La Campanella)', recordingMusician: 'Rousseau', composer: 'Paganini' }
         ]
     },
     {
@@ -117,7 +117,7 @@ export const musiciansArray = [
         songs: [
             { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata)', recordingMusician: 'Unknown' },
             { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', recordingMusician: 'Stjepan Hauser and Lola Astanova' },
-            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', recordingMusician: 'Rousseau' },
+            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', recordingMusician: 'Chris M.' },
             { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata)', recordingMusician: 'Rousseau' },
             { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', recordingMusician: 'Cole Rolland and Kristina Schiano' },
             { name: 'Symphony No. 5 in C Minor Op. 67 I.', recordingMusician: 'Berlin Philharmonic Orchestra' }
@@ -130,7 +130,7 @@ export const musiciansArray = [
             { name: 'Fantasia No. 3 in D Minor K. 397 (385g)', recordingMusician: 'Kassia' },
             { name: 'Serenade No. 10 for Winds in B Flat Major K. 361 (370a) III.', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
             { name: 'Serenade No. 10 for Winds in B Flat Major K. 361 (370a) VII.', recordingMusician: 'Orpheus Chamber Orchestra' },
-            { name: 'Serenade No. 13 for Strings in G Major K. 525 I. (Eine kleine Nachtmusik)', recordingMusician: 'Stjepan Hauser' },
+            { name: 'Serenade No. 13 for Strings in G Major K. 525 I. (Eine kleine Nachtmusik)', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
             { name: 'The Marriage of Figaro K. 492 Overture', recordingMusician: 'Berlin Philharmonic Orchestra' },
             { name: 'Requiem in D Minor K. 626 I. Introitus - Requiem aeternam', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
             { name: 'Requiem in D Minor K. 626 I. Introitus - Requiem aeternam', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
@@ -156,8 +156,8 @@ export const musiciansArray = [
         name: 'Bach',
         songs: [
             { name: 'Toccata and Fugue in D Minor BWV 565', recordingMusician: 'Rousseau' },
-            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String)', recordingMusician: 'Stjepan Hauser', contributors: 'August Wilhelmj' },
-            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Piano', recordingMusician: 'Khatia Buniatishvili', contributors: 'August Wilhelmj' },
+            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String)', recordingMusician: 'Stjepan Hauser', arrangement: 'August Wilhelmj' },
+            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Piano', recordingMusician: 'Khatia Buniatishvili', arrangement: 'August Wilhelmj' },
             { name: 'Cello Suite No. 1 in G Major BWV 1007 I. Prelude', recordingMusician: 'Yo-Yo Ma' }
         ]
     },
@@ -278,7 +278,7 @@ export const musiciansArray = [
         id: 'handel',
         name: 'Handel',
         songs: [
-            { name: 'Suite No. 1 in B Flat Major HWV 434 IV.', recordingMusician: 'Khatia Buniatishvili', contributors: 'Wilhelm Kempff' },
+            { name: 'Suite No. 1 in B Flat Major HWV 434 IV.', recordingMusician: 'Khatia Buniatishvili', arrangement: 'Wilhelm Kempff' },
         ]
     },
     {
@@ -628,7 +628,7 @@ export const musiciansArray = [
         id: 'rufus-wainwright',
         name: 'Rufus Wainwright',
         songs: [
-            { name: 'Hallelujah', contributors: 'Leonard Bernstein' }
+            { name: 'Hallelujah', composer: 'Leonard Bernstein' }
         ]
     },
     {
@@ -734,7 +734,7 @@ export const musiciansArray = [
         id: 'jon-batiste',
         name: 'Jon Batiste',
         songs: [
-            { name: 'Blackbird' }
+            { name: 'Blackbird', composer: 'The Beatles' }
         ]
     },
     {
@@ -857,7 +857,7 @@ export const musiciansArray = [
         name: 'Disturbed',
         songs: [
             { name: 'Down With The Sickness' },
-            { name: 'The Sound Of Silence', contributors: 'Simon & Garfunkel' }
+            { name: 'The Sound Of Silence', composer: 'Simon and Garfunkel' }
         ]
     },
     {
@@ -883,7 +883,6 @@ export const musiciansArray = [
         name: 'Aerosmith',
         songs: [
             { name: 'Dream On' }
-            
         ]
     },
     {
@@ -1005,7 +1004,7 @@ export const musiciansArray = [
         id: 'joan-jett-and-the-blackhearts',
         name: 'Joan Jett And The Blackhearts',
         songs: [
-            { name: "I Love Rock 'N Roll", contributors: 'The Arrows' }
+            { name: "I Love Rock 'N Roll", composer: 'The Arrows' }
         ]
     },
     {
@@ -1410,7 +1409,7 @@ export const musiciansArray = [
         id: 'gerry-mulligan',
         name: 'Gerry Mulligan',
         songs: [
-            { name: 'Prelude in E Minor Op. 28 No. 4 - Jazz', contributors: 'Chopin' }
+            { name: 'Prelude in E Minor Op. 28 No. 4 - Jazz', composer: 'Chopin' }
         ]
     },
     {
@@ -1512,7 +1511,7 @@ export const musiciansArray = [
         id: 'sound-remedy',
         name: 'Sound Remedy',
         songs: [
-            { name: 'Medicine (Sound Remedy Remix)', contributors: 'Daughter' }
+            { name: 'Medicine (Sound Remedy Remix)', composer: 'Daughter' }
         ]
     },
     {
