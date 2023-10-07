@@ -134,7 +134,6 @@ export const musiciansArray = [
             { name: 'Serenade No. 13 for Strings in G Major K. 525 I. (Eine kleine Nachtmusik)', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
             { name: 'The Marriage of Figaro K. 492 Overture', recordingMusician: 'Berlin Philharmonic Orchestra' },
             { name: 'Requiem in D Minor K. 626 I. Introitus - Requiem aeternam', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 I. Introitus - Requiem aeternam', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
             { name: 'Requiem in D Minor K. 626 II. Kyrie', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
             { name: 'Requiem in D Minor K. 626 III. Sequentia - Dies irae', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
             { name: 'Requiem in D Minor K. 626 III. Sequentia - Tuba mirum', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
@@ -149,7 +148,7 @@ export const musiciansArray = [
             { name: 'Requiem in D Minor K. 626 VII. Agnus dei', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
             { name: 'Requiem in D Minor K. 626 VIII. Communio - Lux aeterna', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
             { name: 'Requiem in D Minor K. 626 VIII. Communio - Cum sanctus tuis', recordingMusician: "Choir of King's College, Cambridge" },
-            { name: 'Requiem in D Minor K. 626 III. Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser' },
         ]
     },
     {
@@ -182,13 +181,13 @@ export const musiciansArray = [
         id: 'satie',
         name: 'Satie',
         songs: [
+            { name: 'Gymnopedie No. 1', recordingMusician: 'Rousseau'},
             { name: 'Gnossienne No. 1 - Interpretation 1', recordingMusician: 'Anne Queffelec'},
             { name: 'Gnossienne No. 1 - Interpretation 2', recordingMusician: 'Alice Sara Ott'},
             { name: 'Gnossienne No. 2', recordingMusician: 'Reinbert de Leeuw'},
             { name: 'Gnossienne No. 3', recordingMusician: 'Anne Queffelec'},
             { name: 'Gnossienne No. 4', recordingMusician: 'Anne Queffelec'},
-            { name: 'Gnossienne No. 5', recordingMusician: 'Anne Queffelec'},
-            { name: 'Gymnopedie No. 1', recordingMusician: 'Rousseau'}
+            { name: 'Gnossienne No. 5', recordingMusician: 'Anne Queffelec'}
         ]
     },
     {
@@ -1654,14 +1653,15 @@ export const musiciansArray = [
         id: 'frederic-weatherly',
         name: 'Frederic Weatherly',
         songs: [
-            { name: 'Danny Boy', recordingArtist: 'Gentri' }
+            { name: 'Danny Boy', recordingMusician: 'Gentri' }
         ]
     },
     {
-        id: 'bagpipe-master',
-        name: 'Bagpipe Master',
+        id: 'john-newton',
+        name: 'John Newton',
         songs: [
-            { name: 'Amazing Grace - Bagpipes' }
+            { name: 'Amazing Grace - Bagpipes', recordingMusician: 'Bagpipe Master' },
+            { name: 'Amazing Grace', recordingMusician: 'Dan Vasc' }
         ]
     },
     {
