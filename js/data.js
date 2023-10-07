@@ -197,7 +197,8 @@ export const musiciansArray = [
         songs: [
             { name: 'Reverie', recordingMusician: 'Rousseau' },
             { name: 'Suite bergamasque L. 75 III. (Clair de lune)', recordingMusician: 'Rousseau' },
-            { name: 'Arabesque No. 1 L. 66', recordingMusician: 'Rousseau' }
+            { name: 'Arabesque No. 1 L. 66', recordingMusician: 'Rousseau' },
+            { name: 'Preludes Book 1 L. 117 VIII. (The Girl with the Flaxen Hair)', recordingMusician: ''}
         ]
     },
     {
@@ -704,6 +705,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'gloria-gaynor',
+        name: 'Gloria Gaynor',
+        songs: [
+            { name: 'I Will Survive' }
+        ]
+    },
+    {
         id: 'elton-john',
         name: 'Elton John',
         songs: [
@@ -1034,6 +1042,7 @@ export const musiciansArray = [
         name: 'Radiohead',
         songs: [
             { name: 'Creep' },
+            { name: 'Creep (Live)' },
             { name: 'How To Disappear Completely' }
         ]
     },
@@ -1340,6 +1349,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'ice-cube',
+        name: 'Ice Cube',
+        songs: [
+            { name: 'You Know How We Do It' }
+        ]
+    },
+    {
         id: 'lupe-fiasco',
         name: 'Lupe Fiasco',
         songs: [
@@ -1625,11 +1641,13 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'rolf-lovland',
-        name: 'Rolf Lovland',
+        id: 'secret-garden',
+        name: 'Secret Garden',
         songs: [
             { name: 'You Raise Me Up', recordingMusician: 'Josh Groban' },
-            { name: 'You Raise Me Up - Cello', recordingMusician: 'Jodok Cello' }
+            { name: 'You Raise Me Up - Cello', recordingMusician: 'Jodok Cello' },
+            { name: 'Adagio' },
+            { name: 'Nocturne' }
         ]
     },
     {
@@ -1637,6 +1655,13 @@ export const musiciansArray = [
         name: 'Frederic Weatherly',
         songs: [
             { name: 'Danny Boy', recordingArtist: 'Gentri' }
+        ]
+    },
+    {
+        id: 'bagpipe-master',
+        name: 'Bagpipe Master',
+        songs: [
+            { name: 'Amazing Grace - Bagpipes' }
         ]
     },
     {
