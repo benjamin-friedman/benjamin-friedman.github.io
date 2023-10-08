@@ -246,6 +246,14 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'massenet',
+        name: 'Massenet',
+        songs: [
+            { name: 'Meditation from Thais', recordingMusician: 'Itzhak Perlman' },
+            { name: 'Meditation from Thais - Cello', recordingMusician: 'Stjepan Hauser' }
+        ]
+    },
+    {
         id: 'mussorgsky',
         name: 'Mussorgsky',
         songs: [
@@ -265,14 +273,6 @@ export const musiciansArray = [
         songs: [
             { name: 'Silent Night - Piano', recordingMusician: 'Rousseau' },
             { name: 'Silent Night - Cello', recordingMusician: 'Future Cello' }
-        ]
-    },
-    {
-        id: 'massenet',
-        name: 'Massenet',
-        songs: [
-            { name: 'Meditation from Thais', recordingMusician: 'Itzhak Perlman' },
-            { name: 'Meditation from Thais - Cello', recordingMusician: 'Stjepan Hauser' }
         ]
     },
     {
