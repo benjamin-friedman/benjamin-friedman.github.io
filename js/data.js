@@ -1342,7 +1342,7 @@ export const musiciansArray = [
             { name: 'Heartless' },
             { name: 'Love Lockdown' },
             { name: 'Send It Up' },
-            { name: 'No Church In The Wild' },
+            { name: 'No Church In The Wild', contributors: 'Jay-Z' },
             { name: 'Blood On The Leaves' },
             { name: 'Flashing Lights' }
         ]
@@ -1580,7 +1580,7 @@ export const musiciansArray = [
         id: 'enur',
         name: 'Enur',
         songs: [
-            { name: 'Calabria 2008' }
+            { name: 'Calabria 2008', contributors: 'Natasja' }
         ]
     },
     {
