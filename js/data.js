@@ -202,7 +202,7 @@ export const musiciansArray = [
     },
     {
         id: 'faure',
-        name: 'Faure',
+        name: 'Fauré',
         songs: [
             { name: 'Elegie Op. 24', recordingMusician: 'Harriet Krijgh' }
         ]
@@ -216,7 +216,7 @@ export const musiciansArray = [
     },
     {
         id: 'saint-saens',
-        name: 'Saint-Saens',
+        name: 'Saint-Saëns',
         songs: [
             { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser' },
             { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott and Yo-Yo Ma' },
@@ -308,7 +308,7 @@ export const musiciansArray = [
     },
     {
         id: 'dvorak',
-        name: 'Dvorak',
+        name: 'Dvořák',
         songs: [
             { name: 'Symphony No. 9 in E Minor Op. 95 B. 178 II. (From The New World)', recordingMusician: 'Berlin Philharmonic Orchestra' },
         ]
