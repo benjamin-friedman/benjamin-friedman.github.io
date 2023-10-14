@@ -697,34 +697,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'styx',
-        name: 'Styx',
-        songs: [
-            { name: 'Come Sail Away' }
-        ]
-    },
-    {
-        id: 'gloria-gaynor',
-        name: 'Gloria Gaynor',
-        songs: [
-            { name: 'I Will Survive' }
-        ]
-    },
-    {
-        id: 'elton-john',
-        name: 'Elton John',
-        songs: [
-            { name: 'Tiny Dancer' }
-        ]
-    },
-    {
-        id: 'queen',
-        name: 'Queen',
-        songs: [
-            { name: 'Bohemian Rhapsody' }
-        ]
-    },
-    {
         id: 'john-denver',
         name: 'John Denver',
         songs: [
@@ -1016,13 +988,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'kc-and-the-sunshine-band',
-        name: 'KC And The Sunshine Band',
-        songs: [
-            { name: 'Get Down Tonight' }
-        ]
-    },
-    {
         id: 'the-cranberries',
         name: 'The Cranberries',
         songs: [
@@ -1265,6 +1230,62 @@ export const musiciansArray = [
         songs: [
             { name: 'In The Air Tonight' },
             { name: "You'll Be In My Heart" }
+        ]
+    },
+    {
+        id: 'gloria-gaynor',
+        name: 'Gloria Gaynor',
+        songs: [
+            { name: 'I Will Survive' }
+        ]
+    },
+    {
+        id: 'andrea-true-connection',
+        name: 'Andrea True Connection',
+        songs: [
+            { name: 'More, More, More' }
+        ]
+    },
+    {
+        id: 'kc-and-the-sunshine-band',
+        name: 'KC And The Sunshine Band',
+        songs: [
+            { name: 'Get Down Tonight' }
+        ]
+    },
+    {
+        id: 'earth-wind-and-fire',
+        name: 'Earth, Wind & Fire',
+        songs: [
+            { name: 'September' }
+        ]
+    },
+    {
+        id: 'the-gap-band',
+        name: 'The Gap Band',
+        songs: [
+            { name: 'You Dropped A Bomb On Me' }
+        ]
+    },
+    {
+        id: 'elton-john',
+        name: 'Elton John',
+        songs: [
+            { name: 'Tiny Dancer' }
+        ]
+    },
+    {
+        id: 'styx',
+        name: 'Styx',
+        songs: [
+            { name: 'Come Sail Away' }
+        ]
+    },
+    {
+        id: 'queen',
+        name: 'Queen',
+        songs: [
+            { name: 'Bohemian Rhapsody' }
         ]
     },
     {
