@@ -804,7 +804,6 @@ export const musiciansArray = [
             { name: 'Duality' },
             { name: 'Custer' },
             { name: 'The Devil In I' },
-            { name: 'The Devil In I (Live)' },
             { name: 'Everything Ends' },
             { name: 'The Negative One' },
             { name: 'Snuff' }
@@ -853,8 +852,6 @@ export const musiciansArray = [
         name: 'Metallica',
         songs: [
             { name: 'Enter Sandman' },
-            { name: 'Nothing Else Matters' },
-            { name: 'Master Of Puppets' },
             { name: 'For Whom The Bell Tolls' }
         ]
     },
@@ -884,8 +881,7 @@ export const musiciansArray = [
         id: 'ac-dc',
         name: 'AC/DC',
         songs: [
-            { name: 'Thunderstruck' },
-            { name: 'Thunderstruck - Cello', recordingMusician: 'Stjepan Hauser, Luka Sulic' }
+            { name: 'Thunderstruck' }
         ]
     },
     {
@@ -916,8 +912,7 @@ export const musiciansArray = [
         id: 'creedence-clearwater-revival',
         name: 'Creedence Clearwater Revival',
         songs: [
-            { name: 'Have You Ever Seen The Rain' },
-            { name: 'Fortunate Son' }
+            { name: 'Have You Ever Seen The Rain' }
         ]
     },
     {
@@ -1006,7 +1001,6 @@ export const musiciansArray = [
         name: 'Radiohead',
         songs: [
             { name: 'Creep' },
-            { name: 'Creep (Live)' },
             { name: 'How To Disappear Completely' }
         ]
     },
@@ -1073,7 +1067,7 @@ export const musiciansArray = [
         name: 'Green Day',
         songs: [
             { name: 'Boulevard Of Broken Dreams' },
-            { name: '21 Guns' },
+            { name: '21 Guns' }
         ]
     },
     {
@@ -1112,8 +1106,7 @@ export const musiciansArray = [
         id: 'the-white-stripes',
         name: 'The White Stripes',
         songs: [
-            { name: 'Seven Nation Army' },
-            { name: "We're Gonna Be Friends" }
+            { name: 'Seven Nation Army' }
         ]
     },
     {
@@ -1250,7 +1243,8 @@ export const musiciansArray = [
         id: 'kc-and-the-sunshine-band',
         name: 'KC And The Sunshine Band',
         songs: [
-            { name: 'Get Down Tonight' }
+            { name: 'Get Down Tonight' },
+            { name: "That's the Way (I Like It)" }
         ]
     },
     {
@@ -1314,7 +1308,6 @@ export const musiciansArray = [
         name: 'Eminem',
         songs: [
             { name: 'Sing For The Moment' },
-            { name: 'Sing For The Moment (Instrumental)' },
             { name: 'Lose Yourself' },
             { name: 'Till I Collapse' },
             { name: "Won't Back Down" },
@@ -1322,10 +1315,7 @@ export const musiciansArray = [
             { name: 'Stan' },
             { name: 'Fast Lane' },
             { name: 'Rap God' },
-            { name: 'Space Bound' },
-            { name: 'Crack A Bottle' },
-            { name: 'Without Me' },
-            { name: 'The Real Slim Shady' }
+            { name: 'Space Bound' }
         ]
     },
     {
@@ -1339,8 +1329,7 @@ export const musiciansArray = [
             { name: 'The Watcher' },
             { name: 'Forgot About Dre' },
             { name: 'The Message' },
-            { name: 'Still D.R.E.' },
-            { name: 'I Need A Doctor' }
+            { name: 'Still D.R.E.' }
         ]
     },
     {
@@ -1352,8 +1341,7 @@ export const musiciansArray = [
             { name: 'Ignorance Is Bliss' },
             { name: 'Money Trees' },
             { name: 'The Recipe' },
-            { name: 'm.A.A.d city'},
-            { name: 'untitled 07 levitate' }
+            { name: 'm.A.A.d city'}
         ]
     },
     {
@@ -1681,8 +1669,7 @@ export const musiciansArray = [
         id: 'john-newton',
         name: 'John Newton',
         songs: [
-            { name: 'Amazing Grace - Bagpipes', recordingMusician: 'Bagpipe Master' },
-            { name: 'Amazing Grace', recordingMusician: 'Dan Vasc' }
+            { name: 'Amazing Grace - Bagpipes', recordingMusician: 'Bagpipe Master' }
         ]
     },
     {
