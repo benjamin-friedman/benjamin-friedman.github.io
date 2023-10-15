@@ -257,7 +257,7 @@ export const musiciansArray = [
         id: 'mussorgsky',
         name: 'Mussorgsky',
         songs: [
-            { name: 'Pictures at an Exhibition No. 2 II. vecchio castello', recordingMusician: 'Metamorphose String Orchestra & Pavel Lyubomudrov' },
+            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello', recordingMusician: 'Metamorphose String Orchestra & Pavel Lyubomudrov' },
         ]
     },
     {
