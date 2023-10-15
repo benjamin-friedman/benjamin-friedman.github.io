@@ -852,7 +852,7 @@ export const musiciansArray = [
         name: 'Metallica',
         songs: [
             { name: 'Enter Sandman' },
-            { name: 'For Whom The Bell Tolls' }
+            { name: 'Nothing Else Matters' }
         ]
     },
     {
