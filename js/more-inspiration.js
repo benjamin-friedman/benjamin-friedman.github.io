@@ -1,4 +1,29 @@
-import { writings } from './data.js';
+import { writingsArray } from './data.js';
+
+
+/*
+    Built based on writingsArray, used for the events to play the writings.
+    {
+        writing-id' : {
+            title: 'title',
+            author: 'author',
+            writing: [
+                [
+                    'line',
+                    'line',
+                    ...
+                ],
+                [
+                    'line',
+                    'line',
+                    ...
+                ],
+            ]
+        },
+        ...
+    }
+*/
+const writingsObject = {};
 
 
 // tracks the current writing being played
@@ -6,64 +31,98 @@ const audioWrapper = {
     audio: new Audio()
 };
 
-// tracks the time passed for cycling writingss
-const timerWrapper = {
-    timePassed: 0
-};
-
 
 
 
 /********** function definitions **********/
-const initializeWritingsPage = () => {
-    // Even though opacity should default to 1 upon loading, the value is being recognized as 0 even though it's visible on the screen.
-    // Unsure why this is. Regardless, this causes the opacity to immediately go to 0 during the first time cycling the writings so it has to be to 1 here.
-    const writingTitle = document.getElementById('writing-title');
-    const writingAuthor = document.getElementById('writing-author');
-    const writing = document.getElementById('writing');
-    writingTitle.style.opacity = 1;
-    writingAuthor.style.opacity = 1;
-    writing.style.opacity = 1;
-}
+const initializeWritingsPageLayout = (writingsArray) => {
+    const writingsMenuContainer = document.getElementById('writings-menu-container');
+    let newHTML = '';
 
-
-const cycleWritings = (writings, timerWrapper, audioWrapper) => {
-    cycleWritingsHelperChangeWriting(writings, audioWrapper);
-    timerWrapper.timePassed = 0;
-    let transitionHasBeenInitiated = false;
-    setInterval(() => {
-        if (
-            timerWrapper.timePassed >= (writings.displayTime - writings.transitionTime) && 
-            timerWrapper.timePassed < writings.displayTime &&
-            !transitionHasBeenInitiated
-        ) {
-            transitionHasBeenInitiated = true;
-            cycleWritingsHelperTransition(writings);
-            timerWrapper.timePassed += 100;
-        } else if (timerWrapper.timePassed >= writings.displayTime) {
-            transitionHasBeenInitiated = false;
-            cycleWritingsHelperChangeWriting(writings, audioWrapper);
-            timerWrapper.timePassed = 0;
+    // musicians and photos
+    for (let i = 0; i < writingsArray.length; i += 3) {
+        if (i === writingsArray.length - 1) {
+            newHTML = 
+                `
+                    <div class="row writings-menu-title-container">
+                        <div class="col-4 writings-menu-title">
+                            <h5 id="${writingsArray[i].id}">${writingsArray[i].title}</h5>
+                        </div>
+                    </div>
+                `;
+        } else if (i === writingsArray.length - 2) {
+            newHTML = 
+                `
+                    <div class="row writings-menu-title-container">
+                        <div class="col-4 writings-menu-title">
+                            <h5 id="${writingsArray[i].id}">${writingsArray[i].title}</h5>
+                        </div>
+                        <div class="col-4 writings-menu-title">
+                            <h5 id="${writingsArray[i + 1].id}">${writingsArray[i + 1].title}</h5>
+                        </div>
+                    </div>
+                `;
         } else {
-            timerWrapper.timePassed += 100;
-        }      
-    }, 100);
+            newHTML = 
+                `
+                    <div class="row writings-menu-title-container">
+                        <div class="col-4 writings-menu-title">
+                            <h5 id="${writingsArray[i].id}">${writingsArray[i].title}</h5>
+                        </div>
+                        <div class="col-4 writings-menu-title">
+                            <h5 id="${writingsArray[i + 1].id}">${writingsArray[i + 1].title}</h5>
+                        </div>
+                        <div class="col-4 writings-menu-title">
+                            <h5 id="${writingsArray[i + 2].id}">${writingsArray[i + 2].title}</h5>
+                        </div>
+                    </div>
+                `;
+        }
+        writingsMenuContainer.insertAdjacentHTML('beforeend', newHTML);
+    }
 }
 
 
-const cycleWritingsHelperChangeWriting = (writings, audioWrapper) => {
+const initializeWritingsObject = (writingsArray, writingsObject) => {
+    writingsArray.forEach(_writing => {
+        writingsObject[`${_writing.id}`] = {
+            title: _writing.title,
+            author: _writing.author,
+            writing: _writing.writing
+        }
+    });
+}
+
+
+const initializeWritingsPageEvents = (writingsObject, audioWrapper) => {
+    for (const writingId in writingsObject) {
+        const writingElement = document.getElementById(writingId);
+        writingElement.addEventListener('mouseover', () => {
+            writingElement.style.opacity = 0.5;
+        });
+        writingElement.addEventListener('mouseleave', () => {
+            writingElement.style.opacity = 1;
+        });
+        writingElement.addEventListener('click', () => {
+            playWriting(writingId, writingsObject, audioWrapper);
+        });   
+    }
+}
+
+
+const playWriting = (writingId, writingsObject, audioWrapper) => {
     const writingTitle = document.getElementById('writing-title');
     const writingAuthor = document.getElementById('writing-author');
     const writing = document.getElementById('writing');
     let newHTML = '';
 
     writingTitle.innerHTML = '';
-    writingTitle.insertAdjacentHTML('beforeend', `<h3>${writings.writingAndAuthor[writings.idx].title}</h3>`);
+    writingTitle.insertAdjacentHTML('beforeend', `<h3>${writingsObject[`${writingId}`].title}</h3>`);
     writingAuthor.innerHTML = '';
-    writingAuthor.insertAdjacentHTML('beforeend', `<h5>${writings.writingAndAuthor[writings.idx].author}</h5>`);
+    writingAuthor.insertAdjacentHTML('beforeend', `<h5>${writingsObject[`${writingId}`].author}</h5>`);
     writing.innerHTML = '';
 
-    const sections = writings.writingAndAuthor[writings.idx].writing.length;
+    const sections = writingsObject[`${writingId}`].writing.length;
     const sectionsDiv2 = Math.floor(sections / 2);
 
     // even number of sections
@@ -72,14 +131,14 @@ const cycleWritingsHelperChangeWriting = (writings, audioWrapper) => {
             newHTML += '<div class="row writing-section">';
 
             newHTML += '<div class="col">';
-            for (let j = 0; j < writings.writingAndAuthor[writings.idx].writing[i].length; ++j) {
-                newHTML += `<p>${writings.writingAndAuthor[writings.idx].writing[i][j]}</p>`;
+            for (let j = 0; j < writingsObject[`${writingId}`].writing[i].length; ++j) {
+                newHTML += `<p>${writingsObject[`${writingId}`].writing[i][j]}</p>`;
             }
             newHTML += '</div>';
 
             newHTML += '<div class="col">';
-            for (let j = 0; j < writings.writingAndAuthor[writings.idx].writing[i + sectionsDiv2].length; ++j) {
-                newHTML += `<p>${writings.writingAndAuthor[writings.idx].writing[i + sectionsDiv2][j]}</p>`;
+            for (let j = 0; j < writingsObject[`${writingId}`].writing[i + sectionsDiv2].length; ++j) {
+                newHTML += `<p>${writingsObject[`${writingId}`].writing[i + sectionsDiv2][j]}</p>`;
             }
             newHTML += '</div>'
 
@@ -90,8 +149,8 @@ const cycleWritingsHelperChangeWriting = (writings, audioWrapper) => {
             newHTML += '<div class="row writing-section">';
 
             newHTML += '<div class="col">';
-            for (let j = 0; j < writings.writingAndAuthor[writings.idx].writing[i].length; ++j) {
-                newHTML += `<p>${writings.writingAndAuthor[writings.idx].writing[i][j]}</p>`;
+            for (let j = 0; j < writingsObject[`${writingId}`].writing[i].length; ++j) {
+                newHTML += `<p>${writingsObject[`${writingId}`].writing[i][j]}</p>`;
             }
             newHTML += '</div>';
 
@@ -99,8 +158,8 @@ const cycleWritingsHelperChangeWriting = (writings, audioWrapper) => {
             if (sections !== 1) {
                 newHTML += '<div class="col">';
                 if (i < sectionsDiv2) {
-                    for (let j = 0; j < writings.writingAndAuthor[writings.idx].writing[i + sectionsDiv2].length; ++j) {
-                        newHTML += `<p>${writings.writingAndAuthor[writings.idx].writing[i + sectionsDiv2][j]}</p>`;
+                    for (let j = 0; j < writingsObject[`${writingId}`].writing[i + sectionsDiv2].length; ++j) {
+                        newHTML += `<p>${writingsObject[`${writingId}`].writing[i + sectionsDiv2][j]}</p>`;
                     }
                 }
                 newHTML += '</div>';
@@ -113,8 +172,7 @@ const cycleWritingsHelperChangeWriting = (writings, audioWrapper) => {
 
     // writing
     audioWrapper.audio.pause();
-    writings.displayTime = writings.displayTimeDefault; // set to some large default value, it takes some time for the audioPromise to complete and will cause an error if this isn't done
-    const writingFilePath = `../writings/${writings.writingAndAuthor[writings.idx].title}.mp3`;
+    const writingFilePath = `../writings/${writingsObject[`${writingId}`].title}.mp3`;
     audioWrapper.audio = new Audio(writingFilePath);
     const audioPromise = audioWrapper.audio.play();
     // this is here because of the following error, sometimes play() would fail and an error showed up in the console
@@ -122,42 +180,16 @@ const cycleWritingsHelperChangeWriting = (writings, audioWrapper) => {
     if (audioPromise !== undefined) {
         audioPromise.then(() => {
             // play was successful
-            writings.displayTime = audioWrapper.audio.duration * 1000;
-            writings.idx = (writings.idx < writings.writingAndAuthor.length - 1) ? writings.idx + 1 : 0;
         }).catch(e => {
             // play was not successful
         });
     }
-
-}
-
-
-const cycleWritingsHelperTransition = (writings) => {
-    const writingTitle = document.getElementById('writing-title');
-    const writingAuthor = document.getElementById('writing-author');
-    const writing = document.getElementById('writing');
-
-    const opacityChangesCount = writings.transitionTime / writings.opacityChangeIntervalTime;
-    for (let i = 0; i < opacityChangesCount; ++i) {
-        if (i < opacityChangesCount - 1) {
-            setTimeout(() => {
-                writingTitle.style.opacity = (writingTitle.style.opacity - (1 / (opacityChangesCount - 1)) < 0) ? 0 : writingTitle.style.opacity - (1 / (opacityChangesCount - 1));
-                writingAuthor.style.opacity = (writingAuthor.style.opacity - (1 / (opacityChangesCount - 1)) < 0) ? 0 : writingAuthor.style.opacity - (1 / (opacityChangesCount - 1));
-                writing.style.opacity = (writing.style.opacity - (1 / (opacityChangesCount - 1)) < 0) ? 0 : writing.style.opacity - (1 / (opacityChangesCount - 1));
-            }, (i + 1) * writings.opacityChangeIntervalTime);
-        } else {
-            setTimeout(() => {
-                writingTitle.style.opacity = 1;
-                writingAuthor.style.opacity = 1;
-                writing.style.opacity = 1;
-            }, (i + 1) * writings.opacityChangeIntervalTime);
-        }
-    }  
 }
 
 
 
 
 /********** function calls **********/
-initializeWritingsPage();
-cycleWritings(writings, timerWrapper, audioWrapper);
+initializeWritingsPageLayout(writingsArray);
+initializeWritingsObject(writingsArray, writingsObject);
+initializeWritingsPageEvents(writingsObject, audioWrapper);

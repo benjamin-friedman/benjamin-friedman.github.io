@@ -1726,209 +1726,207 @@ export const quotes = {
 
 
 
-
-export const writings = {
-    writingAndAuthor: [
-        {
-            title: 'Invictus',
-            author: 'William Ernest Henley',
-            writing: [
-                [
-                    'Out of the night that covers me,',
-                    'Black as the pit from pole to pole,',
-                    'I thank whatever gods may be',
-                    'For my unconquerable soul.'
-                ],
-                [
-                    'In the fell clutch of circumstance,',
-                    'I have not winced nor cried aloud.',
-                    'Under the bludgeonings of chance',
-                    'My head is bloody, but unbowed.'
-                ],
-                [
-                    'Beyond this place of wrath and tears',
-                    'Looms but the Horror of the shade,',
-                    'And yet the menace of the years',
-                    'Finds, and shall find, me unafraid.'
-                ],
-                [
-                    'It matters not how strait the gate,',
-                    'How charged with punishments the scroll,',
-                    'I am the master of my fate,',
-                    'I am the captain of my soul.'
-                ]
+export const writingsArray = [
+    {
+        id: 'invictus',
+        title: 'Invictus',
+        author: 'William Ernest Henley',
+        writing: [
+            [
+                'Out of the night that covers me,',
+                'Black as the pit from pole to pole,',
+                'I thank whatever gods may be',
+                'For my unconquerable soul.'
+            ],
+            [
+                'In the fell clutch of circumstance,',
+                'I have not winced nor cried aloud.',
+                'Under the bludgeonings of chance',
+                'My head is bloody, but unbowed.'
+            ],
+            [
+                'Beyond this place of wrath and tears',
+                'Looms but the Horror of the shade,',
+                'And yet the menace of the years',
+                'Finds, and shall find, me unafraid.'
+            ],
+            [
+                'It matters not how strait the gate,',
+                'How charged with punishments the scroll,',
+                'I am the master of my fate,',
+                'I am the captain of my soul.'
             ]
-        },
-        {
-            title: 'Do not go gentle into that good night',
-            author: 'Dylan Thomas',
-            writing: [
-                [
-                    'Do not go gentle into that good night,',
-                    'Old age should burn and rave at close of day;',
-                    'Rage, rage against the dying of the light.'
-                ],
-                [
-                    'Though wise men at their end know dark is right,',
-                    'Because their words had forked no lightning they',
-                    'Do not go gentle into that good night.'
-                ],
-                [
-                    'Good men, the last wave by, crying how bright',
-                    'Their frail deeds might have danced in a green bay,',
-                    'Rage, rage against the dying of the light.'
-                ],
-                [
-                    'Wild men who caught and sang the sun in flight,',
-                    'And learn, too late, they grieved it on its way,',
-                    'Do not go gentle into that good night.'
-                ],
-                [
-                    'Grave men, near death, who see with blinding sight',
-                    'Blind eyes could blaze like meteors and be gay,',
-                    'Rage, rage against the dying of the light.'
-                ],
-                [
-                    'And you, my father, there on the sad height,',
-                    'Curse, bless, me now with your fierce tears, I pray.',
-                    'Do not go gentle into that good night.',
-                    'Rage, rage against the dying of the light.'
-                ]
+        ]
+    },
+    {
+        id: 'do-not-go-gentle-into-that-good-night',
+        title: 'Do not go gentle into that good night',
+        author: 'Dylan Thomas',
+        writing: [
+            [
+                'Do not go gentle into that good night,',
+                'Old age should burn and rave at close of day;',
+                'Rage, rage against the dying of the light.'
+            ],
+            [
+                'Though wise men at their end know dark is right,',
+                'Because their words had forked no lightning they',
+                'Do not go gentle into that good night.'
+            ],
+            [
+                'Good men, the last wave by, crying how bright',
+                'Their frail deeds might have danced in a green bay,',
+                'Rage, rage against the dying of the light.'
+            ],
+            [
+                'Wild men who caught and sang the sun in flight,',
+                'And learn, too late, they grieved it on its way,',
+                'Do not go gentle into that good night.'
+            ],
+            [
+                'Grave men, near death, who see with blinding sight',
+                'Blind eyes could blaze like meteors and be gay,',
+                'Rage, rage against the dying of the light.'
+            ],
+            [
+                'And you, my father, there on the sad height,',
+                'Curse, bless, me now with your fierce tears, I pray.',
+                'Do not go gentle into that good night.',
+                'Rage, rage against the dying of the light.'
             ]
-        },
-        {
-            title: 'The Charge of the Light Brigade',
-            author: 'Alfred, Lord Tennyson',
-            writing: [
-                [
-                    'Half a league, half a league,',
-                    'Half a league onward,',
-                    'All in the valley of Death',
-                    'Rode the six hundred.',
-                    '“Forward, the Light Brigade!',
-                    'Charge for the guns!” he said.',
-                    'Into the valley of Death',
-                    'Rode the six hundred.'
-                ],
-                [
-                    '“Forward, the Light Brigade!”',
-                    'Was there a man dismayed?',
-                    'Not though the soldier knew',
-                    'Someone had blundered.',
-                    'Theirs not to make reply,',
-                    'Theirs not to reason why,',
-                    'Theirs but to do and die.',
-                    'Into the valley of Death',
-                    'Rode the six hundred.'
-                ],
-                [
-                    'Cannon to right of them,',
-                    'Cannon to left of them,',
-                    'Cannon in front of them',
-                    'Volleyed and thundered;',
-                    'Stormed at with shot and shell,',
-                    'Boldly they rode and well,',
-                    'Into the jaws of Death,',
-                    'Into the mouth of hell',
-                    'Rode the six hundred.'
-                ],
-                [
-                    'Flashed all their sabres bare,',
-                    'Flashed as they turned in air',
-                   ' Sabring the gunners there,',
-                    'Charging an army, while',
-                    'All the world wondered.',
-                    'Plunged in the battery-smoke',
-                    'Right through the line they broke;',
-                   ' Cossack and Russian',
-                    'Reeled from the sabre stroke',
-                    'Shattered and sundered.',
-                    'Then they rode back, but not',
-                    'Not the six hundred.'
-                ],
-                [
-                    'Cannon to right of them,',
-                    'Cannon to left of them,',
-                    'Cannon behind them',
-                    'Volleyed and thundered;',
-                    'Stormed at with shot and shell,',
-                    'While horse and hero fell.',
-                    'They that had fought so well',
-                    'Came through the jaws of Death,',
-                    'Back from the mouth of hell,',
-                    'All that was left of them,',
-                    'Left of six hundred.'
-                ],
-                [
-                    'When can their glory fade?',
-                    'O the wild charge they made!',
-                    'All the world wondered.',
-                    'Honour the charge they made!',
-                    'Honour the Light Brigade,',
-                    'Noble six hundred!'
-                ]
+        ]
+    },
+    {
+        id: 'the-charge-of-the-light-brigade',
+        title: 'The Charge of the Light Brigade',
+        author: 'Alfred, Lord Tennyson',
+        writing: [
+            [
+                'Half a league, half a league,',
+                'Half a league onward,',
+                'All in the valley of Death',
+                'Rode the six hundred.',
+                '“Forward, the Light Brigade!',
+                'Charge for the guns!” he said.',
+                'Into the valley of Death',
+                'Rode the six hundred.'
+            ],
+            [
+                '“Forward, the Light Brigade!”',
+                'Was there a man dismayed?',
+                'Not though the soldier knew',
+                'Someone had blundered.',
+                'Theirs not to make reply,',
+                'Theirs not to reason why,',
+                'Theirs but to do and die.',
+                'Into the valley of Death',
+                'Rode the six hundred.'
+            ],
+            [
+                'Cannon to right of them,',
+                'Cannon to left of them,',
+                'Cannon in front of them',
+                'Volleyed and thundered;',
+                'Stormed at with shot and shell,',
+                'Boldly they rode and well,',
+                'Into the jaws of Death,',
+                'Into the mouth of hell',
+                'Rode the six hundred.'
+            ],
+            [
+                'Flashed all their sabres bare,',
+                'Flashed as they turned in air',
+                ' Sabring the gunners there,',
+                'Charging an army, while',
+                'All the world wondered.',
+                'Plunged in the battery-smoke',
+                'Right through the line they broke;',
+                ' Cossack and Russian',
+                'Reeled from the sabre stroke',
+                'Shattered and sundered.',
+                'Then they rode back, but not',
+                'Not the six hundred.'
+            ],
+            [
+                'Cannon to right of them,',
+                'Cannon to left of them,',
+                'Cannon behind them',
+                'Volleyed and thundered;',
+                'Stormed at with shot and shell,',
+                'While horse and hero fell.',
+                'They that had fought so well',
+                'Came through the jaws of Death,',
+                'Back from the mouth of hell,',
+                'All that was left of them,',
+                'Left of six hundred.'
+            ],
+            [
+                'When can their glory fade?',
+                'O the wild charge they made!',
+                'All the world wondered.',
+                'Honour the charge they made!',
+                'Honour the Light Brigade,',
+                'Noble six hundred!'
             ]
-        },
-        {
-            title: 'A Tale of Two Cities',
-            author: 'Charles Dickens',
-            writing: [
-                [
-                    'I see a beautiful city and a brilliant people rising from this abyss.',
-                    "I see the lives for which I lay down my life, peaceful, useful, prosperous, and happy.",
-                    'I see that I hold a sanctuary in their hearts, and in the hearts of their descendants, generations hence.',
-                    'It is a far, far better thing that I do, than I have ever done;',
-                    'It is a far, far better rest that I go to, than I have ever known.'
-                ]
+        ]
+    },
+    {
+        id: 'a-tale-of-two-cities',
+        title: 'A Tale of Two Cities',
+        author: 'Charles Dickens',
+        writing: [
+            [
+                'I see a beautiful city and a brilliant people rising from this abyss.',
+                "I see the lives for which I lay down my life, peaceful, useful, prosperous, and happy.",
+                'I see that I hold a sanctuary in their hearts, and in the hearts of their descendants, generations hence.',
+                'It is a far, far better thing that I do, than I have ever done;',
+                'It is a far, far better rest that I go to, than I have ever known.'
             ]
-        },
-        {
-            title: 'Once More Into the Fray',
-            author: 'Joe Carnahan',
-            writing: [
-                [
-                    'Once more into the fray...',
-                    "Into the last good fight I'll ever know...",
-                    'Live and die on this day...',
-                    'Live and die on this day...'
-                ]
+        ]
+    },
+    {
+        id: 'once-more-into-the-fray',
+        title: 'Once More Into the Fray',
+        author: 'Joe Carnahan',
+        writing: [
+            [
+                'Once more into the fray...',
+                "Into the last good fight I'll ever know...",
+                'Live and die on this day...',
+                'Live and die on this day...'
             ]
-        },
-        {
-            title: 'The Final Speech',
-            author: 'The Great Dictator',
-            writing: [
-                [
-                    "Soldiers! don't give yourselves to brutes -",
-                    "men who despise you - enslave you - who regiment your lives -",
-                    "tell you what to do - what to think and what to feel!",
-                    "Who drill you - diet you - treat you like cattle, use you as cannon fodder.",
-                    "Don't give yourselves to these unnatural men -",
-                    "machine men with machine minds and machine hearts!",
-                    "You are not machines! You are not cattle! You are men!",
-                    "You have the love of humanity in your hearts!",
-                    "You don't hate! Only the unloved hate - the unloved and the unnatural!",
-                    "Soldiers! Don't fight for slavery! Fight for liberty!",
-                    "In the 17th Chapter of St Luke it is written: “the Kingdom of God is within man” - not one man nor a group of men, but in all men!",
-                    "In you! You, the people have the power - the power to create machines. The power to create happiness!",
-                    "You, the people, have the power to make this life free and beautiful, to make this life a wonderful adventure.",
-                    "Then - in the name of democracy - let us use that power - let us all unite.",
-                    "Let us fight for a new world - a decent world that will give men a chance to work -",
-                    "that will give youth a future and old age a security.",
-                    "By the promise of these things, brutes have risen to power.",
-                    "But they lie! They do not fulfil that promise. They never will!",
-                    "Dictators free themselves but they enslave the people!",
-                    "Now let us fight to fulfil that promise! Let us fight to free the world -",
-                    "to do away with national barriers - to do away with greed, with hate and intolerance.",
-                    "Let us fight for a world of reason, a world where science and progress will lead to all men's happiness.",
-                    "Soldiers! in the name of democracy, let us all unite!"
-                ]
+        ]
+    },
+    {
+        id: 'the-final-speech',
+        title: 'The Final Speech',
+        author: 'The Great Dictator',
+        writing: [
+            [
+                "Soldiers! don't give yourselves to brutes -",
+                "men who despise you - enslave you - who regiment your lives -",
+                "tell you what to do - what to think and what to feel!",
+                "Who drill you - diet you - treat you like cattle, use you as cannon fodder.",
+                "Don't give yourselves to these unnatural men -",
+                "machine men with machine minds and machine hearts!",
+                "You are not machines! You are not cattle! You are men!",
+                "You have the love of humanity in your hearts!",
+                "You don't hate! Only the unloved hate - the unloved and the unnatural!",
+                "Soldiers! Don't fight for slavery! Fight for liberty!",
+                "In the 17th Chapter of St Luke it is written: “the Kingdom of God is within man” - not one man nor a group of men, but in all men!",
+                "In you! You, the people have the power - the power to create machines. The power to create happiness!",
+                "You, the people, have the power to make this life free and beautiful, to make this life a wonderful adventure.",
+                "Then - in the name of democracy - let us use that power - let us all unite.",
+                "Let us fight for a new world - a decent world that will give men a chance to work -",
+                "that will give youth a future and old age a security.",
+                "By the promise of these things, brutes have risen to power.",
+                "But they lie! They do not fulfil that promise. They never will!",
+                "Dictators free themselves but they enslave the people!",
+                "Now let us fight to fulfil that promise! Let us fight to free the world -",
+                "to do away with national barriers - to do away with greed, with hate and intolerance.",
+                "Let us fight for a world of reason, a world where science and progress will lead to all men's happiness.",
+                "Soldiers! in the name of democracy, let us all unite!"
             ]
-        }
-    ],
-    idx: 0,
-    displayTimeDefault: 1000000,    // see comment below - used as a temporary value until the promise has resolved
-    displayTime: 0,                 // the actual display time is calculated at runtime based on the audio's duration but enough time needs to be given initially for the audio promise to resolve
-    transitionTime: 2500,           // time where opacity is fading
-    opacityChangeIntervalTime: 100  // interval time between 1 opacity change
-}
+        ]
+    }
+]

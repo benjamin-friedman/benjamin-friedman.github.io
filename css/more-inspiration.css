@@ -1,3 +1,13 @@
+#writings-menu-container {
+    color: white;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.writings-menu-title-container {
+    padding-bottom: 50px;
+}
+
 #writings-container {
     color: white;
     margin-top: 150px;

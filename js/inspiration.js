@@ -254,16 +254,16 @@ const initializePlaySongEvents = (musiciansObject) => {
             cycleSongAndMusicianOpacity(musician, songAndMusicianIntervalWrapper);
         });
         document.getElementById(`${musician}-play-button-img`).addEventListener('mouseenter', () => {
-            document.getElementById(`${musician}-play-button-img`).style.opacity = '50%';
+            document.getElementById(`${musician}-play-button-img`).style.opacity = 0.5;
         });
         document.getElementById(`${musician}-play-button-img`).addEventListener('mouseleave', () => {
-            document.getElementById(`${musician}-play-button-img`).style.opacity = '0%';
+            document.getElementById(`${musician}-play-button-img`).style.opacity = 0;
         });       
     }
 }
 
 
-const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => {
+const playSong = (musician, musiciansObject, audioWrapper, currentMusicianWrapper) => {
     // display current muscian's name, hide previous musicians name and song
     if (currentMusicianWrapper.currentMusician !== musician) {
         if (currentMusicianWrapper.currentMusician !== '') {
@@ -275,11 +275,11 @@ const playSong = (musician, musicians, audioWrapper, currentMusicianWrapper) => 
     }
 
     // display new song name
-    const song = musicians[musician].songs[musicians[musician].idx];
+    const song = musiciansObject[musician].songs[musiciansObject[musician].idx];
     document.getElementById(`${musician}-song`).innerHTML = song;
 
     const songFilePath = `../songs/${musician}/${song}.mp3`;
-    musicians[musician].idx = (musicians[musician].idx === musicians[musician].songs.length - 1) ? 0 : musicians[musician].idx + 1;
+    musiciansObject[musician].idx = (musiciansObject[musician].idx === musiciansObject[musician].songs.length - 1) ? 0 : musiciansObject[musician].idx + 1;
     audioWrapper.audio.pause();
     audioWrapper.audio = new Audio(songFilePath);
     const audioPromise = audioWrapper.audio.play();
