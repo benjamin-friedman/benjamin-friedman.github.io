@@ -174,6 +174,7 @@ export const musiciansArray = [
             { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E Flat Minor - Cello', recordingMusician: 'Sheku Kanneh-Mason' },
             { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', recordingMusician: 'Han-Na Chang' },
             { name: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', recordingMusician: 'Alison Lau' },
+            { name: 'Cello Sonata in G Minor Op. 19 III.', recordingMusician: 'Marie-Eve Scarfone, Stéphane Tétreault' },
             { name: 'Isle of the Dead Op. 29', recordingMusician: 'Royal Stockholm Philharmonic Orchestra' }
         ]
     },
