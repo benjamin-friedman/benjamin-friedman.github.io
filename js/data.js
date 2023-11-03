@@ -259,6 +259,7 @@ export const musiciansArray = [
         name: 'Mussorgsky',
         songs: [
             { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello', recordingMusician: 'Metamorphose String Orchestra & Pavel Lyubomudrov' },
+            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello - Piano', recordingMusician: 'Khatia Buniatishvili' },
         ]
     },
     {
