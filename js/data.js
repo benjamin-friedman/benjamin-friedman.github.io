@@ -155,10 +155,10 @@ export const musiciansArray = [
         id: 'bach',
         name: 'Bach',
         songs: [
-            { name: 'Toccata and Fugue in D Minor BWV 565', recordingMusician: 'Rousseau' },
             { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String)', recordingMusician: 'Stjepan Hauser', arrangement: 'August Wilhelmj' },
             { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Piano', recordingMusician: 'Khatia Buniatishvili', arrangement: 'August Wilhelmj' },
-            { name: 'Cello Suite No. 1 in G Major BWV 1007 I. Prelude', recordingMusician: 'Yo-Yo Ma' }
+            { name: 'Cello Suite No. 1 in G Major BWV 1007 I. Prelude', recordingMusician: 'Yo-Yo Ma' },
+            { name: 'Toccata and Fugue in D Minor BWV 565', recordingMusician: 'Rousseau' }
         ]
     },
     {
