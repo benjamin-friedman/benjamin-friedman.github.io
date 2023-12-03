@@ -1616,10 +1616,10 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'pharrell-williams',
-        name: 'Pharrell Williams',
+        id: 'moby',
+        name: 'Moby',
         songs: [
-            { name: 'Happy' }
+            { name: 'Wait For Me', contributors: 'Mindy Jones' }
         ]
     },
     {
