@@ -250,7 +250,7 @@ export const musiciansArray = [
         id: 'massenet',
         name: 'Massenet',
         songs: [
-            { name: 'Meditation from Thais', recordingMusician: 'Itzhak Perlman' },
+            { name: 'Meditation from Thais', recordingMusician: 'Renaud Capuçon and Anne-Sophie Bertrand' },
             { name: 'Meditation from Thais - Cello', recordingMusician: 'Stjepan Hauser' }
         ]
     },
