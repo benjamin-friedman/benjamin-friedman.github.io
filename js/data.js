@@ -671,6 +671,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'd-angelo',
+        name: "D'Angelo",
+        songs: [
+            { name: 'Unshaken' }
+        ]
+    },
+    {
         id: 'jamie-n-commons',
         name: 'Jamie N Commons',
         songs: [
@@ -724,13 +731,6 @@ export const musiciansArray = [
         name: 'The Chords',
         songs: [
             { name: 'Sh-Boom' }
-        ]
-    },
-    {
-        id: 'the-tokens',
-        name: 'The Tokens',
-        songs: [
-            { name: 'The Lion Sleeps Tonight' }
         ]
     },
     {
