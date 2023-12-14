@@ -1547,9 +1547,7 @@ export const musiciansArray = [
         songs: [
             { name: 'Cinema' },
             { name: 'First Of The Year' },
-            { name: 'Scary Monsters And Nice Sprites' },
-            { name: 'Kyoto' },
-            { name: 'Reptile' }
+            { name: 'Scary Monsters And Nice Sprites' }
         ]
     },
     {
