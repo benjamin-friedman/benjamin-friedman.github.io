@@ -260,6 +260,7 @@ export const musiciansArray = [
         songs: [
             { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello', recordingMusician: 'Metamorphose String Orchestra & Pavel Lyubomudrov' },
             { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello - Piano', recordingMusician: 'Khatia Buniatishvili' },
+            { name: 'Night on Bald Mountain', recordingMusician: 'New York Philharmonic Orchestra', arrangement: 'Nikolai Rimsky-Korsakov' }
         ]
     },
     {
