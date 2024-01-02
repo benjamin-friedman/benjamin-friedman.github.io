@@ -378,12 +378,10 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'nicholas-hooper',
-        name: 'Nicholas Hooper',
+        id: 'john-williams',
+        name: 'John Williams',
         songs: [
-            { name: 'Possession', soundtrack: 'Harry Potter and the Order of the Phoenix' },
-            { name: 'When Ginny Kissed Harry', soundtrack: 'Harry Potter and the Half-Blood Prince' },
-            { name: "Dumbledore's Farewell", soundtrack: 'Harry Potter and the Half-Blood Prince' }
+            { name: 'Leaving Hogwarts', soundtrack: "Harry Potter and the Sorcerer's Stone" }
         ]
     },
     {
@@ -391,6 +389,15 @@ export const musiciansArray = [
         name: 'Patrick Doyle',
         songs: [
             { name: 'Another Year Ends', soundtrack: 'Harry Potter and the Goblet of Fire' }
+        ]
+    },
+    {
+        id: 'nicholas-hooper',
+        name: 'Nicholas Hooper',
+        songs: [
+            { name: 'Possession', soundtrack: 'Harry Potter and the Order of the Phoenix' },
+            { name: 'When Ginny Kissed Harry', soundtrack: 'Harry Potter and the Half-Blood Prince' },
+            { name: "Dumbledore's Farewell", soundtrack: 'Harry Potter and the Half-Blood Prince' }
         ]
     },
     {
@@ -1584,13 +1591,6 @@ export const musiciansArray = [
         name: 'Stromae',
         songs: [
             { name: 'Alors On Danse' }
-        ]
-    },
-    {
-        id: 'enur',
-        name: 'Enur',
-        songs: [
-            { name: 'Calabria 2008', contributors: 'Natasja' }
         ]
     },
     {
