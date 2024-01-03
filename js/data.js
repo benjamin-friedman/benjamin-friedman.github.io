@@ -434,7 +434,8 @@ export const musiciansArray = [
         name: 'Jesper Kyd',
         songs: [
             { name: "Ezio's Family", soundtrack: "Assassin's Creed II" },
-            { name: 'Echoes Of The Roman Ruins', soundtrack: "Assassin's Creed: Brotherhood" }
+            { name: 'Echoes Of The Roman Ruins', soundtrack: "Assassin's Creed: Brotherhood" },
+            { name: "Assassin's Creed Theme", soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' }
         ]
     },
     {
