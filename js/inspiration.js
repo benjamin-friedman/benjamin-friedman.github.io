@@ -223,6 +223,8 @@ const cycleQuotesHelperChangeQuote = (quotes) => {
     quote.innerHTML = quotes.quoteAndAuthor[quotes.idx].quote;
     author.innerHTML = `- ${quotes.quoteAndAuthor[quotes.idx].author}`;
     quotes.idx = (quotes.idx < quotes.quoteAndAuthor.length - 1) ? quotes.idx + 1 : 0;
+    quote.style.opacity = 1;
+    author.style.opacity = 1;
 }
 
 
@@ -231,18 +233,19 @@ const cycleQuotesHelperTransition = (quotes) => {
     const author = document.getElementById('author');
 
     const opacityChangesCount = quotes.transitionTime / quotes.opacityChangeIntervalTime;
-    for (let i = 0; i < opacityChangesCount; ++i) {
-        if (i < opacityChangesCount - 1) {
-            setTimeout(() => {
-                quote.style.opacity = (quote.style.opacity - (1 / (opacityChangesCount - 1)) < 0) ? 0 : quote.style.opacity - (1 / (opacityChangesCount - 1));
-                author.style.opacity = (author.style.opacity - (1 / (opacityChangesCount - 1)) < 0) ? 0 : author.style.opacity - (1 / (opacityChangesCount - 1));
-            }, (i + 1) * quotes.opacityChangeIntervalTime);
-        } else {
-            setTimeout(() => {
-                quote.style.opacity = 1;
-                author.style.opacity = 1;
-            }, (i + 1) * quotes.opacityChangeIntervalTime);
-        }
+    for (let i = 0; i < opacityChangesCount; ++i) { 
+        setTimeout(() => {
+            // Conceptually, this if statement shouldn't be necessary, but for reasons not known it was found it caused issues on certain browsers (chrome).
+            // The last change in the opacity in the setTimeout function call would actually happen after the opacity is set to 1 in the cycleQuotesHelperChangeQuote function above.
+            // The easiest solution was to just restrict the opacity change to happen in all but the last iteration of the loop.
+            // As a result, the opacity will never actually reach 0 but will reach the value right before it hits 0. For example, if it gets decremented by 0.04 every time, the range of opacities would be [1, 0.96...0.04]
+            // In that sense, there are actually "opacityChangesCount - 1" opacity changes.
+            // This difference is so negligible it isn't noticeable on the UI.
+            if (i < opacityChangesCount - 1) {
+                quote.style.opacity = (quote.style.opacity - (1 / (opacityChangesCount)) < 0) ? 0 : quote.style.opacity - (1 / (opacityChangesCount));
+                author.style.opacity = (author.style.opacity - (1 / (opacityChangesCount)) < 0) ? 0 : author.style.opacity - (1 / (opacityChangesCount));
+            }
+        }, (i + 1) * quotes.opacityChangeIntervalTime);
     }  
 }
 
