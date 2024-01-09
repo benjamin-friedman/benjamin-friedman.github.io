@@ -1129,7 +1129,7 @@ export const musiciansArray = [
         id: 'dropkick-murphys',
         name: 'Dropkick Murphys',
         songs: [
-            { name: "I'm Shipping Up To Boston" },
+            { name: "I'm Shipping Up to Boston" },
             { name: 'Tessie' }
         ]
     },
