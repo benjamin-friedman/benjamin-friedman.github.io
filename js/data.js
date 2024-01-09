@@ -116,10 +116,10 @@ export const musiciansArray = [
         name: 'Beethoven',
         songs: [
             { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata)', recordingMusician: 'Unknown' },
-            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', recordingMusician: 'Stjepan Hauser and Lola Astanova' },
+            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', recordingMusician: 'Lola Astanova, Stjepan Hauser' },
             { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', recordingMusician: 'Chris M.' },
             { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata)', recordingMusician: 'Rousseau' },
-            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', recordingMusician: 'Cole Rolland and Kristina Schiano' },
+            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', recordingMusician: 'Cole Rolland, Kristina Schiano' },
             { name: 'Symphony No. 5 in C Minor Op. 67 I.', recordingMusician: 'Berlin Philharmonic Orchestra' },
             { name: 'Symphony No. 9 in D Minor Op. 125 IV. Ode to Joy', recordingMusician: 'London Symphony Orchestra' }
         ]
@@ -198,7 +198,7 @@ export const musiciansArray = [
             { name: 'Reverie', recordingMusician: 'Rousseau' },
             { name: 'Suite bergamasque L. 75 III. (Clair de lune)', recordingMusician: 'Rousseau' },
             { name: 'Arabesque No. 1 L. 66', recordingMusician: 'Rousseau' },
-            { name: 'Preludes Book 1 L. 117 VIII. (The Girl with the Flaxen Hair)', recordingMusician: ''}
+            { name: 'Preludes Book 1 L. 117 VIII. (The Girl with the Flaxen Hair)', recordingMusician: 'Jacques Rouvier' }
         ]
     },
     {
@@ -220,7 +220,7 @@ export const musiciansArray = [
         name: 'Saint-Saëns',
         songs: [
             { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser' },
-            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott and Yo-Yo Ma' },
+            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott, Yo-Yo Ma' },
             { name: 'Cello Concerto No. 1 in A Minor Op. 33 I. and III.', recordingMusician: 'Andrew Shulman' }
         ]
     },
@@ -250,7 +250,7 @@ export const musiciansArray = [
         id: 'massenet',
         name: 'Massenet',
         songs: [
-            { name: 'Meditation from Thais', recordingMusician: 'Renaud Capuçon and Anne-Sophie Bertrand' },
+            { name: 'Meditation from Thais', recordingMusician: 'Anne-Sophie Bertrand, Renaud Capuçon' },
             { name: 'Meditation from Thais - Cello', recordingMusician: 'Stjepan Hauser' }
         ]
     },
@@ -258,7 +258,7 @@ export const musiciansArray = [
         id: 'mussorgsky',
         name: 'Mussorgsky',
         songs: [
-            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello', recordingMusician: 'Metamorphose String Orchestra & Pavel Lyubomudrov' },
+            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello', recordingMusician: 'Metamorphose String Orchestra and Pavel Lyubomudrov' },
             { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello - Piano', recordingMusician: 'Khatia Buniatishvili' },
             { name: 'Night on Bald Mountain', recordingMusician: 'New York Philharmonic Orchestra', arrangement: 'Nikolai Rimsky-Korsakov' }
         ]
