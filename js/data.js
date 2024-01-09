@@ -483,7 +483,7 @@ export const musiciansArray = [
         id: 'max-richter',
         name: 'Max Richter',
         songs: [
-            { name: 'On The Nature Of Daylight' }
+            { name: 'On the Nature of Daylight' }
         ]
     },
     {
