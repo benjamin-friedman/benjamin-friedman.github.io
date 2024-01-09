@@ -993,7 +993,7 @@ export const musiciansArray = [
     },
     {
         id: 'joan-jett-and-the-blackhearts',
-        name: 'Joan Jett And The Blackhearts',
+        name: 'Joan Jett and the Blackhearts',
         songs: [
             { name: "I Love Rock 'N Roll", composer: 'The Arrows' }
         ]
@@ -1017,7 +1017,7 @@ export const musiciansArray = [
         name: 'Radiohead',
         songs: [
             { name: 'Creep' },
-            { name: 'How To Disappear Completely' }
+            { name: 'How to Disappear Completely' }
         ]
     },
     {
