@@ -434,12 +434,12 @@ export const musiciansArray = [
         name: 'Jesper Kyd',
         songs: [
             { name: "Ezio's Family", soundtrack: "Assassin's Creed II" },
-            { name: 'Echoes Of The Roman Ruins', soundtrack: "Assassin's Creed: Brotherhood" },
+            { name: 'Echoes of the Roman Ruins', soundtrack: "Assassin's Creed: Brotherhood" },
             { name: "Assassin's Creed Theme", soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
             { name: 'You Have Earned Your Rest', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
             { name: 'An Unsubtle Approach', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
             { name: 'Labored and Lost', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
-            { name: 'Chase The Target', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
+            { name: 'Chase the Target', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
             { name: 'The Hunter', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' }
         ]
     },
