@@ -638,7 +638,7 @@ export const musiciansArray = [
         id: 'patrick-watson',
         name: 'Patrick Watson',
         songs: [
-            { name: 'To Build A Home', contributors: 'The Cinematic Orchestra' }
+            { name: 'To Build a Home', contributors: 'The Cinematic Orchestra' }
         ]
     },
     {
