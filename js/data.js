@@ -1323,7 +1323,7 @@ export const musiciansArray = [
         id: 'eminem',
         name: 'Eminem',
         songs: [
-            { name: 'Sing For The Moment' },
+            { name: 'Sing for the Moment' },
             { name: 'Lose Yourself' },
             { name: 'Till I Collapse' },
             { name: "Won't Back Down" },
