@@ -890,7 +890,7 @@ export const musiciansArray = [
         name: "Guns N' Roses",
         songs: [
             { name: "Sweet Child O' Mine" },
-            { name: 'Welcome To The Jungle' }
+            { name: 'Welcome to the Jungle' }
         ]
     },
     {
