@@ -1433,7 +1433,7 @@ export const musiciansArray = [
         id: 'kid-cudi',
         name: 'Kid Cudi',
         songs: [
-            { name: 'Pursuit Of Happiness' },
+            { name: 'Pursuit of Happiness' },
             { name: 'Just What I Am' },
             { name: 'REVOFEV' },
             { name: "Day 'n' Nite" }
