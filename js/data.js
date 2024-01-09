@@ -1033,7 +1033,7 @@ export const musiciansArray = [
         id: 'my-chemical-romance',
         name: 'My Chemical Romance',
         songs: [
-            { name: 'The Ghost Of You' }
+            { name: 'The Ghost of You' }
         ]
     },
     {
