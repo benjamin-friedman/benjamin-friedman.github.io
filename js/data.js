@@ -836,7 +836,7 @@ export const musiciansArray = [
         id: 'pantera',
         name: 'Pantera',
         songs: [
-            { name: 'Mouth For War' },
+            { name: 'Mouth for War' },
             { name: 'Walk' }
         ]
     },
