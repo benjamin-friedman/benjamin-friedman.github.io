@@ -599,7 +599,7 @@ export const musiciansArray = [
     },
     {
         id: 'israel-kamakawiwoole',
-        name: 'Israel Kamakawiwoole',
+        name: "Israel Kamakawiwo'ole",
         songs: [
             { name: 'Somewhere Over the Rainbow' }
         ]
@@ -615,7 +615,7 @@ export const musiciansArray = [
         id: 'imogen-heap',
         name: 'Imogen Heap',
         songs: [
-            { name: 'Hide And Seek' }
+            { name: 'Hide and Seek' }
         ]
     },
     {
