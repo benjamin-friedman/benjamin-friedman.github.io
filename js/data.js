@@ -842,9 +842,9 @@ export const musiciansArray = [
     },
     {
         id: 'rage-against-the-machine',
-        name: 'Rage Against The Machine',
+        name: 'Rage Against the Machine',
         songs: [
-            { name: 'Killing In The Name' }
+            { name: 'Killing in the Name' }
         ]
     },
     {
