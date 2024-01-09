@@ -1187,7 +1187,7 @@ export const musiciansArray = [
         id: 'to-my-surprise',
         name: 'To My Surprise',
         songs: [
-            { name: 'Get It To Go' }
+            { name: 'Get It to Go' }
         ]
     },
     {
