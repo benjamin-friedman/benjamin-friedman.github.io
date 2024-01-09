@@ -1173,7 +1173,7 @@ export const musiciansArray = [
         id: 'chronic-future',
         name: 'Chronic Future',
         songs: [
-            { name: 'Time And Time Again' }
+            { name: 'Time and Time Again' }
         ]
     },
     {
