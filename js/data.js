@@ -921,7 +921,7 @@ export const musiciansArray = [
         name: 'R.E.M.',
         songs: [
             { name: 'Losing My Religion' },
-            { name: 'Man On The Moon' }
+            { name: 'Man on the Moon' }
         ]
     },
     {
