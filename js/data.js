@@ -819,7 +819,7 @@ export const musiciansArray = [
             { name: 'Surfacing' },
             { name: 'Duality' },
             { name: 'Custer' },
-            { name: 'The Devil In I' },
+            { name: 'The Devil in I' },
             { name: 'Everything Ends' },
             { name: 'The Negative One' },
             { name: 'Snuff' }
