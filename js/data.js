@@ -513,8 +513,8 @@ export const musiciansArray = [
         id: 'eva-cassidy',
         name: 'Eva Cassidy',
         songs: [
-            { name: 'Wade In The Water' },
-            { name: 'Fields Of Gold' }
+            { name: 'Wade in the Water' },
+            { name: 'Fields of Gold' }
         ]
     },
     {
