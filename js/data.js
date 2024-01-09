@@ -373,7 +373,7 @@ export const musiciansArray = [
         name: 'James Newton Howard',
         songs: [
             { name: "Rue's Farewell", soundtrack: 'The Hunger Games' },
-            { name: 'There Are Worse Games To Play-Deep In The Meadow-The Hunger Games Suite', soundtrack: 'The Hunger Games: Mockingjay Part 2' },
+            { name: 'There Are Worse Games to Play-Deep in the Meadow-The Hunger Games Suite', soundtrack: 'The Hunger Games: Mockingjay Part 2' },
             { name: "Snow's Execution", soundtrack: 'The Hunger Games: Mockingjay Part 2' }
         ]
     },
