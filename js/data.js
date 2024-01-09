@@ -1412,7 +1412,7 @@ export const musiciansArray = [
         id: 'black-eyed-peas',
         name: 'Black Eyed Peas',
         songs: [
-            { name: 'Where Is The Love' },
+            { name: 'Where Is the Love' },
             { name: "Let's Get It Started" },
             { name: 'Boom Boom Pow' },
             { name: 'I Gotta Feeling' },
