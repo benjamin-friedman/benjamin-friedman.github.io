@@ -535,7 +535,7 @@ export const musiciansArray = [
         id: 'donny-hathaway',
         name: 'Donny Hathaway',
         songs: [
-            { name: 'A Song For You' }
+            { name: 'A Song for You' }
         ]
     },
     {
