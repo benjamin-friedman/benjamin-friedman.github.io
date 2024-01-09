@@ -1093,8 +1093,8 @@ export const musiciansArray = [
             { name: 'The Scientist' },
             { name: 'Yellow' },
             { name: 'Fix You' },
-            { name: 'Viva La Vida' },
-            { name: 'Adventure Of A Lifetime' }
+            { name: 'Viva la Vida' },
+            { name: 'Adventure of a Lifetime' }
         ]
     },
     {
