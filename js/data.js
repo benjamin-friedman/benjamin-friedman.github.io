@@ -1237,8 +1237,8 @@ export const musiciansArray = [
         id: 'phil-collins',
         name: 'Phil Collins',
         songs: [
-            { name: 'In The Air Tonight' },
-            { name: "You'll Be In My Heart" }
+            { name: 'In the Air Tonight' },
+            { name: "You'll Be in My Heart" }
         ]
     },
     {
