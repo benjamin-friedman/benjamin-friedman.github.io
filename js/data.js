@@ -601,7 +601,7 @@ export const musiciansArray = [
         id: 'israel-kamakawiwoole',
         name: 'Israel Kamakawiwoole',
         songs: [
-            { name: 'Somewhere Over The Rainbow' }
+            { name: 'Somewhere Over the Rainbow' }
         ]
     },
     {
