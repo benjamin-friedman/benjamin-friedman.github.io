@@ -1367,8 +1367,8 @@ export const musiciansArray = [
             { name: 'Heartless' },
             { name: 'Love Lockdown' },
             { name: 'Send It Up' },
-            { name: 'No Church In The Wild', contributors: 'Jay-Z' },
-            { name: 'Blood On The Leaves' },
+            { name: 'No Church in the Wild', contributors: 'Jay-Z' },
+            { name: 'Blood on the Leaves' },
             { name: 'Flashing Lights' }
         ]
     },
