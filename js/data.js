@@ -756,7 +756,7 @@ export const musiciansArray = [
     },
     {
         id: 'joe-strummer-and-the-mescaleros',
-        name: 'Joe Strummer And The Mescaleros',
+        name: 'Joe Strummer and the Mescaleros',
         songs: [
             { name: 'Mondo Bongo' }
         ]
@@ -770,7 +770,7 @@ export const musiciansArray = [
     },
     {
         id: 'rodrigo-and-gabriela',
-        name: 'Rodrigo And Gabriela',
+        name: 'Rodrigo y Gabriela',
         songs: [
             { name: 'Diablo Rojo' }
         ]
@@ -779,7 +779,7 @@ export const musiciansArray = [
         id: 'steve-vai',
         name: 'Steve Vai',
         songs: [
-            { name: 'For The Love Of God' },
+            { name: 'For the Love of God' },
             { name: 'Tender Surrender' }
         ]
     },
