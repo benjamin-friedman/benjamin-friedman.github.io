@@ -851,8 +851,8 @@ export const musiciansArray = [
         id: 'disturbed',
         name: 'Disturbed',
         songs: [
-            { name: 'Down With The Sickness' },
-            { name: 'The Sound Of Silence', composer: 'Simon and Garfunkel' }
+            { name: 'Down with the Sickness' },
+            { name: 'The Sound of Silence', composer: 'Simon and Garfunkel' }
         ]
     },
     {
