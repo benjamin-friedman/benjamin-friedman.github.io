@@ -1201,7 +1201,7 @@ export const musiciansArray = [
         id: 'tears-for-fears',
         name: 'Tears For Fears',
         songs: [
-            { name: 'Sowing The Seeds of Love' },
+            { name: 'Sowing the Seeds of Love' },
             { name: 'Everybody Wants to Rule the World' }
         ]
     },
