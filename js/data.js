@@ -928,7 +928,7 @@ export const musiciansArray = [
         id: 'creedence-clearwater-revival',
         name: 'Creedence Clearwater Revival',
         songs: [
-            { name: 'Have You Ever Seen The Rain' }
+            { name: 'Have You Ever Seen the Rain' }
         ]
     },
     {
