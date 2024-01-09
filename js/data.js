@@ -1108,7 +1108,7 @@ export const musiciansArray = [
         id: 'wilco',
         name: 'Wilco',
         songs: [
-            { name: 'How To Fight Loneliness' }
+            { name: 'How to Fight Loneliness' }
         ]
     },
     {
