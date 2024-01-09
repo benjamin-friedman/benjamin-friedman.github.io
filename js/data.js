@@ -1690,7 +1690,7 @@ export const musiciansArray = [
         id: 'the-revels',
         name: 'The Revels',
         songs: [
-            { name: 'Lord Of The Dance' }
+            { name: 'Lord of the Dance' }
         ]
     }
 ];
