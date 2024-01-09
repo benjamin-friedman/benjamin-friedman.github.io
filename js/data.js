@@ -681,7 +681,7 @@ export const musiciansArray = [
         id: 'ben-howard',
         name: 'Ben Howard',
         songs: [
-            { name: 'Oats In The Water' }
+            { name: 'Oats in the Water' }
         ]
     },
     {
