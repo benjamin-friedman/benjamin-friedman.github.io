@@ -1274,7 +1274,7 @@ export const musiciansArray = [
         id: 'the-gap-band',
         name: 'The Gap Band',
         songs: [
-            { name: 'You Dropped A Bomb On Me' }
+            { name: 'You Dropped a Bomb on Me' }
         ]
     },
     {
