@@ -521,7 +521,7 @@ export const musiciansArray = [
         id: 'charles-bradley',
         name: 'Charles Bradley',
         songs: [
-            { name: 'Crying In The Chapel' }
+            { name: 'Crying in the Chapel' }
         ]
     },
     {
