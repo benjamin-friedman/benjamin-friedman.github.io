@@ -1338,9 +1338,9 @@ export const musiciansArray = [
         id: 'dr-dre',
         name: 'Dr. Dre',
         songs: [
-            { name: "Nuthin' But A G Thang" },
+            { name: "Nuthin' but a 'G' Thang" },
             { name: 'Big Egos' },
-            { name: "What's The Difference" },
+            { name: "What's the Difference" },
             { name: 'Light Speed' },
             { name: 'The Watcher' },
             { name: 'Forgot About Dre' },
