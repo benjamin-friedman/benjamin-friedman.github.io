@@ -404,7 +404,7 @@ export const musiciansArray = [
         id: 'alexandre-desplat',
         name: 'Alexandre Desplat',
         songs: [
-            { name: 'Severus And Lily', soundtrack: 'Harry Potter and the Deathly Hallows Part 2' }
+            { name: 'Severus and Lily', soundtrack: 'Harry Potter and the Deathly Hallows Part 2' }
         ]
     },
     {
