@@ -461,7 +461,7 @@ export const musiciansArray = [
         id: 'johann-johannsson',
         name: 'Johann Johannsson',
         songs: [
-            { name: "The Sun's Gone Dim And The Sky's Turned Black" }
+            { name: "The Sun's Gone Dim and the Sky's Turned Black" }
         ]
     },
     {
