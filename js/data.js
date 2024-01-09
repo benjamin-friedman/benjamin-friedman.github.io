@@ -1082,7 +1082,7 @@ export const musiciansArray = [
         id: 'green-day',
         name: 'Green Day',
         songs: [
-            { name: 'Boulevard Of Broken Dreams' },
+            { name: 'Boulevard of Broken Dreams' },
             { name: '21 Guns' }
         ]
     },
