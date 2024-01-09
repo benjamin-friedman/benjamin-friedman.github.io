@@ -1538,7 +1538,7 @@ export const musiciansArray = [
         id: 'mike-posner',
         name: 'Mike Posner',
         songs: [
-            { name: 'I Took A Pill In Ibiza' }
+            { name: 'I Took a Pill in Ibiza' }
         ]
     },
     {
