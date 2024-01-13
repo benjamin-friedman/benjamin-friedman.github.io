@@ -84,7 +84,7 @@ export const musiciansArray = [
             { name: 'Piano Sonata No. 2 in B-Flat Minor Op. 35 III. (Funeral March)', recordingMusician: 'Rousseau' },
             { name: 'Fantaisie Impromptu in C-Sharp Minor Op. Posth. 66, WN 46', recordingMusician: 'Dmitry Shishkin' },
             { name: 'Ballade No. 1 in G Minor Op. 23 (La Ballade)', recordingMusician: 'Seong-Jin Cho' },
-            { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth. - Cello', recordingMusician: 'Stjepan Hauser' },
+            { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth. - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
         ]
     },
     {
@@ -148,14 +148,14 @@ export const musiciansArray = [
             { name: 'Requiem in D Minor K. 626 VII. Agnus dei', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
             { name: 'Requiem in D Minor K. 626 VIII. Communio - Lux aeterna', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
             { name: 'Requiem in D Minor K. 626 VIII. Communio - Cum sanctus tuis', recordingMusician: "Choir of King's College, Cambridge" },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
         ]
     },
     {
         id: 'bach',
         name: 'Bach',
         songs: [
-            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String)', recordingMusician: 'Stjepan Hauser', arrangement: 'August Wilhelmj' },
+            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String)', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra', arrangement: 'August Wilhelmj' },
             { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Piano', recordingMusician: 'Khatia Buniatishvili', arrangement: 'August Wilhelmj' },
             { name: 'Cello Suite No. 1 in G Major BWV 1007 I. Prelude', recordingMusician: 'Yo-Yo Ma' },
             { name: 'Toccata and Fugue in D Minor BWV 565', recordingMusician: 'Rousseau' }
@@ -168,7 +168,7 @@ export const musiciansArray = [
             { name: 'Piano Concerto No. 2 in C Minor Op. 18 I.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
             { name: 'Piano Concerto No. 2 in C Minor Op. 18 II.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
             { name: 'Piano Concerto No. 2 in C Minor Op. 18 III.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
-            { name: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello', recordingMusician: 'Stjepan Hauser' },
+            { name: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
             { name: 'Moment Musicaux in E Minor Op. 16 No. 4', recordingMusician: 'Nikolai Lugansky' },
             { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor', recordingMusician: 'Luke Faulkner' },
             { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor - Cello', recordingMusician: 'Sheku Kanneh-Mason' },
@@ -219,7 +219,7 @@ export const musiciansArray = [
         id: 'saint-saens',
         name: 'Saint-Saëns',
         songs: [
-            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser' },
+            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' },
             { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott (Piano), Yo-Yo Ma (Cello)' },
             { name: 'Cello Concerto No. 1 in A Minor Op. 33 I. and III.', recordingMusician: 'Andrew Shulman' }
         ]
@@ -228,14 +228,14 @@ export const musiciansArray = [
         id: 'giazotto',
         name: 'Giazotto',
         songs: [
-            { name: 'Adagio in G Minor', recordingMusician: 'Stjepan Hauser' }
+            { name: 'Adagio in G Minor', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
         ]
     },
     {
         id: 'samuel-barber',
         name: 'Samuel Barber',
         songs: [
-            { name: 'Adagio for Strings', recordingMusician: 'Stjepan Hauser' },
+            { name: 'Adagio for Strings', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
             { name: 'Agnus Dei', recordingMusician: 'Dale Warland Singers' }
         ]
     },
@@ -251,7 +251,7 @@ export const musiciansArray = [
         name: 'Massenet',
         songs: [
             { name: 'Meditation from Thais', recordingMusician: 'Anne-Sophie Bertrand (Harp), Renaud Capuçon (Violin)' },
-            { name: 'Meditation from Thais - Cello', recordingMusician: 'Stjepan Hauser' }
+            { name: 'Meditation from Thais - Cello', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
         ]
     },
     {
@@ -267,7 +267,7 @@ export const musiciansArray = [
         id: 'bruch',
         name: 'Bruch',
         songs: [
-            { name: 'Kol Nidre', recordingMusician: 'Mischa Maisky, Frankfurt Radio Symphony' }
+            { name: 'Kol Nidre', recordingMusician: 'Mischa Maisky, Frankfurt Radio Symphony Orchestra' }
         ]
     },
     {
@@ -328,28 +328,28 @@ export const musiciansArray = [
         id: 'strauss',
         name: 'Strauss',
         songs: [
-            { name: 'The Beautiful Blue Danube Op. 314', recordingMusician: 'Vienna Johann Strauss Orchestra' },
+            { name: 'The Beautiful Blue Danube Op. 314', recordingMusician: 'Vienna Johann Strauss Orchestra' }
         ]
     },
     {
         id: 'verdi',
         name: 'Verdi',
         songs: [
-            { name: 'Messa da Requiem II. Dies irae - Dies irae', recordingMusician: 'Budapest Scoring Symphonic Orchestra' },
+            { name: 'Messa da Requiem II. Dies irae - Dies irae', recordingMusician: 'Budapest Scoring Symphonic Orchestra' }
         ]
     },
     {
         id: 'donizetti',
         name: 'Donizetti',
         songs: [
-            { name: "L'elisir d'amore - Una furtiva lagrima", recordingMusician: 'Camille Thomas' }
+            { name: "Una furtiva lagrima from L'elisir d'amore - Cello", recordingMusician: 'Camille Thomas, Brussels Philharmonic Orchestra' }
         ]
     },
     {
         id: 'mascagni',
         name: 'Mascagni',
         songs: [
-            { name: 'Cavalleria rusticana - Intermezzo sinfonico', recordingMusician: 'Stjepan Hauser' }
+            { name: 'Intermezzo sinfonico from Cavalleria rusticana - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
         ]
     },
     {
