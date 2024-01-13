@@ -92,7 +92,7 @@ export const musiciansArray = [
         name: 'Liszt',
         songs: [
             { name: 'Liebestraum No. 3 in A-Flat Major S. 541 (Love Dream)', recordingMusician: 'Khatia Buniatishvili' },
-            { name: 'Romance in E Minor S. 169 (O Pourqoi Donc)', recordingMusician: 'Genny Basso' },
+            { name: 'Romance in E Minor S. 169 (O pourqoi donc)', recordingMusician: 'Genny Basso' },
             { name: 'Consolation No. 3 in D-Flat Major S. 172', recordingMusician: 'Rousseau' },
             { name: 'Serenade D. 889 - Piano', recordingMusician: 'Rousseau', composer: 'Schubert' },
             { name: 'Etude No. 3 in D-Flat Major S. 144 (Un Sospiro)', recordingMusician: 'Rousseau' },
