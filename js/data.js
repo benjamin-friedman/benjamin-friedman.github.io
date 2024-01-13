@@ -4,7 +4,7 @@ export const musiciansArray = [
         id: 'hans-zimmer',
         name: 'Hans Zimmer',
         songs: [
-            { name: 'Corynorhinus', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },   // Batman Begins
+            { name: 'Corynorhinus', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
             { name: 'Myotis', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
             { name: 'Molossus', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
             { name: 'Lasiurus', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
@@ -104,8 +104,8 @@ export const musiciansArray = [
         name: 'Schubert',
         songs: [
             { name: 'Impromptu in G-Flat Major Op. 90 No. 3, D. 899', recordingMusician: 'Olga Jegunova' },
-            { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 1', recordingMusician: 'Unknown' },
-            { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 2', recordingMusician: 'Unknown' },
+            { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 1', recordingMusician: 'Howard Shelley (Piano), Raphael Wallfisch (Cello), Ralph Holmes (Violin)' },
+            { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 2', recordingMusician: 'Anthony Goldstone (Piano), Moray Welsh (Cello), Ralph Holmes (Violin)' },
             { name: 'Serenade D. 889 - Interpretation 1', recordingMusician: 'Unknown' },
             { name: 'Serenade D. 889 - Interpretation 2', recordingMusician: 'Unknown' },
             { name: 'Serenade D. 889 - Piano and Cello', recordingMusician: 'Stjepan Hauser' }
@@ -116,10 +116,10 @@ export const musiciansArray = [
         name: 'Beethoven',
         songs: [
             { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata)', recordingMusician: 'Unknown' },
-            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', recordingMusician: 'Lola Astanova, Stjepan Hauser' },
-            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', recordingMusician: 'Chris M.' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', recordingMusician: 'Lola Astanova (Piano), Stjepan Hauser (Cello)' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', arrangement: 'Chris M.' },
             { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata)', recordingMusician: 'Rousseau' },
-            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', recordingMusician: 'Cole Rolland, Kristina Schiano' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', recordingMusician: 'Cole Rolland (Guitar), Kristina Schiano (Drums)' },
             { name: 'Symphony No. 5 in C Minor Op. 67 I.', recordingMusician: 'Berlin Philharmonic Orchestra' },
             { name: 'Symphony No. 9 in D Minor Op. 125 IV. Ode to Joy', recordingMusician: 'London Symphony Orchestra' }
         ]
@@ -165,16 +165,16 @@ export const musiciansArray = [
         id: 'rachmaninoff',
         name: 'Rachmaninoff',
         songs: [
-            { name: 'Piano Concerto No. 2 in C Minor Op. 18 I.', recordingMusician: 'Anna Fedorova' },
-            { name: 'Piano Concerto No. 2 in C Minor Op. 18 II.', recordingMusician: 'Anna Fedorova' },
-            { name: 'Piano Concerto No. 2 in C Minor Op. 18 III.', recordingMusician: 'Anna Fedorova' },
+            { name: 'Piano Concerto No. 2 in C Minor Op. 18 I.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
+            { name: 'Piano Concerto No. 2 in C Minor Op. 18 II.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
+            { name: 'Piano Concerto No. 2 in C Minor Op. 18 III.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
             { name: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello', recordingMusician: 'Stjepan Hauser' },
             { name: 'Moment Musicaux in E Minor Op. 16 No. 4', recordingMusician: 'Nikolai Lugansky' },
             { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor', recordingMusician: 'Luke Faulkner' },
             { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor - Cello', recordingMusician: 'Sheku Kanneh-Mason' },
             { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', recordingMusician: 'Han-Na Chang' },
             { name: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', recordingMusician: 'Alison Lau' },
-            { name: 'Cello Sonata in G Minor Op. 19 III.', recordingMusician: 'Marie-Eve Scarfone, Stéphane Tétreault' },
+            { name: 'Cello Sonata in G Minor Op. 19 III.', recordingMusician: 'Marie-Eve Scarfon (Piano), Stéphane Tétreault (Cello)' },
             { name: 'Isle of the Dead Op. 29', recordingMusician: 'Royal Stockholm Philharmonic Orchestra' }
         ]
     },
@@ -220,7 +220,7 @@ export const musiciansArray = [
         name: 'Saint-Saëns',
         songs: [
             { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser' },
-            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott, Yo-Yo Ma' },
+            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott (Piano), Yo-Yo Ma (Cello)' },
             { name: 'Cello Concerto No. 1 in A Minor Op. 33 I. and III.', recordingMusician: 'Andrew Shulman' }
         ]
     },
@@ -250,7 +250,7 @@ export const musiciansArray = [
         id: 'massenet',
         name: 'Massenet',
         songs: [
-            { name: 'Meditation from Thais', recordingMusician: 'Anne-Sophie Bertrand, Renaud Capuçon' },
+            { name: 'Meditation from Thais', recordingMusician: 'Anne-Sophie Bertrand (Harp), Renaud Capuçon (Violin)' },
             { name: 'Meditation from Thais - Cello', recordingMusician: 'Stjepan Hauser' }
         ]
     },
@@ -267,7 +267,7 @@ export const musiciansArray = [
         id: 'bruch',
         name: 'Bruch',
         songs: [
-            { name: 'Kol Nidre', recordingMusician: 'Mischa Maisky' }
+            { name: 'Kol Nidre', recordingMusician: 'Mischa Maisky, Frankfurt Radio Symphony' }
         ]
     },
     {
@@ -349,7 +349,7 @@ export const musiciansArray = [
         id: 'mascagni',
         name: 'Mascagni',
         songs: [
-            { name: 'Cavalleria rusticana - Intermezzo sinfonico', recordingMusician: 'Orchestra del Teatro alla Scala di Milano' }
+            { name: 'Cavalleria rusticana - Intermezzo sinfonico', recordingMusician: 'Stjepan Hauser' }
         ]
     },
     {
