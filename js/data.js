@@ -103,9 +103,9 @@ export const musiciansArray = [
         id: 'schubert',
         name: 'Schubert',
         songs: [
-            { name: 'Impromptu in G Flat Major Op. 90 No. 3, D. 899', recordingMusician: 'Olga Jegunova' },
-            { name: 'Piano Trio No. 2 in E Flat Major Op. 100, D. 929 II. - Interpretation 1', recordingMusician: 'Unknown' },
-            { name: 'Piano Trio No. 2 in E Flat Major Op. 100, D. 929 II. - Interpretation 2', recordingMusician: 'Unknown' },
+            { name: 'Impromptu in G-Flat Major Op. 90 No. 3, D. 899', recordingMusician: 'Olga Jegunova' },
+            { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 1', recordingMusician: 'Unknown' },
+            { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 2', recordingMusician: 'Unknown' },
             { name: 'Serenade D. 889 - Interpretation 1', recordingMusician: 'Unknown' },
             { name: 'Serenade D. 889 - Interpretation 2', recordingMusician: 'Unknown' },
             { name: 'Serenade D. 889 - Piano and Cello', recordingMusician: 'Stjepan Hauser' }
@@ -115,11 +115,11 @@ export const musiciansArray = [
         id: 'beethoven',
         name: 'Beethoven',
         songs: [
-            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata)', recordingMusician: 'Unknown' },
-            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', recordingMusician: 'Lola Astanova, Stjepan Hauser' },
-            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', recordingMusician: 'Chris M.' },
-            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata)', recordingMusician: 'Rousseau' },
-            { name: 'Piano Sonata No. 14 in C Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', recordingMusician: 'Cole Rolland, Kristina Schiano' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata)', recordingMusician: 'Unknown' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', recordingMusician: 'Lola Astanova, Stjepan Hauser' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', recordingMusician: 'Chris M.' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata)', recordingMusician: 'Rousseau' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', recordingMusician: 'Cole Rolland, Kristina Schiano' },
             { name: 'Symphony No. 5 in C Minor Op. 67 I.', recordingMusician: 'Berlin Philharmonic Orchestra' },
             { name: 'Symphony No. 9 in D Minor Op. 125 IV. Ode to Joy', recordingMusician: 'London Symphony Orchestra' }
         ]
@@ -129,8 +129,8 @@ export const musiciansArray = [
         name: 'Mozart',
         songs: [
             { name: 'Fantasia No. 3 in D Minor K. 397 (385g)', recordingMusician: 'Kassia' },
-            { name: 'Serenade No. 10 for Winds in B Flat Major K. 361 (370a) III.', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
-            { name: 'Serenade No. 10 for Winds in B Flat Major K. 361 (370a) VII.', recordingMusician: 'Orpheus Chamber Orchestra' },
+            { name: 'Serenade No. 10 for Winds in B-Flat Major K. 361 (370a) III.', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
+            { name: 'Serenade No. 10 for Winds in B-Flat Major K. 361 (370a) VII.', recordingMusician: 'Orpheus Chamber Orchestra' },
             { name: 'Serenade No. 13 for Strings in G Major K. 525 I. (Eine kleine Nachtmusik)', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
             { name: 'The Marriage of Figaro K. 492 Overture', recordingMusician: 'Berlin Philharmonic Orchestra' },
             { name: 'Requiem in D Minor K. 626 I. Introitus - Requiem aeternam', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
@@ -170,8 +170,8 @@ export const musiciansArray = [
             { name: 'Piano Concerto No. 2 in C Minor Op. 18 III.', recordingMusician: 'Anna Fedorova' },
             { name: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello', recordingMusician: 'Stjepan Hauser' },
             { name: 'Moment Musicaux in E Minor Op. 16 No. 4', recordingMusician: 'Nikolai Lugansky' },
-            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E Flat Minor', recordingMusician: 'Luke Faulkner' },
-            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E Flat Minor - Cello', recordingMusician: 'Sheku Kanneh-Mason' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor', recordingMusician: 'Luke Faulkner' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor - Cello', recordingMusician: 'Sheku Kanneh-Mason' },
             { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', recordingMusician: 'Han-Na Chang' },
             { name: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', recordingMusician: 'Alison Lau' },
             { name: 'Cello Sonata in G Minor Op. 19 III.', recordingMusician: 'Marie-Eve Scarfone, Stéphane Tétreault' },
@@ -282,7 +282,7 @@ export const musiciansArray = [
         id: 'handel',
         name: 'Handel',
         songs: [
-            { name: 'Suite No. 1 in B Flat Major HWV 434 IV.', recordingMusician: 'Khatia Buniatishvili', arrangement: 'Wilhelm Kempff' },
+            { name: 'Suite No. 1 in B-Flat Major HWV 434 IV.', recordingMusician: 'Khatia Buniatishvili', arrangement: 'Wilhelm Kempff' },
         ]
     },
     {
