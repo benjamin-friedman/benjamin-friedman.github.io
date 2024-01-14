@@ -82,7 +82,7 @@ export const musiciansArray = [
             { name: 'Etude in C Minor Op. 10 No. 12 (Revolutionary Etude)', recordingMusician: 'Rousseau' },
             { name: 'Etude in A Minor Op. 25 No. 11 (Winter Wind)', recordingMusician: 'Rousseau' },
             { name: 'Piano Sonata No. 2 in B-Flat Minor Op. 35 III. (Funeral March)', recordingMusician: 'Rousseau' },
-            { name: 'Fantaisie Impromptu in C-Sharp Minor Op. Posth. 66, WN 46', recordingMusician: 'Dmitry Shishkin' },
+            { name: 'Fantaisie-Impromptu in C-Sharp Minor Op. Posth. 66, WN 46', recordingMusician: 'Dmitry Shishkin' },
             { name: 'Ballade No. 1 in G Minor Op. 23 (La Ballade)', recordingMusician: 'Seong-Jin Cho' },
             { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth. - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
         ]
@@ -170,8 +170,8 @@ export const musiciansArray = [
             { name: 'Piano Concerto No. 2 in C Minor Op. 18 III.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
             { name: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
             { name: 'Moment Musicaux in E Minor Op. 16 No. 4', recordingMusician: 'Nikolai Lugansky' },
-            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor', recordingMusician: 'Luke Faulkner' },
-            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor - Cello', recordingMusician: 'Sheku Kanneh-Mason' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor', specialCharactersName: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor', recordingMusician: 'Luke Faulkner' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor - Cello', specialCharactersName: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor - Cello', recordingMusician: 'Sheku Kanneh-Mason' },
             { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', recordingMusician: 'Han-Na Chang' },
             { name: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', recordingMusician: 'Alison Lau' },
             { name: 'Cello Sonata in G Minor Op. 19 III.', recordingMusician: 'Marie-Eve Scarfon (Piano), Stéphane Tétreault (Cello)' },
@@ -182,7 +182,7 @@ export const musiciansArray = [
         id: 'satie',
         name: 'Satie',
         songs: [
-            { name: 'Gymnopedie No. 1', recordingMusician: 'Rousseau'},
+            { name: 'Gymnopedie No. 1', specialCharactersName: 'Gymnopédie No. 1', recordingMusician: 'Rousseau'},
             { name: 'Gnossienne No. 1 - Interpretation 1', recordingMusician: 'Anne Queffelec'},
             { name: 'Gnossienne No. 1 - Interpretation 2', recordingMusician: 'Alice Sara Ott'},
             { name: 'Gnossienne No. 2', recordingMusician: 'Reinbert de Leeuw'},
@@ -195,7 +195,7 @@ export const musiciansArray = [
         id: 'debussy',
         name: 'Debussy',
         songs: [
-            { name: 'Reverie', recordingMusician: 'Rousseau' },
+            { name: 'Reverie', specialCharactersName: 'Rêverie', recordingMusician: 'Rousseau' },
             { name: 'Suite bergamasque L. 75 III. (Clair de lune)', recordingMusician: 'Rousseau' },
             { name: 'Arabesque No. 1 L. 66', recordingMusician: 'Rousseau' },
             { name: 'Preludes Book 1 L. 117 VIII. (The Girl with the Flaxen Hair)', recordingMusician: 'Jacques Rouvier' }
@@ -205,7 +205,7 @@ export const musiciansArray = [
         id: 'faure',
         name: 'Fauré',
         songs: [
-            { name: 'Elegie Op. 24', recordingMusician: 'Harriet Krijgh' }
+            { name: 'Elegie Op. 24', specialCharactersName: 'Élégie Op. 24', recordingMusician: 'Harriet Krijgh' }
         ]
     },
     {
@@ -250,8 +250,8 @@ export const musiciansArray = [
         id: 'massenet',
         name: 'Massenet',
         songs: [
-            { name: 'Meditation from Thais', recordingMusician: 'Anne-Sophie Bertrand (Harp), Renaud Capuçon (Violin)' },
-            { name: 'Meditation from Thais - Cello', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
+            { name: 'Meditation from Thais', specialCharactersName: 'Méditation from Thaïs', recordingMusician: 'Anne-Sophie Bertrand (Harp), Renaud Capuçon (Violin)' },
+            { name: 'Meditation from Thais - Cello', specialCharactersName: 'Méditation from Thaïs - Cello', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
         ]
     },
     {

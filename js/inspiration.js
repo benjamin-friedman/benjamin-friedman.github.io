@@ -2,14 +2,19 @@ import { musiciansArray, quotes } from './data.js';
 
 
 /*
-    Built based on musiciansArray, used for playing the songs
+    Built based on musiciansArray, used for playing the songs.
+    songFileName stores the name of the file of the song
+    songRealName stores the real name of the song.
+    Most of the time these two are the same but some songs have special characters like é and it's best practice not to have file names with those characters in them.
     {
         'musician1-id' : {
-            songs: ['song1', 'song2'...],
+            songFileName: ['songfilename1', 'songfilename2'...],
+            songRealName: ['songrealname1', 'songrealname2'...],
             idx: 0
         },
         'musician2-id' : {
-            songs: ['song1', 'song2'...],
+            songFileName: ['songfilename1', 'songfilename2'...],
+            songRealName: ['songrealname1', 'songrealname2'...],
             idx: 0
         },
         ...
@@ -190,13 +195,20 @@ const initializeInspirationPage = (musiciansArray) => {
 const initializeMusiciansObject = (musiciansArray, musiciansObject) => {
     musiciansArray.forEach(musician => {
         musiciansObject[`${musician.id}`] = {
-            songs: [],
+            songFileNames: [],
+            songRealNames: [],
             idx: 0
         };
         musician.songs.forEach(song => {
-            musiciansObject[`${musician.id}`].songs.push(song.name);
+            musiciansObject[`${musician.id}`].songFileNames.push(song.name);
+            if (song.specialCharactersName === undefined) {
+                musiciansObject[`${musician.id}`].songRealNames.push(song.name);
+            } else {
+                musiciansObject[`${musician.id}`].songRealNames.push(song.specialCharactersName);
+            }
         });
     });
+   //console.log(musiciansObject);
 }
 
 
@@ -278,11 +290,12 @@ const playSong = (musician, musiciansObject, audioWrapper, currentMusicianWrappe
     }
 
     // display new song name
-    const song = musiciansObject[musician].songs[musiciansObject[musician].idx];
-    document.getElementById(`${musician}-song`).innerHTML = song;
+    const songFileName = musiciansObject[musician].songFileNames[musiciansObject[musician].idx];
+    const songRealName = musiciansObject[musician].songRealNames[musiciansObject[musician].idx];
+    document.getElementById(`${musician}-song`).innerHTML = songRealName;
 
-    const songFilePath = `../songs/${musician}/${song}.mp3`;
-    musiciansObject[musician].idx = (musiciansObject[musician].idx === musiciansObject[musician].songs.length - 1) ? 0 : musiciansObject[musician].idx + 1;
+    const songFilePath = `../songs/${musician}/${songFileName}.mp3`;
+    musiciansObject[musician].idx = (musiciansObject[musician].idx === musiciansObject[musician].songFileNames.length - 1) ? 0 : musiciansObject[musician].idx + 1;
     audioWrapper.audio.pause();
     audioWrapper.audio = new Audio(songFilePath);
     const audioPromise = audioWrapper.audio.play();
