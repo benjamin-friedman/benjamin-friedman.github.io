@@ -75,7 +75,7 @@ export const musiciansArray = [
             { name: 'N16 - Nocturne in E-Flat Major Op. 55 No. 2', recordingMusician: 'François Chaplin' },
             { name: 'N17 - Nocturne in B Major Op. 62 No. 1', recordingMusician: 'François Chaplin' },
             { name: 'N18 - Nocturne in E Major Op. 62 No. 2', recordingMusician: 'François Chaplin' },
-            { name: 'N19 - Nocturne in E Minor Op. 72 No. 1', recordingMusician: 'François Chaplin' },
+            { name: 'N19 - Nocturne in E Minor Op. Posth. 72 No. 1', recordingMusician: 'François Chaplin' },
             { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth. - Interpretation 1', recordingMusician: 'Rousseau' },
             { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth. - Interpretation 2', recordingMusician: 'Nelson Goerner' },
             { name: 'N21 - Nocturne in C Minor Op. Posth.', recordingMusician: 'François Chaplin' },
