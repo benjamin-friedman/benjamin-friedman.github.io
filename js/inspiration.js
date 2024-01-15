@@ -168,7 +168,7 @@ const initializeInspirationPage = (musiciansArray) => {
         newHTML += `<h5>${musiciansArray[i].name}</h5>`;
         for (let j = 0; j < musiciansArray[i].songs.length; ++j) {
             newHTML += '<div class="row song-listing-song-container">';
-            newHTML += `<div class="col-4">${musiciansArray[i].songs[j].name}</div>`;
+            newHTML += (musiciansArray[i].songs[j].specialCharactersName) ? `<div class="col-4">${musiciansArray[i].songs[j].specialCharactersName}</div>` : `<div class="col-4">${musiciansArray[i].songs[j].name}</div>`;
             if (musiciansArray[i].songs[j].soundtrack) { // from a movie or video game soundtrack
                 newHTML += `<div class="col-4">Soundtrack: ${musiciansArray[i].songs[j].soundtrack}</div>`;
             }
@@ -201,10 +201,10 @@ const initializeMusiciansObject = (musiciansArray, musiciansObject) => {
         };
         musician.songs.forEach(song => {
             musiciansObject[`${musician.id}`].songFileNames.push(song.name);
-            if (song.specialCharactersName === undefined) {
-                musiciansObject[`${musician.id}`].songRealNames.push(song.name);
-            } else {
+            if (song.specialCharactersName) {
                 musiciansObject[`${musician.id}`].songRealNames.push(song.specialCharactersName);
+            } else {
+                musiciansObject[`${musician.id}`].songRealNames.push(song.name);
             }
         });
     });
