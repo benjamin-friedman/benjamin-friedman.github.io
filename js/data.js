@@ -38,7 +38,7 @@ export const musiciansArray = [
             { name: 'No Time for Caution', soundtrack: 'Interstellar' },
             { name: 'Mountains', soundtrack: 'Interstellar' },
             { name: 'Goodbye My Son', soundtrack: 'Man of Steel' },
-            { name: 'Is She with You', soundtrack: 'Batman v Superman' },
+            { name: 'Is She with You', specialCharactersName: 'Is She with You?', soundtrack: 'Batman v Superman' },
             { name: 'Not in Blood, But in Bond', soundtrack: 'Sherlock Holmes' },
             { name: 'Ah, Putrefaction', soundtrack: 'Sherlock Holmes' },
             { name: 'Sherlock Holmes Fantasy', soundtrack: 'Sherlock Holmes', contributors: 'Aleksey Igudesman' },
@@ -47,7 +47,7 @@ export const musiciansArray = [
             { name: 'Elysium', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
             { name: 'Honor Him', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
             { name: 'Now We Are Free', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
-            { name: 'Now We Are Free - Cello', soundtrack: 'Gladiator', recordingMusician: 'Stjepan Hauser' },
+            { name: 'Now We Are Free - Cello', soundtrack: 'Gladiator', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
         ]
     },
     {
@@ -108,7 +108,7 @@ export const musiciansArray = [
             { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 2', recordingMusician: 'Anthony Goldstone (Piano), Moray Welsh (Cello), Ralph Holmes (Violin)' },
             { name: 'Serenade D. 889 - Interpretation 1', recordingMusician: 'Unknown' },
             { name: 'Serenade D. 889 - Interpretation 2', recordingMusician: 'Unknown' },
-            { name: 'Serenade D. 889 - Piano and Cello', recordingMusician: 'Stjepan Hauser' }
+            { name: 'Serenade D. 889 - Piano and Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
         ]
     },
     {
@@ -491,7 +491,7 @@ export const musiciansArray = [
         name: 'Lucio Dalla',
         songs: [
             { name: 'Caruso' },
-            { name: 'Caruso - Cello', recordingMusician: 'Stjepan Hauser' }
+            { name: 'Caruso - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
         ]
     },
     {
