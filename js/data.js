@@ -411,7 +411,7 @@ export const musiciansArray = [
         id: 'howard-shore',
         name: 'Howard Shore',
         songs: [
-            { name: 'Theoden King', soundtrack: 'The Lord of the Rings: The Two Towers' },
+            { name: 'Theoden King', specialCharactersName: 'Théoden King', soundtrack: 'The Lord of the Rings: The Two Towers' },
             { name: 'Edoras', soundtrack: 'The Lord of the Rings: The Two Towers' }
         ]
     },
