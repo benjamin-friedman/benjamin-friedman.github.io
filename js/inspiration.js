@@ -3,18 +3,18 @@ import { musiciansArray, quotes } from './data.js';
 
 /*
     Built based on musiciansArray, used for playing the songs.
-    songFileName stores the name of the file of the song
-    songRealName stores the real name of the song.
-    Most of the time these two are the same but some songs have special characters like é and it's best practice not to have file names with those characters in them.
+    songNames stores the real name of the song.
+    songFileNames stores the name of the file of the song which will be all lowercase letters and dashes
+    This is done for best practice file naming conventions which should exclude spaces, commas, periods, parentheses, single quotes, double quotes, and accented characters like é.
     {
         'musician1-id' : {
-            songFileName: ['songfilename1', 'songfilename2'...],
-            songRealName: ['songrealname1', 'songrealname2'...],
+            songNames: ['songName1', 'songName2'...],
+            songFileNames: ['songFileName1', 'songFileName2'...],
             idx: 0
         },
         'musician2-id' : {
-            songFileName: ['songfilename1', 'songfilename2'...],
-            songRealName: ['songrealname1', 'songrealname2'...],
+            songNames: ['songName1', 'songName2'...],
+            songFileNames: ['songFileName1', 'songFileName2'...],
             idx: 0
         },
         ...
@@ -168,7 +168,7 @@ const initializeInspirationPage = (musiciansArray) => {
         newHTML += `<h5>${musiciansArray[i].name}</h5>`;
         for (let j = 0; j < musiciansArray[i].songs.length; ++j) {
             newHTML += '<div class="row song-listing-song-container">';
-            newHTML += (musiciansArray[i].songs[j].specialCharactersName) ? `<div class="col-4">${musiciansArray[i].songs[j].specialCharactersName}</div>` : `<div class="col-4">${musiciansArray[i].songs[j].name}</div>`;
+            newHTML += `<div class="col-4">${musiciansArray[i].songs[j].name}</div>`;
             if (musiciansArray[i].songs[j].soundtrack) { // from a movie or video game soundtrack
                 newHTML += `<div class="col-4">Soundtrack: ${musiciansArray[i].songs[j].soundtrack}</div>`;
             }
@@ -195,17 +195,13 @@ const initializeInspirationPage = (musiciansArray) => {
 const initializeMusiciansObject = (musiciansArray, musiciansObject) => {
     musiciansArray.forEach(musician => {
         musiciansObject[`${musician.id}`] = {
+            songNames: [],
             songFileNames: [],
-            songRealNames: [],
             idx: 0
         };
         musician.songs.forEach(song => {
-            musiciansObject[`${musician.id}`].songFileNames.push(song.name);
-            if (song.specialCharactersName) {
-                musiciansObject[`${musician.id}`].songRealNames.push(song.specialCharactersName);
-            } else {
-                musiciansObject[`${musician.id}`].songRealNames.push(song.name);
-            }
+            musiciansObject[`${musician.id}`].songNames.push(song.name);
+            musiciansObject[`${musician.id}`].songFileNames.push(song.fileName);
         });
     });
 }
@@ -289,12 +285,12 @@ const playSong = (musician, musiciansObject, audioWrapper, currentMusicianWrappe
     }
 
     // display new song name
+    const songName = musiciansObject[musician].songNames[musiciansObject[musician].idx];
     const songFileName = musiciansObject[musician].songFileNames[musiciansObject[musician].idx];
-    const songRealName = musiciansObject[musician].songRealNames[musiciansObject[musician].idx];
-    document.getElementById(`${musician}-song`).innerHTML = songRealName;
+    document.getElementById(`${musician}-song`).innerHTML = songName;
 
     const songFilePath = `../songs/${musician}/${songFileName}.mp3`;
-    musiciansObject[musician].idx = (musiciansObject[musician].idx === musiciansObject[musician].songFileNames.length - 1) ? 0 : musiciansObject[musician].idx + 1;
+    musiciansObject[musician].idx = (musiciansObject[musician].idx === musiciansObject[musician].songNames.length - 1) ? 0 : musiciansObject[musician].idx + 1;
     audioWrapper.audio.pause();
     audioWrapper.audio = new Audio(songFilePath);
     const audioPromise = audioWrapper.audio.play();

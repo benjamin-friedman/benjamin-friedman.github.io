@@ -4,501 +4,501 @@ export const musiciansArray = [
         id: 'hans-zimmer',
         name: 'Hans Zimmer',
         songs: [
-            { name: 'Corynorhinus', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
-            { name: 'Myotis', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
-            { name: 'Molossus', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
-            { name: 'Lasiurus', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
-            { name: 'Barbastella', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
-            { name: 'Eptescius', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
-            { name: 'Agent of Chaos', soundtrack: 'The Dark Knight', contributors: 'James Newton Howard' },
-            { name: 'A Watchful Guardian', soundtrack: 'The Dark Knight', contributors: 'James Newton Howard' },
-            { name: 'A Dark Knight', soundtrack: 'The Dark Knight', contributors: 'James Newton Howard' },
-            { name: 'Why Do We Fall', soundtrack: 'The Dark Knight Rises' },
-            { name: "Gotham's Reckoning", soundtrack: 'The Dark Knight Rises' },
-            { name: 'Imagine the Fire', soundtrack: 'The Dark Knight Rises' },
-            { name: 'Necessary Evil', soundtrack: 'The Dark Knight Rises' },
-            { name: 'Nothing Out There', soundtrack: 'The Dark Knight Rises' },
-            { name: 'Rise', soundtrack: 'The Dark Knight Rises' },
-            { name: 'Final Ascent', soundtrack: 'No Time to Die' },
-            { name: "He's a Pirate", soundtrack: "Pirates of the Caribbean: The Curse of the Black Pearl", contributors: 'Klaus Badelt' },
-            { name: 'Will and Elizabeth', soundtrack: "Pirates of the Caribbean: The Curse of the Black Pearl", contributors: 'Klaus Badelt' },
-            { name: 'The Black Pearl', soundtrack: "Pirates of the Caribbean: The Curse of the Black Pearl", contributors: 'Klaus Badelt' },
-            { name: 'Wheel of Fortune', soundtrack: "Pirates of the Caribbean: Dead Man's Chest" },
-            { name: 'Jack Sparrow', soundtrack: "Pirates of the Caribbean: Dead Man's Chest" },
-            { name: 'Davy Jones', soundtrack: "Pirates of the Caribbean: Dead Man's Chest" },
-            { name: 'Davy Jones - Piano', soundtrack: "Pirates of the Caribbean: Dead Man's Chest", recordingMusician: 'Fabian Torres' },
-            { name: 'Marry Me', soundtrack: "Pirates of the Caribbean: At World's End" },
-            { name: "At Wit's End", soundtrack: "Pirates of the Caribbean: At World's End" },
-            { name: 'Parlay', soundtrack: "Pirates of the Caribbean: At World's End" },
-            { name: 'One Day', soundtrack: "Pirates of the Caribbean: At World's End" },
-            { name: 'Time', soundtrack: 'Inception' },
-            { name: 'Projections', soundtrack: 'Inception' },
-            { name: 'First Step', soundtrack: 'Interstellar' },
-            { name: 'First Step - Piano', soundtrack: 'Interstellar', recordingMusician: 'Kyle Landry' },
-            { name: 'No Time for Caution', soundtrack: 'Interstellar' },
-            { name: 'Mountains', soundtrack: 'Interstellar' },
-            { name: 'Goodbye My Son', soundtrack: 'Man of Steel' },
-            { name: 'Is She with You', specialCharactersName: 'Is She with You?', soundtrack: 'Batman v Superman' },
-            { name: 'Not in Blood, But in Bond', soundtrack: 'Sherlock Holmes' },
-            { name: 'Ah, Putrefaction', soundtrack: 'Sherlock Holmes' },
-            { name: 'Sherlock Holmes Fantasy', soundtrack: 'Sherlock Holmes', contributors: 'Aleksey Igudesman' },
-            { name: 'A Way of Life', soundtrack: 'The Last Samurai' },
-            { name: 'A Small Measure of Peace', soundtrack: 'The Last Samurai' },
-            { name: 'Elysium', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
-            { name: 'Honor Him', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
-            { name: 'Now We Are Free', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
-            { name: 'Now We Are Free - Cello', soundtrack: 'Gladiator', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
+            { name: 'Corynorhinus', fileName: 'corynorhinus', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
+            { name: 'Myotis', fileName: 'myotis', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
+            { name: 'Molossus', fileName: 'molossus', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
+            { name: 'Lasiurus', fileName: 'lasiurus', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
+            { name: 'Barbastella', fileName: 'barbastella', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
+            { name: 'Eptescius', fileName: 'eptescius', soundtrack: 'Batman Begins', contributors: 'James Newton Howard' },
+            { name: 'Agent of Chaos', fileName: 'agent-of-chaso', soundtrack: 'The Dark Knight', contributors: 'James Newton Howard' },
+            { name: 'A Watchful Guardian', fileName: 'a-watchful-guardian', soundtrack: 'The Dark Knight', contributors: 'James Newton Howard' },
+            { name: 'A Dark Knight', fileName: 'a-dark-knight', soundtrack: 'The Dark Knight', contributors: 'James Newton Howard' },
+            { name: 'Why Do We Fall', fileName: 'why-do-we-fall', soundtrack: 'The Dark Knight Rises' },
+            { name: "Gotham's Reckoning", fileName: 'gothams-reckoning', soundtrack: 'The Dark Knight Rises' },
+            { name: 'Imagine the Fire', fileName: 'imagine-the-fire', soundtrack: 'The Dark Knight Rises' },
+            { name: 'Necessary Evil', fileName: 'necessary-evil', soundtrack: 'The Dark Knight Rises' },
+            { name: 'Nothing Out There', fileName: 'nothing-out-there', soundtrack: 'The Dark Knight Rises' },
+            { name: 'Rise', fileName: 'rise', soundtrack: 'The Dark Knight Rises' },
+            { name: 'Final Ascent', fileName: 'final-ascent', soundtrack: 'No Time to Die' },
+            { name: "He's a Pirate", fileName: 'hes-a-pirate', soundtrack: "Pirates of the Caribbean: The Curse of the Black Pearl", contributors: 'Klaus Badelt' },
+            { name: 'Will and Elizabeth', fileName: 'will-and-elizabeth', soundtrack: "Pirates of the Caribbean: The Curse of the Black Pearl", contributors: 'Klaus Badelt' },
+            { name: 'The Black Pearl', fileName: 'the-black-pearl', soundtrack: "Pirates of the Caribbean: The Curse of the Black Pearl", contributors: 'Klaus Badelt' },
+            { name: 'Wheel of Fortune', fileName: 'wheel-of-fortune', soundtrack: "Pirates of the Caribbean: Dead Man's Chest" },
+            { name: 'Jack Sparrow', fileName: 'jack-sparrow', soundtrack: "Pirates of the Caribbean: Dead Man's Chest" },
+            { name: 'Davy Jones', fileName: 'davy-jones', soundtrack: "Pirates of the Caribbean: Dead Man's Chest" },
+            { name: 'Davy Jones - Piano', fileName: 'davy-jones-piano', soundtrack: "Pirates of the Caribbean: Dead Man's Chest", recordingMusician: 'Fabian Torres' },
+            { name: 'Marry Me', fileName: 'marry-me', soundtrack: "Pirates of the Caribbean: At World's End" },
+            { name: "At Wit's End", fileName: 'at-wits-end', soundtrack: "Pirates of the Caribbean: At World's End" },
+            { name: 'Parlay', fileName: 'parlay', soundtrack: "Pirates of the Caribbean: At World's End" },
+            { name: 'One Day', fileName: 'one-day', soundtrack: "Pirates of the Caribbean: At World's End" },
+            { name: 'Time', fileName: 'time', soundtrack: 'Inception' },
+            { name: 'Projections', fileName: 'projections', soundtrack: 'Inception' },
+            { name: 'First Step', fileName: 'first-step', soundtrack: 'Interstellar' },
+            { name: 'First Step - Piano', fileName: 'first-step-piano', soundtrack: 'Interstellar', recordingMusician: 'Kyle Landry' },
+            { name: 'No Time for Caution', fileName: 'no-time-for-caution', soundtrack: 'Interstellar' },
+            { name: 'Mountains', fileName: 'mountains', soundtrack: 'Interstellar' },
+            { name: 'Goodbye My Son', fileName: 'goodbye-my-son', soundtrack: 'Man of Steel' },
+            { name: 'Is She with You', fileName: 'is-she-with-you', specialCharactersName: 'Is She with You?', soundtrack: 'Batman v Superman' },
+            { name: 'Not in Blood, But in Bond', fileName: 'not-in-blood-but-in-bond', soundtrack: 'Sherlock Holmes' },
+            { name: 'Ah, Putrefaction', fileName: 'ah-putrefaction', soundtrack: 'Sherlock Holmes' },
+            { name: 'Sherlock Holmes Fantasy', fileName: 'sherlock-holmes-fantasy', soundtrack: 'Sherlock Holmes', contributors: 'Aleksey Igudesman' },
+            { name: 'A Way of Life', fileName: 'a-way-of-life', soundtrack: 'The Last Samurai' },
+            { name: 'A Small Measure of Peace', fileName: 'a-small-measure-of-peace', soundtrack: 'The Last Samurai' },
+            { name: 'Elysium', fileName: 'elysium', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
+            { name: 'Honor Him', fileName: 'honor-him', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
+            { name: 'Now We Are Free', fileName: 'now-we-are-free', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
+            { name: 'Now We Are Free - Cello', fileName: 'now-we-are-free-cello', soundtrack: 'Gladiator', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
         ]
     },
     {
         id: 'chopin',
         name: 'Chopin',
         songs: [
-            { name: 'P4 - Prelude in E Minor Op. 28 No. 4', recordingMusician: 'Kassia' },
-            { name: 'P6 - Prelude in B Minor Op. 28 No. 6', recordingMusician: 'Rousseau' },
-            { name: 'P15 - Prelude in D-Flat Major Op. 28 No. 15 (Raindrop Prelude)', recordingMusician: 'Ivo Pogorelich' },
-            { name: 'N1 - Nocturne in B-Flat Minor Op. 9 No. 1', recordingMusician: 'François Chaplin' },
-            { name: 'N2 - Nocturne in E-Flat Major Op. 9 No. 2', recordingMusician: 'François Chaplin' },
-            { name: 'N3 - Nocturne in B Major Op. 9 No. 3', recordingMusician: 'François Chaplin' },
-            { name: 'N4 - Nocturne in F Major Op. 15 No. 1', recordingMusician: 'François Chaplin' },
-            { name: 'N5 - Nocturne in F-Sharp Major Op. 15 No. 2', recordingMusician: 'François Chaplin' },
-            { name: 'N6 - Nocturne in G Minor Op. 15 No. 3', recordingMusician: 'François Chaplin' },
-            { name: 'N7 - Nocturne in C-Sharp Minor Op. 27 No. 1', recordingMusician: 'François Chaplin' },
-            { name: 'N8 - Nocturne in D-Flat Major Op. 27 No. 2', recordingMusician: 'François Chaplin' },
-            { name: 'N9 - Nocturne in B Major Op. 32 No. 1', recordingMusician: 'François Chaplin' },
-            { name: 'N10 - Nocturne in A-Flat Major Op. 32 No. 2', recordingMusician: 'François Chaplin' },
-            { name: 'N11 - Nocturne in G Minor Op. 37 No. 1', recordingMusician: 'François Chaplin' },
-            { name: 'N12 - Nocturne in G Major Op. 37 No. 2', recordingMusician: 'François Chaplin' },
-            { name: 'N13 - Nocturne in C Minor Op. 48 No. 1', recordingMusician: 'François Chaplin' },
-            { name: 'N14 - Nocturne in F-Sharp Minor Op. 48 No. 2', recordingMusician: 'François Chaplin' },
-            { name: 'N15 - Nocturne in F Minor Op. 55 No. 1', recordingMusician: 'François Chaplin' },
-            { name: 'N16 - Nocturne in E-Flat Major Op. 55 No. 2', recordingMusician: 'François Chaplin' },
-            { name: 'N17 - Nocturne in B Major Op. 62 No. 1', recordingMusician: 'François Chaplin' },
-            { name: 'N18 - Nocturne in E Major Op. 62 No. 2', recordingMusician: 'François Chaplin' },
-            { name: 'N19 - Nocturne in E Minor Op. Posth. 72 No. 1', recordingMusician: 'François Chaplin' },
-            { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth. - Interpretation 1', recordingMusician: 'Rousseau' },
-            { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth. - Interpretation 2', recordingMusician: 'Nelson Goerner' },
-            { name: 'N21 - Nocturne in C Minor Op. Posth.', recordingMusician: 'François Chaplin' },
-            { name: 'Etude in C Minor Op. 10 No. 12 (Revolutionary Etude)', recordingMusician: 'Rousseau' },
-            { name: 'Etude in A Minor Op. 25 No. 11 (Winter Wind)', recordingMusician: 'Rousseau' },
-            { name: 'Piano Sonata No. 2 in B-Flat Minor Op. 35 III. (Funeral March)', recordingMusician: 'Rousseau' },
-            { name: 'Fantaisie-Impromptu in C-Sharp Minor Op. Posth. 66, WN 46', recordingMusician: 'Dmitry Shishkin' },
-            { name: 'Ballade No. 1 in G Minor Op. 23 (La Ballade)', recordingMusician: 'Seong-Jin Cho' },
-            { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth. - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
+            { name: 'P4 - Prelude in E Minor Op. 28 No. 4', fileName: 'p4-prelude-in-e-minor-op-28-no-4', recordingMusician: 'Kassia' },
+            { name: 'P6 - Prelude in B Minor Op. 28 No. 6', fileName: 'p6-prelude-in-b-minor-op-28-no-6', recordingMusician: 'Rousseau' },
+            { name: 'P15 - Prelude in D-Flat Major Op. 28 No. 15 (Raindrop Prelude)', fileName: 'p15-prelude-in-d-flat-major-op-28-no-15-raindrop-prelude', recordingMusician: 'Ivo Pogorelich' },
+            { name: 'N1 - Nocturne in B-Flat Minor Op. 9 No. 1', fileName: 'n1-nocturne-in-b-flat-minor-op-9-no-1', recordingMusician: 'François Chaplin' },
+            { name: 'N2 - Nocturne in E-Flat Major Op. 9 No. 2', fileName: 'n2-nocturne-in-e-flat-major-op-9-no-2', recordingMusician: 'François Chaplin' },
+            { name: 'N3 - Nocturne in B Major Op. 9 No. 3', fileName: 'n3-nocturne-in-b-major-op-9-no-3', recordingMusician: 'François Chaplin' },
+            { name: 'N4 - Nocturne in F Major Op. 15 No. 1', fileName: 'n4-nocturne-in-f-major-op-15-no-1', recordingMusician: 'François Chaplin' },
+            { name: 'N5 - Nocturne in F-Sharp Major Op. 15 No. 2', fileName: 'n5-nocturne-in-f-sharp-major-op-15-no-2', recordingMusician: 'François Chaplin' },
+            { name: 'N6 - Nocturne in G Minor Op. 15 No. 3', fileName: 'n6-nocturne-in-g-minor-op-15-no-3', recordingMusician: 'François Chaplin' },
+            { name: 'N7 - Nocturne in C-Sharp Minor Op. 27 No. 1', fileName: 'n7-nocturne-in-c-sharp-minor-op-27-no-1', recordingMusician: 'François Chaplin' },
+            { name: 'N8 - Nocturne in D-Flat Major Op. 27 No. 2', fileName: 'n8-nocturne-in-d-flat-major-op-27-no-2', recordingMusician: 'François Chaplin' },
+            { name: 'N9 - Nocturne in B Major Op. 32 No. 1', fileName: 'n9-nocturne-in-b-major-op-32-no-1', recordingMusician: 'François Chaplin' },
+            { name: 'N10 - Nocturne in A-Flat Major Op. 32 No. 2', fileName: 'n10-nocturne-in-a-flat-major-op-32-no-2', recordingMusician: 'François Chaplin' },
+            { name: 'N11 - Nocturne in G Minor Op. 37 No. 1', fileName: 'n11-nocturne-in-g-minor-op-37-no-1', recordingMusician: 'François Chaplin' },
+            { name: 'N12 - Nocturne in G Major Op. 37 No. 2', fileName: 'n12-nocturne-in-g-major-op-37-no-2', recordingMusician: 'François Chaplin' },
+            { name: 'N13 - Nocturne in C Minor Op. 48 No. 1', fileName: 'n13-nocturne-in-c-minor-op-48-no-1', recordingMusician: 'François Chaplin' },
+            { name: 'N14 - Nocturne in F-Sharp Minor Op. 48 No. 2', fileName: 'n14-nocturne-in-f-sharp-minor-op-48-no-2', recordingMusician: 'François Chaplin' },
+            { name: 'N15 - Nocturne in F Minor Op. 55 No. 1', fileName: 'n15-nocturne-in-f-minor-op-55-no-1', recordingMusician: 'François Chaplin' },
+            { name: 'N16 - Nocturne in E-Flat Major Op. 55 No. 2', fileName: 'n16-nocturne-in-e-flat-major-op-55-no-2', recordingMusician: 'François Chaplin' },
+            { name: 'N17 - Nocturne in B Major Op. 62 No. 1', fileName: 'n17-nocturne-in-b-major-op-62-no-2', recordingMusician: 'François Chaplin' },
+            { name: 'N18 - Nocturne in E Major Op. 62 No. 2', fileName: 'n18-nocturne-in-e-major-op-62-no-2', recordingMusician: 'François Chaplin' },
+            { name: 'N19 - Nocturne in E Minor Op. Posth. 72 No. 1', fileName: 'n19-nocturne-in-e-minor-op-posth-72-no-1', recordingMusician: 'François Chaplin' },
+            { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth. - Interpretation 1', fileName: 'n20-nocturne-in-c-sharp-minor-op-posth-interpretation-1', recordingMusician: 'Rousseau' },
+            { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth. - Interpretation 2', fileName: 'n20-nocturne-in-c-sharp-minor-op-posth-interpretation-2', recordingMusician: 'Nelson Goerner' },
+            { name: 'N21 - Nocturne in C Minor Op. Posth.', fileName: 'n21-nocturne-in-c-minor-op-posth', recordingMusician: 'François Chaplin' },
+            { name: 'Etude in C Minor Op. 10 No. 12 (Revolutionary Etude)', fileName: 'etude-in-c-minor-op-10-no-12-revolutionary-etude', recordingMusician: 'Rousseau' },
+            { name: 'Etude in A Minor Op. 25 No. 11 (Winter Wind)', fileName: 'etude-in-a-minor-op-25-no-11-winter-wind', recordingMusician: 'Rousseau' },
+            { name: 'Piano Sonata No. 2 in B-Flat Minor Op. 35 III. (Funeral March)', fileName: 'piano-sonata-no-2-in-b-flat-minor-op-35-iii-funeral-march', recordingMusician: 'Rousseau' },
+            { name: 'Fantaisie-Impromptu in C-Sharp Minor Op. Posth. 66, WN 46', fileName: 'fantaisie-impromptu-in-c-sharp-minor-op-posth-66-wn-46', recordingMusician: 'Dmitry Shishkin' },
+            { name: 'Ballade No. 1 in G Minor Op. 23 (La Ballade)', fileName: 'ballade-no-1-in-g-minor-op-23-la-ballade', recordingMusician: 'Seong-Jin Cho' },
+            { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth. - Cello', fileName: 'n20-nocturne-in-c-sharp-minor-op-posth-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
         ]
     },
     {
         id: 'liszt',
         name: 'Liszt',
         songs: [
-            { name: 'Liebestraum No. 3 in A-Flat Major S. 541 (Love Dream)', recordingMusician: 'Khatia Buniatishvili' },
-            { name: 'Romance in E Minor S. 169 (O pourqoi donc)', recordingMusician: 'Genny Basso' },
-            { name: 'Consolation No. 3 in D-Flat Major S. 172', recordingMusician: 'Rousseau' },
-            { name: 'Serenade D. 889 - Piano', recordingMusician: 'Rousseau', composer: 'Schubert' },
-            { name: 'Etude No. 3 in D-Flat Major S. 144 (Un Sospiro)', recordingMusician: 'Rousseau' },
-            { name: 'Etude No. 3 in G-Sharp Minor S. 141 (La Campanella)', recordingMusician: 'Rousseau', composer: 'Paganini' }
+            { name: 'Liebestraum No. 3 in A-Flat Major S. 541 (Love Dream)', fileName: 'Liebestraum No. 3 in A-Flat Major S. 541 (Love Dream)', recordingMusician: 'Khatia Buniatishvili' },
+            { name: 'Romance in E Minor S. 169 (O pourqoi donc)', fileName: 'Romance in E Minor S. 169 (O pourqoi donc)', recordingMusician: 'Genny Basso' },
+            { name: 'Consolation No. 3 in D-Flat Major S. 172', fileName: 'Consolation No. 3 in D-Flat Major S. 172', recordingMusician: 'Rousseau' },
+            { name: 'Serenade D. 889 - Piano', fileName: 'Serenade D. 889 - Piano', recordingMusician: 'Rousseau', composer: 'Schubert' },
+            { name: 'Etude No. 3 in D-Flat Major S. 144 (Un Sospiro)', fileName: 'Etude No. 3 in D-Flat Major S. 144 (Un Sospiro)', recordingMusician: 'Rousseau' },
+            { name: 'Etude No. 3 in G-Sharp Minor S. 141 (La Campanella)', fileName: 'Etude No. 3 in G-Sharp Minor S. 141 (La Campanella)', recordingMusician: 'Rousseau', composer: 'Paganini' }
         ]
     },
     {
         id: 'schubert',
         name: 'Schubert',
         songs: [
-            { name: 'Impromptu in G-Flat Major Op. 90 No. 3, D. 899', recordingMusician: 'Olga Jegunova' },
-            { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 1', recordingMusician: 'Howard Shelley (Piano), Raphael Wallfisch (Cello), Ralph Holmes (Violin)' },
-            { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 2', recordingMusician: 'Anthony Goldstone (Piano), Moray Welsh (Cello), Ralph Holmes (Violin)' },
-            { name: 'Serenade D. 889 - Interpretation 1', recordingMusician: 'Unknown' },
-            { name: 'Serenade D. 889 - Interpretation 2', recordingMusician: 'Unknown' },
-            { name: 'Serenade D. 889 - Piano and Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
+            { name: 'Impromptu in G-Flat Major Op. 90 No. 3, D. 899', fileName: 'Impromptu in G-Flat Major Op. 90 No. 3, D. 899', recordingMusician: 'Olga Jegunova' },
+            { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 1', fileName: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 1', recordingMusician: 'Howard Shelley (Piano), Raphael Wallfisch (Cello), Ralph Holmes (Violin)' },
+            { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 2', fileName: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 2', recordingMusician: 'Anthony Goldstone (Piano), Moray Welsh (Cello), Ralph Holmes (Violin)' },
+            { name: 'Serenade D. 889 - Interpretation 1', fileName: 'Serenade D. 889 - Interpretation 1', recordingMusician: 'Unknown' },
+            { name: 'Serenade D. 889 - Interpretation 2', fileName: 'Serenade D. 889 - Interpretation 2', recordingMusician: 'Unknown' },
+            { name: 'Serenade D. 889 - Piano and Cello', fileName: 'Serenade D. 889 - Piano and Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
         ]
     },
     {
         id: 'beethoven',
         name: 'Beethoven',
         songs: [
-            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata)', recordingMusician: 'Unknown' },
-            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', recordingMusician: 'Lola Astanova (Piano), Stjepan Hauser (Cello)' },
-            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', arrangement: 'Chris M.' },
-            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata)', recordingMusician: 'Rousseau' },
-            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', recordingMusician: 'Cole Rolland (Guitar), Kristina Schiano (Drums)' },
-            { name: 'Symphony No. 5 in C Minor Op. 67 I.', recordingMusician: 'Berlin Philharmonic Orchestra' },
-            { name: 'Symphony No. 9 in D Minor Op. 125 IV. Ode to Joy', recordingMusician: 'London Symphony Orchestra' }
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata)', fileName: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata)', recordingMusician: 'Unknown' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', fileName: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', recordingMusician: 'Lola Astanova (Piano), Stjepan Hauser (Cello)' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', fileName: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', arrangement: 'Chris M.' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata)', fileName: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata)', recordingMusician: 'Rousseau' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', fileName: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', recordingMusician: 'Cole Rolland (Guitar), Kristina Schiano (Drums)' },
+            { name: 'Symphony No. 5 in C Minor Op. 67 I.', fileName: 'Symphony No. 5 in C Minor Op. 67 I.', recordingMusician: 'Berlin Philharmonic Orchestra' },
+            { name: 'Symphony No. 9 in D Minor Op. 125 IV. Ode to Joy', fileName: 'Symphony No. 9 in D Minor Op. 125 IV. Ode to Joy', recordingMusician: 'London Symphony Orchestra' }
         ]
     },
     {
         id: 'mozart',
         name: 'Mozart',
         songs: [
-            { name: 'Fantasia No. 3 in D Minor K. 397 (385g)', recordingMusician: 'Kassia' },
-            { name: 'Serenade No. 10 for Winds in B-Flat Major K. 361 (370a) III.', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
-            { name: 'Serenade No. 10 for Winds in B-Flat Major K. 361 (370a) VII.', recordingMusician: 'Orpheus Chamber Orchestra' },
-            { name: 'Serenade No. 13 for Strings in G Major K. 525 I. (Eine kleine Nachtmusik)', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
-            { name: 'The Marriage of Figaro K. 492 Overture', recordingMusician: 'Berlin Philharmonic Orchestra' },
-            { name: 'Requiem in D Minor K. 626 I. Introitus - Requiem aeternam', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 II. Kyrie', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Dies irae', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Tuba mirum', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Rex tremendae', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Recordare', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Confutatis', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 IV. Offertorium - Domine Jesu', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 IV. Offertorium - Hostias', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 V. Sanctus', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 VI. Benedictus', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 VII. Agnus dei', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 VIII. Communio - Lux aeterna', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 VIII. Communio - Cum sanctus tuis', recordingMusician: "Choir of King's College, Cambridge" },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
+            { name: 'Fantasia No. 3 in D Minor K. 397 (385g)', fileName: 'Fantasia No. 3 in D Minor K. 397 (385g)', recordingMusician: 'Kassia' },
+            { name: 'Serenade No. 10 for Winds in B-Flat Major K. 361 (370a) III.', fileName: 'Serenade No. 10 for Winds in B-Flat Major K. 361 (370a) III.', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
+            { name: 'Serenade No. 10 for Winds in B-Flat Major K. 361 (370a) VII.', fileName: 'Serenade No. 10 for Winds in B-Flat Major K. 361 (370a) VII.', recordingMusician: 'Orpheus Chamber Orchestra' },
+            { name: 'Serenade No. 13 for Strings in G Major K. 525 I. (Eine kleine Nachtmusik)', fileName: 'Serenade No. 13 for Strings in G Major K. 525 I. (Eine kleine Nachtmusik)', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
+            { name: 'The Marriage of Figaro K. 492 Overture', fileName: 'The Marriage of Figaro K. 492 Overture', recordingMusician: 'Berlin Philharmonic Orchestra' },
+            { name: 'Requiem in D Minor K. 626 I. Introitus - Requiem aeternam', fileName: 'Requiem in D Minor K. 626 I. Introitus - Requiem aeternam', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 II. Kyrie', fileName: 'Requiem in D Minor K. 626 II. Kyrie', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Dies irae', fileName: 'Requiem in D Minor K. 626 III. Sequentia - Dies irae', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Tuba mirum', fileName: 'Requiem in D Minor K. 626 III. Sequentia - Tuba mirum', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Rex tremendae', fileName: 'Requiem in D Minor K. 626 III. Sequentia - Rex tremendae', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Recordare', fileName: 'Requiem in D Minor K. 626 III. Sequentia - Recordare', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Confutatis', fileName: 'Requiem in D Minor K. 626 III. Sequentia - Confutatis', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa', fileName: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 IV. Offertorium - Domine Jesu', fileName: 'Requiem in D Minor K. 626 IV. Offertorium - Domine Jesu', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 IV. Offertorium - Hostias', fileName: 'Requiem in D Minor K. 626 IV. Offertorium - Hostias', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 V. Sanctus', fileName: 'Requiem in D Minor K. 626 V. Sanctus', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 VI. Benedictus', fileName: 'Requiem in D Minor K. 626 VI. Benedictus', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 VII. Agnus dei', fileName: 'Requiem in D Minor K. 626 VII. Agnus dei', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 VIII. Communio - Lux aeterna', fileName: 'Requiem in D Minor K. 626 VIII. Communio - Lux aeterna', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 VIII. Communio - Cum sanctus tuis', fileName: 'Requiem in D Minor K. 626 VIII. Communio - Cum sanctus tuis', recordingMusician: "Choir of King's College, Cambridge" },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa - Cello', fileName: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
         ]
     },
     {
         id: 'bach',
         name: 'Bach',
         songs: [
-            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String)', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra', arrangement: 'August Wilhelmj' },
-            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Piano', recordingMusician: 'Khatia Buniatishvili', arrangement: 'August Wilhelmj' },
-            { name: 'Cello Suite No. 1 in G Major BWV 1007 I. Prelude', recordingMusician: 'Yo-Yo Ma' },
-            { name: 'Toccata and Fugue in D Minor BWV 565', recordingMusician: 'Rousseau' }
+            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String)', fileName: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String)', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra', arrangement: 'August Wilhelmj' },
+            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Piano', fileName: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Piano', recordingMusician: 'Khatia Buniatishvili', arrangement: 'August Wilhelmj' },
+            { name: 'Cello Suite No. 1 in G Major BWV 1007 I. Prelude', fileName: 'Cello Suite No. 1 in G Major BWV 1007 I. Prelude', recordingMusician: 'Yo-Yo Ma' },
+            { name: 'Toccata and Fugue in D Minor BWV 565', fileName: 'Toccata and Fugue in D Minor BWV 565', recordingMusician: 'Rousseau' }
         ]
     },
     {
         id: 'rachmaninoff',
         name: 'Rachmaninoff',
         songs: [
-            { name: 'Piano Concerto No. 2 in C Minor Op. 18 I.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
-            { name: 'Piano Concerto No. 2 in C Minor Op. 18 II.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
-            { name: 'Piano Concerto No. 2 in C Minor Op. 18 III.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
-            { name: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
-            { name: 'Moment Musicaux in E Minor Op. 16 No. 4', recordingMusician: 'Nikolai Lugansky' },
-            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor', specialCharactersName: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor', recordingMusician: 'Luke Faulkner' },
-            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor - Cello', specialCharactersName: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor - Cello', recordingMusician: 'Sheku Kanneh-Mason' },
-            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', recordingMusician: 'Han-Na Chang' },
-            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', recordingMusician: 'Alison Lau' },
-            { name: 'Cello Sonata in G Minor Op. 19 III.', recordingMusician: 'Marie-Eve Scarfon (Piano), Stéphane Tétreault (Cello)' },
-            { name: 'Isle of the Dead Op. 29', recordingMusician: 'Royal Stockholm Philharmonic Orchestra' }
+            { name: 'Piano Concerto No. 2 in C Minor Op. 18 I.', fileName: 'Piano Concerto No. 2 in C Minor Op. 18 I.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
+            { name: 'Piano Concerto No. 2 in C Minor Op. 18 II.', fileName: 'Piano Concerto No. 2 in C Minor Op. 18 II.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
+            { name: 'Piano Concerto No. 2 in C Minor Op. 18 III.', fileName: 'Piano Concerto No. 2 in C Minor Op. 18 III.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
+            { name: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello', fileName: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
+            { name: 'Moment Musicaux in E Minor Op. 16 No. 4', fileName: 'Moment Musicaux in E Minor Op. 16 No. 4', recordingMusician: 'Nikolai Lugansky' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor', fileName: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor', recordingMusician: 'Luke Faulkner' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor - Cello', fileName: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor - Cello', recordingMusician: 'Sheku Kanneh-Mason' },
+            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', fileName: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', recordingMusician: 'Han-Na Chang' },
+            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', fileName: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', recordingMusician: 'Alison Lau' },
+            { name: 'Cello Sonata in G Minor Op. 19 III.', fileName: 'Cello Sonata in G Minor Op. 19 III.', recordingMusician: 'Marie-Eve Scarfon (Piano), Stéphane Tétreault (Cello)' },
+            { name: 'Isle of the Dead Op. 29', fileName: 'Isle of the Dead Op. 29', recordingMusician: 'Royal Stockholm Philharmonic Orchestra' }
         ]
     },
     {
         id: 'satie',
         name: 'Satie',
         songs: [
-            { name: 'Gymnopedie No. 1', specialCharactersName: 'Gymnopédie No. 1', recordingMusician: 'Rousseau'},
-            { name: 'Gnossienne No. 1 - Interpretation 1', recordingMusician: 'Anne Queffelec'},
-            { name: 'Gnossienne No. 1 - Interpretation 2', recordingMusician: 'Alice Sara Ott'},
-            { name: 'Gnossienne No. 2', recordingMusician: 'Reinbert de Leeuw'},
-            { name: 'Gnossienne No. 3', recordingMusician: 'Anne Queffelec'},
-            { name: 'Gnossienne No. 4', recordingMusician: 'Anne Queffelec'},
-            { name: 'Gnossienne No. 5', recordingMusician: 'Anne Queffelec'}
+            { name: 'Gymnopédie No. 1', fileName: 'Gymnopédie No. 1', recordingMusician: 'Rousseau'},
+            { name: 'Gnossienne No. 1 - Interpretation 1', fileName: 'Gnossienne No. 1 - Interpretation 1', recordingMusician: 'Anne Queffelec'},
+            { name: 'Gnossienne No. 1 - Interpretation 2', fileName: 'Gnossienne No. 1 - Interpretation 2', recordingMusician: 'Alice Sara Ott'},
+            { name: 'Gnossienne No. 2', fileName: 'Gnossienne No. 2', recordingMusician: 'Reinbert de Leeuw'},
+            { name: 'Gnossienne No. 3', fileName: 'Gnossienne No. 3', recordingMusician: 'Anne Queffelec'},
+            { name: 'Gnossienne No. 4', fileName: 'Gnossienne No. 4', recordingMusician: 'Anne Queffelec'},
+            { name: 'Gnossienne No. 5', fileName: 'Gnossienne No. 5', recordingMusician: 'Anne Queffelec'}
         ]
     },
     {
         id: 'debussy',
         name: 'Debussy',
         songs: [
-            { name: 'Reverie', specialCharactersName: 'Rêverie', recordingMusician: 'Rousseau' },
-            { name: 'Suite bergamasque L. 75 III. (Clair de lune)', recordingMusician: 'Rousseau' },
-            { name: 'Arabesque No. 1 L. 66', recordingMusician: 'Rousseau' },
-            { name: 'Preludes Book 1 L. 117 VIII. (The Girl with the Flaxen Hair)', recordingMusician: 'Jacques Rouvier' }
+            { name: 'Rêverie', fileName: 'Reverie', recordingMusician: 'Rousseau' },
+            { name: 'Suite bergamasque L. 75 III. (Clair de lune)', fileName: 'Suite bergamasque L. 75 III. (Clair de lune)', recordingMusician: 'Rousseau' },
+            { name: 'Arabesque No. 1 L. 66', fileName: 'Arabesque No. 1 L. 66', recordingMusician: 'Rousseau' },
+            { name: 'Preludes Book 1 L. 117 VIII. (The Girl with the Flaxen Hair)', fileName: 'Preludes Book 1 L. 117 VIII. (The Girl with the Flaxen Hair)', recordingMusician: 'Jacques Rouvier' }
         ]
     },
     {
         id: 'faure',
         name: 'Fauré',
         songs: [
-            { name: 'Elegie Op. 24', specialCharactersName: 'Élégie Op. 24', recordingMusician: 'Harriet Krijgh' }
+            { name: 'Élégie Op. 24', fileName: 'Elegie Op. 24', recordingMusician: 'Harriet Krijgh' }
         ]
     },
     {
         id: 'elgar',
         name: 'Elgar',
         songs: [
-            { name: 'Cello Concerto in E Minor Op. 85 I.', recordingMusician: 'Sophie Kauer' }
+            { name: 'Cello Concerto in E Minor Op. 85 I.', fileName: 'Cello Concerto in E Minor Op. 85 I.', recordingMusician: 'Sophie Kauer' }
         ]
     },
     {
         id: 'saint-saens',
         name: 'Saint-Saëns',
         songs: [
-            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' },
-            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott (Piano), Yo-Yo Ma (Cello)' },
-            { name: 'Cello Concerto No. 1 in A Minor Op. 33 I. and III.', recordingMusician: 'Andrew Shulman' }
+            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', fileName: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' },
+            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', fileName: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott (Piano), Yo-Yo Ma (Cello)' },
+            { name: 'Cello Concerto No. 1 in A Minor Op. 33 I. and III.', fileName: 'Cello Concerto No. 1 in A Minor Op. 33 I. and III.', recordingMusician: 'Andrew Shulman' }
         ]
     },
     {
         id: 'giazotto',
         name: 'Giazotto',
         songs: [
-            { name: 'Adagio in G Minor', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
+            { name: 'Adagio in G Minor', fileName: 'Adagio in G Minor', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
         ]
     },
     {
         id: 'samuel-barber',
         name: 'Samuel Barber',
         songs: [
-            { name: 'Adagio for Strings', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
-            { name: 'Agnus Dei', recordingMusician: 'Dale Warland Singers' }
+            { name: 'Adagio for Strings', fileName: 'Adagio for Strings', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
+            { name: 'Agnus Dei', fileName: 'Agnus Dei', recordingMusician: 'Dale Warland Singers' }
         ]
     },
     {
         id: 'shostakovich',
         name: 'Shostakovich',
         songs: [
-            { name: 'Waltz No. 2', recordingMusician: 'Andre Rieu and the Johann Strauss Orchestra' }
+            { name: 'Waltz No. 2', fileName: 'Waltz No. 2', recordingMusician: 'Andre Rieu and the Johann Strauss Orchestra' }
         ]
     },
     {
         id: 'massenet',
         name: 'Massenet',
         songs: [
-            { name: 'Meditation from Thais', specialCharactersName: 'Méditation from Thaïs', recordingMusician: 'Anne-Sophie Bertrand (Harp), Renaud Capuçon (Violin)' },
-            { name: 'Meditation from Thais - Cello', specialCharactersName: 'Méditation from Thaïs - Cello', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
+            { name: 'Méditation from Thaïs', fileName: 'Meditation from Thais', recordingMusician: 'Anne-Sophie Bertrand (Harp), Renaud Capuçon (Violin)' },
+            { name: 'Méditation from Thaïs - Cello', name: 'Meditation from Thais - Cello', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
         ]
     },
     {
         id: 'mussorgsky',
         name: 'Mussorgsky',
         songs: [
-            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello', recordingMusician: 'Metamorphose String Orchestra and Pavel Lyubomudrov' },
-            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello - Piano', recordingMusician: 'Khatia Buniatishvili' },
-            { name: 'Night on Bald Mountain', recordingMusician: 'New York Philharmonic Orchestra', arrangement: 'Nikolai Rimsky-Korsakov' }
+            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello', fileName: 'Pictures at an Exhibition No. 2 Il Vecchio Castello', recordingMusician: 'Metamorphose String Orchestra and Pavel Lyubomudrov' },
+            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello - Piano', fileName: 'Pictures at an Exhibition No. 2 Il Vecchio Castello - Piano', recordingMusician: 'Khatia Buniatishvili' },
+            { name: 'Night on Bald Mountain', fileName: 'Night on Bald Mountain', recordingMusician: 'New York Philharmonic Orchestra', arrangement: 'Nikolai Rimsky-Korsakov' }
         ]
     },
     {
         id: 'bruch',
         name: 'Bruch',
         songs: [
-            { name: 'Kol Nidre', recordingMusician: 'Mischa Maisky, Frankfurt Radio Symphony Orchestra' }
+            { name: 'Kol Nidre', fileName: 'Kol Nidre', recordingMusician: 'Mischa Maisky, Frankfurt Radio Symphony Orchestra' }
         ]
     },
     {
         id: 'gruber',
         name: 'Gruber',
         songs: [
-            { name: 'Silent Night - Piano', recordingMusician: 'Rousseau' },
-            { name: 'Silent Night - Cello', recordingMusician: 'Future Cello' }
+            { name: 'Silent Night - Piano', fileName: 'Silent Night - Piano', recordingMusician: 'Rousseau' },
+            { name: 'Silent Night - Cello', fileName: 'Silent Night - Cello', recordingMusician: 'Future Cello' }
         ]
     },
     {
         id: 'handel',
         name: 'Handel',
         songs: [
-            { name: 'Suite No. 1 in B-Flat Major HWV 434 IV.', recordingMusician: 'Khatia Buniatishvili', arrangement: 'Wilhelm Kempff' },
+            { name: 'Suite No. 1 in B-Flat Major HWV 434 IV.', fileName: 'Suite No. 1 in B-Flat Major HWV 434 IV.', recordingMusician: 'Khatia Buniatishvili', arrangement: 'Wilhelm Kempff' },
         ]
     },
     {
         id: 'tchaikovsky',
         name: 'Tchaikovsky',
         songs: [
-            { name: 'Swan Lake Op. 20 I. Enchanted Lake', recordingMusician: 'Royal Philharmonic Orchestra' },
-            { name: 'Swan Lake Op. 20 XXI. Spanish Dance', recordingMusician: 'Royal Philharmonic Orchestra' },
-            { name: 'The Nutcracker Op. 71 Pas De Deux', recordingMusician: 'London Symphony Orchestra' },
-            { name: 'The Nutcracker Suite Op. 71a No. 2a March of the Toy Soldiers', recordingMusician: 'Metamorphose String Orchestra' },
-            { name: 'The Nutcracker Suite Op. 71a No. 2b Dance of the Sugar Plum Fairy', recordingMusician: 'Metamorphose String Orchestra' },
-            { name: 'The Nutcracker Suite Op. 71a No. 2c Russian Dance', recordingMusician: 'Metamorphose String Orchestra' },
-            { name: 'The Nutcracker Suite Op. 71a No. 2f Dance of the Mirlitons', recordingMusician: 'Metamorphose String Orchestra' },
-            { name: 'The Nutcracker Suite Op. 71a No. 3 Waltz of the Flowers', recordingMusician: 'London Symphony Orchestra' },
-            { name: '1812 Overture Op. 49', recordingMusician: 'St. Petersburg Chamber Choir, Leningrad Military Orchestra' }
+            { name: 'Swan Lake Op. 20 I. Enchanted Lake', fileName: 'Swan Lake Op. 20 I. Enchanted Lake', recordingMusician: 'Royal Philharmonic Orchestra' },
+            { name: 'Swan Lake Op. 20 XXI. Spanish Dance', fileName: 'Swan Lake Op. 20 XXI. Spanish Dance', recordingMusician: 'Royal Philharmonic Orchestra' },
+            { name: 'The Nutcracker Op. 71 Pas De Deux', fileName: 'The Nutcracker Op. 71 Pas De Deux', recordingMusician: 'London Symphony Orchestra' },
+            { name: 'The Nutcracker Suite Op. 71a No. 2a March of the Toy Soldiers', fileName: 'The Nutcracker Suite Op. 71a No. 2a March of the Toy Soldiers', recordingMusician: 'Metamorphose String Orchestra' },
+            { name: 'The Nutcracker Suite Op. 71a No. 2b Dance of the Sugar Plum Fairy', fileName: 'The Nutcracker Suite Op. 71a No. 2b Dance of the Sugar Plum Fairy', recordingMusician: 'Metamorphose String Orchestra' },
+            { name: 'The Nutcracker Suite Op. 71a No. 2c Russian Dance', fileName: 'The Nutcracker Suite Op. 71a No. 2c Russian Dance', recordingMusician: 'Metamorphose String Orchestra' },
+            { name: 'The Nutcracker Suite Op. 71a No. 2f Dance of the Mirlitons', fileName: 'The Nutcracker Suite Op. 71a No. 2f Dance of the Mirlitons', recordingMusician: 'Metamorphose String Orchestra' },
+            { name: 'The Nutcracker Suite Op. 71a No. 3 Waltz of the Flowers', fileName: 'The Nutcracker Suite Op. 71a No. 3 Waltz of the Flowers', recordingMusician: 'London Symphony Orchestra' },
+            { name: '1812 Overture Op. 49', fileName: '1812 Overture Op. 49', recordingMusician: 'St. Petersburg Chamber Choir, Leningrad Military Orchestra' }
         ]
     },
     {
         id: 'brahms',
         name: 'Brahms',
         songs: [
-            { name: 'Symphony No. 3 in F Major Op. 90 III.', recordingMusician: 'Berlin Philharmonic Orchestra' },
-            { name: 'Hungarian Dance No. 1 in G Minor WoO 1', recordingMusician: 'Vienna Philharmonic Orchestra' },
-            { name: 'Hungarian Dance No. 5 in G Minor WoO 1', recordingMusician: 'Vienna Philharmonic Orchestra' }
+            { name: 'Symphony No. 3 in F Major Op. 90 III.', fileName: 'Symphony No. 3 in F Major Op. 90 III.', recordingMusician: 'Berlin Philharmonic Orchestra' },
+            { name: 'Hungarian Dance No. 1 in G Minor WoO 1', fileName: 'Hungarian Dance No. 1 in G Minor WoO 1', recordingMusician: 'Vienna Philharmonic Orchestra' },
+            { name: 'Hungarian Dance No. 5 in G Minor WoO 1', fileName: 'Hungarian Dance No. 5 in G Minor WoO 1', recordingMusician: 'Vienna Philharmonic Orchestra' }
         ]
     },
     {
         id: 'dvorak',
         name: 'Dvořák',
         songs: [
-            { name: 'Symphony No. 9 in E Minor Op. 95 B. 178 II. (From The New World)', recordingMusician: 'Berlin Philharmonic Orchestra' },
+            { name: 'Symphony No. 9 in E Minor Op. 95 B. 178 II. (From The New World)', fileName: 'Symphony No. 9 in E Minor Op. 95 B. 178 II. (From The New World)', recordingMusician: 'Berlin Philharmonic Orchestra' },
         ]
     },
     {
         id: 'grieg',
         name: 'Grieg',
         songs: [
-            { name: 'Peer Gynt Suite No. 1 Op. 46 I. (Morning Mood)', recordingMusician: 'Berlin Philharmonic Orchestra' },
-            { name: 'Peer Gynt Suite No. 1 Op. 46 IV. (In the Hall of the Mountain King)', recordingMusician: 'Kassia' }
+            { name: 'Peer Gynt Suite No. 1 Op. 46 I. (Morning Mood)', fileName: 'Peer Gynt Suite No. 1 Op. 46 I. (Morning Mood)', recordingMusician: 'Berlin Philharmonic Orchestra' },
+            { name: 'Peer Gynt Suite No. 1 Op. 46 IV. (In the Hall of the Mountain King)', fileName: 'Peer Gynt Suite No. 1 Op. 46 IV. (In the Hall of the Mountain King)', recordingMusician: 'Kassia' }
         ]
     },
     {
         id: 'strauss',
         name: 'Strauss',
         songs: [
-            { name: 'The Beautiful Blue Danube Op. 314', recordingMusician: 'Vienna Johann Strauss Orchestra' }
+            { name: 'The Beautiful Blue Danube Op. 314', fileName: 'The Beautiful Blue Danube Op. 314', recordingMusician: 'Vienna Johann Strauss Orchestra' }
         ]
     },
     {
         id: 'verdi',
         name: 'Verdi',
         songs: [
-            { name: 'Messa da Requiem II. Dies irae - Dies irae', recordingMusician: 'Budapest Scoring Symphonic Orchestra' }
+            { name: 'Messa da Requiem II. Dies irae - Dies irae', fileName: 'Messa da Requiem II. Dies irae - Dies irae', recordingMusician: 'Budapest Scoring Symphonic Orchestra' }
         ]
     },
     {
         id: 'donizetti',
         name: 'Donizetti',
         songs: [
-            { name: "Una furtiva lagrima from L'elisir d'amore - Cello", recordingMusician: 'Camille Thomas, Brussels Philharmonic Orchestra' }
+            { name: "Una furtiva lagrima from L'elisir d'amore - Cello", fileName: "Una furtiva lagrima from L'elisir d'amore - Cello", recordingMusician: 'Camille Thomas, Brussels Philharmonic Orchestra' }
         ]
     },
     {
         id: 'mascagni',
         name: 'Mascagni',
         songs: [
-            { name: 'Intermezzo sinfonico from Cavalleria rusticana - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
+            { name: 'Intermezzo sinfonico from Cavalleria rusticana - Cello', fileName: 'Intermezzo sinfonico from Cavalleria rusticana - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
         ]
     },
     {
         id: 'harry-gregson-williams',
         name: 'Harry Gregson-Williams',
         songs: [
-            { name: 'Narnia Lullaby', soundtrack: 'The Chronicles of Narnia: The Lion, the Witch, and the Wardrobe' }
+            { name: 'Narnia Lullaby', fileName: 'Narnia Lullaby', soundtrack: 'The Chronicles of Narnia: The Lion, the Witch, and the Wardrobe' }
         ]
     },
     {
         id: 'steve-jablonsky',
         name: 'Steve Jablonsky',
         songs: [
-            { name: 'Arrival to Earth', soundtrack: 'Transformers' },
-            { name: 'Tessa', soundtrack: 'Transformers: Age of Extinction' },
-            { name: 'Sacrifice', soundtrack: 'Transformers: The Last Knight' }
+            { name: 'Arrival to Earth', fileName: 'Arrival to Earth', soundtrack: 'Transformers' },
+            { name: 'Tessa', fileName: 'Tessa', soundtrack: 'Transformers: Age of Extinction' },
+            { name: 'Sacrifice', fileName: 'Sacrifice', soundtrack: 'Transformers: The Last Knight' }
         ]
     },
     {
         id: 'james-newton-howard',
         name: 'James Newton Howard',
         songs: [
-            { name: "Rue's Farewell", soundtrack: 'The Hunger Games' },
-            { name: 'There Are Worse Games to Play-Deep in the Meadow-The Hunger Games Suite', soundtrack: 'The Hunger Games: Mockingjay Part 2' },
-            { name: "Snow's Execution", soundtrack: 'The Hunger Games: Mockingjay Part 2' }
+            { name: "Rue's Farewell", fileName: "Rue's Farewell", soundtrack: 'The Hunger Games' },
+            { name: 'There Are Worse Games to Play-Deep in the Meadow-The Hunger Games Suite', fileName: 'There Are Worse Games to Play-Deep in the Meadow-The Hunger Games Suite', soundtrack: 'The Hunger Games: Mockingjay Part 2' },
+            { name: "Snow's Execution", fileName: "Snow's Execution", soundtrack: 'The Hunger Games: Mockingjay Part 2' }
         ]
     },
     {
         id: 'john-williams',
         name: 'John Williams',
         songs: [
-            { name: 'Leaving Hogwarts', soundtrack: "Harry Potter and the Sorcerer's Stone" }
+            { name: 'Leaving Hogwarts', fileName: 'Leaving Hogwarts', soundtrack: "Harry Potter and the Sorcerer's Stone" }
         ]
     },
     {
         id: 'patrick-doyle',
         name: 'Patrick Doyle',
         songs: [
-            { name: 'Another Year Ends', soundtrack: 'Harry Potter and the Goblet of Fire' }
+            { name: 'Another Year Ends', fileName: 'Another Year Ends', soundtrack: 'Harry Potter and the Goblet of Fire' }
         ]
     },
     {
         id: 'nicholas-hooper',
         name: 'Nicholas Hooper',
         songs: [
-            { name: 'Possession', soundtrack: 'Harry Potter and the Order of the Phoenix' },
-            { name: 'When Ginny Kissed Harry', soundtrack: 'Harry Potter and the Half-Blood Prince' },
-            { name: "Dumbledore's Farewell", soundtrack: 'Harry Potter and the Half-Blood Prince' }
+            { name: 'Possession', fileName: 'Possession', soundtrack: 'Harry Potter and the Order of the Phoenix' },
+            { name: 'When Ginny Kissed Harry', fileName: 'When Ginny Kissed Harry', soundtrack: 'Harry Potter and the Half-Blood Prince' },
+            { name: "Dumbledore's Farewell", fileName: "Dumbledore's Farewell", soundtrack: 'Harry Potter and the Half-Blood Prince' }
         ]
     },
     {
         id: 'alexandre-desplat',
         name: 'Alexandre Desplat',
         songs: [
-            { name: 'Severus and Lily', soundtrack: 'Harry Potter and the Deathly Hallows Part 2' }
+            { name: 'Severus and Lily', fileName: 'Severus and Lily', soundtrack: 'Harry Potter and the Deathly Hallows Part 2' }
         ]
     },
     {
         id: 'howard-shore',
         name: 'Howard Shore',
         songs: [
-            { name: 'Theoden King', specialCharactersName: 'Théoden King', soundtrack: 'The Lord of the Rings: The Two Towers' },
-            { name: 'Edoras', soundtrack: 'The Lord of the Rings: The Two Towers' }
+            { name: 'Théoden King', fileName: 'Theoden King', soundtrack: 'The Lord of the Rings: The Two Towers' },
+            { name: 'Edoras', fileName: 'Edoras', soundtrack: 'The Lord of the Rings: The Two Towers' }
         ]
     },
     {
         id: 'michael-giacchino',
         name: 'Michael Giacchino',
         songs: [
-            { name: 'Married Life', soundtrack: 'Up' }
+            { name: 'Married Life', fileName: 'Married Life', soundtrack: 'Up' }
         ]
     },
     {
         id: 'bear-mccreary',
         name: 'Bear McCreary',
         songs: [
-            { name: 'Reconciliation', soundtrack: 'The Walking Dead' }
+            { name: 'Reconciliation', fileName: 'Reconciliation', soundtrack: 'The Walking Dead' }
         ]
     },
     {
         id: 'jesper-kyd',
         name: 'Jesper Kyd',
         songs: [
-            { name: "Ezio's Family", soundtrack: "Assassin's Creed II" },
-            { name: 'Echoes of the Roman Ruins', soundtrack: "Assassin's Creed: Brotherhood" },
-            { name: "Assassin's Creed Theme", soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
-            { name: 'You Have Earned Your Rest', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
-            { name: 'An Unsubtle Approach', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
-            { name: 'Labored and Lost', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
-            { name: 'Chase the Target', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
-            { name: 'The Hunter', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' }
+            { name: "Ezio's Family", fileName: "Ezio's Family", soundtrack: "Assassin's Creed II" },
+            { name: 'Echoes of the Roman Ruins', fileName: 'Echoes of the Roman Ruins', soundtrack: "Assassin's Creed: Brotherhood" },
+            { name: "Assassin's Creed Theme", fileName: "Assassin's Creed Theme", soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
+            { name: 'You Have Earned Your Rest', fileName: 'You Have Earned Your Rest', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
+            { name: 'An Unsubtle Approach', fileName: 'An Unsubtle Approach', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
+            { name: 'Labored and Lost', fileName: 'Labored and Lost', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
+            { name: 'Chase the Target', fileName: 'Chase the Target', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
+            { name: 'The Hunter', fileName: 'The Hunter', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' }
         ]
     },
     {
         id: 'zack-hemsey',
         name: 'Zack Hemsey',
         songs: [
-            { name: 'The Way' }
+            { name: 'The Way', fileName: 'The Way' }
         ]
     },
     {
         id: 'jorge-quintero',
         name: 'Jorge Quintero',
         songs: [
-            { name: '300 Violin Orchestra' }
+            { name: '300 Violin Orchestra', fileName: '300 Violin Orchestra' }
         ]
     },
     {
         id: 'johann-johannsson',
         name: 'Johann Johannsson',
         songs: [
-            { name: "The Sun's Gone Dim and the Sky's Turned Black" }
+            { name: "The Sun's Gone Dim and the Sky's Turned Black", fileName: "The Sun's Gone Dim and the Sky's Turned Black" }
         ]
     },
     {
         id: 'atis-freivalds',
         name: 'Atis Freivalds',
         songs: [
-            { name: 'Paradox' },
-            { name: 'For Her' }
+            { name: 'Paradox', fileName: 'Paradox' },
+            { name: 'For Her', fileName: 'For Her' }
         ]
     },
     {
         id: 'mike-patton',
         name: 'Mike Patton',
         songs: [
-            { name: 'The Snow Angel', soundtrack: 'The Place Beyond the Pines' }
+            { name: 'The Snow Angel', fileName: 'The Snow Angel', soundtrack: 'The Place Beyond the Pines' }
         ]
     },
     {
         id: 'max-richter',
         name: 'Max Richter',
         songs: [
-            { name: 'On the Nature of Daylight' }
+            { name: 'On the Nature of Daylight', fileName: 'On the Nature of Daylight' }
         ]
     },
     {
         id: 'lucio-dalla',
         name: 'Lucio Dalla',
         songs: [
-            { name: 'Caruso' },
-            { name: 'Caruso - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
+            { name: 'Caruso', fileName: 'Caruso' },
+            { name: 'Caruso - Cello', fileName: 'Caruso - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
         ]
     },
     {
         id: 'luciano-pavarotti',
         name: 'Luciano Pavarotti',
         songs: [
-            { name: 'Nessun Dorma' }
+            { name: 'Nessun Dorma', fileName: 'Nessun Dorma' }
             
         ]
     },
@@ -506,1191 +506,1191 @@ export const musiciansArray = [
         id: 'ben-e-king',
         name: 'Ben E. King',
         songs: [
-            { name: 'Stand By Me' }
+            { name: 'Stand By Me', fileName: 'Stand By Me' }
         ]
     },
     {
         id: 'eva-cassidy',
         name: 'Eva Cassidy',
         songs: [
-            { name: 'Wade in the Water' },
-            { name: 'Fields of Gold' }
+            { name: 'Wade in the Water', fileName: 'Wade in the Water' },
+            { name: 'Fields of Gold', fileName: 'Fields of Gold' }
         ]
     },
     {
         id: 'charles-bradley',
         name: 'Charles Bradley',
         songs: [
-            { name: 'Crying in the Chapel' }
+            { name: 'Crying in the Chapel', fileName: 'Crying in the Chapel' }
         ]
     },
     {
         id: 'marvin-gaye-tammi-terrell',
         name: 'Marvin Gaye and Tammi Terrell',
         songs: [
-            { name: "Ain't No Mountain High Enough" }
+            { name: "Ain't No Mountain High Enough", fileName: "Ain't No Mountain High Enough" }
         ]
     },
     {
         id: 'donny-hathaway',
         name: 'Donny Hathaway',
         songs: [
-            { name: 'A Song for You' }
+            { name: 'A Song for You', fileName: 'A Song for You' }
         ]
     },
     {
         id: 'the-foundations',
         name: 'The Foundations',
         songs: [
-            { name: 'Build Me Up Buttercup' }
+            { name: 'Build Me Up Buttercup', fileName: 'Build Me Up Buttercup' }
         ]
     },
     {
         id: 'righteous-brothers',
         name: 'Righteous Brothers',
         songs: [
-            { name: 'Unchained Melody' }
+            { name: 'Unchained Melody', fileName: 'Unchained Melody' }
         ]
     },
     {
         id: 'johnny-hartman',
         name: 'Johnny Hartman',
         songs: [
-            { name: 'For All We Know' },
-            { name: 'I See Your Face Before Me' }
+            { name: 'For All We Know', fileName: 'For All We Know' },
+            { name: 'I See Your Face Before Me', fileName: 'I See Your Face Before Me' }
         ]
     },
     {
         id: 'bobby-darin',
         name: 'Bobby Darin',
         songs: [
-            { name: 'The Curtain Falls' }
+            { name: 'The Curtain Falls', fileName: 'The Curtain Falls' }
         ]
     },
     {
         id: 'van-morrison',
         name: 'Van Morrison',
         songs: [
-            { name: 'Moondance' },
-            { name: 'Brown Eyed Girl' }
+            { name: 'Moondance', fileName: 'Moondance' },
+            { name: 'Brown Eyed Girl', fileName: 'Brown Eyed Girl' }
         ]
     },
     {
         id: 'james-brown',
         name: 'James Brown',
         songs: [
-            { name: 'Try Me' }
+            { name: 'Try Me', fileName: 'Try Me' }
         ]
     },
     {
         id: 'etta-james',
         name: 'Etta James',
         songs: [
-            { name: "I'd Rather Go Blind" },
-            { name: "Lord Don't Move That Mountain" }
+            { name: "I'd Rather Go Blind", fileName: "I'd Rather Go Blind" },
+            { name: "Lord Don't Move That Mountain", fileName: "Lord Don't Move That Mountain" }
         ]
     },
     {
         id: 'charles-aznavour',
         name: 'Charles Aznavour',
         songs: [
-            { name: 'For Me Formidable' }
+            { name: 'For Me Formidable', fileName: 'For Me Formidable' }
         ]
     },
     {
         id: 'israel-kamakawiwoole',
         name: "Israel Kamakawiwo'ole",
         songs: [
-            { name: 'Somewhere Over the Rainbow' }
+            { name: 'Somewhere Over the Rainbow', fileName: 'Somewhere Over the Rainbow' }
         ]
     },
     {
         id: 'nick-cave',
         name: 'Nick Cave',
         songs: [
-            { name: 'O Children' }
+            { name: 'O Children', fileName: 'O Children' }
         ]
     },
     {
         id: 'imogen-heap',
         name: 'Imogen Heap',
         songs: [
-            { name: 'Hide and Seek' }
+            { name: 'Hide and Seek', fileName: 'Hid and Seek' }
         ]
     },
     {
         id: 'don-mclean',
         name: 'Don McLean',
         songs: [
-            { name: 'Vincent' },
-            { name: 'Vincent - Guitar', recordingMusician: 'Daniel Champagne'},
-            { name: 'American Pie' }
+            { name: 'Vincent', fileName: 'Vincent' },
+            { name: 'Vincent - Guitar', fileName: 'Vincent - Guitar', recordingMusician: 'Daniel Champagne'},
+            { name: 'American Pie', fileName: 'American Pie' }
         ]
     },
     {
         id: 'the-mamas-and-the-papas',
         name: 'The Mamas and the Papas',
         songs: [
-            { name: "California Dreamin'" }
+            { name: "California Dreamin'", fileName: "California Dreamin'" }
         ]
     },
     {
         id: 'patrick-watson',
         name: 'Patrick Watson',
         songs: [
-            { name: 'To Build a Home', contributors: 'The Cinematic Orchestra' }
+            { name: 'To Build a Home', fileName: 'To Build a Home', contributors: 'The Cinematic Orchestra' }
         ]
     },
     {
         id: 'rufus-wainwright',
         name: 'Rufus Wainwright',
         songs: [
-            { name: 'Hallelujah', composer: 'Leonard Bernstein' }
+            { name: 'Hallelujah', fileName: 'Hallelujah', composer: 'Leonard Bernstein' }
         ]
     },
     {
         id: 'duffy',
         name: 'Duffy',
         songs: [
-            { name: 'Delayed Devotion' }
+            { name: 'Delayed Devotion', fileName: 'Delayed Devotion' }
         ]
     },
     {
         id: 'maxwell',
         name: 'Maxwell',
         songs: [
-            { name: 'Pretty Wings' }
+            { name: 'Pretty Wings', fileName: 'Pretty Wings' }
         ]
     },
     {
         id: 'bob-dylan',
         name: 'Bob Dylan',
         songs: [
-            { name: 'Things Have Changed' }
+            { name: 'Things Have Changed', fileName: 'Things Have Changed' }
         ]
     },
     {
         id: 'johnny-cash',
         name: 'Johnny Cash',
         songs: [
-            { name: "God's Gonna Cut You Down" },
-            { name: 'Hurt' }
+            { name: "God's Gonna Cut You Down", fileName: "God's Gonna Cut You Down" },
+            { name: 'Hurt', fileName: 'Hurt' }
         ]
     },
     {
         id: 'ben-howard',
         name: 'Ben Howard',
         songs: [
-            { name: 'Oats in the Water' }
+            { name: 'Oats in the Water', fileName: 'Oats in the Water' }
         ]
     },
     {
         id: 'd-angelo',
         name: "D'Angelo",
         songs: [
-            { name: 'Unshaken' }
+            { name: 'Unshaken', fileName: 'Unshaken' }
         ]
     },
     {
         id: 'jamie-n-commons',
         name: 'Jamie N Commons',
         songs: [
-            { name: 'Lead Me Home' }
+            { name: 'Lead Me Home', fileName: 'Lead Me Home' }
         ]
     },
     {
         id: 'phillip-phillips',
         name: 'Phillip Phillips',
         songs: [
-            { name: 'Home' }
+            { name: 'Home', fileName: 'Home' }
         ]
     },
     {
         id: 'john-mayer',
         name: 'John Mayer',
         songs: [
-            { name: 'Gravity' }
+            { name: 'Gravity', fileName: 'Gravity' }
         ]
     },
     {
         id: 'billy-joel',
         name: 'Billy Joel',
         songs: [
-            { name: 'Piano Man' }
+            { name: 'Piano Man', fileName: 'Piano Man' }
         ]
     },
     {
         id: 'john-denver',
         name: 'John Denver',
         songs: [
-            { name: 'Take Me Home, Country Roads' }
+            { name: 'Take Me Home, Country Roads', fileName: 'Take Me Home, Country Roads' }
         ]
     },
     {
         id: 'ritchie-valens',
         name: 'Ritchie Valens',
         songs: [
-            { name: 'La Bamba' }
+            { name: 'La Bamba', fileName: 'La Bamba' }
         ]
     },
     {
         id: 'jon-batiste',
         name: 'Jon Batiste',
         songs: [
-            { name: 'Blackbird', composer: 'The Beatles' }
+            { name: 'Blackbird', fileName: 'Blackbird', composer: 'The Beatles' }
         ]
     },
     {
         id: 'the-chords',
         name: 'The Chords',
         songs: [
-            { name: 'Sh-Boom' }
+            { name: 'Sh-Boom', fileName: 'Sh-Boom' }
         ]
     },
     {
         id: 'the-isley-brothers',
         name: 'The Isley Brothers',
         songs: [
-            { name: 'Shout' }
+            { name: 'Shout', fileName: 'Shout' }
         ]
     },
     {
         id: 'joe-strummer-and-the-mescaleros',
         name: 'Joe Strummer and the Mescaleros',
         songs: [
-            { name: 'Mondo Bongo' }
+            { name: 'Mondo Bongo', fileName: 'Mondo Bongo' }
         ]
     },
     {
         id: 'imad-fares',
         name: 'Imad Fares',
         songs: [
-            { name: 'Gipsy Kings' }
+            { name: 'Gipsy Kings', fileName: 'Gipsy Kings' }
         ]
     },
     {
         id: 'rodrigo-and-gabriela',
         name: 'Rodrigo y Gabriela',
         songs: [
-            { name: 'Diablo Rojo' }
+            { name: 'Diablo Rojo', fileName: 'Diablo Rojo' }
         ]
     },
     {
         id: 'steve-vai',
         name: 'Steve Vai',
         songs: [
-            { name: 'For the Love of God' },
-            { name: 'Tender Surrender' }
+            { name: 'For the Love of God', fileName: 'For the Love of God' },
+            { name: 'Tender Surrender', fileName: 'Tender Surrender' }
         ]
     },
     {
         id: 'neogeofanatic',
         name: 'Neogeofanatic',
         songs: [
-            { name: 'My Gibson Les Paul Is Crying' }
+            { name: 'My Gibson Les Paul Is Crying', fileName: 'My Gibson Les Paul Is Crying' }
         ]
     },
     {
         id: 'rhapsody-of-fire',
         name: 'Rhapsody of Fire',
         songs: [
-            { name: 'Gargoyles, Angels of Darkness' }
+            { name: 'Gargoyles, Angels of Darkness', fileName: 'Gargoyles, Angels of Darkness' }
         ]
     },
     {
         id: 'meshuggah',
         name: 'Meshuggah',
         songs: [
-            { name: 'Bleed' },
-            { name: 'Demiurge' }
+            { name: 'Bleed', fileName: 'Bleed' },
+            { name: 'Demiurge', fileName: 'Demiurge' }
         ]
     },
     {
         id: 'slipknot',
         name: 'Slipknot',
         songs: [
-            { name: 'All Out Life' },
-            { name: 'Psychosocial' },
-            { name: 'Sulfur' },
-            { name: 'Disasterpiece' },
-            { name: 'Skin Ticket' },
-            { name: 'Purity' },
-            { name: '(sic)' },
-            { name: 'Surfacing' },
-            { name: 'Duality' },
-            { name: 'Custer' },
-            { name: 'The Devil in I' },
-            { name: 'Everything Ends' },
-            { name: 'The Negative One' },
-            { name: 'Snuff' }
+            { name: 'All Out Life', fileName: 'All Out Life' },
+            { name: 'Psychosocial', fileName: 'Psychosocial' },
+            { name: 'Sulfur', fileName: 'Sulfur' },
+            { name: 'Disasterpiece', fileName: 'Disasterpiece' },
+            { name: 'Skin Ticket', fileName: 'Skin Ticket' },
+            { name: 'Purity', fileName: 'Purity' },
+            { name: '(sic)', fileName: '(sic)' },
+            { name: 'Surfacing', fileName: 'Surfacing' },
+            { name: 'Duality', fileName: 'Duality' },
+            { name: 'Custer', fileName: 'Custer' },
+            { name: 'The Devil in I', fileName: 'The Devil in I' },
+            { name: 'Everything Ends', fileName: 'Everything Ends' },
+            { name: 'The Negative One', fileName: 'The Negative One' },
+            { name: 'Snuff', fileName: 'Snuff' }
         ]
     },
     {
         id: 'firewind',
         name: 'Firewind',
         songs: [
-            { name: 'Allegiance' }
+            { name: 'Allegiance', fileName: 'Allegiance' }
         ]
     },
     {
         id: 'pantera',
         name: 'Pantera',
         songs: [
-            { name: 'Mouth for War' },
-            { name: 'Walk' }
+            { name: 'Mouth for War', fileName: 'Mouth for War' },
+            { name: 'Walk', fileName: 'Walk' }
         ]
     },
     {
         id: 'rage-against-the-machine',
         name: 'Rage Against the Machine',
         songs: [
-            { name: 'Killing in the Name' }
+            { name: 'Killing in the Name', fileName: 'Killing in the Name' }
         ]
     },
     {
         id: 'disturbed',
         name: 'Disturbed',
         songs: [
-            { name: 'Down with the Sickness' },
-            { name: 'The Sound of Silence', composer: 'Simon and Garfunkel' }
+            { name: 'Down with the Sickness', fileName: 'Down with the Sickness' },
+            { name: 'The Sound of Silence', fileName: 'The Sound of Silence', composer: 'Simon and Garfunkel' }
         ]
     },
     {
         id: 'nirvana',
         name: 'Nirvana',
         songs: [
-            { name: 'Smells Like Teen Spirit' },
-            { name: 'Heart-Shaped Box' }
+            { name: 'Smells Like Teen Spirit', fileName: 'Smells Like Teen Spirit' },
+            { name: 'Heart-Shaped Box', fileName: 'Heart-Shaped Box' }
         ]
     },
     {
         id: 'metallica',
         name: 'Metallica',
         songs: [
-            { name: 'Enter Sandman' },
-            { name: 'Nothing Else Matters' }
+            { name: 'Enter Sandman', fileName: 'Enter Sandman' },
+            { name: 'Nothing Else Matters', fileName: 'Nothing Else Matters' }
         ]
     },
     {
         id: 'aerosmith',
         name: 'Aerosmith',
         songs: [
-            { name: 'Dream On' }
+            { name: 'Dream On', fileName: 'Dream On' }
         ]
     },
     {
         id: 'blue-oyster-cult',
         name: 'Blue Oyster Cult',
         songs: [
-            { name: "(Don't Fear) The Reaper" }
+            { name: "(Don't Fear) The Reaper", fileName: "(Don't Fear) The Reaper" }
         ]
     },
     {
         id: 'guns-n-roses',
         name: "Guns N' Roses",
         songs: [
-            { name: "Sweet Child O' Mine" },
-            { name: 'Welcome to the Jungle' }
+            { name: "Sweet Child O' Mine", fileName: "Sweet Child O' Mine" },
+            { name: 'Welcome to the Jungle', fileName: 'Welcome to the Jungle' }
         ]
     },
     {
         id: 'ac-dc',
         name: 'AC/DC',
         songs: [
-            { name: 'Thunderstruck' }
+            { name: 'Thunderstruck', fileName: 'Thunderstruck' }
         ]
     },
     {
         id: 'motley-crue',
         name: 'Motley Crue',
         songs: [
-            { name: 'Kickstart My Heart' }
+            { name: 'Kickstart My Heart', fileName: 'Kickstart My Heart' }
         ]
     },
     {
         id: 'the-who',
         name: 'The Who',
         songs: [
-            { name: "Baba O'Riley" },
-            { name: 'Who Are You' },
-            { name: 'Pinball Wizard' }
+            { name: "Baba O'Riley", fileName: "Baba O'Riley" },
+            { name: 'Who Are You', fileName: 'Who Are You' },
+            { name: 'Pinball Wizard', fileName: 'Pinball Wizard' }
         ]
     },
     {
         id: 'rem',
         name: 'R.E.M.',
         songs: [
-            { name: 'Losing My Religion' },
-            { name: 'Man on the Moon' }
+            { name: 'Losing My Religion', fileName: 'Losing My Religion' },
+            { name: 'Man on the Moon', fileName: 'Man on the Moon' }
         ]
     },
     {
         id: 'creedence-clearwater-revival',
         name: 'Creedence Clearwater Revival',
         songs: [
-            { name: 'Have You Ever Seen the Rain' }
+            { name: 'Have You Ever Seen the Rain', fileName: 'Have You Ever Seen the Rain' }
         ]
     },
     {
         id: 'the-beatles',
         name: 'The Beatles',
         songs: [
-            { name: 'In My Life' },
-            { name: 'Let It Be' },
-            { name: 'Girl' },
-            { name: 'Michelle' },
-            { name: 'Eleanor Rigby' },
-            { name: 'The Long and Winding Road' },
-            { name: 'Yesterday' },
-            { name: 'Twist and Shout' },
-            { name: 'Help!' },
-            { name: 'All You Need Is Love' },
-            { name: 'Penny Lane' },
-            { name: 'Hey Jude' }
+            { name: 'In My Life', fileName: 'In My Life' },
+            { name: 'Let It Be', fileName: 'Let It Be' },
+            { name: 'Girl', fileName: 'Girl' },
+            { name: 'Michelle', fileName: 'Michelle' },
+            { name: 'Eleanor Rigby', fileName: 'Eleanor Rigby' },
+            { name: 'The Long and Winding Road', fileName: 'The Long and Winding Road' },
+            { name: 'Yesterday', fileName: 'Yesterday' },
+            { name: 'Twist and Shout', fileName: 'Twist and Shout' },
+            { name: 'Help!', fileName: 'Help!' },
+            { name: 'All You Need Is Love', fileName: 'All You Need Is Love' },
+            { name: 'Penny Lane', fileName: 'Penny Lane' },
+            { name: 'Hey Jude', fileName: 'Hey Jude' }
         ]
     },
     {
         id: 'steely-dan',
         name: 'Steely Dan',
         songs: [
-            { name: 'Do It Again' }
+            { name: 'Do It Again', fileName: 'Do It Again' }
         ]
     },
     {
         id: 'the-band',
         name: 'The Band',
         songs: [
-            { name: 'The Weight' }
+            { name: 'The Weight', fileName: 'The Weight' }
         ]
     },
     {
         id: 'electric-light-orchestra',
         name: 'Electric Light Orchestra',
         songs: [
-            { name: 'Mr. Blue Sky' }
+            { name: 'Mr. Blue Sky', fileName: 'Mr. Blue Sky' }
         ]
     },
     {
         id: 'cream',
         name: 'Cream',
         songs: [
-            { name: 'White Room' }
+            { name: 'White Room', fileName: 'White Room' }
         ]
     },
     {
         id: 'the-j-geils-band',
         name: 'The J. Geils Band',
         songs: [
-            { name: 'Centerfold' }
+            { name: 'Centerfold', fileName: 'Centerfold' }
         ]
     },
     {
         id: 'dick-dale',
         name: 'Dick Dale',
         songs: [
-            { name: 'Miserlou' }
+            { name: 'Miserlou', fileName: 'Miserlou' }
         ]
     },
     {
         id: 'joan-jett-and-the-blackhearts',
         name: 'Joan Jett and the Blackhearts',
         songs: [
-            { name: "I Love Rock 'N Roll", composer: 'The Arrows' }
+            { name: "I Love Rock 'N Roll", fileName: "I Love Rock 'N Roll", composer: 'The Arrows' }
         ]
     },
     {
         id: 'the-cranberries',
         name: 'The Cranberries',
         songs: [
-            { name: 'Zombie' }
+            { name: 'Zombie', fileName: 'Zombie' }
         ]
     },
     {
         id: '4-non-blondes',
         name: '4 Non Blondes',
         songs: [
-            { name: "What's Up" }
+            { name: "What's Up", fileName: "What's Up" }
         ]
     },
     {
         id: 'radiohead',
         name: 'Radiohead',
         songs: [
-            { name: 'Creep' },
-            { name: 'How to Disappear Completely' }
+            { name: 'Creep', fileName: 'Creep' },
+            { name: 'How to Disappear Completely', fileName: 'How to Disappear Completely' }
         ]
     },
     {
         id: 'muse',
         name: 'Muse',
         songs: [
-            { name: 'Uprising' },
-            { name: 'Starlight' },
-            { name: 'Supermassive Black Hole' }
+            { name: 'Uprising', fileName: 'Uprising' },
+            { name: 'Starlight', fileName: 'Starlight' },
+            { name: 'Supermassive Black Hole', fileName: 'Supermassive Black Hole' }
         ]
     },
     {
         id: 'my-chemical-romance',
         name: 'My Chemical Romance',
         songs: [
-            { name: 'The Ghost of You' }
+            { name: 'The Ghost of You', fileName: 'The Ghost of You' }
         ]
     },
     {
         id: 'linkin-park',
         name: 'Linkin Park',
         songs: [
-            { name: 'Numb' }
+            { name: 'Numb', fileName: 'Numb' }
         ]
     },
     {
         id: 'twenty-one-pilots',
         name: 'Twenty One Pilots',
         songs: [
-            { name: 'Ride' }
+            { name: 'Ride', fileName: 'Ride' }
         ]
     },
     {
         id: 'the-goo-goo-dolls',
         name: 'The Goo Goo Dolls',
         songs: [
-            { name: 'Iris' }
+            { name: 'Iris', fileName: 'Iris' }
         ]
     },
     {
         id: 'oasis',
         name: 'Oasis',
         songs: [
-            { name: 'Wonderwall' }
+            { name: 'Wonderwall', fileName: 'Wonderwall' }
         ]
     },
     {
         id: 'augustana',
         name: 'Augustana',
         songs: [
-            { name: 'Boston' }
+            { name: 'Boston', fileName: 'Boston' }
         ]
     },
     {
         id: 'the-killers',
         name: 'The Killers',
         songs: [
-            { name: 'Mr. Brightside' }
+            { name: 'Mr. Brightside', fileName: 'Mr. Brightside' }
         ]
     },
     {
         id: 'green-day',
         name: 'Green Day',
         songs: [
-            { name: 'Boulevard of Broken Dreams' },
-            { name: '21 Guns' }
+            { name: 'Boulevard of Broken Dreams', fileName: 'Boulevard of Broken Dreams' },
+            { name: '21 Guns', fileName: '21 Guns' }
         ]
     },
     {
         id: 'coldplay',
         name: 'Coldplay',
         songs: [
-            { name: 'The Scientist' },
-            { name: 'Yellow' },
-            { name: 'Fix You' },
-            { name: 'Viva la Vida' },
-            { name: 'Adventure of a Lifetime' }
+            { name: 'The Scientist', fileName: 'The Scientist' },
+            { name: 'Yellow', fileName: 'Yellow' },
+            { name: 'Fix You', fileName: 'Fix You' },
+            { name: 'Viva la Vida', fileName: 'Viva la Vida' },
+            { name: 'Adventure of a Lifetime', fileName: 'Adventure of a Lifetime' }
         ]
     },
     {
         id: 'snow-patrol',
         name: 'Snow Patrol',
         songs: [
-            { name: 'Chasing Cars' }
+            { name: 'Chasing Cars', fileName: 'Chasing Cars' }
         ]
     },
     {
         id: 'wilco',
         name: 'Wilco',
         songs: [
-            { name: 'How to Fight Loneliness' }
+            { name: 'How to Fight Loneliness', fileName: 'How to Fight Loneliness' }
         ]
     },
     {
         id: 'wang-chung',
         name: 'Wang Chung',
         songs: [
-            { name: 'Space Junk' }
+            { name: 'Space Junk', fileName: 'Space Junk' }
         ]
     },
     {
         id: 'the-white-stripes',
         name: 'The White Stripes',
         songs: [
-            { name: 'Seven Nation Army' }
+            { name: 'Seven Nation Army', fileName: 'Seven Nation Army' }
         ]
     },
     {
         id: 'dropkick-murphys',
         name: 'Dropkick Murphys',
         songs: [
-            { name: "I'm Shipping Up to Boston" },
-            { name: 'Tessie' }
+            { name: "I'm Shipping Up to Boston", fileName: "I'm Shipping Up to Boston" },
+            { name: 'Tessie', fileName: 'Tessie' }
         ]
     },
     {
         id: 'smash-mouth',
         name: 'Smash Mouth',
         songs: [
-            { name: 'All Star' }
+            { name: 'All Star', fileName: 'All Star' }
         ]
     },
     {
         id: 'u2',
         name: 'U2',
         songs: [
-            { name: 'Vertigo' },
-            { name: 'Beautiful Day' }
+            { name: 'Vertigo', fileName: 'Vertigo' },
+            { name: 'Beautiful Day', fileName: 'Beautiful Day' }
         ]
     },
     {
         id: 'kaiser-chiefs',
         name: 'Kaiser Chiefs',
         songs: [
-            { name: 'Ruby' }
+            { name: 'Ruby', fileName: 'Ruby' }
         ]
     },
     {
         id: 'jet',
         name: 'Jet',
         songs: [
-            { name: 'Are You Gonna Be My Girl' }
+            { name: 'Are You Gonna Be My Girl', fileName: 'Are You Gonna Be My Girl' }
         ]
     },
     {
         id: 'hometown-hero',
         name: 'Hometown Hero',
         songs: [
-            { name: 'Robbers' }
+            { name: 'Robbers', fileName: 'Robbers' }
         ]
     },
     {
         id: 'chronic-future',
         name: 'Chronic Future',
         songs: [
-            { name: 'Time and Time Again' }
+            { name: 'Time and Time Again', fileName: 'Time and Time Again' }
         ]
     },
     {
         id: 'the-von-bondies',
         name: 'The Von Bondies',
         songs: [
-            { name: "C'mon C'mon" }
+            { name: "C'mon C'mon", fileName: "C'mon C'mon" }
         ]
     },
     {
         id: 'to-my-surprise',
         name: 'To My Surprise',
         songs: [
-            { name: 'Get It to Go' }
+            { name: 'Get It to Go', fileName: 'Get It to Go' }
         ]
     },
     {
         id: 'stray-cats',
         name: 'Stray Cats',
         songs: [
-            { name: 'Stray Cat Strut' }
+            { name: 'Stray Cat Strut', fileName: 'Stray Cat Strut' }
         ]
     },
     {
         id: 'tears-for-fears',
         name: 'Tears For Fears',
         songs: [
-            { name: 'Sowing the Seeds of Love' },
-            { name: 'Everybody Wants to Rule the World' }
+            { name: 'Sowing the Seeds of Love', fileName: 'Sowing the Seeds of Love' },
+            { name: 'Everybody Wants to Rule the World', fileName: 'Everybody Wants to Rule the World' }
         ]
     },
     {
         id: 'a-ha',
         name: 'A-ha',
         songs: [
-            { name: 'Take On Me' }
+            { name: 'Take On Me', fileName: 'Take On Me' }
         ]
     },
     {
         id: 'culture-club',
         name: 'Culture Club',
         songs: [
-            { name: 'Karma Chameleon' }
+            { name: 'Karma Chameleon', fileName: 'Karma Chameleon' }
         ]
     },
     {
         id: 'john-waite',
         name: 'John Waite',
         songs: [
-            { name: 'Missing You' }
+            { name: 'Missing You', fileName: 'Missing You' }
         ]
     },
     {
         id: 'eddie-money',
         name: 'Eddie Money',
         songs: [
-            { name: 'Baby Hold On' }
+            { name: 'Baby Hold On', fileName: 'Baby Hold On' }
         ]
     },
     {
         id: 'phil-collins',
         name: 'Phil Collins',
         songs: [
-            { name: 'In the Air Tonight' },
-            { name: "You'll Be in My Heart" }
+            { name: 'In the Air Tonight', fileName: 'In the Air Tonight' },
+            { name: "You'll Be in My Heart", fileName: "You'll Be in My Heart" }
         ]
     },
     {
         id: 'gloria-gaynor',
         name: 'Gloria Gaynor',
         songs: [
-            { name: 'I Will Survive' }
+            { name: 'I Will Survive', fileName: 'I Will Survive' }
         ]
     },
     {
         id: 'andrea-true-connection',
         name: 'Andrea True Connection',
         songs: [
-            { name: 'More, More, More' }
+            { name: 'More, More, More', fileName: 'More, More, More' }
         ]
     },
     {
         id: 'kc-and-the-sunshine-band',
         name: 'KC And The Sunshine Band',
         songs: [
-            { name: 'Get Down Tonight' },
-            { name: "That's the Way (I Like It)" }
+            { name: 'Get Down Tonight', fileName: 'Get Down Tonight' },
+            { name: "That's the Way (I Like It)", fileName: "That's the Way (I Like It)" }
         ]
     },
     {
         id: 'earth-wind-and-fire',
         name: 'Earth, Wind & Fire',
         songs: [
-            { name: 'September' }
+            { name: 'September', fileName: 'September' }
         ]
     },
     {
         id: 'the-gap-band',
         name: 'The Gap Band',
         songs: [
-            { name: 'You Dropped a Bomb on Me' }
+            { name: 'You Dropped a Bomb on Me', fileName: 'You Dropped a Bomb on Me' }
         ]
     },
     {
         id: 'elton-john',
         name: 'Elton John',
         songs: [
-            { name: 'Tiny Dancer' }
+            { name: 'Tiny Dancer', fileName: 'Tiny Dancer' }
         ]
     },
     {
         id: 'styx',
         name: 'Styx',
         songs: [
-            { name: 'Come Sail Away' }
+            { name: 'Come Sail Away', fileName: 'Come Sail Away' }
         ]
     },
     {
         id: 'queen',
         name: 'Queen',
         songs: [
-            { name: 'Bohemian Rhapsody' }
+            { name: 'Bohemian Rhapsody', fileName: 'Bohemian Rhapsody' }
         ]
     },
     {
         id: 'suicidal-tendencies',
         name: 'Suicidal Tendencies',
         songs: [
-            { name: 'Institutionalized' }
+            { name: 'Institutionalized', fileName: 'Institutionalized' }
         ]
     },
     {
         id: 'house-of-pain',
         name: 'House Of Pain',
         songs: [
-            { name: 'Jump Around' }
+            { name: 'Jump Around', fileName: 'Jump Around' }
         ]
     },
     {
         id: 'naughty-by-nature',
         name: 'Naughty By Nature',
         songs: [
-            { name: 'Hip Hop Hooray' }
+            { name: 'Hip Hop Hooray', fileName: 'Hip Hop Hooray' }
         ]
     },
     {
         id: 'eminem',
         name: 'Eminem',
         songs: [
-            { name: 'Sing for the Moment' },
-            { name: 'Lose Yourself' },
-            { name: 'Till I Collapse' },
-            { name: "Won't Back Down" },
-            { name: 'Like Toy Soldiers' },
-            { name: 'Stan' },
-            { name: 'Fast Lane' },
-            { name: 'Rap God' },
-            { name: 'Space Bound' }
+            { name: 'Sing for the Moment', fileName: 'Sing for the Moment' },
+            { name: 'Lose Yourself', fileName: 'Lose Yourself' },
+            { name: 'Till I Collapse', fileName: 'Till I Collapse' },
+            { name: "Won't Back Down", fileName: "Won't Back Down" },
+            { name: 'Like Toy Soldiers', fileName: 'Like Toy Soldiers' },
+            { name: 'Stan', fileName: 'Stan' },
+            { name: 'Fast Lane', fileName: 'Fast Lane' },
+            { name: 'Rap God', fileName: 'Rap God' },
+            { name: 'Space Bound', fileName: 'Space Bound' }
         ]
     },
     {
         id: 'dr-dre',
         name: 'Dr. Dre',
         songs: [
-            { name: "Nuthin' but a 'G' Thang" },
-            { name: 'Big Egos' },
-            { name: "What's the Difference" },
-            { name: 'Light Speed' },
-            { name: 'The Watcher' },
-            { name: 'Forgot About Dre' },
-            { name: 'The Message' },
-            { name: 'Still D.R.E.' }
+            { name: "Nuthin' but a 'G' Thang", fileName: "Nuthin' but a 'G' Thang" },
+            { name: 'Big Egos', fileName: 'Big Egos' },
+            { name: "What's the Difference", fileName: "What's the Difference" },
+            { name: 'Light Speed', fileName: 'Light Speed' },
+            { name: 'The Watcher', fileName: 'The Watcher' },
+            { name: 'Forgot About Dre', fileName: 'Forgot About Dre' },
+            { name: 'The Message', fileName: 'The Message' },
+            { name: 'Still D.R.E.', fileName: 'Still D.R.E.' }
         ]
     },
     {
         id: 'kendrick-lamar',
         name: 'Kendrick Lamar',
         songs: [
-            { name: 'Hiiipower' },
-            { name: 'Black Boy Fly' },
-            { name: 'Ignorance Is Bliss' },
-            { name: 'Money Trees' },
-            { name: 'The Recipe' },
-            { name: 'm.A.A.d city'}
+            { name: 'Hiiipower', fileName: 'Hiiipower' },
+            { name: 'Black Boy Fly', fileName: 'Black Boy Fly' },
+            { name: 'Ignorance Is Bliss', fileName: 'Ignorance Is Bliss' },
+            { name: 'Money Trees', fileName: 'Money Trees' },
+            { name: 'The Recipe', fileName: 'The Recipe' },
+            { name: 'm.A.A.d city', fileName: 'm.A.A.d city' }
         ]
     },
     {
         id: 'kanye-west',
         name: 'Kanye West',
         songs: [
-            { name: 'Heartless' },
-            { name: 'Love Lockdown' },
-            { name: 'Send It Up' },
-            { name: 'No Church in the Wild', contributors: 'Jay-Z' },
-            { name: 'Blood on the Leaves' },
-            { name: 'Flashing Lights' }
+            { name: 'Heartless', fileName: 'Heartless' },
+            { name: 'Love Lockdown', fileName: 'Love Lockdown' },
+            { name: 'Send It Up', fileName: 'Send It Up' },
+            { name: 'No Church in the Wild', fileName: 'No Church in the Wild', contributors: 'Jay-Z' },
+            { name: 'Blood on the Leaves', fileName: 'Blood on the Leaves' },
+            { name: 'Flashing Lights', fileName: 'Flashing Lights' }
         ]
     },
     {
         id: 'ice-cube',
         name: 'Ice Cube',
         songs: [
-            { name: 'You Know How We Do It' }
+            { name: 'You Know How We Do It', fileName: 'You Know How We Do It' }
         ]
     },
     {
         id: 'lupe-fiasco',
         name: 'Lupe Fiasco',
         songs: [
-            { name: 'Superstar' }
+            { name: 'Superstar', fileName: 'Superstar' }
         ]
     },
     {
         id: 'outkast',
         name: 'Outkast',
         songs: [
-            { name: 'Hey Ya!' },
-            { name: 'Ms. Jackson' }
+            { name: 'Hey Ya!', fileName: 'Hey Ya!' },
+            { name: 'Ms. Jackson', fileName: 'Ms. Jackson' }
         ]
     },
     {
         id: 'flobots',
         name: 'Flobots',
         songs: [
-            { name: 'Handlebars' }
+            { name: 'Handlebars', fileName: 'Handlebars' }
         ]
     },
     {
         id: 'tom-pepe',
         name: 'Tom Pepe',
         songs: [
-            { name: 'The River Runs Deep' }
+            { name: 'The River Runs Deep', fileName: 'The River Runs Deep' }
         ]
     },
     {
         id: 'black-eyed-peas',
         name: 'Black Eyed Peas',
         songs: [
-            { name: 'Where Is the Love' },
-            { name: "Let's Get It Started" },
-            { name: 'Boom Boom Pow' },
-            { name: 'I Gotta Feeling' },
-            { name: 'Meet Me Halfway' },
-            { name: "Just Can't Get Enough" },
-            { name: 'Rock That Body' }
+            { name: 'Where Is the Love', fileName: 'Where Is the Love' },
+            { name: "Let's Get It Started", fileName: "Let's Get It Started" },
+            { name: 'Boom Boom Pow', fileName: 'Boom Boom Pow' },
+            { name: 'I Gotta Feeling', fileName: 'I Gotta Feeling' },
+            { name: 'Meet Me Halfway', fileName: 'Meet Me Halfway' },
+            { name: "Just Can't Get Enough", fileName: "Just Can't Get Enough" },
+            { name: 'Rock That Body', fileName: 'Rock That Body' }
         ]
     },
     {
         id: 'frank-ocean',
         name: 'Frank Ocean',
         songs: [
-            { name: 'Nikes' },
-            { name: 'Thinkin Bout You' }
+            { name: 'Nikes', fileName: 'Nikes' },
+            { name: 'Thinkin Bout You', fileName: 'Thinkin Bout You' }
         ]
     },
     {
         id: 'kid-cudi',
         name: 'Kid Cudi',
         songs: [
-            { name: 'Pursuit of Happiness' },
-            { name: 'Just What I Am' },
-            { name: 'REVOFEV' },
-            { name: "Day 'n' Nite" }
+            { name: 'Pursuit of Happiness', fileName: 'Pursuit of Happiness' },
+            { name: 'Just What I Am', fileName: 'Just What I Am' },
+            { name: 'REVOFEV', fileName: 'REVOFEV' },
+            { name: "Day 'n' Nite", fileName: "Day 'n' Nite" }
         ]
     },
     {
         id: 'j-squad',
         name: 'J-Squad',
         songs: [
-            { name: 'TTBZ Anthem' }
+            { name: 'TTBZ Anthem', fileName: 'TTBZ Anthem' }
         ]
     },
     {
         id: 'gerry-mulligan',
         name: 'Gerry Mulligan',
         songs: [
-            { name: 'Prelude in E Minor Op. 28 No. 4 - Jazz', composer: 'Chopin' }
+            { name: 'Prelude in E Minor Op. 28 No. 4 - Jazz', fileName: 'Prelude in E Minor Op. 28 No. 4 - Jazz', composer: 'Chopin' }
         ]
     },
     {
         id: 'dave-brubeck',
         name: 'Dave Brubeck',
         songs: [
-            { name: 'Take Five' },
-            { name: 'Maria' }
+            { name: 'Take Five', fileName: 'Take Five' },
+            { name: 'Maria', fileName: 'Maria' }
         ]
     },
     {
         id: 'john-wasson',
         name: 'John Wasson',
         songs: [
-            { name: 'Caravan' }
+            { name: 'Caravan', fileName: 'Caravan' }
         ]
     },
     {
         id: 'larnell-lewis',
         name: 'Larnell Lewis',
         songs: [
-            { name: 'Drum Solo' }
+            { name: 'Drum Solo', fileName: 'Drum Solo' }
         ]
     },
     {
         id: 'daniel-glass',
         name: 'Daniel Glass',
         songs: [
-            { name: 'Drum Solo' }
+            { name: 'Drum Solo', fileName: 'Drum Solo' }
         ]
     },
     {
         id: 'carly-comando',
         name: 'Carly Comando',
         songs: [
-            { name: 'Everyday' }
+            { name: 'Everyday', fileName: 'Everyday' }
         ]
     },
     {
         id: 'the-xx',
         name: 'The XX',
         songs: [
-            { name: 'Intro' },
-            { name: 'Angels' }
+            { name: 'Intro', fileName: 'Intro' },
+            { name: 'Angels', fileName: 'Angels' }
         ]
     },
     {
         id: 'henry-krinkle',
         name: 'Henry Krinkle',
         songs: [
-            { name: 'Stay' }
+            { name: 'Stay', fileName: 'Stay' }
         ]
     },
     {
         id: 'imagine-dragons',
         name: 'Imagine Dragons',
         songs: [
-            { name: 'Radioactive' },
-            { name: 'Believer' }
+            { name: 'Radioactive', fileName: 'Radioactive' },
+            { name: 'Believer', fileName: 'Believer' }
         ]
     },
     {
         id: 'awolnation',
         name: 'AWOLNATION',
         songs: [
-            { name: 'Sail' }
+            { name: 'Sail', fileName: 'Sail' }
         ]
     },
     {
         id: 'flume',
         name: 'Flume',
         songs: [
-            { name: 'You & Me', contributors: 'Disclosure' },
-            { name: 'Sleepless' }
+            { name: 'You & Me', fileName: 'You & Me', contributors: 'Disclosure' },
+            { name: 'Sleepless', fileName: 'Sleepless' }
         ]
     },
     {
         id: 'odesza',
         name: 'ODESZA',
         songs: [
-            { name: 'Sun Models' }
+            { name: 'Sun Models', fileName: 'Sun Models' }
         ]
     },
     {
         id: 'mike-posner',
         name: 'Mike Posner',
         songs: [
-            { name: 'I Took a Pill in Ibiza' }
+            { name: 'I Took a Pill in Ibiza', fileName: 'I Took a Pill in Ibiza' }
         ]
     },
     {
         id: 'calvin-harris',
         name: 'Calvin Harris',
         songs: [
-            { name: 'Blame' }
+            { name: 'Blame', fileName: 'Blame' }
         ]
     },
     {
         id: 'sound-remedy',
         name: 'Sound Remedy',
         songs: [
-            { name: 'Medicine (Sound Remedy Remix)', composer: 'Daughter' }
+            { name: 'Medicine (Sound Remedy Remix)', fileName: 'Medicine (Sound Remedy Remix)', composer: 'Daughter' }
         ]
     },
     {
         id: 'skrillex',
         name: 'Skrillex',
         songs: [
-            { name: 'Cinema' },
-            { name: 'First of the Year' },
-            { name: 'Scary Monsters and Nice Sprites' }
+            { name: 'Cinema', fileName: 'Cinema' },
+            { name: 'First of the Year', fileName: 'First of the Year' },
+            { name: 'Scary Monsters and Nice Sprites', fileName: 'Scary Monsters and Nice Sprites' }
         ]
     },
     {
         id: 'omega',
         name: 'Omega',
         songs: [
-            { name: 'Overseer' }
+            { name: 'Overseer', fileName: 'Overseer' }
         ]
     },
     {
         id: 'bag-raiders',
         name: 'Bag Raiders',
         songs: [
-            { name: 'Shooting Stars' }
+            { name: 'Shooting Stars', fileName: 'Shooting Stars' }
         ]
     },
     {
         id: 'feed-me-and-crystal-fighters',
         name: 'Feed Me and Crystal Fighters',
         songs: [
-            { name: 'Love Is All I Got' }
+            { name: 'Love Is All I Got', fileName: 'Love Is All I Got' }
         ]
     },
     {
         id: 'junior-senior',
         name: 'Junior Senior',
         songs: [
-            { name: 'Move Your Feet' }
+            { name: 'Move Your Feet', fileName: 'Move Your Feet' }
         ]
     },
     {
         id: 'stromae',
         name: 'Stromae',
         songs: [
-            { name: 'Alors on danse' }
+            { name: 'Alors on danse', fileName: 'Alors on danse' }
         ]
     },
     {
         id: 'eiffel-65',
         name: 'Eiffel 65',
         songs: [
-            { name: 'Blue (Da Ba Dee)' }
+            { name: 'Blue (Da Ba Dee)', fileName: 'Blue (Da Ba Dee)' }
         ]
     },
     {
         id: 'jamiroqaui',
         name: 'Jamiroqaui',
         songs: [
-            { name: 'Canned Heat' }
+            { name: 'Canned Heat', fileName: 'Canned Heat' }
         ]
     },
     {
         id: 'o-zone',
         name: 'O-Zone',
         songs: [
-            { name: 'Dragostea Din Tei' }
+            { name: 'Dragostea Din Tei', fileName: 'Dragostea Din Tei' }
         ]
     },
     {
         id: 'moby',
         name: 'Moby',
         songs: [
-            { name: 'Wait for Me', contributors: 'Mindy Jones' }
+            { name: 'Wait for Me', fileName: 'Wait for Me', contributors: 'Mindy Jones' }
         ]
     },
     {
         id: 'ta-ku',
         name: 'Ta-Ku',
         songs: [
-            { name: 'Night 3' }
+            { name: 'Night 3', fileName: 'Night 3' }
         ]
     },
     {
         id: 'tony-anderson',
         name: 'Tony Anderson',
         songs: [
-            { name: 'Ember' }
+            { name: 'Ember', fileName: 'Ember' }
         ]
     },
     {
         id: 'bird-york',
         name: 'Bird York',
         songs: [
-            { name: 'Have No Fear' }
+            { name: 'Have No Fear', fileName: 'Have No Fear' }
         ]
     },
     {
         id: 'celine-dion',
         name: 'Celine Dion',
         songs: [
-            { name: 'My Heart Will Go On' }
+            { name: 'My Heart Will Go On', fileName: 'My Heart Will Go On' }
         ]
     },
     {
         id: 'secret-garden',
         name: 'Secret Garden',
         songs: [
-            { name: 'You Raise Me Up', recordingMusician: 'Josh Groban' },
-            { name: 'You Raise Me Up - Cello', recordingMusician: 'Jodok Cello' },
-            { name: 'Adagio' },
-            { name: 'Nocturne' }
+            { name: 'You Raise Me Up', fileName: 'You Raise Me Up', recordingMusician: 'Josh Groban' },
+            { name: 'You Raise Me Up - Cello', fileName: 'You Raise Me Up - Cello', recordingMusician: 'Jodok Cello' },
+            { name: 'Adagio', fileName: 'Adagio' },
+            { name: 'Nocturne', fileName: 'Nocturne' }
         ]
     },
     {
         id: 'frederic-weatherly',
         name: 'Frederic Weatherly',
         songs: [
-            { name: 'Danny Boy', recordingMusician: 'Gentri' }
+            { name: 'Danny Boy', fileName: 'Danny Boy', recordingMusician: 'Gentri' }
         ]
     },
     {
         id: 'john-newton',
         name: 'John Newton',
         songs: [
-            { name: 'Amazing Grace - Bagpipes', recordingMusician: 'Bagpipe Master' }
+            { name: 'Amazing Grace - Bagpipes', fileName: 'Amazing Grace - Bagpipes', recordingMusician: 'Bagpipe Master' }
         ]
     },
     {
         id: 'joseph-kilna-mackenzie',
         name: 'Joseph Kilna MacKenzie',
         songs: [
-            { name: 'Sgt. MacKenzie' }
+            { name: 'Sgt. MacKenzie', fileName: 'Sgt. Mackenzie' }
         ]
     },
     {
         id: 'the-revels',
         name: 'The Revels',
         songs: [
-            { name: 'Lord of the Dance' }
+            { name: 'Lord of the Dance', fileName: 'Lord of the Dance' }
         ]
     }
 ];
