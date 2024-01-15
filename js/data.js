@@ -197,10 +197,10 @@ export const musiciansArray = [
         id: 'debussy',
         name: 'Debussy',
         songs: [
-            { name: 'Rêverie', fileName: 'Reverie', recordingMusician: 'Rousseau' },
-            { name: 'Suite bergamasque L. 75 III. (Clair de lune)', fileName: 'Suite bergamasque L. 75 III. (Clair de lune)', recordingMusician: 'Rousseau' },
-            { name: 'Arabesque No. 1 L. 66', fileName: 'Arabesque No. 1 L. 66', recordingMusician: 'Rousseau' },
-            { name: 'Preludes Book 1 L. 117 VIII. (The Girl with the Flaxen Hair)', fileName: 'Preludes Book 1 L. 117 VIII. (The Girl with the Flaxen Hair)', recordingMusician: 'Jacques Rouvier' }
+            { name: 'Rêverie', fileName: 'reverie', recordingMusician: 'Rousseau' },
+            { name: 'Suite bergamasque L. 75 III. (Clair de lune)', fileName: 'suite-bergamasque-l-75-iii-clair-de-lune', recordingMusician: 'Rousseau' },
+            { name: 'Arabesque No. 1 L. 66', fileName: 'arabesque-no-1-l-66', recordingMusician: 'Rousseau' },
+            { name: 'Preludes Book 1 L. 117 VIII. (The Girl with the Flaxen Hair)', fileName: 'preludes-book-1-l-117-viii-the-girl-with-the-flaxen-hair', recordingMusician: 'Jacques Rouvier' }
         ]
     },
     {
