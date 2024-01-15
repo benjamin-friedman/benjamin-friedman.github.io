@@ -208,7 +208,6 @@ const initializeMusiciansObject = (musiciansArray, musiciansObject) => {
             }
         });
     });
-   //console.log(musiciansObject);
 }
 
 
