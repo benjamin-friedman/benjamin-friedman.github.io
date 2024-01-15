@@ -38,7 +38,7 @@ export const musiciansArray = [
             { name: 'No Time for Caution', soundtrack: 'Interstellar' },
             { name: 'Mountains', soundtrack: 'Interstellar' },
             { name: 'Goodbye My Son', soundtrack: 'Man of Steel' },
-            { name: 'Is She With You', soundtrack: 'Batman v Superman' },
+            { name: 'Is She with You', soundtrack: 'Batman v Superman' },
             { name: 'Not in Blood, But in Bond', soundtrack: 'Sherlock Holmes' },
             { name: 'Ah, Putrefaction', soundtrack: 'Sherlock Holmes' },
             { name: 'Sherlock Holmes Fantasy', soundtrack: 'Sherlock Holmes', contributors: 'Aleksey Igudesman' },
