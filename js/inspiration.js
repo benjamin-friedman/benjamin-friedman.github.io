@@ -3,9 +3,8 @@ import { musiciansArray, quotes } from './data.js';
 
 /*
     Built based on musiciansArray, used for playing the songs.
-    songNames stores the real name of the song.
-    songFileNames stores the name of the file of the song which will be all lowercase letters and dashes
-    This is done for best practice file naming conventions which should exclude spaces, commas, periods, parentheses, single quotes, double quotes, and accented characters like é.
+    songNames stores the real name of the song
+    songFileNames stores the name of the file of the song
     {
         'musician1-id' : {
             songNames: ['songName1', 'songName2'...],

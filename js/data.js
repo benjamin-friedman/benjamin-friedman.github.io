@@ -1,4 +1,6 @@
-// in addition to be used to create the html document this is used to create musiciansObject which is used to create the events for playing the songs
+// In addition to be used to create the html document this is used to create musiciansObject which is used to create the events for playing the songs.
+// name vs. fileName: the name of the songs often contain characters for which it's best practice to omit them from file names so the actual file name
+// of the song will be stored in fileName and will only include lowercase letters and dashes.
 export const musiciansArray = [
     {
         id: 'hans-zimmer',
@@ -91,104 +93,104 @@ export const musiciansArray = [
         id: 'liszt',
         name: 'Liszt',
         songs: [
-            { name: 'Liebestraum No. 3 in A-Flat Major S. 541 (Love Dream)', fileName: 'Liebestraum No. 3 in A-Flat Major S. 541 (Love Dream)', recordingMusician: 'Khatia Buniatishvili' },
-            { name: 'Romance in E Minor S. 169 (O pourqoi donc)', fileName: 'Romance in E Minor S. 169 (O pourqoi donc)', recordingMusician: 'Genny Basso' },
-            { name: 'Consolation No. 3 in D-Flat Major S. 172', fileName: 'Consolation No. 3 in D-Flat Major S. 172', recordingMusician: 'Rousseau' },
-            { name: 'Serenade D. 889 - Piano', fileName: 'Serenade D. 889 - Piano', recordingMusician: 'Rousseau', composer: 'Schubert' },
-            { name: 'Etude No. 3 in D-Flat Major S. 144 (Un Sospiro)', fileName: 'Etude No. 3 in D-Flat Major S. 144 (Un Sospiro)', recordingMusician: 'Rousseau' },
-            { name: 'Etude No. 3 in G-Sharp Minor S. 141 (La Campanella)', fileName: 'Etude No. 3 in G-Sharp Minor S. 141 (La Campanella)', recordingMusician: 'Rousseau', composer: 'Paganini' }
+            { name: 'Liebestraum No. 3 in A-Flat Major S. 541 (Love Dream)', fileName: 'liebestraum-no-3-in-a-flat-major-s-541-love-dream', recordingMusician: 'Khatia Buniatishvili' },
+            { name: 'Romance "O pourqoi donc" in E Minor S. 169', fileName: 'romance-o-pourqoi-donc-in-e-minor-s-169', recordingMusician: 'Genny Basso' },
+            { name: 'Consolation No. 3 in D-Flat Major S. 172', fileName: 'consolation-no-3-in-d-flat-major-s-172', recordingMusician: 'Rousseau' },
+            { name: 'Serenade D. 889 - Piano', fileName: 'serenade-d-889-piano', recordingMusician: 'Rousseau', composer: 'Schubert' },
+            { name: 'Etude No. 3 in D-Flat Major S. 144 (Un Sospiro)', fileName: 'etude-no-3-in-d-flat-major-s-144-un-sospiro', recordingMusician: 'Rousseau' },
+            { name: 'Etude No. 3 in G-Sharp Minor S. 141 (La Campanella)', fileName: 'etude-no-3-in-g-sharp-minor-s-141-la-campanella', recordingMusician: 'Rousseau', composer: 'Paganini' }
         ]
     },
     {
         id: 'schubert',
         name: 'Schubert',
         songs: [
-            { name: 'Impromptu in G-Flat Major Op. 90 No. 3, D. 899', fileName: 'Impromptu in G-Flat Major Op. 90 No. 3, D. 899', recordingMusician: 'Olga Jegunova' },
-            { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 1', fileName: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 1', recordingMusician: 'Howard Shelley (Piano), Raphael Wallfisch (Cello), Ralph Holmes (Violin)' },
-            { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 2', fileName: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 2', recordingMusician: 'Anthony Goldstone (Piano), Moray Welsh (Cello), Ralph Holmes (Violin)' },
-            { name: 'Serenade D. 889 - Interpretation 1', fileName: 'Serenade D. 889 - Interpretation 1', recordingMusician: 'Unknown' },
-            { name: 'Serenade D. 889 - Interpretation 2', fileName: 'Serenade D. 889 - Interpretation 2', recordingMusician: 'Unknown' },
-            { name: 'Serenade D. 889 - Piano and Cello', fileName: 'Serenade D. 889 - Piano and Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
+            { name: 'Impromptu in G-Flat Major Op. 90 No. 3, D. 899', fileName: 'impromptu-in-g-flat-major-op-90-no-3-d-899', recordingMusician: 'Olga Jegunova' },
+            { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 1', fileName: 'piano-trio-no-2-in-e-flat-major-op-100-d-929-interpretation-1', recordingMusician: 'Howard Shelley (Piano), Raphael Wallfisch (Cello), Ralph Holmes (Violin)' },
+            { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 2', fileName: 'piano-trio-no-2-in-e-flat-major-op-100-d-929-interpretation-2', recordingMusician: 'Anthony Goldstone (Piano), Moray Welsh (Cello), Ralph Holmes (Violin)' },
+            { name: 'Serenade D. 889 - Interpretation 1', fileName: 'serenade-d-889-interpretation-1', recordingMusician: 'Unknown' },
+            { name: 'Serenade D. 889 - Interpretation 2', fileName: 'serenade-d-889-interpretation-2', recordingMusician: 'Unknown' },
+            { name: 'Serenade D. 889 - Piano and Cello', fileName: 'serenade-d-889-piano-and-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
         ]
     },
     {
         id: 'beethoven',
         name: 'Beethoven',
         songs: [
-            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata)', fileName: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata)', recordingMusician: 'Unknown' },
-            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', fileName: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', recordingMusician: 'Lola Astanova (Piano), Stjepan Hauser (Cello)' },
-            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', fileName: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', arrangement: 'Chris M.' },
-            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata)', fileName: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata)', recordingMusician: 'Rousseau' },
-            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', fileName: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', recordingMusician: 'Cole Rolland (Guitar), Kristina Schiano (Drums)' },
-            { name: 'Symphony No. 5 in C Minor Op. 67 I.', fileName: 'Symphony No. 5 in C Minor Op. 67 I.', recordingMusician: 'Berlin Philharmonic Orchestra' },
-            { name: 'Symphony No. 9 in D Minor Op. 125 IV. Ode to Joy', fileName: 'Symphony No. 9 in D Minor Op. 125 IV. Ode to Joy', recordingMusician: 'London Symphony Orchestra' }
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata)', fileName: 'piano-sonata-no-14-in-c-charp-minor-op-27-no-2-i-moonlight-sonata', recordingMusician: 'Unknown' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Cello and Piano', fileName: 'piano-sonata-no-14-in-c-charp-minor-op-27-no-2-i-moonlight-sonata-cello-and-piano', recordingMusician: 'Lola Astanova (Piano), Stjepan Hauser (Cello)' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 I. (Moonlight Sonata) - Ethereal', fileName: 'piano-sonata-no-14-in-c-charp-minor-op-27-no-2-i-moonlight-sonata-cello-and-piano-ethereal', arrangement: 'Chris M.' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata)', fileName: 'piano-sonata-no-14-in-c-charp-minor-op-27-no-2-iii-moonlight-sonata-cello-and-piano', recordingMusician: 'Rousseau' },
+            { name: 'Piano Sonata No. 14 in C-Sharp Minor Op. 27 No. 2 III. (Moonlight Sonata) - Guitar and Drums', fileName: 'piano-sonata-no-14-in-c-charp-minor-op-27-no-2-iii-moonlight-sonata-cello-and-piano-guitar-and-drums', recordingMusician: 'Cole Rolland (Guitar), Kristina Schiano (Drums)' },
+            { name: 'Symphony No. 5 in C Minor Op. 67 I.', fileName: 'symphony-no-5-in-c-minor-op-67-i', recordingMusician: 'Berlin Philharmonic Orchestra' },
+            { name: 'Symphony No. 9 in D Minor Op. 125 IV. Ode to Joy', fileName: 'symphony-no-9-in-d-minor-op-125-iv-ode-to-joy', recordingMusician: 'London Symphony Orchestra' }
         ]
     },
     {
         id: 'mozart',
         name: 'Mozart',
         songs: [
-            { name: 'Fantasia No. 3 in D Minor K. 397 (385g)', fileName: 'Fantasia No. 3 in D Minor K. 397 (385g)', recordingMusician: 'Kassia' },
-            { name: 'Serenade No. 10 for Winds in B-Flat Major K. 361 (370a) III.', fileName: 'Serenade No. 10 for Winds in B-Flat Major K. 361 (370a) III.', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
-            { name: 'Serenade No. 10 for Winds in B-Flat Major K. 361 (370a) VII.', fileName: 'Serenade No. 10 for Winds in B-Flat Major K. 361 (370a) VII.', recordingMusician: 'Orpheus Chamber Orchestra' },
-            { name: 'Serenade No. 13 for Strings in G Major K. 525 I. (Eine kleine Nachtmusik)', fileName: 'Serenade No. 13 for Strings in G Major K. 525 I. (Eine kleine Nachtmusik)', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
-            { name: 'The Marriage of Figaro K. 492 Overture', fileName: 'The Marriage of Figaro K. 492 Overture', recordingMusician: 'Berlin Philharmonic Orchestra' },
-            { name: 'Requiem in D Minor K. 626 I. Introitus - Requiem aeternam', fileName: 'Requiem in D Minor K. 626 I. Introitus - Requiem aeternam', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 II. Kyrie', fileName: 'Requiem in D Minor K. 626 II. Kyrie', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Dies irae', fileName: 'Requiem in D Minor K. 626 III. Sequentia - Dies irae', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Tuba mirum', fileName: 'Requiem in D Minor K. 626 III. Sequentia - Tuba mirum', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Rex tremendae', fileName: 'Requiem in D Minor K. 626 III. Sequentia - Rex tremendae', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Recordare', fileName: 'Requiem in D Minor K. 626 III. Sequentia - Recordare', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Confutatis', fileName: 'Requiem in D Minor K. 626 III. Sequentia - Confutatis', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa', fileName: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 IV. Offertorium - Domine Jesu', fileName: 'Requiem in D Minor K. 626 IV. Offertorium - Domine Jesu', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 IV. Offertorium - Hostias', fileName: 'Requiem in D Minor K. 626 IV. Offertorium - Hostias', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 V. Sanctus', fileName: 'Requiem in D Minor K. 626 V. Sanctus', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 VI. Benedictus', fileName: 'Requiem in D Minor K. 626 VI. Benedictus', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 VII. Agnus dei', fileName: 'Requiem in D Minor K. 626 VII. Agnus dei', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 VIII. Communio - Lux aeterna', fileName: 'Requiem in D Minor K. 626 VIII. Communio - Lux aeterna', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
-            { name: 'Requiem in D Minor K. 626 VIII. Communio - Cum sanctus tuis', fileName: 'Requiem in D Minor K. 626 VIII. Communio - Cum sanctus tuis', recordingMusician: "Choir of King's College, Cambridge" },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa - Cello', fileName: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
+            { name: 'Fantasia No. 3 in D Minor K. 397 (385g)', fileName: 'fantasia-no-3-in-d-minor-k-397-385g', recordingMusician: 'Kassia' },
+            { name: 'Serenade No. 10 for Winds in B-Flat Major K. 361 (370a) III.', fileName: 'serenade-no-10-for-winds-in-b-flat-major-k-361-370a-iii', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
+            { name: 'Serenade No. 10 for Winds in B-Flat Major K. 361 (370a) VII.', fileName: 'serenade-no-10-for-winds-in-b-flat-major-k-361-370a-vii', recordingMusician: 'Orpheus Chamber Orchestra' },
+            { name: 'Serenade No. 13 for Strings in G Major K. 525 I. (Eine kleine Nachtmusik)', fileName: 'serenade-no-13-for-strings-in-g-major-k-525-i-eine-kleine-nachtmusik', recordingMusician: 'Academy of St. Martin in the Fields Orchestra' },
+            { name: 'The Marriage of Figaro K. 492 Overture', fileName: 'the-marriage-of-figaro-k-492-overture', recordingMusician: 'Berlin Philharmonic Orchestra' },
+            { name: 'Requiem in D Minor K. 626 I. Introitus - Requiem aeternam', fileName: 'requiem-in-d-minor-k-626-i-introitus-requiem-aeternam', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 II. Kyrie', fileName: 'requiem-in-d-minor-k-626-ii-kyrie', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Dies irae', fileName: 'requiem-in-d-minor-k-626-iii-sequentia-dies-irae', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Tuba mirum', fileName: 'requiem-in-d-minor-k-626-iii-sequentia-tuba-mirum', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Rex tremendae', fileName: 'requiem-in-d-minor-k-626-iii-sequentia-rex-tremendae', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Recordare', fileName: 'requiem-in-d-minor-k-626-iii-sequentia-recordare', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Confutatis', fileName: 'requiem-in-d-minor-k-626-iii-sequentia-confutatis', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa', fileName: 'requiem-in-d-minor-k-626-iii-sequentia-lacrimosa', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 IV. Offertorium - Domine Jesu', fileName: 'requiem-in-d-minor-k-626-iv-offertorium-domine-jesu', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 IV. Offertorium - Hostias', fileName: 'requiem-in-d-minor-k-626-iv-offertorium-hostias', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 V. Sanctus', fileName: 'requiem-in-d-minor-k-626-v-sanctus', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 VI. Benedictus', fileName: 'requiem-in-d-minor-k-626-vi-benedictus', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 VII. Agnus dei', fileName: 'requiem-in-d-minor-k-626-vii-agnus-dei', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 VIII. Communio - Lux aeterna', fileName: 'requiem-in-d-minor-k-626-viii-communio-lux-aeterna', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
+            { name: 'Requiem in D Minor K. 626 VIII. Communio - Cum sanctus tuis', fileName: 'requiem-in-d-minor-k-626-viii-com-sanctus-tuis', recordingMusician: "Choir of King's College, Cambridge" },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa - Cello', fileName: 'requiem-in-d-minor-k-626-iii-sequentia-lacrimosa-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
         ]
     },
     {
         id: 'bach',
         name: 'Bach',
         songs: [
-            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String)', fileName: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String)', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra', arrangement: 'August Wilhelmj' },
-            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Piano', fileName: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Piano', recordingMusician: 'Khatia Buniatishvili', arrangement: 'August Wilhelmj' },
-            { name: 'Cello Suite No. 1 in G Major BWV 1007 I. Prelude', fileName: 'Cello Suite No. 1 in G Major BWV 1007 I. Prelude', recordingMusician: 'Yo-Yo Ma' },
-            { name: 'Toccata and Fugue in D Minor BWV 565', fileName: 'Toccata and Fugue in D Minor BWV 565', recordingMusician: 'Rousseau' }
+            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String)', fileName: 'orchestral-suite-no-3-in-d-major-bwv-1068-ii-air-on-the-g-string', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra', arrangement: 'August Wilhelmj' },
+            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Piano', fileName: 'orchestral-suite-no-3-in-d-major-bwv-1068-ii-air-on-the-g-string-piano', recordingMusician: 'Khatia Buniatishvili', arrangement: 'August Wilhelmj' },
+            { name: 'Cello Suite No. 1 in G Major BWV 1007 I. Prelude', fileName: 'cello-suite-no-1-in-g-major-bwv-1007-i-prelude', recordingMusician: 'Yo-Yo Ma' },
+            { name: 'Toccata and Fugue in D Minor BWV 565', fileName: 'toccata-and-fugue-in-d-minor-bwv-565', recordingMusician: 'Rousseau' }
         ]
     },
     {
         id: 'rachmaninoff',
         name: 'Rachmaninoff',
         songs: [
-            { name: 'Piano Concerto No. 2 in C Minor Op. 18 I.', fileName: 'Piano Concerto No. 2 in C Minor Op. 18 I.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
-            { name: 'Piano Concerto No. 2 in C Minor Op. 18 II.', fileName: 'Piano Concerto No. 2 in C Minor Op. 18 II.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
-            { name: 'Piano Concerto No. 2 in C Minor Op. 18 III.', fileName: 'Piano Concerto No. 2 in C Minor Op. 18 III.', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
-            { name: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello', fileName: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
-            { name: 'Moment Musicaux in E Minor Op. 16 No. 4', fileName: 'Moment Musicaux in E Minor Op. 16 No. 4', recordingMusician: 'Nikolai Lugansky' },
-            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor', fileName: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor', recordingMusician: 'Luke Faulkner' },
-            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor - Cello', fileName: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor - Cello', recordingMusician: 'Sheku Kanneh-Mason' },
-            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', fileName: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', recordingMusician: 'Han-Na Chang' },
-            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', fileName: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', recordingMusician: 'Alison Lau' },
-            { name: 'Cello Sonata in G Minor Op. 19 III.', fileName: 'Cello Sonata in G Minor Op. 19 III.', recordingMusician: 'Marie-Eve Scarfon (Piano), Stéphane Tétreault (Cello)' },
-            { name: 'Isle of the Dead Op. 29', fileName: 'Isle of the Dead Op. 29', recordingMusician: 'Royal Stockholm Philharmonic Orchestra' }
+            { name: 'Piano Concerto No. 2 in C Minor Op. 18 I.', fileName: 'piano-concerto-no-2-in-c-minor-op-18-i', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
+            { name: 'Piano Concerto No. 2 in C Minor Op. 18 II.', fileName: 'piano-concerto-no-2-in-c-minor-op-18-ii', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
+            { name: 'Piano Concerto No. 2 in C Minor Op. 18 III.', fileName: 'piano-concerto-no-2-in-c-minor-op-18-iii', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
+            { name: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello', fileName: 'piano-concerto-no-2-in-c-minor-op-18-ii-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
+            { name: 'Moment Musicaux in E Minor Op. 16 No. 4', fileName: 'moment-musicaux-in-e-minor-op-16-no-4', recordingMusician: 'Nikolai Lugansky' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor', fileName: 'morceaux-de-fantaisie-op-3-no-1-elegie-in-e-flat-minor', recordingMusician: 'Luke Faulkner' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor - Cello', fileName: 'morceaux-de-fantaisie-op-3-no-1-elegie-in-e-flat-minor-cello', recordingMusician: 'Sheku Kanneh-Mason' },
+            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', fileName: '14-romances-op-34-no-14-vocalise-cello', recordingMusician: 'Han-Na Chang' },
+            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', fileName: '14-romances-op-34-no-14-vocalise-voice', recordingMusician: 'Alison Lau' },
+            { name: 'Cello Sonata in G Minor Op. 19 III.', fileName: 'cello-sonata-in-g-minor-op-19-iii', recordingMusician: 'Marie-Eve Scarfon (Piano), Stéphane Tétreault (Cello)' },
+            { name: 'Isle of the Dead Op. 29', fileName: 'isle-of-the-dead-op-29', recordingMusician: 'Royal Stockholm Philharmonic Orchestra' }
         ]
     },
     {
         id: 'satie',
         name: 'Satie',
         songs: [
-            { name: 'Gymnopédie No. 1', fileName: 'Gymnopédie No. 1', recordingMusician: 'Rousseau'},
-            { name: 'Gnossienne No. 1 - Interpretation 1', fileName: 'Gnossienne No. 1 - Interpretation 1', recordingMusician: 'Anne Queffelec'},
-            { name: 'Gnossienne No. 1 - Interpretation 2', fileName: 'Gnossienne No. 1 - Interpretation 2', recordingMusician: 'Alice Sara Ott'},
-            { name: 'Gnossienne No. 2', fileName: 'Gnossienne No. 2', recordingMusician: 'Reinbert de Leeuw'},
-            { name: 'Gnossienne No. 3', fileName: 'Gnossienne No. 3', recordingMusician: 'Anne Queffelec'},
-            { name: 'Gnossienne No. 4', fileName: 'Gnossienne No. 4', recordingMusician: 'Anne Queffelec'},
-            { name: 'Gnossienne No. 5', fileName: 'Gnossienne No. 5', recordingMusician: 'Anne Queffelec'}
+            { name: 'Gymnopédie No. 1', fileName: 'gymnopedie-no-1', recordingMusician: 'Rousseau' },
+            { name: 'Gnossienne No. 1 - Interpretation 1', fileName: 'gnossienne-no-1-interpretation-1', recordingMusician: 'Anne Queffelec' },
+            { name: 'Gnossienne No. 1 - Interpretation 2', fileName: 'gnossienne-no-1-interpretation-2', recordingMusician: 'Alice Sara Ott' },
+            { name: 'Gnossienne No. 2', fileName: 'gnossienne-no-2', recordingMusician: 'Reinbert de Leeuw' },
+            { name: 'Gnossienne No. 3', fileName: 'gnossienne-no-3', recordingMusician: 'Anne Queffelec' },
+            { name: 'Gnossienne No. 4', fileName: 'gnossienne-no-4', recordingMusician: 'Anne Queffelec' },
+            { name: 'Gnossienne No. 5', fileName: 'gnossienne-no-5', recordingMusician: 'Anne Queffelec' }
         ]
     },
     {
