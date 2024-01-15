@@ -73,7 +73,7 @@ export const musiciansArray = [
             { name: 'N14 - Nocturne in F-Sharp Minor Op. 48 No. 2', fileName: 'n14-nocturne-in-f-sharp-minor-op-48-no-2', recordingMusician: 'François Chaplin' },
             { name: 'N15 - Nocturne in F Minor Op. 55 No. 1', fileName: 'n15-nocturne-in-f-minor-op-55-no-1', recordingMusician: 'François Chaplin' },
             { name: 'N16 - Nocturne in E-Flat Major Op. 55 No. 2', fileName: 'n16-nocturne-in-e-flat-major-op-55-no-2', recordingMusician: 'François Chaplin' },
-            { name: 'N17 - Nocturne in B Major Op. 62 No. 1', fileName: 'n17-nocturne-in-b-major-op-62-no-2', recordingMusician: 'François Chaplin' },
+            { name: 'N17 - Nocturne in B Major Op. 62 No. 1', fileName: 'n17-nocturne-in-b-major-op-62-no-1', recordingMusician: 'François Chaplin' },
             { name: 'N18 - Nocturne in E Major Op. 62 No. 2', fileName: 'n18-nocturne-in-e-major-op-62-no-2', recordingMusician: 'François Chaplin' },
             { name: 'N19 - Nocturne in E Minor Op. Posth. 72 No. 1', fileName: 'n19-nocturne-in-e-minor-op-posth-72-no-1', recordingMusician: 'François Chaplin' },
             { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth. - Interpretation 1', fileName: 'n20-nocturne-in-c-sharp-minor-op-posth-interpretation-1', recordingMusician: 'Rousseau' },
