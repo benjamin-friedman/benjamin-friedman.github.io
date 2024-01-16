@@ -406,15 +406,15 @@ export const musiciansArray = [
         id: 'alexandre-desplat',
         name: 'Alexandre Desplat',
         songs: [
-            { name: 'Severus and Lily', fileName: 'Severus and Lily', soundtrack: 'Harry Potter and the Deathly Hallows Part 2' }
+            { name: 'Severus and Lily', fileName: 'severus-and-lily', soundtrack: 'Harry Potter and the Deathly Hallows Part 2' }
         ]
     },
     {
         id: 'howard-shore',
         name: 'Howard Shore',
         songs: [
-            { name: 'Théoden King', fileName: 'Theoden King', soundtrack: 'The Lord of the Rings: The Two Towers' },
-            { name: 'Edoras', fileName: 'Edoras', soundtrack: 'The Lord of the Rings: The Two Towers' }
+            { name: 'Théoden King', fileName: 'theoden-king', soundtrack: 'The Lord of the Rings: The Two Towers' },
+            { name: 'Edoras', fileName: 'edoras', soundtrack: 'The Lord of the Rings: The Two Towers' }
         ]
     },
     {
