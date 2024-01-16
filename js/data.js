@@ -207,151 +207,151 @@ export const musiciansArray = [
         id: 'faure',
         name: 'Fauré',
         songs: [
-            { name: 'Élégie Op. 24', fileName: 'Elegie Op. 24', recordingMusician: 'Harriet Krijgh' }
+            { name: 'Élégie Op. 24', fileName: 'elegie-op-24', recordingMusician: 'Harriet Krijgh' }
         ]
     },
     {
         id: 'elgar',
         name: 'Elgar',
         songs: [
-            { name: 'Cello Concerto in E Minor Op. 85 I.', fileName: 'Cello Concerto in E Minor Op. 85 I.', recordingMusician: 'Sophie Kauer' }
+            { name: 'Cello Concerto in E Minor Op. 85 I.', fileName: 'cello-concerto-in-e-minor-op-85-i', recordingMusician: 'Sophie Kauer' }
         ]
     },
     {
         id: 'saint-saens',
         name: 'Saint-Saëns',
         songs: [
-            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', fileName: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' },
-            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', fileName: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', recordingMusician: 'Kathryn Stott (Piano), Yo-Yo Ma (Cello)' },
-            { name: 'Cello Concerto No. 1 in A Minor Op. 33 I. and III.', fileName: 'Cello Concerto No. 1 in A Minor Op. 33 I. and III.', recordingMusician: 'Andrew Shulman' }
+            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', fileName: 'the-carnival-of-the-animals-xiii-the-swan-cello-and-harp', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' },
+            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', fileName: 'the-carnival-of-the-animals-xiii-the-swan-cello-and-piano', recordingMusician: 'Kathryn Stott (Piano), Yo-Yo Ma (Cello)' },
+            { name: 'Cello Concerto No. 1 in A Minor Op. 33 I. and III.', fileName: 'cello-concerto-no-1-in-a-minor-op-33-i-and-iii', recordingMusician: 'Andrew Shulman' }
         ]
     },
     {
         id: 'giazotto',
         name: 'Giazotto',
         songs: [
-            { name: 'Adagio in G Minor', fileName: 'Adagio in G Minor', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
+            { name: 'Adagio in G Minor', fileName: 'adagio-in-g-minor', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
         ]
     },
     {
-        id: 'samuel-barber',
+        id: 'barber',
         name: 'Samuel Barber',
         songs: [
-            { name: 'Adagio for Strings', fileName: 'Adagio for Strings', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
-            { name: 'Agnus Dei', fileName: 'Agnus Dei', recordingMusician: 'Dale Warland Singers' }
+            { name: 'Adagio for Strings', fileName: 'adagio-for-strings', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
+            { name: 'Agnus Dei', fileName: 'agnus-dei', recordingMusician: 'Dale Warland Singers' }
         ]
     },
     {
         id: 'shostakovich',
         name: 'Shostakovich',
         songs: [
-            { name: 'Waltz No. 2', fileName: 'Waltz No. 2', recordingMusician: 'Andre Rieu and the Johann Strauss Orchestra' }
+            { name: 'Waltz No. 2', fileName: 'waltz-no-2', recordingMusician: 'Andre Rieu and the Johann Strauss Orchestra' }
         ]
     },
     {
         id: 'massenet',
         name: 'Massenet',
         songs: [
-            { name: 'Méditation from Thaïs', fileName: 'Meditation from Thais', recordingMusician: 'Anne-Sophie Bertrand (Harp), Renaud Capuçon (Violin)' },
-            { name: 'Méditation from Thaïs - Cello', name: 'Meditation from Thais - Cello', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
+            { name: 'Méditation from Thaïs', fileName: 'meditation-from-thais', recordingMusician: 'Anne-Sophie Bertrand (Harp), Renaud Capuçon (Violin)' },
+            { name: 'Méditation from Thaïs - Cello', fileName: 'meditation-from-thais-cello', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
         ]
     },
     {
         id: 'mussorgsky',
         name: 'Mussorgsky',
         songs: [
-            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello', fileName: 'Pictures at an Exhibition No. 2 Il Vecchio Castello', recordingMusician: 'Metamorphose String Orchestra and Pavel Lyubomudrov' },
-            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello - Piano', fileName: 'Pictures at an Exhibition No. 2 Il Vecchio Castello - Piano', recordingMusician: 'Khatia Buniatishvili' },
-            { name: 'Night on Bald Mountain', fileName: 'Night on Bald Mountain', recordingMusician: 'New York Philharmonic Orchestra', arrangement: 'Nikolai Rimsky-Korsakov' }
+            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello', fileName: 'pictures-at-an-exhibition-no-2-il-vecchio-castello', recordingMusician: 'Metamorphose String Orchestra and Pavel Lyubomudrov' },
+            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello - Piano', fileName: 'pictures-at-an-exhibition-no-2-il-vecchio-castello-piano', recordingMusician: 'Khatia Buniatishvili' },
+            { name: 'Night on Bald Mountain', fileName: 'night-on-bald-mountain', recordingMusician: 'New York Philharmonic Orchestra', arrangement: 'Nikolai Rimsky-Korsakov' }
         ]
     },
     {
         id: 'bruch',
         name: 'Bruch',
         songs: [
-            { name: 'Kol Nidre', fileName: 'Kol Nidre', recordingMusician: 'Mischa Maisky, Frankfurt Radio Symphony Orchestra' }
+            { name: 'Kol Nidre', fileName: 'kol-nidre', recordingMusician: 'Mischa Maisky, Frankfurt Radio Symphony Orchestra' }
         ]
     },
     {
         id: 'gruber',
         name: 'Gruber',
         songs: [
-            { name: 'Silent Night - Piano', fileName: 'Silent Night - Piano', recordingMusician: 'Rousseau' },
-            { name: 'Silent Night - Cello', fileName: 'Silent Night - Cello', recordingMusician: 'Future Cello' }
+            { name: 'Silent Night - Piano', fileName: 'silent-night-piano', recordingMusician: 'Rousseau' },
+            { name: 'Silent Night - Cello', fileName: 'silent-night-cello', recordingMusician: 'Future Cello' }
         ]
     },
     {
         id: 'handel',
         name: 'Handel',
         songs: [
-            { name: 'Suite No. 1 in B-Flat Major HWV 434 IV.', fileName: 'Suite No. 1 in B-Flat Major HWV 434 IV.', recordingMusician: 'Khatia Buniatishvili', arrangement: 'Wilhelm Kempff' },
+            { name: 'Suite No. 1 in B-Flat Major HWV 434 IV.', fileName: 'suite-no-1-in-b-flat-major-hwv-434-iv', recordingMusician: 'Khatia Buniatishvili', arrangement: 'Wilhelm Kempff' },
         ]
     },
     {
         id: 'tchaikovsky',
         name: 'Tchaikovsky',
         songs: [
-            { name: 'Swan Lake Op. 20 I. Enchanted Lake', fileName: 'Swan Lake Op. 20 I. Enchanted Lake', recordingMusician: 'Royal Philharmonic Orchestra' },
-            { name: 'Swan Lake Op. 20 XXI. Spanish Dance', fileName: 'Swan Lake Op. 20 XXI. Spanish Dance', recordingMusician: 'Royal Philharmonic Orchestra' },
-            { name: 'The Nutcracker Op. 71 Pas De Deux', fileName: 'The Nutcracker Op. 71 Pas De Deux', recordingMusician: 'London Symphony Orchestra' },
-            { name: 'The Nutcracker Suite Op. 71a No. 2a March of the Toy Soldiers', fileName: 'The Nutcracker Suite Op. 71a No. 2a March of the Toy Soldiers', recordingMusician: 'Metamorphose String Orchestra' },
-            { name: 'The Nutcracker Suite Op. 71a No. 2b Dance of the Sugar Plum Fairy', fileName: 'The Nutcracker Suite Op. 71a No. 2b Dance of the Sugar Plum Fairy', recordingMusician: 'Metamorphose String Orchestra' },
-            { name: 'The Nutcracker Suite Op. 71a No. 2c Russian Dance', fileName: 'The Nutcracker Suite Op. 71a No. 2c Russian Dance', recordingMusician: 'Metamorphose String Orchestra' },
-            { name: 'The Nutcracker Suite Op. 71a No. 2f Dance of the Mirlitons', fileName: 'The Nutcracker Suite Op. 71a No. 2f Dance of the Mirlitons', recordingMusician: 'Metamorphose String Orchestra' },
-            { name: 'The Nutcracker Suite Op. 71a No. 3 Waltz of the Flowers', fileName: 'The Nutcracker Suite Op. 71a No. 3 Waltz of the Flowers', recordingMusician: 'London Symphony Orchestra' },
-            { name: '1812 Overture Op. 49', fileName: '1812 Overture Op. 49', recordingMusician: 'St. Petersburg Chamber Choir, Leningrad Military Orchestra' }
+            { name: 'Swan Lake Op. 20 I. Enchanted Lake', fileName: 'swan-lake-op-20-i-enchanted-lake', recordingMusician: 'Royal Philharmonic Orchestra' },
+            { name: 'Swan Lake Op. 20 XXI. Spanish Dance', fileName: 'swan-lake-op-20-xxi-spanish-dance', recordingMusician: 'Royal Philharmonic Orchestra' },
+            { name: 'The Nutcracker Op. 71 Pas de Deux', fileName: 'the-nut-cracker-op-71-pas-de-deux', recordingMusician: 'London Symphony Orchestra' },
+            { name: 'The Nutcracker Suite Op. 71a No. 2a March of the Toy Soldiers', fileName: 'the-nutcracker-suite-op-71a-no-2a-march-of-the-toy-soldiers', recordingMusician: 'Metamorphose String Orchestra' },
+            { name: 'The Nutcracker Suite Op. 71a No. 2b Dance of the Sugar Plum Fairy', fileName: 'the-nutcracker-suite-op-71a-no-2b-dance-of-the-sugar-plum-fairy', recordingMusician: 'Metamorphose String Orchestra' },
+            { name: 'The Nutcracker Suite Op. 71a No. 2c Russian Dance', fileName: 'the-nutcracker-suite-op-71a-no-2c-russian-dance', recordingMusician: 'Metamorphose String Orchestra' },
+            { name: 'The Nutcracker Suite Op. 71a No. 2f Dance of the Mirlitons', fileName: 'the-nutcracker-suite-op-71a-no-2f-dance-of-the-mirlitons', recordingMusician: 'Metamorphose String Orchestra' },
+            { name: 'The Nutcracker Suite Op. 71a No. 3 Waltz of the Flowers', fileName: 'the-nutcracker-suite-op-71a-no-3-waltz-of-the-flowers', recordingMusician: 'London Symphony Orchestra' },
+            { name: '1812 Overture Op. 49', fileName: '1812-overture-op-49', recordingMusician: 'St. Petersburg Chamber Choir, Leningrad Military Orchestra' }
         ]
     },
     {
         id: 'brahms',
         name: 'Brahms',
         songs: [
-            { name: 'Symphony No. 3 in F Major Op. 90 III.', fileName: 'Symphony No. 3 in F Major Op. 90 III.', recordingMusician: 'Berlin Philharmonic Orchestra' },
-            { name: 'Hungarian Dance No. 1 in G Minor WoO 1', fileName: 'Hungarian Dance No. 1 in G Minor WoO 1', recordingMusician: 'Vienna Philharmonic Orchestra' },
-            { name: 'Hungarian Dance No. 5 in G Minor WoO 1', fileName: 'Hungarian Dance No. 5 in G Minor WoO 1', recordingMusician: 'Vienna Philharmonic Orchestra' }
+            { name: 'Symphony No. 3 in F Major Op. 90 III.', fileName: 'symphony-no-3-in-f-major-op-90-iii', recordingMusician: 'Berlin Philharmonic Orchestra' },
+            { name: 'Hungarian Dance No. 1 in G Minor WoO 1', fileName: 'hungarian-dnace-no-1-in-g-minor-woo-1', recordingMusician: 'Vienna Philharmonic Orchestra' },
+            { name: 'Hungarian Dance No. 5 in G Minor WoO 1', fileName: 'hungarian-dnace-no-5-in-g-minor-woo-1', recordingMusician: 'Vienna Philharmonic Orchestra' }
         ]
     },
     {
         id: 'dvorak',
         name: 'Dvořák',
         songs: [
-            { name: 'Symphony No. 9 in E Minor Op. 95 B. 178 II. (From The New World)', fileName: 'Symphony No. 9 in E Minor Op. 95 B. 178 II. (From The New World)', recordingMusician: 'Berlin Philharmonic Orchestra' },
+            { name: 'Symphony No. 9 in E Minor Op. 95 B. 178 II. (From the New World)', fileName: 'symphony-no-9-in-e-minor-op-95-b-178-ii-from-the-new-world', recordingMusician: 'Berlin Philharmonic Orchestra' },
         ]
     },
     {
         id: 'grieg',
         name: 'Grieg',
         songs: [
-            { name: 'Peer Gynt Suite No. 1 Op. 46 I. (Morning Mood)', fileName: 'Peer Gynt Suite No. 1 Op. 46 I. (Morning Mood)', recordingMusician: 'Berlin Philharmonic Orchestra' },
-            { name: 'Peer Gynt Suite No. 1 Op. 46 IV. (In the Hall of the Mountain King)', fileName: 'Peer Gynt Suite No. 1 Op. 46 IV. (In the Hall of the Mountain King)', recordingMusician: 'Kassia' }
+            { name: 'Peer Gynt Suite No. 1 Op. 46 I. (Morning Mood)', fileName: 'peer-gynt-suite-no-1-op-46-i-morning-mood', recordingMusician: 'Berlin Philharmonic Orchestra' },
+            { name: 'Peer Gynt Suite No. 1 Op. 46 IV. (In the Hall of the Mountain King)', fileName: 'peer-gynt-suite-no-1-op-46-iv-in-the-hall-of-the-mountain-king', recordingMusician: 'Kassia' }
         ]
     },
     {
         id: 'strauss',
         name: 'Strauss',
         songs: [
-            { name: 'The Beautiful Blue Danube Op. 314', fileName: 'The Beautiful Blue Danube Op. 314', recordingMusician: 'Vienna Johann Strauss Orchestra' }
+            { name: 'The Beautiful Blue Danube Op. 314', fileName: 'the-beautiful-blue-danube-op-314', recordingMusician: 'Vienna Johann Strauss Orchestra' }
         ]
     },
     {
         id: 'verdi',
         name: 'Verdi',
         songs: [
-            { name: 'Messa da Requiem II. Dies irae - Dies irae', fileName: 'Messa da Requiem II. Dies irae - Dies irae', recordingMusician: 'Budapest Scoring Symphonic Orchestra' }
+            { name: 'Messa da Requiem II. Dies irae - Dies irae', fileName: 'messa-da-requiem-ii-dies-irae-dies-irae', recordingMusician: 'Budapest Scoring Symphonic Orchestra' }
         ]
     },
     {
         id: 'donizetti',
         name: 'Donizetti',
         songs: [
-            { name: "Una furtiva lagrima from L'elisir d'amore - Cello", fileName: "Una furtiva lagrima from L'elisir d'amore - Cello", recordingMusician: 'Camille Thomas, Brussels Philharmonic Orchestra' }
+            { name: "Una furtiva lagrima from L'elisir d'amore - Cello", fileName: 'una-furtiva-lagrima-from-l-elisir-d-amore-cello', recordingMusician: 'Camille Thomas, Brussels Philharmonic Orchestra' }
         ]
     },
     {
         id: 'mascagni',
         name: 'Mascagni',
         songs: [
-            { name: 'Intermezzo sinfonico from Cavalleria rusticana - Cello', fileName: 'Intermezzo sinfonico from Cavalleria rusticana - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
+            { name: 'Intermezzo sinfonico from Cavalleria rusticana - Cello', fileName: 'intermezzo-sinfonico-from-cavalleria-rusticana-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
         ]
     },
     {
