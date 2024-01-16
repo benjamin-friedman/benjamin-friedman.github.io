@@ -293,7 +293,7 @@ export const musiciansArray = [
         songs: [
             { name: 'Swan Lake Op. 20 I. Enchanted Lake', fileName: 'swan-lake-op-20-i-enchanted-lake', recordingMusician: 'Royal Philharmonic Orchestra' },
             { name: 'Swan Lake Op. 20 XXI. Spanish Dance', fileName: 'swan-lake-op-20-xxi-spanish-dance', recordingMusician: 'Royal Philharmonic Orchestra' },
-            { name: 'The Nutcracker Op. 71 Pas de Deux', fileName: 'the-nut-cracker-op-71-pas-de-deux', recordingMusician: 'London Symphony Orchestra' },
+            { name: 'The Nutcracker Op. 71 Pas de Deux', fileName: 'the-nutcracker-op-71-pas-de-deux', recordingMusician: 'London Symphony Orchestra' },
             { name: 'The Nutcracker Suite Op. 71a No. 2a March of the Toy Soldiers', fileName: 'the-nutcracker-suite-op-71a-no-2a-march-of-the-toy-soldiers', recordingMusician: 'Metamorphose String Orchestra' },
             { name: 'The Nutcracker Suite Op. 71a No. 2b Dance of the Sugar Plum Fairy', fileName: 'the-nutcracker-suite-op-71a-no-2b-dance-of-the-sugar-plum-fairy', recordingMusician: 'Metamorphose String Orchestra' },
             { name: 'The Nutcracker Suite Op. 71a No. 2c Russian Dance', fileName: 'the-nutcracker-suite-op-71a-no-2c-russian-dance', recordingMusician: 'Metamorphose String Orchestra' },
@@ -307,8 +307,8 @@ export const musiciansArray = [
         name: 'Brahms',
         songs: [
             { name: 'Symphony No. 3 in F Major Op. 90 III.', fileName: 'symphony-no-3-in-f-major-op-90-iii', recordingMusician: 'Berlin Philharmonic Orchestra' },
-            { name: 'Hungarian Dance No. 1 in G Minor WoO 1', fileName: 'hungarian-dnace-no-1-in-g-minor-woo-1', recordingMusician: 'Vienna Philharmonic Orchestra' },
-            { name: 'Hungarian Dance No. 5 in G Minor WoO 1', fileName: 'hungarian-dnace-no-5-in-g-minor-woo-1', recordingMusician: 'Vienna Philharmonic Orchestra' }
+            { name: 'Hungarian Dance No. 1 in G Minor WoO 1', fileName: 'hungarian-dance-no-1-in-g-minor-woo-1', recordingMusician: 'Vienna Philharmonic Orchestra' },
+            { name: 'Hungarian Dance No. 5 in G Minor WoO 1', fileName: 'hungarian-dance-no-5-in-g-minor-woo-1', recordingMusician: 'Vienna Philharmonic Orchestra' }
         ]
     },
     {
