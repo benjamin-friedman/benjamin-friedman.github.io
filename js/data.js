@@ -990,417 +990,417 @@ export const musiciansArray = [
         id: 'dick-dale',
         name: 'Dick Dale',
         songs: [
-            { name: 'Miserlou', fileName: 'Miserlou' }
+            { name: 'Miserlou', fileName: 'miserlou' }
         ]
     },
     {
         id: 'joan-jett-and-the-blackhearts',
         name: 'Joan Jett and the Blackhearts',
         songs: [
-            { name: "I Love Rock 'N Roll", fileName: "I Love Rock 'N Roll", composer: 'The Arrows' }
+            { name: "I Love Rock 'N Roll", fileName: 'i-love-rock-n-roll', composer: 'The Arrows' }
         ]
     },
     {
         id: 'the-cranberries',
         name: 'The Cranberries',
         songs: [
-            { name: 'Zombie', fileName: 'Zombie' }
+            { name: 'Zombie', fileName: 'zombie' }
         ]
     },
     {
         id: '4-non-blondes',
         name: '4 Non Blondes',
         songs: [
-            { name: "What's Up", fileName: "What's Up" }
+            { name: "What's Up", fileName: 'whats-up' }
         ]
     },
     {
         id: 'radiohead',
         name: 'Radiohead',
         songs: [
-            { name: 'Creep', fileName: 'Creep' },
-            { name: 'How to Disappear Completely', fileName: 'How to Disappear Completely' }
+            { name: 'Creep', fileName: 'creep' },
+            { name: 'How to Disappear Completely', fileName: 'how-to-disappear-completely' }
         ]
     },
     {
         id: 'muse',
         name: 'Muse',
         songs: [
-            { name: 'Uprising', fileName: 'Uprising' },
-            { name: 'Starlight', fileName: 'Starlight' },
-            { name: 'Supermassive Black Hole', fileName: 'Supermassive Black Hole' }
+            { name: 'Uprising', fileName: 'uprising' },
+            { name: 'Starlight', fileName: 'starlight' },
+            { name: 'Supermassive Black Hole', fileName: 'supermassive-black-hole' }
         ]
     },
     {
         id: 'my-chemical-romance',
         name: 'My Chemical Romance',
         songs: [
-            { name: 'The Ghost of You', fileName: 'The Ghost of You' }
+            { name: 'The Ghost of You', fileName: 'the-ghost-of-you' }
         ]
     },
     {
         id: 'linkin-park',
         name: 'Linkin Park',
         songs: [
-            { name: 'Numb', fileName: 'Numb' }
+            { name: 'Numb', fileName: 'numb' }
         ]
     },
     {
         id: 'twenty-one-pilots',
         name: 'Twenty One Pilots',
         songs: [
-            { name: 'Ride', fileName: 'Ride' }
+            { name: 'Ride', fileName: 'ride' }
         ]
     },
     {
         id: 'the-goo-goo-dolls',
         name: 'The Goo Goo Dolls',
         songs: [
-            { name: 'Iris', fileName: 'Iris' }
+            { name: 'Iris', fileName: 'iris' }
         ]
     },
     {
         id: 'oasis',
         name: 'Oasis',
         songs: [
-            { name: 'Wonderwall', fileName: 'Wonderwall' }
+            { name: 'Wonderwall', fileName: 'wonderwall' }
         ]
     },
     {
         id: 'augustana',
         name: 'Augustana',
         songs: [
-            { name: 'Boston', fileName: 'Boston' }
+            { name: 'Boston', fileName: 'boston' }
         ]
     },
     {
         id: 'the-killers',
         name: 'The Killers',
         songs: [
-            { name: 'Mr. Brightside', fileName: 'Mr. Brightside' }
+            { name: 'Mr. Brightside', fileName: 'mr-brightside' }
         ]
     },
     {
         id: 'green-day',
         name: 'Green Day',
         songs: [
-            { name: 'Boulevard of Broken Dreams', fileName: 'Boulevard of Broken Dreams' },
-            { name: '21 Guns', fileName: '21 Guns' }
+            { name: 'Boulevard of Broken Dreams', fileName: 'boulevard-of-broken-dreams' },
+            { name: '21 Guns', fileName: '21-guns' }
         ]
     },
     {
         id: 'coldplay',
         name: 'Coldplay',
         songs: [
-            { name: 'The Scientist', fileName: 'The Scientist' },
-            { name: 'Yellow', fileName: 'Yellow' },
-            { name: 'Fix You', fileName: 'Fix You' },
-            { name: 'Viva la Vida', fileName: 'Viva la Vida' },
-            { name: 'Adventure of a Lifetime', fileName: 'Adventure of a Lifetime' }
+            { name: 'The Scientist', fileName: 'the-scientist' },
+            { name: 'Yellow', fileName: 'yellow' },
+            { name: 'Fix You', fileName: 'fix-you' },
+            { name: 'Viva la Vida', fileName: 'viva-la-vida' },
+            { name: 'Adventure of a Lifetime', fileName: 'adventure-of-a-lifetime' }
         ]
     },
     {
         id: 'snow-patrol',
         name: 'Snow Patrol',
         songs: [
-            { name: 'Chasing Cars', fileName: 'Chasing Cars' }
+            { name: 'Chasing Cars', fileName: 'chasing-cars' }
         ]
     },
     {
         id: 'wilco',
         name: 'Wilco',
         songs: [
-            { name: 'How to Fight Loneliness', fileName: 'How to Fight Loneliness' }
+            { name: 'How to Fight Loneliness', fileName: 'how-to-fight-loneliness' }
         ]
     },
     {
         id: 'wang-chung',
         name: 'Wang Chung',
         songs: [
-            { name: 'Space Junk', fileName: 'Space Junk' }
+            { name: 'Space Junk', fileName: 'space-junk' }
         ]
     },
     {
         id: 'the-white-stripes',
         name: 'The White Stripes',
         songs: [
-            { name: 'Seven Nation Army', fileName: 'Seven Nation Army' }
+            { name: 'Seven Nation Army', fileName: 'seven-nation-army' }
         ]
     },
     {
         id: 'dropkick-murphys',
         name: 'Dropkick Murphys',
         songs: [
-            { name: "I'm Shipping Up to Boston", fileName: "I'm Shipping Up to Boston" },
-            { name: 'Tessie', fileName: 'Tessie' }
+            { name: "I'm Shipping Up to Boston", fileName: 'im-shipping-up-to-boston' },
+            { name: 'Tessie', fileName: 'tessie' }
         ]
     },
     {
         id: 'smash-mouth',
         name: 'Smash Mouth',
         songs: [
-            { name: 'All Star', fileName: 'All Star' }
+            { name: 'All Star', fileName: 'all-star' }
         ]
     },
     {
         id: 'u2',
         name: 'U2',
         songs: [
-            { name: 'Vertigo', fileName: 'Vertigo' },
-            { name: 'Beautiful Day', fileName: 'Beautiful Day' }
+            { name: 'Vertigo', fileName: 'vertigo' },
+            { name: 'Beautiful Day', fileName: 'beautiful-day' }
         ]
     },
     {
         id: 'kaiser-chiefs',
         name: 'Kaiser Chiefs',
         songs: [
-            { name: 'Ruby', fileName: 'Ruby' }
+            { name: 'Ruby', fileName: 'ruby' }
         ]
     },
     {
         id: 'jet',
         name: 'Jet',
         songs: [
-            { name: 'Are You Gonna Be My Girl', fileName: 'Are You Gonna Be My Girl' }
+            { name: 'Are You Gonna Be My Girl', fileName: 'are-you-gonna-be-my-girl' }
         ]
     },
     {
         id: 'hometown-hero',
         name: 'Hometown Hero',
         songs: [
-            { name: 'Robbers', fileName: 'Robbers' }
+            { name: 'Robbers', fileName: 'robbers' }
         ]
     },
     {
         id: 'chronic-future',
         name: 'Chronic Future',
         songs: [
-            { name: 'Time and Time Again', fileName: 'Time and Time Again' }
+            { name: 'Time and Time Again', fileName: 'time-and-time-again' }
         ]
     },
     {
         id: 'the-von-bondies',
         name: 'The Von Bondies',
         songs: [
-            { name: "C'mon C'mon", fileName: "C'mon C'mon" }
+            { name: "C'mon C'mon", fileName: 'cmon-cmon' }
         ]
     },
     {
         id: 'to-my-surprise',
         name: 'To My Surprise',
         songs: [
-            { name: 'Get It to Go', fileName: 'Get It to Go' }
+            { name: 'Get It to Go', fileName: 'get-it-to-go' }
         ]
     },
     {
         id: 'stray-cats',
         name: 'Stray Cats',
         songs: [
-            { name: 'Stray Cat Strut', fileName: 'Stray Cat Strut' }
+            { name: 'Stray Cat Strut', fileName: 'stray-cat-strut' }
         ]
     },
     {
         id: 'tears-for-fears',
         name: 'Tears For Fears',
         songs: [
-            { name: 'Sowing the Seeds of Love', fileName: 'Sowing the Seeds of Love' },
-            { name: 'Everybody Wants to Rule the World', fileName: 'Everybody Wants to Rule the World' }
+            { name: 'Sowing the Seeds of Love', fileName: 'sowing-the-seeds-of-love' },
+            { name: 'Everybody Wants to Rule the World', fileName: 'everybody-wants-to-rule-the-world' }
         ]
     },
     {
         id: 'a-ha',
         name: 'A-ha',
         songs: [
-            { name: 'Take On Me', fileName: 'Take On Me' }
+            { name: 'Take On Me', fileName: 'take-on-me' }
         ]
     },
     {
         id: 'culture-club',
         name: 'Culture Club',
         songs: [
-            { name: 'Karma Chameleon', fileName: 'Karma Chameleon' }
+            { name: 'Karma Chameleon', fileName: 'karma-chameleon' }
         ]
     },
     {
         id: 'john-waite',
         name: 'John Waite',
         songs: [
-            { name: 'Missing You', fileName: 'Missing You' }
+            { name: 'Missing You', fileName: 'missing-you' }
         ]
     },
     {
         id: 'eddie-money',
         name: 'Eddie Money',
         songs: [
-            { name: 'Baby Hold On', fileName: 'Baby Hold On' }
+            { name: 'Baby Hold On', fileName: 'baby-hold-on' }
         ]
     },
     {
         id: 'phil-collins',
         name: 'Phil Collins',
         songs: [
-            { name: 'In the Air Tonight', fileName: 'In the Air Tonight' },
-            { name: "You'll Be in My Heart", fileName: "You'll Be in My Heart" }
+            { name: 'In the Air Tonight', fileName: 'in-the-air-tonight' },
+            { name: "You'll Be in My Heart", fileName: 'youll-be-in-my-heart' }
         ]
     },
     {
         id: 'gloria-gaynor',
         name: 'Gloria Gaynor',
         songs: [
-            { name: 'I Will Survive', fileName: 'I Will Survive' }
+            { name: 'I Will Survive', fileName: 'i-will-survive' }
         ]
     },
     {
         id: 'andrea-true-connection',
         name: 'Andrea True Connection',
         songs: [
-            { name: 'More, More, More', fileName: 'More, More, More' }
+            { name: 'More, More, More', fileName: 'more-more-more' }
         ]
     },
     {
         id: 'kc-and-the-sunshine-band',
         name: 'KC And The Sunshine Band',
         songs: [
-            { name: 'Get Down Tonight', fileName: 'Get Down Tonight' },
-            { name: "That's the Way (I Like It)", fileName: "That's the Way (I Like It)" }
+            { name: 'Get Down Tonight', fileName: 'get-down-tonight' },
+            { name: "That's the Way (I Like It)", fileName: 'thats-the-way-i-like-it' }
         ]
     },
     {
         id: 'earth-wind-and-fire',
         name: 'Earth, Wind & Fire',
         songs: [
-            { name: 'September', fileName: 'September' }
+            { name: 'September', fileName: 'september' }
         ]
     },
     {
         id: 'the-gap-band',
         name: 'The Gap Band',
         songs: [
-            { name: 'You Dropped a Bomb on Me', fileName: 'You Dropped a Bomb on Me' }
+            { name: 'You Dropped a Bomb on Me', fileName: 'you-dropped-a-bomb-on-me' }
         ]
     },
     {
         id: 'elton-john',
         name: 'Elton John',
         songs: [
-            { name: 'Tiny Dancer', fileName: 'Tiny Dancer' }
+            { name: 'Tiny Dancer', fileName: 'tiny-dancer' }
         ]
     },
     {
         id: 'styx',
         name: 'Styx',
         songs: [
-            { name: 'Come Sail Away', fileName: 'Come Sail Away' }
+            { name: 'Come Sail Away', fileName: 'come-sail-away' }
         ]
     },
     {
         id: 'queen',
         name: 'Queen',
         songs: [
-            { name: 'Bohemian Rhapsody', fileName: 'Bohemian Rhapsody' }
+            { name: 'Bohemian Rhapsody', fileName: 'bohemian-rhapsody' }
         ]
     },
     {
         id: 'suicidal-tendencies',
         name: 'Suicidal Tendencies',
         songs: [
-            { name: 'Institutionalized', fileName: 'Institutionalized' }
+            { name: 'Institutionalized', fileName: 'institutionalized' }
         ]
     },
     {
         id: 'house-of-pain',
         name: 'House Of Pain',
         songs: [
-            { name: 'Jump Around', fileName: 'Jump Around' }
+            { name: 'Jump Around', fileName: 'jump-around' }
         ]
     },
     {
         id: 'naughty-by-nature',
         name: 'Naughty By Nature',
         songs: [
-            { name: 'Hip Hop Hooray', fileName: 'Hip Hop Hooray' }
+            { name: 'Hip Hop Hooray', fileName: 'hip-hop-hooray' }
         ]
     },
     {
         id: 'eminem',
         name: 'Eminem',
         songs: [
-            { name: 'Sing for the Moment', fileName: 'Sing for the Moment' },
-            { name: 'Lose Yourself', fileName: 'Lose Yourself' },
-            { name: 'Till I Collapse', fileName: 'Till I Collapse' },
-            { name: "Won't Back Down", fileName: "Won't Back Down" },
-            { name: 'Like Toy Soldiers', fileName: 'Like Toy Soldiers' },
-            { name: 'Stan', fileName: 'Stan' },
-            { name: 'Fast Lane', fileName: 'Fast Lane' },
-            { name: 'Rap God', fileName: 'Rap God' },
-            { name: 'Space Bound', fileName: 'Space Bound' }
+            { name: 'Sing for the Moment', fileName: 'sing-for-the-moment' },
+            { name: 'Lose Yourself', fileName: 'lose-yourself' },
+            { name: 'Till I Collapse', fileName: 'till-i-collapse' },
+            { name: "Won't Back Down", fileName: 'wont-back-down' },
+            { name: 'Like Toy Soldiers', fileName: 'like-toy-soldiers' },
+            { name: 'Stan', fileName: 'stan' },
+            { name: 'Fast Lane', fileName: 'fast-lane' },
+            { name: 'Rap God', fileName: 'rap-god' },
+            { name: 'Space Bound', fileName: 'space-bound' }
         ]
     },
     {
         id: 'dr-dre',
         name: 'Dr. Dre',
         songs: [
-            { name: "Nuthin' but a 'G' Thang", fileName: "Nuthin' but a 'G' Thang" },
-            { name: 'Big Egos', fileName: 'Big Egos' },
-            { name: "What's the Difference", fileName: "What's the Difference" },
-            { name: 'Light Speed', fileName: 'Light Speed' },
-            { name: 'The Watcher', fileName: 'The Watcher' },
-            { name: 'Forgot About Dre', fileName: 'Forgot About Dre' },
-            { name: 'The Message', fileName: 'The Message' },
-            { name: 'Still D.R.E.', fileName: 'Still D.R.E.' }
+            { name: "Nuthin' but a 'G' Thang", fileName: 'nuthin-but-a-g-thang' },
+            { name: 'Big Egos', fileName: 'big-egos' },
+            { name: "What's the Difference", fileName: 'whats-the-difference' },
+            { name: 'Light Speed', fileName: 'light-speed' },
+            { name: 'The Watcher', fileName: 'the-watcher' },
+            { name: 'Forgot About Dre', fileName: 'forgot-about-dre' },
+            { name: 'The Message', fileName: 'the-message' },
+            { name: 'Still D.R.E.', fileName: 'still-dre' }
         ]
     },
     {
         id: 'kendrick-lamar',
         name: 'Kendrick Lamar',
         songs: [
-            { name: 'Hiiipower', fileName: 'Hiiipower' },
-            { name: 'Black Boy Fly', fileName: 'Black Boy Fly' },
-            { name: 'Ignorance Is Bliss', fileName: 'Ignorance Is Bliss' },
-            { name: 'Money Trees', fileName: 'Money Trees' },
-            { name: 'The Recipe', fileName: 'The Recipe' },
-            { name: 'm.A.A.d city', fileName: 'm.A.A.d city' }
+            { name: 'Hiiipower', fileName: 'hiiipower' },
+            { name: 'Black Boy Fly', fileName: 'black-boy-fly' },
+            { name: 'Ignorance Is Bliss', fileName: 'ignorance-is-bliss' },
+            { name: 'Money Trees', fileName: 'money-trees' },
+            { name: 'The Recipe', fileName: 'the-recipe' },
+            { name: 'm.A.A.d city', fileName: 'maad-city' }
         ]
     },
     {
         id: 'kanye-west',
         name: 'Kanye West',
         songs: [
-            { name: 'Heartless', fileName: 'Heartless' },
-            { name: 'Love Lockdown', fileName: 'Love Lockdown' },
-            { name: 'Send It Up', fileName: 'Send It Up' },
-            { name: 'No Church in the Wild', fileName: 'No Church in the Wild', contributors: 'Jay-Z' },
-            { name: 'Blood on the Leaves', fileName: 'Blood on the Leaves' },
-            { name: 'Flashing Lights', fileName: 'Flashing Lights' }
+            { name: 'Heartless', fileName: 'heartless' },
+            { name: 'Love Lockdown', fileName: 'love-lockdown' },
+            { name: 'Send It Up', fileName: 'send-it-up' },
+            { name: 'No Church in the Wild', fileName: 'no-church-in-the-wild', contributors: 'Jay-Z' },
+            { name: 'Blood on the Leaves', fileName: 'blood-on-the-leaves' },
+            { name: 'Flashing Lights', fileName: 'flashing-lights' }
         ]
     },
     {
         id: 'ice-cube',
         name: 'Ice Cube',
         songs: [
-            { name: 'You Know How We Do It', fileName: 'You Know How We Do It' }
+            { name: 'You Know How We Do It', fileName: 'you-know-how-we-do-it' }
         ]
     },
     {
         id: 'lupe-fiasco',
         name: 'Lupe Fiasco',
         songs: [
-            { name: 'Superstar', fileName: 'Superstar' }
+            { name: 'Superstar', fileName: 'superstar' }
         ]
     },
     {
         id: 'outkast',
         name: 'Outkast',
         songs: [
-            { name: 'Hey Ya!', fileName: 'Hey Ya!' },
-            { name: 'Ms. Jackson', fileName: 'Ms. Jackson' }
+            { name: 'Hey Ya!', fileName: 'hey-ya' },
+            { name: 'Ms. Jackson', fileName: 'ms-jackson' }
         ]
     },
     {
         id: 'flobots',
         name: 'Flobots',
         songs: [
-            { name: 'Handlebars', fileName: 'Handlebars' }
+            { name: 'Handlebars', fileName: 'handlebars' }
         ]
     },
     {
