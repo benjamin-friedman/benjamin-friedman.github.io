@@ -718,28 +718,28 @@ export const musiciansArray = [
         id: 'billy-joel',
         name: 'Billy Joel',
         songs: [
-            { name: 'Piano Man', fileName: 'Piano Man' }
+            { name: 'Piano Man', fileName: 'piano-man' }
         ]
     },
     {
         id: 'john-denver',
         name: 'John Denver',
         songs: [
-            { name: 'Take Me Home, Country Roads', fileName: 'Take Me Home, Country Roads' }
+            { name: 'Take Me Home, Country Roads', fileName: 'take-me-home-country-roads' }
         ]
     },
     {
         id: 'ritchie-valens',
         name: 'Ritchie Valens',
         songs: [
-            { name: 'La Bamba', fileName: 'La Bamba' }
+            { name: 'La Bamba', fileName: 'la-bamba' }
         ]
     },
     {
         id: 'jon-batiste',
         name: 'Jon Batiste',
         songs: [
-            { name: 'Blackbird', fileName: 'Blackbird', composer: 'The Beatles' }
+            { name: 'Blackbird', fileName: 'blackbird', composer: 'The Beatles' }
         ]
     },
     {
