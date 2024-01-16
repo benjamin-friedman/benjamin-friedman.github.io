@@ -913,77 +913,77 @@ export const musiciansArray = [
         id: 'the-who',
         name: 'The Who',
         songs: [
-            { name: "Baba O'Riley", fileName: "Baba O'Riley" },
-            { name: 'Who Are You', fileName: 'Who Are You' },
-            { name: 'Pinball Wizard', fileName: 'Pinball Wizard' }
+            { name: "Baba O'Riley", fileName: 'baba-o-riley' },
+            { name: 'Who Are You', fileName: 'who-are-you' },
+            { name: 'Pinball Wizard', fileName: 'pinball-wizard' }
         ]
     },
     {
         id: 'rem',
         name: 'R.E.M.',
         songs: [
-            { name: 'Losing My Religion', fileName: 'Losing My Religion' },
-            { name: 'Man on the Moon', fileName: 'Man on the Moon' }
+            { name: 'Losing My Religion', fileName: 'losing-my-religion' },
+            { name: 'Man on the Moon', fileName: 'man-on-the-moon' }
         ]
     },
     {
         id: 'creedence-clearwater-revival',
         name: 'Creedence Clearwater Revival',
         songs: [
-            { name: 'Have You Ever Seen the Rain', fileName: 'Have You Ever Seen the Rain' }
+            { name: 'Have You Ever Seen the Rain', fileName: 'have-you-ever-seen-the-rain' }
         ]
     },
     {
         id: 'the-beatles',
         name: 'The Beatles',
         songs: [
-            { name: 'In My Life', fileName: 'In My Life' },
-            { name: 'Let It Be', fileName: 'Let It Be' },
-            { name: 'Girl', fileName: 'Girl' },
-            { name: 'Michelle', fileName: 'Michelle' },
-            { name: 'Eleanor Rigby', fileName: 'Eleanor Rigby' },
-            { name: 'The Long and Winding Road', fileName: 'The Long and Winding Road' },
-            { name: 'Yesterday', fileName: 'Yesterday' },
-            { name: 'Twist and Shout', fileName: 'Twist and Shout' },
-            { name: 'Help!', fileName: 'Help!' },
-            { name: 'All You Need Is Love', fileName: 'All You Need Is Love' },
-            { name: 'Penny Lane', fileName: 'Penny Lane' },
-            { name: 'Hey Jude', fileName: 'Hey Jude' }
+            { name: 'In My Life', fileName: 'in-my-life' },
+            { name: 'Let It Be', fileName: 'let-it-be' },
+            { name: 'Girl', fileName: 'girl' },
+            { name: 'Michelle', fileName: 'michelle' },
+            { name: 'Eleanor Rigby', fileName: 'eleanor-rigby' },
+            { name: 'The Long and Winding Road', fileName: 'the-long-and-winding-road' },
+            { name: 'Yesterday', fileName: 'yesterday' },
+            { name: 'Twist and Shout', fileName: 'twist-and-shout' },
+            { name: 'Help!', fileName: 'help' },
+            { name: 'All You Need Is Love', fileName: 'all-you-need-is-love' },
+            { name: 'Penny Lane', fileName: 'penny-lane' },
+            { name: 'Hey Jude', fileName: 'hey-jude' }
         ]
     },
     {
         id: 'steely-dan',
         name: 'Steely Dan',
         songs: [
-            { name: 'Do It Again', fileName: 'Do It Again' }
+            { name: 'Do It Again', fileName: 'do-it-again' }
         ]
     },
     {
         id: 'the-band',
         name: 'The Band',
         songs: [
-            { name: 'The Weight', fileName: 'The Weight' }
+            { name: 'The Weight', fileName: 'the-weight' }
         ]
     },
     {
         id: 'electric-light-orchestra',
         name: 'Electric Light Orchestra',
         songs: [
-            { name: 'Mr. Blue Sky', fileName: 'Mr. Blue Sky' }
+            { name: 'Mr. Blue Sky', fileName: 'mr-blue-sky' }
         ]
     },
     {
         id: 'cream',
         name: 'Cream',
         songs: [
-            { name: 'White Room', fileName: 'White Room' }
+            { name: 'White Room', fileName: 'white-room' }
         ]
     },
     {
         id: 'the-j-geils-band',
         name: 'The J. Geils Band',
         songs: [
-            { name: 'Centerfold', fileName: 'Centerfold' }
+            { name: 'Centerfold', fileName: 'centerfold' }
         ]
     },
     {
