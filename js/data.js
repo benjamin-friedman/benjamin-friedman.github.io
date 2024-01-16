@@ -581,52 +581,52 @@ export const musiciansArray = [
         id: 'james-brown',
         name: 'James Brown',
         songs: [
-            { name: 'Try Me', fileName: 'Try Me' }
+            { name: 'Try Me', fileName: 'try-me' }
         ]
     },
     {
         id: 'etta-james',
         name: 'Etta James',
         songs: [
-            { name: "I'd Rather Go Blind", fileName: "I'd Rather Go Blind" },
-            { name: "Lord Don't Move That Mountain", fileName: "Lord Don't Move That Mountain" }
+            { name: "I'd Rather Go Blind", fileName: 'id-rather-go-blind' },
+            { name: "Lord Don't Move That Mountain", fileName: 'lord-dont-move-that-mountain' }
         ]
     },
     {
         id: 'charles-aznavour',
         name: 'Charles Aznavour',
         songs: [
-            { name: 'For Me Formidable', fileName: 'For Me Formidable' }
+            { name: 'For Me Formidable', fileName: 'for-me-formidable' }
         ]
     },
     {
         id: 'israel-kamakawiwoole',
         name: "Israel Kamakawiwo'ole",
         songs: [
-            { name: 'Somewhere Over the Rainbow', fileName: 'Somewhere Over the Rainbow' }
+            { name: 'Somewhere Over the Rainbow', fileName: 'somewhere-over-the-rainbow' }
         ]
     },
     {
         id: 'nick-cave',
         name: 'Nick Cave',
         songs: [
-            { name: 'O Children', fileName: 'O Children' }
+            { name: 'O Children', fileName: 'o-children' }
         ]
     },
     {
         id: 'imogen-heap',
         name: 'Imogen Heap',
         songs: [
-            { name: 'Hide and Seek', fileName: 'Hid and Seek' }
+            { name: 'Hide and Seek', fileName: 'hide-and-seek' }
         ]
     },
     {
         id: 'don-mclean',
         name: 'Don McLean',
         songs: [
-            { name: 'Vincent', fileName: 'Vincent' },
-            { name: 'Vincent - Guitar', fileName: 'Vincent - Guitar', recordingMusician: 'Daniel Champagne'},
-            { name: 'American Pie', fileName: 'American Pie' }
+            { name: 'Vincent', fileName: 'vincent' },
+            { name: 'Vincent - Guitar', fileName: 'vincent-guitar', recordingMusician: 'Daniel Champagne' },
+            { name: 'American Pie', fileName: 'american-pie' }
         ]
     },
     {
