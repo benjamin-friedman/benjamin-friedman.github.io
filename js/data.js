@@ -654,29 +654,29 @@ export const musiciansArray = [
         id: 'duffy',
         name: 'Duffy',
         songs: [
-            { name: 'Delayed Devotion', fileName: 'Delayed Devotion' }
+            { name: 'Delayed Devotion', fileName: 'delayed-devotion' }
         ]
     },
     {
         id: 'maxwell',
         name: 'Maxwell',
         songs: [
-            { name: 'Pretty Wings', fileName: 'Pretty Wings' }
+            { name: 'Pretty Wings', fileName: 'pretty-wings' }
         ]
     },
     {
         id: 'bob-dylan',
         name: 'Bob Dylan',
         songs: [
-            { name: 'Things Have Changed', fileName: 'Things Have Changed' }
+            { name: 'Things Have Changed', fileName: 'things-have-changed' }
         ]
     },
     {
         id: 'johnny-cash',
         name: 'Johnny Cash',
         songs: [
-            { name: "God's Gonna Cut You Down", fileName: "God's Gonna Cut You Down" },
-            { name: 'Hurt', fileName: 'Hurt' }
+            { name: "God's Gonna Cut You Down", fileName: 'gods-gonna-cut-you-down' },
+            { name: 'Hurt', fileName: 'hurt' }
         ]
     },
     {
