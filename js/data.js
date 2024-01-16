@@ -683,14 +683,14 @@ export const musiciansArray = [
         id: 'ben-howard',
         name: 'Ben Howard',
         songs: [
-            { name: 'Oats in the Water', fileName: 'Oats in the Water' }
+            { name: 'Oats in the Water', fileName: 'oats-in-the-water' }
         ]
     },
     {
         id: 'd-angelo',
         name: "D'Angelo",
         songs: [
-            { name: 'Unshaken', fileName: 'Unshaken' }
+            { name: 'Unshaken', fileName: 'unshaken' }
         ]
     },
     {
