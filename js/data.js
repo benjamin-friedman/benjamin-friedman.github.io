@@ -1,6 +1,7 @@
 // In addition to be used to create the html document this is used to create musiciansObject which is used to create the events for playing the songs.
 // name vs. fileName: the name of the songs often contain characters for which it's best practice to omit them from file names so the actual file name
 // of the song will be stored in fileName and will only include lowercase letters and dashes.
+//
 export const musiciansArray = [
     {
         id: 'hans-zimmer',
