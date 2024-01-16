@@ -478,22 +478,22 @@ export const musiciansArray = [
         id: 'mike-patton',
         name: 'Mike Patton',
         songs: [
-            { name: 'The Snow Angel', fileName: 'The Snow Angel', soundtrack: 'The Place Beyond the Pines' }
+            { name: 'The Snow Angel', fileName: 'the-snow-angel', soundtrack: 'The Place Beyond the Pines' }
         ]
     },
     {
         id: 'max-richter',
         name: 'Max Richter',
         songs: [
-            { name: 'On the Nature of Daylight', fileName: 'On the Nature of Daylight' }
+            { name: 'On the Nature of Daylight', fileName: 'on-the-nature-of-daylight' }
         ]
     },
     {
         id: 'lucio-dalla',
         name: 'Lucio Dalla',
         songs: [
-            { name: 'Caruso', fileName: 'Caruso' },
-            { name: 'Caruso - Cello', fileName: 'Caruso - Cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
+            { name: 'Caruso', fileName: 'caruso' },
+            { name: 'Caruso - Cello', fileName: 'caruso-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
         ]
     },
     {
