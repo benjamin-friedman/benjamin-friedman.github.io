@@ -906,7 +906,7 @@ export const musiciansArray = [
         id: 'motley-crue',
         name: 'Motley Crue',
         songs: [
-            { name: 'Kickstart My Heart', fileName: 'Kickstart My Heart' }
+            { name: 'Kickstart My Heart', fileName: 'kickstart-my-heart' }
         ]
     },
     {
