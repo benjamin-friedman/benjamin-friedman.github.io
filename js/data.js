@@ -500,7 +500,7 @@ export const musiciansArray = [
         id: 'luciano-pavarotti',
         name: 'Luciano Pavarotti',
         songs: [
-            { name: 'Nessun Dorma', fileName: 'Nessun Dorma' }
+            { name: 'Nessun Dorma', fileName: 'nessun-dorma' }
             
         ]
     },
@@ -508,73 +508,73 @@ export const musiciansArray = [
         id: 'ben-e-king',
         name: 'Ben E. King',
         songs: [
-            { name: 'Stand By Me', fileName: 'Stand By Me' }
+            { name: 'Stand By Me', fileName: 'stand-by-me' }
         ]
     },
     {
         id: 'eva-cassidy',
         name: 'Eva Cassidy',
         songs: [
-            { name: 'Wade in the Water', fileName: 'Wade in the Water' },
-            { name: 'Fields of Gold', fileName: 'Fields of Gold' }
+            { name: 'Wade in the Water', fileName: 'wade-in-the-water' },
+            { name: 'Fields of Gold', fileName: 'fields-of-gold' }
         ]
     },
     {
         id: 'charles-bradley',
         name: 'Charles Bradley',
         songs: [
-            { name: 'Crying in the Chapel', fileName: 'Crying in the Chapel' }
+            { name: 'Crying in the Chapel', fileName: 'crying-in-the-chapel' }
         ]
     },
     {
         id: 'marvin-gaye-tammi-terrell',
         name: 'Marvin Gaye and Tammi Terrell',
         songs: [
-            { name: "Ain't No Mountain High Enough", fileName: "Ain't No Mountain High Enough" }
+            { name: "Ain't No Mountain High Enough", fileName: 'aint-no-mountain-high-enough' }
         ]
     },
     {
         id: 'donny-hathaway',
         name: 'Donny Hathaway',
         songs: [
-            { name: 'A Song for You', fileName: 'A Song for You' }
+            { name: 'A Song for You', fileName: 'a-song-for-you' }
         ]
     },
     {
         id: 'the-foundations',
         name: 'The Foundations',
         songs: [
-            { name: 'Build Me Up Buttercup', fileName: 'Build Me Up Buttercup' }
+            { name: 'Build Me Up Buttercup', fileName: 'build-me-up-buttercup' }
         ]
     },
     {
         id: 'righteous-brothers',
         name: 'Righteous Brothers',
         songs: [
-            { name: 'Unchained Melody', fileName: 'Unchained Melody' }
+            { name: 'Unchained Melody', fileName: 'unchained-melody' }
         ]
     },
     {
         id: 'johnny-hartman',
         name: 'Johnny Hartman',
         songs: [
-            { name: 'For All We Know', fileName: 'For All We Know' },
-            { name: 'I See Your Face Before Me', fileName: 'I See Your Face Before Me' }
+            { name: 'For All We Know', fileName: 'for-all-we-know' },
+            { name: 'I See Your Face Before Me', fileName: 'i-see-your-face-before-me' }
         ]
     },
     {
         id: 'bobby-darin',
         name: 'Bobby Darin',
         songs: [
-            { name: 'The Curtain Falls', fileName: 'The Curtain Falls' }
+            { name: 'The Curtain Falls', fileName: 'the-curtain-falls' }
         ]
     },
     {
         id: 'van-morrison',
         name: 'Van Morrison',
         songs: [
-            { name: 'Moondance', fileName: 'Moondance' },
-            { name: 'Brown Eyed Girl', fileName: 'Brown Eyed Girl' }
+            { name: 'Moondance', fileName: 'moondance' },
+            { name: 'Brown Eyed Girl', fileName: 'brown-eyed-girl' }
         ]
     },
     {
