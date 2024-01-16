@@ -435,43 +435,43 @@ export const musiciansArray = [
         id: 'jesper-kyd',
         name: 'Jesper Kyd',
         songs: [
-            { name: "Ezio's Family", fileName: "Ezio's Family", soundtrack: "Assassin's Creed II" },
-            { name: 'Echoes of the Roman Ruins', fileName: 'Echoes of the Roman Ruins', soundtrack: "Assassin's Creed: Brotherhood" },
-            { name: "Assassin's Creed Theme", fileName: "Assassin's Creed Theme", soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
-            { name: 'You Have Earned Your Rest', fileName: 'You Have Earned Your Rest', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
-            { name: 'An Unsubtle Approach', fileName: 'An Unsubtle Approach', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
-            { name: 'Labored and Lost', fileName: 'Labored and Lost', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
-            { name: 'Chase the Target', fileName: 'Chase the Target', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
-            { name: 'The Hunter', fileName: 'The Hunter', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' }
+            { name: "Ezio's Family", fileName: 'ezios-family', soundtrack: "Assassin's Creed II" },
+            { name: 'Echoes of the Roman Ruins', fileName: 'echoes-of-the-roman-ruins', soundtrack: "Assassin's Creed: Brotherhood" },
+            { name: "Assassin's Creed Theme", fileName: 'assassins-creed-theme', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
+            { name: 'You Have Earned Your Rest', fileName: 'you-have-earned-your-rest', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
+            { name: 'An Unsubtle Approach', fileName: 'an-unsubtle-approach', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
+            { name: 'Labored and Lost', fileName: 'labored-and-lost', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
+            { name: 'Chase the Target', fileName: 'chase-the-target', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
+            { name: 'The Hunter', fileName: 'the-hunter', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' }
         ]
     },
     {
         id: 'zack-hemsey',
         name: 'Zack Hemsey',
         songs: [
-            { name: 'The Way', fileName: 'The Way' }
+            { name: 'The Way', fileName: 'the-way' }
         ]
     },
     {
         id: 'jorge-quintero',
         name: 'Jorge Quintero',
         songs: [
-            { name: '300 Violin Orchestra', fileName: '300 Violin Orchestra' }
+            { name: '300 Violin Orchestra', fileName: '300-violin-orchestra' }
         ]
     },
     {
         id: 'johann-johannsson',
         name: 'Johann Johannsson',
         songs: [
-            { name: "The Sun's Gone Dim and the Sky's Turned Black", fileName: "The Sun's Gone Dim and the Sky's Turned Black" }
+            { name: "The Sun's Gone Dim and the Sky's Turned Black", fileName: 'the-suns-gone-dim-and-the-skys-turned-black' }
         ]
     },
     {
         id: 'atis-freivalds',
         name: 'Atis Freivalds',
         songs: [
-            { name: 'Paradox', fileName: 'Paradox' },
-            { name: 'For Her', fileName: 'For Her' }
+            { name: 'Paradox', fileName: 'paradox' },
+            { name: 'For Her', fileName: 'for-her' }
         ]
     },
     {
