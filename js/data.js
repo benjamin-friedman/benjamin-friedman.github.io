@@ -1407,292 +1407,292 @@ export const musiciansArray = [
         id: 'tom-pepe',
         name: 'Tom Pepe',
         songs: [
-            { name: 'The River Runs Deep', fileName: 'The River Runs Deep' }
+            { name: 'The River Runs Deep', fileName: 'the-river-runs-deep' }
         ]
     },
     {
         id: 'black-eyed-peas',
         name: 'Black Eyed Peas',
         songs: [
-            { name: 'Where Is the Love', fileName: 'Where Is the Love' },
-            { name: "Let's Get It Started", fileName: "Let's Get It Started" },
-            { name: 'Boom Boom Pow', fileName: 'Boom Boom Pow' },
-            { name: 'I Gotta Feeling', fileName: 'I Gotta Feeling' },
-            { name: 'Meet Me Halfway', fileName: 'Meet Me Halfway' },
-            { name: "Just Can't Get Enough", fileName: "Just Can't Get Enough" },
-            { name: 'Rock That Body', fileName: 'Rock That Body' }
+            { name: 'Where Is the Love', fileName: 'where-is-the-love' },
+            { name: "Let's Get It Started", fileName: 'lets-get-it-started' },
+            { name: 'Boom Boom Pow', fileName: 'boom-boom-pow' },
+            { name: 'I Gotta Feeling', fileName: 'i-gotta-feeling' },
+            { name: 'Meet Me Halfway', fileName: 'meet-me-halfway' },
+            { name: "Just Can't Get Enough", fileName: 'just-cant-get-enough' },
+            { name: 'Rock That Body', fileName: 'rock-that-body' }
         ]
     },
     {
         id: 'frank-ocean',
         name: 'Frank Ocean',
         songs: [
-            { name: 'Nikes', fileName: 'Nikes' },
-            { name: 'Thinkin Bout You', fileName: 'Thinkin Bout You' }
+            { name: 'Nikes', fileName: 'nikes' },
+            { name: 'Thinkin Bout You', fileName: 'thinkin-bout-you' }
         ]
     },
     {
         id: 'kid-cudi',
         name: 'Kid Cudi',
         songs: [
-            { name: 'Pursuit of Happiness', fileName: 'Pursuit of Happiness' },
-            { name: 'Just What I Am', fileName: 'Just What I Am' },
-            { name: 'REVOFEV', fileName: 'REVOFEV' },
-            { name: "Day 'n' Nite", fileName: "Day 'n' Nite" }
+            { name: 'Pursuit of Happiness', fileName: 'pursuit-of-happiness' },
+            { name: 'Just What I Am', fileName: 'just-what-i-am' },
+            { name: 'REVOFEV', fileName: 'revofev' },
+            { name: "Day 'n' Nite", fileName: 'day-n-nite' }
         ]
     },
     {
         id: 'j-squad',
         name: 'J-Squad',
         songs: [
-            { name: 'TTBZ Anthem', fileName: 'TTBZ Anthem' }
+            { name: 'TTBZ Anthem', fileName: 'ttbz-anthem' }
         ]
     },
     {
         id: 'gerry-mulligan',
         name: 'Gerry Mulligan',
         songs: [
-            { name: 'Prelude in E Minor Op. 28 No. 4 - Jazz', fileName: 'Prelude in E Minor Op. 28 No. 4 - Jazz', composer: 'Chopin' }
+            { name: 'Prelude in E Minor Op. 28 No. 4 - Jazz', fileName: 'prelude-in-e-minor-op-28-no-4-jazz', composer: 'Chopin' }
         ]
     },
     {
         id: 'dave-brubeck',
         name: 'Dave Brubeck',
         songs: [
-            { name: 'Take Five', fileName: 'Take Five' },
-            { name: 'Maria', fileName: 'Maria' }
+            { name: 'Take Five', fileName: 'take-five' },
+            { name: 'Maria', fileName: 'maria' }
         ]
     },
     {
         id: 'john-wasson',
         name: 'John Wasson',
         songs: [
-            { name: 'Caravan', fileName: 'Caravan' }
+            { name: 'Caravan', fileName: 'caravan' }
         ]
     },
     {
         id: 'larnell-lewis',
         name: 'Larnell Lewis',
         songs: [
-            { name: 'Drum Solo', fileName: 'Drum Solo' }
+            { name: 'Drum Solo', fileName: 'drum-solo' }
         ]
     },
     {
         id: 'daniel-glass',
         name: 'Daniel Glass',
         songs: [
-            { name: 'Drum Solo', fileName: 'Drum Solo' }
+            { name: 'Drum Solo', fileName: 'drum-solo' }
         ]
     },
     {
         id: 'carly-comando',
         name: 'Carly Comando',
         songs: [
-            { name: 'Everyday', fileName: 'Everyday' }
+            { name: 'Everyday', fileName: 'everyday' }
         ]
     },
     {
         id: 'the-xx',
         name: 'The XX',
         songs: [
-            { name: 'Intro', fileName: 'Intro' },
-            { name: 'Angels', fileName: 'Angels' }
+            { name: 'Intro', fileName: 'intro' },
+            { name: 'Angels', fileName: 'angels' }
         ]
     },
     {
         id: 'henry-krinkle',
         name: 'Henry Krinkle',
         songs: [
-            { name: 'Stay', fileName: 'Stay' }
+            { name: 'Stay', fileName: 'stay' }
         ]
     },
     {
         id: 'imagine-dragons',
         name: 'Imagine Dragons',
         songs: [
-            { name: 'Radioactive', fileName: 'Radioactive' },
-            { name: 'Believer', fileName: 'Believer' }
+            { name: 'Radioactive', fileName: 'radioactive' },
+            { name: 'Believer', fileName: 'believer' }
         ]
     },
     {
         id: 'awolnation',
         name: 'AWOLNATION',
         songs: [
-            { name: 'Sail', fileName: 'Sail' }
+            { name: 'Sail', fileName: 'sail' }
         ]
     },
     {
         id: 'flume',
         name: 'Flume',
         songs: [
-            { name: 'You & Me', fileName: 'You & Me', contributors: 'Disclosure' },
-            { name: 'Sleepless', fileName: 'Sleepless' }
+            { name: 'You & Me', fileName: 'you-and-me', contributors: 'Disclosure' },
+            { name: 'Sleepless', fileName: 'sleepless' }
         ]
     },
     {
         id: 'odesza',
         name: 'ODESZA',
         songs: [
-            { name: 'Sun Models', fileName: 'Sun Models' }
+            { name: 'Sun Models', fileName: 'sun-models' }
         ]
     },
     {
         id: 'mike-posner',
         name: 'Mike Posner',
         songs: [
-            { name: 'I Took a Pill in Ibiza', fileName: 'I Took a Pill in Ibiza' }
+            { name: 'I Took a Pill in Ibiza', fileName: 'i-took-a-pill-in-ibiza' }
         ]
     },
     {
         id: 'calvin-harris',
         name: 'Calvin Harris',
         songs: [
-            { name: 'Blame', fileName: 'Blame' }
+            { name: 'Blame', fileName: 'blame' }
         ]
     },
     {
         id: 'sound-remedy',
         name: 'Sound Remedy',
         songs: [
-            { name: 'Medicine (Sound Remedy Remix)', fileName: 'Medicine (Sound Remedy Remix)', composer: 'Daughter' }
+            { name: 'Medicine (Sound Remedy Remix)', fileName: 'medicine-sound-remedy-remix', composer: 'Daughter' }
         ]
     },
     {
         id: 'skrillex',
         name: 'Skrillex',
         songs: [
-            { name: 'Cinema', fileName: 'Cinema' },
-            { name: 'First of the Year', fileName: 'First of the Year' },
-            { name: 'Scary Monsters and Nice Sprites', fileName: 'Scary Monsters and Nice Sprites' }
+            { name: 'Cinema', fileName: 'cinema' },
+            { name: 'First of the Year', fileName: 'first-of-the-year' },
+            { name: 'Scary Monsters and Nice Sprites', fileName: 'scary-monsters-and-nice-sprites' }
         ]
     },
     {
         id: 'omega',
         name: 'Omega',
         songs: [
-            { name: 'Overseer', fileName: 'Overseer' }
+            { name: 'Overseer', fileName: 'overseer' }
         ]
     },
     {
         id: 'bag-raiders',
         name: 'Bag Raiders',
         songs: [
-            { name: 'Shooting Stars', fileName: 'Shooting Stars' }
+            { name: 'Shooting Stars', fileName: 'shooting-stars' }
         ]
     },
     {
         id: 'feed-me-and-crystal-fighters',
         name: 'Feed Me and Crystal Fighters',
         songs: [
-            { name: 'Love Is All I Got', fileName: 'Love Is All I Got' }
+            { name: 'Love Is All I Got', fileName: 'love-is-all-i-got' }
         ]
     },
     {
         id: 'junior-senior',
         name: 'Junior Senior',
         songs: [
-            { name: 'Move Your Feet', fileName: 'Move Your Feet' }
+            { name: 'Move Your Feet', fileName: 'move-your-feet' }
         ]
     },
     {
         id: 'stromae',
         name: 'Stromae',
         songs: [
-            { name: 'Alors on danse', fileName: 'Alors on danse' }
+            { name: 'Alors on danse', fileName: 'alors-on-danse' }
         ]
     },
     {
         id: 'eiffel-65',
         name: 'Eiffel 65',
         songs: [
-            { name: 'Blue (Da Ba Dee)', fileName: 'Blue (Da Ba Dee)' }
+            { name: 'Blue (Da Ba Dee)', fileName: 'blue-da-ba-dee' }
         ]
     },
     {
         id: 'jamiroqaui',
         name: 'Jamiroqaui',
         songs: [
-            { name: 'Canned Heat', fileName: 'Canned Heat' }
+            { name: 'Canned Heat', fileName: 'canned-heat' }
         ]
     },
     {
         id: 'o-zone',
         name: 'O-Zone',
         songs: [
-            { name: 'Dragostea Din Tei', fileName: 'Dragostea Din Tei' }
+            { name: 'Dragostea Din Tei', fileName: 'dragostea-din-tei' }
         ]
     },
     {
         id: 'moby',
         name: 'Moby',
         songs: [
-            { name: 'Wait for Me', fileName: 'Wait for Me', contributors: 'Mindy Jones' }
+            { name: 'Wait for Me', fileName: 'wait-for-me', contributors: 'Mindy Jones' }
         ]
     },
     {
         id: 'ta-ku',
         name: 'Ta-Ku',
         songs: [
-            { name: 'Night 3', fileName: 'Night 3' }
+            { name: 'Night 3', fileName: 'night-3' }
         ]
     },
     {
         id: 'tony-anderson',
         name: 'Tony Anderson',
         songs: [
-            { name: 'Ember', fileName: 'Ember' }
+            { name: 'Ember', fileName: 'ember' }
         ]
     },
     {
         id: 'bird-york',
         name: 'Bird York',
         songs: [
-            { name: 'Have No Fear', fileName: 'Have No Fear' }
+            { name: 'Have No Fear', fileName: 'have-no-fear' }
         ]
     },
     {
         id: 'celine-dion',
         name: 'Celine Dion',
         songs: [
-            { name: 'My Heart Will Go On', fileName: 'My Heart Will Go On' }
+            { name: 'My Heart Will Go On', fileName: 'my-heart-will-go-on' }
         ]
     },
     {
         id: 'secret-garden',
         name: 'Secret Garden',
         songs: [
-            { name: 'You Raise Me Up', fileName: 'You Raise Me Up', recordingMusician: 'Josh Groban' },
-            { name: 'You Raise Me Up - Cello', fileName: 'You Raise Me Up - Cello', recordingMusician: 'Jodok Cello' },
-            { name: 'Adagio', fileName: 'Adagio' },
-            { name: 'Nocturne', fileName: 'Nocturne' }
+            { name: 'You Raise Me Up', fileName: 'you-raise-me-up', recordingMusician: 'Josh Groban' },
+            { name: 'You Raise Me Up - Cello', fileName: 'you-raise-me-up-cello', recordingMusician: 'Jodok Cello' },
+            { name: 'Adagio', fileName: 'adagio' },
+            { name: 'Nocturne', fileName: 'nocturne' }
         ]
     },
     {
         id: 'frederic-weatherly',
         name: 'Frederic Weatherly',
         songs: [
-            { name: 'Danny Boy', fileName: 'Danny Boy', recordingMusician: 'Gentri' }
+            { name: 'Danny Boy', fileName: 'danny-boy', recordingMusician: 'Gentri' }
         ]
     },
     {
         id: 'john-newton',
         name: 'John Newton',
         songs: [
-            { name: 'Amazing Grace - Bagpipes', fileName: 'Amazing Grace - Bagpipes', recordingMusician: 'Bagpipe Master' }
+            { name: 'Amazing Grace - Bagpipes', fileName: 'amazing-grace-bagpipes', recordingMusician: 'Bagpipe Master' }
         ]
     },
     {
         id: 'joseph-kilna-mackenzie',
         name: 'Joseph Kilna MacKenzie',
         songs: [
-            { name: 'Sgt. MacKenzie', fileName: 'Sgt. Mackenzie' }
+            { name: 'Sgt. MacKenzie', fileName: 'sgt-mackenzie' }
         ]
     },
     {
         id: 'the-revels',
         name: 'The Revels',
         songs: [
-            { name: 'Lord of the Dance', fileName: 'Lord of the Dance' }
+            { name: 'Lord of the Dance', fileName: 'lord-of-the-dance' }
         ]
     }
 ];
