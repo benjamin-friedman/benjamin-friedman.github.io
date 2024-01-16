@@ -633,21 +633,21 @@ export const musiciansArray = [
         id: 'the-mamas-and-the-papas',
         name: 'The Mamas and the Papas',
         songs: [
-            { name: "California Dreamin'", fileName: "California Dreamin'" }
+            { name: "California Dreamin'", fileName: 'california-dreamin' }
         ]
     },
     {
         id: 'patrick-watson',
         name: 'Patrick Watson',
         songs: [
-            { name: 'To Build a Home', fileName: 'To Build a Home', contributors: 'The Cinematic Orchestra' }
+            { name: 'To Build a Home', fileName: 'to-build-a-home', contributors: 'The Cinematic Orchestra' }
         ]
     },
     {
         id: 'rufus-wainwright',
         name: 'Rufus Wainwright',
         songs: [
-            { name: 'Hallelujah', fileName: 'Hallelujah', composer: 'Leonard Bernstein' }
+            { name: 'Hallelujah', fileName: 'hallelujah', composer: 'Leonard Bernstein' }
         ]
     },
     {
