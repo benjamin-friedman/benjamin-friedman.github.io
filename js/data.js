@@ -746,14 +746,14 @@ export const musiciansArray = [
         id: 'the-chords',
         name: 'The Chords',
         songs: [
-            { name: 'Sh-Boom', fileName: 'Sh-Boom' }
+            { name: 'Sh-Boom', fileName: 'sh-boom' }
         ]
     },
     {
         id: 'the-isley-brothers',
         name: 'The Isley Brothers',
         songs: [
-            { name: 'Shout', fileName: 'Shout' }
+            { name: 'Shout', fileName: 'shout' }
         ]
     },
     {
