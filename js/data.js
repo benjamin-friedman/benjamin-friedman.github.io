@@ -374,32 +374,32 @@ export const musiciansArray = [
         id: 'james-newton-howard',
         name: 'James Newton Howard',
         songs: [
-            { name: "Rue's Farewell", fileName: "Rue's Farewell", soundtrack: 'The Hunger Games' },
-            { name: 'There Are Worse Games to Play-Deep in the Meadow-The Hunger Games Suite', fileName: 'There Are Worse Games to Play-Deep in the Meadow-The Hunger Games Suite', soundtrack: 'The Hunger Games: Mockingjay Part 2' },
-            { name: "Snow's Execution", fileName: "Snow's Execution", soundtrack: 'The Hunger Games: Mockingjay Part 2' }
+            { name: "Rue's Farewell", fileName: 'rues-farewell', soundtrack: 'The Hunger Games' },
+            { name: 'There Are Worse Games to Play-Deep in the Meadow-The Hunger Games Suite', fileName: 'there-are-worse-games-to-play-deep-in-the-meadow-the-hunger-games-suite', soundtrack: 'The Hunger Games: Mockingjay Part 2' },
+            { name: "Snow's Execution", fileName: 'snows-execution', soundtrack: 'The Hunger Games: Mockingjay Part 2' }
         ]
     },
     {
         id: 'john-williams',
         name: 'John Williams',
         songs: [
-            { name: 'Leaving Hogwarts', fileName: 'Leaving Hogwarts', soundtrack: "Harry Potter and the Sorcerer's Stone" }
+            { name: 'Leaving Hogwarts', fileName: 'leaving-hogwarts', soundtrack: "Harry Potter and the Sorcerer's Stone" }
         ]
     },
     {
         id: 'patrick-doyle',
         name: 'Patrick Doyle',
         songs: [
-            { name: 'Another Year Ends', fileName: 'Another Year Ends', soundtrack: 'Harry Potter and the Goblet of Fire' }
+            { name: 'Another Year Ends', fileName: 'another-year-ends', soundtrack: 'Harry Potter and the Goblet of Fire' }
         ]
     },
     {
         id: 'nicholas-hooper',
         name: 'Nicholas Hooper',
         songs: [
-            { name: 'Possession', fileName: 'Possession', soundtrack: 'Harry Potter and the Order of the Phoenix' },
-            { name: 'When Ginny Kissed Harry', fileName: 'When Ginny Kissed Harry', soundtrack: 'Harry Potter and the Half-Blood Prince' },
-            { name: "Dumbledore's Farewell", fileName: "Dumbledore's Farewell", soundtrack: 'Harry Potter and the Half-Blood Prince' }
+            { name: 'Possession', fileName: 'possession', soundtrack: 'Harry Potter and the Order of the Phoenix' },
+            { name: 'When Ginny Kissed Harry', fileName: 'when-ginny-kissed-harry', soundtrack: 'Harry Potter and the Half-Blood Prince' },
+            { name: "Dumbledore's Farewell", fileName: 'dumbledores-farewell', soundtrack: 'Harry Potter and the Half-Blood Prince' }
         ]
     },
     {
