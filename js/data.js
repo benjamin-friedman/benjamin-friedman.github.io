@@ -846,60 +846,60 @@ export const musiciansArray = [
         id: 'rage-against-the-machine',
         name: 'Rage Against the Machine',
         songs: [
-            { name: 'Killing in the Name', fileName: 'Killing in the Name' }
+            { name: 'Killing in the Name', fileName: 'killing-in-the-name' }
         ]
     },
     {
         id: 'disturbed',
         name: 'Disturbed',
         songs: [
-            { name: 'Down with the Sickness', fileName: 'Down with the Sickness' },
-            { name: 'The Sound of Silence', fileName: 'The Sound of Silence', composer: 'Simon and Garfunkel' }
+            { name: 'Down with the Sickness', fileName: 'down-with-the-sickness' },
+            { name: 'The Sound of Silence', fileName: 'the-sound-of-silence', composer: 'Simon and Garfunkel' }
         ]
     },
     {
         id: 'nirvana',
         name: 'Nirvana',
         songs: [
-            { name: 'Smells Like Teen Spirit', fileName: 'Smells Like Teen Spirit' },
-            { name: 'Heart-Shaped Box', fileName: 'Heart-Shaped Box' }
+            { name: 'Smells Like Teen Spirit', fileName: 'smells-like-teen-spirit' },
+            { name: 'Heart-Shaped Box', fileName: 'heart-shaped-box' }
         ]
     },
     {
         id: 'metallica',
         name: 'Metallica',
         songs: [
-            { name: 'Enter Sandman', fileName: 'Enter Sandman' },
-            { name: 'Nothing Else Matters', fileName: 'Nothing Else Matters' }
+            { name: 'Enter Sandman', fileName: 'enter-sandman' },
+            { name: 'Nothing Else Matters', fileName: 'nothing-else-matters' }
         ]
     },
     {
         id: 'aerosmith',
         name: 'Aerosmith',
         songs: [
-            { name: 'Dream On', fileName: 'Dream On' }
+            { name: 'Dream On', fileName: 'dream-on' }
         ]
     },
     {
         id: 'blue-oyster-cult',
         name: 'Blue Oyster Cult',
         songs: [
-            { name: "(Don't Fear) The Reaper", fileName: "(Don't Fear) The Reaper" }
+            { name: "(Don't Fear) The Reaper", fileName: 'dont-fear-the-reaper' }
         ]
     },
     {
         id: 'guns-n-roses',
         name: "Guns N' Roses",
         songs: [
-            { name: "Sweet Child O' Mine", fileName: "Sweet Child O' Mine" },
-            { name: 'Welcome to the Jungle', fileName: 'Welcome to the Jungle' }
+            { name: "Sweet Child O' Mine", fileName: 'sweet-child-o-mine' },
+            { name: 'Welcome to the Jungle', fileName: 'welcome-to-the-jungle' }
         ]
     },
     {
         id: 'ac-dc',
         name: 'AC/DC',
         songs: [
-            { name: 'Thunderstruck', fileName: 'Thunderstruck' }
+            { name: 'Thunderstruck', fileName: 'thunderstruck' }
         ]
     },
     {
