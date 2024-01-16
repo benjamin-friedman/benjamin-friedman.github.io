@@ -831,7 +831,7 @@ export const musiciansArray = [
         id: 'firewind',
         name: 'Firewind',
         songs: [
-            { name: 'Allegiance', fileName: 'Allegiance' }
+            { name: 'Allegiance', fileName: 'allegiance' }
         ]
     },
     {
