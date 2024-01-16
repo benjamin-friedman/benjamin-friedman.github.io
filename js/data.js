@@ -760,51 +760,51 @@ export const musiciansArray = [
         id: 'joe-strummer-and-the-mescaleros',
         name: 'Joe Strummer and the Mescaleros',
         songs: [
-            { name: 'Mondo Bongo', fileName: 'Mondo Bongo' }
+            { name: 'Mondo Bongo', fileName: 'mondo-bongo' }
         ]
     },
     {
         id: 'imad-fares',
         name: 'Imad Fares',
         songs: [
-            { name: 'Gipsy Kings', fileName: 'Gipsy Kings' }
+            { name: 'Gipsy Kings', fileName: 'gipsy-kings' }
         ]
     },
     {
         id: 'rodrigo-and-gabriela',
         name: 'Rodrigo y Gabriela',
         songs: [
-            { name: 'Diablo Rojo', fileName: 'Diablo Rojo' }
+            { name: 'Diablo Rojo', fileName: 'diablo-rojo' }
         ]
     },
     {
         id: 'steve-vai',
         name: 'Steve Vai',
         songs: [
-            { name: 'For the Love of God', fileName: 'For the Love of God' },
-            { name: 'Tender Surrender', fileName: 'Tender Surrender' }
+            { name: 'For the Love of God', fileName: 'for-the-love-of-god' },
+            { name: 'Tender Surrender', fileName: 'tender-surrender' }
         ]
     },
     {
         id: 'neogeofanatic',
         name: 'Neogeofanatic',
         songs: [
-            { name: 'My Gibson Les Paul Is Crying', fileName: 'My Gibson Les Paul Is Crying' }
+            { name: 'My Gibson Les Paul Is Crying', fileName: 'my-gibson-les-paul-is-crying' }
         ]
     },
     {
         id: 'rhapsody-of-fire',
         name: 'Rhapsody of Fire',
         songs: [
-            { name: 'Gargoyles, Angels of Darkness', fileName: 'Gargoyles, Angels of Darkness' }
+            { name: 'Gargoyles, Angels of Darkness', fileName: 'gargoyles-angels-of-darkness' }
         ]
     },
     {
         id: 'meshuggah',
         name: 'Meshuggah',
         songs: [
-            { name: 'Bleed', fileName: 'Bleed' },
-            { name: 'Demiurge', fileName: 'Demiurge' }
+            { name: 'Bleed', fileName: 'bleed' },
+            { name: 'Demiurge', fileName: 'demiurge' }
         ]
     },
     {
