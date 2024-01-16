@@ -697,14 +697,14 @@ export const musiciansArray = [
         id: 'jamie-n-commons',
         name: 'Jamie N Commons',
         songs: [
-            { name: 'Lead Me Home', fileName: 'Lead Me Home' }
+            { name: 'Lead Me Home', fileName: 'lead-me-home' }
         ]
     },
     {
         id: 'phillip-phillips',
         name: 'Phillip Phillips',
         songs: [
-            { name: 'Home', fileName: 'Home' }
+            { name: 'Home', fileName: 'home' }
         ]
     },
     {
