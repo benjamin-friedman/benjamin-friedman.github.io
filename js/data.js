@@ -711,7 +711,7 @@ export const musiciansArray = [
         id: 'john-mayer',
         name: 'John Mayer',
         songs: [
-            { name: 'Gravity', fileName: 'Gravity' }
+            { name: 'Gravity', fileName: 'gravity' }
         ]
     },
     {
