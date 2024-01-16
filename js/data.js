@@ -358,16 +358,16 @@ export const musiciansArray = [
         id: 'harry-gregson-williams',
         name: 'Harry Gregson-Williams',
         songs: [
-            { name: 'Narnia Lullaby', fileName: 'Narnia Lullaby', soundtrack: 'The Chronicles of Narnia: The Lion, the Witch, and the Wardrobe' }
+            { name: 'Narnia Lullaby', fileName: 'narnia-lullaby', soundtrack: 'The Chronicles of Narnia: The Lion, the Witch, and the Wardrobe' }
         ]
     },
     {
         id: 'steve-jablonsky',
         name: 'Steve Jablonsky',
         songs: [
-            { name: 'Arrival to Earth', fileName: 'Arrival to Earth', soundtrack: 'Transformers' },
-            { name: 'Tessa', fileName: 'Tessa', soundtrack: 'Transformers: Age of Extinction' },
-            { name: 'Sacrifice', fileName: 'Sacrifice', soundtrack: 'Transformers: The Last Knight' }
+            { name: 'Arrival to Earth', fileName: 'arrival-to-earth', soundtrack: 'Transformers' },
+            { name: 'Tessa', fileName: 'tessa', soundtrack: 'Transformers: Age of Extinction' },
+            { name: 'Sacrifice', fileName: 'sacrifice', soundtrack: 'Transformers: The Last Knight' }
         ]
     },
     {
