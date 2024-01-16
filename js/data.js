@@ -421,14 +421,14 @@ export const musiciansArray = [
         id: 'michael-giacchino',
         name: 'Michael Giacchino',
         songs: [
-            { name: 'Married Life', fileName: 'Married Life', soundtrack: 'Up' }
+            { name: 'Married Life', fileName: 'married-life', soundtrack: 'Up' }
         ]
     },
     {
         id: 'bear-mccreary',
         name: 'Bear McCreary',
         songs: [
-            { name: 'Reconciliation', fileName: 'Reconciliation', soundtrack: 'The Walking Dead' }
+            { name: 'Reconciliation', fileName: 'reconciliation', soundtrack: 'The Walking Dead' }
         ]
     },
     {
