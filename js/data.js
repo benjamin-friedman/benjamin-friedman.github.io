@@ -1722,6 +1722,10 @@ export const quotes = {
             author: 'Chopin',
             quote: 'Bach is an astronomer discovering the most marvellous stars. Beethoven challenges the universe. I only try to express the soul and heart of man.'
         },
+        {
+            author: 'Debussy',
+            quote: 'Chopin is the greatest of them all, for with the piano alone he discovered everything.'
+        },
         { 
             author: 'Jack London',
             quote: 'The function of man is to live, not to exist. I shall not waste my days trying to prolong them. I shall use my time.'
