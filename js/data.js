@@ -108,8 +108,7 @@ export const musiciansArray = [
             { name: 'Impromptu in G-Flat Major Op. 90 No. 3, D. 899', fileName: 'impromptu-in-g-flat-major-op-90-no-3-d-899', recordingMusician: 'Olga Jegunova' },
             { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 1', fileName: 'piano-trio-no-2-in-e-flat-major-op-100-d-929-interpretation-1', recordingMusician: 'Howard Shelley (Piano), Raphael Wallfisch (Cello), Ralph Holmes (Violin)' },
             { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Interpretation 2', fileName: 'piano-trio-no-2-in-e-flat-major-op-100-d-929-interpretation-2', recordingMusician: 'Anthony Goldstone (Piano), Moray Welsh (Cello), Ralph Holmes (Violin)' },
-            { name: 'Serenade D. 889 - Interpretation 1', fileName: 'serenade-d-889-interpretation-1', recordingMusician: 'Unknown' },
-            { name: 'Serenade D. 889 - Interpretation 2', fileName: 'serenade-d-889-interpretation-2', recordingMusician: 'Unknown' },
+            { name: 'Serenade D. 889', fileName: 'serenade-d-889', recordingMusician: 'Unknown' },
             { name: 'Serenade D. 889 - Piano and Cello', fileName: 'serenade-d-889-piano-and-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
         ]
     },
@@ -443,6 +442,14 @@ export const musiciansArray = [
             { name: 'Labored and Lost', fileName: 'labored-and-lost', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
             { name: 'Chase the Target', fileName: 'chase-the-target', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
             { name: 'The Hunter', fileName: 'the-hunter', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' }
+        ]
+    },
+    {
+        id: 'lorne-balfe',
+        name: 'Lorne Balfe',
+        songs: [
+            { name: 'Welcome to Boston', fileName: 'welcome-to-boston', soundtrack: "Assassin's Creed III" },
+            { name: 'The Ends of the Earth', fileName: 'the-ends-of-the-earth', soundtrack: "Assassin's Creed IV: Black Flag" }
         ]
     },
     {
@@ -1118,13 +1125,6 @@ export const musiciansArray = [
         name: 'Wang Chung',
         songs: [
             { name: 'Space Junk', fileName: 'space-junk' }
-        ]
-    },
-    {
-        id: 'the-white-stripes',
-        name: 'The White Stripes',
-        songs: [
-            { name: 'Seven Nation Army', fileName: 'seven-nation-army' }
         ]
     },
     {
