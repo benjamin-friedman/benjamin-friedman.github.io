@@ -37,6 +37,7 @@ export const musiciansArray = [
             { name: 'Projections', fileName: 'projections', soundtrack: 'Inception' },
             { name: 'First Step', fileName: 'first-step', soundtrack: 'Interstellar' },
             { name: 'First Step - Piano', fileName: 'first-step-piano', soundtrack: 'Interstellar', recordingMusician: 'Kyle Landry' },
+            { name: 'First Step - Guitar', fileName: 'first-step-guitar', soundtrack: 'Interstellar', recordingMusician: 'Eddie van der Meer' },
             { name: 'No Time for Caution', fileName: 'no-time-for-caution', soundtrack: 'Interstellar' },
             { name: 'Mountains', fileName: 'mountains', soundtrack: 'Interstellar' },
             { name: 'Goodbye My Son', fileName: 'goodbye-my-son', soundtrack: 'Man of Steel' },
@@ -782,6 +783,13 @@ export const musiciansArray = [
         name: 'Rodrigo y Gabriela',
         songs: [
             { name: 'Diablo Rojo', fileName: 'diablo-rojo' }
+        ]
+    },
+    {
+        id: 'estas-tonne',
+        name: 'Estas Tonne',
+        songs: [
+            { name: 'The Song of the Golden Dragon', fileName: 'the-song-of-the-golden-dragon' }
         ]
     },
     {
@@ -1641,13 +1649,6 @@ export const musiciansArray = [
         name: 'Tony Anderson',
         songs: [
             { name: 'Ember', fileName: 'ember' }
-        ]
-    },
-    {
-        id: 'bird-york',
-        name: 'Bird York',
-        songs: [
-            { name: 'Have No Fear', fileName: 'have-no-fear' }
         ]
     },
     {
