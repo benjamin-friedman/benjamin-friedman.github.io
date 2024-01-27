@@ -609,6 +609,20 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'jerry-herman',
+        name: 'Jerry Herman',
+        songs: [
+            { name: 'It Only Takes a Moment', fileName: 'it-only-takes-a-moment', recordingMusician: 'Michael Crawford, Marianne McAndrew' },
+        ]
+    },
+    {
+        id: 'kitty-kallen',
+        name: 'Kitty Kallen',
+        songs: [
+            { name: "It's Been a Long, Long Time", fileName: 'its-been-a-long-long-time', composer: 'Jule Styne (Music), Sammy Cahn (Lyrics)', recordingMusician: 'Kitty Kallen, Harry James and His Orchestra' },
+        ]
+    },
+    {
         id: 'israel-kamakawiwoole',
         name: "Israel Kamakawiwo'ole",
         songs: [
@@ -763,6 +777,14 @@ export const musiciansArray = [
         name: 'The Isley Brothers',
         songs: [
             { name: 'Shout', fileName: 'shout' }
+        ]
+    },
+    {
+        id: 'luis-demetrio-pablo-beltran-ruiz',
+        name: 'Luis Demetrio and Pablo Beltrán Ruiz',
+        songs: [
+            { name: 'Sway (¿Quién será?)', fileName: 'sway-quien-sera', recordingMusician: 'Michael Bublé', contributors: 'Norman Gimbel' },
+            { name: 'Sway (¿Quién será?) - Cello', fileName: 'sway-quien-sera-cello', recordingMusician: 'Stejpan Hauser' }
         ]
     },
     {
