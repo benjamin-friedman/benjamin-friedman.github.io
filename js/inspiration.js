@@ -169,19 +169,19 @@ const initializeInspirationPage = (musiciansArray) => {
             newHTML += '<div class="row song-listing-song-container">';
             newHTML += `<div class="col-4">${musiciansArray[i].songs[j].name}</div>`;
             if (musiciansArray[i].songs[j].soundtrack) { // from a movie or video game soundtrack
-                newHTML += `<div class="col-4">Soundtrack: ${musiciansArray[i].songs[j].soundtrack}</div>`;
+                newHTML += `<div class="col-4"><i>Soundtrack</i>: ${musiciansArray[i].songs[j].soundtrack}</div>`;
             }
             if (musiciansArray[i].songs[j].recordingMusician) { // the musician in the recording of the song, mostly for classical music
-                newHTML += `<div class="col-4">Recording: ${musiciansArray[i].songs[j].recordingMusician}</div>`;
+                newHTML += `<div class="col-4"><i>Recording</i>: ${musiciansArray[i].songs[j].recordingMusician}</div>`;
             }
             if (musiciansArray[i].songs[j].contributors) { // other composers contributed to the song
-                newHTML += `<div class="col-3">Contributors: ${musiciansArray[i].songs[j].contributors}</div>`;
+                newHTML += `<div class="col-3"><i>Contributors</i>: ${musiciansArray[i].songs[j].contributors}</div>`;
             }
             if (musiciansArray[i].songs[j].composer) { // the song is an arrangement made by the musician in the picture, list the composer of the original
-                newHTML += `<div class="col-3">Composer: ${musiciansArray[i].songs[j].composer}</div>`;
+                newHTML += `<div class="col-3"><i>Composer</i>: ${musiciansArray[i].songs[j].composer}</div>`;
             }
             if (musiciansArray[i].songs[j].arrangement) { // the song is an arrangement not made by the musician in the picture or the recording musician
-                newHTML += `<div class="col-3">Arrangement: ${musiciansArray[i].songs[j].arrangement}</div>`;
+                newHTML += `<div class="col-3"><i>Arrangement</i>: ${musiciansArray[i].songs[j].arrangement}</div>`;
             }
             newHTML += '</div>'; // end song-listing-song-container
         }
