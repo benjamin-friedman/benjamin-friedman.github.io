@@ -338,7 +338,7 @@ export const musiciansArray = [
         id: 'verdi',
         name: 'Verdi',
         songs: [
-            { name: 'Messa da Requiem II. Dies irae - Dies irae', fileName: 'messa-da-requiem-ii-dies-irae-dies-irae', recordingMusician: 'Budapest Scoring Symphonic Orchestra' }
+            { name: 'Messa da Requiem II. Dies irae - Dies irae', fileName: 'messa-da-requiem-ii-dies-irae-dies-irae', recordingMusician: 'Frankfurt Radio Symphony Orchestra' }
         ]
     },
     {
