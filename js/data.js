@@ -1727,12 +1727,12 @@ export const musiciansArray = [
 export const quotes = {
     quoteAndAuthor: [
         { 
-            author: 'Hans Christian Andersen',
-            quote: 'Where words fail, music speaks.'
-        },
-        { 
             author: 'Friedrich Nietzsche',
             quote: 'Without music, life would be a mistake.'
+        },
+        { 
+            author: 'Hans Christian Andersen',
+            quote: 'Where words fail, music speaks.'
         },
         { 
             author: 'Victor Hugo',
