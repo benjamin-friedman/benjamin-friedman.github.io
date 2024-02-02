@@ -60,6 +60,11 @@
 #song-listing-container h4 {
     text-align: center;
     padding-bottom: 15px;
+    font-weight: bold;
+}
+
+#song-listing-container h5 {
+    font-weight: bold;
 }
 
 #song-listing-musicians-and-songs-list-container {
