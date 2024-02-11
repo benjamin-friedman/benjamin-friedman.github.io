@@ -95,7 +95,7 @@ export const musiciansArray = [
         name: 'Liszt',
         songs: [
             { name: 'Liebestraum No. 3 in A-Flat Major S. 541 (Love Dream)', fileName: 'liebestraum-no-3-in-a-flat-major-s-541-love-dream', recordingMusician: 'Khatia Buniatishvili' },
-            { name: 'Romance "O pourqoi donc" in E Minor S. 169', fileName: 'romance-o-pourqoi-donc-in-e-minor-s-169', recordingMusician: 'Genny Basso' },
+            { name: 'Romance "O pourquoi donc" in E Minor S. 169', fileName: 'romance-o-pourquoi-donc-in-e-minor-s-169', recordingMusician: 'Genny Basso' },
             { name: 'Consolation No. 3 in D-Flat Major S. 172', fileName: 'consolation-no-3-in-d-flat-major-s-172', recordingMusician: 'Rousseau' },
             { name: 'Serenade D. 889 - Piano', fileName: 'serenade-d-889-piano', recordingMusician: 'Rousseau', composer: 'Schubert' },
             { name: 'Etude No. 3 in D-Flat Major S. 144 (Un Sospiro)', fileName: 'etude-no-3-in-d-flat-major-s-144-un-sospiro', recordingMusician: 'Rousseau' },
