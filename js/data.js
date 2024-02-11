@@ -78,7 +78,7 @@ export const musiciansArray = [
             { name: 'N16 - Nocturne in E-Flat Major Op. 55 No. 2', fileName: 'n16-nocturne-in-e-flat-major-op-55-no-2', recordingMusician: 'François Chaplin' },
             { name: 'N17 - Nocturne in B Major Op. 62 No. 1', fileName: 'n17-nocturne-in-b-major-op-62-no-1', recordingMusician: 'François Chaplin' },
             { name: 'N18 - Nocturne in E Major Op. 62 No. 2', fileName: 'n18-nocturne-in-e-major-op-62-no-2', recordingMusician: 'François Chaplin' },
-            { name: 'N19 - Nocturne in E Minor Op. Posth. 72 No. 1, WN 23', fileName: 'n19-nocturne-in-e-minor-op-posth-72-no-1-wn-23', recordingMusician: 'François Chaplin' },
+            { name: 'N19 - Nocturne in E Minor Op. Posth. 72 No. 1, WN 23', fileName: 'n19-nocturne-in-e-minor-op-posth-72-no-1-wn-23', recordingMusician: 'SLDD Piano' },
             { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth., WN 37 - Interpretation 1', fileName: 'n20-nocturne-in-c-sharp-minor-op-posth-wn-37-interpretation-1', recordingMusician: 'Rousseau' },
             { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth., WN 37 - Interpretation 2', fileName: 'n20-nocturne-in-c-sharp-minor-op-posth-wn-37-interpretation-2', recordingMusician: 'Nelson Goerner' },
             { name: 'N21 - Nocturne in C Minor Op. Posth., WN 62', fileName: 'n21-nocturne-in-c-minor-op-posth-wn-62', recordingMusician: 'François Chaplin' },
