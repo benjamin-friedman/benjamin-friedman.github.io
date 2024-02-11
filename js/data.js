@@ -208,14 +208,14 @@ export const musiciansArray = [
         id: 'faure',
         name: 'Fauré',
         songs: [
-            { name: 'Élégie Op. 24', fileName: 'elegie-op-24', recordingMusician: 'Harriet Krijgh' }
+            { name: 'Élégie Op. 24', fileName: 'elegie-op-24', recordingMusician: 'Harriet Krijgh (Cello), Kamilla Isanbaeva (Piano)' }
         ]
     },
     {
         id: 'elgar',
         name: 'Elgar',
         songs: [
-            { name: 'Cello Concerto in E Minor Op. 85 I.', fileName: 'cello-concerto-in-e-minor-op-85-i', recordingMusician: 'Sophie Kauer' }
+            { name: 'Cello Concerto in E Minor Op. 85 I.', fileName: 'cello-concerto-in-e-minor-op-85-i', recordingMusician: 'Sophie Kauer, London Symphony Orchestra' }
         ]
     },
     {
@@ -784,7 +784,7 @@ export const musiciansArray = [
         name: 'Luis Demetrio and Pablo Beltrán Ruiz',
         songs: [
             { name: 'Sway (¿Quién será?)', fileName: 'sway-quien-sera', recordingMusician: 'Michael Bublé', contributors: 'Norman Gimbel' },
-            { name: 'Sway (¿Quién será?) - Cello', fileName: 'sway-quien-sera-cello', recordingMusician: 'Stejpan Hauser' }
+            { name: 'Sway (¿Quién será?) - Cello', fileName: 'sway-quien-sera-cello', recordingMusician: 'Stjepan Hauser' }
         ]
     },
     {
