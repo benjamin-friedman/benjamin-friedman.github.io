@@ -1582,13 +1582,6 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'sound-remedy',
-        name: 'Sound Remedy',
-        songs: [
-            { name: 'Medicine (Sound Remedy Remix)', fileName: 'medicine-sound-remedy-remix', composer: 'Daughter' }
-        ]
-    },
-    {
         id: 'skrillex',
         name: 'Skrillex',
         songs: [
@@ -1651,6 +1644,13 @@ export const musiciansArray = [
         name: 'O-Zone',
         songs: [
             { name: 'Dragostea Din Tei', fileName: 'dragostea-din-tei' }
+        ]
+    },
+    {
+        id: 'daughter',
+        name: 'Daughter',
+        songs: [
+            { name: 'Medicine', fileName: 'medicine' }
         ]
     },
     {
