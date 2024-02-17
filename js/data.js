@@ -1742,13 +1742,13 @@ export const quotes = {
             author: 'Rachmaninoff',
             quote: 'Music is enough for a lifetime, but a lifetime is not enough for music.'
         },
-        { 
-            author: 'Chopin',
-            quote: 'Bach is an astronomer discovering the most marvellous stars. Beethoven challenges the universe. I only try to express the soul and heart of man.'
-        },
         {
             author: 'Debussy',
             quote: 'Chopin is the greatest of them all, for with the piano alone he discovered everything.'
+        },
+        { 
+            author: 'Chopin',
+            quote: 'Bach is an astronomer discovering the most marvellous stars. Beethoven challenges the universe. I only try to express the soul and heart of man.'
         },
         { 
             author: 'Jack London',
