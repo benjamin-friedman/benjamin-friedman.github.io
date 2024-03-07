@@ -428,7 +428,13 @@ export const musiciansArray = [
         id: 'bear-mccreary',
         name: 'Bear McCreary',
         songs: [
-            { name: 'Reconciliation', fileName: 'reconciliation', soundtrack: 'The Walking Dead' }
+            { name: 'The Hand', fileName: 'the-hand', soundtrack: 'The Walking Dead' },
+            { name: 'Reconciliation', fileName: 'reconciliation', soundtrack: 'The Walking Dead' },
+            { name: "Carl's Theme", fileName: 'carls-theme', soundtrack: 'The Walking Dead' },
+            { name: "Rick's Despair", fileName: 'ricks-despair', soundtrack: 'The Walking Dead' },
+            { name: 'The Day Will Come', fileName: 'the-day-will-come', soundtrack: 'The Walking Dead' },
+            { name: 'Coda', fileName: 'coda', soundtrack: 'The Walking Dead' },
+            { name: 'New Journey', fileName: 'new-journey', soundtrack: 'The Walking Dead' },
         ]
     },
     {
