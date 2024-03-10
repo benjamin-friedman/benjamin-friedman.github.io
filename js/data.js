@@ -1753,7 +1753,7 @@ export const quotes = {
         },
         { 
             author: 'Chopin',
-            quote: 'Bach is an astronomer discovering the most marvellous stars. Beethoven challenges the universe. I only try to express the soul and heart of man.'
+            quote: 'Bach is an astronomer discovering the most marvelous stars. Beethoven challenges the universe. I only try to express the soul and heart of man.'
         },
         { 
             author: 'Jack London',
