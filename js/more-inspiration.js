@@ -7,6 +7,7 @@ import { writingsArray } from './data.js';
         writing-id' : {
             title: 'title',
             author: 'author',
+            fileName: 'writing-file-name',
             writing: [
                 [
                     'line',
@@ -88,6 +89,7 @@ const initializeWritingsObject = (writingsArray, writingsObject) => {
         writingsObject[`${_writing.id}`] = {
             title: _writing.title,
             author: _writing.author,
+            fileName: _writing.id,
             writing: _writing.writing
         }
     });
@@ -172,7 +174,7 @@ const playWriting = (writingId, writingsObject, audioWrapper) => {
 
     // writing
     audioWrapper.audio.pause();
-    const writingFilePath = `../writings/${writingsObject[`${writingId}`].title}.mp3`;
+    const writingFilePath = `../writings/${writingsObject[`${writingId}`].fileName}.mp3`;
     audioWrapper.audio = new Audio(writingFilePath);
     const audioPromise = audioWrapper.audio.play();
     // this is here because of the following error, sometimes play() would fail and an error showed up in the console

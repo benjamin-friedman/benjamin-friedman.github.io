@@ -1970,5 +1970,37 @@ export const writingsArray = [
                 "Soldiers! in the name of democracy, let us all unite!"
             ]
         ]
+    },
+    {
+        id: 'free-speech',
+        title: 'Free Speech',
+        author: 'Christopher Hitchens',
+        writing: [
+            [
+                "Soldiers! don't give yourselves to brutes -",
+                "men who despise you - enslave you - who regiment your lives -",
+                "tell you what to do - what to think and what to feel!",
+                "Who drill you - diet you - treat you like cattle, use you as cannon fodder.",
+                "Don't give yourselves to these unnatural men -",
+                "machine men with machine minds and machine hearts!",
+                "You are not machines! You are not cattle! You are men!",
+                "You have the love of humanity in your hearts!",
+                "You don't hate! Only the unloved hate - the unloved and the unnatural!",
+                "Soldiers! Don't fight for slavery! Fight for liberty!",
+                "In the 17th Chapter of St Luke it is written: “the Kingdom of God is within man” - not one man nor a group of men, but in all men!",
+                "In you! You, the people have the power - the power to create machines. The power to create happiness!",
+                "You, the people, have the power to make this life free and beautiful, to make this life a wonderful adventure.",
+                "Then - in the name of democracy - let us use that power - let us all unite.",
+                "Let us fight for a new world - a decent world that will give men a chance to work -",
+                "that will give youth a future and old age a security.",
+                "By the promise of these things, brutes have risen to power.",
+                "But they lie! They do not fulfil that promise. They never will!",
+                "Dictators free themselves but they enslave the people!",
+                "Now let us fight to fulfil that promise! Let us fight to free the world -",
+                "to do away with national barriers - to do away with greed, with hate and intolerance.",
+                "Let us fight for a world of reason, a world where science and progress will lead to all men's happiness.",
+                "Soldiers! in the name of democracy, let us all unite!"
+            ]
+        ]
     }
 ]
