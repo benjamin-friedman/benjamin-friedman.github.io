@@ -1929,7 +1929,7 @@ export const writingsArray = [
     {
         id: 'once-more-into-the-fray',
         title: 'Once More Into the Fray',
-        author: 'Joe Carnahan',
+        author: 'Unknown (from The Grey film)',
         writing: [
             [
                 'Once more into the fray...',
@@ -1973,6 +1973,16 @@ export const writingsArray = [
                 `Let us fight for a world of reason!`,
                 `A world where science and progress will lead to all men's happiness!`,
                 `Soldiers! In the name of democracy, let us all unite!`
+            ]
+        ]
+    },
+    {
+        id: 'free-speech',
+        title: 'Free Speech',
+        author: 'Christopher Hitchens',
+        writing: [
+            [
+                ``
             ]
         ]
     }

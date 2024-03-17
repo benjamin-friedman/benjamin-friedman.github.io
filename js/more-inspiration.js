@@ -46,7 +46,7 @@ const initializeWritingsPageLayout = (writingsArray) => {
             newHTML = 
                 `
                     <div class="row writings-menu-title-container">
-                        <div class="col-4 writings-menu-title">
+                        <div class="col-12 writings-menu-title">
                             <h5 id="${writingsArray[i].id}">${writingsArray[i].title}</h5>
                         </div>
                     </div>
@@ -55,10 +55,10 @@ const initializeWritingsPageLayout = (writingsArray) => {
             newHTML = 
                 `
                     <div class="row writings-menu-title-container">
-                        <div class="col-4 writings-menu-title">
+                        <div class="col-6 writings-menu-title">
                             <h5 id="${writingsArray[i].id}">${writingsArray[i].title}</h5>
                         </div>
-                        <div class="col-4 writings-menu-title">
+                        <div class="col-6 writings-menu-title">
                             <h5 id="${writingsArray[i + 1].id}">${writingsArray[i + 1].title}</h5>
                         </div>
                     </div>
@@ -124,52 +124,58 @@ const playWriting = (writingId, writingsObject, audioWrapper) => {
     writingAuthor.insertAdjacentHTML('beforeend', `<h5>${writingsObject[`${writingId}`].author}</h5>`);
     writing.innerHTML = '';
 
-    const sections = writingsObject[`${writingId}`].writing.length;
-    const sectionsDiv2 = Math.floor(sections / 2);
-
-    // even number of sections
-    if (sections % 2 === 0) {
-        for (let i = 0; i < sectionsDiv2; ++i) {
-            newHTML += '<div class="row writing-section">';
-
-            newHTML += '<div class="col">';
-            for (let j = 0; j < writingsObject[`${writingId}`].writing[i].length; ++j) {
-                newHTML += `<p>${writingsObject[`${writingId}`].writing[i][j]}</p>`;
-            }
-            newHTML += '</div>';
-
-            newHTML += '<div class="col">';
-            for (let j = 0; j < writingsObject[`${writingId}`].writing[i + sectionsDiv2].length; ++j) {
-                newHTML += `<p>${writingsObject[`${writingId}`].writing[i + sectionsDiv2][j]}</p>`;
-            }
-            newHTML += '</div>'
-
-            newHTML += '</div>';
-        }
-    } else { // odd number of sections
-        for (let i = 0; i < sectionsDiv2 + 1; ++i) {
-            newHTML += '<div class="row writing-section">';
-
-            newHTML += '<div class="col">';
-            for (let j = 0; j < writingsObject[`${writingId}`].writing[i].length; ++j) {
-                newHTML += `<p>${writingsObject[`${writingId}`].writing[i][j]}</p>`;
-            }
-            newHTML += '</div>';
-
-            // 1 section edge case - don't add second column so it remains centered
-            if (sections !== 1) {
+    // special case for Christopher Hitchen's speech on Free Speech
+    if (writingId === 'free-speech') {
+        newHTML = `<img src="img/writers/christopher-hitchens.jpg" alt="">`;
+    } else {
+        const sections = writingsObject[`${writingId}`].writing.length;
+        const sectionsDiv2 = Math.floor(sections / 2);
+    
+        // even number of sections
+        if (sections % 2 === 0) {
+            for (let i = 0; i < sectionsDiv2; ++i) {
+                newHTML += '<div class="row writing-section">';
+    
                 newHTML += '<div class="col">';
-                if (i < sectionsDiv2) {
-                    for (let j = 0; j < writingsObject[`${writingId}`].writing[i + sectionsDiv2].length; ++j) {
-                        newHTML += `<p>${writingsObject[`${writingId}`].writing[i + sectionsDiv2][j]}</p>`;
-                    }
+                for (let j = 0; j < writingsObject[`${writingId}`].writing[i].length; ++j) {
+                    newHTML += `<p>${writingsObject[`${writingId}`].writing[i][j]}</p>`;
                 }
                 newHTML += '</div>';
+    
+                newHTML += '<div class="col">';
+                for (let j = 0; j < writingsObject[`${writingId}`].writing[i + sectionsDiv2].length; ++j) {
+                    newHTML += `<p>${writingsObject[`${writingId}`].writing[i + sectionsDiv2][j]}</p>`;
+                }
+                newHTML += '</div>'
+    
+                newHTML += '</div>';
             }
-
-            newHTML += '</div>';
-        } 
+        } else { // odd number of sections
+            for (let i = 0; i < sectionsDiv2 + 1; ++i) {
+                newHTML += '<div class="row writing-section">';
+    
+                newHTML += '<div class="col">';
+                for (let j = 0; j < writingsObject[`${writingId}`].writing[i].length; ++j) {
+                    newHTML += `<p>${writingsObject[`${writingId}`].writing[i][j]}</p>`;
+                }
+                newHTML += '</div>';
+    
+                // 1 section edge case - don't add second column so it remains centered
+                if (sections !== 1) {
+                    newHTML += '<div class="col">';
+                    if (i < sectionsDiv2) {
+                        for (let j = 0; j < writingsObject[`${writingId}`].writing[i + sectionsDiv2].length; ++j) {
+                            newHTML += `<p>${writingsObject[`${writingId}`].writing[i + sectionsDiv2][j]}</p>`;
+                        }
+                    }
+                    newHTML += '</div>';
+                }
+    
+                newHTML += '</div>';
+            } 
+        }
     }
+    
     writing.insertAdjacentHTML('beforeend', newHTML);
 
     // writing
