@@ -1929,7 +1929,7 @@ export const writingsArray = [
     {
         id: 'once-more-into-the-fray',
         title: 'Once More Into the Fray',
-        author: 'Unknown (from The Grey film)',
+        author: 'Joe Carnahan',
         writing: [
             [
                 'Once more into the fray...',
@@ -1956,20 +1956,20 @@ export const writingsArray = [
                 `You don't hate! Only the unloved hate - the unloved and the unnatural!`,
                 `Soldiers! Don't fight for slavery! Fight for liberty!`,
                 `In the 17th Chapter of St. Luke it is written: "the Kingdom of God is within Man" - not one man nor a group of men, but in all men!`,
-                `In you! You the people have the power!`,
+                `In you! You the People have the power!`,
                 `The power to create machines. The power to create happiness!`,
-                `You, the people, have the power to make this life free and beautiful!`,
+                `You, the People, have the power to make this life free and beautiful!`,
                 `To make this life a wonderful adventure!`,
                 `Then, in the name of democracy, let us use that power, let us all unite!`,
                 `Let us fight for a new world!`,
                 `A decent world that will give men a chance to work, that will give youth a future, and old age a security!`,
                 `By the promise of these things, brutes have risen to power!`,
                 `But they lie! They do not fulfill that promise. They never will!`,
-                `Dictators free themselves but they enslave the people!`,
+                `Dictators free themselves but they enslave the People!`,
                 `Now let us fight to fulfill that promise!`,
                 `Let us fight to free the world!`,
                 `To do away with national barriers!`,
-                `To do away with greed, with hate and intolerance!`,
+                `To do away with greed, with hate, and intolerance!`,
                 `Let us fight for a world of reason!`,
                 `A world where science and progress will lead to all men's happiness!`,
                 `Soldiers! In the name of democracy, let us all unite!`
