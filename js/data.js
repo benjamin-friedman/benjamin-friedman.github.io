@@ -1951,7 +1951,7 @@ export const writingsArray = [
                 `Who drill you, diet you, treat you like cattle, use you as cannon fodder!`,
                 `Don't give yourselves to these unnatural men!`,
                 `Machine men, with machine minds, and machine hearts!`,
-                `You are not machines! You are not cattle! You are men!`,
+                `You are not machines! You are not cattle! You are. men!`,
                 `You have the love of Humanity in your hearts!`,
                 `You don't hate! Only the unloved hate - the unloved and the unnatural!`,
                 `Soldiers! Don't fight for slavery! Fight for liberty!`,
