@@ -1958,7 +1958,7 @@ export const writingsArray = [
                 `In the 17th Chapter of St. Luke it is written: "the Kingdom of God is within Man" - not one man nor a group of men, but in all men!`,
                 `In you! You the People have the power!`,
                 `The power to create machines. The power to create happiness!`,
-                `You, the People, have the power to make this life free and beautiful!`,
+                `You the People have the power to make this life free and beautiful!`,
                 `To make this life a wonderful adventure!`,
                 `Then, in the name of democracy, let us use that power, let us all unite!`,
                 `Let us fight for a new world!`,
