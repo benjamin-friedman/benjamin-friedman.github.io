@@ -172,10 +172,10 @@ export const musiciansArray = [
             { name: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello', fileName: 'piano-concerto-no-2-in-c-minor-op-18-ii-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
             { name: 'Moment Musicaux in E Minor Op. 16 No. 4', fileName: 'moment-musicaux-in-e-minor-op-16-no-4', recordingMusician: 'Nikolai Lugansky' },
             { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor', fileName: 'morceaux-de-fantaisie-op-3-no-1-elegie-in-e-flat-minor', recordingMusician: 'Luke Faulkner' },
-            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor - Cello', fileName: 'morceaux-de-fantaisie-op-3-no-1-elegie-in-e-flat-minor-cello', recordingMusician: 'Sheku Kanneh-Mason' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor - Cello', fileName: 'morceaux-de-fantaisie-op-3-no-1-elegie-in-e-flat-minor-cello', recordingMusician: 'Isata Kanneh-Mason (Piano), Sheku Kanneh-Mason (Cello)' },
             { name: 'Morceaux de Fantaisie Op. 3 No. 2 Prelude in C-Sharp Minor', fileName: 'morceaux-de-fantaisie-op-3-no-2-prelude-in-c-sharp-minor', recordingMusician: 'Nikolai Lugansky' },
-            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', fileName: '14-romances-op-34-no-14-vocalise-cello', recordingMusician: 'Han-Na Chang' },
-            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', fileName: '14-romances-op-34-no-14-vocalise-voice', recordingMusician: 'Alison Lau' },
+            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', fileName: '14-romances-op-34-no-14-vocalise-cello', recordingMusician: 'Han-Na Chang, Philharmonia Orchestra' },
+            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', fileName: '14-romances-op-34-no-14-vocalise-voice', recordingMusician: 'Alison Lau, re:Sound Collective' },
             { name: 'Cello Sonata in G Minor Op. 19 III.', fileName: 'cello-sonata-in-g-minor-op-19-iii', recordingMusician: 'Marie-Ève Scarfone (Piano), Stéphane Tétreault (Cello)' },
             { name: 'Isle of the Dead Op. 29', fileName: 'isle-of-the-dead-op-29', recordingMusician: 'Royal Stockholm Philharmonic Orchestra' }
         ]
