@@ -1659,10 +1659,10 @@ export const musiciansArray = [
         ]
     },
     {
-        id: 'moby',
-        name: 'Moby',
+        id: 'mindy-jones',
+        name: 'Mindy Jones',
         songs: [
-            { name: 'Wait for Me', fileName: 'wait-for-me', contributors: 'Mindy Jones' }
+            { name: 'Wait for Me', fileName: 'wait-for-me', contributors: 'Moby' }
         ]
     },
     {
