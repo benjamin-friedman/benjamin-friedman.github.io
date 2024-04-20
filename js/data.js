@@ -485,7 +485,11 @@ export const musiciansArray = [
         name: 'Atis Freivalds',
         songs: [
             { name: 'Paradox', fileName: 'paradox' },
-            { name: 'For Her', fileName: 'for-her' }
+            { name: 'For Her', fileName: 'for-her' },
+            { name: 'Aurora Borealis', fileName: 'aurora-borealis' },
+            { name: 'The Light Between Us', fileName: 'the-light-between-us' },
+            { name: 'Rain', fileName: 'rain' },
+            { name: 'You and Me', fileName: 'you-and-me' }
         ]
     },
     {
