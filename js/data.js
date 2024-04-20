@@ -1399,7 +1399,8 @@ export const musiciansArray = [
             { name: 'Ignorance Is Bliss', fileName: 'ignorance-is-bliss' },
             { name: 'Money Trees', fileName: 'money-trees' },
             { name: 'The Recipe', fileName: 'the-recipe' },
-            { name: 'm.A.A.d city', fileName: 'maad-city' }
+            { name: 'm.A.A.d city', fileName: 'maad-city' },
+            { name: 'untitled 07 | levitate', fileName: 'untitled-07-levitate' }
         ]
     },
     {
