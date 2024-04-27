@@ -398,8 +398,12 @@ export const musiciansArray = [
         id: 'nicholas-hooper',
         name: 'Nicholas Hooper',
         songs: [
+            { name: 'Death of Sirius', fileName: 'death-of-sirius', soundtrack: 'Harry Potter and the Order of the Phoenix' },
             { name: 'Possession', fileName: 'possession', soundtrack: 'Harry Potter and the Order of the Phoenix' },
             { name: 'When Ginny Kissed Harry', fileName: 'when-ginny-kissed-harry', soundtrack: 'Harry Potter and the Half-Blood Prince' },
+            { name: 'The Drink of Despair', fileName: 'the-drink-of-despair', soundtrack: 'Harry Potter and the Half-Blood Prince' },
+            { name: 'Inferi in the Firestorm', fileName: 'inferi-in-the-firestorm', soundtrack: 'Harry Potter and the Half-Blood Prince' },
+            { name: 'The Killing of Dumbledore', fileName: 'the-killing-of-dumbledore', soundtrack: 'Harry Potter and the Half-Blood Prince' },
             { name: "Dumbledore's Farewell", fileName: 'dumbledores-farewell', soundtrack: 'Harry Potter and the Half-Blood Prince' }
         ]
     },
