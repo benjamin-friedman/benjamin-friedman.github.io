@@ -1,2 +1,2 @@
 # My Portfolio Website
-https://benjamin-friedman.github.io/
+https://benjamin-friedman.github.io
