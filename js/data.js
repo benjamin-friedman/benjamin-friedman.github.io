@@ -93,12 +93,14 @@ export const musiciansArray = [
         id: 'liszt',
         name: 'Liszt',
         songs: [
-            { name: 'Liebestraum No. 3 in A-Flat Major S. 541 (Love Dream)', fileName: 'liebestraum-no-3-in-a-flat-major-s-541-love-dream', recordingMusician: 'Khatia Buniatishvili' },
+            { name: 'Liebestraum No. 3 in A-Flat Major S. 541/3 (Love Dream)', fileName: 'liebestraum-no-3-in-a-flat-major-s-541-3-love-dream', recordingMusician: 'Khatia Buniatishvili' },
             { name: 'Romance "O pourquoi donc" in E Minor S. 169', fileName: 'romance-o-pourquoi-donc-in-e-minor-s-169', recordingMusician: 'Genny Basso' },
-            { name: 'Consolation No. 3 in D-Flat Major S. 172', fileName: 'consolation-no-3-in-d-flat-major-s-172', recordingMusician: 'Rousseau' },
-            { name: 'Serenade D. 889 - Piano', fileName: 'serenade-d-889-piano', recordingMusician: 'Rousseau', composer: 'Schubert' },
-            { name: 'Etude No. 3 in D-Flat Major S. 144 (Un Sospiro)', fileName: 'etude-no-3-in-d-flat-major-s-144-un-sospiro', recordingMusician: 'Rousseau' },
-            { name: 'Etude No. 3 in G-Sharp Minor S. 141 (La Campanella)', fileName: 'etude-no-3-in-g-sharp-minor-s-141-la-campanella', recordingMusician: 'Rousseau', composer: 'Paganini' }
+            { name: 'Consolation No. 3 in D-Flat Major S. 172/3', fileName: 'consolation-no-3-in-d-flat-major-s-172-3', recordingMusician: 'Rousseau' },
+            { name: 'Serenade S. 559a', fileName: 'serenade-s-559a', recordingMusician: 'Rousseau', composer: 'Schubert' },
+            { name: 'Etude No. 3 in D-Flat Major S. 144/3 (Un Sospiro)', fileName: 'etude-no-3-in-d-flat-major-s-144-3-un-sospiro', recordingMusician: 'Rousseau' },
+            { name: 'Etude No. 3 in G-Sharp Minor S. 141/3 (La Campanella)', fileName: 'etude-no-3-in-g-sharp-minor-s-141-3-la-campanella', recordingMusician: 'Rousseau', composer: 'Paganini' },
+            { name: 'To Sing on the Water S. 558/2', fileName: 'to-sing-on-the-water-s-558-2', recordingMusician: 'Fatjon Zefi', composer: 'Schubert' },
+            { name: 'Hungarian Rhapsody No. 2 in C-Sharp Minor S. 244/2', fileName: 'hungarian-rhapsody-no-2-in-c-sharp-minor-s-244-2', recordingMusician: 'Rousseau' }
         ]
     },
     {
