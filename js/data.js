@@ -955,7 +955,8 @@ export const musiciansArray = [
         id: 'ac-dc',
         name: 'AC/DC',
         songs: [
-            { name: 'Thunderstruck', fileName: 'thunderstruck' }
+            { name: 'Thunderstruck', fileName: 'thunderstruck' },
+            { name: 'Thunderstruck - Cello', fileName: 'thunderstruck-cello', recordingMusician: '2Cellos' }
         ]
     },
     {
@@ -986,7 +987,8 @@ export const musiciansArray = [
         id: 'creedence-clearwater-revival',
         name: 'Creedence Clearwater Revival',
         songs: [
-            { name: 'Have You Ever Seen the Rain', fileName: 'have-you-ever-seen-the-rain' }
+            { name: 'Have You Ever Seen the Rain', fileName: 'have-you-ever-seen-the-rain' },
+            { name: 'Fortunate Son', fileName: 'fortunate-son' }
         ]
     },
     {
@@ -1318,7 +1320,8 @@ export const musiciansArray = [
         id: 'earth-wind-and-fire',
         name: 'Earth, Wind & Fire',
         songs: [
-            { name: 'September', fileName: 'september' }
+            { name: 'September', fileName: 'september' },
+            { name: 'Shining Star', fileName: 'shining-star' }
         ]
     },
     {
@@ -1396,7 +1399,8 @@ export const musiciansArray = [
             { name: 'The Watcher', fileName: 'the-watcher' },
             { name: 'Forgot About Dre', fileName: 'forgot-about-dre' },
             { name: 'The Message', fileName: 'the-message' },
-            { name: 'Still D.R.E.', fileName: 'still-dre' }
+            { name: 'Still D.R.E.', fileName: 'still-dre' },
+            { name: 'I Need a Doctor', fileName: 'i-need-a-doctor', contributors: 'Eminem, Skylar Grey' }
         ]
     },
     {
@@ -1721,7 +1725,8 @@ export const musiciansArray = [
         id: 'john-newton',
         name: 'John Newton',
         songs: [
-            { name: 'Amazing Grace - Bagpipes', fileName: 'amazing-grace-bagpipes', recordingMusician: 'Bagpipe Master' }
+            { name: 'Amazing Grace - Bagpipes', fileName: 'amazing-grace-bagpipes', recordingMusician: 'Bagpipe Master' },
+            { name: 'Amazing Grace', fileName: 'amazing-grace', recordingMusician: 'Dan Vasc' }
         ]
     },
     {
