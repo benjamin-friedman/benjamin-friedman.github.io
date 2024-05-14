@@ -2207,7 +2207,7 @@ export const discussionsParagraphs = [
     Mozart produced the majestic view, Chopin induced the prolonged gaze, Liszt illustrated the willing sacrifice, and so on.
     Answers to such questions do not really endure and are better left unpondered.
     Superiority does not always exist and can sometimes only serve to diminish the essentialness of all parties involved.
-    Despite his style, the lifeblood of the Romantic period did at times appear to exist within Mozart as can be heard in the first part of Fantasia No. 3 in D Minor as if it were a foreshadowing of what was to come.
+    Despite his style though, the lifeblood of the Romantic period did at times appear to exist within Mozart as can be heard in the first part of Fantasia No. 3 in D Minor as if it were a foreshadowing of what was to come.
     The Requiem, regarded as Mozart's final masterpiece, is divided into eight primary sections with fifteen unique pieces in total.
     The most recognizable pieces include I. Introitus: Requiem aeternam, II. Sequentia: Dies irae, and III. Sequentia: Lacrimosa with Introitus opening with those ever recognizable hits of D, C-sharp, D, E/A, F, A-flat...feeling like a heavy sigh and its associated feelings encountered in a difficult time or a confrontation with death at life's terminus.
     Mozart died before he could complete The Requiem, and as a result there is unfortunately much controversy surrounding the piece and the events leading up to his death.
