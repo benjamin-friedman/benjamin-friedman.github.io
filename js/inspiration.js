@@ -1,4 +1,4 @@
-import { musiciansArray, quotes } from './data.js';
+import { musiciansArray, quotes, discussionsParagraphs } from './data.js';
 
 
 /*
@@ -188,6 +188,12 @@ const initializeInspirationPage = (musiciansArray) => {
         newHTML += '</div>'; // end song-listing-musician-and-songs-container
         songgListingMusiciansAndSongsListContainer.insertAdjacentHTML('beforeend', newHTML);
     }
+
+    // discussion
+    const discussionContainer = document.getElementById('discussion-container');
+    discussionsParagraphs.forEach(discussionParagraph => {
+        discussionContainer.insertAdjacentHTML('beforeend', `<p>${discussionParagraph}</p>`);
+    });
 }
 
 

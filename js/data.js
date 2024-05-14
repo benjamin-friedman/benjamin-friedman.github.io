@@ -1787,6 +1787,7 @@ export const quotes = {
 
 
 
+
 export const writingsArray = [
     {
         id: 'invictus',
@@ -2052,4 +2053,407 @@ export const writingsArray = [
             ]
         ]
     }
-]
+];
+
+
+
+
+export const discussionsParagraphs = [
+    `
+    Hans Zimmer is the greatest soundtrack composer of the modern era and one of the greatest composers of all time.
+    The breadth and depth of his work is unrivaled, having composed some of the most beautiful, powerful, moving, and emotional music ever written in scores of major motion picture soundtracks.
+    It is the combination of the somewhat unfathomable expanse of his body of work in stride with the diverse and at times disparate nature of his compositions that renders him in a category of his own.
+    Some of his best work comes from The Dark Knight trilogy, The Pirates of the Caribbean series, Inception, and Interstellar amongst many other films.
+    From The Dark Knight trilogy his best compositions include Corynorhinus, Myotis, Molossus, A Dark Knight, Agent of Chaos, and Why Do We Fall.
+    One of the most beautiful scores ever written is the unreleased track Marry Me from Pirates of the Caribbean: At World's End, and other incredible songs he has composed include Time from Inception, First Steps, No Time for Caution, and Mountains from Interstellar, Final Ascent from No Time to Die, and A Way of Life and A Small Measure of Peace from The Last Samurai.
+    Hans has worked frequently with director Christopher Nolan including on some of the films mentioned.
+    The directorial genius of Nolan combined with the musical genius of Hans creates an unfettered hybrid yielding some of the most profound cinematic experiences, and a better composer-director pair there probably never was.
+    It should be noted that Hans collaborated significantly with James Newton Howard for the first two films of The Dark Knight Trilogy, Klaus Badelt for the first Pirates of the Caribbean film and Gladiator, and Lisa Gerrard in Gladiator so the credit goes to them as well.
+    Now We Are Free from Gladiator is one of the best songs ever composed with Gerrard's otherworldly glossolalia penetrating the air with her angelically mystical voice, and Croatian cellist Stjepan Hauser did an incredible cello arrangement of it out of which is delivered a whole new experience from that song whose original version was already phenomenal enough. 
+    `,
+    `
+    Frédéric Chopin is one of the greatest classical piano composers of all time and lived from 1810 to 1849.
+    A signature hallmark of the Romantic period, he is often regarded as <i>the pianist's composer</i> with his work being almost exclusively for the solo piano.
+    Although his father was French and his name would suggest as such, he was born and raised in Poland as Fryderyk Franciszek Chopin and only adopted the French version of his name after moving to France in his later years.
+    Despite his French heritage, Chopin remained loyal to his homeland and always considered himself Polish.
+    It is not said that Chopin is <i>the</i> greatest classical piano composer of all time because the pursuit of such a choice proves to be untenable.
+    Though the claim he is the greatest might subconsciously arise in the mind out of instinct, by the time that thought is proffered in either the spoken or written word there is a tinge of discomfort that begins to accumulate in the air.
+    How could it be said that Chopin is the greatest when there exists the works of Liszt, Rachmaninoff, Beethoven, and so many others?
+    To live without the compositions of these composers would be a crime on its best day, and saying any single one composer is the greatest feels like a betrayal of all the others.
+    The opposing forces of Chopin's greatness and the feeling of betrayal almost inclines one to state that Chopin is the greatest and not the greatest simultaneously because an impossible question can only be satisfied with an impossible answer, and consequently the predicament created by the question of who is the greatest classical piano composer of all time bears liking to the unstoppable force paradox in which is asked what happens when an unstoppable force meets an immovable object?
+    After ample time passes grappling internally with this futile decision, the only moral conclusion that can be ascertained that does not diminish any one composer is that any attempt at a ranking is a mostly worthless pursuit, and that there is no single greatest but rather a mosaic of faces and names all contributing in the most profound way to the musical experience; to the pursuit of part of which makes being alive more than just existence.
+    Music is, after all, partially subjective - objective regarding a piece's quality and performative difficulty but subjective regarding any ranking derived from individual preference.
+    However, if an answer to that question were truly compelled, then it could be stated that Chopin is the greatest, and if not that then at a minimum he would be one of the strongest candidates if not the strongest.
+    Whether it is numerous works by Liszt or Beethoven's immortal Moonlight Sonata, other composers have written piano songs equally as beautiful and moving as any of Chopin's and that statement can be made without hesitation, so any ranking deduced solely from a qualitative capability is unattainable.
+    What could position Chopin as the greatest is no different than that which positions Hans Zimmer which is the quantity of incredible songs he composed seconded by their emotional heterogeneity.
+    In his own words, <i>Bach is an astronomer discovering the most marvelous stars. Beethoven challenges the universe. I only try to express the soul and heart of man.</i>
+    Chopin, like other composers but especially him, had this innate ability to do just that - to write piano pieces that expressed <i>the soul and heart of man</i>; to take emotion and put it into music.
+    And he did not just do this once or twice or a handful of times but rather did so time and time again culminating in a body of work too impressive to comprehend and representative of the full emotional spectrum from jovial elation and profound introspection to painful sadness and tragic despair.
+    As was once asserted by Debussy, <i>Chopin is the greatest of them all, for with the piano alone he discovered everything</i>.
+    Chopin's series of twenty-one nocturnes embody this most aptly.
+    Nocturne 19 in E Minor and Nocturne 20 in C-Sharp Minor stand out as two of the best amongst them all and are a baring of the soul of humanity.
+    Then in Nocturne 1 in B-Flat Minor there is the touching way it goes from A, down to A-flat, down to G-flat, back up to A-flat, and finally back up to A in measures 67 through 69 leaving one to forever contemplate what he was trying to say.
+    Moving on to Nocturne 4 in F Major there is the striking contrast between the peace and calm of the first half and the intensity and velocity of the second half.
+    Nocturne 21 in C Minor possesses some of the same essence of Nocturnes 19 and 20, and then after those five nocturnes there are still sixteen remaining each of which is a standalone work of art worthy of admiration.
+    This is in which lies the basis for their exceptionalism - there is not one single one of them that is lacking in some way; not one single one of them that is out of place.
+    Even for a composer as distinguished as Chopin some lenience could be offered if a few out of the twenty-one did not quite rise to expectations but that is not the case.
+    Together, they form an elegant series of twenty-one compositions each with their own uniqueness, righteousness, and emotional narration.
+    Even between the ones possessing similarities said qualities are maintained through their subtle differences.
+    Chopin's nocturnes collectively stand out as one of the most remarkable works of art ever created and truly have no equal.
+    Unfortunately, Nocturnes 19, 20, and 21 were published posthumously and were not appreciated until after his death.
+    This is fervently regretful for all three and emphatically so for 19 and 20 given that they are the most beautiful and moving nocturnes he ever composed most noteworthy for numerous parts including one of the most beautiful chord progressions ever in measures 15 through 17 of Nocturne 19 and the nearly dexterously impossible ending to Nocturne 20.
+    Residing closeby behind them is the 21st which presents a convincing argument for the tertiary rank amongst other stout contenders such as the 1st.
+    Numerous pianists over the years have delivered their individual interpretations of Chopin's nocturnes engraved with personal variances, nuances, and discoveries, and Argentinian pianist Nelson Goerner has one of the best interpretations ever of Nocturne 20.
+    In addition to his nocturnes his work includes twenty-seven preludes (one of them unfinished), twenty-seven etudes, three piano sonatas, and four ballades.
+    Rivaling the emotional depth of his nocturnes are three of his preludes: Prelude 4 in E Minor, Prelude 6 in B Minor, and Prelude 15 in D-Flat Major more affectionately referred to as Raindrop Prelude.
+    It is difficult for words to suffice any worthy articulation regarding Prelude in E Minor, and by his own request Chopin had it performed at his funeral.
+    Prelude in E Minor is an apt example of music's ability to touch the spirit and change the present state of the local universe; the world is one way, the sound of the music is released into existence, and then the world is another way, and this can even be achieved with a piece like Prelude in E Minor that is relatively simple both in regards to its arrangement on paper and its short duration.
+    What makes Raindrop Prelude so remarkable is that the first part of the song, albeit nice, is actually rather unremarkable, and then out of nowhere in the 27th measure it suddenly pivots into one of the deepest pieces of music ever written marked by seven calm yet heavy hits of A-flat followed by the repetitive hitting of G-sharp in conjunction with some lower octave two-note chord progressions beginning with a strike of G-sharp and C-sharp one octave down.
+    An optimum example of how the interpretation is everything in classical music, the rushing of this part will grievously dismantle its moving sentiment as is born out in a number of performances, but interpretations by pianists like Ivo Pogorelich, Daniil Trifonov, Pavel Kolesnikov, and Grigory Sokolov do not commit this blunder and preserve the essence that Raindrop Prelude is meant to have, and one cannot help but wonder if their collective Slavic heritage really is just a coincidence thus emphasizing the storied and intimate connection those countries have to classical music.
+    Preludes 4 and 15 are equivalent to Nocturnes 19 and 20 in that a written description of their sentiment is mostly intangible.
+    The relationship that his 6th prelude has to his 4th and 15th preludes is akin to the relationship his 21st nocturne has to his 19th and 20th nocturnes in that although his 4th and 15th preludes are his best, his 6th prelude contains some of their same essence and unequivocally deserves to be remarked upon as well. 
+    It too by his own request was played at his funeral along with the third movement of his Piano Sonata No. 2 in B-Flat Minor also known as Funeral March and parts of Mozart's Requiem.
+    Then there are songs like Fantaisie-Impromptu, Winter Wind, and Revolutionary Etude which capture an intensity and even at times a kind of violence that Chopin is capable of.
+    Lastly, the beauty, power, emotion, and virtuosity of his first and most famous ballade, Ballade No. 1 in G Minor, defensibly situates it as Chopin's crowning achievement.
+    With parts that are gentle and unhurried, parts that are swift and vehement, parts that are awe inspiring, and in its totality a traversal of much of the emotional range, Chopin's first ballade is demonstrative of his illustriousness and everything that he is capable of as a composer all manifested within one single song.
+    Ballade No. 1 in G Minor was the first ever piano ballade with Chopin having coined the term <i>ballade</i> in relation to its use with the piano allegedly drawing inspiration from its traditional use to describe narrative poetry.
+    Fittingly, Chopin's first ballade, and therefore classical music's primordial piano ballade, is one of the best if not the best of all time.
+    Another renowned Argentinian pianist, Daniel Barenboim, tells the story of when acclaimed Russian pianist Vladimir Horowitz returned to Europe for a performance after a long absence it was asked what will he be playing, and the response was <i>La Ballade</i>, or <i>The Ballade</i> - it is the ballade of all ballades, and one does not need to specify Ballade No. 1 in G Minor in its reference but rather due to the approbation deservedly bestowed upon it one can simply say The Ballade and it will be known which piece is being referred to.
+    Although classical music is unfortunately often outside the purview of mainstream culture, La Ballade received a rise in mainstream cultural attention due to its featuring in the 2002 film The Pianist about the life of Jewish pianist and Holocaust survivor Władysław Szpilman whose life was spared in the midst of World War II by Wehrmact officer Wilm Hosenfield after accidentally stumbling upon him in hiding and then bearing witness to his playing upon request.
+    The scene in which this is reenacted depicts Szpilman playing an abridged version of the piece and is one of the most powerful scenes in cinematic history.
+    As an aside, it should be noted that in reality Szpilman performed Nocturne 20 in C-Sharp Minor.
+    Not that it matters significantly which song is chosen from the standpoint of creating a movie to retell the story of Szpilman's inspiring life, but it is worth mentioning due to the effect it has on Chopin's 20th nocturne.
+    Moving enough in the absence of that knowledge, Nocturne 20 in C-Sharp Minor becomes even more so upon learning that it was once used by a man to save his own life and spare him from that wretched atrocity.
+    More broadly speaking, it demonstrates the power of music whereby a man who would otherwise kill his alleged enemy is able to in that moment discard of his tribalism, escape the facade that it actually is, and relate to him and see him for what he really is which is his fellow brother in humanity all because of a piece of music.
+    Chopin's life was largely defined by numerous hardships including mental and spiritual torment and a plague of chronic health issues.
+    Unquestionably his pain and suffering were a forceful influence on his music, and he was a realization at least in part of the tortured artist.
+    This is readily palpable in many of his compositions which typify the actuality that out of pain and darkness can come forth beauty, and it is an especial shade of beauty unachievable with alternate derivations.
+    Chopin was able to take his pain and suffering and convert it into something beautiful, inspiring, profound, pure, filled with truth, and impossible to live without once experienced.
+    His music is a gift to this world, and those who are privileged enough to experience it should be so lucky and never take for granted the opportunity to hear and feel the music of this man who had such a deep and layered understanding of the human condition, and somehow was able to express that understanding through the simple miracle of sound.
+    Unfortunately, his health issues eventually claimed his life and he died fairly young at the age of 39.
+    To date, there are only three known photographs of Chopin.
+    The most famous was taken shortly before his death and displays Chopin seated at a piano next to a musical score, arms crossed, hands exposed, and staring directly into the camera.
+    The toll of his suffering is in plain view, and a gaze into this treasured picture propels a silent wave of emotion through one's body as it is the only opportunity to see Chopin clearly in his physical form, look directly into the eyes, into the being, of this great and wonderful man, and even see the literal hands that were used to put pen to paper for such incredible music and strike the notes on the piano revealing them to the world for the first time.
+    Somewhere out there in the universe are all of the compositions he would have written had he not died young yet to be heard or experienced like a truth that is yet to be known.
+    Perhaps one of them would have been another Prelude in E Minor, Nocturne in C-Sharp Minor, or Ballade No. 1 in G Minor, and it is nothing short of a tragedy if that were true.
+    However, it is inane to complain or lament about his premature death and what could have been.
+    Chopin graced this world for some time and gifted it an abundance of incredible music before succumbing to the inevitable conclusion.
+    The world should just be grateful that he existed at all and it can be left at that.
+    It has been said that Mozart, Beethoven, and Chopin never died. They simply became music.
+    `,
+    `
+    Franz Liszt, a Hungarian composer living from 1811 to 1886, was another beacon of the Romantic period for which he alongside Chopin are regarded as its sentinels.
+    Like Chopin, Liszt is known for his beautiful, elegant, and technically demanding solo piano pieces.
+    If it were to be said that Chopin is the greatest classical piano composer of all time, then Liszt is maybe the first to come to mind for which it would feel like a betrayal was being enacted upon him, and the term <i>the pianist's composer</i> would be suitable for him as well.
+    Together, they are the twins of virtuosic piano; the ambassadors of Romantic period pianistic virtuosity.
+    After moving to France around the same time as Chopin, the two became friends and although not especially close they deeply respected each other's work both as composers and musicians.
+    Their relationship did at times have its struggles for a number of reasons, but despite any negativity that may have arisen the similarity of their musical style, talent, and greatness makes them out to be like two kindred souls mirroring and echoing each other's spirit and understanding of the human condition.
+    Aside from his greatness as a piano composer and performative ability as a virtuoso pianist, something that makes Liszt unique is his work as a composer is not limited to his own original compositions but also includes piano arrangements of songs previously composed for other instruments.
+    Amongst the most famous of his own original compositions are Liebestraum (Love Dream) No. 3 from his set of three Liebesträume (Dreams of Love), Romance "O pourquoi donc", Consolation No. 3 from his set of six Consolations, the third étude Un Sospiro (A Sigh) from Three Concert Études, Hungarian Rhapsody No. 2 from his set of nineteen Hungarian Rhapsodies, and his series of twelve Transcendental Études.
+    His most famous piano arrangements of songs previously composed for other instruments include his piano arrangement of Paganini's violin composition La Campanella (The Little Bell), and his piano arrangements of two of Schubert's lieds Serenade and To Sing on the Water. 
+    The beauty and emotion of Liebestraum No. 3 has a uniqueness to it unmatched by any other piano song, and that within Romance "O pourquoi donc", Consolation No. 3, and Un Sospiro parallels Chopin's work.
+    It could be proposed that Liebestraum No. 3 is Liszt's crowning achievement for how it wields together the strongest of his abilities which are to create piano songs that are beautiful and create piano songs that are technically demanding, and it is one of the immediate examples of why claiming Chopin is <i>the</i> greatest classical piano composer of all time can feel so controversial.
+    Unsurprisingly, the scale of E minor is used in some of the most beautiful works of these composers - Romance "O pourquoi donc" for Liszt and Prelude 4 and Nocturne 19 for Chopin.
+    Liszt's piano arrangement of Schubert's Serenade is able to capture the same emotion and beauty of that song on the piano that exists in the arrangement on the strings.
+    The emotion of the opening melody beginning with A, B-flat, A, and D is only furthered by the intensity and almost unexpectedness of its shift one octave down partway through.
+    La Campanella adequately illustrates his reputation for creating these technically demanding songs which in this case is partially due to the exhausting movement of the right hand constantly jumping back and forth to different octaves just to play consecutive notes, and its ending stands out as one of the most remarkable endings to any piano song.
+    `,
+    `
+    Franz Schubert was an Austrian composer whose life intersected both the Classical and Romantic periods from 1797 to 1828.
+    The most impressive part of Schubert is that he has hundreds of compositions to his name despite dying even younger than Chopin at the age of 31, and he is most well known for ones like Serenade, Impromptu in G-Flat Major, and Piano Trio No. 2 in E-Flat Major 2nd Movement.
+    Serenade was originally composed as a lied for voice and piano, but the most widely recognized version of it has the main melody played with strings most commonly a cello.
+    The cello and the piano ascend as some of the most beautiful instruments in all of music and are each a direct gateway into the soul and heart of man as Chopin put it.
+    In and of themselves they are beautiful, and together they create a type of musical duality, a distinctive fusion, that is realized in any composition derived from their pairing.
+    Also utilizing this musical fusion is the second movement of Piano Trio No. 2 in E-Flat Major which, with the assistance of the violin to complete the trio as is traditionally done in classical piano trios, is one of the most beautiful piano trios of all time.
+    This particular piano trio is plausibly the most well known of them all amongst the general public due to its presence in various films and television series over the years.
+    Its first appearance was in the 1975 film Barry Lyndon in which is featured the arrangement more traditionally heard where the main melody is first played by the cello followed by the piano.
+    Its second appearance came eight years later in the film The Hunger in which a less commonly heard arrangement is featured that has multiple differences including a reversal of the order of the cello and piano, and the cello being marked by more tragedy and intensity than is felt in the other arrangement.
+    If the mood of the moment has an inclination more towards that tragedy and intensity, then that second arrangement probably wins the day.
+    However, when the daily dust settles and the bigger picture is examined, both versions are exquisite and neither is necessarily superior.
+    Rather, it is an example of how in classical music, unlike most other genres of music, a single song is not a monolith and can beget different experiences either by different arrangements altogether such as in this case, or by different musicians having different interpretations of the same arrangement.
+    `,
+    `
+    Ludwig van Beethoven was a German composer whose lifespan like Schubert's spanned the Classical and Romantic periods from 1770 to 1827.
+    As is the case with Schubert, the intersection of Beethoven's life with both the Classical and Romantic periods means that style of any given composition of his could be characterized by either, and as a result his anthology is not bound by the confines of a single era.
+    Für Elise, for example, is one of his most familiar compositions and is a superb representative for a piano song coming from the Classical period.
+    Journeying over to the Romantic period though is where Beethoven's finest achievement on the piano can be found: Piano Sonata No. 14 in C-Sharp Minor colloquially known as Moonlight Sonata.
+    Cloaked in the spirit of the Romantic period, the first movement of Moonlight Sonata is potentially the most recognizable solo piano work of all time.
+    Its sentiment cannot be underscored enough, and it is a timeless entity that exists in its own realm.
+    Even if Beethoven had composed no other music he could still be thrusted into the hierarchy of the greats due to this piece's composition, and a coincidence it is not that his most beautiful and moving piece uses the same scale as one of Chopin's most beautiful and moving pieces - C-sharp minor.
+    The relative simplicity of Moonlight Sonata 1st Movement means that the subtlety of its details is the most influential factor in the formation of its interpretation, and Japanese pianist Mitsuko Uchida has one of the best of all time.
+    Exuding that deep, heavy, profound, intangible, and indescribable emotional essence that so often characterizes Romantic period songs, Moonlight Sonata 1st Movement presents itself as a candidate for the most beautiful and moving song ever composed on the piano, but once again one finds oneself in an impossible situation when trying to construct such rankings.
+    It cannot be claimed that Moonlight Sonata 1st Movement is <i>the</i> most beautiful and moving song ever composed on the piano when standing right there next to it in the rain is a song like Chopin's Prelude 4 in E Minor or Nocturne 20 in C-Sharp Minor.
+    Confronted once again with the unstoppable force paradox - an impossible situation birthing an impossible question begging an impossible answer - it is realized that no such answer exists.
+    Instead, there is a collective of candidates each worthy of the nomination, but at the final hour, on the one yard line, when the decision has to be made, no singular candidate possesses a worthiness allowing it to surpass all the others.
+    If this view is adopted, it allows the psyche to rest and avoid the unnecessarily manufactured turmoil that arises from trying to construct such a ranking.
+    Each song can be appreciated for what it is, and nothing else has to be done.
+    Following Moonlight Sonata 1st Movement comes Moonlight Sonata 2nd Movement which is nothing to glance at and intentionally so, as it serves to provide a transition out of the emotional experience of the first movement and reset one's emotions back to some type of baseline in preparation for what is about to come: Moonlight Sonata 3rd Movement.
+    Regarded as one of the most challenging piano pieces ever capable of being played only by a select few, it too is cloaked in the spirit of the Romantic period but this time in the form of its virtuosity and beautiful and violent intensity.
+    Like Chopin's <i>La Ballade</i>, Moonlight Sonata 3rd Movement revealed unseen heights, dimensions, and possibilities within the piano that were hidden from the world prior to its composition.
+    Alongside Moonlight Sonata, in the halls of history Beethoven is most remembered for his symphonies particularly Symphony No. 5 which was featured in Disney's Fantasia 2000 in 1999 and Symphony No. 9. whose fourth movement Ode to Joy is one of the most iconic pieces of music of all time.
+    Like some cruel action partaken in the name of sadistic jest, Beethoven developed progressive deafness beginning in his twenties the cause of which although theorized about is officially unknown.
+    Despite his affliction, not only was he still able to compose music but it was during this time that he actually composed Symphony No. 9.
+    In case the significance of this goes unnoticed, Beethoven, while not being able to hear, composed what is regarded as not just one of the greatest symphonies ever but one of the greatest pieces of music ever in all of musical history.
+    Few composers have ever been tested in such a distinguished way, this feat is unmatched by any other, and it is a testament to the eminence of his musical being, intuition and unshakeable genius.
+    `,
+    `
+    Wolfgang Amadeus Mozart was a strictly Classical period composer born in Austria living from 1756 to 1791.
+    His best work includes Fantasia No. 3 in D Minor, Serenade No. 10 for Winds in B-Flat Major, Serenade No. 13 for Strings in G Major (Eine kleine Nachtmusik), The Marriage of Figaro Overture, and The Requiem in D Minor.
+    Mozart's style, being that he was from the Classical period, was dominated by the pursuit of musical exquisiteness and perfection less so than the expression of emotion like Chopin or Liszt who were from the Romantic period.
+    Inevitably, many retain an involuntary partiality, even an incredibly strong one, but neither style could so boldly be claimed to be inherently superior or pure in its musical essence or a composer more of a genius by virtue of his association with thereof.
+    Rather, they are the peaks of two separate exalted mountains, and the superiority is derived from the preference of the individual if such a superiority exists at all.
+    For example, in Serenade No. 10 for Winds in B-Flat Major the magnitude of the exquisiteness of the opening of the third movement and the magnitude of the perfection of the ending of the seventh movement matches the magnitude of the beauty of the pain expressed by Chopin's Prelude in E Minor and the magnitude of the beauty of the love expressed by Liszt's Liebestraum No. 3.
+    It is in some sense like asking what is more superior - a majestic view from the top of a mountain exemplifying the beauty of nature, a prolonged gaze into the night sky motivating the contemplation of existentialism, a sacrifice for another person expressing the power of love, or the filling of the unforgiving minute with sixty seconds worth of distance run acknowledging the inevitability of time as is proposed by Kipling?
+    Answers to such questions do not really exist and are better left unpondered. 
+    Despite his style, the lifeblood of the Romantic period did at times appear to exist within Mozart as can be heard in the first part of Fantasia No. 3 in D Minor as if it were a foreshadowing of what was to come.
+    The Requiem, regarded as Mozart's final masterpiece, is divided into eight primary sections with fifteen unique pieces in total.
+    The most recognizable pieces include I. Introitus: Requiem aeternam, II. Sequentia: Dies irae, and III. Sequentia: Lacrimosa with Introitus opening with those ever recognizable hits of D, C-sharp, D, E/A, F, A-flat...feeling like a heavy sigh and its associated feelings encountered in a difficult time or a confrontation with death at life's terminus.
+    Mozart died before he could complete The Requiem, and as a result there is unfortunately much controversy surrounding the piece and the events leading up to his death.
+    There is debate concerning which parts of The Requiem are his own work, and whether or not his death was the result of a rather sudden illness or a slow deterioration of his health in the months prior.
+    It is also alleged that when he knew he was dying he professed that he believed he was writing The Requiem for himself.
+    Although it is all speculative, this alleged profession and these facts makes the piece all the more compelling because the cardinal truth remains that Mozart <i>was</i> struck with an illness at some point during the piece's composition and he <i>did</i> ultimately die before its completion, so in that sense he was writing The Requiem for himself.
+    The point being, regardless of which parts of The Requiem are his own work, regardless of whether his illness came on suddenly or it was slow and progressive, and regardless of whether or not he actually uttered that statement or at a minimum believed it in his own conscience, the compellingness of the circumstances is not lessened by the ambiguity surrounding what is historically accurate.
+    <i>I fear that I am writing a Requiem for myself</i> he is alleged to have said.
+    `,
+    `
+    Johann Sebastian Bach was a German composer like Beethoven but part of the Baroque period having lived much earlier from 1685 to 1750.
+    Although there are other very well known composers from the Baroque period such as Vivaldi or Handel, if there were one Baroque composer to rule them all then without question it would be Bach.
+    By the time he died, he had composed over 1000 pieces of music, and just like Mozart's Köchel catalog (K) or Schubert's Deutsch (D) catalog, Bach's body of work is all cataloged in the Bach-Werke-Verzeichnis (BWV).
+    Due to the sheer number of his compositions and their importance in musical history, the BWV is far from the only attempt to catalog his work, but it is the one most commonly used and is regarded as the de facto Bach catalog.
+    With Bach now in hand, a readers digest version of the history of classical music could be experientially obtained by listening to Bach for the Baroque period, Mozart for the Classical period, Schubert and Beethoven for both the Classical and Romantic periods and the transition between the two, and lastly Chopin and Liszt for the Romantic period.
+    Some of Bach's best work includes Toccata and Fugue in D Minor, Air on the G String, his famed cello prelude from Cello Suite No. 1 in G Major, and The Well Tempered Clavier which is a series of preludes and fugues.
+    The almost divine transcendence of Toccata and Fugue in D Minor separates it from every other piece of music ever written, and similar to Euler's identity could confirm for a believer the existence of God and could make a non-believer almost believe in God.
+    Measures 30 through 46 are one of the most beautiful pieces of music ever written with bar 3 of measure 41 through bar 2 of measure 45 being one of the most beautiful pieces of music ever written within one of the most beautiful pieces of music ever written.
+    Air on the G String, a modified arrangement of Bach's Orchestral Suite No. 3 in D Major 2nd Movement by August Wilhelmj, makes a laudable attempt to embody the music of the air most notably felt in those long, drawn out notes that hover gracefully in the atmosphere.
+    Yo-Yo Ma most exceptionally describes Bach's cello prelude as a representation of the infinitude of the natural world, be that the infinite beauty of nature or how it is constant and unchanging. 
+    `,
+    `
+    Sergei Rachmaninoff, aside from being one of the most prominent composers ever in general, is the most prominent hailing from Russia and lived both before and during the Soviet Union from 1873 to 1943.
+    <i>Music is enough for a lifetime, but a lifetime is not enough for music</i> Rachmaninoff once said in a bid to describe the limitless possibility that resides within it.
+    There is enough music to satisfy the soul of any one person during the course of their life, but any venture to find its endpoint will never succeed.
+    Music is beyond just being enough, beyond just being vast.
+    It exists on an infinite plane, and that plane is infinite in regards to both its capacity for creation and the experiences that can come from it.
+    Ergo, in the background of the passage of time dwells an ever present ray of hope, like an undying ember, that the next piece of music that will move one in a way unlike anything else can is always lingering around the corner just waiting to be discovered, and in the meantime the anticipation it generates can be effortlessly assuaged by taking refuge in the discoveries that have already occurred.
+    In other words, could there come forth in the universe a new composition which possesses in some equivalent form the tragedy and sadness of Chopin's Prelude 4 in E Minor, the profundity and introspection of Beethoven's Moonlight Sonata 1st Movement, the beauty and yearning of Liszt's Liebestraum No. 3, or just more generally the mostly indescribable emotivity in whatever form it takes that exists in these songs and so many others in their cohort?
+    The infinitude of the plane suggests the answer is in the affirmative, but until that day comes those pieces and their fellow tribesmen are more than enough to suffice.
+    Undoubtedly one of the most significant contributors to this infinite plane is Rachmaninoff.
+    A prevailing theme in his work, and that by which Rachmaninoff's essence is derived from and defined by, is his ability to create powerful music juxtaposed against his ability to create beautiful music.
+    It is difficult to find a piece of music more powerful than the opening of the first movement of his Piano Concerto No. 2 in C Minor, the fourth piece of Moment Musicaux in E Minor which is comparable to Chopin's Revolutionary Etude, Prelude in C-Sharp Minor from Morceaux de Fantaisie, or his symphonic poem Isle of the Dead in which is felt an incredibly powerful sense of anticipation inspired by the equivalently named painting by Swiss painter Arnold Böcklin.
+    Then, compare those pieces with the second movement of his Piano Concerto No. 2 in C Minor, Elégie in E-Flat Minor from Morceaux de Fantaisie which strikes at the heart of some of Chopin's nocturnes, Vocalise from his 14 Romances, or the third movement of his Cello Sonata in G Minor.
+    Since power and beauty do not necessitate mutual exclusivity, many of his pieces including some just mentioned often coalesce power and beauty and are simultaneously beautifully powerful and powerfully beautiful.
+    Thus, Rachmaninoff is a consummate example of the rare and impressive creative dichotomy that exists within certain musical geniuses, and the power and beauty of the infinite plane was incalculably elevated by his seventy year existence.
+    If a single Rachmaninoff composition had to be selected for additional highlighting avoiding the traditional selection, and rightfully so, of his Piano Concerto No. 2 in C Minor which is probably the most celebrated piano concerto of all time, then it would be Elégie in E-Flat Minor from Morceaux de Fantaisie.
+    French for <i>Fantasy Pieces</i>, Morceaux de Fantaisie is a set of five solo piano works beginning with Elégie.
+    Just when one thought that the experience created by the original Elégie on the piano was sufficient enough, it was eventually doubled by the creation of a second arrangement on the cello.
+    One of the most beautiful and moving songs ever on the cello, it is a perfect example of the cello's heart-wrenching capabilities wherein the way the bow tears at the strings of the cello replicates the way the sound tears at the strings of the heart.
+    The opening specifically is one of the most beautiful melodies ever written and starts with a high G-flat in measure 3 that in the piano arrangement hits like an aggressive strike but in the cello arrangement is played a bit more delicately.
+    Following this is then a gentle pitch downwards for six measures until it reaches one of the most beautiful E-minor's ever written that mesmerically hangs in the air satiating the soul for four consecutive bars.
+    After reverting course and ascending upwards eventually reaching that same high G-flat again in measure 11, beauty continues to be present for the duration of the song, and Rachmaninoff's ability to union it with power is felt numerous times including for the first time in measure 12 and later on in an especially climactic section towards the middle.
+    Furthermore, Elégie is yet another example of the ability of classical music to be able to forge multiple experiences with a single song.
+    In this case, since the two different experiences stem from arrangements using two different instruments, it could be taken a step further and even claimed that when this happens in some sense it is like having two different songs altogether.
+    Some genres of music cannot accomplish this forging, and even for the ones that can the prevalence is typically lesser.
+    Anyone who appreciates classical music should occasionally take the time to remind oneself of the beauty of this feature within it and ultimately ensure that it is never taken for granted.
+    `,
+    `
+    Erik Satie was an enigmatic French composer living from 1866 to 1925 most well known for his series of Gnossiennes and Gymnopédies with the first composition in each series being the most renowned.
+    The spirit of these compositions situates them uniquely amongst all other pieces of music ever composed.
+    There is a deep level of calmness within his first Gymnopédie, and his first Gnossienne is a hauntingly beautiful piece for which any attempt to pinpoint the emotion it strikes at is a mostly unfeasible task ripe for failure and primed for speculation.
+    These pieces illustrate the larger point which is that his work positions him somewhat as the stereotypical mad scientist or eccentric artist - in a good sense - attempting to go places no one else has ever gone before.
+    An exploration into the world of Satie is a deviation from anything conventional, and his unconventional nature is even reflected by his physical appearance in his signature Satie-esque look of donning glasses without temples and occasionally a top hat.
+    His music is not easily comparable to anything else, and subsequently as a composer he cannot be easily ascribed to any classification in the same way it could be comfortably said that Mozart was a Classical period composer and Chopin a Romantic period composer.
+    His music is mysterious, idiosyncratic, and unrepeatable in the best sense lacking any negative connotation.
+    There never has been and never will be another Erik Satie.
+    Of course, that statement could be declared concerning many other composers as well; there never has been and never will be another Chopin, and there never has been and never will be another Liszt, both of which are true.
+    But even then, it remains slightly more pertinent for Satie by a fine edge in a niche regard, for out of those two geniuses could be constructed a collation whose foundation is grounded in their likeness.
+    Who could Erik Satie be so easily compared to?
+    It is the atypical artistry of Satie, the uniqueness of his uniqueness, that makes it especially apposite for him and any quest for a replication of his mind that was conceived preceding his birth, in existence paralleling his life, or resurrected succeeding his death is inexorably doomed for foundering.
+    `,
+    `
+    Claude Debussy, another French composer living from 1862 to 1918 whose life intersected with Satie's, composed music defined by its own particular essence comprised of a beautiful tranquility embedded within its sound by which it can be identified.
+    His music feels like some kind of alluring oasis serving as a sanctuary for peace; as if something pure cleared a section of land, cleansed it of all negative forces, and transformed it into a refuge for all that is good in this world.
+    Debussy was influenced by Satie and the two were friends for some time despite later having a falling out.
+    This influence is not surprising since Debussy's music is quite inimitable like Satie's although it is more easily classifiable given that Debussy is considered to be the founder of musical Impressionism despite his disdain for that attribution.
+    Debussy's most popular song Clair de lune is alike to Beethoven's Moonlight Sonata 1st Movement, Bach's cello prelude, Mozart's Eine kleine Nachtmusik, and other classical songs both by and not by those composers in that it is a song most would recognize even if not attuned to classical music or having the ability to recall the song's name at all.
+    Similar to Rachmaninoff's Isle of the Dead, Debussy's inspiration for Clair de lune was from another identically named piece of art, in this case a poem written by French poet Paul Verlaine in 1869.
+    Knowing that <i>clair de lune</i> is French for <i>moonlight</i>, one can then envision an evening spent standing on the sands of an ocean beach or the grass of an open field looking upwards at the clear night sky paired with the moon on full display, beholding its absolute majestic beauty as Clair de lune's notes audibly ring out in the background mirroring the way the moonlight visually rings out in the sky.
+    Aside from just generally being a beautiful song, the true magnificence of Clair de lune lies within the fact that Debussy is able to maintain his signature essence aforementioned even in the parts where the velocity increases significantly from its slow-tempoed beginning.
+    That is not at all to say that Clair de lune is therefore superior to other Debussy masterpieces whose tempos remain slow throughout such as Rêverie.
+    Together, Clair de lune and Rêverie stand shoulder to shoulder.
+    Rather, it is a feat worth mentioning because it is perhaps easier to achieve that maintenance in a song like Rêverie where the tempo's slowness remains consistent throughout.
+    Other magical and dreamlike Debussy creations include Arabesque No. 1 which is like the flow of water or the breath of life as it cascades from E and F-sharp down to a lower octave B in its most recognizable part, and The Girl with the Flaxen Hair which is most familiar in measures 22 and 23 with those unmistakable quick and successive hits of D-flat, E-flat, D-flat, and B-flat.
+    `,
+    `
+    Gabriel Fauré, yet again another French composer, lived from 1845 to 1924.
+    Fauré is less famed amongst the general public than other composers, but his stature as a household name deserves to be raised due to his piece Élégie which, like Rachmaninoff's, is one of the most emotionally intense and beautiful pieces of music ever written.
+    Arranged for the cello and piano, Élégie is once again an embodiment of the incredible beauty that materializes when the cello and piano unite, and with the unrelenting avocation present within every classical music aficionado to seek out the most superlative interpretations, one such interpretation can be found with Dutch cellist Harriet Krijgh.
+    An utmost appreciation for the elegies of Fauré, Rachmaninoff, and any other for that matter, requires an education if not already had on the word <i>elegy</i>, with <i>elegie</i> being its French equivalent.
+    Its origin is in the ancient Greek word <i>elegos</i> which had two meanings: a sad and mournful song accompanied by an aulos which is an ancient Greek wind instrument, or a poem constructed using elegiac couplets which is a coupling of verses, an elegiac hexameter and elegiac pentameter, utilizing a particular rhythm.
+    In the English language, its first meaning up until the early seventeenth century was that of a serious meditative poem.
+    This particular definition was unrelated to music nor did it demand an association with anything sad or mournful.
+    Eventually, the definition evolved to what it is now in modern English which is a song or poem that is sad and mournful, typically to lament for someone who has died.
+    As per the definition, a musical elegy is ubiquitously used in the context of death but this is not required.
+    It simply expresses something in life that is sad, somber, and even tragic not beholden to anything in particular.
+    Whether Fauré and Rachmaninoff composed their elegies with the intention to employ the secondary and discretionary part of the definition remains ambiguous, although based on the historical facts the inference would be no.
+    In Rachmaninoff's case, Elégie, as one of the five individual compositions of the collective that is Morceaux de Fantaisie, was composed as a dedication to his harmony teacher at the Moscow Conservatory Anton Arensky who, having died in 1905, was still alive at the time of Morceaux de Fantaisie's publication in 1892, and therefore it is not immediately apparent that Rachmaninoff composed Elégie with death on his mind.
+    On the contrary, Rachmaninoff did once compose an elegy, Trio élégiaque No. 2, with the explicit purpose of honoring someone who had died which in this case was fellow Russian composer Tchaikovsky who was a mentor of Rachmaninoff's and a significant influence in his life.
+    Fauré's elegy is in a similar boat as Rachmaninoff's from Morceaux de Fantaisie, but an examination of the facts slightly dampens the ambiguous haze more so than in Rachmaninoff's case allowing for the inference of an answer furnished with more confidence.
+    It is a somehwat common misconception that he composed Élégie for his wife Marie Frémiet after she died.
+    Although a beautiful story, this possibility is eliminated after learning that Fauré died two years before Marie and also began Élégie's composition before he was ever even married to her.
+    What is more plausible is that he composed Élégie for a metaphorical death - prior to his marriage to Marie, Fauré was engaged to another woman Marianne Viardot who eventually broke off the engagement.
+    Fauré dearly loved Marianne and the breakup was not mutual, so given that Fauré composed Élégie in the aftermath of this, it could be reasonably inferred that Élégie is the expression of Fauré's grief regarding the death of their relationship.
+    Despite the lack of evidence for its connection to literal death in its origins, in the subsequent years Fauré's Élégie did evolve to develop such a connection.
+    Its composition originally started in 1880 as part of a sonata for the cello and piano, but it was officially published in 1883 and was dedicated to the cellist Jules Loeb who died in that same year and with whom Fauré had worked with.
+    Regardless of the composer's intentions, in either case the specificity of its emotional interpretation regarding whether it should be directly associated with death is ultimately at the mercy of the listener.
+    If at any particular instance of listening this relationship with death is not desired then the elegies of Fauré and Rachmaninoff's can be divorced from it, and the songs can be appreciated for being simply two incredible compositions expressing what they express independent of life's departure.
+    However, if such a relationship is desired, then it can easily be had and every one of death's emotions can be felt from the painful sadness of the loss, to the blessed joy of the memories, to the raging anger of the passing, and to the ultimate finality of the acceptance.
+    Fauré's Élégie is able to capture every emotion associated with death and grief, and this is why aside from just being such a beautiful song in general, his composition is such a gift to the world.
+    As is typical of these great composers, someway, somehow they are able to take the emotions and experiences that people all go through in their lives and express them with this transcendentally mysterious gift of sound, and although maybe it could be studied comprehensively from a musical theory standpoint, one's intuition might be that there does exist some prevalence of intangibility that cannot be espoused from an academic view.
+    Much of the song including its beginning is constructed by utilizing sets of threes as is commonplace in music.
+    Opening in C minor, the song begins by emulating the ringing of a bell with eight chord strikes on the piano with the first being loud and its successors becoming gradually softer. 
+    The cello then begins playing in forte the most iconic part of its beautifully sad and introspective melody that makes the journey from E-flat down to C one octave below striking the soul and encapsulating the overwhelming sadness felt in the immediate aftermath of loss.
+    This is played for a second time pianissimo in the 6th measure and for a third time in the 18th measure pianississimo.
+    Along the way in the 10th measure right after the second occurrence of the opening melody there begins a passionately intense build up to a peak of three sets of F-sharp and G in the 16th and 17th measures consisting of three sets of two heavy hits of the same note starting at A, then C, and then A again one octave above.
+    It is right after reaching this peak that it abruptly reverts back to the third occurrence of the opening melody.
+    If played correctly, the disparity between the loud intensity of the peak and the quiet softness of that third occurrence is indescribably compelling and one of the most beautiful parts of the song.
+    The song then transitions to something hopeful and uplifting, like the fond memories of a loved one while they were still alive, in measures 23 through 34 immediately followed by a section whose intensity is marked by power, velocity, and anger, describing the enraged protest born from death.
+    Then at measure 39 this intensity is passed on to the opening melody, foisting onto it a whole new shade of meaning from what it was in the beginning.
+    After its completion in measure 42 there is a beautiful descent of three sets of E-flat, D-flat, and C culminating in measure 45 with a quiet yet resolute C holding out in the background during a brief section where the piano takes charge of the melody.
+    The melody is then returned to the cello in measure 47 where the song then lives out the rest of its life eventually terminating in that same C describing the sad but necessary acceptance required by death.
+    All of these parts contribute to Élégie being one of the most beautiful songs ever written on the cello, one of the most beautiful songs ever written in general, and nothing less than a complete musical masterpiece.
+    `,
+    `
+    Sir Edward William Elgar was a British composer from 1857 to 1934 and is most well known for his Cello Concerto in E Minor which rests squarely adjacent to Fauré's and Rachmaninoff's Elegies.
+    Both exude many of the same emotions including a sense of finality, and in Elgar's case it was the final piece he ever composed engendering it to be like his farewell to life.
+    It is inconceivable that the concerto did not initially receive the praise that it deserves, and it was not until a 1965 recording by British cellist Jacqeuline du Pré which catalyzed the development of its reverence that it finally achieved the recognition that it merits.
+    At that point, decades had passed since its debut in 1919.
+    Elgar identified with this particular piece of music more than any he ever wrote, and shortly before his death remarked that after his passing if someone is ever heard whistling this tune up in the Malvern Hills that it would be him.
+    The first movement of Elgar's Cello Concerto in E Minor, Fauré's Élégie, and the cello arrangement of Rachmaninoff's Elégie exemplify the cello's ability to be a distinctive conduit for emotion, and they are some of the most emotionally powerful cello scores ever composed.
+    If the author introduces subjectivity into the analysis, then endeavoring to choose one amongst the three is a particularly trying task.
+    A coerced selection yields the elegies of Fauré and Rachmaninoff as the tying victors with Elgar's concerto right behind it, and the true singular victor will differ depending on the inclination of the day, which in other words is an eloquent way of articulating the author's inability to choose between the two.
+    However, as previously established these kinds of coercions in music are iniquitous and even nefarious.
+    What action is achieved, what purpose is served, by venturing to compare different things that are both beautiful and necessary.
+    The end state is a violation of the sanctity of the ones left unchosen.
+    All three of these cello pieces are incredible, all three of them should be appreciated and listened to, and similar to the works of Chopin, Liszt, Schubert, and all the others, if any of them ceased to exist it would rip out not just a piece of the soul of classical music, but a piece of the soul of humanity, and the world would somehow be lesser.
+    `,
+    `
+    Charles-Camille Saint-Saëns was a French composer from 1835 to 1921 most well known for his piece The Swan and his Cello Concerto in A Minor.
+    An incredibly technically demanding cello piece that is intense, smooth, precise, and nimble, the beginning and ending of Cello Concerto in A Minor constitute its most recognizable parts with the latter being most notable for its climactic finish that pierces the air with nine high octave A's.
+    Antipodal to the intensity of Cello Concerto in A Minor is The Swan which is one of the most peaceful and beautiful songs ever composed and one of the most sampled cello pieces ever.
+    The Swan, or <i>Le cygne</i> as it is more properly known in French, is the 13th movement from his suite of 14 movements The Carnival of the Animals.
+    Ironically, Saint-Saëns was no fan of his own creation and feared that any public exposure of The Carnival of the Animals would harm the perception of him as a serious composer.
+    He delayed its publishing until after his death as specified in his will, and while he was still alive enacted a prohibition on performances of it in the public domain.
+    However, despite any deficiencies he perceived in the other movements, even Saint-Saëns recognized the beauty and brilliance of The Swan, and it was the one movement that he allowed to be published during his lifetime which happened in 1887.
+    The Swan was originally composed for the cello and piano but is also traditionally played with the cello and harp.
+    Just like with the different arrangements of Schubert's piano trio or the different arrangements of Rachmaninoff's Elégie in E-Flat Minor from Morceaux de Fantaisie, The Swan becomes even further remarkable because it is a single song out of which comes two different experiences which are each uniquely beautiful in their own way.
+    Like some of the compositions formerly mentioned, the piano-cello version of The Swan captures that unrivaled duality that exists with the piano and the cello.
+    Regardless of which version is played, the beauty of The Swan throughout most of the song is dominated by the cello playing the main melody with the piano or harp serving as its accompaniment.
+    However, for its conclusion the focus is transferred entirely over to the piano or harp in the final three measures playing a beautiful melody primarily formed by E, D, and B that makes a graceful descent down three different octaves constituting one of the most satiating endings ever in all of music.
+    In a live performance of The Swan by another renowned British cellist Julian Lloyd Webber, the ovation of the audience after the harpist plucked her final note was joined by a single member very audibly shouting <i>Yeah!</i>, pretty much encapsulating the way most feel about The Swan and its ending.
+    `,
+    `
+    Remo Giazotto was a 20th century Italian musicologist living from 1910 to 1998.
+    Given that he was a musicologist, he is not known as a composer like the rest of them and the only song to his name is Adagio in G Minor.
+    Adagio's composition is often mistakenly credited to Tomaso Albinoni of whom Giazotto was a biographer, and as a result it is often incorrectly referred to as <i>Albinoni's Adagio</i>.
+    Giazotto originally claimed that a small amount of the song came from Albinoni but later retracted that claim so the facts remain unclear with the mistakened accreditation being his doing with a cryptic rationale.
+    However, the accepted narrative is that the credit for the majority of the song goes to Giazotto even if a small amount did come from Albinoni.
+    If it truly is <i>Giazotto's Adagio</i> and not <i>Albinoni's Adagio</i>, then it would appear that Remo's talent as a composer was largely neglected and squandered given that it is the only song he ever composed yet is also one of the most beautiful songs ever composed.
+    Beginning with a sublime eight measure introduction most breathtakingly played on the organ, the song then transitions into the melody with much of it marked by the repetitive plucking of some background strings serving as its figurative heartbeat accentuating even further the heavy beauty of the melody.
+    `,
+    `
+    Samuel Barber is one of the most acclaimed American composers of the 20th century living from 1910 to 1981 and is most known for his song Adagio for Strings.
+    Originally arranged for a string orchestra, it is also commonly performed with a choir in which it is alternatively known as Agnus Dei.
+    The orchestral strings arrangement is nice, but the unchallengeable sound and emotion of the solo cello really drives forward the cello arrangement to be the best of them all.
+    Although not an exhaustive list, collectively Schubert's Serenade and Piano Trio No. 2 in E-Flat Major 2nd Movement, Bach's Cello Suite No. 1 in G Major Prelude, Rachmaninoff's Elégie in E-Flat Minor from Morceaux de Fantaisie and Vocalise from his 14 Romances, and Cello Sonata in G Minor 3rd Movement, Faure's Élégie, Elgar's Cello Concerto in E Minor 1st Movement, Saint-Saëns' The Swan, Giazotto's Adagio, and Barber's Adagio for Strings are some of the most beautiful and moving songs ever composed or arranged for the cello.
+    `,
+    `
+    Dmitri Shostakovich was a Russian composer like Rachmaninoff living from 1906 to 1975.
+    His most famous composition Waltz No. 2 unexpectedly integrates the saxophone into an otherwise traditionally classical song which delivers a pleasant and soothing surprise.
+    Although it is also commonly played on the cello and versions that do this deserve recognition, its grandest form remains with the saxophone and as such it is a truly unique piece of music.
+    `,
+    `
+    Jules Massenet was a French composer living from 1842 to 1912 primarily known for his operas.
+    The author confesses to an unwavering preference for the cello, but his violin piece Méditation from the opera Thaïs is as strong a candidate as any for one of the most beautiful songs ever written and potentially the most formidable spokesman for what the violin can be.
+    The song feels like the definition in musical form of a kind of heavenly bliss achieving pure perfection which, like Debussy's creations, is completely void of anything negative as if such a thing were not ever even known.
+    The beauty of the melody is born out by a trinity of something peaceful, profound, and yearning, and the background accompaniment of the harp in such arrangements only propagates its beauty further as if it were not already beautiful enough.
+    Similar to Shostakovich's Waltz No. 2, cello arrangements are commonly performed and are unquestionably beautiful and worthy of listening.
+    However, the indubitable abode of Méditation from Thaïs resides with the violin.
+    It is the violinist's piece, and those high notes of the violin pierce the soul in a way unlike any other song concluding with a high octave A tenderly fading away into the distant cosmic beauty of the universe.
+    `,
+    `
+    Modest Mussorgsky, another Russian composer and member of Russia's The Five, lived from 1839 to 1881 and composed a number of great compositions including the second movement <i>Il Vecchio Castello</i> of his composition Pictures at an Exhibition and Night on Bald Mountain.
+    If not versed in Italian then upon learning that <i>il vecchio castello</i> translates to <i>the old castle</i> the feeling of the song becomes quite fitting.
+    Such a castle can be envisioned - large, old, and abandoned but still maintaining a noble and majestic aura; host to another time of man now bygone, and despite its long unoccupied state the presence of that which was can still be felt like a gentle wind traversing the air while the at times eerily beautiful sentiment of the music echoes the secrets, mysteries, and magic that such places might have possessed.
+    Night on Bald Mountain is a tone poem that underwent numerous revisions over time both in regards to its musical composition and story narration, but it generally tells the story of some evening revelry of dark spirits on a mountain led by some great demonic character.
+    In its first version named St. John's Night on the Bare Mountain, Mussorgsky sought to narrate the Russian legend of a Witches Sabbath led by Satan on a mountain named Lysa Hora near the city of Kyiv on St. John's Night.
+    His mentor and leader of The Five Mily Balakirev disapproved of the piece and refused to perform it, but motivated by an affinity for his composition Mussorgsky made multiple attempts at its salvation in the subsequent years before his death by composing two additional versions.
+    The second version was composed five years after the original for a scene named Night on Mount Triglav in his opera-ballet Mlada in which it was renamed to Glorification of Chernobog referencing the god of misfortune Chernobog from Polabian mythology, and the third version Dream Vision of the Peasant Lad thirteen years after the original for his opera The Fair at Sorochyntsi.
+    Despite Mussorgsky's efforts over the span of that thirteen years any version of his was unsuccessful.
+    The second version was never published or performed at all - Mlada was never completed by Mussorgsky and although some of its musical scores survived, Glorification of Chernobog did not.
+    The first and third versions were at least performed but not until many years after his death and they never achieved any notable esteem.
+    The fourth and most popular version of the piece, and the one that is traditionally performed in orchestras, was composed five years after his death by fellow member of The Five Nikolai Rimsky-Korsakov who drew from all previous versions for both its musical composition and storytelling and as such can be thought of as a trihybrid of Mussorgsky's three versions.
+    The fourth version narrates the story of an evening gathering of dark spirits led by Chernobog in which there is a glorification of Chernobog, Black Service, and a Sabbath which is ultimately brought to a cessation by the ringing of church bells in a nearby village culminating in the arrival of the bright morning.
+    From the standpoint of its story narration, the general premise and plotline of the story is most closely aligned with Mussorgsky's first version, the utilization of Chernobog comes from Mussorgsky's second version, and the cessation of the sinister gathering by village church bells comes from Mussorgsky's third version.
+    From the standpoint of its musical composition, the piece is a conglomerate of, in Rimsky-Korsakov's own words, Mussorgsky's best and coherent material added with the fewest possible interpolations of his own.
+    The fame rendered to Night on Bald Mountain was partially due to the fourth version's greatness in and of itself given that it was very well received from the time of its public debut in 1886, but the chief accelerator was its featuring in Disney's Fantasia in 1940 in which is used a fifth and final version by Leopold Stokowski.
+    The story narration of this fifth version matches the fourth, and its musical composition, according to Stokowski, is based on the fourth in form and content but Mussogrsky's original in orchestration.
+    The animation in Fantasia compellingly brings the narration of the story to life, and the stopping of the endeavors of Chernobog and the dark spirits by the ringing church bells can be thought of to signify how light and goodness can conquer all things; the sensitivity that evil has to good whereby a small amount of good has the potential to defeat evil, or how a single light can be used to liberate an entire place consumed and entrenched with darkness.
+    A subtle but easily overlooked detail is that Chernobog and the dark spirits are not actually killed but rather the dark spirits simply retreat and Chernobog returns to his original dormant position atop the mountain leaving open the possibility of their return at some future time as if to illustrate how evil can never be defeated into extinction but merely into dormancy, and therefore the light and the goodness must maintain a sustained and unwavering level of vigilance.
+    In the midst of the foggy confusion created by the five different versions, clarity can be supplied by stating that any reference to Night on Bald Mountain is generally either to Rimsky-Korsakov's fourth version or Stokowski's fifth version both of which have their provenance to varying degrees in Mussorgky's original three versions, and therefore Night on Bald Mountain's authorship should include an acknowledgement of their contributions.
+    However, if a single version had to be handpicked as <i>the</i> Night on Bald Mountain, then it would be Rimsky-Korsakov's fourth version.
+    Stokowski's fifth version, although the more famous of the two due to its presence in Fantasia, is seldom heard beyond that, and any performance of Night on Bald Mountain is presumably Rimsky-Korsakov's fourth version unless indicated otherwise.
+    `,
+    `
+    The remaining composers are Max Bruch, Franz Gruber, George Frideric Handel, Pyotr Ilyich Tchaikovsky, Antonín Dvořák, Johannes Brahms, Edvard Grieg, Johann Strauss II, Giuseppe Verdi, Gaetano Donizetti, and Pietro Mascagni.
+    Bruch's Kol Nidre and Gruber's Silent Night are two incredible compositions coming from the Jewish and Christian traditions.
+    Although not very comparable in their actual sentiment they are comparable in their beauty.
+    Wilhelm Kempff's piano arrangement of Handel's fourth movement of Suite No. 1 in B-Flat Major emanates the spirit of the Romantic period out of a song originally composed by a Baroque period composer.
+    It is extraordinarily beautiful and one of the finest expressions of melancholy delivering a type of beautiful sadness joined with a delicate softness.
+    The works of Tchaikovsky, Brahms, Dvořák, Grieg, Strauss, and Verdi can help to complete any classical music collection.
+    Out of Tchaikovsky's ballets Swan Lake and The Nutcracker come forth some of the most recognizable pieces of all time, and his 1812 Overture which serves to celebrate Russia's defeat of the French invasion led by Napoleon is one of the only musical pieces ever to incorporate actual cannons as is heard in its historic ending.
+    The unmistakable opening of Grieg's Morning Mood from the play Peer Gynt with that iconic singing of the winds reminds one of waking up to overlook some breathtaking natural landscape like a scatter of green rolling hills in the countryside.
+    This is in stark dissimilarity to his piece In the Hall of the Mountain King from the same play which seeks to emit a fierce buildup of power, intensity, and fear that one might feel upon tentatively penetrating a mountainside leading to the hall of a fortress embedded within of some mighty mountain king in a fantastical fantasy.
+    The second movement of Dvořák's Symphony No. 9 in E Minor, aside from being beautiful, brings forth an overwhelming sense of calm and hopefulness.
+    Alongside Dvořák's symphony is the third movement of Brahm's Symphony No. 3 in F Major which is beautiful as well, and no mention of Brahms would be appropriate without the inclusion of his Hungarian Dances.
+    Strauss's The Beautiful Blue Danube is firmly in line with Shostakovich's Waltz No. 2 as one of the most famous waltzes ever, and on the opposing end of the musical spectrum comes Dies irae from Verdi's Requiem.
+    Undeniably one of the most powerful compositions ever in choral form, the almighty bellowing of the chorus is likely the foremost manifestation ever of a type of power amalgamated with fear and horror that could be experienced on the <i>Dies irae</i> (Day of Wrath).
+    An alternative but fitting interpretation could be the narration of a frightful and terrifying nightmare maybe involving an encounter with some hellish monster.
+    Regardless, if an offer of the musical manifestation of heaven and hell were obligated, then Massenet's Méditation from Thaïs and Verdi's Dies irae would certainly be a fitting pair.
+    Donizetti and Mascagni were both composers known for their operas like Massenet.
+    Intermezzo sinfonico from Mascagni's opera Cavalleria rusticana is a very beautiful piece as is Una furtiva lagrima from Donizetti's opera L'elisir d'amore.
+    Intermezzo sinfonico was originally composed for an orchestra and Una furtiva lagrima for vocals but the cello versions are very moving as well.
+    `,
+    `
+    Although the works of Hans Zimmer undoubtedly deserve special recognition in the landscape of soundtrack composing, the landscape is painted on a vast canvas with a varied assembly of artists, colors, and techniques in which a steadfast and dominant but merely singular section is formed from him and his contributions, and as such it would be flagrantly remiss and unjustifiable to limit the viewing to Hans' section alone thereby excluding many other remarkable composers and compositions no different than how the same situation would arise in the landscape of classical piano if the view were restricted to Chopin's territory.
+    In either case, the view would exist in a state of contrived incompleteness objectionable by any reasonable standard.
+    Harry Gregson-Williams's Narnia Lullaby, although brief in duration, is one of the most strikingly beautiful and transcendent pieces of music ever composed.
+    Created for The Chronicles of Narnia: The Lion, the Witch, and the Wardrobe, the film unmaliciously but deceptively covers the origins of the beautiful sound in that it appears to originate from some type of fictional woodwind most akin to an offshoot of the aulos from Ancient Greece when in reality the originator is the beautiful duduk hailing from Armenia, and a very similar sound can be achieved with one of the oldest instruments known to man the ocarina.
+    Steve Jablsonky and James Newton Howard are known for their contributions to motion picture soundtracks like Hans Zimmer with Steve being best known for his work in the Transformers series and James for his work in many films including The Hunger Games series and his collaboration with Hans Zimmer in the first two films of The Dark Knight trilogy.
+    John Williams, Nicholas Hooper, Patrick Doyle, and Alexandre Desplat all contributed to the Harry Potter series soundtrack, and Howard Shore composed The Lord Of The Rings series soundtrack.
+    Michael Giacchino's Married Life from Up is a beautiful song, and Bear McCreary did the music for The Walking Dead TV series.
+    Jesper Kyd and Lorne Balfe composed the soundtracks for a number of games in the Assassin's Creed franchise with Kyd doing the soundtracks for the first three games, Balfe for the fifth and sixth, and a collaboration between the two for the fourth.
+    The soundtracks contain songs that range from being calm and meditative, having the ability to transport one to another world, and even at times capable of evoking the same legendary motivational substance that lives within many Hans Zimmer tracks like Myotis, Agent of Chaos, and Why Do We Fall as is seen in Kyd and Balfe's Chase the Target.
+    Words cannot describe Balfe's song The Ends of the Earth, and its criminal lack of mainstream exposure and recognition is no doubt due to its presence in a video game soundtrack deviating from Balfe's more traditional role of composing for movie soundtracks.
+    As good as any of Zimmer's most renowned tracks, it is one of the best and most breathtaking songs ever composed.
+    `,
+    `
+    Steve Vai is one of the greatest guitarists of all time and there are no tracks that can compare to For the Love of God and Tender Surrender.
+    The greatest metal band of all time is Slipknot whose consistent delivery of legendary tracks has put them in a category of their own just like Hans Zimmer and Chopin.
+    However, the greatest metal song of all time and one of the greatest tracks ever written in general is Bleed by Meshuggah.
+    The drums on that song are so difficult that the calm interlude in the middle was written just so that the drummer Tomas Haake could have a break and rest.
+    The part that starts right after that is one of the greatest pieces of music ever written.
+    `,
+    `
+    It is difficult to make assertions wholly lacking uncertainty and maybe absolutes do not exist, but if the task were to be undertaken then it could be asserted that music is the greatest tool that humans have at their disposal for the expression of the human condition.
+    That is not at all to say that other tools such as the spoken or written word are inferior or lacking in some sense.
+    It is impossible to read Dickens' A Tale of Two Cities where Carton describes the far, far better thing that he does than he has ever done and the far, far better rest that he goes to than he has ever known, and not feel something; to read McCarthy's Blood Meridian where Sproule tells the kid that he knows his kind and what's wrong with him is wrong all the way through him, and not feel a chill.
+    There are times where words can suffice and can even suffice better than anything else.
+    Everything has its place.
+    But there are also times where they cannot.
+    Music is a conduit for the soul in these times - it has the ability to at times describe what cannot be described, to narrate what cannot be narrated, and to express what cannot be expressed in any other form.
+    And although all genres of music can be equally powerful, the time does need to be taken without reservation to single out classical music.
+    Many traverse the circle never making this discovery despite it being in plain view.
+    The withholding of that discovery, the deprivation of that experience, is one of the greatest tragedies of all.
+    But if one does achieve that unearthing then it can be heard and felt all of that which Chopin, Liszt, Schubert, Beethoven, Mozart, Bach, Rachmaninoff, Satie, Debussy, Fauré, Elgar, Saint-Saëns, Massenet, and all the rest of them were trying to say.
+    One simply needs to listen.
+    `
+];
