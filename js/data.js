@@ -217,7 +217,8 @@ export const musiciansArray = [
         id: 'elgar',
         name: 'Elgar',
         songs: [
-            { name: 'Cello Concerto in E Minor Op. 85 I.', fileName: 'cello-concerto-in-e-minor-op-85-i', recordingMusician: 'Sophie Kauer, London Symphony Orchestra' }
+            { name: 'Cello Concerto in E Minor Op. 85 I. - Cello and Orchestra', fileName: 'cello-concerto-in-e-minor-op-85-i-cello-and-orchestra', recordingMusician: 'Sophie Kauer, London Symphony Orchestra' },
+            { name: 'Cello Concerto in E Minor Op. 85 I. - Cello, Piano, and Orchestra', fileName: 'cello-concerto-in-e-minor-op-85-i-cello-piano-and-orchestra', recordingMusician: 'Sol Gabetta, Piano (Unknown), Orchestra (Unknown)' }
         ]
     },
     {
@@ -2326,10 +2327,13 @@ export const discussionsParagraphs = [
     `,
     `
     Sir Edward William Elgar was a British composer from 1857 to 1934 and is most well known for his Cello Concerto in E Minor which rests squarely adjacent to Fauré's and Rachmaninoff's Elegies.
-    Both exude many of the same emotions including a sense of finality, and in Elgar's case it was the final piece he ever composed engendering it to be like his farewell to life.
+    All exude many of the same emotions including a sense of finality, and in Elgar's case it was the final piece he ever composed engendering it to be like his farewell to life.
     It is inconceivable that the concerto did not initially receive the praise that it deserves, and it was not until a 1965 recording by British cellist Jacqeuline du Pré which catalyzed the development of its reverence that it finally achieved the recognition that it merits.
     At that point, decades had passed since its debut in 1919.
-    Elgar identified with this particular piece of music more than any he ever wrote, and shortly before his death remarked that after his passing if someone is ever heard whistling this tune up in the Malvern Hills that it would be him.
+    The opening of the song is almost indescribable.
+    It is like being punched directly in the soul, and similar to the second half of Chopin's Prelude in E Minor it happens so abruptly one is left sitting there in a state of shock trying to comprehend what just happened.
+    Elgar identified with this particular piece of music more than any he ever wrote.
+    Within it is one of the most beautiful and peaceful tunes ever written - the one that begins B, C, B, D, E, D, and C - and shortly before his death he remarked that after his passing if someone is ever heard whistling this tune up in the Malvern Hills that it would be him.
     The first movement of Elgar's Cello Concerto in E Minor, Fauré's Élégie, and the cello arrangement of Rachmaninoff's Elégie exemplify the cello's ability to be a distinctive conduit for emotion, and they are some of the most emotionally powerful cello scores ever composed.
     If the author introduces subjectivity into the analysis, then endeavoring to choose one amongst the three is a particularly trying task.
     A coerced selection yields the elegies of Fauré and Rachmaninoff as the tying victors with Elgar's concerto right behind it, and the true singular victor will differ depending on the inclination of the day, which in other words is an eloquent way of articulating the author's inability to choose between the two.
