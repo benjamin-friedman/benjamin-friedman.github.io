@@ -2330,17 +2330,21 @@ export const discussionsParagraphs = [
     All exude many of the same emotions including a sense of finality, and in Elgar's case it was the final piece he ever composed engendering it to be like his farewell to life.
     It is inconceivable that the concerto did not initially receive the praise that it deserves, and it was not until a 1965 recording by British cellist Jacqeuline du Pré which catalyzed the development of its reverence that it finally achieved the recognition that it merits.
     At that point, decades had passed since its debut in 1919.
-    The opening of the song is almost indescribable.
-    It is like being punched directly in the soul, and similar to the second half of Chopin's Prelude in E Minor it happens so abruptly one is left sitting there in a state of shock trying to comprehend what just happened.
+    The opening of the first movement is almost indescribable.
+    It is like being punched directly in the soul, and similar to the second half of Chopin's Prelude in E Minor it happens so abruptly that one is left sitting there in a state of shock trying to comprehend what just happened.
     Elgar identified with this particular piece of music more than any he ever wrote.
-    Within it is one of the most beautiful and peaceful tunes ever written - the one that begins B, C, B, D, E, D, and C - and shortly before his death he remarked that after his passing if someone is ever heard whistling this tune up in the Malvern Hills that it would be him.
+    Within it is one of the most beautiful and peaceful melodies ever written - the one that begins B, C, B, D, E, D, and C - and shortly before his death he remarked that if someone is ever heard whistling this tune up in the Malvern Hills after his passing that it would be him.
+    Aside from its opening and that melody, the first movement is most revered for the way it sensationally builds up to a high E at the end.
     The first movement of Elgar's Cello Concerto in E Minor, Fauré's Élégie, and the cello arrangement of Rachmaninoff's Elégie exemplify the cello's ability to be a distinctive conduit for emotion, and they are some of the most emotionally powerful cello scores ever composed.
     If the author introduces subjectivity into the analysis, then endeavoring to choose one amongst the three is a particularly trying task.
-    A coerced selection yields the elegies of Fauré and Rachmaninoff as the tying victors with Elgar's concerto right behind it, and the true singular victor will differ depending on the inclination of the day, which in other words is an eloquent way of articulating the author's inability to choose between the two.
-    However, as previously established these kinds of coercions in music are iniquitous and even nefarious.
+    A coerced selection would yield the elegy of Fauré, followed by Rachmaninoff's, and then Elgar's concerto right behind them, but the space between their separation would be mere inches.
+    As previously established these kinds of coercions in music are iniquitous and even nefarious.
     What action is achieved, what purpose is served, by venturing to compare different things that are both beautiful and necessary.
     The end state is a violation of the sanctity of the ones left unchosen.
-    All three of these cello pieces are incredible, all three of them should be appreciated and listened to, and similar to the works of Chopin, Liszt, Schubert, and all the others, if any of them ceased to exist it would rip out not just a piece of the soul of classical music, but a piece of the soul of humanity, and the world would somehow be lesser.
+    A more appropriate selection would not be rooted in a hierarchical ranking but rather in a non-hierarchical comparison of their sentiment.
+    If at any particular moment one felt an inclination more towards that of shock value and transcendence, then Elgar's concerto would be the victor for the shock value of the opening of the first movement and the transcendence of its ending.
+    If, on the other hand, one felt an inclination more towards that of raw tragedy, sadness, and pain, and even anger at times, then the elegies of Fauré and Rachmaninoff would rise up as the tying victors and one could not go wrong either way.
+    Ultimately, all three of these cello pieces are incredible, all three of them should be appreciated and listened to, and similar to the works of Chopin, Liszt, Schubert, and all the others, if any of them ceased to exist it would rip out not just a piece of the soul of classical music, but a piece of the soul of humanity, and the world would somehow be lesser.
     `,
     `
     Charles-Camille Saint-Saëns was a French composer from 1835 to 1921 most well known for his piece The Swan and his Cello Concerto in A Minor.
