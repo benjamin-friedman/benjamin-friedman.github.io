@@ -2333,11 +2333,11 @@ export const discussionsParagraphs = [
     The opening of the first movement is almost indescribable.
     It is like being punched directly in the soul, and similar to the second half of Chopin's Prelude in E Minor it happens so abruptly that one is left sitting there in a state of shock trying to comprehend what just happened.
     Elgar identified with this particular piece of music more than any he ever wrote.
-    Within it is one of the most beautiful and peaceful melodies ever written - the one that begins B, C, B, D, E, D, and C - and shortly before his death he remarked that if someone is ever heard whistling this tune up in the Malvern Hills after his passing that it would be him.
+    Within it is one of the most beautiful and peaceful melodies ever written beginning with B, C, B, D, E, D, and C, and shortly before his death he remarked that if someone is ever heard whistling this tune up in the Malvern Hills after his passing that it would be him.
     Aside from its opening and that melody, the first movement is most revered for the way it sensationally builds up to a high E at the end.
     The first movement of Elgar's Cello Concerto in E Minor, Fauré's Élégie, and the cello arrangement of Rachmaninoff's Elégie exemplify the cello's ability to be a distinctive conduit for emotion, and they are some of the most emotionally powerful cello scores ever composed.
     If the author introduces subjectivity into the analysis, then endeavoring to choose one amongst the three is a particularly trying task.
-    A coerced selection would yield the elegy of Fauré, followed by Rachmaninoff's, and then Elgar's concerto right behind them, but the space between their separation would be mere inches.
+    A coerced selection yields the elegy of Fauré, followed by Rachmaninoff's, and then Elgar's concerto right behind them, but the space between their separation would be miniscule.
     As previously established these kinds of coercions in music are iniquitous and even nefarious.
     What action is achieved, what purpose is served, by venturing to compare different things that are both beautiful and necessary.
     The end state is a violation of the sanctity of the ones left unchosen.
