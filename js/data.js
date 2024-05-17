@@ -2308,7 +2308,7 @@ export const discussionsParagraphs = [
     Despite the lack of evidence for its connection to literal death in its origins, in the subsequent years Fauré's Élégie did evolve to develop such a connection.
     Its composition originally started in 1880 as part of a sonata for the cello and piano, but it was officially published in 1883 and was dedicated to the cellist Jules Loeb who died in that same year and with whom Fauré had worked with.
     Regardless of the composer's intentions, in either case the specificity of its emotional interpretation regarding whether it should be directly associated with death is ultimately at the mercy of the listener.
-    If at any particular instance of listening this relationship with death is not desired then the elegies of Fauré and Rachmaninoff's can be divorced from it, and the songs can be appreciated for being simply two incredible compositions expressing what they express independent of life's departure.
+    If during any instance of listening this relationship with death is not desired then the elegies of Fauré and Rachmaninoff's can be divorced from it, and the songs can be appreciated for being simply two incredible compositions expressing what they express independent of life's departure.
     However, if such a relationship is desired, then it can easily be had and every one of death's emotions can be felt from the painful sadness of the loss, to the blessed joy of the memories, to the raging anger of the passing, and to the ultimate finality of the acceptance.
     Fauré's Élégie is able to capture every emotion associated with death and grief, and this is why aside from just being such a beautiful song in general, his composition is such a gift to the world.
     As is typical of these great composers, someway, somehow they are able to take the emotions and experiences that people all go through in their lives and express them with this transcendentally mysterious gift of sound, and although maybe it could be studied comprehensively from a musical theory standpoint, one's intuition might be that there does exist some prevalence of intangibility that cannot be espoused from an academic view.
@@ -2335,15 +2335,16 @@ export const discussionsParagraphs = [
     Elgar identified with this particular piece of music more than any he ever wrote.
     Within it is one of the most beautiful and peaceful melodies ever written beginning with B, C, B, D, E, D, and C, and shortly before his death he remarked that if someone is ever heard whistling this tune up in the Malvern Hills after his passing that it would be him.
     Aside from its opening and that melody, the first movement is most revered for the way it sensationally builds up to a high E at the end.
-    The first movement of Elgar's Cello Concerto in E Minor, Fauré's Élégie, and the cello arrangement of Rachmaninoff's Elégie exemplify the cello's ability to be a distinctive conduit for emotion, and they are some of the most emotionally powerful cello scores ever composed.
+    It is the shock value of the opening, the beauty and peace of that melody, and the transcendence of the ending by which Elgar formulates a musical triumvirate arduous to find anywhere else.
+    In the spirit of trios, the first movement of Elgar's Cello Concerto in E Minor, Fauré's Élégie, and the cello arrangement of Rachmaninoff's Elégie exemplify the cello's ability to be a distinctive conduit for emotion, and they are some of the most emotionally powerful cello scores ever composed.
     If the author introduces subjectivity into the analysis, then endeavoring to choose one amongst the three is a particularly trying task.
-    A coerced selection yields the elegy of Fauré, followed by Rachmaninoff's, and then Elgar's concerto right behind them, but the space between their separation would be miniscule.
-    As previously established these kinds of coercions in music are iniquitous and even nefarious.
-    What action is achieved, what purpose is served, by venturing to compare different things that are both beautiful and necessary.
-    The end state is a violation of the sanctity of the ones left unchosen.
+    A coerced selection yields the elegy of Fauré, followed by Rachmaninoff's, and then Elgar's concerto right behind them.
+    However, the space between their separation is miniscule, and as previously established these kinds of coercions in music are iniquitous and even nefarious.
+    What action is achieved, what purpose is served, by venturing to compare different things that are dually beautiful and necessary.
+    The end state is a violation of the sanctity of the ones positioned at a lesser ranking.
     A more appropriate selection would not be rooted in a hierarchical ranking but rather in a non-hierarchical comparison of their sentiment.
-    If at any particular moment one felt an inclination more towards that of shock value and transcendence, then Elgar's concerto would be the victor for the shock value of the opening of the first movement and the transcendence of its ending.
-    If, on the other hand, one felt an inclination more towards that of raw tragedy, sadness, and pain, and even anger at times, then the elegies of Fauré and Rachmaninoff would rise up as the tying victors and one could not go wrong either way.
+    If, during any snapshot of time, one feels drawn more towards that of the shock value and transcendence supplied by Elgar's cello concerto then it would rise up as the victor.
+    If, on the other hand, the gravity of the moment pulls one more towards that of the raw tragedy, somberness, and at times pain of Fauré and Rachmaninoff's elegies, then those compositions would be the tying victors and one could not go wrong either way.
     Ultimately, all three of these cello pieces are incredible, all three of them should be appreciated and listened to, and similar to the works of Chopin, Liszt, Schubert, and all the others, if any of them ceased to exist it would rip out not just a piece of the soul of classical music, but a piece of the soul of humanity, and the world would somehow be lesser.
     `,
     `
