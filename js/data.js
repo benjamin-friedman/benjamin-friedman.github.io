@@ -2337,8 +2337,8 @@ export const discussionsParagraphs = [
     In the spirit of trios, the first movement of Elgar's Cello Concerto in E Minor, Fauré's Élégie, and the cello arrangement of Rachmaninoff's Elégie exemplify the cello's ability to be a distinctive conduit for emotion, and they are some of the most emotionally powerful cello scores ever composed.
     If the author introduces subjectivity into the analysis, then endeavoring to rank them is a particularly trying task.
     A coerced selection yields the elegy of Fauré, followed by Rachmaninoff's, and then Elgar's concerto right behind them.
-    There is something about that beautiful sadness of the opening melody, the explosive intensity in the middle, and that beautifully introspective descent towards the end which ultimately nudges Fauré's Élégie into the first position.
-    However, the space between their separation is miniscule no different than how in a sprint the difference between positions can be a mere hundredth of a second.
+    There is something about the beautiful sadness of the opening melody, the explosive intensity in the middle, and that beautifully introspective descent towards the end which ultimately nudges Fauré's Élégie into the first position.
+    However, the space between their separation is miniscule no different than how in a one hundred meter sprint the difference between positions can be a mere one-hundredth of a second.
     And, as previously established these kinds of coercions in music are iniquitous and even nefarious.
     What action is achieved, what purpose is served, by venturing to compare different things that are dually beautiful and necessary.
     The end state is a violation of the sanctity of the ones positioned at a lesser ranking.
