@@ -2344,7 +2344,7 @@ export const discussionsParagraphs = [
     The end state is a violation of the sanctity of the ones positioned at a lesser ranking.
     A more appropriate selection would not be rooted in a hierarchical ranking but rather in a non-hierarchical comparison of their sentiment.
     If, during any snapshot of time, one feels drawn more towards that of the shock value and transcendence supplied by Elgar's cello concerto then it would rise up as the victor.
-    If, on the other hand, the gravity of the moment pulls one more towards that of the raw tragedy, somberness, and at times pain of Fauré and Rachmaninoff's elegies, then those compositions would be the tying victors and one could not go wrong either way.
+    If, on the other hand, the moment's gravity pulls one more towards that of the raw tragedy, somberness, and at times pain of Fauré and Rachmaninoff's elegies, then those compositions would be the tying victors and one could not go wrong either way.
     Ultimately, all three of these cello pieces are incredible, all three of them should be appreciated and listened to, and similar to the works of Chopin, Liszt, Schubert, and all the others, if any of them ceased to exist it would rip out not just a piece of the soul of classical music, but a piece of the soul of humanity, and the world would somehow be lesser.
     `,
     `
