@@ -2,7 +2,7 @@
 Body
 --------------------------------------------------*/
 body {
-    background: url('../img/background/Waves.png') no-repeat center center fixed;
+    background: url('../img/background/waves.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow-y: scroll;
