@@ -69,7 +69,7 @@ const initializeInspirationPage = (musiciansArray) => {
                     <div class="row">
                         <div class="col-4 img-col">
                             <img src="img/musicians/${musiciansArray[i].id}.jpg" class="musician-img" id="${musiciansArray[i].id}-img">
-                            <img src="img/background/PlayButton.jpg" class="play-button-img" id="${musiciansArray[i].id}-play-button-img">
+                            <img src="img/background/play-button.jpg" class="play-button-img" id="${musiciansArray[i].id}-play-button-img">
                         </div>
                     </div>
                     <div class="row song-container">
@@ -92,11 +92,11 @@ const initializeInspirationPage = (musiciansArray) => {
                     <div class="row">
                         <div class="col-4 img-col">
                             <img src="img/musicians/${musiciansArray[i].id}.jpg" class="musician-img" id="${musiciansArray[i].id}-img">
-                            <img src="img/background/PlayButton.jpg" class="play-button-img" id="${musiciansArray[i].id}-play-button-img">
+                            <img src="img/background/play-button.jpg" class="play-button-img" id="${musiciansArray[i].id}-play-button-img">
                         </div>
                         <div class="col-4 img-col">
                             <img src="img/musicians/${musiciansArray[i + 1].id}.jpg" class="musician-img" id="${musiciansArray[i + 1].id}-img">
-                            <img src="img/background/PlayButton.jpg" class="play-button-img" id="${musiciansArray[i + 1].id}-play-button-img">
+                            <img src="img/background/play-button.jpg" class="play-button-img" id="${musiciansArray[i + 1].id}-play-button-img">
                         </div>
                     </div>
                     <div class="row song-container">
@@ -125,15 +125,15 @@ const initializeInspirationPage = (musiciansArray) => {
                     <div class="row">
                         <div class="col img-col">
                             <img src="img/musicians/${musiciansArray[i].id}.jpg" class="musician-img" id="${musiciansArray[i].id}-img">
-                            <img src="img/background/PlayButton.jpg" class="play-button-img" id="${musiciansArray[i].id}-play-button-img">
+                            <img src="img/background/play-button.jpg" class="play-button-img" id="${musiciansArray[i].id}-play-button-img">
                         </div>
                         <div class="col img-col">
                             <img src="img/musicians/${musiciansArray[i + 1].id}.jpg" class="musician-img" id="${musiciansArray[i + 1].id}-img">
-                            <img src="img/background/PlayButton.jpg" class="play-button-img" id="${musiciansArray[i + 1].id}-play-button-img">
+                            <img src="img/background/play-button.jpg" class="play-button-img" id="${musiciansArray[i + 1].id}-play-button-img">
                         </div>
                         <div class="col img-col">
                             <img src="img/musicians/${musiciansArray[i + 2].id}.jpg" class="musician-img" id="${musiciansArray[i + 2].id}-img">
-                            <img src="img/background/PlayButton.jpg" class="play-button-img" id="${musiciansArray[i + 2].id}-play-button-img">
+                            <img src="img/background/play-button.jpg" class="play-button-img" id="${musiciansArray[i + 2].id}-play-button-img">
                         </div>
                     </div>
                     <div class="row song-container">
