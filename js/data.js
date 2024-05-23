@@ -2061,7 +2061,7 @@ export const writingsArray = [
 
 export const discussionsParagraphs = [
     `
-    Hans Zimmer is the greatest soundtrack composer of the modern era and one of the greatest composers of all time.
+    Hans Zimmer is one of the best composers ever and the greatest soundtrack composer of all time.
     The breadth and depth of his work is unrivaled, having composed some of the most beautiful, powerful, moving, and emotional music ever written in scores of major motion picture soundtracks.
     It is the combination of the somewhat unfathomable expanse of his body of work in stride with the diverse and at times disparate nature of his compositions that renders him in a category of his own.
     Some of his best work comes from The Dark Knight trilogy, The Pirates of the Caribbean series, Inception, and Interstellar amongst many other films.
@@ -2118,7 +2118,7 @@ export const discussionsParagraphs = [
     Lastly, the beauty, power, emotion, and virtuosity of his first and most famous ballade, Ballade No. 1 in G Minor, defensibly situates it as Chopin's crowning achievement.
     With parts that are gentle and unhurried, parts that are swift and vehement, parts that are awe inspiring, and in its totality a traversal of much of the emotional range, Chopin's first ballade is demonstrative of his illustriousness and everything that he is capable of as a composer all manifested within one single song.
     Ballade No. 1 in G Minor was the first ever piano ballade with Chopin having coined the term <i>ballade</i> in relation to its use with the piano allegedly drawing inspiration from its traditional use to describe narrative poetry.
-    Fittingly, Chopin's first ballade, and therefore classical music's primordial piano ballade, is one of the best if not the best of all time.
+    Fittingly, Chopin's first ballade, and therefore classical music's primordial piano ballade, is one of the best if not the best of all time most revered for its quintessential coda whose iconicism in classical piano is challenged by few others.
     Another renowned Argentinian pianist, Daniel Barenboim, tells the story of when acclaimed Russian pianist Vladimir Horowitz returned to Europe for a performance after a long absence it was asked what will he be playing, and the response was <i>La Ballade</i>, or <i>The Ballade</i> - it is the ballade of all ballades, and one does not need to specify Ballade No. 1 in G Minor in its reference but rather due to the approbation deservedly bestowed upon it one can simply say The Ballade and it will be known which piece is being referred to.
     Although classical music is unfortunately often outside the purview of mainstream culture, La Ballade received a rise in mainstream cultural attention due to its featuring in the 2002 film The Pianist about the life of Jewish pianist and Holocaust survivor Władysław Szpilman whose life was spared in the midst of World War II by Wehrmact officer Wilm Hosenfield after accidentally stumbling upon him in hiding and then bearing witness to his playing upon request.
     The scene in which this is reenacted depicts Szpilman playing an abridged version of the piece and is one of the most powerful scenes in cinematic history.
