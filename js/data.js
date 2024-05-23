@@ -2239,7 +2239,7 @@ export const discussionsParagraphs = [
     <i>Music is enough for a lifetime, but a lifetime is not enough for music</i> Rachmaninoff once said in a bid to describe the limitless possibility that resides within it.
     There is enough music to satisfy the soul of any one person during the course of their life, but any venture to find its endpoint will never succeed.
     Music is beyond just being enough, beyond just being vast.
-    It exists on an infinite plane, and that plane is infinite in regards to both its capacity for creation and the experiences that can come from it.
+    It exists on an infinite plane, and that plane is infinite in both in regards to its capacity for creation and the experiences that can come from it.
     Ergo, in the background of the passage of time dwells an ever present ray of hope, like an undying ember, that the next piece of music that will move one in a way unlike anything else can is always lingering around the corner just waiting to be discovered, and in the meantime the anticipation it generates can be effortlessly assuaged by taking refuge in the discoveries that have already occurred.
     In other words, could there come forth in the universe a new composition which possesses in some equivalent form the tragedy and sadness of Chopin's Prelude 4 in E Minor, the profundity and introspection of Beethoven's Moonlight Sonata 1st Movement, the beauty and yearning of Liszt's Liebestraum No. 3, or just more generally the mostly indescribable emotivity in whatever form it takes that exists in these songs and so many others in their cohort?
     The infinitude of the plane suggests the answer is in the affirmative, but until that day comes those pieces and their fellow tribesmen are more than enough to suffice.
@@ -2327,7 +2327,7 @@ export const discussionsParagraphs = [
     All of these parts contribute to Élégie being one of the most beautiful songs ever written on the cello, one of the most beautiful songs ever written in general, and nothing less than a complete musical masterpiece.
     `,
     `
-    Sir Edward William Elgar was a British composer from 1857 to 1934 and is most well known for his Cello Concerto in E Minor which rests squarely adjacent to Fauré's and Rachmaninoff's Elegies.
+    Sir Edward William Elgar was a British composer from 1857 to 1934 and is most well known for his Cello Concerto in E Minor which rests squarely adjacent to Fauré's and Rachmaninoff's elegies.
     All exude many of the same emotions including a sense of finality, and in Elgar's case it was the final piece he ever composed engendering it to be like his farewell to life.
     It is inconceivable that the concerto did not initially receive the praise that it deserves, and it was not until a 1965 recording by British cellist Jacqeuline du Pré which catalyzed the development of its reverence that it finally achieved the recognition that it merits.
     At that point, decades had passed since its debut in 1919.
@@ -2369,7 +2369,7 @@ export const discussionsParagraphs = [
     Remo Giazotto was a 20th century Italian musicologist living from 1910 to 1998.
     Given that he was a musicologist, he is not known as a composer like the rest of them and the only song to his name is Adagio in G Minor.
     Adagio's composition is often mistakenly credited to Tomaso Albinoni of whom Giazotto was a biographer, and as a result it is often incorrectly referred to as <i>Albinoni's Adagio</i>.
-    Giazotto originally claimed that a small amount of the song came from Albinoni but later retracted that claim so the facts remain unclear with the mistakened accreditation being his doing with a cryptic rationale.
+    Giazotto originally claimed that a small amount of the song came from Albinoni but later retracted that claim so the facts remain unclear with the mistakened accreditation being his own doing with a cryptic rationale.
     However, the accepted narrative is that the credit for the majority of the song goes to Giazotto even if a small amount did come from Albinoni.
     If it truly is <i>Giazotto's Adagio</i> and not <i>Albinoni's Adagio</i>, then it would appear that Remo's talent as a composer was largely neglected and squandered given that it is the only song he ever composed yet is also one of the most beautiful songs ever composed.
     Beginning with a sublime eight measure introduction most breathtakingly played on the organ, the song then transitions into the melody with much of it marked by the repetitive plucking of some background strings serving as its figurative heartbeat accentuating even further the heavy beauty of the melody.
