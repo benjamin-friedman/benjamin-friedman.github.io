@@ -2232,7 +2232,8 @@ export const discussionsParagraphs = [
     The opening of Air on the G String, along with the aforementioned bars and measures of Toccata and Fugue in D Minor, highlight one of Bach's most prominent qualities which is his ability to create these fusions of notes too beautiful, too perfect, and too astounding to really describe as if one did not even know that something like that were possible until first experienced. 
     Chopin is the master of expressing the soul and heart of man whereas Bach is more the master of expressing the soul and heart of the universe; one can listen to Chopin and behold the human condition whereas one can listen to Bach and behold the world itself in all its forms.
     A journey into Chopin's Prelude in E Minor will narrate the raw tragedy, sadness, and pain of humanity whereas a dive into Toccata and Fugue in D Minor will illustrate the marvelous nature of the cosmos.
-    And on that point, one can also include Bach's cello prelude which cellist Yo-Yo Ma most exceptionally describes as a representation of the infinitude of the natural world, be that the infinite beauty of nature or how it is constant and unchanging. 
+    Behold, what a beautiful universe that we live in, and behold, what a beautiful illustration of said universe that we can find in cosmic conduits like Bach.
+    And on the point of illustrating the universe, one can also include Bach's cello prelude which cellist Yo-Yo Ma most exceptionally describes as a representation of the infinitude of the natural world, be that the infinite beauty of nature or how it is constant and unchanging. 
     `,
     `
     Sergei Rachmaninoff, aside from being one of the most prominent composers ever in general, is the most prominent hailing from Russia and lived both before and during the Soviet Union from 1873 to 1943.
