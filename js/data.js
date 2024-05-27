@@ -217,8 +217,7 @@ export const musiciansArray = [
         id: 'elgar',
         name: 'Elgar',
         songs: [
-            { name: 'Cello Concerto in E Minor Op. 85 I. - Cello and Orchestra', fileName: 'cello-concerto-in-e-minor-op-85-i-cello-and-orchestra', recordingMusician: 'Sophie Kauer, London Symphony Orchestra' },
-            { name: 'Cello Concerto in E Minor Op. 85 I. - Cello, Piano, and Orchestra', fileName: 'cello-concerto-in-e-minor-op-85-i-cello-piano-and-orchestra', recordingMusician: 'Sol Gabetta, Piano (Unknown), Orchestra (Unknown)' }
+            { name: 'Cello Concerto in E Minor Op. 85 I.', fileName: 'cello-concerto-in-e-minor-op-85-i', recordingMusician: 'Sol Gabetta' }
         ]
     },
     {
@@ -2134,6 +2133,8 @@ export const discussionsParagraphs = [
     This is readily palpable in many of his compositions which typify the actuality that out of pain and darkness can come forth beauty, and it is an especial shade of beauty unachievable with alternate derivations.
     Chopin was able to take his pain and suffering and convert it into something beautiful, inspiring, profound, pure, filled with truth, and impossible to live without once experienced.
     His music is a gift to this world, and those who are privileged enough to experience it should be so lucky and never take for granted the opportunity to hear and feel the music of this man who had such a deep and layered understanding of the human condition, and somehow was able to express that understanding through the simple miracle of sound.
+    And, like all great composers trapped in the box of time preceding sound recording, his voice is not lost to the muted past and can be succintly heard through his notes on paper.
+    One does not need to hear Chopin speak in order to hear Chopin speak.
     Unfortunately, his health issues eventually claimed his life and he died fairly young at the age of 39.
     To date, there are only three known photographs of Chopin.
     The most famous was taken shortly before his death and displays Chopin seated at a piano next to a musical score, arms crossed, hands exposed, and staring directly into the camera.
@@ -2191,6 +2192,7 @@ export const discussionsParagraphs = [
     Instead, there is a collective of candidates each worthy of the nomination, but at the final hour, on the one-yard line, when the decision has to be made, no singular candidate possesses a worthiness allowing it to surpass all the others.
     If this view is adopted, it allows the psyche to rest and avoid the unnecessarily manufactured turmoil that arises from trying to construct such a ranking.
     Each song can be appreciated for what it is, and nothing else has to be done.
+    <i>Comparison is the thief of joy</i> as the old adage goes.
     Following Moonlight Sonata 1st Movement comes Moonlight Sonata 2nd Movement which is nothing to glance at and intentionally so, as it serves to provide a transition out of the emotional experience of the first movement and reset one's emotions back to some type of baseline in preparation for what is about to come: Moonlight Sonata 3rd Movement.
     Regarded as one of the most challenging piano pieces ever capable of being played only by a select few, it too is cloaked in the spirit of the Romantic period but this time in the form of its virtuosity and beautiful and violent intensity.
     Like Chopin's <i>La Ballade</i>, Moonlight Sonata 3rd Movement revealed unseen heights, dimensions, and possibilities within the piano that were hidden from the world prior to its composition.
