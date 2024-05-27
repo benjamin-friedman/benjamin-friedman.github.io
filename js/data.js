@@ -100,7 +100,7 @@ export const musiciansArray = [
             { name: 'Etude No. 3 in D-Flat Major S. 144/3 (Un Sospiro)', fileName: 'etude-no-3-in-d-flat-major-s-144-3-un-sospiro', recordingMusician: 'Rousseau' },
             { name: 'Etude No. 3 in G-Sharp Minor S. 141/3 (La Campanella) - Piano', fileName: 'etude-no-3-in-g-sharp-minor-s-141-3-la-campanella-piano', recordingMusician: 'Rousseau', composer: 'Paganini' },
             { name: 'Auf dem Wasser zu singen S. 558/2 (To Sing on the Water) - Piano', fileName: 'auf-dem-wasser-zu-singen-s-558-2-to-sing-on-the-water-piano', recordingMusician: 'Fatjon Zefi', composer: 'Schubert' },
-            { name: 'Der Doppelgänger S. 560/12 (The Double Walker) - Piano', fileName: 'der-doppelganger-s-56-12-the-double-walker-piano', recordingMusician: 'Traum Piano', composer: 'Schubert' },
+            { name: 'Der Doppelgänger S. 560/12 (The Double Walker) - Piano', fileName: 'der-doppelganger-s-560-12-the-double-walker-piano', recordingMusician: 'Traum Piano', composer: 'Schubert' },
             { name: 'Hungarian Rhapsody No. 2 in C-Sharp Minor S. 244/2', fileName: 'hungarian-rhapsody-no-2-in-c-sharp-minor-s-244-2', recordingMusician: 'Rousseau' }
         ]
     },
@@ -112,7 +112,7 @@ export const musiciansArray = [
             { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Arrangement 1', fileName: 'piano-trio-no-2-in-e-flat-major-op-100-d-929-arrangement-1', recordingMusician: 'Anthony Goldstone (Piano), Moray Welsh (Cello), Ralph Holmes (Violin)' },
             { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Arrangement 2', fileName: 'piano-trio-no-2-in-e-flat-major-op-100-d-929-arrangement-2', recordingMusician: 'Howard Shelley (Piano), Raphael Wallfisch (Cello), Ralph Holmes (Violin)' },
             { name: 'Ständchen D. 889 (Serenade)', fileName: 'standchen-d-889-serenade', recordingMusician: 'Unknown' },
-            { name: 'Serenade D. 889 (Serenade) - Piano and Cello', fileName: 'standchen-d-889-serenade-piano-and-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
+            { name: 'Ständchen D. 889 (Serenade) - Piano and Cello', fileName: 'standchen-d-889-serenade-piano-and-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
         ]
     },
     {
