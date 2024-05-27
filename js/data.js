@@ -2135,7 +2135,7 @@ export const discussionsParagraphs = [
     This is readily palpable in many of his compositions which typify the actuality that out of pain and darkness can come forth beauty, and it is an especial shade of beauty unachievable with alternate derivations.
     Chopin was able to take his pain and suffering and convert it into something beautiful, inspiring, profound, pure, filled with truth, and impossible to live without once experienced.
     His music is a gift to this world, and those who are privileged enough to experience it should be so lucky and never take for granted the opportunity to hear and feel the music of this man who had such a deep and layered understanding of the human condition, and somehow was able to express that understanding through the simple miracle of sound.
-    And, like all great composers trapped in the box of time preceding sound recording, his voice is not lost to the muted past and can be succintly heard through his notes on paper.
+    And, like all great composers trapped in the box of time preceding sound recording, his voice is not lost to the muted past and can be succinctly heard through his notes on paper.
     One does not need to hear Chopin speak in order to hear Chopin speak.
     Unfortunately, his health issues eventually claimed his life and he died fairly young at the age of 39.
     To date, there are only three known photographs of Chopin.
@@ -2149,7 +2149,7 @@ export const discussionsParagraphs = [
     It has been said that Mozart, Beethoven, and Chopin never died. They simply became music.
     `,
     `
-    Franz Liszt, a Hungarian composer living from 1811 to 1886, was another beacon of the Romantic period for which he alongside Chopin are regarded as its sentinels.
+    Franz Liszt, a Hungarian composer living from 1811 to 1886, was another beacon of the Romantic period who along with Chopin and others is regarded as one of its sentinels.
     Like Chopin, Liszt is known for his beautiful, elegant, and technically demanding solo piano pieces.
     If it were to be said that Chopin is the greatest classical piano composer of all time, then Liszt is maybe the first to come to mind for which it would feel like a betrayal was being enacted upon him, and the term <i>the pianist's composer</i> would be suitable for him as well.
     Together, they are the twins of virtuosic piano; the ambassadors of Romantic period pianistic virtuosity.
@@ -2157,20 +2157,28 @@ export const discussionsParagraphs = [
     Their relationship did at times have its struggles for a number of reasons, but despite any negativity that may have arisen the similarity of their musical style, talent, and greatness makes them out to be like two kindred souls mirroring and echoing each other's spirit and understanding of the human condition.
     Aside from his greatness as a piano composer and performative ability as a virtuoso pianist, something that makes Liszt unique is his work as a composer is not limited to his own original compositions but also includes piano arrangements of songs previously composed for other instruments.
     Amongst the most famous of his own original compositions are Liebestraum (Love Dream) No. 3 from his set of three Liebesträume (Dreams of Love), Romance "O pourquoi donc", Consolation No. 3 from his set of six Consolations, the third étude Un Sospiro (A Sigh) from Three Concert Études, Hungarian Rhapsody No. 2 from his set of nineteen Hungarian Rhapsodies, and his series of twelve Transcendental Études.
-    His most famous piano arrangements of songs previously composed for other instruments include his piano arrangement of Paganini's violin composition La Campanella (The Little Bell), his piano arrangements of two of Schubert's lieds Ständchen (Serenade) and Auf dem Wasser zu singen (To Sing on the Water), and his piano arrangement of Schubert's Der Doppelgänger (The Double Walker). 
+    His most famous piano arrangements of songs previously composed for other instruments include his piano arrangement of Paganini's violin composition La Campanella (The Little Bell), his piano arrangements of three of Schubert's lieds Ständchen (Serenade), Auf dem Wasser zu singen (To Sing on the Water), and Der Doppelgänger (The Double Walker). 
     The beauty and emotion of Liebestraum No. 3 has a uniqueness to it unmatched by any other piano song, and that within Romance "O pourquoi donc", Consolation No. 3, and Un Sospiro parallels Chopin's work.
     It could be proposed that Liebestraum No. 3 is Liszt's crowning achievement for how it wields together the strongest of his abilities which are to create piano songs that are beautiful and create piano songs that are technically demanding, and it is one of the immediate examples of why claiming Chopin is <i>the</i> greatest classical piano composer of all time can feel so controversial.
     Unsurprisingly, the scale of E minor is used in some of the most beautiful works of these composers - Romance "O pourquoi donc" for Liszt and Prelude 4 and Nocturne 19 for Chopin.
     Liszt's piano arrangement of Schubert's Serenade is able to capture the same emotion and beauty of that song on the piano that exists in the arrangement on the strings.
     The emotion of the opening melody beginning with A, B-flat, A, and D is only furthered by the intensity and almost unexpectedness of its shift one octave down partway through.
     La Campanella adequately illustrates his reputation for creating these technically demanding songs which in this case is partially due to the exhausting movement of the right hand constantly jumping back and forth to different octaves just to play consecutive notes, and its ending stands out as one of the most remarkable endings to any piano song.
-    A fitting conclusion to the discussion of Liszt can be about his piano arrangment of Schubert's Der Doppelgänger because it is about the conclusion to life and is also one of the darkest and most intense pieces of music ever composed.
-    The german word doppelgänger and its english equivalent without the umlaut is a person that looks identical to another person in physical appearance despite having no biological relation.
+    A fitting conclusion to the discussion of Liszt could be found with his piano arrangement of Schubert's Der Doppelgänger because it is about the conclusion to life, and is also one of the darkest and most intense pieces of music ever composed.
+    Fittingly as well is the fact that Schubert composed Der Doppelgänger in the exact same year of his death.
+    The german word doppelgänger, and its english equivalent without the umlaut, is a person that looks identical to another person in physical appearance despite having no biological relation.
     In other words, an identical twin that is not actually an identical twin.
-    However, in its roots it is actually a loanword from the term Doppelgänger which translates to <i>double walker</i>.
-    In this context, there is a sinister undertone because in German mythology and legend a double walker refers a ghostly replica of oneself that one sees that is an omen or sign of bad luck very often denoting that death is imminent.
-    It is for this reason that the song is captured by this beautiful darkness, intensity, and even some tragedy as if to describe the moment when a person sees their Doppelgänger and knows that death is now upon them.
-    The part in the middle that increases its velocity and intensity could describe the voracious efforts that are then made to escape the clutches of one's Doppelgänger and avoid this inevitability, and then its return to the slow tempo that it had at the beginning could signify the failure of this effort, the acceptance of this inevitability, and ultimately the death itself.
+    The word is apathetic and there is no negative or positive undertone.
+    However, in its roots it is actually a loanword from the term Doppelgänger which translates to <i>double walker</i>, and in this context it takes on a sinister persona.
+    In German mythology and legend, a double walker refers to a ghostly or paranormal replica of oneself, and if seen is an omen or sign of bad luck very often denoting that death is imminent.
+    It is for this reason that the song, although beautiful, is captured by this darkness, intensity, and even some tragedy.
+    Schubert's original Der Doppelgänger is one of six songs from his piece Schwanengesang which are based off a set of poems from the third of five sections in Heinrich Heine's Buch der Lieder.
+    Although the word Doppelgänger is used in the poem, the poem itself is untitled, and Schubert is the one who applied the title Der Doppelgänger to his lied.
+    The music adequately captures the story of the poem - the night begins calm and quiet for a man until he sees his Doppelgänger and becomes terrified and tormented.
+    Putting aside the specific story narration of the poem, a more general story could be contrived from the music.
+    The tone of the entire song is dark, but it begins with a slow tempo as if the indicate one's Doppelgänger has been dispatched and is lurking nearby but still unseen.
+    Towards the late middle, the tempo and intensity increases as if to describe the moment when a person sees their Doppelgänger, realizes that is what it is, and then immediately knows that death is now upon them.
+    This is followed by some kind of desperate but noble effort to escape the clutches of one's Doppelgänger and avoid this inevitability, but its eventual return to the slow tempo that it had at the beginning signifies the failure of this effort, the acceptance of this inevitability, and ultimately the death itself.
     Liszt's arrangement of this song with its darkness is an example of the diversity of his persona.
     He was not just limited to expressions of emotions not associated with anything dark like the bliss felt in Consolation No. 3, the love felt in Liebestraum No. 3, or just the general beauty felt in To Sing on the Water.
     Liszt, like Chopin, could interact with both the light and the darkness.
@@ -2178,6 +2186,7 @@ export const discussionsParagraphs = [
     `
     Franz Schubert was an Austrian composer whose life intersected both the Classical and Romantic periods from 1797 to 1828.
     The most impressive part of Schubert is that he has hundreds of compositions to his name despite dying even younger than Chopin at the age of 31, and he is most well known for ones like Ständchen (Serenade), Impromptu in G-Flat Major, and Piano Trio No. 2 in E-Flat Major 2nd Movement.
+    A number of his pieces, as previously discussed, were also inspirations for piano arrangements composed by Liszt, so even after his death he was still able to further contribute to the musical landscape.
     Serenade was originally composed as a lied for voice and piano, but the most widely recognized version of it has the main melody played with strings most commonly a cello.
     The cello and the piano ascend as some of the most beautiful instruments in all of music and are each a direct gateway into the soul and heart of man as Chopin put it.
     In and of themselves they are beautiful, and together they create a type of musical duality, a distinctive fusion, that is realized in any composition derived from their pairing.
