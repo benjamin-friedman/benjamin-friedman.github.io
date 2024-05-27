@@ -2179,7 +2179,7 @@ export const discussionsParagraphs = [
     The tone of the entire song is dark, but its tempo and intensity changes throughout.
     It begins with a slow tempo as if to indicate one's Doppelgänger has been dispatched and is lurking nearby but still unseen.
     Towards the late middle, the tempo and intensity increases as if to describe the moment when a person sees their Doppelgänger, realizes that is what it is, and then immediately knows that death is now upon them.
-    This is followed by some kind of desperate but noble effort to escape the clutches of one's Doppelgänger and avoid this inevitability, but its eventual return to the slow tempo that it had at the beginning signifies the failure of this effort, the acceptance of this inevitability, and ultimately the death itself.
+    This is followed by some kind of desperate but noble effort to escape the clutches of one's Doppelgänger and avoid this inevitability, but its eventual return to the slow tempo and reduction in intensity that it had at the beginning signifies the failure of this effort, the acceptance of this inevitability, and ultimately the death itself.
     Liszt's arrangement of this song with its darkness is an example of the diversity of his persona.
     He was not just limited to expressions of emotions not associated with anything dark like the bliss felt in Consolation No. 3, the love felt in Liebestraum No. 3, or just the general beauty felt in To Sing on the Water.
     Liszt, like Chopin, could interact with both the light and the darkness.
