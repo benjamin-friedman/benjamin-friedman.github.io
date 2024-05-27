@@ -2164,15 +2164,16 @@ export const discussionsParagraphs = [
     Liszt's piano arrangement of Schubert's Serenade is able to capture the same emotion and beauty of that song on the piano that exists in the arrangement on the strings.
     The emotion of the opening melody beginning with A, B-flat, A, and D is only furthered by the intensity and almost unexpectedness of its shift one octave down partway through.
     La Campanella adequately illustrates his reputation for creating these technically demanding songs which in this case is partially due to the exhausting movement of the right hand constantly jumping back and forth to different octaves just to play consecutive notes, and its ending stands out as one of the most remarkable endings to any piano song.
-    A fitting conclusion to the discussion of Liszt can be with his piano arrangment of Schubert's Der Doppelgänger because it is about the conclusion to life.
-    The term doppelgänger, or just doppelganger as it is known in English, is German for two identically looking people who are biologically unrelated.
-    But, it is actually a loanword from the term Doppelgänger which translates to <i>double walker</i>.
+    A fitting conclusion to the discussion of Liszt can be about his piano arrangment of Schubert's Der Doppelgänger because it is about the conclusion to life and is also one of the darkest and most intense pieces of music ever composed.
+    The german word doppelgänger and its english equivalent without the umlaut is a person that looks identical to another person in physical appearance despite having no biological relation.
+    In other words, an identical twin that is not actually an identical twin.
+    However, in its roots it is actually a loanword from the term Doppelgänger which translates to <i>double walker</i>.
     In this context, there is a sinister undertone because in German mythology and legend a double walker refers a ghostly replica of oneself that one sees that is an omen or sign of bad luck very often denoting that death is imminent.
-    It is for this reason that the song is captured by this beautiful darkness and even some tragedy as if to describe the moment when a person sees their Doppelgänger and knows that death is now upon them.
+    It is for this reason that the song is captured by this beautiful darkness, intensity, and even some tragedy as if to describe the moment when a person sees their Doppelgänger and knows that death is now upon them.
     The part in the middle that increases its velocity and intensity could describe the voracious efforts that are then made to escape the clutches of one's Doppelgänger and avoid this inevitability, and then its return to the slow tempo that it had at the beginning could signify the failure of this effort, the acceptance of this inevitability, and ultimately the death itself.
     Liszt's arrangement of this song with its darkness is an example of the diversity of his persona.
     He was not just limited to expressions of emotions not associated with anything dark like the bliss felt in Consolation No. 3, the love felt in Liebestraum No. 3, or just the general beauty felt in To Sing on the Water.
-    Like Chopin, he could interact with both the darkness and the light.
+    Liszt, like Chopin, could interact with both the light and the darkness.
     `,
     `
     Franz Schubert was an Austrian composer whose life intersected both the Classical and Romantic periods from 1797 to 1828.
