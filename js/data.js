@@ -96,10 +96,11 @@ export const musiciansArray = [
             { name: 'Liebestraum No. 3 in A-Flat Major S. 541/3 (Love Dream)', fileName: 'liebestraum-no-3-in-a-flat-major-s-541-3-love-dream', recordingMusician: 'Khatia Buniatishvili' },
             { name: 'Romance "O pourquoi donc" in E Minor S. 169', fileName: 'romance-o-pourquoi-donc-in-e-minor-s-169', recordingMusician: 'Genny Basso' },
             { name: 'Consolation No. 3 in D-Flat Major S. 172/3', fileName: 'consolation-no-3-in-d-flat-major-s-172-3', recordingMusician: 'Rousseau' },
-            { name: 'Serenade S. 559a', fileName: 'serenade-s-559a', recordingMusician: 'Rousseau', composer: 'Schubert' },
+            { name: 'Ständchen S. 559a (Serenade) - Piano', fileName: 'standchen-s-559a-serenade-piano', recordingMusician: 'Rousseau', composer: 'Schubert' },
             { name: 'Etude No. 3 in D-Flat Major S. 144/3 (Un Sospiro)', fileName: 'etude-no-3-in-d-flat-major-s-144-3-un-sospiro', recordingMusician: 'Rousseau' },
-            { name: 'Etude No. 3 in G-Sharp Minor S. 141/3 (La Campanella)', fileName: 'etude-no-3-in-g-sharp-minor-s-141-3-la-campanella', recordingMusician: 'Rousseau', composer: 'Paganini' },
-            { name: 'To Sing on the Water S. 558/2', fileName: 'to-sing-on-the-water-s-558-2', recordingMusician: 'Fatjon Zefi', composer: 'Schubert' },
+            { name: 'Etude No. 3 in G-Sharp Minor S. 141/3 (La Campanella) - Piano', fileName: 'etude-no-3-in-g-sharp-minor-s-141-3-la-campanella-piano', recordingMusician: 'Rousseau', composer: 'Paganini' },
+            { name: 'Auf dem Wasser zu singen S. 558/2 (To Sing on the Water) - Piano', fileName: 'auf-dem-wasser-zu-singen-s-558-2-to-sing-on-the-water-piano', recordingMusician: 'Fatjon Zefi', composer: 'Schubert' },
+            { name: 'Der Doppelgänger S. 560/12 (The Double Walker) - Piano', fileName: 'der-doppelganger-s-56-12-the-double-walker-piano', recordingMusician: 'Traum Piano', composer: 'Schubert' },
             { name: 'Hungarian Rhapsody No. 2 in C-Sharp Minor S. 244/2', fileName: 'hungarian-rhapsody-no-2-in-c-sharp-minor-s-244-2', recordingMusician: 'Rousseau' }
         ]
     },
@@ -110,8 +111,8 @@ export const musiciansArray = [
             { name: 'Impromptu in G-Flat Major Op. 90 No. 3, D. 899', fileName: 'impromptu-in-g-flat-major-op-90-no-3-d-899', recordingMusician: 'Olga Jegunova' },
             { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Arrangement 1', fileName: 'piano-trio-no-2-in-e-flat-major-op-100-d-929-arrangement-1', recordingMusician: 'Anthony Goldstone (Piano), Moray Welsh (Cello), Ralph Holmes (Violin)' },
             { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Arrangement 2', fileName: 'piano-trio-no-2-in-e-flat-major-op-100-d-929-arrangement-2', recordingMusician: 'Howard Shelley (Piano), Raphael Wallfisch (Cello), Ralph Holmes (Violin)' },
-            { name: 'Serenade D. 889', fileName: 'serenade-d-889', recordingMusician: 'Unknown' },
-            { name: 'Serenade D. 889 - Piano and Cello', fileName: 'serenade-d-889-piano-and-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
+            { name: 'Ständchen D. 889 (Serenade)', fileName: 'standchen-d-889-serenade', recordingMusician: 'Unknown' },
+            { name: 'Serenade D. 889 (Serenade) - Piano and Cello', fileName: 'standchen-d-889-serenade-piano-and-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
         ]
     },
     {
@@ -2156,17 +2157,26 @@ export const discussionsParagraphs = [
     Their relationship did at times have its struggles for a number of reasons, but despite any negativity that may have arisen the similarity of their musical style, talent, and greatness makes them out to be like two kindred souls mirroring and echoing each other's spirit and understanding of the human condition.
     Aside from his greatness as a piano composer and performative ability as a virtuoso pianist, something that makes Liszt unique is his work as a composer is not limited to his own original compositions but also includes piano arrangements of songs previously composed for other instruments.
     Amongst the most famous of his own original compositions are Liebestraum (Love Dream) No. 3 from his set of three Liebesträume (Dreams of Love), Romance "O pourquoi donc", Consolation No. 3 from his set of six Consolations, the third étude Un Sospiro (A Sigh) from Three Concert Études, Hungarian Rhapsody No. 2 from his set of nineteen Hungarian Rhapsodies, and his series of twelve Transcendental Études.
-    His most famous piano arrangements of songs previously composed for other instruments include his piano arrangement of Paganini's violin composition La Campanella (The Little Bell), and his piano arrangements of two of Schubert's lieds Serenade and To Sing on the Water. 
+    His most famous piano arrangements of songs previously composed for other instruments include his piano arrangement of Paganini's violin composition La Campanella (The Little Bell), his piano arrangements of two of Schubert's lieds Ständchen (Serenade) and Auf dem Wasser zu singen (To Sing on the Water), and his piano arrangement of Schubert's Der Doppelgänger (The Double Walker). 
     The beauty and emotion of Liebestraum No. 3 has a uniqueness to it unmatched by any other piano song, and that within Romance "O pourquoi donc", Consolation No. 3, and Un Sospiro parallels Chopin's work.
     It could be proposed that Liebestraum No. 3 is Liszt's crowning achievement for how it wields together the strongest of his abilities which are to create piano songs that are beautiful and create piano songs that are technically demanding, and it is one of the immediate examples of why claiming Chopin is <i>the</i> greatest classical piano composer of all time can feel so controversial.
     Unsurprisingly, the scale of E minor is used in some of the most beautiful works of these composers - Romance "O pourquoi donc" for Liszt and Prelude 4 and Nocturne 19 for Chopin.
     Liszt's piano arrangement of Schubert's Serenade is able to capture the same emotion and beauty of that song on the piano that exists in the arrangement on the strings.
     The emotion of the opening melody beginning with A, B-flat, A, and D is only furthered by the intensity and almost unexpectedness of its shift one octave down partway through.
     La Campanella adequately illustrates his reputation for creating these technically demanding songs which in this case is partially due to the exhausting movement of the right hand constantly jumping back and forth to different octaves just to play consecutive notes, and its ending stands out as one of the most remarkable endings to any piano song.
+    A fitting conclusion to the discussion of Liszt can be with his piano arrangment of Schubert's Der Doppelgänger because it is about the conclusion to life.
+    The term doppelgänger, or just doppelganger as it is known in English, is German for two identically looking people who are biologically unrelated.
+    But, it is actually a loanword from the term Doppelgänger which translates to <i>double walker</i>.
+    In this context, there is a sinister undertone because in German mythology and legend a double walker refers a ghostly replica of oneself that one sees that is an omen or sign of bad luck very often denoting that death is imminent.
+    It is for this reason that the song is captured by this beautiful darkness and even some tragedy as if to describe the moment when a person sees their Doppelgänger and knows that death is now upon them.
+    The part in the middle that increases its velocity and intensity could describe the voracious efforts that are then made to escape the clutches of one's Doppelgänger and avoid this inevitability, and then its return to the slow tempo that it had at the beginning could signify the failure of this effort, the acceptance of this inevitability, and ultimately the death itself.
+    Liszt's arrangement of this song with its darkness is an example of the diversity of his persona.
+    He was not just limited to expressions of emotions not associated with anything dark like the bliss felt in Consolation No. 3, the love felt in Liebestraum No. 3, or just the general beauty felt in To Sing on the Water.
+    Like Chopin, he could interact with both the darkness and the light.
     `,
     `
     Franz Schubert was an Austrian composer whose life intersected both the Classical and Romantic periods from 1797 to 1828.
-    The most impressive part of Schubert is that he has hundreds of compositions to his name despite dying even younger than Chopin at the age of 31, and he is most well known for ones like Serenade, Impromptu in G-Flat Major, and Piano Trio No. 2 in E-Flat Major 2nd Movement.
+    The most impressive part of Schubert is that he has hundreds of compositions to his name despite dying even younger than Chopin at the age of 31, and he is most well known for ones like Ständchen (Serenade), Impromptu in G-Flat Major, and Piano Trio No. 2 in E-Flat Major 2nd Movement.
     Serenade was originally composed as a lied for voice and piano, but the most widely recognized version of it has the main melody played with strings most commonly a cello.
     The cello and the piano ascend as some of the most beautiful instruments in all of music and are each a direct gateway into the soul and heart of man as Chopin put it.
     In and of themselves they are beautiful, and together they create a type of musical duality, a distinctive fusion, that is realized in any composition derived from their pairing.
