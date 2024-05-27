@@ -2166,17 +2166,17 @@ export const discussionsParagraphs = [
     La Campanella adequately illustrates his reputation for creating these technically demanding songs which in this case is partially due to the exhausting movement of the right hand constantly jumping back and forth to different octaves just to play consecutive notes, and its ending stands out as one of the most remarkable endings to any piano song.
     A fitting conclusion to the discussion of Liszt could be found with his piano arrangement of Schubert's Der Doppelgänger because it is about the conclusion to life, and is also one of the darkest and most intense pieces of music ever composed.
     Fittingly as well is the fact that Schubert composed Der Doppelgänger in the exact same year of his death.
-    The german word doppelgänger, and its english equivalent without the umlaut, is a person that looks identical to another person in physical appearance despite having no biological relation.
+    The German word doppelgänger, and its English equivalent without the umlaut, is a person that looks identical to another person in physical appearance despite having no biological relation.
     In other words, an identical twin that is not actually an identical twin.
     The word is apathetic and there is no negative or positive undertone.
     However, in its roots it is actually a loanword from the term Doppelgänger which translates to <i>double walker</i>, and in this context it takes on a sinister persona.
     In German mythology and legend, a double walker refers to a ghostly or paranormal replica of oneself, and if seen is an omen or sign of bad luck very often denoting that death is imminent.
     It is for this reason that the song, although beautiful, is captured by this darkness, intensity, and even some tragedy.
-    Schubert's original Der Doppelgänger is one of six songs from his piece Schwanengesang which are based off a set of poems from the third of five sections in Heinrich Heine's Buch der Lieder.
+    Schubert's original Der Doppelgänger is one of six songs from his piece Schwanengesang which are based on a set of poems from the third of five sections in Heinrich Heine's Buch der Lieder.
     Although the word Doppelgänger is used in the poem, the poem itself is untitled, and Schubert is the one who applied the title Der Doppelgänger to his lied.
     The music adequately captures the story of the poem - the night begins calm and quiet for a man until he sees his Doppelgänger and becomes terrified and tormented.
     Putting aside the specific story narration of the poem, a more general story could be contrived from the music.
-    The tone of the entire song is dark, but it begins with a slow tempo as if the indicate one's Doppelgänger has been dispatched and is lurking nearby but still unseen.
+    The tone of the entire song is dark, but it begins with a slow tempo as if to indicate one's Doppelgänger has been dispatched and is lurking nearby but still unseen.
     Towards the late middle, the tempo and intensity increases as if to describe the moment when a person sees their Doppelgänger, realizes that is what it is, and then immediately knows that death is now upon them.
     This is followed by some kind of desperate but noble effort to escape the clutches of one's Doppelgänger and avoid this inevitability, but its eventual return to the slow tempo that it had at the beginning signifies the failure of this effort, the acceptance of this inevitability, and ultimately the death itself.
     Liszt's arrangement of this song with its darkness is an example of the diversity of his persona.
