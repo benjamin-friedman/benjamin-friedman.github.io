@@ -2366,14 +2366,10 @@ export const discussionsParagraphs = [
     Aside from its opening and that melody, the first movement is most revered for the way it sensationally builds up to a high E at the end.
     It is the shock value of the opening, the beauty and peace of that melody, and the transcendence of the ending by which Elgar formulates a musical triumvirate arduous to find anywhere else.
     In the spirit of trios, the first movement of Elgar's Cello Concerto in E Minor, Fauré's Élégie, and the cello arrangement of Rachmaninoff's Elégie exemplify the cello's ability to be a distinctive conduit for emotion, and they are some of the most emotionally powerful cello scores ever composed.
-    If the author introduces subjectivity into the analysis, then endeavoring to rank them is a particularly trying task.
-    A coerced selection yields the elegy of Fauré, followed by Rachmaninoff's, and then Elgar's concerto right behind them.
-    There is something about the beautiful sadness of the opening melody, the raging intensity in the middle, and that beautifully introspective descent towards the end which ultimately nudges Fauré's Élégie into the first position.
-    However, the space between their separation is miniscule no different than how in a one hundred meter sprint the difference between positions can be a mere one-hundredth of a second.
-    And, as previously established these kinds of coercions in music are iniquitous and even nefarious.
+    As previously established, any endeavor at a ranking is iniquitous and even nefarious.
     What action is achieved, what purpose is served, by venturing to compare different things that are dually beautiful and necessary.
     The end state is a violation of the sanctity of the ones positioned at a lesser ranking.
-    A more appropriate selection would not be rooted in a hierarchical ranking but rather in a non-hierarchical comparison of their sentiment.
+    In lieu of a ranking, a more appropriate selection would not be rooted in a hierarchical ranking but rather in a non-hierarchical comparison of their sentiment.
     If, during any snapshot of time, one feels drawn more towards that of the shock value and transcendence supplied by Elgar's cello concerto then it would rise up as the victor.
     If, on the other hand, the moment's gravity pulls one more towards that of the raw tragedy, somberness, and at times pain of Fauré and Rachmaninoff's elegies, then those compositions would be the tying victors and one could not go wrong either way.
     Ultimately, all three of these cello pieces are incredible, all three of them should be appreciated and listened to, and similar to the works of Chopin, Liszt, Schubert, and all the others, if any of them ceased to exist it would rip out not just a piece of the soul of classical music, but a piece of the soul of humanity, and the world would somehow be lesser.
