@@ -2069,7 +2069,8 @@ export const discussionsParagraphs = [
     Hans has worked frequently with director Christopher Nolan including on some of the films mentioned.
     The directorial genius of Nolan combined with the musical genius of Hans creates an unfettered hybrid yielding some of the most profound cinematic experiences, and a better composer-director pair there probably never was.
     It should be noted that Hans collaborated significantly with James Newton Howard for the first two films of The Dark Knight Trilogy, Klaus Badelt for the first Pirates of the Caribbean film and Gladiator, and Lisa Gerrard in Gladiator so the credit goes to them as well.
-    Now We Are Free from Gladiator is one of the best songs ever composed with Gerrard's otherworldly glossolalia penetrating the air with her angelically mystical voice, and Croatian cellist Stjepan Hauser did an incredible cello arrangement of it out of which is delivered a whole new experience from that song whose original version was already phenomenal enough. 
+    Now We Are Free from Gladiator is one of the best songs ever composed with Gerrard's otherworldly glossolalia penetrating the air with her angelically mystical voice as if one were listening to the voice of the Gods.
+    Few vocal performances have ever been able to rival that of Gerrard's in the original, but one such performance can be found with Czarina Russell, and Croatian cellist Stjepan Hauser did an incredible cello arrangement of it out of which is delivered a whole new experience from that song whose original version was already phenomenal enough. 
     `,
     `
     Frédéric Chopin is one of the greatest classical piano composers of all time and lived from 1810 to 1849.
