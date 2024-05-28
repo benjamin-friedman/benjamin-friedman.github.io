@@ -2094,8 +2094,7 @@ export const discussionsParagraphs = [
     As was once asserted by Debussy, <i>Chopin is the greatest of them all, for with the piano alone he discovered everything</i>.
     Chopin's series of twenty-one nocturnes embody this most aptly.
     Beginning with Nocturne 1 in B-Flat Minor there is the touching way it goes from A, down to A-flat, down to G-flat, back up to A-flat, and finally back up to A in measures 67 through 69 leaving one to forever contemplate what he was trying to say.
-    Then in Nocturne 4 in F Major there is the striking contrast between the peace and calm of the first half and the intensity and velocity of the second half.
-    Moving on to Nocturne 8 in D-Flat Major there is another contrast between the bliss and tranquility of the beginning and ending and the excitement and passion of the middle.
+    Then in Nocturne 4 in F Major and Nocturne 8 in D-Flat Major there is the striking contrast between the peace, calm, and bliss of the beginning and ending and the intensity, velocity, and passion of the middle.
     Towards the end of the nocturnes comes forth two of the best amongst them all, Nocturne 19 in E Minor and Nocturne 20 in C-Sharp Minor, which are a baring of the soul of humanity.
     The final nocturne, Nocturne 21 in C Minor, possesses some of the same essence of Nocturnes 19 and 20, and then after those six nocturnes there are still fifteen remaining each of which is a standalone work of art worthy of admiration.
     This is in which lies the basis for their exceptionalism - there is not one single one of them that is lacking in some way; not one single one of them that is out of place.
