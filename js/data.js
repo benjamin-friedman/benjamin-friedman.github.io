@@ -188,13 +188,16 @@ export const musiciansArray = [
         id: 'satie',
         name: 'Satie',
         songs: [
-            { name: 'Gymnopédie No. 1', fileName: 'gymnopedie-no-1', recordingMusician: 'Rousseau' },
-            { name: 'Gnossienne No. 1 - Interpretation 1', fileName: 'gnossienne-no-1-interpretation-1', recordingMusician: 'Anne Queffelec' },
+            { name: 'Gymnopédie No. 1', fileName: 'gymnopedie-no-1', recordingMusician: 'Unknown' },
+            { name: 'Gymnopédie No. 2', fileName: 'gymnopedie-no-2', recordingMusician: 'Unknown' },
+            { name: 'Gymnopédie No. 3', fileName: 'gymnopedie-no-3', recordingMusician: 'Unknown' },
+            { name: 'Gnossienne No. 1 - Interpretation 1', fileName: 'gnossienne-no-1-interpretation-1', recordingMusician: 'Anne Queffélec' },
             { name: 'Gnossienne No. 1 - Interpretation 2', fileName: 'gnossienne-no-1-interpretation-2', recordingMusician: 'Alice Sara Ott' },
             { name: 'Gnossienne No. 2', fileName: 'gnossienne-no-2', recordingMusician: 'Reinbert de Leeuw' },
-            { name: 'Gnossienne No. 3', fileName: 'gnossienne-no-3', recordingMusician: 'Anne Queffelec' },
-            { name: 'Gnossienne No. 4', fileName: 'gnossienne-no-4', recordingMusician: 'Anne Queffelec' },
-            { name: 'Gnossienne No. 5', fileName: 'gnossienne-no-5', recordingMusician: 'Anne Queffelec' }
+            { name: 'Gnossienne No. 3', fileName: 'gnossienne-no-3', recordingMusician: 'Anne Queffélec' },
+            { name: 'Gnossienne No. 4', fileName: 'gnossienne-no-4', recordingMusician: 'Anne Queffélec' },
+            { name: 'Gnossienne No. 5', fileName: 'gnossienne-no-5', recordingMusician: 'Anne Queffélec' },
+            { name: 'Gnossienne No. 6', fileName: 'gnossienne-no-6', recordingMusician: 'Anne Queffélec' }
         ]
     },
     {
