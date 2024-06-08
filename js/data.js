@@ -159,7 +159,8 @@ export const musiciansArray = [
         id: 'bach',
         name: 'Bach',
         songs: [
-            { name: 'The Well Tempered Clavier, Book 1: Prelude and Fugue No. 1 in C Major BWV 846', fileName: 'the-well-tempered-clavier-book-1-prelude-and-fugue-no-1-in-c-major-bwv-846', recordingMusician: 'Sviatoslav Richter' },
+            { name: 'The Well Tempered Clavier, Book 1: Prelude and Fugue No. 1 in C Major BWV 846 I. Prelude', fileName: 'the-well-tempered-clavier-book-1-prelude-and-fugue-no-1-in-c-major-bwv-846-i-prelude', recordingMusician: 'Sviatoslav Richter' },
+            { name: 'The Well Tempered Clavier, Book 1: Prelude and Fugue No. 1 in C Major BWV 846 II. Fugue', fileName: 'the-well-tempered-clavier-book-1-prelude-and-fugue-no-1-in-c-major-bwv-846-ii-fugue', recordingMusician: 'Sviatoslav Richter' },
             { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String)', fileName: 'orchestral-suite-no-3-in-d-major-bwv-1068-ii-air-on-the-g-string', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra', arrangement: 'August Wilhelmj' },
             { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Piano', fileName: 'orchestral-suite-no-3-in-d-major-bwv-1068-ii-air-on-the-g-string-piano', recordingMusician: 'Khatia Buniatishvili', arrangement: 'August Wilhelmj' },
             { name: 'Cello Suite No. 1 in G Major BWV 1007 I. Prelude', fileName: 'cello-suite-no-1-in-g-major-bwv-1007-i-prelude', recordingMusician: 'Yo-Yo Ma' },
