@@ -2183,7 +2183,7 @@ export const discussionsParagraphs = [
     Towards the late middle, the tempo and intensity increases as if to describe the moment when a person sees their Doppelgänger, realizes that is what it is, and then immediately knows that death is now upon them.
     This is followed by some kind of desperate but noble effort to escape the clutches of one's Doppelgänger and avoid this inevitability, but its eventual return to the slow tempo and reduction in intensity that it had at the beginning signifies the failure of this effort, the acceptance of this inevitability, and ultimately the death itself.
     Liszt's arrangement of this song with its darkness is an example of the diversity of his persona.
-    He was not just limited to expressions of emotions not associated with anything dark like the bliss felt in Consolation No. 3, the love felt in Liebestraum No. 3, or just the general beauty felt in To Sing on the Water.
+    He was not just limited to expressions of emotions disassociated with anything dark like the bliss felt in Consolation No. 3, the love felt in Liebestraum No. 3, or just the general beauty felt in To Sing on the Water.
     Liszt, like Chopin, could interact with both the light and the darkness.
     `,
     `
@@ -2259,9 +2259,9 @@ export const discussionsParagraphs = [
     Measures 30 through 46 are one of the most beautiful pieces of music ever written with bar 3 of measure 41 through bar 2 of measure 45 being one of the most beautiful pieces of music ever written within one of the most beautiful pieces of music ever written like a dream within a dream as is theorized in Nolan and Zimmer's Inception.
     Air on the G String, a modified arrangement of Bach's Orchestral Suite No. 3 in D Major 2nd Movement by August Wilhelmj, makes a laudable attempt to embody the music of the air most notably felt in those long, drawn out notes that hover gracefully in the atmosphere.
     The opening of Air on the G String, along with the aforementioned bars and measures of Toccata and Fugue in D Minor, highlight one of Bach's most prominent qualities which is his ability to create these fusions of notes too beautiful, too perfect, and too astounding to really describe as if one did not even know that something like that were possible until first experienced. 
-    Chopin is the master of expressing the soul and heart of man whereas Bach is more the master of expressing the soul and heart of the universe; one can listen to Chopin and behold the human condition whereas one can listen to Bach and behold the world itself in all its forms.
+    Chopin is more the master of expressing the soul and heart of man whereas Bach is more the master of expressing the soul and heart of the universe; one can listen to Chopin and behold the human condition whereas one can listen to Bach and behold the world itself in all its forms.
     A journey into Chopin's Prelude in E Minor will narrate the raw tragedy, sadness, and pain of humanity whereas a dive into Toccata and Fugue in D Minor will illustrate the marvelous nature of the cosmos.
-    Behold, what a beautiful universe that we live in, and behold, what a beautiful illustration of said universe that we can find in cosmic conduits like Bach.
+    Behold, what a beautiful universe that we live in, and behold, what a beautiful illustration of the universe that we can find in cosmic conduits like Bach.
     And on the point of illustrating the universe, one can also include Bach's cello prelude which cellist Yo-Yo Ma most exceptionally describes as a representation of the infinitude of the natural world, be that the infinite beauty of nature or how it is constant and unchanging. 
     `,
     `
