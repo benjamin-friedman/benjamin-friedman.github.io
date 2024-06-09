@@ -161,7 +161,8 @@ export const musiciansArray = [
         songs: [
             { name: 'The Well Tempered Clavier, Book 1: Prelude and Fugue No. 1 in C Major BWV 846 I. Prelude', fileName: 'the-well-tempered-clavier-book-1-prelude-and-fugue-no-1-in-c-major-bwv-846-i-prelude', recordingMusician: 'Sviatoslav Richter' },
             { name: 'The Well Tempered Clavier, Book 1: Prelude and Fugue No. 1 in C Major BWV 846 II. Fugue', fileName: 'the-well-tempered-clavier-book-1-prelude-and-fugue-no-1-in-c-major-bwv-846-ii-fugue', recordingMusician: 'Sviatoslav Richter' },
-            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String)', fileName: 'orchestral-suite-no-3-in-d-major-bwv-1068-ii-air-on-the-g-string', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra', arrangement: 'August Wilhelmj' },
+            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Cello and Orchestra', fileName: 'orchestral-suite-no-3-in-d-major-bwv-1068-ii-air-on-the-g-string-cello-and-orchestra', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra', arrangement: 'August Wilhelmj' },
+            { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Violin and Piano', fileName: 'orchestral-suite-no-3-in-d-major-bwv-1068-ii-air-on-the-g-string-violin-and-piano', recordingMusician: 'Emiri Miyamoto (Violin), Takashi Sato (Piano)', arrangement: 'August Wilhelmj' },
             { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Piano', fileName: 'orchestral-suite-no-3-in-d-major-bwv-1068-ii-air-on-the-g-string-piano', recordingMusician: 'Khatia Buniatishvili', arrangement: 'August Wilhelmj' },
             { name: 'Cello Suite No. 1 in G Major BWV 1007 I. Prelude', fileName: 'cello-suite-no-1-in-g-major-bwv-1007-i-prelude', recordingMusician: 'Yo-Yo Ma' },
             { name: 'Toccata and Fugue in D Minor BWV 565', fileName: 'toccata-and-fugue-in-d-minor-bwv-565', recordingMusician: 'Rousseau' }
@@ -2174,7 +2175,7 @@ export const discussionsParagraphs = [
     The word is apathetic and there is no negative or positive undertone.
     However, in its roots it is actually a loanword from the term Doppelgänger which translates to <i>double walker</i>, and in this context it takes on a sinister persona.
     In German mythology and legend, a double walker refers to a ghostly or paranormal replica of oneself, and if seen is an omen or sign of bad luck very often denoting that death is imminent.
-    It is for this reason that the song, although beautiful, is captured by this darkness, intensity, and even some tragedy.
+    It is for this reason that the song is captured by this beautiful darkness along with some somberness, intensity, and tragedy.
     Schubert's original Der Doppelgänger is based off a poem by Heinrich Heine.
     Although the word Doppelgänger is used in the poem, the poem itself is untitled, and Schubert is the one who applied the title Der Doppelgänger to his lied.
     The music adequately captures the story of the poem - the night begins calm and quiet for a man until he sees his Doppelgänger and becomes terrified and tormented.
