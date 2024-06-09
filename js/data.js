@@ -78,15 +78,15 @@ export const musiciansArray = [
             { name: 'N16 - Nocturne in E-Flat Major Op. 55 No. 2', fileName: 'n16-nocturne-in-e-flat-major-op-55-no-2', recordingMusician: 'François Chaplin' },
             { name: 'N17 - Nocturne in B Major Op. 62 No. 1', fileName: 'n17-nocturne-in-b-major-op-62-no-1', recordingMusician: 'François Chaplin' },
             { name: 'N18 - Nocturne in E Major Op. 62 No. 2', fileName: 'n18-nocturne-in-e-major-op-62-no-2', recordingMusician: 'François Chaplin' },
-            { name: 'N19 - Nocturne in E Minor Op. Posth. 72 No. 1, WN 23', fileName: 'n19-nocturne-in-e-minor-op-posth-72-no-1-wn-23', recordingMusician: 'SLDD Piano' },
-            { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth., WN 37', fileName: 'n20-nocturne-in-c-sharp-minor-op-posth-wn-37', recordingMusician: 'Nelson Goerner' },
-            { name: 'N21 - Nocturne in C Minor Op. Posth., WN 62', fileName: 'n21-nocturne-in-c-minor-op-posth-wn-62', recordingMusician: 'François Chaplin' },
+            { name: 'N19 - Nocturne in E Minor Op. Posth. 72 No. 1', fileName: 'n19-nocturne-in-e-minor-op-posth-72-no-1-wn-23', recordingMusician: 'SLDD Piano' },
+            { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth., P. 1 No. 16', fileName: 'n20-nocturne-in-c-sharp-minor-op-posth-p1-no-16', recordingMusician: 'Nelson Goerner' },
+            { name: 'N21 - Nocturne in C Minor Op. Posth., P. 2 No. 8', fileName: 'n21-nocturne-in-c-minor-op-posth-p2-no-8', recordingMusician: 'François Chaplin' },
+            { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth., P. 1 No. 16 - Cello and Orchestra', fileName: 'n20-nocturne-in-c-sharp-minor-op-posth-p1-no-16-cello-and-orchestra', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
             { name: 'Etude in C Minor Op. 10 No. 12 (Revolutionary Etude)', fileName: 'etude-in-c-minor-op-10-no-12-revolutionary-etude', recordingMusician: 'Rousseau' },
             { name: 'Etude in A Minor Op. 25 No. 11 (Winter Wind)', fileName: 'etude-in-a-minor-op-25-no-11-winter-wind', recordingMusician: 'Rousseau' },
             { name: 'Piano Sonata No. 2 in B-Flat Minor Op. 35 III. (Funeral March)', fileName: 'piano-sonata-no-2-in-b-flat-minor-op-35-iii-funeral-march', recordingMusician: 'Rousseau' },
-            { name: 'Fantaisie-Impromptu in C-Sharp Minor Op. Posth. 66, WN 46', fileName: 'fantaisie-impromptu-in-c-sharp-minor-op-posth-66-wn-46', recordingMusician: 'Dmitry Shishkin' },
-            { name: 'Ballade No. 1 in G Minor Op. 23 (La Ballade)', fileName: 'ballade-no-1-in-g-minor-op-23-la-ballade', recordingMusician: 'Seong-Jin Cho' },
-            { name: 'N20 - Nocturne in C-Sharp Minor Op. Posth., WN 37 - Cello', fileName: 'n20-nocturne-in-c-sharp-minor-op-posth-wn-37-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
+            { name: 'Fantaisie-Impromptu in C-Sharp Minor Op. Posth. 66', fileName: 'fantaisie-impromptu-in-c-sharp-minor-op-posth-66', recordingMusician: 'Dmitry Shishkin' },
+            { name: 'Ballade No. 1 in G Minor Op. 23 (La Ballade)', fileName: 'ballade-no-1-in-g-minor-op-23-la-ballade', recordingMusician: 'Seong-Jin Cho' }
         ]
     },
     {
@@ -96,11 +96,11 @@ export const musiciansArray = [
             { name: 'Liebestraum No. 3 in A-Flat Major S. 541/3 (Love Dream)', fileName: 'liebestraum-no-3-in-a-flat-major-s-541-3-love-dream', recordingMusician: 'Khatia Buniatishvili' },
             { name: 'Romance "O pourquoi donc" in E Minor S. 169', fileName: 'romance-o-pourquoi-donc-in-e-minor-s-169', recordingMusician: 'Genny Basso' },
             { name: 'Consolation No. 3 in D-Flat Major S. 172/3', fileName: 'consolation-no-3-in-d-flat-major-s-172-3', recordingMusician: 'Rousseau' },
-            { name: 'Ständchen S. 559a (Serenade) - Piano', fileName: 'standchen-s-559a-serenade-piano', recordingMusician: 'Rousseau', composer: 'Schubert' },
+            { name: 'Ständchen S. 559a (Serenade)', fileName: 'standchen-s-559a-serenade', recordingMusician: 'Rousseau', composer: 'Schubert' },
             { name: 'Etude No. 3 in D-Flat Major S. 144/3 (Un Sospiro)', fileName: 'etude-no-3-in-d-flat-major-s-144-3-un-sospiro', recordingMusician: 'Rousseau' },
-            { name: 'Etude No. 3 in G-Sharp Minor S. 141/3 (La Campanella) - Piano', fileName: 'etude-no-3-in-g-sharp-minor-s-141-3-la-campanella-piano', recordingMusician: 'Rousseau', composer: 'Paganini' },
-            { name: 'Auf dem Wasser zu singen S. 558/2 (To Sing on the Water) - Piano', fileName: 'auf-dem-wasser-zu-singen-s-558-2-to-sing-on-the-water-piano', recordingMusician: 'Fatjon Zefi', composer: 'Schubert' },
-            { name: 'Der Doppelgänger S. 560/12 (The Double Walker) - Piano', fileName: 'der-doppelganger-s-560-12-the-double-walker-piano', recordingMusician: 'Traum Piano', composer: 'Schubert' },
+            { name: 'Etude No. 3 in G-Sharp Minor S. 141/3 (La Campanella)', fileName: 'etude-no-3-in-g-sharp-minor-s-141-3-la-campanella', recordingMusician: 'Rousseau', composer: 'Paganini' },
+            { name: 'Auf dem Wasser zu singen S. 558/2 (To Sing on the Water)', fileName: 'auf-dem-wasser-zu-singen-s-558-2-to-sing-on-the-water', recordingMusician: 'Fatjon Zefi', composer: 'Schubert' },
+            { name: 'Der Doppelgänger S. 560/12 (The Double Walker)', fileName: 'der-doppelganger-s-560-12-the-double-walker', recordingMusician: 'Traum Piano', composer: 'Schubert' },
             { name: 'Hungarian Rhapsody No. 2 in C-Sharp Minor S. 244/2', fileName: 'hungarian-rhapsody-no-2-in-c-sharp-minor-s-244-2', recordingMusician: 'Rousseau' }
         ]
     },
@@ -111,8 +111,8 @@ export const musiciansArray = [
             { name: 'Impromptu in G-Flat Major Op. 90 No. 3, D. 899', fileName: 'impromptu-in-g-flat-major-op-90-no-3-d-899', recordingMusician: 'Olga Jegunova' },
             { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Arrangement 1', fileName: 'piano-trio-no-2-in-e-flat-major-op-100-d-929-arrangement-1', recordingMusician: 'Anthony Goldstone (Piano), Moray Welsh (Cello), Ralph Holmes (Violin)' },
             { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Arrangement 2', fileName: 'piano-trio-no-2-in-e-flat-major-op-100-d-929-arrangement-2', recordingMusician: 'Howard Shelley (Piano), Raphael Wallfisch (Cello), Ralph Holmes (Violin)' },
-            { name: 'Ständchen D. 889 (Serenade)', fileName: 'standchen-d-889-serenade', recordingMusician: 'Unknown' },
-            { name: 'Ständchen D. 889 (Serenade) - Piano and Cello', fileName: 'standchen-d-889-serenade-piano-and-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
+            { name: 'Ständchen D. 889 (Serenade) - Orchestra', fileName: 'standchen-d-889-serenade-orchestra', recordingMusician: 'Unknown' },
+            { name: 'Ständchen D. 889 (Serenade) - Cello and Piano', fileName: 'standchen-d-889-serenade-cello-and-piano', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
         ]
     },
     {
@@ -159,8 +159,8 @@ export const musiciansArray = [
         id: 'bach',
         name: 'Bach',
         songs: [
-            { name: 'The Well Tempered Clavier, Book 1: Prelude and Fugue No. 1 in C Major BWV 846 I. Prelude', fileName: 'the-well-tempered-clavier-book-1-prelude-and-fugue-no-1-in-c-major-bwv-846-i-prelude', recordingMusician: 'Sviatoslav Richter' },
-            { name: 'The Well Tempered Clavier, Book 1: Prelude and Fugue No. 1 in C Major BWV 846 II. Fugue', fileName: 'the-well-tempered-clavier-book-1-prelude-and-fugue-no-1-in-c-major-bwv-846-ii-fugue', recordingMusician: 'Sviatoslav Richter' },
+            { name: 'The Well Tempered Clavier Book 1: Prelude and Fugue No. 1 in C Major BWV 846 I. Prelude', fileName: 'the-well-tempered-clavier-book-1-prelude-and-fugue-no-1-in-c-major-bwv-846-i-prelude', recordingMusician: 'Sviatoslav Richter' },
+            { name: 'The Well Tempered Clavier Book 1: Prelude and Fugue No. 1 in C Major BWV 846 II. Fugue', fileName: 'the-well-tempered-clavier-book-1-prelude-and-fugue-no-1-in-c-major-bwv-846-ii-fugue', recordingMusician: 'Sviatoslav Richter' },
             { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Cello and Orchestra', fileName: 'orchestral-suite-no-3-in-d-major-bwv-1068-ii-air-on-the-g-string-cello-and-orchestra', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra', arrangement: 'August Wilhelmj' },
             { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Violin and Piano', fileName: 'orchestral-suite-no-3-in-d-major-bwv-1068-ii-air-on-the-g-string-violin-and-piano', recordingMusician: 'Emiri Miyamoto (Violin), Takashi Sato (Piano)', arrangement: 'August Wilhelmj' },
             { name: 'Orchestral Suite No. 3 in D Major BWV 1068 II. (Air on the G String) - Piano', fileName: 'orchestral-suite-no-3-in-d-major-bwv-1068-ii-air-on-the-g-string-piano', recordingMusician: 'Khatia Buniatishvili', arrangement: 'August Wilhelmj' },
@@ -175,13 +175,13 @@ export const musiciansArray = [
             { name: 'Piano Concerto No. 2 in C Minor Op. 18 I.', fileName: 'piano-concerto-no-2-in-c-minor-op-18-i', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
             { name: 'Piano Concerto No. 2 in C Minor Op. 18 II.', fileName: 'piano-concerto-no-2-in-c-minor-op-18-ii', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
             { name: 'Piano Concerto No. 2 in C Minor Op. 18 III.', fileName: 'piano-concerto-no-2-in-c-minor-op-18-iii', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
-            { name: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello', fileName: 'piano-concerto-no-2-in-c-minor-op-18-ii-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
+            { name: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello and Orchestra', fileName: 'piano-concerto-no-2-in-c-minor-op-18-ii-cello-and-orchestra', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
             { name: 'Moment Musicaux in E Minor Op. 16 No. 4', fileName: 'moment-musicaux-in-e-minor-op-16-no-4', recordingMusician: 'Nikolai Lugansky' },
             { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor', fileName: 'morceaux-de-fantaisie-op-3-no-1-elegie-in-e-flat-minor', recordingMusician: 'Luke Faulkner' },
             { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor - Cello and Piano', fileName: 'morceaux-de-fantaisie-op-3-no-1-elegie-in-e-flat-minor-cello-and-piano', recordingMusician: 'Isata Kanneh-Mason (Piano), Sheku Kanneh-Mason (Cello)' },
             { name: 'Morceaux de Fantaisie Op. 3 No. 2 Prelude in C-Sharp Minor', fileName: 'morceaux-de-fantaisie-op-3-no-2-prelude-in-c-sharp-minor', recordingMusician: 'Nikolai Lugansky' },
-            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', fileName: '14-romances-op-34-no-14-vocalise-cello', recordingMusician: 'Han-Na Chang, Philharmonia Orchestra' },
-            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', fileName: '14-romances-op-34-no-14-vocalise-voice', recordingMusician: 'Alison Lau, re:Sound Collective' },
+            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello and Orchestra', fileName: '14-romances-op-34-no-14-vocalise-cello-and-orchestra', recordingMusician: 'Han-Na Chang, Philharmonia Orchestra' },
+            { name: '14 Romances Op. 34 No. 14 (Vocalise) - Vocals and Orchestra', fileName: '14-romances-op-34-no-14-vocalise-vocals-and-orchestra', recordingMusician: 'Alison Lau, re:Sound Collective' },
             { name: 'Cello Sonata in G Minor Op. 19 III.', fileName: 'cello-sonata-in-g-minor-op-19-iii', recordingMusician: 'Marie-Ève Scarfone (Piano), Stéphane Tétreault (Cello)' },
             { name: 'Isle of the Dead Op. 29', fileName: 'isle-of-the-dead-op-29', recordingMusician: 'Royal Stockholm Philharmonic Orchestra' }
         ]
@@ -239,7 +239,7 @@ export const musiciansArray = [
         id: 'giazotto',
         name: 'Giazotto',
         songs: [
-            { name: 'Adagio in G Minor', fileName: 'adagio-in-g-minor', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
+            { name: 'Adagio in G Minor - Cello and Orchestra', fileName: 'adagio-in-g-minor-cello-and-orchestra', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
         ]
     },
     {
@@ -353,14 +353,14 @@ export const musiciansArray = [
         id: 'donizetti',
         name: 'Donizetti',
         songs: [
-            { name: "Una furtiva lagrima from L'elisir d'amore - Cello", fileName: 'una-furtiva-lagrima-from-l-elisir-d-amore-cello', recordingMusician: 'Camille Thomas, Brussels Philharmonic Orchestra' }
+            { name: "Una furtiva lagrima from L'elisir d'amore - Cello and Orchestra", fileName: 'una-furtiva-lagrima-from-l-elisir-d-amore-cello-and-orchestra', recordingMusician: 'Camille Thomas, Brussels Philharmonic Orchestra' }
         ]
     },
     {
         id: 'mascagni',
         name: 'Mascagni',
         songs: [
-            { name: 'Intermezzo sinfonico from Cavalleria rusticana - Cello', fileName: 'intermezzo-sinfonico-from-cavalleria-rusticana-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
+            { name: 'Intermezzo sinfonico from Cavalleria rusticana - Cello and Orchestra', fileName: 'intermezzo-sinfonico-from-cavalleria-rusticana-cello-and-orchestra', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
         ]
     },
     {
