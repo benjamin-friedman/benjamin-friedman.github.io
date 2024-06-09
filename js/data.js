@@ -152,7 +152,7 @@ export const musiciansArray = [
             { name: 'Requiem in D Minor K. 626 VII. Agnus dei', fileName: 'requiem-in-d-minor-k-626-vii-agnus-dei', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
             { name: 'Requiem in D Minor K. 626 VIII. Communio - Lux aeterna', fileName: 'requiem-in-d-minor-k-626-viii-communio-lux-aeterna', recordingMusician: 'Academy of St. Martin in the Fields Choir' },
             { name: 'Requiem in D Minor K. 626 VIII. Communio - Cum sanctus tuis', fileName: 'requiem-in-d-minor-k-626-viii-com-sanctus-tuis', recordingMusician: "Choir of King's College, Cambridge" },
-            { name: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa - Cello', fileName: 'requiem-in-d-minor-k-626-iii-sequentia-lacrimosa-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
+            { name: 'Requiem in D Minor K. 626 III. Sequentia - Lacrimosa - Cello and Orchestra', fileName: 'requiem-in-d-minor-k-626-iii-sequentia-lacrimosa-cello-and-orchestra', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
         ]
     },
     {
@@ -178,7 +178,7 @@ export const musiciansArray = [
             { name: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello', fileName: 'piano-concerto-no-2-in-c-minor-op-18-ii-cello', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
             { name: 'Moment Musicaux in E Minor Op. 16 No. 4', fileName: 'moment-musicaux-in-e-minor-op-16-no-4', recordingMusician: 'Nikolai Lugansky' },
             { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor', fileName: 'morceaux-de-fantaisie-op-3-no-1-elegie-in-e-flat-minor', recordingMusician: 'Luke Faulkner' },
-            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor - Cello', fileName: 'morceaux-de-fantaisie-op-3-no-1-elegie-in-e-flat-minor-cello', recordingMusician: 'Isata Kanneh-Mason (Piano), Sheku Kanneh-Mason (Cello)' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor - Cello and Piano', fileName: 'morceaux-de-fantaisie-op-3-no-1-elegie-in-e-flat-minor-cello-and-piano', recordingMusician: 'Isata Kanneh-Mason (Piano), Sheku Kanneh-Mason (Cello)' },
             { name: 'Morceaux de Fantaisie Op. 3 No. 2 Prelude in C-Sharp Minor', fileName: 'morceaux-de-fantaisie-op-3-no-2-prelude-in-c-sharp-minor', recordingMusician: 'Nikolai Lugansky' },
             { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello', fileName: '14-romances-op-34-no-14-vocalise-cello', recordingMusician: 'Han-Na Chang, Philharmonia Orchestra' },
             { name: '14 Romances Op. 34 No. 14 (Vocalise) - Voice', fileName: '14-romances-op-34-no-14-vocalise-voice', recordingMusician: 'Alison Lau, re:Sound Collective' },
@@ -230,7 +230,7 @@ export const musiciansArray = [
         id: 'saint-saens',
         name: 'Saint-Saëns',
         songs: [
-            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Harp', fileName: 'the-carnival-of-the-animals-xiii-the-swan-cello-and-harp', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' },
+            { name: 'The Carnival of the Animals XIII. (The Swan) - Cello, Harp, and Orchestra', fileName: 'the-carnival-of-the-animals-xiii-the-swan-cello-harp-and-orchestra', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' },
             { name: 'The Carnival of the Animals XIII. (The Swan) - Cello and Piano', fileName: 'the-carnival-of-the-animals-xiii-the-swan-cello-and-piano', recordingMusician: 'Kathryn Stott (Piano), Yo-Yo Ma (Cello)' },
             { name: 'Cello Concerto No. 1 in A Minor Op. 33 I. and III.', fileName: 'cello-concerto-no-1-in-a-minor-op-33-i-and-iii', recordingMusician: 'Andrew Shulman' }
         ]
@@ -246,7 +246,7 @@ export const musiciansArray = [
         id: 'barber',
         name: 'Barber',
         songs: [
-            { name: 'Adagio for Strings', fileName: 'adagio-for-strings', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
+            { name: 'Adagio for Strings - Cello and Orchestra', fileName: 'adagio-for-strings-cello-and-orchestra', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
             { name: 'Agnus Dei', fileName: 'agnus-dei', recordingMusician: 'Dale Warland Singers' }
         ]
     },
@@ -261,8 +261,8 @@ export const musiciansArray = [
         id: 'massenet',
         name: 'Massenet',
         songs: [
-            { name: 'Méditation from Thaïs', fileName: 'meditation-from-thais', recordingMusician: 'Anne-Sophie Bertrand (Harp), Renaud Capuçon (Violin)' },
-            { name: 'Méditation from Thaïs - Cello', fileName: 'meditation-from-thais-cello', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
+            { name: 'Méditation from Thaïs - Violin and Harp', fileName: 'meditation-from-thais-violin-and-harp', recordingMusician: 'Anne-Sophie Bertrand (Harp), Renaud Capuçon (Violin)' },
+            { name: 'Méditation from Thaïs - Cello and Orchestra', fileName: 'meditation-from-thais-cello-and-orchestra', recordingMusician: 'Stjepan Hauser, Zagreb Philharmonic Orchestra' }
         ]
     },
     {
