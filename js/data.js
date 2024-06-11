@@ -2154,9 +2154,10 @@ export const discussionsParagraphs = [
     `,
     `
     Franz Liszt, a Hungarian composer living from 1811 to 1886, was another beacon of the Romantic period who along with Chopin and others is regarded as one of its sentinels.
-    Like Chopin, Liszt is known for his beautiful, elegant, and technically demanding solo piano pieces.
-    If it were to be said that Chopin is the greatest classical piano composer of all time, then Liszt is maybe the first to come to mind for which it would feel like a betrayal was being enacted upon him, and the term <i>the pianist's composer</i> would be suitable for him as well.
-    Together, they are the twins of virtuosic piano; the ambassadors of Romantic period pianistic virtuosity.
+    Unlike Chopin, many of Liszt's compositions traverse outside the world of the solo piano, and his over 700 compositions include organ pieces, choral and vocal works, orchestral works, symphonic poems, and chamber music.
+    However, like Chopin he is most well known for his beautiful, elegant, and technically demanding solo piano pieces, and if it were to be said that Chopin is the greatest classical piano composer of all time, then he is maybe the first to come to mind for which it would feel like a betrayal were being enacted upon him.
+    Certainly, the term <i>the pianist's composer</i> would be suitable for him as well.
+    Together, Chopin and Liszt are the twins of virtuosic piano; the ambassadors of Romantic period pianistic virtuosity.
     After moving to France around the same time as Chopin, the two became friends and although not especially close they deeply respected each other's work both as composers and musicians.
     Their relationship did at times have its struggles for a number of reasons, but despite any negativity that may have arisen the similarity of their musical style, talent, and greatness makes them out to be like two kindred souls mirroring and echoing each other's spirit and understanding of the human condition.
     Aside from his greatness as a piano composer and performative ability as a virtuoso pianist, something that makes Liszt unique is his work as a composer is not limited to his own original compositions but also includes piano arrangements of songs previously composed for other instruments.
