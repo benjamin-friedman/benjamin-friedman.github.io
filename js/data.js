@@ -101,7 +101,8 @@ export const musiciansArray = [
             { name: 'Etude No. 3 in G-Sharp Minor S. 141/3 (La Campanella)', fileName: 'etude-no-3-in-g-sharp-minor-s-141-3-la-campanella', recordingMusician: 'Rousseau', composer: 'Paganini' },
             { name: 'Auf dem Wasser zu singen S. 558/2 (To Sing on the Water)', fileName: 'auf-dem-wasser-zu-singen-s-558-2-to-sing-on-the-water', recordingMusician: 'Fatjon Zefi', composer: 'Schubert' },
             { name: 'Der Doppelgänger S. 560/12 (The Double Walker)', fileName: 'der-doppelganger-s-560-12-the-double-walker', recordingMusician: 'Traum Piano', composer: 'Schubert' },
-            { name: 'Hungarian Rhapsody No. 2 in C-Sharp Minor S. 244/2', fileName: 'hungarian-rhapsody-no-2-in-c-sharp-minor-s-244-2', recordingMusician: 'Rousseau' }
+            { name: 'Hungarian Rhapsody No. 2 in C-Sharp Minor S. 244/2', fileName: 'hungarian-rhapsody-no-2-in-c-sharp-minor-s-244-2', recordingMusician: 'Rousseau' },
+            { name: 'Bénédiction de Dieu dans la solitude S. 173/3 (The Blessing of God in Solitude)', fileName: 'benediction-de-dieu-dans-la-solitude-s-173-3-the-blessing-of-god-in-solitude', recordingMusician: 'Rousseau' }
         ]
     },
     {
