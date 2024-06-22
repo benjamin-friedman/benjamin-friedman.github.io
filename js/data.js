@@ -270,8 +270,8 @@ export const musiciansArray = [
         id: 'mussorgsky',
         name: 'Mussorgsky',
         songs: [
-            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello', fileName: 'pictures-at-an-exhibition-no-2-il-vecchio-castello', recordingMusician: 'Metamorphose String Orchestra and Pavel Lyubomudrov' },
-            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello - Piano', fileName: 'pictures-at-an-exhibition-no-2-il-vecchio-castello-piano', recordingMusician: 'Khatia Buniatishvili' },
+            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello', fileName: 'pictures-at-an-exhibition-no-2-il-vecchio-castello', recordingMusician: 'Khatia Buniatishvili', arrangement: 'Ravel' },
+            { name: 'Pictures at an Exhibition No. 2 Il Vecchio Castello - Orchestra', fileName: 'pictures-at-an-exhibition-no-2-il-vecchio-castello-orchestra', recordingMusician: 'Metamorphose String Orchestra and Pavel Lyubomudrov' },
             { name: 'Night on Bald Mountain', fileName: 'night-on-bald-mountain', recordingMusician: 'New York Philharmonic Orchestra', arrangement: 'Nikolai Rimsky-Korsakov' }
         ]
     },
@@ -2213,7 +2213,7 @@ export const discussionsParagraphs = [
     Cloaked in the spirit of the Romantic period, the first movement of Moonlight Sonata is potentially the most recognizable solo piano work of all time.
     Its sentiment cannot be underscored enough, and it is a timeless entity that exists in its own realm.
     Even if Beethoven had composed no other music he could still be thrusted into the hierarchy of the greats due to this piece's composition, and a coincidence it is not that his most beautiful and moving piece uses the same key as one of Chopin's most beautiful and moving pieces - C-sharp minor.
-    The relative simplicity of Moonlight Sonata 1st Movement means that the subtlety of its details is the most influential factor in the formation of its interpretation, and Japanese pianist Mitsuko Uchida has one of the best of all time.
+    Like other piano pieces that are simple on paper including Chopin's Prelude in E Minor, the relative simplicity of Moonlight Sonata 1st Movement means that the subtlety of its details is the most influential factor in the formation of its interpretation, and those who can explore within that subtlety and nuance are able to engender the most moving of interpretations.
     Exuding that deep, heavy, profound, intangible, and indescribable emotional essence that so often characterizes Romantic period songs, Moonlight Sonata 1st Movement presents itself as a candidate for the most beautiful and moving song ever composed on the piano, but once again one finds oneself in an impossible situation when trying to construct such rankings.
     It cannot be claimed that Moonlight Sonata 1st Movement is <i>the</i> most beautiful and moving song ever composed on the piano when standing right there next to it in the rain is a song like Chopin's Prelude 4 in E Minor or Nocturne 20 in C-Sharp Minor.
     Confronted once again with the unstoppable force paradox - an impossible situation birthing an impossible question begging an impossible answer - it is realized that no such answer exists.
@@ -2432,13 +2432,12 @@ export const discussionsParagraphs = [
     `
     Modest Mussorgsky, another Russian composer and member of Russia's The Five, lived from 1839 to 1881 and composed a number of great compositions including Pictures at an Exhibition and Night on Bald Mountain.
     Pictures at and Exhibition is a 10 movement piano suite, with the addition of a theme titled Promenade, describing an exhibition of paintings by Russian painter Viktor Hartmann wherein each song attempts to describe one of Hartmann's painting during an exhibition of his work in 1874 one year after his death.
-    Although Mussorgsky's original composition is for the piano, the most widely performed version is that of Maurice Ravel who adapted it for orchestra in 1922. 
+    Although Mussorgsky's original composition is for the piano, the most widely performed version is that of French composer Maurice Ravel who adapted it for orchestra in 1922. 
     The second and one of the most famous movements, <i>Il Vecchio Castello</i>, is one of the most hauntingly beautiful pieces of music ever composed, and if not versed in Italian then upon learning that <i>il vecchio castello</i> translates to <i>the old castle</i> the feeling of the song becomes quite fitting.
     Such a castle can be envisioned - large, old, and abandoned but still maintaining a noble and majestic aura; host to another time of man now bygone, and despite its long unoccupied state the presence of that which was can still be felt like a gentle wind traversing the air while the at times eerily beautiful sentiment of the music echoes the secrets, mysteries, and magic that such places might have possessed.
     The melody in measures 7 through 15, beginning with D-sharp and G-sharp and terminating with B and G-sharp one ocatve down, is one of the most beautiful and picturesque pieces of music ever put to paper.
     It vividly resonates in the air with something calm, peaceful, elegant, soothing, mysterious, reflective, and nostalgic, and its ability to continuously move ones inner spirit no matter how many times it is listened to can be felt in any arrangement be that with the saxophone in Ravel's orchestral arrangement or the original version on the piano.
     Similar to Liszt's piano arrangment of Schubert's Serenade or piano arrangements of Bach's Air on the G String, the piano version of Il Vecchio Castello demonstrates how musical beauty does not mandate complexity, and some of the most beautiful songs ever composed on the piano are actually birthed from some of the most simple.
-    Georgian pianist Khatia Buniatishvili has one of the best interpretations ever, and her slow, gentle, and emotional interpretation of the notes perfectly exudes the essence of the song and this old castle that it ventures to describe.
     Moving away from the haunting beauty found in Il Vecchio Castello, Mussorgsky shifts gears to something more exhilarating, frightful, and dark in Night on Bald Mountain.
     Night on Bald Mountain is a tone poem that underwent numerous revisions over time both in regards to its musical composition and story narration, but it generally tells the story of some evening revelry of dark spirits on a mountain led by some great demonic character.
     In its first version named St. John's Night on the Bare Mountain, Mussorgsky sought to narrate the Russian legend of a Witches Sabbath led by Satan on a mountain named Lysa Hora near the city of Kyiv on St. John's Night.
