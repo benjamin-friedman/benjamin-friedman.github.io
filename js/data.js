@@ -2418,8 +2418,11 @@ export const discussionsParagraphs = [
     `,
     `
     Dmitri Shostakovich was a Russian composer like Rachmaninoff living from 1906 to 1975.
-    His most famous composition Waltz No. 2 unexpectedly integrates the saxophone, which is more commonly associated with Jazz, into an otherwise traditionally classical song which delivers a pleasant and soothing surprise.
-    Although it is also commonly played on the cello and versions that do this deserve recognition, its grandest form remains with the saxophone and as such it is a truly unique piece of music.
+    Waltz No. 2, his most famous composition and one of the most famous waltzes ever, is often played utilizing the saxophone for the main melody.
+    Words cannot describe the elegance of this song, and it is one of those pieces for which there are few if any people who could ever get tired of listening to it.
+    Although the saxophone was originally invented for classical music in the 1840s by Belgian instrument maker Adolphe Sax long before the invention of Jazz, it is most commonly associated with the latter genre, and as such this fusion between classical music and an instrument traditionally associated with Jazz will deliver a pleasant surprise for most upon hearing it for the first time.
+    It is also commonly played on other instruments like the cello, and versions that do this deserve recognition.
+    However, the grandest form of Waltz No. 2 remains with the saxophone, and those pure and soothing notes emanating from the sax really help to exude its elegant spirit.
     `,
     `
     Jules Massenet was a French composer living from 1842 to 1912 primarily known for his operas.
@@ -2432,7 +2435,7 @@ export const discussionsParagraphs = [
     `,
     `
     Modest Mussorgsky, another Russian composer and member of Russia's The Five, lived from 1839 to 1881 and composed a number of great compositions including Pictures at an Exhibition and Night on Bald Mountain.
-    Pictures at an Exhibition is a 10 movement piano suite, with the addition of a theme titled Promenade, describing an exhibition of paintings by Russian painter Viktor Hartmann wherein each song attempts to describe one of Hartmann's paintings during an exhibition of his work in 1874 one year after his death.
+    Pictures at an Exhibition is a ten-movement piano suite, with the addition of a theme titled Promenade, describing an exhibition of paintings by Russian painter Viktor Hartmann wherein each song attempts to describe one of Hartmann's paintings during an exhibition of his work in 1874 one year after his death.
     Although Mussorgsky's original composition is for the piano, the most widely performed version is that of French composer Maurice Ravel who adapted it for orchestra in 1922. 
     The second and one of the most famous movements, <i>Il Vecchio Castello</i>, is one of the most hauntingly beautiful pieces of music ever composed, and if not versed in Italian then upon learning that <i>il vecchio castello</i> translates to <i>the old castle</i> the feeling of the song becomes quite fitting.
     Such a castle can be envisioned - large, old, and abandoned but still maintaining a noble and majestic aura; host to another time of man now bygone, and despite its long unoccupied state the presence of that which was can still be felt like a gentle wind traversing the air while the at times eerily beautiful sentiment of the music echoes the secrets, mysteries, and magic that such places might have possessed.
