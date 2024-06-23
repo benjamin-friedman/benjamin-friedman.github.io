@@ -2418,10 +2418,10 @@ export const discussionsParagraphs = [
     `,
     `
     Dmitri Shostakovich was a Russian composer like Rachmaninoff living from 1906 to 1975.
-    Waltz No. 2, his most famous composition and one of the most famous waltzes ever, is often played utilizing the saxophone for the main melody.
-    Words cannot describe the elegance of this song, and it is one of those pieces for which there are few if any people who could ever get tired of listening to it.
+    Waltz No. 2, his most famous composition and one of the most famous waltzes ever, is one of those pieces for which there are few if any people who could ever get tired of listening to it.
+    The elegant feeling of the song is no doubt in part due to Shostakovich's choice to utilize the saxophone for the main melody.
     Although the saxophone was originally invented for classical music in the 1840s by Belgian instrument maker Adolphe Sax long before the invention of Jazz, it is most commonly associated with the latter genre, and as such this fusion between classical music and an instrument traditionally associated with Jazz will deliver a pleasant surprise for most upon hearing it for the first time.
-    It is also commonly played on other instruments like the cello, and versions that do this deserve recognition.
+    Other versions have been performed as well with other instruments including the cello, and versions that do this deserve recognition.
     However, the grandest form of Waltz No. 2 remains with the saxophone, and those pure and soothing notes emanating from the sax really help to exude its elegant spirit.
     `,
     `
