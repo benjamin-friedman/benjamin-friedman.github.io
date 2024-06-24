@@ -49,7 +49,8 @@ export const musiciansArray = [
             { name: 'A Small Measure of Peace', fileName: 'a-small-measure-of-peace', soundtrack: 'The Last Samurai' },
             { name: 'Elysium', fileName: 'elysium', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
             { name: 'Honor Him', fileName: 'honor-him', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
-            { name: 'Now We Are Free', fileName: 'now-we-are-free', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
+            { name: 'Now We Are Free - Original (Lisa Gerrard)', fileName: 'now-we-are-free-original-lisa-gerrard', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
+            { name: 'Now We Are Free - Live (Czarina Russell)', fileName: 'now-we-are-free-live-czarina-russell', soundtrack: 'Gladiator', contributors: 'Klaus Badelt, Lisa Gerrard' },
             { name: 'Now We Are Free - Cello', fileName: 'now-we-are-free-cello', soundtrack: 'Gladiator', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
         ]
     },
@@ -2069,7 +2070,7 @@ export const discussionsParagraphs = [
     `
     Hans Zimmer is one of the best composers ever and the greatest soundtrack composer of all time.
     The breadth and depth of his work is unrivaled, having composed some of the most beautiful, powerful, moving, and emotional music ever written in scores of major motion picture soundtracks.
-    It is the combination of the somewhat unfathomable expanse of his body of work in stride with the diverse and at times disparate nature of his compositions that renders him in a category of his own.
+    It is the combination of the somewhat unfathomable expanse of his body of work in stride with the diverse and at times disparate nature of his compositions that renders him into a category of his own.
     Some of his best work comes from The Dark Knight trilogy, The Pirates of the Caribbean series, Inception, and Interstellar amongst many other films.
     From The Dark Knight trilogy his best compositions include Corynorhinus, Myotis, Molossus, A Dark Knight, Agent of Chaos, and Why Do We Fall.
     One of the most beautiful scores ever written is the unreleased track Marry Me from Pirates of the Caribbean: At World's End, and other incredible songs he has composed include Time from Inception, First Steps, No Time for Caution, and Mountains from Interstellar, Final Ascent from No Time to Die, and A Way of Life and A Small Measure of Peace from The Last Samurai.
