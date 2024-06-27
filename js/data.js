@@ -2282,7 +2282,7 @@ export const discussionsParagraphs = [
     Music is beyond just being enough, beyond just being vast.
     It exists on an infinite plane, and that plane is infinite both in regards to its capacity for creation and the experiences that can come from it.
     Ergo, in the background of the passage of time dwells an ever present ray of hope, like an undying ember, that the next piece of music that will move one in a way unlike anything else can is always lingering around the corner just waiting to be discovered, and in the meantime the anticipation it generates can be effortlessly assuaged by taking refuge in the discoveries that have already occurred.
-    In other words, could there come forth in the fabric of spacetime a new composition which possesses in some equivalent form the tragedy and sadness of Chopin's Prelude 4 in E Minor, the profundity and introspection of Beethoven's Moonlight Sonata 1st Movement, the beauty and yearning of Liszt's Liebestraum No. 3, or just more generally the mostly indescribable emotivity in whatever form it takes that exists in these songs and so many others in their cohort?
+    In other words, could there come forth in the fabric of spacetime a new composition which possesses in some equivalent form the tragedy and sadness of Chopin's Prelude in E Minor, the profundity and introspection of Beethoven's Moonlight Sonata, the beauty and yearning of Liszt's Liebestraum, or just more generally the mostly indescribable emotivity in whatever form it takes that exists in these songs and so many others in their cohort?
     The infinitude of the plane suggests the answer is in the affirmative, but until that day comes those pieces and their fellow tribesmen are more than enough to suffice.
     Undoubtedly one of the most significant contributors to this infinite plane is Rachmaninoff.
     A prevailing theme in his work, and that by which Rachmaninoff's essence is derived from and defined by, is his ability to create powerful music juxtaposed against his ability to create beautiful music.
@@ -2382,9 +2382,9 @@ export const discussionsParagraphs = [
     As previously established, any endeavor at a ranking is iniquitous and even nefarious.
     What action is achieved, what purpose is served, by venturing to compare different things that are dually beautiful and necessary.
     The end state is a violation of the sanctity of the ones positioned at a lesser ranking.
-    In lieu of a ranking, a more appropriate selection would not be rooted in a hierarchical ranking but rather in a non-hierarchical comparison of their sentiment.
-    If, during any snapshot of time, one feels drawn more towards that of the shock value and transcendence supplied by Elgar's cello concerto then it would rise up as the victor.
-    If, on the other hand, the moment's gravity pulls one more towards that of the raw tragedy, somberness, and at times pain of Fauré and Rachmaninoff's elegies, then those compositions would be the tying victors and one could not go wrong either way.
+    In lieu of a hierarchical ranking, a more appropriate selection is rooted in a non-hierarchical comparison of their sentiment.
+    If, during any snapshot of time, one feels drawn more towards that of the shock value and transcendence supplied by Elgar's cello concerto then it will rise up as the victor.
+    If, on the other hand, the moment's gravity pulls one more towards that of the raw tragedy, somberness, and at times pain of Fauré and Rachmaninoff's elegies, then those compositions will be the tying victors and one can not go wrong either way.
     Ultimately, all three of these cello pieces are incredible, all three of them should be appreciated and listened to, and similar to the works of Chopin, Liszt, Schubert, and all the others, if any of them ceased to exist it would rip out not just a piece of the soul of classical music, but a piece of the soul of humanity, and the world would somehow be lesser.
     `,
     `
