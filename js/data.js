@@ -458,7 +458,11 @@ export const musiciansArray = [
         id: 'jesper-kyd',
         name: 'Jesper Kyd',
         songs: [
+            { name: 'Earth', fileName: 'earth', soundtrack: "Assassin's Creed II" },
             { name: "Ezio's Family", fileName: 'ezios-family', soundtrack: "Assassin's Creed II" },
+            { name: 'Home of the Brotherhood', fileName: 'home-of-the-brotherhood', soundtrack: "Assassin's Creed II" },
+            { name: 'Tour of Venice', fileName: 'tour-of-venice', soundtrack: "Assassin's Creed II" },
+            { name: 'Flight Over Venice 1', fileName: 'flight-over-venice-1', soundtrack: "Assassin's Creed II" },
             { name: 'Echoes of the Roman Ruins', fileName: 'echoes-of-the-roman-ruins', soundtrack: "Assassin's Creed: Brotherhood" },
             { name: "Assassin's Creed Theme", fileName: 'assassins-creed-theme', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
             { name: 'You Have Earned Your Rest', fileName: 'you-have-earned-your-rest', soundtrack: "Assassin's Creed: Revelations", contributors: 'Lorne Balfe' },
@@ -473,6 +477,7 @@ export const musiciansArray = [
         name: 'Lorne Balfe',
         songs: [
             { name: 'Welcome to Boston', fileName: 'welcome-to-boston', soundtrack: "Assassin's Creed III" },
+            { name: 'Wild Instincts', fileName: 'wild-instincts', soundtrack: "Assassin's Creed III" },
             { name: 'The Ends of the Earth', fileName: 'the-ends-of-the-earth', soundtrack: "Assassin's Creed IV: Black Flag" }
         ]
     },
