@@ -15,7 +15,7 @@ export const musiciansArray = [
             { name: 'Agent of Chaos', fileName: 'agent-of-chaos', soundtrack: 'The Dark Knight', contributors: 'James Newton Howard' },
             { name: 'A Watchful Guardian', fileName: 'a-watchful-guardian', soundtrack: 'The Dark Knight', contributors: 'James Newton Howard' },
             { name: 'A Dark Knight', fileName: 'a-dark-knight', soundtrack: 'The Dark Knight', contributors: 'James Newton Howard' },
-            { name: 'Why Do We Fall', fileName: 'why-do-we-fall', soundtrack: 'The Dark Knight Rises' },
+            { name: 'Why Do We Fall?', fileName: 'why-do-we-fall', soundtrack: 'The Dark Knight Rises' },
             { name: "Gotham's Reckoning", fileName: 'gothams-reckoning', soundtrack: 'The Dark Knight Rises' },
             { name: 'Imagine the Fire', fileName: 'imagine-the-fire', soundtrack: 'The Dark Knight Rises' },
             { name: 'Necessary Evil', fileName: 'necessary-evil', soundtrack: 'The Dark Knight Rises' },
@@ -762,6 +762,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'hunter-metts',
+        name: 'Hunter Metts',
+        songs: [
+            { name: 'Open', fileName: 'open' }
+        ]
+    },
+    {
         id: 'john-mayer',
         name: 'John Mayer',
         songs: [
@@ -1094,6 +1101,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'alice-in-chains',
+        name: 'Alice in Chains',
+        songs: [
+            { name: 'Nutshell', fileName: 'nutshell' }
+        ]
+    },
+    {
         id: 'muse',
         name: 'Muse',
         songs: [
@@ -1211,7 +1225,8 @@ export const musiciansArray = [
         name: 'U2',
         songs: [
             { name: 'Vertigo', fileName: 'vertigo' },
-            { name: 'Beautiful Day', fileName: 'beautiful-day' }
+            { name: 'Beautiful Day', fileName: 'beautiful-day' },
+            { name: 'With or Withou You', fileName: 'with-or-without-you' }
         ]
     },
     {
@@ -1694,6 +1709,13 @@ export const musiciansArray = [
         name: 'Mindy Jones',
         songs: [
             { name: 'Wait for Me', fileName: 'wait-for-me', contributors: 'Moby' }
+        ]
+    },
+    {
+        id: 'sufjan-stevens',
+        name: 'Sufjan Stevens',
+        songs: [
+            { name: 'Fourth of July', fileName: 'fourth-of-july' }
         ]
     },
     {
