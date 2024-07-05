@@ -2462,7 +2462,7 @@ export const discussionsParagraphs = [
     It is the violinist's piece, and those high notes of the violin pierce the soul in a way unlike any other song concluding with a high octave A tenderly fading away into the distant cosmic beauty of the universe.
     `,
     `
-    Modest Mussorgsky, another Russian composer and member of Russia's The Five, lived from 1839 to 1881 and composed a number of great compositions including Pictures at an Exhibition and Night on Bald Mountain.
+    Modest Mussorgsky, another Russian composer and member of Russia's extolled musical group The Five, lived from 1839 to 1881 and composed a number of great compositions including Pictures at an Exhibition and Night on Bald Mountain.
     Pictures at an Exhibition is a ten-movement piano suite, with the addition of a theme titled Promenade, depicting Mussorgsky's tour of an 1874 exhibition of paintings by Russian painter Viktor Hartmann at the Imperial Academy of Arts in Saint Petersburg.
     The exhibition was put on in honor of Hartmann's memory who had died unexpectedly in the year prior, and his death personally affected Mussorgky who was a longtime friend of his and had even been given two of his paintings by Hartmann himself.
     Each piece depicts an individual painting Mussorgsky observed amongst the over four hundred in total at the exhibition, and unfortunately some of the ten were eventually lost leaving Mussorgsky's musical depiction the only thing left of them.
@@ -2544,11 +2544,15 @@ export const discussionsParagraphs = [
     There are times where words can suffice and can even suffice better than anything else.
     Everything has its place.
     But there are also times where they cannot.
+    As French writer Victor Hugo once said, <i>Music expresses that which cannot be said and on which it is impossible to be silent.</i>
     Music is a conduit for the soul in these times - it has the ability to at times describe what cannot be described, to narrate what cannot be narrated, and to express what cannot be expressed in any other form.
-    And although all genres of music can be equally powerful, the time does need to be taken without reservation to single out classical music.
-    Many traverse the circle never making this discovery despite it being in plain view.
+    And although all genres of music can be equally powerful, the time does need to be taken without reservation to single out classical music, and if the author will be so daring then he will assert that all people love classical music even if they do not know it yet.
+    Many traverse the circle never making this discovery despite it being in plain view either due to a lack of exposure entirely or never hearing the right songs; the songs that speak to a one's soul in a way unlike anything else can; the songs that express what one feels in a way not capable by one's own volition; the songs that express what one knows to be true even if not having the ability to articulate it all, or maybe even not knowing it were true until hearing the music for the first time.
     The withholding of that discovery, the deprivation of that experience, is one of the greatest tragedies of all.
     But if one does achieve that unearthing then it can be heard and felt all of that which Chopin, Liszt, Schubert, Beethoven, Mozart, Bach, Rachmaninoff, Satie, Debussy, Fauré, Elgar, Saint-Saëns, Massenet, and all the rest of them were trying to say.
     One simply needs to listen.
+    `,
+    `
+    One simply...needs...to listen.
     `
 ];
