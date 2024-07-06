@@ -2554,8 +2554,5 @@ export const discussionsParagraphs = [
     The withholding of that discovery, the deprivation of that experience, is one of the greatest tragedies of all.
     But if one does achieve that unearthing then it can be heard and felt all of that which Chopin, Liszt, Schubert, Beethoven, Mozart, Bach, Rachmaninoff, Satie, Debussy, Fauré, Elgar, Saint-Saëns, Massenet, and all the rest of them were trying to say.
     One simply needs to listen.
-    `,
-    `
-    One simply...needs...to listen.
     `
 ];
