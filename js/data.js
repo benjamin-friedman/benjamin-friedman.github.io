@@ -2109,10 +2109,10 @@ export const discussionsParagraphs = [
     `,
     `
     Frédéric Chopin is one of the greatest classical piano composers of all time and lived from 1810 to 1849.
-    A signature hallmark of the Romantic period, he is often regarded as <i>the pianist's composer</i> due to his work being almost exclusively for the solo piano and wholesomely defined by its emotional expressiveness and virtuosity, the two defining elements of Romantic period piano composing.
-    Although his father was French and his name would suggest as such, he was born and raised in Poland as Fryderyk Franciszek Chopin and only adopted the French version of his name after moving to France in his later years.
+    Although his father was French and his name would suggest as such, he was actually born and raised in Poland as Fryderyk Franciszek Chopin and only adopted the French version of his name after moving to France in his later years.
     Despite his French heritage, Chopin remained loyal to his homeland and always considered himself Polish.
-    It is not said that Chopin is <i>the</i> greatest classical piano composer of all time because the pursuit of such a choice proves to be untenable.
+    Chopin was a signature hallmark of the Romantic period, and he is often regarded as <i>the pianist's composer</i> due to his work being almost exclusively for the solo piano and wholesomely defined by its emotional expressiveness and virtuosity, the two defining elements of Romantic period piano composing.
+    However, despite his greatness it is still not said that Chopin is <i>the</i> greatest classical piano composer of all time because the pursuit of such a choice ultimately proves to be untenable.
     Though the claim he is the greatest might subconsciously arise in the mind out of instinct, by the time that thought is proffered in either the spoken or written word there is a tinge of discomfort that begins to accumulate in the air.
     How could it be said that Chopin is the greatest when there exists the works of Liszt, Rachmaninoff, Beethoven, and so many others?
     To live without the compositions of these composers would be a crime on its best day, and saying any single one composer is the greatest feels like a betrayal of all the others.
