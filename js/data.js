@@ -2548,11 +2548,13 @@ export const discussionsParagraphs = [
     As French writer Victor Hugo once said, <i>Music expresses that which cannot be said and on which it is impossible to be silent.</i>
     Music is a conduit for the soul in these times - it has the ability to at times describe what cannot be described, to narrate what cannot be narrated, and to express what cannot be expressed in any other form.
     And although all genres of music can be equally powerful, the time does need to be taken without reservation to single out classical music, and if the author could be so daring then he will propound that all people love classical music even if they do not know it yet.
-    Many traverse the circle never making this discovery despite it being in plain view either due to a lack of exposure to the genre entirely or never hearing the right songs.
+    Many traverse the circle never making this discovery despite it being in plain view either due to a lack of exposure entirely or never hearing the right songs.
     Classical music is not unidimensional and is as diverse if not more diverse than any other genre of music.
-    It is about finding the songs that speak to a one's soul in a way unlike anything else can; the songs that express what one feels in a way not capable by one's own volition; the songs that assert what one knows to be true even if not having the ability to articulate it at all, or maybe even not knowing it were true until hearing the music for the first time.
+    Even amongst those who could not live without classical music, there are still plenty of songs that are not listened to nor particularly cared for.
+    It is about finding the songs that move one's soul in a way unlike anything else can move it, and the songs that speak to one's heart in a way unlike anything else can speak to it.
+    The songs that express what one feels in a way not capable by one's own volition, and the songs that assert what one knows to be true even if not having the ability to articulate it at all, or maybe not even knowing it were true until hearing it for the first time.
     The withholding of that discovery, the deprivation of that experience, is one of the greatest tragedies of all.
-    But if one does achieve that unearthing then it can be heard and felt all of that which Chopin, Liszt, Schubert, Beethoven, Mozart, Bach, Rachmaninoff, Satie, Debussy, Fauré, Elgar, Saint-Saëns, Massenet, and all the rest of them were trying to say.
+    But if one does achieve that unearthing, then it can be heard and felt all of that which Chopin, Liszt, Schubert, Beethoven, Mozart, Bach, Rachmaninoff, Satie, Debussy, Fauré, Elgar, Saint-Saëns, Massenet, Mussorgsky, and all the rest of them were trying to say.
     One simply needs to listen.
     `
 ];
