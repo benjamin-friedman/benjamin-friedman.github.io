@@ -114,7 +114,8 @@ export const musiciansArray = [
             { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Arrangement 1', fileName: 'piano-trio-no-2-in-e-flat-major-op-100-d-929-arrangement-1', recordingMusician: 'Anthony Goldstone (Piano), Moray Welsh (Cello), Ralph Holmes (Violin)' },
             { name: 'Piano Trio No. 2 in E-Flat Major Op. 100, D. 929 II. - Arrangement 2', fileName: 'piano-trio-no-2-in-e-flat-major-op-100-d-929-arrangement-2', recordingMusician: 'Howard Shelley (Piano), Raphael Wallfisch (Cello), Ralph Holmes (Violin)' },
             { name: 'Ständchen D. 889 (Serenade) - Orchestra', fileName: 'standchen-d-889-serenade-orchestra', recordingMusician: 'Unknown' },
-            { name: 'Ständchen D. 889 (Serenade) - Cello and Piano', fileName: 'standchen-d-889-serenade-cello-and-piano', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' }
+            { name: 'Ständchen D. 889 (Serenade) - Cello and Piano', fileName: 'standchen-d-889-serenade-cello-and-piano', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
+            { name: 'String Quartet No. 14 in D Minor D. 810 II. (Death and the Maiden)', fileName: 'string-quartet-no-14-in-d-minor-d-810-ii-death-and-the-maiden', recordingMusician: 'Emerson String Quartet' }
         ]
     },
     {
@@ -2222,13 +2223,13 @@ export const discussionsParagraphs = [
     `
     Franz Schubert was an Austrian composer whose life intersected both the Classical and Romantic periods from 1797 to 1828.
     The most impressive part of Schubert is that he has hundreds of compositions to his name despite dying even younger than Chopin at the age of 31, and as previously discussed a number of his pieces were also posthumous inspirations for piano arrangements composed by Liszt showing how even death could not get in the way of Schubert continuing to contribute to the musical landscape.
-    Amongst all of his compositions, he is most well known for ones like Ständchen (Serenade), Impromptu in G-Flat Major, and Piano Trio No. 2 in E-Flat Major 2nd Movement.
+    Amongst all of his compositions, a sampling of ones he is most well known for includes Ständchen (Serenade), String Quartet No. 14 in D Minor, Impromptu in G-Flat Major, and Piano Trio No. 2 in E-Flat Major.
     Serenade, though originally composed as a lied wherein poetry is set to classical music very often in the form of vocals and piano, is most widely recognized for its version that has the main melody played with strings most commonly with a group of strings or a solo cello, and versions that use the solo cello frequently partner it with the piano for its accompaniment.
     The cello and the piano ascend as some of the most beautiful instruments in all of music and are each a direct gateway into the soul and heart of man as Chopin put it.
     In and of themselves they are beautiful, and together they create a type of musical duality, a distinctive fusion, that is realized in any composition derived from their pairing.
-    Also utilizing this musical fusion is the second movement of Piano Trio No. 2 in E-Flat Major which, with the assistance of the violin to complete the trio as is traditionally done in classical piano trios, is one of the most beautiful piano trios of all time.
-    This particular piano trio is plausibly the most well known of them all amongst the general public due to its presence in various films and television series over the years.
-    Its first appearance was in the 1975 film Barry Lyndon in which is featured the arrangement more traditionally heard where the main melody is first played by the cello followed by the piano.
+    On par with the beauty of Serenade on the strings is the second movement of String Quartet No. 14 in D Minor, and then if one jumps down from a quartet to a trio, something that also utilizes this musical fusion is Piano Trio No. 2 in E-Flat Major whose second movement, with the assistance of the violin to complete the trio as is traditionally done in classical piano trios, is one of the most beautiful movements of all time from any piano trio.
+    This particular piano trio is plausibly the most well known of them all amongst the general public due to the presence of its second movement in various films and television series over the years.
+    Its first appearance was in the 1975 film Barry Lyndon in which is featured the arrangement of the second movement more traditionally heard where the main melody is first played by the cello followed by the piano.
     Its second appearance came eight years later in the film The Hunger in which a less commonly heard arrangement is featured that has multiple differences including a reversal of the order of the cello and piano, and the cello being marked by more tragedy and intensity than is felt in the other arrangement.
     If the mood of the moment has an inclination more towards that tragedy and intensity, then that second arrangement probably wins the day.
     However, when the daily dust settles and the bigger picture is examined, both versions are exquisite and neither is necessarily superior.
