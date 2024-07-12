@@ -713,6 +713,13 @@ export const musiciansArray = [
         ]
     },
     {
+        id: 'matt-maltese',
+        name: 'Matt Maltese',
+        songs: [
+            { name: 'As the World Caves In', fileName: 'as-the-world-caves-in' }
+        ]
+    },
+    {
         id: 'maxwell',
         name: 'Maxwell',
         songs: [
@@ -917,6 +924,13 @@ export const musiciansArray = [
         songs: [
             { name: 'Mouth for War', fileName: 'mouth-for-war' },
             { name: 'Walk', fileName: 'walk' }
+        ]
+    },
+    {
+        id: 'system-of-a-down',
+        name: 'System of a Down',
+        songs: [
+            { name: 'Toxicity', fileName: 'toxicity' }
         ]
     },
     {
@@ -1379,6 +1393,13 @@ export const musiciansArray = [
         name: 'Queen',
         songs: [
             { name: 'Bohemian Rhapsody', fileName: 'bohemian-rhapsody' }
+        ]
+    },
+    {
+        id: 'gnarls-barkley',
+        name: 'Gnarls Barkley',
+        songs: [
+            { name: 'Crazy', fileName: 'crazy' }
         ]
     },
     {
