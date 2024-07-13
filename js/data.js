@@ -226,7 +226,7 @@ export const musiciansArray = [
         id: 'elgar',
         name: 'Elgar',
         songs: [
-            { name: 'Cello Concerto in E Minor Op. 85 I.', fileName: 'cello-concerto-in-e-minor-op-85-i', recordingMusician: 'Sol Gabetta' }
+            { name: 'Cello Concerto in E Minor Op. 85 I.', fileName: 'cello-concerto-in-e-minor-op-85-i', recordingMusician: 'Sol Gabetta, Danish National Symphony Orchestra' }
         ]
     },
     {
