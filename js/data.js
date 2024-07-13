@@ -180,8 +180,8 @@ export const musiciansArray = [
             { name: 'Piano Concerto No. 2 in C Minor Op. 18 III.', fileName: 'piano-concerto-no-2-in-c-minor-op-18-iii', recordingMusician: 'Anna Fedorova, Nordwestdeutsche Philharmonie' },
             { name: 'Piano Concerto No. 2 in C Minor Op. 18 II. - Cello and Orchestra', fileName: 'piano-concerto-no-2-in-c-minor-op-18-ii-cello-and-orchestra', recordingMusician: 'Stjepan Hauser, London Symphony Orchestra' },
             { name: 'Moment Musicaux in E Minor Op. 16 No. 4', fileName: 'moment-musicaux-in-e-minor-op-16-no-4', recordingMusician: 'Nikolai Lugansky' },
-            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor', fileName: 'morceaux-de-fantaisie-op-3-no-1-elegie-in-e-flat-minor', recordingMusician: 'Luke Faulkner' },
-            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elégie in E-Flat Minor - Cello and Piano', fileName: 'morceaux-de-fantaisie-op-3-no-1-elegie-in-e-flat-minor-cello-and-piano', recordingMusician: 'Isata Kanneh-Mason (Piano), Sheku Kanneh-Mason (Cello)' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor', fileName: 'morceaux-de-fantaisie-op-3-no-1-elegie-in-e-flat-minor', recordingMusician: 'Luke Faulkner' },
+            { name: 'Morceaux de Fantaisie Op. 3 No. 1 Elegie in E-Flat Minor - Cello and Piano', fileName: 'morceaux-de-fantaisie-op-3-no-1-elegie-in-e-flat-minor-cello-and-piano', recordingMusician: 'Isata Kanneh-Mason (Piano), Sheku Kanneh-Mason (Cello)' },
             { name: 'Morceaux de Fantaisie Op. 3 No. 2 Prelude in C-Sharp Minor', fileName: 'morceaux-de-fantaisie-op-3-no-2-prelude-in-c-sharp-minor', recordingMusician: 'Nikolai Lugansky' },
             { name: '14 Romances Op. 34 No. 14 (Vocalise) - Cello and Orchestra', fileName: '14-romances-op-34-no-14-vocalise-cello-and-orchestra', recordingMusician: 'Han-Na Chang, Philharmonia Orchestra' },
             { name: '14 Romances Op. 34 No. 14 (Vocalise) - Vocals and Orchestra', fileName: '14-romances-op-34-no-14-vocalise-vocals-and-orchestra', recordingMusician: 'Alison Lau, re:Sound Collective' },
@@ -226,7 +226,7 @@ export const musiciansArray = [
         id: 'elgar',
         name: 'Elgar',
         songs: [
-            { name: 'Cello Concerto in E Minor Op. 85 I.', fileName: 'cello-concerto-in-e-minor-op-85-i', recordingMusician: 'Sol Gabetta, Danish National Symphony Orchestra' }
+            { name: 'Cello Concerto in E Minor Op. 85 I.', fileName: 'cello-concerto-in-e-minor-op-85-i', recordingMusician: 'Sol Gabetta (Cello), Danish National Symphony Orchestra' }
         ]
     },
     {
@@ -2336,17 +2336,17 @@ export const discussionsParagraphs = [
     Undoubtedly one of the most significant contributors to this infinite plane is Rachmaninoff.
     A prevailing theme in his work, and that by which Rachmaninoff's essence is derived from and defined by, is his ability to create powerful music juxtaposed against his ability to create beautiful music.
     It is difficult to find a piece of music more powerful than the opening of the first movement of Piano Concerto No. 2 in C Minor, the fourth piece of Moment Musicaux in E Minor which is comparable to Chopin's Revolutionary Etude, Prelude in C-Sharp Minor from Morceaux de Fantaisie, or his symphonic poem Isle of the Dead in which is felt an incredibly powerful sense of anticipation inspired by the equivalently named painting by Swiss painter Arnold Böcklin.
-    Then, compare those pieces with the second movement of Piano Concerto No. 2 in C Minor, Elégie in E-Flat Minor from Morceaux de Fantaisie which strikes at the heart of some of Chopin's nocturnes, Vocalise from his 14 Romances, or the third movement of Cello Sonata in G Minor.
+    Then, compare those pieces with the second movement of Piano Concerto No. 2 in C Minor, Elegie in E-Flat Minor from Morceaux de Fantaisie which strikes at the heart of some of Chopin's nocturnes, Vocalise from his 14 Romances, or the third movement of Cello Sonata in G Minor.
     Since power and beauty do not necessitate mutual exclusivity, many of his pieces including some just mentioned often coalesce power and beauty and are simultaneously beautifully powerful and powerfully beautiful.
     Thus, Rachmaninoff is a consummate example of the rare and impressive creative dichotomy that exists within certain musical geniuses, and the power and beauty of the infinite plane was incalculably elevated by his seventy year existence.
-    If a single Rachmaninoff composition had to be selected for additional highlighting avoiding the traditional selection, and rightfully so, of Piano Concerto No. 2 in C Minor which is probably the most celebrated piano concerto of all time, then it could be Elégie in E-Flat Minor from Morceaux de Fantaisie.
-    French for <i>Fantasy Pieces</i>, Morceaux de Fantaisie is a set of five solo piano works beginning with Elégie.
-    Just when one thought that the experience created by the original Elégie on the piano was sufficient enough, it was eventually doubled by the creation of a second arrangement on the cello.
+    If a single Rachmaninoff composition had to be selected for additional highlighting avoiding the traditional selection, and rightfully so, of Piano Concerto No. 2 in C Minor which is probably the most celebrated piano concerto of all time, then it could be Elegie in E-Flat Minor from Morceaux de Fantaisie.
+    French for <i>Fantasy Pieces</i>, Morceaux de Fantaisie is a set of five solo piano works beginning with Elegie.
+    Just when one thought that the experience created by the original Elegie on the piano was sufficient enough, it was eventually doubled by the creation of a second arrangement on the cello.
     One of the most beautiful and moving songs ever on the cello, it is a perfect example of the cello's heart-wrenching capabilities wherein the way the bow tears at the strings of the cello replicates the way the sound tears at the strings of the heart.
     The opening specifically is one of the most beautiful melodies ever written and starts with a high G-flat in measure 3 that in the piano arrangement hits like an aggressive strike but in the cello arrangement is played a bit more delicately.
     Following this is then a gentle pitch downwards for six measures until it reaches one of the most beautiful E-minor's ever written that mesmerically hangs in the air satiating the soul for four consecutive bars.
     After reverting course and ascending upwards eventually reaching that same high G-flat again in measure 11, beauty continues to be present for the duration of the song, and Rachmaninoff's ability to union it with power is felt numerous times including for the first time in measure 12 and later on in an especially climactic section towards the middle.
-    Furthermore, Elégie is yet another example of the ability of classical music to be able to forge multiple experiences with a single song.
+    Furthermore, Elegie is yet another example of the ability of classical music to be able to forge multiple experiences with a single song.
     In this case, since the two different experiences stem from arrangements using two different instruments, it could be taken a step further and even claimed that when this happens in some sense it is like having two different songs altogether.
     Some genres of music cannot accomplish this forging, and even for the ones that can the prevalence is typically lesser.
     Anyone who appreciates classical music should occasionally take the time to remind oneself of the beauty of this feature within it and ultimately ensure that it is never taken for granted.
@@ -2391,8 +2391,10 @@ export const discussionsParagraphs = [
     As per the definition, a musical elegy is ubiquitously used in the context of death but this is not required.
     It simply expresses something in life that is sad, somber, and even tragic not beholden to anything in particular.
     Whether or not Fauré and Rachmaninoff composed their elegies with the intention to employ the secondary and discretionary part of the definition remains ambiguous.
-    In Rachmaninoff's case, Elégie, as one of the five individual compositions of the collective that is Morceaux de Fantaisie, was composed as a dedication to his harmony teacher at the Moscow Conservatory Anton Arensky who, having died in 1905, was still alive at the time of Morceaux de Fantaisie's publication in 1892, and therefore it is not immediately apparent that Rachmaninoff composed Elégie with death on his mind.
+    In Rachmaninoff's case, Elegie, as one of the five individual compositions of the collective that is Morceaux de Fantaisie, was composed as a dedication to his harmony teacher at the Moscow Conservatory Anton Arensky who, having died in 1905, was still alive at the time of Morceaux de Fantaisie's publication in 1892, and therefore it is not immediately apparent that Rachmaninoff composed Elegie with death on his mind.
     On the contrary, Rachmaninoff did once compose an elegy, Trio élégiaque No. 2, with the explicit purpose of honoring someone who had died which in this case was fellow Russian composer Tchaikovsky who was a mentor of Rachmaninoff's and a significant influence in his life.
+    This still does not mean that it can be posited that Rachmaninoff did not compose Elegie to lament over death as he could have very well composed it for death in a general sense not specific to any one person.
+    Regardless, any guesswork is suppositional and his motivation is ultimately unknown.
     Fauré's elegy is in a similar boat as Rachmaninoff's from Morceaux de Fantaisie, but if one were to speculate then it appears most plausible that Fauré composed Élégie for a metaphorical death.
     He composed it in 1880 originally as a movement for a cello sonata, but he never completed the remaining movements and it was eventually officially published in 1883 as a standalone piece titled Élégie.
     Just prior to that in 1877, he had become engaged to a woman named Marianne Viardot after four years of courtship who then broke off the engagement in that same year.
@@ -2426,14 +2428,14 @@ export const discussionsParagraphs = [
     Elgar identified with this particular piece of music more than any he ever wrote.
     Within it is one of the most beautiful and peaceful melodies ever written beginning with B, C, B, D, E, D, and C, and shortly before his death he remarked that if someone is ever heard whistling this tune up in the Malvern Hills after his passing that it would be him.
     Aside from its opening and that melody, the first movement is most revered for the way it sensationally builds up to a high E in a part towards the middle.
-    It is the shock value of the opening, the beauty and peace of that melody, and the transcendence of the ending by which Elgar formulates a musical triumvirate arduous to find anywhere else.
-    In the spirit of threes, the first movement of Elgar's Cello Concerto in E Minor, Fauré's Élégie, and the cello arrangement of Rachmaninoff's Elégie exemplify the cello's ability to be a distinctive conduit for emotion, and they are some of the most emotionally powerful cello scores ever composed.
+    It is the shock value of the opening, the beauty and peace of that melody, and the transcendence of that buildup by which Elgar formulates a musical triumvirate arduous to find anywhere else.
+    In the spirit of threes, the first movement of Elgar's Cello Concerto in E Minor, Fauré's Élégie, and the cello arrangement of Rachmaninoff's Elegie exemplify the cello's ability to be a distinctive conduit for emotion, and they are some of the most emotionally powerful cello scores ever composed.
     As previously established, any endeavor at a ranking is iniquitous and even nefarious.
     What action is achieved, what purpose is served, by venturing to compare different things that are dually beautiful and necessary.
     The end state is a violation of the sanctity of the ones positioned at a lesser ranking.
     In lieu of a hierarchical ranking, a more appropriate selection is rooted in a non-hierarchical comparison of their sentiment.
-    If, during any snapshot of time, one feels drawn more towards that of the shock value and transcendence supplied by Elgar's cello concerto then it will rise up as the victor.
-    If, on the other hand, the moment's gravity pulls one more towards that of the raw tragedy, somberness, and at times pain of Fauré and Rachmaninoff's elegies, then those compositions will be the tying victors and one can not go wrong either way.
+    If, during any snapshot of time one feels drawn more towards that of the shock value and transcendence supplied by Elgar's cello concerto, then it will rise up as the victor.
+    If, on the other hand the moment's gravity pulls one more towards that of the raw tragedy, somberness, and at times pain of Fauré and Rachmaninoff's elegies, then those compositions will be the tying victors and one can not go wrong either way.
     Ultimately, all three of these cello pieces are incredible, all three of them should be appreciated and listened to, and similar to the works of Chopin, Liszt, Schubert, and all the others, if any of them ceased to exist it would rip out not just a piece of the soul of classical music, but a piece of the soul of humanity, and the world would somehow be lesser.
     `,
     `
@@ -2445,7 +2447,7 @@ export const discussionsParagraphs = [
     He delayed its publishing until after his death as specified in his will, and while he was still alive enacted a prohibition on performances of it in the public domain.
     However, despite any deficiencies he perceived in the other movements, even Saint-Saëns recognized the beauty and brilliance of The Swan, and it was the one movement that he allowed to be published during his lifetime which happened in 1887.
     The Swan was originally composed for the cello and piano but is also traditionally played with the cello and harp.
-    Just like with the different arrangements of many other songs including Schubert's Serenade and Piano Trio No. 2 in E-Flat Major 2nd Movement, Bach's Air on the G String, and Rachmaninoff's Elégie in E-Flat Minor from Morceaux de Fantaisie, The Swan becomes even further remarkable because it is a single song out of which comes two different experiences which are each uniquely beautiful in their own way.
+    Just like with the different arrangements of many other songs including Schubert's Serenade and Piano Trio No. 2 in E-Flat Major 2nd Movement, Bach's Air on the G String, and Rachmaninoff's Elegie in E-Flat Minor from Morceaux de Fantaisie, The Swan becomes even further remarkable because it is a single song out of which comes two different experiences which are each uniquely beautiful in their own way.
     And, like some of the compositions formerly mentioned, the piano-cello version of The Swan captures that unrivaled duality that exists with the piano and the cello.
     Regardless of which version is played, the beauty of The Swan throughout most of the song is dominated by the cello playing the main melody with the piano or harp serving as its accompaniment.
     However, for its conclusion the focus is transferred entirely over to the piano or harp in the final three measures playing a beautiful melody primarily formed by E, D, and B that makes a graceful descent down three different octaves constituting one of the most satiating endings ever in all of music.
@@ -2464,7 +2466,7 @@ export const discussionsParagraphs = [
     Samuel Barber is one of the most acclaimed American composers of the 20th century living from 1910 to 1981 and is most known for his song Adagio for Strings.
     Originally arranged for a string orchestra, it is also commonly performed with a choir in which it is alternatively known as Agnus Dei.
     The orchestral strings arrangement is nice, but the unchallengeable sound and emotion of the solo cello really drives forward the cello arrangement to be the best of them all.
-    Although not an exhaustive list, collectively Schubert's Serenade and Piano Trio No. 2 in E-Flat Major 2nd Movement, Bach's Cello Suite No. 1 in G Major Prelude, Rachmaninoff's Elégie in E-Flat Minor from Morceaux de Fantaisie, Vocalise from his 14 Romances, and Cello Sonata in G Minor 3rd Movement, Faure's Élégie, Elgar's Cello Concerto in E Minor 1st Movement, Saint-Saëns' The Swan, Giazotto's Adagio, and Barber's Adagio for Strings are some of the most beautiful and moving songs ever composed or arranged for the cello.
+    Although not an exhaustive list, collectively Schubert's Serenade and Piano Trio No. 2 in E-Flat Major 2nd Movement, Bach's Cello Suite No. 1 in G Major Prelude, Rachmaninoff's Elegie in E-Flat Minor from Morceaux de Fantaisie, Vocalise from his 14 Romances, and Cello Sonata in G Minor 3rd Movement, Faure's Élégie, Elgar's Cello Concerto in E Minor 1st Movement, Saint-Saëns' The Swan, Giazotto's Adagio, and Barber's Adagio for Strings are some of the most beautiful and moving songs ever composed or arranged for the cello.
     `,
     `
     Dmitri Shostakovich was a Russian composer like Rachmaninoff living from 1906 to 1975.
