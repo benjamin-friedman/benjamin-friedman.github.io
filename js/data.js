@@ -2425,9 +2425,9 @@ export const discussionsParagraphs = [
     It is like being punched directly in the soul, and similar to the second half of Chopin's Prelude in E Minor it happens so abruptly that one is left sitting there in a state of shock trying to comprehend what just happened.
     Elgar identified with this particular piece of music more than any he ever wrote.
     Within it is one of the most beautiful and peaceful melodies ever written beginning with B, C, B, D, E, D, and C, and shortly before his death he remarked that if someone is ever heard whistling this tune up in the Malvern Hills after his passing that it would be him.
-    Aside from its opening and that melody, the first movement is most revered for the way it sensationally builds up to a high E at the end.
+    Aside from its opening and that melody, the first movement is most revered for the way it sensationally builds up to a high E in a part towards the middle.
     It is the shock value of the opening, the beauty and peace of that melody, and the transcendence of the ending by which Elgar formulates a musical triumvirate arduous to find anywhere else.
-    In the spirit of trios, the first movement of Elgar's Cello Concerto in E Minor, Fauré's Élégie, and the cello arrangement of Rachmaninoff's Elégie exemplify the cello's ability to be a distinctive conduit for emotion, and they are some of the most emotionally powerful cello scores ever composed.
+    In the spirit of threes, the first movement of Elgar's Cello Concerto in E Minor, Fauré's Élégie, and the cello arrangement of Rachmaninoff's Elégie exemplify the cello's ability to be a distinctive conduit for emotion, and they are some of the most emotionally powerful cello scores ever composed.
     As previously established, any endeavor at a ranking is iniquitous and even nefarious.
     What action is achieved, what purpose is served, by venturing to compare different things that are dually beautiful and necessary.
     The end state is a violation of the sanctity of the ones positioned at a lesser ranking.
