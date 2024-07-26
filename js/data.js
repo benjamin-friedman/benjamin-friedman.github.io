@@ -2451,7 +2451,6 @@ export const discussionsParagraphs = [
     And, like some of the compositions formerly mentioned, the piano-cello version of The Swan captures that unrivaled duality that exists with the piano and the cello.
     Regardless of which version is played, the beauty of The Swan throughout most of the song is dominated by the cello playing the main melody with the piano or harp serving as its accompaniment.
     However, for its conclusion the focus is transferred entirely over to the piano or harp in the final three measures playing a beautiful melody primarily formed by E, D, and B that makes a graceful descent down three different octaves constituting one of the most satiating endings ever in all of music.
-    In a live performance of The Swan by another renowned British cellist Julian Lloyd Webber, the ovation of the audience after the harpist plucked her final note was joined by a single member very audibly shouting <i>Yeah!</i>, pretty much encapsulating the way most feel about The Swan and its ending.
     `,
     `
     Remo Giazotto was a 20th century Italian musicologist living from 1910 to 1998.
