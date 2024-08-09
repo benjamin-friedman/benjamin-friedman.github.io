@@ -30,7 +30,7 @@ const cycleOpacityHelper = (state) => {
 
 
 // song - autoplay on document loading is disabled in newest browser versions, must use an event handler
-document.addEventListener('mouseover', () => {
+document.addEventListener('click', () => {
     const audio = document.getElementById('background-song');
      if (audio.paused) {
         const audioPromise = audio.play();
