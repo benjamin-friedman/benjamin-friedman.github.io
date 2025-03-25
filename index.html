@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- original meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap 5 CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- personal CSS -->
+    <link href="css/general.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+    <!-- title and favicon -->
+    <title>Personal Website</title>
+    <link rel="icon" type="image/x-icon" href="res/images/favicon/earth-favicon.jpg">
+</head>
+<body>
+
+    <!-- navbar -->
+    <header id="navbar">
+        <nav class="navbar navbar-expand-lg justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-container">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects-container">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/benjamin-friedman">GITHUB</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="inspiration.html">INSPIRATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="more-inspiration.html">MORE INSPIRATION</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <!-- all other content -->
+    <main id="main">
+        <!-- welcome message -->
+        <div class="container text-center" id="welcome-container">
+            <h1>WELCOME TO MY PORTFOLIO WEBSITE</h1>
+            <p>Click <span id="here-for-background-song">here</span> for a surprise...volume on is recommended.</p>
+        </div>
+        
+        <!-- about -->
+        <div class="container" id="about-container">
+            <h1>ABOUT</h1>             
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            I am a software engineer with a B.S. in Computer Science and a minor in Mathematics from the University of Massachusetts Lowell.
+                            I have experience with creating web applications using various technology stacks and creating C and C++ applications in a Linux environment.
+                            Review my GitHub portfolio for various projects I've completed.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- projects -->
+        <div class="container" id="projects-container">
+            <div class="container">
+                <h1>PROJECTS</h1>               
+            </div>
+
+            <div class="container">
+                <!-- row 1 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="project-title">
+                            <h5>Matrix Operations - C</h5>
+                        </div>
+                        <div class="project-description">
+                            <p>Console application to perform various matrix operations - multiplication, addition, subtraction, power, transpose, determinant, and inverse.</p>
+                        </div>
+                        <div class="project-image">
+                            <img src="res/images/projects/matrix-operations-project.jpg">
+                        </div>
+                        <div class="project-buttons">
+                            <a class="btn btn-secondary" href="https://www.youtube.com/watch?v=AC0JP_jkcbw">Video Demo</a>
+                            <a class="btn btn-secondary" href="https://github.com/benjamin-friedman/Matrix-Operations">Repository</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="project-title">
+                            <h5>Polynomial Calculations - C</h5>
+                        </div>
+                        <div class="project-description">
+                            <p>Console application to perform various polynomial calculations - sum with an x-value, nth derivative, sum of nth derivative with an x-value, indefinite integral, and definite integral.</p>
+                        </div>
+                        <div class="project-image">
+                            <img src="res/images/projects/polynomial-calculations-project.jpg">
+                        </div>
+                        <div class="project-buttons">
+                            <a class="btn btn-secondary" href="https://www.youtube.com/watch?v=q-YvVjlrDjs">Video Demo</a>
+                            <a class="btn btn-secondary" href="https://github.com/benjamin-friedman/Polynomial-Calculations">Repository</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="project-title">
+                            <h5>File Words Analysis - C</h5>
+                        </div>
+                        <div class="project-description">
+                            <p>
+                                Console application to do analysis on a text file. Creates one output file to display information about all of the words in the file, and creates a second
+                                output file to display information about the hash table used to do the analysis. The program is demonstrated using a text file containing the bible
+                                due to how long of a book it is.
+                            </p>
+                        </div>
+                        <div class="project-image">
+                            <img src="res/images/projects/file-words-analysis-project.jpg">
+                        </div>
+                        <div class="project-buttons">
+                            <a class="btn btn-secondary" href="https://www.youtube.com/watch?v=l1XjpQryBoI">Video Demo</a>
+                            <a class="btn btn-secondary" href="https://github.com/benjamin-friedman/File-Words-Analysis">Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- row 2 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="project-title">
+                            <h5>Sorting Algorithms Visualizer - C++ and SFML</h5>
+                        </div>
+                        <div class="project-description">
+                            <p>Provides a visual representation of bubble sort, selection sort, insertion sort, shell sort, heap sort, quick sort, merge sort, bucket sort, and radix sort.</p>
+                        </div>
+                        <div class="project-image">
+                            <img src="res/images/projects/sorting-algorithms-visualizer-project.jpg">
+                        </div>
+                        <div class="project-buttons">
+                            <a class="btn btn-secondary" href="https://www.youtube.com/watch?v=2S24N5oIgEQ">Video Demo</a>
+                            <a class="btn btn-secondary" href="https://github.com/benjamin-friedman/Sorting-Algorithms-Visualizer">Repository</a>
+                        </div>
+                    </div>
+                    <div class="col" >
+                        <div class="project-title">
+                            <h5>Solar System Simulation Interstellar Theme - C++ and SFML</h5>
+                        </div>
+                        <div class="project-description">
+                            <p>Simulation of the solar system inspired by the movie Interstellar. The relative position and movement of the planets accurately models the real solar system.</p>
+                        </div>
+                        <div class="project-image">
+                            <img src="res/images/projects/solar-system-simulation-interstellar-theme-project.jpg">
+                        </div>
+                        <div class="project-buttons">
+                            <a class="btn btn-secondary" href="https://www.youtube.com/watch?v=zIb-SWPBKIs">Video Demo</a>
+                            <a class="btn btn-secondary" href="https://github.com/benjamin-friedman/Solar-System-Simulation-Interstellar-Theme">Repository</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="project-title">
+                            <h5>Capstone Project - React and Django</h5>
+                        </div>
+                        <div class="project-description">
+                            <p>
+                                Was tasked by a company to deliver a proof-of-concept solution for reverse engineering a PC application they had into a full stack web
+                                application. The project used React and Django. The repository is private since some of the information is sensitive to the
+                                company.
+                            </p>
+                        </div>
+                        <div class="project-image">
+                            <img src="res/images/projects/onto-innovation-project.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- row 3 -->
+                <div class="row">
+                    <div class="col">
+                        <div class="project-title">
+                            <h5>Quicksort Report</h5>
+                        </div>
+                        <div class="project-description">
+                            <p>A report on the mathematical analysis of the quicksort sorting algorithm.</p>
+                        </div>
+                        <div class="project-image">
+                            <img src="res/images/projects/quicksort-report.jpg">
+                        </div>
+                        <div class="project-buttons">
+                            <a class="btn btn-secondary" href="res/documents/quicksort-report.pdf">Report</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="project-title">
+                            <h5>Computer Science Resources</h5>
+                        </div>
+                        <div class="project-description">
+                            <p>
+                                A series of documents and code developed during my work as a computer science tutor with a focus on the C and C++ programming languages.
+                                The most significant documents developed are a guide to Data Structures and a guide to Makefiles.
+                            </p>
+                        </div>
+                        <div class="project-image">
+                            <img src="res/images/projects/computer-science-resources.jpg">
+                        </div>
+                        <div class="project-buttons">
+                            <a class="btn btn-secondary" href="https://github.com/benjamin-friedman/Computer-Science-Resources">Repository</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="project-title">
+                            <h5>Math Resources</h5>
+                        </div>
+                        <div class="project-description">
+                            <p>
+                                A series of documents developed during my work as a mathematics tutor for calculus and discrete math.
+                            </p>
+                        </div>
+                        <div class="project-image">
+                            <img src="res/images/projects/math-resources.jpg">
+                        </div>
+                        <div class="project-buttons">
+                            <a class="btn btn-secondary" href="https://github.com/benjamin-friedman/Math-Resources">Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    
+    <!-- background song -->
+    <audio src="res/songs/hans-zimmer/mountains.mp3" id="background-song"></audio>
+
+    <!-- Bootstrap 5 JavaScript -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Personal Javascript -->
+    <script src="js/index.js"></script>
+</body>
+</html>
